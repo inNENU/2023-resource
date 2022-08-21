@@ -1,0 +1,56 @@
+{
+  "name": "innenu-server",
+  "version": "2022.6.30",
+  "private": true,
+  "description": "inNENU 小程序资源文件",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hope-Studio/innenu-res.git"
+  },
+  "license": "Mr.Hope LICENSE",
+  "author": {
+    "name": "Mr.Hope",
+    "email": "mister-hope@outlook.com",
+    "url": "https://mrhope.site"
+  },
+  "scripts": {
+    "generate": "ts-node ./scripts/gen",
+    "generate:account": "ts-node ./scripts/gen/account",
+    "lint": "pnpm lint:eslint && pnpm lint:prettier",
+    "lint:eslint": "eslint --ext .ts . --fix",
+    "lint:prettier": "prettier --check --write .",
+    "prepare": "husky install",
+    "push": "ts-node ./scripts/push",
+    "upload": "ts-node ./scripts/upload.ts"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,yaml,md}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
+  "dependencies": {
+    "@mr-hope/assert-type": "1.2.3",
+    "@types/js-yaml": "4.0.5",
+    "@types/node": "18.6.2",
+    "@types/qrcode": "1.4.2",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0",
+    "axios": "0.27.2",
+    "del": "6.1.1",
+    "dotenv": "16.0.1",
+    "eslint": "8.21.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "ftp-hope": "0.1.1",
+    "husky": "8.0.1",
+    "js-yaml": "4.1.0",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "qrcode": "1.5.1",
+    "svgo": "2.8.0",
+    "sort-package-json": "1.57.0",
+    "ts-node": "10.9.1",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  },
+  "packageManager": "pnpm@7.9.0"
+}

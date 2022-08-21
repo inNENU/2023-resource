@@ -1,0 +1,45 @@
+title: 小贴士
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+grey: true
+shareable: true
+content:
+  - tag: list
+    header: 学习相关
+    items:
+      - text: 优秀毕业生建议
+        icon: study
+        path: /guide/advice/
+
+  - tag: list
+    header: 数码相关
+    items:
+      - text: 更多 Windows 相关
+        icon: windows
+        path: win/
+
+      - text: Mac 相关
+        icon: apple
+        path: mac/
+
+  - tag: list
+    header: 生活常识
+    items:
+      - text: 洗衣相关
+        icon: washer
+        path: washing/
+
+      - text: 过冬贴士
+        icon: winter
+        path: winter/
+
+      - text: 交通出行
+        icon: train
+        path: /guide/traffic/
+
+  - tag: list
+    header: 文化相关
+    items:
+      - text: 东北习俗
+        icon: star
+        path: custom/

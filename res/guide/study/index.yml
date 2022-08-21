@@ -1,0 +1,43 @@
+title: 学习
+grey: true
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: list
+    header: 日常学习
+    items:
+      - text: 上课时间、地点
+        icon: time
+        path: location-and-time
+
+      - text: 补考
+        icon: change
+        path: retake
+
+      - text: 缓考
+        icon: time
+        path: aftertake
+
+      - text: 课程免修
+        icon: exemption
+        path: exemption
+
+      - text: 学业预警
+        icon: alert
+        path: alert
+
+  - tag: list
+    header: 考核与成绩
+    items:
+      - text: 学分
+        icon: star
+        path: credit
+
+      - text: 绩点
+        icon: star
+        path: gpa
+
+      - text: 成绩单与成绩档案
+        icon: score
+        path: grade

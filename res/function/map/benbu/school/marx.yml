@@ -1,0 +1,29 @@
+title: 马克思主义学部
+author: Mr.Hope
+time: 2020 年 9 月 1 日
+photo:
+  - $img/school/marx1.jpg
+  - $img/school/marx2.jpg
+  - $img/school/marx3.jpg
+content:
+  - tag: account
+    name: 马克思主义学部
+    logo: $img/media/marx.png
+    detail: 东北师范大学马克思主义学部
+    wxid: gh_32d2742e1204
+    wxcode: $img/media/marx-qrcode.jpg
+    account: marx
+    location:
+      latitude: 43.86268
+      longitude: 125.32826
+    site: https://marxism.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院简介
+        icon: about
+        path: /intro/school/marx/intro
+
+      - text: 招生介绍
+        icon: intro
+        path: /intro/school/marx/enroll

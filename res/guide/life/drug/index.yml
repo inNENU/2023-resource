@@ -1,0 +1,12 @@
+title: 药店
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 本部
+        desc: 暂无药店
+
+      - text: 净月
+        path: jingyue

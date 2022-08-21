@@ -1,0 +1,45 @@
+name: Deploy resource to server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: pnpm
+
+      - name: Config environment
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan innenu.com >> ~/.ssh/known_hosts
+          git config --global user.name 'Mr.Hope'
+          git config --global user.email 'zhangbowang1998@gmail.com'
+
+      - name: Linter Test
+        run: pnpm lint
+
+      - name: Deploy
+        run: |
+          git push -f git@innenu.com:/www/wwwroot/mp main
+          ssh git@innenu.com "cd /www/wwwroot/mp && git reset --hard HEAD"

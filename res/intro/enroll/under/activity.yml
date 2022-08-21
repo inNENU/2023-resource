@@ -1,0 +1,16 @@
+title: 官方招生现场咨询活动
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: title
+    text: 全国招生咨询活动
+
+  - tag: img
+    src: $img/enroll/activity-2022.jpg
+
+  # - tag: title
+  #   text: 吉林省内招生咨询活动
+
+  # - tag: img
+  #   src: $img/enroll/province-2021.jpg

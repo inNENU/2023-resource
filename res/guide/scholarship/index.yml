@@ -1,0 +1,34 @@
+title: 奖学金
+grey: true
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: list
+    header: 本科生
+    items:
+      - text: 本科生奖学金介绍
+        icon: metal
+        path: under
+
+      - text: 本科奖学金评审说明
+        icon: alert
+        path: explain
+
+  - tag: list
+    header: 研究生
+    items:
+      - text: 研究生奖学金介绍
+        icon: metal
+        path: post
+
+  - tag: list
+    header: 奖学金申请
+    items:
+      - text: 奖学金申请
+        icon: apply
+        path: apply
+
+  - tag: doc
+    name: 东北师范大学学生奖励办法
+    url: $file/scholarship/reward.pdf

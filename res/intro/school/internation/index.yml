@@ -1,0 +1,19 @@
+title: 国际汉学院
+grey: true
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 学院简介
+        icon: about
+        path: intro
+
+      - text: 专业介绍
+        icon: intro
+        path: enroll
+
+  - tag: action
+    header: 官网地址
+    content: https://scs.nenu.edu.cn/

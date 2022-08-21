@@ -1,0 +1,27 @@
+title: 经济与管理学院
+grey: true
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: account
+    name: 经济与管理学院
+    logo: $img/media/economic.jpg
+    detail: 东北师范大学经济与管理学院
+    wxid: nenubs
+    wxcode: $img/media/economy-qrcode.jpg
+    account: economy
+    location:
+      latitude: 43.82776
+      longitude: 125.42727
+    site: https://bs.nenu.edu.cn/
+
+  - tag: list
+    items:
+      - text: 学院简介
+        icon: about
+        path: intro
+
+      - text: 专业介绍
+        icon: intro
+        path: enroll

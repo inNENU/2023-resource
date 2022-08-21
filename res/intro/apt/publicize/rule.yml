@@ -1,0 +1,23 @@
+title: 党委宣传部规章制度
+desc: |-
+  信息来源: 党委宣传部官网
+time: 2022 年 8 月 21 日
+shareable: true
+cite: http://xcb.nenu.edu.cn/gzzd.htm
+content:
+  - tag: title
+    text: 相关规章制度
+
+  - tag: doc
+    name: 关于印发《东北师范大学新闻宣传工作管理规定》的通知
+    url: $file/apartment/publicize-manage-rule.pdf
+
+  - tag: doc
+    name: 关于印发《东北师范大学校园新媒体建设与管理办法》的通知
+    url: $file/apartment/publicize-new-media.pdf
+
+  - tag: list
+    header: false
+    items:
+      - text: 东北师范大学校园网“东师新闻”信息发布细则
+        path: news

@@ -1,0 +1,47 @@
+title: 快递
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text:
+      - 由于疫情原因，开学学校会封校至少两周。
+      - 所以 Mr.Hope 建议同学们请尽量选择在校内有快递点的快递。
+
+  - tag: list
+    header: 提示
+    items:
+      - text: 新生邮寄快递提示
+        icon: idea
+        path: tip
+
+  - tag: list
+    header: 本部
+    items:
+      - text: 快递介绍
+        icon: about
+        path: benbu
+
+      - text: 菜鸟驿站
+        icon: cainiao
+        path: cainiao
+
+      - text: 快递柜
+        icon: express-cabinet
+        path: benbu-cabinet
+
+      - text: 临时取件点
+        icon: express
+        path: benbu-temp
+
+  - tag: list
+    header: 净月
+    items:
+      - text: 快递介绍
+        icon: about
+        path: jingyue
+
+      - text: 近邻宝
+        icon: express
+        path: jinlinbao

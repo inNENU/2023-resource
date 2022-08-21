@@ -1,0 +1,27 @@
+title: Mac 小贴士
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+grey: true
+shareable: true
+content:
+  - tag: list
+    header: 快速上手
+    items:
+      - text: Mac 使用教程
+        icon: idea
+        path: guide/
+
+  - tag: list
+    header: 使用 Windows
+    items:
+      - text: 识别 MacBook 机型
+        icon: about
+        path: model
+
+      - text: 使用”启动转换助理“安装 Windows
+        icon: idea
+        path: bootcamp/
+
+      - text: 通过 Parallels Desktop 运行 Windows
+        icon: idea
+        path: parallels/

@@ -1,0 +1,19 @@
+title: 东北习俗
+author:
+  - Mr.Hope
+  - 倾澜
+time: 2022 年 8 月 21 日
+grey: true
+shareable: true
+content:
+  - tag: text
+    type: tip
+    text: 此页面内容仍在完善中...
+
+  - tag: list
+    items:
+      - text: 过年
+        path: year
+
+      - text: 冰雪文化
+        path: snow

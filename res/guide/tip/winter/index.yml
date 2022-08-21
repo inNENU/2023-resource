@@ -1,0 +1,19 @@
+title: 过冬提示
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+grey: true
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 冬季御寒衣物选择
+        icon: life
+        path: cloth
+
+      - text: 冬季御寒衣物选购指南
+        icon: money
+        path: buy
+
+      - text: 保暖要领
+        icon: idea
+        path: warm

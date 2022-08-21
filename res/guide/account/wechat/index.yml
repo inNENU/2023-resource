@@ -1,0 +1,35 @@
+title: 企业微信号
+grey: true
+author: Mr.Hope
+time: 2022 年 8 月 21 日
+shareable: true
+content:
+  - tag: list
+    header: 开始使用
+    items:
+      - text: 企业号介绍
+        icon: intro
+        path: intro
+
+      - text: 企业号认证
+        icon: account
+        path: authorize
+
+      - text: 手机号更改
+        icon: phone
+        path: change
+
+  - tag: list
+    header: 功能
+    items:
+      - text: 校园卡充值
+        icon: card
+        path: /guide/card/charge/wechat
+
+      - text: 校园网充值
+        icon: network
+        path: /guide/network/charge/wechat
+
+  - tag: img
+    src: $img/account/wechat-follow.png
+    desc: 企业微信二维码
