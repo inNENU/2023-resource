@@ -1,10 +1,17 @@
 title: 新生邮寄快递贴士
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 23 日
 shareable: true
 content:
   - tag: title
     text: Mr.Hope 建议
+
+  - tag: text
+    type: tip
+    heading: 不要邮寄过早
+    text:
+      - 驿站提供的暂存服务时间有限。由于今年降雨较多，露天存放的快递很难妥善保存。
+      - 本部菜鸟驿站明确通知托管三天以上的快递会被退回。
 
   - tag: text
     type: tip

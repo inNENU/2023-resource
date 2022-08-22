@@ -1,6 +1,6 @@
 title: 宿舍神器类
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 23 日
 shareable: true
 content:
   - tag: title
@@ -82,3 +82,13 @@ content:
   - tag: img
     src: $img/necessity/dorm-tool6.jpg
     desc: 挂在衣柜侧
+
+  - tag: title
+    text: 暖宝宝
+
+  - tag: text
+    text: 冬天女生痛经、暖宫、保暖神器，使用方便。
+
+  - tag: text
+    type: note
+    text: 使用热水袋有破裂、漏水烫伤的风险，而插电的暖手宝属于违章电器。

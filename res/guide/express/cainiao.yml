@@ -2,7 +2,7 @@ title: 本部菜鸟驿站
 author:
   - Mr.Hope
   - 战俊华
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 23 日
 shareable: true
 content:
   - tag: title
@@ -31,6 +31,10 @@ content:
     num: 0431-80880156
     fName: 菜鸟驿站服务电话
     org: 东北师范大学
+
+  - tag: img
+    src: $img/express/cainiao-contact.jpg
+    desc: 菜鸟驿站联系方式
 
   - tag: title
     text: 取件方式
