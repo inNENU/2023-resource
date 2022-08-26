@@ -1,6 +1,6 @@
 title: 本部校区快递介绍
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 26 日
 shareable: true
 content:
   - tag: title
@@ -44,7 +44,7 @@ content:
     items:
       - text: 菜鸟驿站
         icon: cainiao
-        path: cainiao
+        path: benbu-cainiao
 
       - text: 快递柜
         icon: express-cabinet
