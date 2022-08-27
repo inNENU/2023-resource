@@ -69,8 +69,7 @@ content:
   - tag: list
     header: 学生处
     items:
-      # - text: 东师小窝
-      - text: 某已被移除的学生组织
+      - text: 东师小窝
         icon: $img/organization/xiaowo.png
         path: dorm/
 

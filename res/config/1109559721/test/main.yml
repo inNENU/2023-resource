@@ -3,13 +3,6 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: card
-    cover: $img/organization/dorm-sanction.jpg
-    logo: $img/inNENU.png
-    name: in 东师
-    title: 关于规范转载使用 in 东师内容的说明与声讨
-    url: info?path=OMrHope/dorm-sanction
-
   - tag: list
     items:
       - text: 经验分享直播与答疑

@@ -700,7 +700,7 @@
         },
         "qq": {
           "description": "主体的 QQ 号",
-          "type": "string"
+          "type": "number"
         },
         "qqid": {
           "description": "主体的 QQ Openid",
