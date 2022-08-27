@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 27 日
 shareable: true
 grey: true
 content:
@@ -69,7 +69,8 @@ content:
   - tag: list
     header: 学生处
     items:
-      - text: 东师小窝
+      # - text: 东师小窝
+      - text: 某已被移除的学生组织
         icon: $img/organization/xiaowo.png
         path: dorm/
 

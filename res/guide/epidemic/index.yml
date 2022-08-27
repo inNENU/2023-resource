@@ -1,7 +1,7 @@
 title: 疫情管理
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 26 日
+time: 2022 年 8 月 27 日
 shareable: true
 content:
   - tag: text
@@ -33,7 +33,7 @@ content:
     items:
       - text: 国家疫情防控政策
         icon: virus
-        path: national-policy/
+        path: policy/
 
   - tag: list
     header: 相关工具

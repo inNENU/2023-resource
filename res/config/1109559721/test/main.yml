@@ -4,17 +4,21 @@ grey: true
 hidden: true
 content:
   - tag: card
-    cover: $img/tab/yiban.jpg
-    title: 入学教育课程
-    desc: 入学教育课程现已开放
-    logo: study
-    url: info?id=Gyiban/
+    cover: $img/organization/dorm-sanction.jpg
+    logo: $img/inNENU.png
+    name: in 东师
+    title: 关于规范转载使用 in 东师内容的说明与声讨
+    url: info?path=OMrHope/dorm-sanction
 
   - tag: list
     items:
       - text: 经验分享直播与答疑
         icon: activity
         url: info?path=OMrHope/streaming
+
+      - text: 入学教育课程
+        icon: study
+        path: guide/yiban/
 
       - text: 报到时间
         icon: time
@@ -27,12 +31,6 @@ content:
   - tag: grid
     header: 您可能想关注
     items:
-      - text: 录取查询
-        color: purple
-        name: Admission
-        icon: letter
-        url: admission?type=search
-
       - text: 入学准备
         color: red
         name: Prepare
@@ -148,10 +146,3 @@ content:
     title: 常见问题
     logo: faq
     url: info?id=Gfaq/
-
-  # - tag: card
-  #   cover: http://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg
-  #   title: 招纳小程序志愿者
-  #   logo: $img/inNENU.png
-  #   name: in 东师
-  #   url: info?path=Oguide/volunteer
