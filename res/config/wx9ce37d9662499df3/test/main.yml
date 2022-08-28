@@ -4,35 +4,21 @@ grey: true
 hidden: true
 content:
   - tag: card
-    cover: $img/tab/yiban.jpg
-    title: 入学教育课程
-    desc: 入学教育课程现已开放
-    logo: study
-    url: info?id=Gyiban/
+    cover: $img/tab/faq.png
+    title: 常见问题
+    logo: faq
+    url: info?id=Gfaq/
 
   - tag: list
+    header: 更多
     items:
       - text: 经验分享直播与答疑
         icon: activity
         url: info?path=OMrHope/streaming
 
-      - text: 报到时间
-        icon: time
-        path: guide/check/location-and-time
-
-      - text: 找到组织
-        icon: qq-group
-        path: guide/contact/
-
   - tag: grid
-    header: 您可能想关注
+    header: 到校之前
     items:
-      - text: 录取查询
-        color: purple
-        name: Admission
-        icon: letter
-        url: admission?type=search
-
       - text: 入学准备
         color: red
         name: Prepare
@@ -45,6 +31,36 @@ content:
         icon: necessity
         path: guide/necessity/
 
+      - text: 快递
+        color: mauve
+        name: Express
+        icon: express
+        path: guide/express/
+
+      - text: 到校路线
+        color: grey
+        name: Arrival
+        icon: locate
+        path: guide/arrival/
+
+  - tag: list
+    header: 出发前请核对
+    items:
+      - text: 返校/报到需要满足的条件
+        icon: alert
+        path: guide/epidemic/requirement
+
+      - text: 疫情管理调整
+        icon: virus
+        path: guide/epidemic/manage
+
+      - text: 报到时间
+        icon: time
+        path: guide/check/location-and-time
+
+  - tag: grid
+    header: 入校介绍
+    items:
       - text: 寝室
         color: blue
         name: Dorm
@@ -56,12 +72,6 @@ content:
         name: Dining
         icon: dining
         path: guide/dining/
-
-      - text: 快递
-        color: mauve
-        name: Express
-        icon: express
-        path: guide/express/
 
       - text: 超市
         color: olive
@@ -75,12 +85,6 @@ content:
         icon: bath
         path: guide/bath/
 
-      - text: 社团
-        color: orange
-        name: Association
-        icon: association
-        path: guide/association/
-
       - text: 校园卡
         color: red
         name: Card
@@ -93,12 +97,27 @@ content:
         icon: network
         path: guide/network/
 
+      - text: 需带物品
+        color: olive
+        name: Necessity
+        icon: necessity
+        path: guide/necessity/
+
       - text: 生活
         color: purple
         name: Life
         icon: life
         path: guide/life/
 
+      - text: 社团
+        color: orange
+        name: Association
+        icon: association
+        path: guide/association/
+
+  - tag: grid
+    header: 了解学习
+    items:
       - text: 专业介绍
         color: olive
         name: Major
@@ -135,23 +154,4 @@ content:
         icon: library
         path: intro/apt/library/
 
-      - text: 校历
-        color: mauve
-        name: Calendar
-        icon: calendar
-        url: calendar
-
     footer: 更多内容请详见下方其他 Tab 页
-
-  - tag: card
-    cover: $img/tab/faq.png
-    title: 常见问题
-    logo: faq
-    url: info?id=Gfaq/
-
-  # - tag: card
-  #   cover: http://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg
-  #   title: 招纳小程序志愿者
-  #   logo: $img/inNENU.png
-  #   name: in 东师
-  #   url: info?path=Oguide/volunteer
