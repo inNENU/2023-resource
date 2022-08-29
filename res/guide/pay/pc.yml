@@ -1,6 +1,6 @@
 title: PC 使用缴费系统缴费
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 29 日
 shareable: true
 content:
   - tag: text
@@ -10,13 +10,13 @@ content:
     content: http://pay.nenu.edu.cn
 
   - tag: img
-    src: $img/check/pay-main.png
+    src: $img/pay/main.png
 
   - tag: title
     text: 登陆方式
 
   - tag: img
-    src: $img/check/pay-login.jpg
+    src: $img/pay/login.jpg
 
   - tag: ul
     heading: 校内用户登录
@@ -48,13 +48,13 @@ content:
     text: 缴费方式
 
   - tag: img
-    src: $img/check/pay-layout.jpg
+    src: $img/pay/layout.jpg
 
   - tag: ul
     text: 选择下方的学费缴费，之后选择合适的方式进行缴费。
 
   - tag: img
-    src: $img/check/pay-detail.jpg
+    src: $img/pay/detail.jpg
 
   - tag: ul
     text: 选择需要缴费的项目并进行缴费。
@@ -68,7 +68,7 @@ content:
     text: 之后选择合适的支付方式进行支付
 
   - tag: img
-    src: $img/check/pay-select.jpg
+    src: $img/pay/select.jpg
 
   - tag: phone
     header: 咨询电话
