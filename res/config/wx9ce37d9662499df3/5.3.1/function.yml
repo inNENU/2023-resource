@@ -4,24 +4,18 @@ grey: true
 hidden: true
 content:
   - tag: card
-    cover: $img/tab/admission.png
-    title: 录取查询
-    logo: letter
-    url: admission?type=search
+    cover: $img/tab/map.jpg
+    title: 校园地图
+    logo: map
+    url: map
 
   - tag: grid
     items:
-      # - text: 录取查询
-      #   color: red
-      #   name: Admission
-      #   icon: letter
-      #   url: admission?type=search
-
-      - text: 校园地图
-        color: orange
-        name: Map
-        icon: map
-        url: map
+      # - text: 校园地图
+      #   color: orange
+      #   name: Map
+      #   icon: map
+      #   url: map
 
       - text: 校历
         color: olive
@@ -64,3 +58,9 @@ content:
         name: Contact
         icon: phone
         url: phone
+
+      - text: 录取查询
+        color: red
+        name: Admission
+        icon: letter
+        url: admission?type=search

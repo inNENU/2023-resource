@@ -1,6 +1,6 @@
 title: 寝室选择
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 29 日
 cite:
   - https://publish.nenu.edu.cn/info/1068/2633.htm
 shareable: true
@@ -28,3 +28,30 @@ content:
   - tag: doc
     name: 2022 年住宿费标准
     url: $file/intro/2022-dorm-fee.pdf
+
+  - tag: title
+    text: 寝室床号
+
+  - tag: text
+    text: 寝室按照逆时针从门口进行排号。
+
+  - tag: text
+    type: info
+    heading: 六人寝
+    align: center
+    text:
+      - 窗
+      - 4  3
+      - 5  2
+      - 6  1
+      - 门
+
+  - tag: text
+    type: info
+    heading: 四人寝
+    align: center
+    text:
+      - 窗
+      - 3  2
+      - 4  1
+      - 门

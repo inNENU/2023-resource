@@ -58,6 +58,12 @@ content:
         icon: time
         path: guide/check/location-and-time
 
+  - tag: card
+    cover: $img/tab/map.jpg
+    title: 校园地图
+    logo: map
+    url: map
+
   - tag: grid
     header: 入校介绍
     items:
@@ -109,12 +115,6 @@ content:
         icon: life
         path: guide/life/
 
-      - text: 社团
-        color: orange
-        name: Association
-        icon: association
-        path: guide/association/
-
   - tag: grid
     header: 了解学习
     items:
@@ -148,10 +148,22 @@ content:
         icon: study
         path: guide/study/
 
+      - text: 选课
+        color: cyan
+        name: Select
+        icon: select
+        path: guide/select/
+
       - text: 图书馆
         color: blue
         name: Library
         icon: library
         path: intro/apt/library/
+
+      - text: 考试
+        color: olive
+        name: Test
+        icon: test
+        path: guide/test/
 
     footer: 更多内容请详见下方其他 Tab 页
