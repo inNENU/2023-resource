@@ -1,6 +1,15 @@
 title: 内容更新日志
 content:
   - tag: title
+    text: 2022/08/30
+
+  - tag: ul
+    heading: 更新
+    text:
+      - 更新大学英语课程
+      - 更新转专业相关通知
+
+  - tag: title
     text: 2022/08/29
 
   - tag: ul

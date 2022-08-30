@@ -1,7 +1,7 @@
 title: 英语课程
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 30 日
 shareable: true
 content:
   - tag: list
@@ -22,3 +22,13 @@ content:
       - text: 小语种外语课程
         icon: more
         path: other
+
+  - tag: list
+    header: 教学计划
+    items:
+      - text: 大学外语教学计划 (2020 版)
+        path: 2020-plan
+
+      - text: 大学外语教学计划 (2015 版)
+        desc: 旧
+        path: 2015-plan

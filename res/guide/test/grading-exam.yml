@@ -1,16 +1,19 @@
 title: 英语分班考试
 author: Mr.Hope
 desc: 感谢梦雨提供订正
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 30 日
 shareable: true
 content:
   - tag: text
     type: info
-    heading: 2021 年英语分班考试时间
+    heading: 2022 年英语分班考试时间
     text:
-      - 9 月 5 日下午
-      - |-
-        注: 学校尚未提供 2022 年英语分班考试时间，请耐心等待。
+      - 9 月 10 日 9:00 - 11:20
+
+  - tag: text
+    type: warning
+    text:
+      - 特别强调，此考试需要带身份证!
 
   - tag: title
     text: 考试介绍
@@ -22,7 +25,6 @@ content:
     type: note
     text:
       - 外国语学院、高考外语语种非英语以及中外合作办学类专业(计算机科学与技术(中美合作)除外)的学生不需参加此项考试。
-      - 如果分班考试、大一两次期末考试均未及格，则仍需参加此 DET 考试。
 
   - tag: title
     text: 题目形式
@@ -59,3 +61,21 @@ content:
     type: tip
     heading: Mr.Hope の提示
     text: 因为如果分班考试成绩高于 80 分的话，可以直接申请大一一整学年的英语免修，在别的小伙伴还在上课、练习视听说、写英语作文的时候，免修的同学们就可以做自己的事情了，这可以节约大量的时间。所以对于英语好的同学，如果有空的话一定要在假期刷一刷四级题，争取免修。
+
+  - tag: title
+    text: DET
+
+  - tag: p
+    text:
+      - 如果分班考试、大一两次期末考试均未及格，则仍需报名参加考试，以通过 DET。
+
+  - tag: text
+    type: danger
+    text:
+      - 无法通过 DET 考试的学生，无法取得学位证书。
+
+  - tag: list
+    header: false
+    items:
+      - text: DET 介绍
+        path: /guide/course/english/DET

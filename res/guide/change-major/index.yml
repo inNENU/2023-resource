@@ -1,14 +1,21 @@
 title: 转专业
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 30 日
 shareable: true
 content:
   - tag: title
     text: 本科生转专业
 
-  - tag: text
-    type: tip
-    text: 受疫情影响，2022 年转专业工作尚未开始。
+  - tag: list
+    header: 2022 年公告
+    items:
+      - text: 全日制本科生转专业工作通知
+        icon: notice
+        path: notice
+
+      - text: 非师范生转为公费师范生工作通知
+        icon: notice
+        path: normal-notice
 
   - tag: list
     header: 规则与流程
@@ -29,12 +36,7 @@ content:
   - tag: list
     header: 相关公告
     items:
-      - text: 相关公告
-        desc: 2021 年
-        icon: notice
-        path: notice
-
-      - text: 公示名单
+      - text: 2021 年公示名单
         icon: plan
         path: list
 
