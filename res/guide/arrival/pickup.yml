@@ -1,6 +1,6 @@
 title: 接站
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 30 日
 shareable: true
 content:
   - tag: title
@@ -14,12 +14,6 @@ content:
   - tag: text
     type: warning
     text: 机场无接待处，建议自行购票乘坐动车到长春站(票价￥8)。
-
-  # - tag: text
-  #   text: 长春站南出站口虽然说也有人接，只不过南出站口没地方摆台停大巴，所以等聚齐一批人之后还是会统一通过南北通道领到北口去乘车，所以就不要走冤枉路了。
-  #   style:
-  #     color: "#888"
-  #     font-size: 14px
 
   - tag: title
     text: 接站标志
