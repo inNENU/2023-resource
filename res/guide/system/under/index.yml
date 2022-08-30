@@ -1,6 +1,6 @@
 title: 本科教学服务系统
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 30 日
 grey: true
 shareable: true
 content:
@@ -13,6 +13,14 @@ content:
       - text: 英语免修申请
         icon: exemption
         path: exemption/english
+
+      - text: 其他免修申请
+        icon: exemption
+        path: exemption/others
+
+      - text: 补考申请
+        icon: time
+        path: makeup
 
       - text: 学籍注册
         icon: rule

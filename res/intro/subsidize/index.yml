@@ -1,7 +1,7 @@
 title: 资助
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 30 日
 shareable: true
 content:
   - tag: p
@@ -46,7 +46,7 @@ content:
     items:
       - text: 入学绿色通道
         icon: green-tunnel
-        path: green-tunnel
+        path: green-tunnel/
 
       - text: 服兵役学生国家教育资助
         icon: military

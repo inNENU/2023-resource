@@ -1,0 +1,15 @@
+title: 入学绿色通道
+grey: true
+author: Mr.Hope
+time: 2022 年 8 月 30 日
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 绿色通道介绍
+        icon: about
+        path: intro
+
+      - text: 2022 年相关公告
+        icon: notice
+        path: notice

@@ -1,7 +1,7 @@
 title: 英语免修评定
 desc: 部分截图素材来自阮怀正
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 30 日
 shareable: true
 content:
   - tag: title
@@ -21,10 +21,13 @@ content:
   - tag: ol
     text:
       - 点击“考试管理”
-      - “点击专项课程免修申请”，并点击增加
+      - 点击“专项课程免修申请”，并点击增加
       - 选择“大学英语读写 1”、“大学英语读写 2”
       - 输入合适的理由并上传附件
       - 保存并送审
+
+  - tag: img
+    src: $img/system/test-manage.jpg
 
   - tag: img
     src: $img/system/english-exemption1.jpg
@@ -37,6 +40,3 @@ content:
 
   - tag: img
     src: $img/system/english-exemption4.jpg
-
-  - tag: img
-    src: $img/system/english-exemption5.jpg

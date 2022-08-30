@@ -4,13 +4,28 @@ content:
     text: 2022/08/30
 
   - tag: ul
+    heading: 新增
+    text:
+      - 新增免修申请流程
+      - 新增补考申请流程
+
+  - tag: ul
     heading: 更新
     text:
       - 更新大学英语课程
       - 更新转专业相关通知
+      - 更新快递介绍
+      - 2022 年绿色通道详情
+      - 户口办理
+      - 净月报到校门
 
   - tag: title
     text: 2022/08/29
+
+  - tag: ul
+    heading: 新增
+    text:
+      - 寝室床号
 
   - tag: ul
     heading: 更新
