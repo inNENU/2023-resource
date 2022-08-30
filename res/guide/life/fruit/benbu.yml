@@ -1,6 +1,6 @@
 title: 本部水果店
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -9,9 +9,9 @@ content:
   - tag: location
     title: 本部水果店
     points:
-      - latitude: 43.862844
-        longitude: 125.332547
-        name: 天猫水果超市
+      - latitude: 43.8627
+        longitude: 125.332943
+        name: 葱蜂鲜果
         detail: 北苑地下一楼
 
       - latitude: 43.862592
@@ -20,7 +20,11 @@ content:
         detail: 浴池一楼
 
   - tag: img
-    src: $img/bath/benbu-shop1.jpg
+    src: $img/life/beiyuan/fruit.jpg
+    desc: 葱蜂鲜果
+
+  - tag: img
+    src: $img/bath/benbu-left.jpg
     desc: “心随果动”水果店
 
   - tag: title

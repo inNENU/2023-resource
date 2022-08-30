@@ -1,16 +1,26 @@
 title: 本部眼镜店
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
     text: 校内
 
-  - tag: text
-    text: 本部校区内现有一家镜舍眼镜店，位于浴池一楼。
+  - tag: location
+    title: 本部水果店
+    points:
+      - latitude: 43.862525
+        longitude: 125.337083
+        name: 镜舍
+        detail: 浴池一楼
+
+      - latitude: 43.862662
+        longitude: 125.332524
+        name: 北苑眼镜店
+        detail: 北苑地下一楼
 
   - tag: text
-    heading: 店铺位置
+    heading: 镜舍位置
     text:
       - 位于浴池一楼正门内。
       - 您需要走进浴池正门，即可在右面看到镜舍的店门。
@@ -26,6 +36,14 @@ content:
     items:
       - text: 店铺详情
         path: jingshe
+
+  - tag: text
+    heading: 北苑眼镜店
+    text: 位于北苑超市生活区西南角
+
+  - tag: img
+    src: $img/life/beiyuan/glass.jpg
+    desc: 北苑眼镜店
 
   - tag: title
     text: 校外

@@ -1,7 +1,7 @@
 title: 洗漱间
 desc: 研究生洗漱间图片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: p
@@ -78,6 +78,14 @@ content:
     text:
       - 女生寝室楼每层楼都有一个或两个吹风机，插一卡通就可以使用。
       - 吹风机价格为 0.15 元/分钟。
+    style:
+      text-decoration: line-through
+
+  - tag: text
+    type: note
+    text:
+      - 目前学校更换了吹风机服务商，计划在两校区所有寝室楼的所有洗漱间均安置吹风机，刷卡使用。
+      - 旧的吹风机已经被拆卸掉了，目前新的尚未安装，费用也暂不清楚。
 
   - tag: img
     src: $img/dorm/hair-dryer.jpg
@@ -87,18 +95,18 @@ content:
     text:
       - 洗衣机是单筒洗衣机，可洗可甩干。
       - 大部分寝室楼的每个楼层有两个洗衣机(三舍 B 只有一台)。
-      - 洗衣机为刷卡使用，根据所需洗涤方式刷卡，刷卡完毕后将洗衣机盖关闭即可洗衣。
       - 洗衣用的洗衣液或洗衣粉需自己准备，在洗衣前加入洗衣机内。
 
   - tag: list
     header: false
     items:
-      - text: 洗衣机详细使用说明
+      - text: 本部洗衣机详细使用说明
         icon: washer
-        path: washer
+        path: benbu-washer
 
-  - tag: img
-    src: $img/dorm/washer.jpg
+      - text: 净月洗衣机详细使用说明
+        icon: washer
+        path: jingyue-washer
 
   - tag: title
     text: Mr.Hope の 吐糟

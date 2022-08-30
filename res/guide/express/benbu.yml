@@ -1,6 +1,6 @@
 title: 本部校区快递介绍
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -23,12 +23,7 @@ content:
       - 极兔
       - 黄马甲
       - 顺丰
-      # - 京东
-
-  - tag: text
-    type: note
-    text:
-      - 目前京东暂时无法入校，需要在南门即时取件。
+      - 京东
 
   - tag: title
     text: 邮寄地址

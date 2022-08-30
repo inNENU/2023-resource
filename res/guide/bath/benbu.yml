@@ -1,6 +1,6 @@
 title: 本部浴池
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -34,11 +34,18 @@ content:
       - 包含健身房与休息室等设施。
       - 还有一个小小的男宾😑
 
+  - tag: list
+    header: false
+    items:
+      - text: 本部浴池生活区
+        path: /guide/life/benbu-bath-district
+
   - tag: carousel
     images:
-      - $img/bath/benbu-shop1.jpg
-      - $img/bath/benbu-shop2.jpg
+      - $img/bath/benbu-left.jpg
+      - $img/bath/benbu-right.jpg
       - $img/bath/benbu-shop3.jpg
+      - $img/bath/benbu-shop4.jpg
 
   - tag: text
     heading: 二楼

@@ -1,28 +1,59 @@
 title: 北苑特色档口
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
     text: 一楼南侧
 
   - tag: img
-    src: $img/dining/dining10.jpg
+    src: $img/dining/beiyuan-1f1.jpg
 
   - tag: img
-    src: $img/dining/dining11.jpg
-    desc: 北苑一楼南侧环境
+    src: $img/dining/beiyuan-1f1.jpg
 
-  - tag: text
+  - tag: img
+    src: $img/dining/beiyuan-baozi.jpg
+
+  - tag: ul
     heading: 包含档口
-    text: 开封包子、米线、麻辣烫、蒸功夫盖浇饭、妈妈亲饺子、李阿峰麻辣拌、西部拉面、营养套餐、老鸭粉丝汤、煎饼王、手抓饼.
+    text:
+      - 开封包子
+      - 米线、麻辣烫
+      - 小猴子煎肉饭
+      - 国庆日饺子
+      - 李阿峰麻辣拌
+      - 西部拉面
+      - 营养套餐
+      - 老鸭粉丝汤、煎饼王、手抓饼.
 
   - tag: title
     text: 二楼南侧
 
-  - tag: text
+  - tag: img
+    src: $img/dining/beiyuan-2f1.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan-2f1.jpg
+
+  - tag: img
+    src: $img/dining/beiyuan-xiaochao.jpg
+
+  - tag: ul
     heading: 包含档口
-    text: 东北小炒、韩国明洞料理、四川风味、酱香鸡饭(也卖鸡公煲)、五谷鱼粉、麻辣香锅、烤肉木桶饭、北京风味、手拍粉(也卖炸串)、尚品双拼饭、麻辣爆肚。
+    text:
+      - 东北小炒
+      - 韩国明洞料理
+      - 四川风味
+      - 五谷鱼粉
+      - 味之道营养套餐
+      - 麻辣香锅
+      - 烤肉木桶饭
+      - 北京风味
+      - 美食妹手拍粉(也卖炸串)
+      - 尚品双拼饭
+      - 奇和祥 (麻辣爆肚)
+      - 旋转火锅
 
   - tag: title
     text: 总结

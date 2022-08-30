@@ -1,7 +1,7 @@
 title: 报到
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: list
@@ -26,9 +26,13 @@ content:
         icon: time
         path: location-and-time
 
-      - text: 报到流程
+      - text: 本部报道流程
         icon: flow
-        path: flow
+        path: benbu-flow
+
+      - text: 净月报道流程
+        icon: flow
+        path: jingyue-flow
 
       - text: 缴费相关
         icon: money

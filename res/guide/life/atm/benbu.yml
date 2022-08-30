@@ -1,6 +1,6 @@
 title: 本部存取款
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -9,18 +9,20 @@ content:
   - tag: location
     title: ATM 位置
     points:
-      - latitude: 43.86279
-        longitude: 125.332517
-        detail: 本部超市旁
+      - latitude: 43.862596
+        longitude: 125.333357
+        detail: 北苑大厅东南角
 
   - tag: text
-    text: 目前已有 ATM 入驻的银行有交通银行(可存钱)、中国邮政储蓄银行、中国农业银行、长春农业银行、中国建设银行等
+    text:
+      - 目前只有交通银行和中国银行的 ATM 机。
+      # - 目前已有 ATM 入驻的银行有交通银行(可存钱)、中国邮政储蓄银行、中国农业银行、长春农业银行、中国建设银行等
 
   - tag: img
-    src: $img/life/benbu/atm1.jpg
+    src: $img/life/beiyuan/atm1.jpg
 
   - tag: img
-    src: $img/life/benbu/atm2.jpg
+    src: $img/life/beiyuan/atm2.jpg
 
   - tag: title
     text: 校外银行

@@ -1,6 +1,6 @@
 title: 净月校区快递介绍
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -21,15 +21,10 @@ content:
       - 极兔
       - 天天
       - 苏宁
-      # - 顺丰
-      # - 京东
+      - 顺丰
+      - 京东
       - 邮政小包
       - 邮政 EMS
-
-  - tag: text
-    type: note
-    text:
-      - 净月驿站暑期更换了服务商，新服务商菜鸟驿站暂未与京东和顺丰谈妥入驻详情。
 
   - tag: title
     text: 邮寄地址

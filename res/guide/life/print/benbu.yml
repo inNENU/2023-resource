@@ -1,6 +1,6 @@
 title: 本部打印复印
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -19,7 +19,7 @@ content:
     text: 位于浴池一楼。
 
   - tag: img
-    src: $img/bath/benbu-shop2.jpg
+    src: $img/bath/benbu-right.jpg
     desc: 浴池好又快图文店
 
   - tag: img
@@ -30,17 +30,18 @@ content:
     src: $img/life/benbu/bath-price.jpg
     desc: 价格表
 
-  - tag: img
-    src: $img/life/benbu/bath-activity.jpg
-    desc: 开学活动
-
   - tag: text
     heading: 北苑复印店
-    text: 位于北苑地下一楼，超市南侧。
+    text:
+      - 北苑地下一楼、超市南侧有两家无名复印店
 
   - tag: img
-    src: $img/life/benbu/beiyuan-copy.jpg
-    desc: 北苑复印店
+    src: $img/life/beiyuan/print.jpg
+    desc: 北苑复印店 1
+
+  - tag: img
+    src: $img/life/beiyuan/print2.jpg
+    desc: 北苑复印店 2
 
   - tag: text
     heading: 南苑复印店
@@ -54,11 +55,15 @@ content:
     text: 校外位置
 
   - tag: text
+    heading: 东师文昌路数码图文快印
     text:
-      - 东师文昌路数码图文快印
-      - "地址: 东师文昌路小南门东行 30 米绿园餐厅楼上中门二楼"
+      - |-
+        地址: 东师文昌路小南门东行 30 米绿园餐厅楼上中门二楼
       - 黑白打印一律 8 分，激光彩色打印 5 角起，个人或拼单 30 元可送货
       - 可开发票 效果好 速度快
-      - "营业时间: 7:00 —— 22:30"
-      - "QQ: 2102257311 3279519252"
-      - "手机/微信: 13694307499 13843189514"
+      - |-
+        营业时间: 7:00 —— 22:30
+      - |-
+        QQ: 2102257311 3279519252
+      - |-
+        手机/微信: 13694307499 13843189514

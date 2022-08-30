@@ -1,6 +1,6 @@
 title: 本部饮品店
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -16,12 +16,12 @@ content:
 
       - latitude: 43.862644
         longitude: 125.337152
-        name: 黑泷堂
+        name: 甜啦啦
         detail: 学生浴池一楼
 
-      - latitude: 43.862605
-        longitude: 125.333198
-        name: 天天奶斯
+      - latitude: 43.862932
+        longitude: 125.332583
+        name: 北苑的茶
         detail: 北苑地下一楼
 
       - latitude: 43.862605
@@ -30,8 +30,12 @@ content:
         detail: 南苑一楼
 
   - tag: img
-    src: $img/life/benbu/heilongtang.jpg
-    desc: 黑泷堂
+    src: $img/bath/benbu-left.jpg
+    desc: 甜啦啦
+
+  - tag: img
+    src: $img/life/beiyuan/beiyuan-tea.jpg
+    desc: 北苑的茶
 
   - tag: title
     text: 校外

@@ -1,7 +1,7 @@
 title: 寝室
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: list
@@ -61,9 +61,16 @@ content:
         icon: toilet
         path: detail/toilet
 
-      - text: 洗衣机
+  - tag: list
+    header: 洗衣机
+    items:
+      - text: 本部洗衣机
         icon: washer
-        path: detail/washer
+        path: detail/benbu-washer
+
+      - text: 净月洗衣机
+        icon: washer
+        path: detail/jingyue-washer
 
   - tag: list
     header: 供电供网

@@ -1,6 +1,6 @@
 title: 资助介绍
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: ul
@@ -43,7 +43,9 @@ content:
     type: info
     heading: 勤工助学
     text:
-      - 现阶段，我校勤工助学工资为『每小时 12 元』。
+      - |-
+        现阶段，我校勤工助学工资为『每小时 12 元』。
+        注: 官方早就发通知提升至每小时 20 元了。
       - 参加勤工助学的同学每周工作时间不得超过『8』小时。
       - 如有意愿参加我校勤工助学，需参加『勤工助学培训营』获得勤工助学资格。
     path: /intro/subsidize/work

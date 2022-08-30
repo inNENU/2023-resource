@@ -1,6 +1,6 @@
 title: 净月菜鸟驿站
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -38,6 +38,10 @@ content:
       # - 驿站外侧有两个固定的帐篷作为临时取件点，俗称“红色帐篷”和“橙色帐篷”。
 
   - tag: img
+    src: $img/express/jingyue-cainiao.jpg
+    desc: 正门
+
+  - tag: img
     src: $img/express/jingyue-cainiao1.jpg
 
   - tag: img
@@ -45,6 +49,13 @@ content:
 
   - tag: img
     src: $img/express/jingyue-cainiao3.jpg
+    desc: 自助取件处
+
+  - tag: img
+    src: $img/express/jingyue-cainiao4.jpg
+
+  - tag: img
+    src: $img/express/jingyue-cainiao5.jpg
 
   - tag: title
     text: 取件方式

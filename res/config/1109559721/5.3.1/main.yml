@@ -3,60 +3,38 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: card
-    cover: $img/tab/faq.png
-    title: 常见问题
-    logo: faq
-    url: info?id=Gfaq/
-
   - tag: list
-    header: 更多
     items:
-      - text: 经验分享直播与答疑
-        icon: activity
-        url: info?path=OMrHope/streaming
-
-  - tag: grid
-    header: 到校之前
-    items:
-      - text: 入学准备
-        color: red
-        name: Prepare
-        icon: prepare
-        path: guide/prepare/
-
-      - text: 需带物品
-        color: olive
-        name: Necessity
-        icon: necessity
-        path: guide/necessity/
-
-      - text: 快递
-        color: mauve
-        name: Express
-        icon: express
-        path: guide/express/
+      - text: 专业所在校区
+        icon: map
+        path: guide/check/locate
 
       - text: 到校路线
-        color: grey
-        name: Arrival
         icon: locate
         path: guide/arrival/
-
-  - tag: list
-    header: 出发前请核对
-    items:
-      - text: 返校/报到需要满足的条件
-        icon: alert
-        path: guide/epidemic/requirement
-
-      - text: 疫情管理调整
-        icon: virus
-        path: guide/epidemic/manage
 
       - text: 报到时间
         icon: time
         path: guide/check/location-and-time
+
+      - text: 本部报到流程
+        icon: flow
+        path: guide/check/benbu-flow
+
+      - text: 净月报到流程
+        icon: flow
+        path: guide/check/jingyue-flow
+
+  - tag: list
+    header: 疫情相关
+    items:
+      - text: 长春市核酸检测点
+        icon: map
+        path: guide/life/nucleic-acid
+
+      - text: 疫情管理调整
+        icon: virus
+        path: guide/epidemic/manage
 
   - tag: card
     cover: $img/tab/map.jpg

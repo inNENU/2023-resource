@@ -1,6 +1,6 @@
 title: DET
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: text
@@ -69,4 +69,4 @@ content:
 
   - tag: doc
     name: 大学英语水平测试线上考试考生须知
-    url: $file/course/DET-online-notice.docx
+    url: $file/exam/DET-online-notice.docx

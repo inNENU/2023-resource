@@ -1,6 +1,6 @@
 title: 超市
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: list
@@ -19,7 +19,10 @@ content:
     header: false
     items:
       - text: 天猫超市
-        path: tmall-shop
+        path: tmall
+
+      - text: 北苑生活区介绍
+        path: /guide/life/beiyuan-district
 
   - tag: text
     heading: 北苑超市周边

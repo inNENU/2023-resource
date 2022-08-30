@@ -1,14 +1,8 @@
-title: 本部生活
+title: 本部生活分板块介绍
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
-  - tag: text
-    type: tip
-    text:
-      - 生活页面仍在整合中，Mr.Hope 正在努力整理并更相关信息、照片，目前所列出的内容可能不全。
-      - 如果您想要帮助订正，或想直接提供相关照片，欢迎联系我。
-
   - tag: grid
     header: 衣
     items:

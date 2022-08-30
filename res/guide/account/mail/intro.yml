@@ -1,6 +1,6 @@
 title: 校园邮箱
 author: Mr.Hope
-time: 2022 年 8 月 26 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -35,7 +35,7 @@ content:
     heading: 邮箱默认密码
     text:
       - 2022 级及之后，系统会随机生成一个邮箱密码。
-      - 2021 级及致歉，默认密码为 Nenu + 身份证后六位，X 用 1 代替
+      - 2021 级及之前，默认密码为 Nenu + 身份证后六位，X 用 1 代替
 
   - tag: text
     type: warning
