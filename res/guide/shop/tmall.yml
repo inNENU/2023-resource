@@ -19,7 +19,7 @@ content:
       - 天猫超市物品种类齐全，无论是生活用品、文体用品，还是食品、饮品、面包、水果等都可以买到。
 
   - tag: img
-    src: $img/life/beiyuan/map.png
+    src: $img/life/beiyuan/map.jpg
     desc: 超市物品分布图
 
   - tag: title

@@ -16,7 +16,7 @@ content:
     text: 北苑生活区结构图
 
   - tag: img
-    src: $img/life/beiyuan/map.png
+    src: $img/life/beiyuan/map.jpg
 
   - tag: title
     text: 店铺详情
