@@ -1,12 +1,13 @@
 title: 通信行程卡
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 grey: true
 shareable: true
 cite: https://xc.caict.ac.cn/help.html
 content:
   - tag: card
     title: 通信行程卡
+    logo: $img/epidemic/history-visit.png
     options:
       appId: wx8f446acf8c4a85f5
       path: pages/index

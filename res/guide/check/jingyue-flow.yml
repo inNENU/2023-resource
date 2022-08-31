@@ -47,6 +47,13 @@ content:
       path: package1/pages/qrcode/index
 
   - tag: card
+    title: 通信行程卡
+    logo: $img/epidemic/history-visit.png
+    options:
+      appId: wx8f446acf8c4a85f5
+      path: pages/index
+
+  - tag: card
     title: 返校健康码
     desc: 快速打开返校健康码
     options:
@@ -64,6 +71,47 @@ content:
       - 核酸报告电子版和纸质版均可。
       - 旅途超过一日的且当天到长的，可出示出发前 24h 核酸报告。
       - 因疫情防控需要，学生家长、亲友不能陪同学生进入校园。
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: title
+    text: 值班辅导员核查返校码并完成入校登记
+
+  - tag: card
+    title: 返校健康码
+    desc: 快速打开返校健康码
+    options:
+      appId: wxa9de818af2c7f9ab
+      path: pages/code/code/code
+
+  - tag: text
+    text:
+      - 到门口登记处的对应牌子找辅导员扫描返校码完成入校健康等级。
+
+  - tag: text
+    text: 👇
+    align: center
+    style:
+      font-weight: "500"
+      font-size: 20px
+
+  - tag: title
+    text: 行李贴牌
+
+  - tag: text
+    text:
+      - 领取发放的行李牌，填写好自己的信息并贴在行李上交给志愿者转运。志愿者会根据相关信息直接转运至寝室或寝室楼下。
+
+  - tag: text
+    type: tip
+    text:
+      - 在这一步请确保录取通知书、打印的易班成绩单和两张一寸照片在自己身上。
+      - 大部分学院给学生志愿者下发的通知都是运送至寝室，这部分学院新生无需担心行李搬运的问题。
 
   - tag: text
     text: 👇
@@ -94,12 +142,14 @@ content:
   - tag: text
     text:
       - 之后前往对应学院的报到处报到。
-      - 报到处的学长学姐会查验录取通知书，让你摘下口罩核查确为本人，并扫描返校码完成入校，同时向你发放寝室入住卡和校园卡。
+      - 报到处的学长学姐会查验录取通知书，让你摘下口罩核查确为本人，同时让你上交易班成绩单打印结果。
+      - 之后，报到处的学长学姐会向你发放寝室钥匙和校园卡。
 
   - tag: text
     type: note
     text:
       - 如果没有预先告诉你床位分配，工作人员也会告诉你床位分配情况。
+      - 部分学院也可能在此步骤收纳一定的年级费。
 
   - tag: img
     src: $img/check/jingyue-check1.jpg
@@ -125,30 +175,16 @@ content:
       font-size: 20px
 
   - tag: title
-    text: 运送行李
-
-  - tag: text
-    text: 志愿者为你的行李贴牌并将你的行李运送至寝室楼下。
-
-  - tag: text
-    text: 👇
-    align: center
-    style:
-      font-weight: "500"
-      font-size: 20px
-
-  - tag: title
     text: 寝室登记
 
   - tag: text
     text:
-      - 步行前往寝室楼下，并按照学院安排的床位和床号，在宿管阿姨处完成入住登记并领取寝室钥匙，之后在志愿者的协助下将行李搬运上楼上楼。
+      - 步行前往寝室大厅。向宿管阿姨出示身份证上的采样贴纸，之后凭住宿卡按照学院安排的床位和床号，在宿管阿姨处完成入住登记，之后使用电梯自行将行李运送上楼。
 
   - tag: text
     type: tip
     text:
-      - 登记过程中需要一寸照片，请提前拿出。
-      - 三舍的电梯是分单层电梯、双层电梯和货梯的。如果低楼层同学想用电梯只能搭乘货梯；高层同学请根据自己的楼层按照电梯门口的指示牌乘坐对应的单层或双层电梯。
+      - 登记过程中需要两张一寸照片，请提前拿出。
 
   - tag: title
     text: 报到后续步骤
