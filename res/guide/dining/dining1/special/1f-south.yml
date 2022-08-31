@@ -1,0 +1,50 @@
+title: 一食堂一楼南侧档口
+desc: |-
+  特别鸣谢浅浅笙歌提供相关照片
+author: Mr.Hope
+time: 2022 年 8 月 31 日
+shareable: true
+content:
+  - tag: title
+    text: 简介
+
+  - tag: text
+    text: 一食堂一楼北侧共有 8 家档口。
+
+  - tag: ul
+    heading: 从东到西
+    text:
+      - 川锦汇麻辣拌
+      - 五谷渔粉
+      - 小锅焖面板面
+      - 孙氏杭州小笼包
+      - 小当家民间瓦罐汤
+      - F+肥牛饭
+      - 川天椒麻辣烫
+
+  - tag: title
+    text: 相关菜品与价格
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail1.jpg
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail2.jpg
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail3.jpg
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail4.jpg
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail5.jpg
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail6.jpg
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail7.jpg
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail8.jpg

@@ -1,0 +1,69 @@
+title: 一食堂二楼特色档口
+desc: |-
+  特别鸣谢浅浅笙歌提供相关照片
+author: Mr.Hope
+time: 2022 年 8 月 31 日
+shareable: true
+content:
+  - tag: title
+    text: 简介
+
+  - tag: text
+    text: 一食堂二楼共有 10 家档口。
+
+  - tag: ul
+    heading: 基本餐旁 (北侧)
+    text:
+      - 艾可奇汉堡
+      - 滑领鲜 手打虾滑
+      - 羊杂面
+
+  - tag: ul
+    heading: 美食厅 (中央)
+    text:
+      - 百合饭包
+      - 剁椒拌饭
+      - 满魏明生炸鸡架
+      - SandWich (他家现在只卖很贵的水果)
+      - 鲜榨果汁
+      - 炒酸奶
+      - 麻辣香锅
+
+  - tag: title
+    text: 相关菜品与价格
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail1.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail2.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail3.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail4.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail5.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail6.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail7.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail7-1.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail8.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail9.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail9-1.jpg
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail10.jpg

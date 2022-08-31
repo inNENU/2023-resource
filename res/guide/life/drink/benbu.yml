@@ -37,6 +37,10 @@ content:
     src: $img/life/beiyuan/beiyuan-tea.jpg
     desc: 北苑的茶
 
+  - tag: img
+    src: $img/life/benbu/gong-tea.jpg
+    desc: 贡茶
+
   - tag: title
     text: 校外
 

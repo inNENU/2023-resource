@@ -33,9 +33,9 @@ content:
       - 煎饼王、手抓饼
 
   - tag: list
-    header: false
+    header: 一楼各档口菜品与价格
     items:
-      - text: 各档口菜品与价格
+      - text: 了解更多
         path: 1f
 
   - tag: carousel
@@ -76,15 +76,15 @@ content:
       - 麻辣香锅
       - 烤肉木桶饭
       - 北京风味
-      - 美食妹手拍粉(也卖炸串)
+      - 美食妹手拍粉 (也卖炸串)
       - 尚品双拼饭
-      - 奇和祥 (麻辣爆肚)
+      - 奇和祥
       - 旋转火锅
 
   - tag: list
-    header: false
+    header: 二楼各档口菜品与价格
     items:
-      - text: 各档口菜品与价格
+      - text: 了解更多
         path: 2f
 
   - tag: carousel
