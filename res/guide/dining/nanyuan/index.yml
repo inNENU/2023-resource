@@ -1,12 +1,18 @@
 title: 南苑餐厅
-desc: "概况部分来自东北师范大学后勤保障部官网"
+desc: |-
+  简介部分来自东北师范大学后勤保障部官网
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: p
-    heading: 概况
-    text: 南苑餐厅位于校区南部，靠近学生七舍。餐厅 1999 年投入使用，2011 年重新维护改造，建筑面积 10519.19 平方米，可同时容纳 1416 人就餐。食堂一层为特色风味餐厅，二层为基本餐厅，三层为清真餐厅。特色风味及清真餐厅全天营业。
+    type: info
+    heading: 简介
+    text:
+      - 南苑餐厅位于校区南部，靠近学生七舍。餐厅 1999 年投入使用，2011 年重新维护改造，建筑面积 10519.19 平方米，可同时容纳 1416 人就餐。食堂一层为特色风味餐厅，二层为基本餐厅，三层为清真餐厅。特色风味及清真餐厅全天营业。
+
+  - tag: img
+    src: $img/dining/nanyuan/env.jpg
 
   - tag: phone
     header: 服务电话
@@ -15,57 +21,28 @@ content:
     org: 东北师范大学
 
   - tag: title
-    text: 一楼——特色档口
+    text: 一楼 —— 特色档口
 
-  - tag: text
-    text: 南苑一楼有各种档口，有包子、面条、炒饭，另外还有清真食物档口等，味道比较好，价位适中。
+  - tag: p
+    text: 南苑一楼有各种特色档口，总体味道略逊于北苑，价格比北苑稍低。
 
-  - tag: img
-    src: $img/dining/dining16.jpg
-
-  - tag: img
-    src: $img/dining/dining17.jpg
-    desc: 南苑一楼环境
+  - tag: list
+    header: false
+    items:
+      - text: 了解更多
+        path: special
 
   - tag: title
-    text: 二楼——基本餐
+    text: 二楼 —— 基本餐
 
   - tag: text
     text: 南苑二楼为基本餐区，分时间段供应食物，价位比较亲民。
 
-  - tag: ul
-    heading: 供应时间
-    text:
-      - |-
-        早: 6:30 - 8:30
-      - |-
-        午: 10:30 - 12:30
-      - |-
-        晚: 16:00 - 18:00
-
-  - tag: img
-    src: $img/dining/dining18.jpg
-
-  - tag: img
-    src: $img/dining/dining19.jpg
-
-  - tag: img
-    src: $img/dining/dining20.jpg
-
-  - tag: img
-    src: $img/dining/dining21.jpg
-
-  - tag: img
-    src: $img/dining/dining22.jpg
-
-  - tag: img
-    src: $img/dining/dining23.jpg
-
-  - tag: img
-    src: $img/dining/dining24.jpg
-
-  - tag: img
-    src: $img/dining/dining25.jpg
+  - tag: list
+    header: false
+    items:
+      - text: 了解更多
+        path: basic
 
   - tag: title
     text: 三楼

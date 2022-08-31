@@ -1,6 +1,19 @@
 title: 内容更新日志
 content:
   - tag: title
+    text: 2022/08/31
+
+  - tag: ul
+    heading: 新增
+    text:
+      - 本部取件详情
+
+  - tag: ul
+    heading: 更新
+    text:
+      - 重构本部校区食堂
+
+  - tag: title
     text: 2022/08/30
 
   - tag: ul
