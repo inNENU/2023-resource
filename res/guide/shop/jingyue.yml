@@ -1,7 +1,7 @@
 title: 京东便利店师大净月店
 desc: 特别鸣谢张云歌提供照片
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 1 日
 shareable: true
 content:
   - tag: title
@@ -23,6 +23,10 @@ content:
 
   - tag: title
     text: 超市详情
+
+  - tag: img
+    src: $img/life/dining2/map.jpg
+    desc: 超市分布图
 
   - tag: carousel
     images:

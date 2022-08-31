@@ -1,6 +1,6 @@
 title: 快递
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 9 月 1 日
 shareable: true
 content:
   - tag: text
@@ -45,3 +45,7 @@ content:
       - text: 菜鸟驿站
         icon: cainiao
         path: jingyue-cainiao
+
+      - text: 临时取件点
+        icon: express
+        path: jingyue-temp

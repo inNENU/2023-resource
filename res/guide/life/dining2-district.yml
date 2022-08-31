@@ -1,7 +1,7 @@
 title: 二食堂生活区介绍
 desc: 《二食堂生活区》由 Mr.Hope 自行起名，仅用于小程序文中
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 1 日
 shareable: true
 content:
   - tag: title
@@ -12,12 +12,11 @@ content:
       - 二食堂生活区，指二食堂东南侧的一楼区域，以京东超市和菜鸟驿站为核心，周边设立干果店、蛋糕店、打印店、水果店、饮品店、书店、理发店、美甲店、电脑维修店等。
       - 二食堂生活区是净月校区两大综合性生活中心之一。
 
-  # TODO:
-  # - tag: title
-  #   text: 二食堂生活区结构图
+  - tag: title
+    text: 二食堂生活区结构图
 
-  # - tag: img
-  #   src: $img/life/dining2/map.jpg
+  - tag: img
+    src: $img/life/dining2/map.jpg
 
   - tag: title
     text: 店铺详情
