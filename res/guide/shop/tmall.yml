@@ -81,6 +81,9 @@ content:
   - tag: img
     src: $img/shop/tmall-life3.jpg
 
+  - tag: img
+    src: $img/shop/tmall-life4.jpg
+
   - tag: text
     heading: 新生用品
 
