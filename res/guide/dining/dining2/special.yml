@@ -1,0 +1,45 @@
+title: 二食堂特色档口
+desc: |-
+  特别鸣谢思教乐乐提供相关照片
+author: Mr.Hope
+time: 2022 年 9 月 1 日
+shareable: true
+content:
+  - tag: title
+    text: 简介
+
+  - tag: text
+    heading: 营业时间
+    text: 6:00 - 22:00
+
+  - tag: img
+    src: $img/dining/jingyueDining2Env.jfif
+
+  - tag: img
+    src: $img/dining/jingyueDining2Env2.jfif
+
+  - tag: p
+    heading: 三楼
+    text: 二食堂三楼选择较多，口味也不错，可以自己一个人吃，几个人一起吃也可以点炒菜，价格适中，价位在 7-15 元左右，吃一顿饭平均需要 10 元。(还有插座可以充电或者在人少时自习)
+
+  - tag: ul
+    heading: 店家
+    text:
+      - 灌汤小笼包
+      - 麻辣汇
+      - 炸鸡汉堡
+      - 烤肉木桶饭
+      - 香煎扒肉饭
+      - 旋转小火锅
+
+  - tag: p
+    heading: 二楼
+    text:
+      - 有一家不二格米粉。
+
+  - tag: text
+    type: tip
+    text: 米粉超级好吃
+
+  - tag: img
+    src: $img/dining/jingyueDining2-3F.jfif

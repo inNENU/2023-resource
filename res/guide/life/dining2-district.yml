@@ -47,11 +47,11 @@ content:
 
   - tag: img
     src: $img/shop/jingyue-copy.jpg
-    desc: 师大图文复印店，可以复印和打印
+    desc: 学子图文复印店，可以复印和打印
 
   - tag: img
     src: $img/shop/jingyue-fruit-1.jpg
-    desc: 水果店，位于二食堂一楼
+    desc: 缤果屋水果店，位于二食堂一楼
 
   - tag: img
     src: $img/shop/jingyue-fruit-2.jpg
