@@ -11,6 +11,8 @@ content:
       - |-
         竖正茶饮: 一食堂一楼
       - |-
+        鲜榨果汁: 一食堂二楼
+      - |-
         恬妃奶茶: 一食堂二楼
       - |-
         吸饮力: 二食堂超市对面
@@ -19,6 +21,36 @@ content:
       - |-
         黑泷堂: 学生浴池门口左侧
 
+  - tag: title
+    text: 竖正茶饮
+
+  - tag: img
+    src: $img/life/jingyue/shuzheng.jpg
+    desc: 竖正茶饮
+
+  - tag: img
+    src: $img/life/jingyue/shuzheng-price.jpg
+    desc: 竖正价目表
+
+  - tag: title
+    text: 鲜榨果汁
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail7.jpg
+    desc: 鲜榨果汁
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail7-1.jpg
+    desc: 价目表
+
+  - tag: title
+    text: 黑泷堂
+
+  - tag: img
+    src: $img/dining/dining1/2f-detail7.jpg
+    desc: 黑泷堂
+
+  # TODO: 价目表
   - tag: title
     text: 校外
 

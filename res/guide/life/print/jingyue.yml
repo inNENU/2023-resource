@@ -1,6 +1,6 @@
 title: 净月打印复印
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -12,19 +12,7 @@ content:
   - tag: ul
     text:
       - 师大图文复印店
-      - 知行图文
-
-  - tag: text
-    heading: 知行图文
-    text: 位于学生浴池旁。
-
-  - tag: img
-    src: $img/life/jingyue/zhixing-copy.jpg
-    desc: 店铺照片
-
-  - tag: img
-    src: $img/life/jingyue/zhixing-price.jpg
-    desc: 价格表
+      - 云印社
 
   - tag: text
     heading: 师大图文复印店
@@ -33,6 +21,15 @@ content:
   - tag: img
     src: $img/shop/jingyue-copy.jpg
     desc: 店铺照片
+
+  - tag: text
+    heading: 云印社
+    text: 位于学生浴池旁。
+
+  - tag: img
+    src: $img/life/jingyue/yunyinshe.jpg
+    desc: 店铺照片
+    # TODO: 价格表
 
   - tag: title
     text: 校外店铺

@@ -19,6 +19,11 @@ content:
         name: 甜啦啦
         detail: 学生浴池一楼
 
+      - latitude: 43.862765
+        longitude: 125.333539
+        name: 木子鐡饮品店
+        detail: 北苑一楼
+
       - latitude: 43.862932
         longitude: 125.332583
         name: 北苑的茶
@@ -32,6 +37,10 @@ content:
   - tag: img
     src: $img/bath/benbu-left.jpg
     desc: 甜啦啦
+
+  - tag: img
+    src: $img/life/beiyuan/muzitie.jpg
+    desc: 木子鐡饮品店
 
   - tag: img
     src: $img/life/beiyuan/beiyuan-tea.jpg

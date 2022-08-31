@@ -1,18 +1,31 @@
 title: 净月理发
 desc: 特别鸣谢小艺学长提供部分照片
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
     text: 校内
 
   - tag: text
-    text: 二食堂楼下(书店、水果店旁)、浴池外洗衣房旁
+    text:
+      - 二食堂楼下(书店、水果店旁)
+      - |-
+        Mr.李: 学生浴池正门左侧
+      - |-
+        DL 发型设计: 学生浴池正门右侧
 
   - tag: img
     src: $img/shop/jingyue-haircut.jpg
     desc: 超市旁理发店
+
+  - tag: img
+    src: $img/life/jingyue/mr-li-haircut.jpg
+    desc: Mr.李
+
+  - tag: img
+    src: $img/life/jingyue/dl-haircut.jpg
+    desc: DL 发型设计
 
   - tag: title
     text: 校外
