@@ -37,6 +37,9 @@ content:
   - tag: title
     text: 在校门查验材料并测量体温
 
+  - tag: img
+    src: $img/check/benbu-entrance.jpg
+
   - tag: card
     title: 吉祥码
     desc: 快速打开吉祥码

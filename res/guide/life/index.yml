@@ -27,6 +27,16 @@ content:
 
   - tag: list
     items:
+      - text: 二食堂生活区介绍
+        icon: shop
+        path: dining2-district
+
+      - text: 浴池生活区介绍
+        icon: bath
+        path: jingyue-bath-district
+
+  - tag: list
+    items:
       - text: 分板块介绍
         icon: more
         path: jingyue

@@ -1,0 +1,101 @@
+title: 二食堂生活区介绍
+desc: 《二食堂生活区》由 Mr.Hope 自行起名，仅用于小程序文中
+author: Mr.Hope
+time: 2022 年 8 月 31 日
+shareable: true
+content:
+  - tag: title
+    text: 简介
+
+  - tag: p
+    text:
+      - 二食堂生活区，指二食堂东南侧的一楼区域，以京东超市和菜鸟驿站为核心，周边设立干果店、蛋糕店、打印店、水果店、饮品店、书店、理发店、美甲店、电脑维修店等。
+      - 二食堂生活区是净月校区两大综合性生活中心之一。
+
+  # TODO:
+  # - tag: title
+  #   text: 二食堂生活区结构图
+
+  # - tag: img
+  #   src: $img/life/dining2/map.jpg
+
+  - tag: title
+    text: 店铺详情
+
+  - tag: carousel
+    images:
+      - $img/shop/jingyue-grocery1.jpg
+      - $img/shop/jingyue-grocery2.jpg
+      - $img/shop/jingyue-grocery3.jpg
+
+  - tag: text
+    text: 新起点百货，可以买到诸如锁头、指甲刀、床头挂篮之类的东西
+    align: center
+    style:
+      font-size: 14px
+
+  - tag: carousel
+    images:
+      - $img/shop/jingyue-stationery1.jpg
+      - $img/shop/jingyue-stationery2.jpg
+      - $img/shop/jingyue-stationery3.jpg
+
+  - tag: text
+    text: 文具店，可以买到文具和画具
+    align: center
+    style:
+      font-size: 14px
+
+  - tag: img
+    src: $img/shop/jingyue-copy.jpg
+    desc: 师大图文复印店，可以复印和打印
+
+  - tag: img
+    src: $img/shop/jingyue-fruit-1.jpg
+    desc: 水果店，位于二食堂一楼
+
+  - tag: img
+    src: $img/shop/jingyue-fruit-2.jpg
+    desc: 水果店，位于二食堂二楼
+
+  - tag: img
+    src: $img/shop/jingyue-mobile.jpg
+    desc: 中国移动
+
+  - tag: img
+    src: $img/shop/jingyue-haircut.jpg
+    desc: 理发店
+
+  - tag: carousel
+    images:
+      - $img/shop/jingyue-coffee1.jpg
+      - $img/shop/jingyue-coffee2.jpg
+
+  - tag: text
+    text: 咖啡店
+    align: center
+    style:
+      font-size: 14px
+
+  - tag: carousel
+    images:
+      - $img/shop/jingyue-cake1.jpg
+      - $img/shop/jingyue-cake2.jpg
+
+  - tag: text
+    text: 烘培坊
+    align: center
+    style:
+      font-size: 14px
+
+  - tag: carousel
+    images:
+      - $img/shop/jingyue-shop1.jpg
+      - $img/shop/jingyue-shop2.jpg
+      - $img/shop/jingyue-shop3.jpg
+
+  - tag: text
+    text: 其他店铺
+    align: center
+    style:
+      font-size: 14px

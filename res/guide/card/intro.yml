@@ -1,6 +1,6 @@
 title: 校园卡介绍
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 8 月 31 日
 shareable: true
 content:
   - tag: title
@@ -48,7 +48,7 @@ content:
     type: info
     heading: 默认限额
     text:
-      - 单次消费限额 20 元
+      - 单次消费限额 50 元
       - 每日累计消费限额 100 元
 
   - tag: title
