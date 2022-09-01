@@ -1,10 +1,17 @@
 title: 本部烘焙坊
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
-    text: 校内位置
+    text: 校内店铺
+
+  - tag: ul
+    text:
+      - |-
+        梅小姐私房烘焙店: 位于浴池一楼
+      - |-
+        北苑蛋糕店: 位于北苑地下一楼
 
   - tag: location
     title: 本部烘焙坊
@@ -13,9 +20,9 @@ content:
         longitude: 125.336898
         name: 梅小姐私房烘焙店
 
-  - tag: ul
-    text:
-      - 浴池一楼
+      - latitude: 43.862917
+        longitude: 125.332566
+        name: 北苑蛋糕店
 
   - tag: text
     heading: 梅小姐私房烘焙店
@@ -24,8 +31,14 @@ content:
     src: $img/bath/benbu-right.jpg
     desc: 梅小姐私房烘焙店
 
+  - tag: text
+    heading: 北苑蛋糕店
+
+  - tag: img
+    src: $img/life/beiyuan/bake.jpg
+
   - tag: title
-    text: 校外
+    text: 校外店铺
 
   - tag: text
     text:

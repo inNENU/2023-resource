@@ -1,6 +1,6 @@
 title: 净月生活
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: text
@@ -17,12 +17,6 @@ content:
         color: red
         icon: washer
         path: washing/jingyue
-
-      - text: 眼镜店
-        name: Glasses
-        color: blue
-        icon: glasses
-        path: glasses/
 
   - tag: grid
     header: 食

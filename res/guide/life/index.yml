@@ -1,12 +1,13 @@
 title: 生活
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
     text: 本部
 
   - tag: list
+    header: false
     items:
       - text: 北苑生活区介绍
         icon: shop
@@ -26,6 +27,7 @@ content:
     text: 净月
 
   - tag: list
+    header: false
     items:
       - text: 二食堂生活区介绍
         icon: shop

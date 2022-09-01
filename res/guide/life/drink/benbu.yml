@@ -4,7 +4,20 @@ time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
-    text: 校内
+    text: 校内店铺
+
+  - tag: ul
+    text:
+      - |-
+        亓嘉咖啡: 三舍 AB 大厅
+      - |-
+        甜啦啦: 学生浴池正门左侧
+      - |-
+        木子鐡饮品店: 北苑一楼
+      - |-
+        北苑的茶: 北苑地下一楼西北角
+      - |-
+        贡茶: 南苑一楼
 
   - tag: location
     title: 本部饮品店
@@ -29,18 +42,22 @@ content:
         name: 北苑的茶
         detail: 北苑地下一楼
 
-      - latitude: 43.862605
-        longitude: 125.333198
+      - latitude: 43.859935
+        longitude: 125.332861
         name: 贡茶
         detail: 南苑一楼
 
+  - tag: text
+    heading: 甜啦啦
+
   - tag: img
     src: $img/bath/benbu-left.jpg
-    desc: 甜啦啦
+
+  - tag: text
+    heading: 木子鐡饮品店
 
   - tag: img
     src: $img/life/beiyuan/muzitie.jpg
-    desc: 木子鐡饮品店
 
   - tag: text
     heading: 北苑的茶
@@ -56,12 +73,15 @@ content:
     src: $img/life/beiyuan/beiyuan-tea-price.jpg
     desc: 北苑的茶价目表
 
+  - tag: text
+    heading: 贡茶
+
   - tag: img
     src: $img/life/benbu/gong-tea.jpg
     desc: 贡茶
 
   - tag: title
-    text: 校外
+    text: 校外店铺
 
   - tag: ul
     text:

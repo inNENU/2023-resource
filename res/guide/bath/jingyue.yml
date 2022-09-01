@@ -1,7 +1,7 @@
 title: 净月浴池
 desc: 特别鸣谢苏凛提供相关照片和信息
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -14,8 +14,8 @@ content:
   - tag: location
     title: 净月浴池
     points:
-      - latitude: 43.82599
-        longitude: 125.42091
+      - latitude: 43.826263
+        longitude: 125.420696
 
   - tag: text
     text:

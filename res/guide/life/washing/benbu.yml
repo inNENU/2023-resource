@@ -1,19 +1,33 @@
 title: 本部洗衣店
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
-    text: 校内位置
+    text: 校内店铺
 
   - tag: ul
     text:
-      - 北苑地下一楼
-      - 浴池一楼
+      - |-
+        糖果洗衣: 位于浴池一楼
+      - |-
+        北苑洗衣店: 位于北苑地下一楼
+
+  - tag: location
+    title: 本部洗衣店
+    points:
+      - latitude: 43.86263
+        longitude: 125.337064
+        name: 糖果洗衣
+        detail: 浴池正门左侧
+
+      - latitude: 43.862562
+        longitude: 125.332911
+        name: 北苑洗衣店
+        detail: 北苑地下一楼南侧
 
   - tag: text
     heading: 糖果洗衣
-    text: 位于浴池一楼。
 
   - tag: img
     src: $img/bath/benbu-shop4.jpg
@@ -21,7 +35,6 @@ content:
 
   - tag: text
     heading: 北苑洗衣店
-    text: 位于北苑地下一楼。
 
   - tag: img
     src: $img/life/beiyuan/wash.jpg

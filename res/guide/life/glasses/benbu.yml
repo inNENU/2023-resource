@@ -1,13 +1,20 @@
 title: 本部眼镜店
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
-    text: 校内
+    text: 校内店铺
+
+  - tag: ul
+    text:
+      - |-
+        镜舍: 位于浴池一楼
+      - |-
+        北苑眼镜店: 位于北苑地下一楼
 
   - tag: location
-    title: 本部水果店
+    title: 本部眼镜店
     points:
       - latitude: 43.862525
         longitude: 125.337083
@@ -35,6 +42,7 @@ content:
   - tag: list
     items:
       - text: 店铺详情
+        icon: glasses
         path: jingshe
 
   - tag: text

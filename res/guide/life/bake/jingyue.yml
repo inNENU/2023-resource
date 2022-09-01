@@ -1,14 +1,19 @@
-title: 烘焙坊
+title: 净月烘焙坊
 desc: 特别鸣谢小艺学长提供部分照片
 author: Mr.Hope
 time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
-    text: 校内位置
+    text: 校内店铺
+
+  - tag: ul
+    text:
+      - |-
+        宏城烘焙坊: 位于二食堂一楼
 
   - tag: location
-    title: 本部烘焙坊
+    title: 净月烘焙坊
     points:
       - latitude: 43.825126
         longitude: 125.424799
@@ -30,7 +35,7 @@ content:
     src: $img/life/dining2/hongcheng3.jpg
 
   - tag: title
-    text: 校外
+    text: 校外店铺
 
   - tag: text
     text: 暂无信息

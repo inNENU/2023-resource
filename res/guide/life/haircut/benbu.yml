@@ -1,10 +1,19 @@
 title: 本部理发
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
-    text: 校内
+    text: 校内店铺
+
+  - tag: ul
+    text:
+      - |-
+        觉起造型: 浴池正门左侧
+      - |-
+        锦尚博雅: 浴池正门右侧
+      - |-
+        北苑理发店: 北苑地下一楼东南角
 
   - tag: location
     title: 本部理发店
@@ -31,27 +40,29 @@ content:
       - 染发、烫发、焗发是理发店主要的利润来源。所以诸如“觉起造型”之类的理发店，可能会在理发途中，像您不遗余力的推销“做个发型”、“焗个头发”的服务。如果您不想，请委婉 Say No，表达“我不感兴趣”、“我没有计划”、“我没有时间”甚至“我没有钱”即可。
 
   - tag: text
-    text:
-      - 浴池一楼有两家理发店，北苑地下一楼也有一家理发店
+    heading: 觉起造型
 
   - tag: img
     src: $img/bath/benbu-left.jpg
-    desc: 觉起造型
 
   - tag: img
     src: $img/life/benbu/bath-haircut.jpg
     desc: 觉起造型店内照片
 
+  - tag: text
+    heading: 锦尚博雅
+
   - tag: img
     src: $img/bath/benbu-right.jpg
-    desc: 锦尚博雅
+
+  - tag: text
+    heading: 北苑理发店
 
   - tag: img
     src: $img/life/beiyuan/haircut.jpg
-    desc: 北苑理发店
 
   - tag: title
-    text: 校外
+    text: 校外店铺
 
   - tag: text
     text: 从小南门出去左转，在文昌路上有两家(有一家刚开不久)，不算太远。
