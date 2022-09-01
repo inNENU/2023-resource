@@ -1,6 +1,6 @@
 title: 疫情管理调整
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 9 月 1 日
 content:
   - tag: title
     text: 封闭管理
@@ -17,6 +17,13 @@ content:
       - 9 月 7 日 - 9 月 10 日可出入学校
       - 9 月 11 日- 9 月 15 日封校
       - 9 月 16 日起实行常态化管理
+    style:
+      text-decoration: line-through
+
+  - tag: text
+    type: danger
+    text:
+      - 由于长春 9 月 1 日通报 5 例阳性病例，请等待学校后续通知。
 
   - tag: text
     type: info
