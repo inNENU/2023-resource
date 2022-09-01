@@ -4,12 +4,17 @@ desc: |-
 author:
   - Mr.Hope
   - 晴子
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 1 日
 shareable: true
 content:
   - tag: text
     type: tip
     text: 天猫超市于 2021 年暑假入驻本部校区。
+
+  - tag: carousel
+    fill: true
+    images:
+      - $img/shop/tmall/welcome.jpg
 
   - tag: title
     text: 种类分布
@@ -31,7 +36,7 @@ content:
       - 需要自行将商品扫码，并使用支付宝扫码或刷脸进行支付
 
   - tag: img
-    src: $img/shop/tmall-shop-pay.jpg
+    src: $img/shop/tmall/pay.jpg
     desc: 自助结账处
 
   - tag: text
@@ -52,45 +57,48 @@ content:
     heading: 食品区
 
   - tag: img
-    src: $img/shop/tmall-food1.jpg
+    src: $img/shop/tmall/food1.jpg
 
   - tag: img
-    src: $img/shop/tmall-food2.jpg
+    src: $img/shop/tmall/food2.jpg
 
   - tag: img
-    src: $img/shop/tmall-food3.jpg
+    src: $img/shop/tmall/food3.jpg
     desc: 牛奶区
 
   - tag: img
-    src: $img/shop/tmall-food4.jpg
+    src: $img/shop/tmall/food4.jpg
     desc: 饮品区
 
   - tag: img
-    src: $img/shop/tmall-food5.jpg
+    src: $img/shop/tmall/food5.jpg
     desc: 面包区
+
+  - tag: img
+    src: $img/shop/tmall/food6.jpg
 
   - tag: text
     heading: 生活用品区
 
   - tag: img
-    src: $img/shop/tmall-life1.jpg
+    src: $img/shop/tmall/life1.jpg
 
   - tag: img
-    src: $img/shop/tmall-life2.jpg
+    src: $img/shop/tmall/life2.jpg
 
   - tag: img
-    src: $img/shop/tmall-life3.jpg
+    src: $img/shop/tmall/life3.jpg
 
   - tag: img
-    src: $img/shop/tmall-life4.jpg
+    src: $img/shop/tmall/life4.jpg
 
   - tag: text
     heading: 新生用品
 
   - tag: img
-    src: $img/shop/tmall-newcomer1.jpg
+    src: $img/shop/tmall/newcomer1.jpg
     desc: 被褥
 
   - tag: img
-    src: $img/shop/tmall-newcomer2.jpg
+    src: $img/shop/tmall/newcomer2.jpg
     desc: 盆

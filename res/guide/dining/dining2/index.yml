@@ -31,15 +31,23 @@ content:
   - tag: list
     header: 基本餐
     items:
-      - text: 位于二楼，包含称重自选餐，盒饭以及小份菜。
+      - text: 位于二楼西北侧，包含盒饭以及小份菜。
 
       - text: 了解更多
         path: basic
 
   - tag: list
+    header: 称重自选餐
+    items:
+      - text: 位于二楼东北侧，价格为 18.8/500g
+
+      - text: 了解更多
+        path: select
+
+  - tag: list
     header: 特色档口
     items:
-      - text: 主要位于三楼。二楼一家“不二格米粉”，一楼有一家“亿亩良田”。
+      - text: 主要位于三楼。二楼有一家“不二格米粉”，一楼有一家“亿亩良田”。
 
       - text: 了解更多
         path: special
