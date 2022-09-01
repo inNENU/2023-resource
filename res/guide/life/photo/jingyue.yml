@@ -1,6 +1,6 @@
 title: 净月照相
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -12,14 +12,15 @@ content:
 
   - tag: ul
     text:
-      - 师大图文复印店
+      - 学子图文
 
   - tag: text
-    heading: 师大图文复印店
-    text: 二食堂超市对面师大图文复印店
+    heading: 学子图文
+    text:
+      - 又名师大图文，可以进行简单的证件照拍照
 
   - tag: img
-    src: $img/shop/jingyue-copy.jpg
+    src: $img/life/dining2/jingyue-copy.jpg
     desc: 师大图文复印店
 
   - tag: title

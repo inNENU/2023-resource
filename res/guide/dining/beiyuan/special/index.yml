@@ -1,7 +1,7 @@
 title: 北苑特色档口
 desc: 特别鸣谢晴子提供相关照片
 author: Mr.Hope
-time: 2022 年 9 月 1 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -36,19 +36,8 @@ content:
     header: 一楼各档口菜品与价格
     items:
       - text: 了解更多
+        icon: money
         path: 1f
-
-  - tag: carousel
-    images:
-      - $img/dining/beiyuan/1f-detail1.jpg
-      - $img/dining/beiyuan/1f-detail2.jpg
-      - $img/dining/beiyuan/1f-detail3.jpg
-      - $img/dining/beiyuan/1f-detail4.jpg
-      - $img/dining/beiyuan/1f-detail5.jpg
-      - $img/dining/beiyuan/1f-detail6.jpg
-      - $img/dining/beiyuan/1f-detail7.jpg
-      - $img/dining/beiyuan/1f-detail8.jpg
-      - $img/dining/beiyuan/1f-detail9.jpg
 
   - tag: title
     text: 二楼特色档口区域概览
@@ -85,24 +74,8 @@ content:
     header: 二楼各档口菜品与价格
     items:
       - text: 了解更多
+        icon: money
         path: 2f
-
-  - tag: carousel
-    images:
-      - $img/dining/beiyuan/2f-detail1.jpg
-      - $img/dining/beiyuan/2f-detail2.jpg
-      - $img/dining/beiyuan/2f-detail3.jpg
-      - $img/dining/beiyuan/2f-detail4.jpg
-      - $img/dining/beiyuan/2f-detail5.jpg
-      - $img/dining/beiyuan/2f-detail6.jpg
-      - $img/dining/beiyuan/2f-detail7.jpg
-      - $img/dining/beiyuan/2f-detail8.jpg
-      - $img/dining/beiyuan/2f-detail9.jpg
-      - $img/dining/beiyuan/2f-detail10.jpg
-      - $img/dining/beiyuan/2f-detail11.jpg
-      - $img/dining/beiyuan/2f-detail12.jpg
-      - $img/dining/beiyuan/2f-detail13.jpg
-      - $img/dining/beiyuan/2f-detail14.jpg
 
   - tag: title
     text: 总结

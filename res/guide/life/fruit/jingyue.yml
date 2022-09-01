@@ -1,6 +1,6 @@
 title: 净月水果店
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -8,21 +8,41 @@ content:
 
   - tag: ul
     text:
-      - 浴池旁天猫校园鲜果小铺
-      - 二食堂一楼 (超市入口附近)
-      - 二食堂二楼基本餐楼层
+      - |-
+        天猫校园鲜果小铺: 学生浴池左侧
+      - |-
+        缤果屋: 二食堂一楼 (超市入口附近)
+      - |-
+        平价水果超市: 二食堂二楼基本餐楼层
+
+  - tag: text
+    heading: 缤果屋水果店
 
   - tag: img
-    src: $img/shop/jingyue-fruit-1.jpg
-    desc: 水果店，位于二食堂一楼
+    src: $img/life/dining2/binguowu1.jpg
+    desc: 缤果铺
+
+  - tag: carousel
+    images:
+      - $img/life/dining2/binguowu2.jpg
+      - $img/life/dining2/binguowu3.jpg
+
+  - tag: text
+    heading: 平价水果超市
 
   - tag: img
-    src: $img/shop/jingyue-fruit-2.jpg
-    desc: 水果店，位于二食堂二楼
+    src: $img/life/dining2/jingyue-fruit-2.jpg
+
+  - tag: img
+    src: $img/life/dining2/jingyue-fruit-2.jpg
+    desc: 平价水果超市
+
+  - tag: text
+    heading: 天猫校园鲜果小铺
 
   - tag: img
     src: $img/life/jingyue/tmall-fruit.jpg
-    desc: 天猫校园鲜果小铺，位于学生鱼翅胖
+    desc: 天猫校园鲜果小铺
 
   - tag: title
     text: 校外

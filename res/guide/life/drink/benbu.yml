@@ -1,6 +1,6 @@
 title: 本部饮品店
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -42,9 +42,19 @@ content:
     src: $img/life/beiyuan/muzitie.jpg
     desc: 木子鐡饮品店
 
+  - tag: text
+    heading: 北苑的茶
+    text:
+      - |-
+        营业时间: 8:00 - 21:00
+
   - tag: img
     src: $img/life/beiyuan/beiyuan-tea.jpg
     desc: 北苑的茶
+
+  - tag: img
+    src: $img/life/beiyuan/beiyuan-tea-price.jpg
+    desc: 北苑的茶价目表
 
   - tag: img
     src: $img/life/benbu/gong-tea.jpg

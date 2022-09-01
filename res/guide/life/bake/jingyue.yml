@@ -1,7 +1,7 @@
 title: 烘焙坊
 desc: 特别鸣谢小艺学长提供部分照片
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -15,10 +15,19 @@ content:
         name: 宏城烘焙坊
         detail: 二食堂一楼
 
-  - tag: carousel
-    images:
-      - $img/shop/jingyue-cake1.jpg
-      - $img/shop/jingyue-cake2.jpg
+  - tag: text
+    heading: 宏城烘焙坊
+    text:
+      - 售卖多种糕点，可以拿来当应急早餐。
+
+  - tag: img
+    src: $img/life/dining2/hongcheng1.jpg
+
+  - tag: img
+    src: $img/life/dining2/hongcheng2.jpg
+
+  - tag: img
+    src: $img/life/dining2/hongcheng3.jpg
 
   - tag: title
     text: 校外

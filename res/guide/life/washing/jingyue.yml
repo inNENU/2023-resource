@@ -1,6 +1,6 @@
 title: 净月洗衣店
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -13,6 +13,9 @@ content:
   - tag: text
     heading: 糖果洗衣
     text: 位于学生浴池旁
+
+  - tag: img
+    src: $img/life/jingyue/candy.jpg
 
   - tag: title
     text: 校外店铺
