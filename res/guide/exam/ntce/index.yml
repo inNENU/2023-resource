@@ -14,6 +14,7 @@ content:
       - 考试时间为 2022 年 10 月 29 日 (星期六)。
 
   - tag: list
+    header: false
     items:
       - text: 相关公告
         icon: notice

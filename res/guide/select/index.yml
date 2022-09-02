@@ -28,6 +28,7 @@ content:
         退补选: 9 月 5 日 8:30 — 9 月 11 日 24:00
 
   - tag: list
+    header: false
     items:
       - text: 2022 级学硕选课须知
         icon: notice
