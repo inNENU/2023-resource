@@ -9,9 +9,9 @@ content:
   - tag: ul
     text:
       - |-
-        梅小姐私房烘焙店: 位于浴池一楼
+        梅小姐私房烘焙店: 浴池正门右侧
       - |-
-        北苑蛋糕店: 位于北苑地下一楼
+        北苑蛋糕店: 北苑地下一楼西北角
 
   - tag: location
     title: 本部烘焙坊
@@ -19,10 +19,12 @@ content:
       - latitude: 43.861806
         longitude: 125.336898
         name: 梅小姐私房烘焙店
+        detail: 浴池正门右侧
 
       - latitude: 43.862917
         longitude: 125.332566
         name: 北苑蛋糕店
+        detail: 北苑地下一楼西北角
 
   - tag: text
     heading: 梅小姐私房烘焙店

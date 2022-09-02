@@ -1,6 +1,6 @@
-title: 更改企业号手机
+title: 更改企业号认证微信与手机
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -9,7 +9,7 @@ content:
   - tag: text
     type: info
     text:
-      - 更改企业号的手机号需要下载企业微信 App
+      - 需要先下载企业微信 App
 
   - tag: action
     header: 安卓下载
@@ -20,7 +20,7 @@ content:
     content: https://work.weixin.qq.com/wework_admin/commdownload?platform=ios&from=wwindex
 
   - tag: title
-    text: 具体流程
+    text: 手机号更改流程
 
   - tag: ol
     text:
@@ -30,3 +30,16 @@ content:
       - 点击“手机”
       - 点击“更换手机号”
       - 按照提示信息进行手机号码的更新
+
+  - tag: title
+    text: 微信更改流程
+
+  - tag: ol
+    text:
+      - 原微信登录“企业微信”
+      - 需要更换的微信登陆同手机微信
+      - 点击下方菜单栏中的“我”
+      - 点击“设置”
+      - 点击“账号与安全”
+      - 点击“微信”
+      - 点击“更换微信”

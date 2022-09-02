@@ -52,10 +52,10 @@ content:
   - tag: img
     src: $img/life/dining2/book-store1.jpg
     desc: 外部入口
-  # TODO:
-  # - tag: img
-  #   src: $img/life/dining2/book-store2.jpg
-  #   desc: 内部入口
+
+  - tag: img
+    src: $img/life/dining2/book-store2.jpg
+    desc: 内部入口
 
   - tag: carousel
     images:
@@ -121,6 +121,21 @@ content:
 
   - tag: img
     src: $img/life/dining2/hongcheng3.jpg
+
+  - tag: text
+    heading: 甜啦啦
+    text:
+      - 饮品店
+
+  - tag: img
+    src: $img/life/dining2/tianlala1.jpg
+
+  - tag: img
+    src: $img/life/dining2/tianlala2.jpg
+
+  - tag: img
+    src: $img/life/dining2/tianlala-price.jpg
+    desc: 价目表
 
   - tag: text
     heading: 酷乐冰城

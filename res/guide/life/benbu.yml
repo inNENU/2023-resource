@@ -82,7 +82,7 @@ content:
         name: Digital
         color: olive
         icon: digital
-        path: digital
+        path: digital/benbu
 
       - text: 营业厅
         name: SIM

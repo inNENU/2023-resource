@@ -3,7 +3,7 @@ desc: |-
   《净月浴池生活区》由 Mr.Hope 自行起名，仅用于小程序文中
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
@@ -32,6 +32,22 @@ content:
   - tag: title
     text: 区域照片
 
-  - tag: text
-    type: tip
-    text: 补充中...
+  - tag: img
+    src: $img/life/jingyue/bath-left1.jpg
+    desc: 浴池左侧
+
+  - tag: img
+    src: $img/life/jingyue/bath-left2.jpg
+    desc: 浴池左侧
+
+  - tag: img
+    src: $img/bath/jingyue-main.jpg
+    desc: 浴池正门
+
+  - tag: img
+    src: $img/life/jingyue/bath-right.jpg
+    desc: 浴池右侧
+
+  - tag: img
+    src: $img/life/jingyue/bath-behind.jpg
+    desc: 浴池后方

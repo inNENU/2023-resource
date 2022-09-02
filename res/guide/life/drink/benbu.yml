@@ -30,7 +30,7 @@ content:
       - latitude: 43.862644
         longitude: 125.337152
         name: 甜啦啦
-        detail: 学生浴池一楼
+        detail: 学生浴池正门左侧
 
       - latitude: 43.862765
         longitude: 125.333539
@@ -40,7 +40,7 @@ content:
       - latitude: 43.862932
         longitude: 125.332583
         name: 北苑的茶
-        detail: 北苑地下一楼
+        detail: 北苑地下一楼西北角
 
       - latitude: 43.859935
         longitude: 125.332861

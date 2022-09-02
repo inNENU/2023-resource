@@ -9,9 +9,9 @@ content:
   - tag: ul
     text:
       - |-
-        葱蜂鲜果: 位于北苑地下一楼
+        葱蜂鲜果: 北苑地下一楼东南角
       - |-
-        心随果动: 位于浴池一楼
+        心随果动: 浴池正门左侧
 
   - tag: location
     title: 本部水果店
@@ -19,12 +19,12 @@ content:
       - latitude: 43.8627
         longitude: 125.332943
         name: 葱蜂鲜果
-        detail: 北苑地下一楼
+        detail: 北苑地下一楼东南角
 
       - latitude: 43.862592
         longitude: 125.33717
         name: 心随果动
-        detail: 浴池一楼
+        detail: 浴池正门左侧
 
   - tag: text
     heading: 葱蜂鲜果

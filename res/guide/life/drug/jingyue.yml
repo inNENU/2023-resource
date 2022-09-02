@@ -1,17 +1,23 @@
 title: 净月药店
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: title
     text: 校内店铺
 
+  - tag: ul
+    text:
+      - |-
+        季康大药房: 浴池正门右侧
+
   - tag: location
-    title: 季康大药房
+    title: 净月药店
     points:
       - latitude: 43.826196
         longitude: 125.421112
-        detail: 学生浴池附近
+        name: 季康大药房
+        detail: 学生浴池正门右侧
 
   - tag: img
     src: $img/life/jingyue/jikang.jpg

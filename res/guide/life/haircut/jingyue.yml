@@ -22,14 +22,17 @@ content:
       - latitude: 43.825329
         longitude: 125.425003
         name: 秀发型
+        detail: 二食堂超市入口对面
 
       - latitude: 43.826129
         longitude: 125.4207
         name: Mr.李
+        detail: 学生浴池正门左侧
 
       - latitude: 43.826169
         longitude: 125.420948
         name: DL 发型设计
+        detail: 学生浴池正门右侧
 
   - tag: text
     heading: 秀发型

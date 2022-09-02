@@ -9,10 +9,10 @@ content:
   - tag: ul
     text:
       - |-
-        糖果洗衣: 位于浴池后侧
+        糖果洗衣: 浴池后侧
 
   - tag: location
-    title: 本部洗衣店
+    title: 净月洗衣店
     points:
       - latitude: 43.826169
         longitude: 125.421143

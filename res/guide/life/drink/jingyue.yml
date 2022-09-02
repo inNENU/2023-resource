@@ -12,14 +12,49 @@ content:
         竖正茶饮: 一食堂一楼
       - |-
         鲜榨果汁: 一食堂二楼
+      # - |-
+      #   恬妃奶茶: 一食堂二楼
       - |-
-        恬妃奶茶: 一食堂二楼
+        甜啦啦: 二食堂书店内
       - |-
         酷乐冰城: 二食堂超市对面
       - |-
         瑞幸咖啡: 二食堂菜鸟驿站旁
       - |-
         黑泷堂: 学生浴池门口左侧
+
+  - tag: location
+    title: 净月饮品店
+    points:
+      - latitude: 43.827024
+        longitude: 125.423912
+        name: 竖正茶饮
+        detail: 一食堂一楼
+
+      - latitude: 43.826849
+        longitude: 125.423778
+        name: 鲜榨果汁
+        detail: 一食堂二楼
+
+      - latitude: 43.82526
+        longitude: 125.424994
+        name: 酷乐冰城
+        detail: 二食堂超市对面
+
+      - latitude: 43.825158
+        longitude: 125.424935
+        name: 甜啦啦
+        detail: 北苑地下一楼
+
+      - latitude: 43.82505
+        longitude: 125.424809
+        name: 瑞幸咖啡
+        detail: 二食堂菜鸟驿站旁
+
+      - latitude: 43.826192
+        longitude: 125.420708
+        name: 黑泷堂
+        detail: 学生浴池门口左侧
 
   - tag: text
     heading: 竖正茶饮
@@ -44,6 +79,29 @@ content:
     desc: 价目表
 
   - tag: text
+    heading: 酷乐冰城
+
+  - tag: img
+    src: $img/life/dining2/cooler-city.jpg
+
+  - tag: img
+    src: $img/life/dining2/cooler-city-price.jpg
+    desc: 价目表
+
+  - tag: text
+    heading: 甜啦啦
+
+  - tag: img
+    src: $img/life/dining2/tianlala1.jpg
+
+  - tag: img
+    src: $img/life/dining2/tianlala2.jpg
+
+  - tag: img
+    src: $img/life/dining2/tianlala-price.jpg
+    desc: 价目表
+
+  - tag: text
     heading: 黑泷堂
 
   - tag: img
@@ -53,16 +111,6 @@ content:
   - tag: img
     src: $img/life/jingyue/heilongtang-price.jpg
     desc: 黑泷堂价格表
-
-  - tag: text
-    heading: 酷乐冰城
-
-  - tag: img
-    src: $img/life/dining2/cooler-city.jpg
-
-  - tag: img
-    src: $img/life/dining2/cooler-city-price.jpg
-    desc: 价目表
 
   - tag: title
     text: 校外

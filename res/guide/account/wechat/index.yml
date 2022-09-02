@@ -1,7 +1,7 @@
 title: 企业微信号
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: list
@@ -15,7 +15,7 @@ content:
         icon: account
         path: authorize
 
-      - text: 手机号更改
+      - text: 微信与手机号
         icon: phone
         path: change
 
