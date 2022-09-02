@@ -1,6 +1,6 @@
 title: 登陆选课系统
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 2 日
 shareable: true
 content:
   - tag: text
@@ -51,17 +51,8 @@ content:
     text: 用户名与密码
 
   - tag: text
-    type: info
-    heading: 用户名
     text:
-      - 本科生用户名为校园邮箱的用户名 (不带后缀)
-      - 研究生的用户名为学号
-
-  - tag: text
-    type: info
-    heading: 密码
-    text:
-      - 所有学生密码均为统一身份认证密码，非校园邮箱密码
+      - 用户名为学号，所有学生密码均为统一身份认证密码。
 
   - tag: text
     type: info
