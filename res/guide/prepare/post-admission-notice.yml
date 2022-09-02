@@ -1,6 +1,6 @@
 title: 研究生录取通知书
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 3 日
 shareable: true
 content:
   - tag: title
@@ -10,7 +10,7 @@ content:
     text: 录取通知书会拟录取名单公示期过后制作，给予一定时间修改邮寄人电话与地址，并于六月中旬左右发出。
 
   - tag: card
-    cover: $img/tab/admission.png
+    cover: $img/tab/admission.jpg
     title: 录取查询
     logo: letter
     url: admission?type=search

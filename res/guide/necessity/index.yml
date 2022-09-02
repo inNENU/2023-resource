@@ -1,6 +1,6 @@
 title: 各类物品
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 3 日
 grey: true
 shareable: true
 content:
@@ -13,6 +13,7 @@ content:
     text: 标记 “*” 的意味着校内超市有售
 
   - tag: list
+    header: false
     items:
       - text: 校内外超市
         icon: shop

@@ -4,7 +4,7 @@ grey: true
 hidden: true
 content:
   - tag: card
-    cover: $img/tab/admission.png
+    cover: $img/tab/admission.jpg
     title: 录取查询
     logo: letter
     url: admission?type=search

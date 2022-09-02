@@ -1,6 +1,6 @@
 title: 录取相关问答
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 3 日
 shareable: true
 content:
   - tag: title
@@ -63,7 +63,7 @@ content:
     text: 录取相关
 
   - tag: card
-    cover: $img/tab/admission.png
+    cover: $img/tab/admission.jpg
     title: 录取查询
     logo: letter
     url: admission?type=search

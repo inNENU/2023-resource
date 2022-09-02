@@ -1,49 +1,59 @@
 title: 食堂
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 3 日
+grey: true
 shareable: true
 content:
-  - tag: title
-    text: 本部校区
+  - tag: location
+    title: 本部食堂
+    points:
+      - latitude: 43.86273
+        longitude: 125.33338
+        name: 北苑餐厅
 
-  - tag: text
-    text: 本部校区有北苑餐厅和南苑餐厅两个食堂。北苑餐厅共两层，南苑餐厅共三层。
+      - latitude: 43.860001
+        longitude: 125.3327
+        name: 南苑餐厅
 
   - tag: list
-    header: false
+    header: 本部校区
     items:
+      - text: 本部校区有北苑餐厅和南苑餐厅两个食堂。北苑餐厅共两层，南苑餐厅共三层。
+
       - text: 北苑餐厅
         path: beiyuan/
 
       - text: 南苑餐厅
         path: nanyuan/
 
-  - tag: title
-    text: 净月校区
+  - tag: location
+    title: 净月食堂
+    points:
+      - latitude: 43.82704
+        longitude: 125.42385
+        name: 一食堂
 
-  - tag: text
-    text: 净月校区有两个食堂，分别为一食堂和二食堂，一食堂有三层、二食堂有两层。
+      - latitude: 43.825301
+        longitude: 125.424682
+        name: 二食堂
 
   - tag: list
-    header: false
+    header: 净月校区
     items:
+      - text: 净月校区有两个食堂，分别为一食堂和二食堂，一食堂有三层、二食堂有两层。
+
       - text: 一食堂
         path: dining1/
 
       - text: 二食堂
         path: dining2/
 
-  - tag: title
-    text: 美食节
-
-  - tag: text
-    text:
-      - 学校食堂每年都会举行美食节，届时会开展档口评选活动。
-      - 大家可以免费品尝大量的美食，食堂也会打折。
-
   - tag: list
-    header: false
+    header: 美食节
     items:
+      - text: |-
+          学校食堂每年都会举行美食节，届时会开展档口评选活动。大家可以免费品尝大量的美食，食堂也会打折。
+
       - text: 本部美食节
         path: festival/benbu
 

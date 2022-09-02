@@ -1,13 +1,10 @@
 title: 手机使用缴费系统缴费
 author: Mr.Hope
-time: 2022 年 8 月 29 日
+time: 2022 年 9 月 3 日
 shareable: true
 content:
-  - tag: text
-    type: warning
-    text:
-      - 请注意，目前手机缴费暂仅支持微信。
-      - 如果您需要使用银行卡或支付宝，请使用 PC 进行缴费。如果您尚未购买笔记本电脑，可以前往图书馆的电子阅览室进行缴费。
+  - tag: title
+    text: 缴费方式
 
   - tag: text
     text:

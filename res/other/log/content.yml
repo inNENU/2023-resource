@@ -1,6 +1,39 @@
 title: 内容更新日志
 content:
   - tag: title
+    text: 2022/09/02
+
+  - tag: ul
+    heading: 新增
+    text:
+      - 音乐学院优秀毕业生建议
+      - 硕士生选课通知
+      - 2022 年教师资格证报名
+
+  - tag: ul
+    heading: 更新
+    text:
+      - 快递情况
+      - 疫情管理情况
+      - 报到情况
+      - 二食堂部分介绍
+      - 浴池总体介绍
+
+  - tag: title
+    text: 2022/09/01
+
+  - tag: ul
+    heading: 新增
+    text:
+      - 本部取件详情
+      - 净月浴池生活区
+
+  - tag: ul
+    heading: 更新
+    text:
+      - 重构生活板块
+
+  - tag: title
     text: 2022/08/31
 
   - tag: ul

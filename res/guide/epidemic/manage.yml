@@ -1,29 +1,19 @@
 title: 疫情管理调整
 author: Mr.Hope
-time: 2022 年 9 月 1 日
+time: 2022 年 9 月 3 日
 content:
   - tag: title
     text: 封闭管理
 
   - tag: p
     text:
-      - 学生返校后校园实行封闭管理，解除封闭的时间要视疫情发展情况、上级部门及属地管理要求等确定。
+      - 目前由于长春存在本地疫情，学生返校后校园实行封闭管理，解除封闭的时间要视疫情发展情况、上级部门及属地管理要求等确定。
 
   - tag: text
-    type: info
-    heading: 2022 年秋季学期安排
+    type: warning
     text:
-      - 8 月 27 日- 9 月 6 日封校
-      - 9 月 7 日 - 9 月 10 日可出入学校
-      - 9 月 11 日- 9 月 15 日封校
-      - 9 月 16 日起实行常态化管理
-    style:
-      text-decoration: line-through
-
-  - tag: text
-    type: danger
-    text:
-      - 由于长春 9 月 1 日通报 5 例阳性病例，请等待学校后续通知。
+      - 受长春本地疫情影响，未返校学生暂缓返校。
+      - 快递暂停入校，图书馆闭馆。食堂、浴池正常开放
 
   - tag: text
     type: info

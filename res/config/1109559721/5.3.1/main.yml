@@ -3,44 +3,34 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: list
-    items:
-      - text: 专业所在校区
-        icon: map
-        path: guide/check/locate
+  - tag: card
+    cover: $img/tab/life.jpg
+    title: 校园生活最强指南
+    logo: life
+    url: info?id=/guide/life/
 
-      - text: 到校路线
-        icon: locate
-        path: guide/arrival/
-
-      - text: 报到时间
-        icon: time
-        path: guide/check/location-and-time
-
-      - text: 本部报到流程
-        icon: flow
-        path: guide/check/benbu-flow
-
-      - text: 净月报到流程
-        icon: flow
-        path: guide/check/jingyue-flow
-
-  - tag: list
-    header: 疫情相关
-    items:
-      - text: 长春市核酸检测点
-        icon: map
-        path: guide/life/nucleic-acid
-
-      - text: 疫情管理调整
-        icon: virus
-        path: guide/epidemic/manage
+  - tag: card
+    cover: $img/tab/dining.jpg
+    title: 食堂档口最强指南
+    logo: dining
+    url: info?id=/guide/dining/
 
   - tag: card
     cover: $img/tab/map.jpg
     title: 校园地图
     logo: map
     url: map
+
+  - tag: list
+    header: 疫情相关
+    items:
+      - text: 疫情管理调整
+        icon: virus
+        path: guide/epidemic/manage
+
+      - text: 选课/注课
+        icon: select
+        path: guide/select/
 
   - tag: grid
     header: 入校介绍
@@ -50,12 +40,6 @@ content:
         name: Dorm
         icon: dorm
         path: guide/dorm/
-
-      - text: 食堂
-        color: orange
-        name: Dining
-        icon: dining
-        path: guide/dining/
 
       - text: 超市
         color: olive
@@ -80,18 +64,6 @@ content:
         name: Network
         icon: network
         path: guide/network/
-
-      - text: 需带物品
-        color: olive
-        name: Necessity
-        icon: necessity
-        path: guide/necessity/
-
-      - text: 生活
-        color: purple
-        name: Life
-        icon: life
-        path: guide/life/
 
   - tag: grid
     header: 了解学习
