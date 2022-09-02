@@ -2,7 +2,7 @@ title: 南苑餐厅
 desc: |-
   简介部分来自东北师范大学后勤保障部官网
 author: Mr.Hope
-time: 2022 年 9 月 1 日
+time: 2022 年 9 月 3 日
 grey: true
 shareable: true
 content:
@@ -14,12 +14,6 @@ content:
 
   - tag: img
     src: $img/dining/nanyuan/env.jpg
-
-  - tag: phone
-    header: 服务电话
-    num: 0431-85099579
-    fName: 南苑餐厅服务电话
-    org: 东北师范大学
 
   - tag: list
     header: 一楼
@@ -44,3 +38,9 @@ content:
 
       - text: 了解更多
         path: 3f
+
+  - tag: phone
+    header: 服务电话
+    num: 0431-85099579
+    fName: 南苑餐厅服务电话
+    org: 东北师范大学
