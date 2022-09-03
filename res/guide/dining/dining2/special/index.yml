@@ -42,7 +42,7 @@ content:
     items:
       - text: 了解更多
         icon: money
-        path: 3f-ws
+        path: 3f-sw
 
   - tag: ul
     heading: 东南侧
@@ -61,7 +61,7 @@ content:
     items:
       - text: 了解更多
         icon: money
-        path: 3f-es
+        path: 3f-se
 
   - tag: carousel
     images:
@@ -74,11 +74,58 @@ content:
       - $img/dining/dining2/special9.jpg
       - $img/dining/dining2/special10.jpg
 
+  - tag: ul
+    heading: 东北侧
+    text:
+      - 郎一家 (麻辣面、炸串)
+      - 烤肉木桶饭
+      - ooqo 炸鸡汉堡
+
+  - tag: list
+    header: 菜品与价格详情
+    items:
+      - text: 了解更多
+        icon: money
+        path: 3f-ne
+
+  - tag: carousel
+    images:
+      - $img/dining/dining2/special11.jpg
+      - $img/dining/dining2/special12.jpg
+
+  - tag: ul
+    heading: 西北侧
+    text:
+      - 新派水煮肉片@米饭
+      - 菓碰茶
+
+  - tag: list
+    header: 菜品与价格详情
+    items:
+      - text: 了解更多
+        icon: money
+        path: 3f-nw
+
+  - tag: carousel
+    images:
+      - $img/dining/dining2/special14.jpg
+
   - tag: p
     heading: 二楼
     text:
       - 有一家不二格米粉。
 
-  - tag: text
-    type: tip
-    text: 米粉超级好吃
+  - tag: list
+    header: 菜品与价格详情
+    items:
+      - text: 了解更多
+        icon: money
+        path: buerge
+
+  - tag: p
+    heading: 二楼
+    text:
+      - 有一家亿亩良田，卖土豆粉和鸡米饭。
+
+  - tag: img
+    src: $img/life/dining2/yimuliangtian.jpg

@@ -1,6 +1,6 @@
 title: 净月饮品店
 author: Mr.Hope
-time: 2022 年 9 月 2 日
+time: 2022 年 9 月 3 日
 shareable: true
 content:
   - tag: title
@@ -20,6 +20,8 @@ content:
         酷乐冰城: 二食堂超市对面
       - |-
         瑞幸咖啡: 二食堂菜鸟驿站旁
+      - |-
+        菓碰茶: 二食堂三楼西北侧
       - |-
         黑泷堂: 学生浴池门口左侧
 
@@ -50,6 +52,11 @@ content:
         longitude: 125.424809
         name: 瑞幸咖啡
         detail: 二食堂菜鸟驿站旁
+
+      - latitude: 43.825531
+        longitude: 125.424621
+        name: 菓碰茶
+        detail: 二食堂三楼西北侧
 
       - latitude: 43.826192
         longitude: 125.420708
@@ -100,6 +107,15 @@ content:
   - tag: img
     src: $img/life/dining2/tianlala-price.jpg
     desc: 价目表
+
+  - tag: text
+    heading: 菓碰茶
+
+  - tag: img
+    src: $img/dining/dining2/special15-1.jpg
+
+  - tag: img
+    src: $img/dining/dining2/special15-2.jpg
 
   - tag: text
     heading: 黑泷堂
