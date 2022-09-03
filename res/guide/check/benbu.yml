@@ -1,6 +1,6 @@
 title: 本部校区校门
 author: Mr.Hope
-time: 2022 年 9 月 1 日
+time: 2022 年 9 月 3 日
 shareable: true
 content:
   - tag: text
@@ -54,7 +54,7 @@ content:
     title: 正门
     points:
       - latitude: 43.86167
-        longitude: 125.3256
+        longitude: 125.325642
         detail: 西门
 
   - tag: carousel

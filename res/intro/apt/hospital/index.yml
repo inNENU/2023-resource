@@ -1,7 +1,8 @@
 title: 校医院
+desc: |-
+  信息来源: 校医院官网
+time: 2022 年 9 月 3 日
 grey: true
-desc: "信息来源: 校医院官网"
-time: 2022 年 8 月 21 日
 shareable: true
 content:
   - tag: account

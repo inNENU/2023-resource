@@ -10,26 +10,26 @@ general:
 gate:
   name: 校门
   content:
+    - latitude: 43.861712
+      longitude: 125.32564242
+      name: 西门
+      detail: 东北师范大学西门(正门)
+      path: west
+
+    - latitude: 43.862573
+      longitude: 125.32564203
+      name: 校医院西门
+      detail: 东北师范大学校医院西门
+      path: hospital-west
+
     - latitude: 43.85967
       longitude: 125.33021
       name: 南门
       detail: 东北师范大学南门
       path: south
 
-    - latitude: 43.86167
-      longitude: 125.3256
-      name: 西门
-      detail: 东北师范大学西门(正门)
-      path: west
-
-    - latitude: 43.86279
-      longitude: 125.32544
-      name: 校医院西门
-      detail: 东北师范大学校医院西门
-      path: hospital-west
-
-    - latitude: 43.86393
-      longitude: 125.33015
+    - latitude: 43.864067
+      longitude: 125.330073
       name: 北门
       detail: 东北师范大学北门
       path: north
@@ -190,8 +190,8 @@ school:
       detail: 东北师范大学文学院
       path: chinese
 
-    - latitude: 43.86294
-      longitude: 125.33052
+    - latitude: 43.862984
+      longitude: 125.330532
       name: 地理科学学院
       detail: 东北师范大学地理科学学院
       path: geography
@@ -222,8 +222,8 @@ building:
       detail: 东北师范大学研究生多媒体教室
       path: muti-media
 
-    - latitude: 43.86165
-      longitude: 125.32811
+    - latitude: 43.861692
+      longitude: 125.328062
       name: 图书馆
       detail: 东北师范大学图书馆
       path: library
@@ -240,14 +240,14 @@ building:
       detail: 教育部幼儿园园长培训中心
       path: garden
 
-    - latitude: 43.862726
-      longitude: 125.326967
-      name: 校史馆
-      detail: 东北师范大学校史馆
+    - latitude: 43.862732
+      longitude: 125.326995
+      name: 校车候车室
+      detail: 东北师范大学校车候车室
       path: history
 
-    - latitude: 43.86265
-      longitude: 125.32728
+    - latitude: 43.862656
+      longitude: 125.327356
       name: 就业指导中心
       detail: 东北师范大学就业指导中心
       path: career
@@ -276,11 +276,28 @@ building:
       detail: 东北师范大学综合实验楼
       path: experiment
 
+    - latitude: 43.86382
+      longitude: 125.331556
+      name: 实验楼
+      detail: 东北师范大学实验楼
+      path: experiment
+
     - latitude: 43.863553
       longitude: 125.333851
       name: 师训大楼
       detail: 东北师范大学国际学术交流服务中心 / 师训大楼
       path: shixun
+
+    - latitude: 43.862526
+      longitude: 125.334165
+      name: 学生心理健康中心
+      detail: 东北师范大学学生心理健康中心
+      path: psychology
+
+    - latitude: 43.86361
+      longitude: 125.329865
+      name: 附属幼儿园
+      detail: 东北师范大学附属幼儿园
 
 facility:
   name: 设施
@@ -325,6 +342,11 @@ facility:
       longitude: 125.336322
       name: 快递柜
       path: express-cabinet
+
+    - latitude: 43.862596
+      longitude: 125.333357
+      name: ATM
+      detail: 北苑大厅东南角
 
 sports:
   name: 运动场地
@@ -383,11 +405,118 @@ sports:
       detail: 东北师范大学体育馆
       path: gym
 
+store:
+  name: 店铺
+  content:
+    - latitude: 43.861806
+      longitude: 125.336898
+      name: 梅小姐私房烘焙店
+      detail: 浴池正门右侧
+
+    - latitude: 43.862917
+      longitude: 125.332566
+      name: 北苑蛋糕店
+      detail: 北苑地下一楼西北角
+
+    - latitude: 43.862347
+      longitude: 125.337067
+      name: e 丰电子坊
+      detail: 浴池正门右侧
+
+    - latitude: 43.860105
+      longitude: 125.332866
+      name: 南苑维修店
+      detail: 南苑二楼西侧
+
+    - latitude: 43.863625
+      longitude: 125.337262
+      name: 亓嘉咖啡
+      detail: 三舍 AB 大厅
+
+    - latitude: 43.862644
+      longitude: 125.337152
+      name: 甜啦啦
+      detail: 学生浴池正门左侧
+
+    - latitude: 43.862765
+      longitude: 125.333539
+      name: 木子鐡饮品店
+      detail: 北苑一楼
+
+    - latitude: 43.862932
+      longitude: 125.332583
+      name: 北苑的茶
+      detail: 北苑地下一楼西北角
+
+    - latitude: 43.859935
+      longitude: 125.332861
+      name: 贡茶
+      detail: 南苑一楼
+
+    - latitude: 43.8627
+      longitude: 125.332943
+      name: 葱蜂鲜果
+      detail: 北苑地下一楼东南角
+
+    - latitude: 43.862592
+      longitude: 125.33717
+      name: 心随果动
+      detail: 浴池正门左侧
+
+    - latitude: 43.862609
+      longitude: 125.337086
+      name: 觉起造型
+      detail: 浴池正门左侧
+
+    - latitude: 43.862415
+      longitude: 125.337114
+      name: 锦尚博雅
+      detail: 浴池正门右侧
+
+    - latitude: 43.862628
+      longitude: 125.333041
+      name: 北苑理发店
+      detail: 北苑地下一楼东南角
+
+    - latitude: 43.862399
+      longitude: 125.337065
+      name: 好又快图文店
+      detail: 浴池正门右侧
+
+    - latitude: 43.862576
+      longitude: 125.332823
+      name: 北苑复印店
+      detail: 北苑地下一楼南侧
+
+    - latitude: 43.860107
+      longitude: 125.333552
+      name: 南苑复印店
+      detail: 南苑餐厅东门
+
+    - latitude: 43.861629
+      longitude: 125.328177
+      name: 图书馆图文
+      detail: 图书馆一楼右侧
+
+    - latitude: 43.861814
+      longitude: 125.328197
+      name: 图书馆电子阅览室
+
+    - latitude: 43.86263
+      longitude: 125.337064
+      name: 糖果洗衣
+      detail: 浴池正门左侧
+
+    - latitude: 43.862562
+      longitude: 125.332911
+      name: 北苑洗衣店
+      detail: 北苑地下一楼南侧
+
 scenery:
   name: 风景
   content:
-    - latitude: 43.86065
-      longitude: 125.32861
+    - latitude: 43.86063
+      longitude: 125.328954
       name: 生命广场
       detail: 东北师范大学生命广场
       path: life

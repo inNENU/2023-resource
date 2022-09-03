@@ -1,13 +1,15 @@
 title: 本部浴池
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 3 日
 shareable: true
 content:
   - tag: title
-    text: 地址
+    text: 简介
 
   - tag: text
-    text: 学生八舍旁，幼儿园园长培训中心后侧。
+    text:
+      - 本部学生浴池在八舍南侧，一楼是男宾、二楼是女宾。
+      - 浴池一楼同时包含奶茶店、水果店、理发店、眼镜店、烘焙店、洗衣店等店铺，同时还包含了休息室、健身器材等设施。
 
   - tag: location
     title: 本部浴池

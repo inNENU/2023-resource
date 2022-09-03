@@ -6,14 +6,66 @@ photo:
   - $img/bath/benbu-main-2.jpg
   - $img/bath/benbu-env.jpg
   - $img/bath/benbu-outside.jpg
+  - $img/bath/benbu-left.jpg
+  - $img/bath/benbu-right.jpg
+  - $img/bath/benbu-shop3.jpg
+  - $img/bath/benbu-shop4.jpg
 content:
+  - tag: title
+    text: 简介
+
   - tag: p
     type: info
     text:
-      - 本部学生浴池在九舍南侧，一楼是男宾、二楼是女宾。
+      - 本部学生浴池在八舍南侧，一楼是男宾、二楼是女宾。
       - 浴池一楼同时包含奶茶店、水果店、理发店、眼镜店、烘焙店、洗衣店等店铺，同时还包含了休息室、健身器材等设施。
 
   - tag: text
-    type: info
-    heading: 更多详情
-    path: /guide/bath/
+    heading: 一楼
+    text:
+      - 拥有水果店、复印店、奶茶店、化妆品店、理发店等店铺
+      - 包含健身房与休息室等设施。
+      - 还有一个小小的男宾😑
+
+  - tag: list
+    header: false
+    items:
+      - text: 本部浴池生活区
+        path: /guide/life/benbu-bath-district
+
+  - tag: text
+    heading: 二楼
+    text:
+      - 浴池二楼为女宾区。
+
+  - tag: title
+    text: 洗浴区域
+
+  - tag: p
+    text:
+      - 洗浴区在入口处提供了吹风机、梳妆镜、体重秤等设置。
+      - 每个洗浴间都有可上锁的门，周围是毛玻璃，门后有放置衣服和鞋子的箱子。
+
+  - tag: img
+    src: $img/bath/benbu-env.jpg
+    desc: 洗浴区
+
+  - tag: img
+    src: $img/bath/benbu-cloth-box.jpg
+    desc: 衣物箱
+
+  - tag: img
+    src: $img/bath/benbu-dressing-table.jpg
+    desc: 梳妆台 (有吹风机)
+
+  - tag: img
+    src: $img/bath/benbu-scale.jpg
+    desc: 体重秤
+
+  - tag: title
+    text: 开放时间
+
+  - tag: text
+    text:
+      - 8:00🕗 - 22:00🕙
+      - 每月 15 日、30 日上午检修
