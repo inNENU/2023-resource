@@ -2,7 +2,7 @@ title: 净月菜鸟驿站
 desc: 照片来自王慕梓
 author:
   - Mr.Hope
-time: 2022 年 9 月 1 日
+time: 2022 年 9 月 4 日
 shareable: true
 content:
   - tag: title
@@ -97,21 +97,21 @@ content:
       - 如果网不好或者操作不当导致出错，机器会发出“出错了，请联系工作人员”的提示音。此时请移出快递，待机器屏幕警示消失后，再次尝试扫描。
       - 如果一直扫描出错，请联系驿站工作人员处理。
 
-  - tag: title
-    text: 联系方式
+  # - tag: title
+  #   text: 联系方式
 
-  - tag: action
-    header: 菜鸟驿站微信号
-    content: wxid_vik9unh166a322
+  # - tag: action
+  #   header: 菜鸟驿站微信号
+  #   content: wxid_vik9unh166a322
 
-  - tag: phone
-    header: 净月京东快递
-    num: 13021088631
-    fName: 净月京东快递
-    org: 东北师范大学
+  # - tag: phone
+  #   header: 净月京东快递
+  #   num: 13021088631
+  #   fName: 净月京东快递
+  #   org: 东北师范大学
 
-  - tag: phone
-    header: 净月顺丰快递
-    num: 13804374160
-    fName: 净月顺丰快递
-    org: 东北师范大学
+  # - tag: phone
+  #   header: 净月顺丰快递
+  #   num: 13804374160
+  #   fName: 净月顺丰快递
+  #   org: 东北师范大学
