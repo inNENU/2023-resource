@@ -18,13 +18,17 @@ export const genDonate = (data: Donate, filePath: string): PageConfig => {
   const bestData = data.donations
     .filter((item) => item[1] >= 50)
     .sort(([, a], [, b]) => b - a)
-    .map((item) => `${item[0]} ￥${item[1]}`);
-  const normalData = data.donations
+    .map((item) => `${item[0]}: ￥${item[1]}`);
+  const goldData = data.donations
     .filter((item) => item[1] < 50 && item[1] >= 10)
     .sort(([, a], [, b]) => b - a)
-    .map((item) => `${item[0]} ￥${item[1]}`);
-  const specialData = data.donations
-    .filter((item) => item[1] < 10)
+    .map((item) => `${item[0]}: ￥${item[1]}`);
+  const outstandingData = data.donations
+    .filter((item) => item[1] < 10 && item[1] > 2)
+    .sort(([, a], [, b]) => b - a)
+    .map((item) => `${item[0]}: ￥${item[1]}`);
+  const goodData = data.donations
+    .filter((item) => item[1] <= 2)
     .sort(([, a], [, b]) => b - a)
     .map((item) => `${item[0]}`);
 
@@ -43,7 +47,7 @@ export const genDonate = (data: Donate, filePath: string): PageConfig => {
       },
       {
         tag: "title",
-        text: "最佳支持者",
+        text: "最佳支持者 (￥50+)",
       },
       bestData.length
         ? {
@@ -57,12 +61,12 @@ export const genDonate = (data: Donate, filePath: string): PageConfig => {
           },
       {
         tag: "title",
-        text: "杰出支持者",
+        text: "金牌支持者 (￥10+)",
       },
-      normalData.length
+      goldData.length
         ? {
             tag: "ol",
-            text: normalData,
+            text: goldData,
           }
         : {
             tag: "text",
@@ -70,12 +74,25 @@ export const genDonate = (data: Donate, filePath: string): PageConfig => {
           },
       {
         tag: "title",
-        text: "特别支持者",
+        text: "杰出支持者 (￥2+)",
       },
-      specialData.length
+      outstandingData.length
         ? {
             tag: "ol",
-            text: specialData,
+            text: outstandingData,
+          }
+        : {
+            tag: "text",
+            text: ["暂无"],
+          },
+      {
+        tag: "title",
+        text: "优秀支持者",
+      },
+      goodData.length
+        ? {
+            tag: "ol",
+            text: goodData,
           }
         : {
             tag: "text",
