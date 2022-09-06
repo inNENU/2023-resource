@@ -54,23 +54,11 @@ content:
         icon: activity
         path: guide/activity/
 
-      - text: 防盗防骗
-        color: olive
-        name: Safety
-        icon: safe
-        path: guide/safety/
-
       - text: 常见问题
         color: cyan
         name: FAQ
         icon: faq
         path: guide/faq/
-
-      - text: 经验分享直播与答疑
-        color: purple
-        name: Streaming
-        icon: activity
-        url: info?path=OMrHope/streaming
 
   - tag: grid
     header: 行在东师
