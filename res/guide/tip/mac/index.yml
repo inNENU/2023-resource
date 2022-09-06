@@ -1,15 +1,12 @@
 title: Mac 小贴士
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 grey: true
 shareable: true
 content:
-  - tag: list
-    header: 快速上手
-    items:
-      - text: Mac 使用教程
-        icon: idea
-        path: guide/
+  - tag: action
+    header: Mac 使用教程
+    content: https://support.apple.com/zh-cn/guide/mac-help/welcome/mac
 
   - tag: list
     header: 使用 Windows

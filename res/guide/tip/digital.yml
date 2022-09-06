@@ -1,6 +1,6 @@
 title: 数码产品贴士贴士
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 grey: true
 shareable: true
 content:
@@ -34,10 +34,6 @@ content:
   - tag: list
     header: Mac
     items:
-      - text: macOS 使用教程
-        icon: intro
-        path: mac/guide/
-
       - text: 使用”启动转换助理“安装 Windows
         icon: idea
         path: mac/bootcamp/
