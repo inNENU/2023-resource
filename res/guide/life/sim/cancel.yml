@@ -27,27 +27,27 @@ content:
     text: 扫描下方二维码或自行关注微信公众号“工信部 12300”
 
   - tag: img
-    src: $img/life/sim/caict12300.jpg
+    src: $img/tip/sim/caict12300.jpg
 
   - tag: text
     text: 选择服务中的“用户申诉” - “提交申诉”
 
   - tag: img
-    src: $img/life/sim/12300-apply.png
+    src: $img/tip/sim/12300-apply.png
 
   - tag: text
     text: 按要求填写对应的信息，其中注意最后一项的弹窗要按照如下方式选择。
 
   - tag: img
-    src: $img/life/sim/complaint2.png
+    src: $img/tip/sim/complaint2.png
     desc: 选择“是”
 
   - tag: img
-    src: $img/life/sim/complaint3.png
+    src: $img/tip/sim/complaint3.png
     desc: 选择“否”
 
   - tag: img
-    src: $img/life/sim/complaint1.png
+    src: $img/tip/sim/complaint1.png
     desc: 其他项目如实填写
 
   - tag: text
