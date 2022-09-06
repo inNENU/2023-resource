@@ -1,6 +1,6 @@
 title: IETab
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 shareable: true
 content:
   - tag: title
@@ -15,14 +15,13 @@ content:
   - tag: list
     header: false
     items:
+      - text: 在 Microsoft Edge 中添加扩展程序
+        icon: edge
+        path: msedge
+
       - text: 在 Chrome 中添加扩展程序
         icon: chrome
         path: chrome
-
-      - text: 在 Microsoft Edge 中添加扩展程序
-        icon: edge
-        desc: 不推荐
-        path: msedge
 
   - tag: title
     text: 使用说明
