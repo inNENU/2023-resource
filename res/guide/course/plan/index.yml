@@ -1,6 +1,6 @@
 title: 课程计划
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 desc: 学院顺序来自东北师范大学教务处
 shareable: true
 content:
@@ -108,3 +108,9 @@ content:
   - tag: doc
     name: 罗格斯大学·纽瓦克学院本科课程计划
     url: $file/courseplan/Newark.pdf
+
+  - tag: list
+    header: 指导意见
+    items:
+      - text: 东北师范大学本科人才培养方案修订指导性意见
+        path: all

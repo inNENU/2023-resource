@@ -1,6 +1,6 @@
 title: 360 安全浏览器
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 shareable: true
 content:
   - tag: text
@@ -25,7 +25,7 @@ content:
     text: 不建议使用 360 安全浏览器的原因
 
   - tag: img
-    src: $img/tip/360-evil.jpg
+    src: $img/tip/360/evil.jpg
     desc: 界面展示
 
   - tag: list
@@ -42,7 +42,7 @@ content:
     path: setting
 
   - tag: img
-    src: $img/tip/360-settings-after.jpg
+    src: $img/tip/360/after.jpg
     desc: 修改后的干爽页面
 
   - tag: title
@@ -64,5 +64,5 @@ content:
     text: 所以对于有需要的网站，请手动在地址栏中切换到兼容模式。
 
   - tag: img
-    src: $img/tip/360-compatable.png
+    src: $img/tip/360/compatable.png
     desc: 兼容模式切换

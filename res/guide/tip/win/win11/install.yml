@@ -1,6 +1,6 @@
 title: Windows 11 安装流程
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 shareable: true
 content:
   - tag: text
@@ -17,7 +17,7 @@ content:
 
       - text: 从启动盘启动
         icon: play
-        path: ../usb-boot
+        path: ../reinstall/usb-boot
 
   - tag: title
     text: Windows 11 安装流程

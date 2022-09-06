@@ -1,6 +1,6 @@
 title: 本科生补考、免修
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 shareable: true
 cite: http://my.nenu.edu.cn/hallIndex/showAppDetail?appid=c6b655a4f8d04021bdef15a2af69530d
 content:
@@ -17,9 +17,7 @@ content:
     header: false
     items:
       - text: 本科免修申请
-        desc: 制作中
-        path: /guide/system/under/
+        path: /guide/system/under/exemption/others
 
       - text: 本科补考申请
-        desc: 制作中
-        path: /guide/system/under/
+        path: /guide/system/under/makeup

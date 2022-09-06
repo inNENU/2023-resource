@@ -1,6 +1,6 @@
 title: 本科生缓考
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 shareable: true
 cite: http://my.nenu.edu.cn/hallIndex/showAppDetail?appid=a830e4f1dd744f83b2b65511a42fe2cb
 content:
@@ -16,6 +16,7 @@ content:
   - tag: list
     header: false
     items:
+      # TODO:
       - text: 本科缓考申请
         desc: 制作中
         path: /guide/system/under/

@@ -17,15 +17,15 @@ content:
 
       - text: 系统修复
         icon: repair
-        path: win/os-repair
+        path: win/repair/os-repair
 
       - text: 初始化电脑
         icon: reset
-        path: win/os-reset
+        path: win/reinstall/os-reset
 
       - text: 重装系统
         icon: reset
-        path: win/os-reinstall
+        path: win/reinstall/os-reinstall
 
       - text: 更多 Windows 相关
         icon: more

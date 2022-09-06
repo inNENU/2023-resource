@@ -1,6 +1,6 @@
 title: 课程免修
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 6 日
 shareable: true
 content:
   - tag: title
@@ -31,10 +31,9 @@ content:
   - tag: list
     header: false
     items:
-      # 制作中
       - text: 免修申请
         icon: exemption
-        path: /guide/system/under/
+        path: /guide/system/under/exemption/others
 
   - tag: title
     text: 英语免修
