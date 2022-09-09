@@ -9,7 +9,15 @@ content:
     name: 东师青年
     title: 欣欣向“融” ，“媒”你不行！快来加入我们吧！
     desc: 融媒体大家庭期待你的到来!
-    url: https://mp.weixin.qq.com/s/_Kuk0Ijc19aLMUXz-fqyJg
+    url: info?id=/guide/organization/media-center/intake
+
+  - tag: card
+    title: 青·纳新 | 《东师青年》报社拍了拍你，并向你递出橄榄枝！
+    cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmFWeeD8pYjZibs3mONwaibicEDRDOI6TLTD5rNFuTRgibFK7kpG1o8jgrOTTghIV3MF1c2ZeJSb3ofbw/0?wx_fmt=jpeg
+    desc: 秋风执笔，白露成章。崭新的秋天里，《东师青年》报社开启新的篇章。立足校园，观察天下。
+    name: 《东师青年》报社
+    logo: $img/organization/newspaper.png
+    url: info?id=/guide/organization/newspaper/intake
 
   - tag: card
     cover: $img/tab/life.jpg

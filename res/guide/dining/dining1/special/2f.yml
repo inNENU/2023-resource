@@ -2,7 +2,7 @@ title: 一食堂二楼特色档口
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2022 年 8 月 31 日
+time: 2022 年 9 月 9 日
 shareable: true
 content:
   - tag: title
@@ -28,6 +28,11 @@ content:
       - 鲜榨果汁
       - 炒酸奶
       - 麻辣香锅
+
+  - tag: ul
+    heading: 其他
+    text:
+      - 罗小生小火锅
 
   - tag: title
     text: 相关菜品与价格

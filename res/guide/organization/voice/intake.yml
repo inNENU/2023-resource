@@ -7,7 +7,7 @@ content:
       - “这是’东师之声’校园广播站。”
     align: center
     style:
-      font-size: 18px
+      font-size: 22px
 
   - tag: p
     text:

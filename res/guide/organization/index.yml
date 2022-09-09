@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2022 年 8 月 27 日
+time: 2022 年 9 月 9 日
 shareable: true
 grey: true
 content:
@@ -40,7 +40,7 @@ content:
 
       - text: 团委融媒体中心
         icon: $img/organization/nenuyouth.png
-        path: new-media-center
+        path: media/
 
       - text: 《东师青年》报社
         icon: $img/organization/newspaper.png

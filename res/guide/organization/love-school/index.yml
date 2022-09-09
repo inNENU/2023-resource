@@ -6,11 +6,11 @@ content:
     logo: $img/organization/love-school.png
     desc: 耐心育人以学识，爱心助人以成才
 
-  - tag: card
-    cover: $img/organization/love-school-cover.png
-    logo: $img/organization/love-school.png
-    title: 我们纳新啦
-    url: info?id=Gorganization/love-school/intake
+  # - tag: card
+  #   cover: $img/organization/love-school-cover.png
+  #   logo: $img/organization/love-school.png
+  #   title: 我们纳新啦
+  #   url: info?id=Gorganization/love-school/intake
 
   - tag: p
     heading: " "
