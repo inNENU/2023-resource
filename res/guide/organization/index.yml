@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2022 年 9 月 9 日
+time: 2022 年 9 月 13 日
 shareable: true
 grey: true
 content:
@@ -22,13 +22,13 @@ content:
         icon: $img/organization/yanHui.png
         path: graduate
 
-      - text: 学生社团联合会
+      - text: 学生社团发展管理中心
         icon: $img/organization/sheguan.png
         path: association-union
 
       - text: 红烛志愿者协会
         icon: $img/organization/hongZhu.png
-        path: hongzhu
+        path: hongzhu/
 
       - text: 厚普公益学校
         icon: $img/organization/houpu.png

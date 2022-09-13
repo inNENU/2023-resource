@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 13 日
 shareable: true
 content:
   - tag: text
@@ -24,7 +24,7 @@ content:
     heading: 红烛志愿者协会
     text:
       - 我校以开展志愿服务为主的学生组织是『红烛志愿者协会』。
-    path: /guide/organization/hongzhu
+    path: /guide/organization/hongzhu/
 
   - tag: text
     type: info

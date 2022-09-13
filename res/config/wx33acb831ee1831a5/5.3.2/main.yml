@@ -3,21 +3,16 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkaWCR4aDTneRttJA1aicVDCDoeibt7dlDxLweq9LPysYuibrTQ9VLn90LPPEyV3xVvjcAd53CibOxkBA/0?wx_fmt=jpeg
-    logo: $img/organization/nenuyouth.png
-    name: 东师青年
-    title: 欣欣向“融” ，“媒”你不行！快来加入我们吧！
-    desc: 融媒体大家庭期待你的到来!
-    url: https://mp.weixin.qq.com/s/_Kuk0Ijc19aLMUXz-fqyJg
+  - tag: list
+    header: 纳新季
+    items:
+      - text: 学生组织纳新
+        icon: student-org
+        path: guide/organization/intake
 
-  - tag: card
-    title: 青·纳新 | 《东师青年》报社拍了拍你，并向你递出橄榄枝！
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmFWeeD8pYjZibs3mONwaibicEDRDOI6TLTD5rNFuTRgibFK7kpG1o8jgrOTTghIV3MF1c2ZeJSb3ofbw/0?wx_fmt=jpeg
-    desc: 秋风执笔，白露成章。崭新的秋天里，《东师青年》报社开启新的篇章。立足校园，观察天下。
-    name: 《东师青年》报社
-    logo: $img/organization/newspaper.png
-    url: https://mp.weixin.qq.com/s/PDvwUdUxv7BPIl9Vn8AW-A
+      - text: 社团纳新
+        icon: association
+        path: guide/association/intake
 
   - tag: card
     cover: $img/tab/life.jpg
