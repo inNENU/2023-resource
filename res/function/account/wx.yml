@@ -238,7 +238,7 @@
 
     - name: 东师模联 NENUMUN
       desc: 东北师范大学模拟联合国协会
-      logo: $img/association/mun.png
+      logo: $img/association/mun/logo.png
       path: mun
 
     - name: 东师锅庄林

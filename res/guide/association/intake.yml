@@ -14,7 +14,7 @@ content:
 
   - tag: card
     cover: $img/media/join.png
-    logo: $img/association/mun.png
+    logo: $img/association/mun/logo.png
     name: 模拟联合国协会
     title: 我们在纳新
     url: info?id=/guide/association/study/mun-in

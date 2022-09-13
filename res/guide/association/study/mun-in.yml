@@ -3,6 +3,15 @@ author: Mr.Hope
 time: 2022 年 9 月 13 日
 shareable: true
 content:
+  - tag: account
+    name: 模拟联合国协会
+    detail: 东北师范大学模拟联合国协会
+    desc: 东北师范大学模拟联合国协会，简称东师模联(NENUMUN)，协会秉承“全球视野，青年使命”的活动理念，已开展多次模联活动。本公众平台，将会给大家推动协会内部活动信息和各高校模联大会参会信息。
+    logo: $img/association/mun/logo.png
+    wxid: gh_6a5ebeb38e0a
+    wxcode: $img/media/mun-wx-qrcode.jpg
+    account: mun
+
   - tag: ol
     heading: 加入模联，你可以收获
     text:
@@ -10,6 +19,19 @@ content:
       - 有机会在全国乃至全球的高平台上与其他代表们切磋学术水平，提升高度；
       - 参与东师模联校内会、校际会等高质量模联会议的主席团工作
       - 通过模联活动获得国家级、校级实践证明、获奖证书，丰富自身履历
+
+  - tag: carousel
+    images:
+      - $img/association/mun/activity1.jpg
+      - $img/association/mun/activity2.jpg
+      - $img/association/mun/activity3.jpg
+      - $img/association/mun/activity4.jpg
+      - $img/association/mun/activity5.jpg
+      - $img/association/mun/activity6.jpg
+
+  - tag: action
+    header: 纳新问卷
+    content: https://www.wjx.top/vm/Q0hjDxN.aspx
 
   - tag: title
     text: 常见问题
