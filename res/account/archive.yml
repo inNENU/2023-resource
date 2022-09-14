@@ -6,7 +6,8 @@ logo: $img/media/official.png
 qrcode: $img/media/archive-wechat.jpg
 article:
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/ssoe85BllnFJ93VSKmjchbg3PWdwwlXv5xC3oicLyiawIojCiaV0Bq21853uHZ3mzYicHIdXYatJJJrlwkYSkoqAyg/0?wx_fmt=jpeg
-    title: 国际档案日：随我们一同走进东师档案馆
+    title: |-
+      国际档案日: 随我们一同走进东师档案馆
     desc: 2022年6月9日，迎来了第15个国际档案日。值此契机，我们一起走进东北师范大学档案馆，为您揭开档案馆的神秘面纱。
     url: https://mp.weixin.qq.com/s/92m98inkH4bPJfohhX72BQ
 

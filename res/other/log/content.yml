@@ -1,6 +1,32 @@
 title: 内容更新日志
 content:
   - tag: title
+    text: 2022/09/14
+
+  - tag: ul
+    heading: 新增
+    text:
+      - 推免通知
+      - 推免规则
+      - 推免解读
+      - 重修介绍
+
+  - tag: title
+    text: 2022/09/13
+
+  - tag: ul
+    heading: 新增
+    text:
+      - 社团纳新
+      - 学生组织纳新
+
+  - tag: ul
+    heading: 更新
+    text:
+      - 部分社团介绍
+      - 部分学生组织介绍
+
+  - tag: title
     text: 2022/09/06
 
   - tag: ul

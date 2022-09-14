@@ -1,7 +1,7 @@
 title: 学习
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 9 月 14 日
 shareable: true
 content:
   - tag: list
@@ -19,7 +19,7 @@ content:
 
       - text: 补考
         icon: change
-        path: retake
+        path: make-up
 
       - text: 缓考
         icon: time
@@ -28,6 +28,10 @@ content:
       - text: 课程免修
         icon: exemption
         path: exemption
+
+      - text: 重修
+        icon: reset
+        path: retake
 
       - text: 学业预警
         icon: alert
