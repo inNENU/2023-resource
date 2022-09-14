@@ -1,6 +1,6 @@
 title: 模拟联合国协会纳新
 author: Mr.Hope
-time: 2022 年 9 月 13 日
+time: 2022 年 9 月 15 日
 shareable: true
 content:
   - tag: account
@@ -32,6 +32,10 @@ content:
   - tag: action
     header: 纳新问卷
     content: https://www.wjx.top/vm/Q0hjDxN.aspx
+
+  - tag: img
+    src: $img/association/mun/qq-group.png
+    desc: 纳新群
 
   - tag: title
     text: 常见问题

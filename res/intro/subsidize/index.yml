@@ -1,7 +1,7 @@
 title: 资助
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 30 日
+time: 2022 年 9 月 15 日
 shareable: true
 content:
   - tag: p
@@ -59,6 +59,6 @@ content:
   - tag: list
     header: 通知公告
     items:
-      - text: 2021 - 2022 学年资助对象评定
+      - text: 2022 - 2023 学年资助对象评定
         icon: notice
         path: notice

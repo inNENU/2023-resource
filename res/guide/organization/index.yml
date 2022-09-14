@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2022 年 9 月 13 日
+time: 2022 年 9 月 15 日
 shareable: true
 grey: true
 content:
@@ -32,7 +32,7 @@ content:
 
       - text: 厚普公益学校
         icon: $img/organization/houpu.png
-        path: hope
+        path: hope/
 
       - text: 研究生支教团
         icon: $img/organization/yan-zhi.png

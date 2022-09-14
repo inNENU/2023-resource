@@ -258,6 +258,12 @@ content:
         icon: exam
         path: guide/exam/
 
+      - text: 考研/保研
+        color: red
+        name: Postgraduate
+        icon: teacher
+        path: guide/post/
+
       - text: 优秀毕业生建议
         color: purple
         name: Advice
