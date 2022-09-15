@@ -1,0 +1,26 @@
+title: 保研相关
+author: Mr.Hope
+time: 2022 年 9 月 16 日
+grey: true
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 2022 年推免通知
+        icon: notice
+        path: notice
+
+      - text: 第 25 届研究生支教团通知
+        icon: notice
+        path: teach
+
+  - tag: list
+    items:
+      - text: 推免工作实施办法
+        desc: 保研规则
+        icon: rule
+        path: promotion-rule
+
+      - text: 实施办法解读
+        icon: idea
+        path: explain
