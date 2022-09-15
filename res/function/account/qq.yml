@@ -28,6 +28,20 @@
       openid: 485F6B43DF35335DE39C618347D24389
       qrcode: $img/media/voice-qq.png
 
+    - name: 厚普公益学校艺术分校
+      desc: 厚德载物，普泽爱心
+      logo: $img/organization/houpu.png
+      id: 3208064958
+      openid: 849F617BF31C1D376FBAB5C20BE5404B
+      qrcode: $img/media/hope-art-qq.jpg
+
+    # - name: 东师招生办新媒体中心
+    #   desc: 东师招生办新媒体中心
+    #   logo: $img/media/official.png
+    #   id: 2935216698
+    #   openid: 4ABBD780EEDA69C085D67AF4778CA2EC
+    #   qrcode: $img/media/aixinshizhe-qq.jpg
+
     - name: 爱心使者团
       desc: 用爱心回报社会，用信心成就未来
       logo: $img/organization/aixinshizhe.png

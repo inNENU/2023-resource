@@ -2,7 +2,7 @@ title: 志愿服务类社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 16 日
 shareable: true
 content:
   - tag: title
@@ -26,16 +26,16 @@ content:
       - text: 志远支教团
         path: zhiyuan
 
-      - text: 数院明日乡支教团
+      - text: 明日乡公益支教团
         path: mingri
 
       - text: 山海之行支教团
         path: shanhai
 
-      - text: 红丝带
+      - text: 红丝带志愿者协会
         path: redribbon
 
-      - text: “播爱·蒲公英”协会
+      - text: 郭明义爱心团队东北师范大学 “播爱·蒲公英”分队
         path: dandelion
 
       - text: 蒙你所爱支教团
@@ -53,7 +53,8 @@ content:
   - tag: list
     header: false
     items:
-      - text: 待更新
+      - text: 新苗支教团
+        desc: 暂无详情
 
   - tag: functional-list
     header: 欢迎社团入驻本页面

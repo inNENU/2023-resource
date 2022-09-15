@@ -2,15 +2,12 @@ title: 本部学术科技类社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 16 日
 grey: true
 shareable: true
 content:
   - tag: list
     items:
-      - text: 天宇协会
-        path: astronomy
-
       - text: 物院教师技能协会
         path: teach
 
@@ -23,11 +20,20 @@ content:
       - text: 数学建模协会
         path: math-modal
 
-      - text: 乐群协会
-        path: lequn
-
       - text: D.N.A 协会
         path: dna
+
+      - text: 心理协会
+        path: psychology
+
+      - text: 史学协会
+        path: history
+
+      - text: 全英辩论俱乐部
+        path: en-debate
+
+      - text: 常春藤协会
+        desc: 暂无详情
 
   - tag: functional-list
     header: 欢迎社团入驻本页面

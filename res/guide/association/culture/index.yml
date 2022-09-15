@@ -2,7 +2,7 @@ title: 文化体育类社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 16 日
 shareable: true
 content:
   - tag: title
@@ -35,9 +35,8 @@ content:
         icon: $img/association/aichuang.png
         path: aichuang
 
-      - text: Ice Power 街舞社
-        icon: $img/association/ice-power-logo.png
-        path: ice-power
+      - text: 天宇协会
+        path: astronomy
 
       - text: 安仁国风社
         path: anren
@@ -51,17 +50,11 @@ content:
       - text: 翩鸿汉服社
         path: hanfu
 
-      - text: 史学协会
-        path: history
-
       - text: 锅庄舞协会
         path: zang
 
       - text: 珣玉书法社
         path: shufa
-
-      - text: 全英辩论俱乐部
-        path: en-debate
 
       - text: 辩论与演说协会
         path: debate
@@ -69,11 +62,14 @@ content:
       - text: 清雨坊书画协会
         path: shuhua
 
-      - text: 心理协会
-        path: psychology
-
       - text: 千格刀笔油画协会
         path: paint
+
+      - text: 舞龙舞狮社团
+        desc: 暂无详情
+
+      - text: 篮球裁判协会
+        desc: 暂无详情
 
   - tag: title
     text: 净月校区
@@ -85,8 +81,36 @@ content:
         icon: $img/association/quyi.png
         path: quyi
 
+      - text: Ice Power 街舞社
+        icon: $img/association/ice-power-logo.png
+        path: ice-power
+
       - text: 逗号文学社
         path: comma
+
+      - text: 缓冲区音乐社
+        desc: 暂无详情
+
+      - text: 新番日语社
+        desc: 暂无详情
+
+      - text: Nomo合唱团
+        desc: 暂无详情
+
+      - text: 胖猫滑板社
+        desc: 暂无详情
+
+      - text: 集英动漫社
+        desc: 暂无详情
+
+      - text: 心桥手语社
+        desc: 暂无详情
+
+      - text: 夏青朗诵社
+        desc: 暂无详情
+
+      - text: 纪录片研究所
+        desc: 暂无详情
 
   - tag: functional-list
     header: 欢迎社团入驻本页面

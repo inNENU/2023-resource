@@ -2,7 +2,7 @@ title: 社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 9 月 16 日
 shareable: true
 content:
   - tag: text
@@ -29,8 +29,14 @@ content:
       - text: 文化体育类
         path: culture/jingyue
 
+      - text: 思想政治类
+        path: politic/jingyue
+
       - text: 学术科技类
         path: study/jingyue
+
+      - text: 志愿服务类
+        path: volunteer/jingyue
 
   - tag: functional-list
     header: 欢迎社团入驻本页面
