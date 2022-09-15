@@ -5,6 +5,60 @@ id: dbsdxxhb
 logo: $img/media/xxhb.png
 qrcode: $img/media/xxhb-wechat.jpg
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXPxMMJRK5qoIdRkItticEjWP6yU0ZhtTUuoyLbQOHyrGdCv38hbZ6frUwMgo1Fv34qMg1nGvYKsOcQ/0?wx_fmt=jpeg
+    title: 网络安全为人民 网络安全靠人民
+    desc: 今年9月5日至11日是2022年国家网络安全宣传周。习近平总书记高度重视网络安全工作，多次强调没有网
+    url: https://mp.weixin.qq.com/s/ylNalxk6_C2tPJkbwayuqw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXOK5lkrkoDtsXozxnWFYMibhWpebVicIh925dPuZtsoDRqEgIIEnF1cDtO5OI9PJlK4anSqhkUXbIJg/0?wx_fmt=jpeg
+    title: 关于组织开展2022年国家网络安全宣传周校园日活动的通知
+    desc: |-
+      各学院 (部) 、各单位: 近日，教育部思想政治工作司就开展2022年国家网络安全宣传周校园日活动下发了通知，确定
+    url: https://mp.weixin.qq.com/s/AzEr9-fY5cRwDkHP2LaX0Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXPh6QspZa17UPfwVusOswibibOPbqib5QZfxqkicEsc9lLWvM02k9Z5ZUwNibBSP9Y0nC3dKDTq7QgZDQA/0?wx_fmt=jpeg
+    title: 校园网热点问题系列之重复登录
+    url: https://mp.weixin.qq.com/s/qgfvTt59ABRmUgpsTitbTg
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXOBHnZueHutG3gVKHJkKD00ntx8IrCzjlibVdlPyOsoUGI4Cp2ZYDf9JFictosXqoOjj0Xjg1XkW8LQ/0?wx_fmt=jpeg
+    title: 你的退费宝典来了，仅限2022届毕业生哦
+    desc: 毕业啦！您的校园网或者校园卡是否还有余额？网上服务大厅退费流程开放啦！
+    url: https://mp.weixin.qq.com/s/A6LARvbybthSyB5uH-ECPw
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXN1TRibATCIulpSx21bAJqRJoXaNOpTKG8csVUPiccsYmjePAFmaGzrEFnZlpoWZA3l8Fxp3VeXQGkg/0?wx_fmt=jpeg
+    title: 校园网热点问题系列之掉线
+    url: https://mp.weixin.qq.com/s/F1JAAi4skpWIGFKf6Ce1iA
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXNK2ib8lBnxicPLwibBBsKT5ox6mgJB7Q5JnEf66xCtxsfMwuDlEHUzN1Dgibr6Kib7CxeF1SFd1kWaiaeQ/0?wx_fmt=jpeg
+    title: 守初心笃行不怠 开新程踔厉奋发         信息化办恭祝新春快乐
+    url: https://mp.weixin.qq.com/s/kvTKWMA5gC1c7zkNcg3wzQ
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXOUiabvBicnGLB3gI74513icskPmOtrSicC27lSymn4ic9BtcgJKNhrXxLtG2movynYh1ULfib8ICh6OHIA/0?wx_fmt=jpeg
+    title: 信息化摘编第四期
+    url: https://mp.weixin.qq.com/s/T0T7AZFA5OYg3mR8L7obrA
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXOUiabvBicnGLB3gI74513icskPmOtrSicC27lSymn4ic9BtcgJKNhrXxLtG2movynYh1ULfib8ICh6OHIA/0?wx_fmt=jpeg
+    title: 信息化摘编第三期
+    url: https://mp.weixin.qq.com/s/vn_NckZ9lNtITHwlM9-RUg
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXNEoOpnotiaIeOz4pZomh48EZ5cdibIDZ5ibscoU1799haRl1YicH2Au7Ecs4QPibruv2iclNF4FCib1lLAA/0?wx_fmt=jpeg
+    title: 信息化摘编第二期
+    url: https://mp.weixin.qq.com/s/P_gp0tUy3x6UjRa4W9w7EA
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXP1iaaXmAKBRHeTZfrvJS9M5WicaWpPJsXEpslfKtO5T6T5uwJ7ufbCaxItfswqr3PVsIjzQziaKichWg/0?wx_fmt=jpeg
+    title: 弱密码，大隐患
+    desc: 冬季来临，信息化办提醒你给密码“添衣”，降低安全隐患
+    url: https://mp.weixin.qq.com/s/GKnddeO5AiWHftVJkZgjVg
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXMVYsyOKJHSgjAMYBQVPovERaSGILo1r7WCNtfJTBJOU9ichIFTPOFiaob1m2ricFWONAtNr6aYnnuWQ/0?wx_fmt=jpeg
+    title: 信息化摘编第一期
+    url: https://mp.weixin.qq.com/s/pI-w3FKvehCnRXLAag383w
+
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXM9wImaqR0wBGPgZRN6YDqyXGlfaxRY5Pvk8Vf85JwxQkMF1r9omzL2oYcJ0V4ibO7qeBz3MwsuZwQ/0?wx_fmt=jpeg
+    title: 统一身份认证之账号与密码
+    desc: 统一身份认证账号，即学/工号，初始密码为“Nenu”+ 身份证号后六位 (X 用 1 代替 )。
+    url: https://mp.weixin.qq.com/s/P_gkBCUeTH7oueIXPUIzHQ
+
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/TKhOTMjibicXOBHnZueHutG3gVKHJkKD00ntx8IrCzjlibVdlPyOsoUGI4Cp2ZYDf9JFictosXqoOjj0Xjg1XkW8LQ/0?wx_fmt=jpeg
     title: 你的退费宝典来了，仅限 2021 届毕业生哦
     desc: 对于校园网或者校园卡内有余额的毕业生，学校开通网上退费办理流程啦!

@@ -167,6 +167,16 @@
       logo: $img/media/environment.png
       path: environment
 
+    - name: 东北师范大学国际汉学院
+      desc: 东北师范大学国际汉学院官方微信平台
+      logo: $img/media/scs.png
+      path: scs
+
+    - name: 东北师范大学教师教育研究院
+      desc: 东北师范大学教师教育研究院官方微信平台
+      logo: $img/media/teacher.png
+      path: teacher
+
     - name: 东北师范大学职业与继续教育学院
       desc: 东北师范大学职业与继续教育学院官方微信平台
       logo: $img/media/vocation.png
@@ -188,6 +198,11 @@
       desc: 东北师范大学校学生会官方微信公众号
       logo: $img/organization/nenuyouth.png
       path: nenuyouth
+
+    - name: NENU 东小青
+      desc: 东北师范大学《东师青年》报社
+      logo: $img/organization/newspaper.png
+      path: newspaper
 
     - name: 东师小窝
       desc: 东北师范大学学生宿舍自我管理委员会
@@ -218,11 +233,6 @@
       desc: 东北师范大学大学生创新创业中心
       logo: $img/organization/daChuang.png
       path: career-center
-
-    - name: NENU 东小青
-      desc: 东北师范大学《东师青年》报社
-      logo: $img/organization/newspaper.png
-      path: newspaper
 
     - name: NENU 艺术团
       desc: 东北师范大学生艺术团
