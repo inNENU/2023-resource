@@ -231,7 +231,7 @@
 
     - name: 东师大学生创业中心
       desc: 东北师范大学大学生创新创业中心
-      logo: $img/organization/daChuang.png
+      logo: $img/organization/career-center/logo.png
       path: career-center
 
     - name: NENU 艺术团

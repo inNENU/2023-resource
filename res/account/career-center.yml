@@ -2,7 +2,7 @@ name: 东师大学生创业中心
 detail: 东北师范大学大学生创新创业中心
 desc: 大学生创业中心，一个富有激情的团队，等待着你与我们一起共创辉煌。
 id: chuangyezhongxin
-logo: $img/organization/daChuang.png
+logo: $img/organization/career-center/logo.png
 qrcode: $img/media/career-center-wechat.jpg
 article:
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/z1ZYpnEmdBGuMIuNHkBGhvHUvicibkLvvk4JC5ibmKHmYJLJ1WpvjWDfuNqdutOcPiaFoweGyAbNVqSy7dqVic0WZYA/0?wx_fmt=jpeg

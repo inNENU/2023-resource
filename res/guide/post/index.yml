@@ -1,52 +1,52 @@
 title: 考研保研相关
 author: Mr.Hope
-time: 2022 年 9 月 16 日
+time: 2022 年 9 月 20 日
 grey: true
 shareable: true
 content:
   - tag: title
-    text: 推免
+    text: 推免 (保研)
 
   - tag: list
     items:
       - text: 2022 年推免通知
         icon: notice
-        path: notice
+        path: promote/notice
 
       - text: 第 25 届研究生支教团通知
         icon: notice
-        path: teach
+        path: promote/teach
 
   - tag: list
     items:
       - text: 推免工作实施办法
         desc: 保研规则
         icon: rule
-        path: promotion-rule
+        path: promote/promotion-rule
 
       - text: 实施办法解读
         icon: idea
-        path: explain
+        path: promote/explain
 
   - tag: title
-    text: 考研
+    text: 考研报考
 
   - tag: list
     items:
       - text: 2023 年时间安排
         icon: time
-        path: time
+        path: exam/time
 
       - text: 2023 年全国招生规定
         icon: rule
-        path: enroll-rule
+        path: exam/enroll-rule
 
   - tag: list
     items:
       - text: 报考要求
         icon: alert
-        path: requirement
+        path: exam/requirement
 
       - text: 考研报名
         icon: apply
-        path: apply
+        path: exam/apply

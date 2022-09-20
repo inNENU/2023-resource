@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2022 年 9 月 15 日
+time: 2022 年 9 月 20 日
 shareable: true
 grey: true
 content:
@@ -59,8 +59,8 @@ content:
         path: sport-club
 
       - text: 大学生创新创业中心
-        icon: $img/organization/daChuang.png
-        path: career-center
+        icon: $img/organization/career-center/logo.png
+        path: career-center/
 
       - text: 青年马克思主义者学习研究会
         icon: $img/organization/marx.png
