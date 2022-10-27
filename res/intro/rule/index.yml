@@ -1,7 +1,7 @@
 title: 规章制度
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 10 月 27 日
 shareable: true
 content:
   - tag: list
@@ -70,6 +70,13 @@ content:
       - text: 东北师范大学研究生学术道德规范
         icon: plan
         path: academic-ethics
+
+  - tag: list
+    header: 招生
+    items:
+      - text: 普通高等学校招生体检工作指导意见
+        icon: plan
+        path: body-exam
 
   - tag: list
     header: 考试相关
