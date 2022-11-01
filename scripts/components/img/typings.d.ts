@@ -1,4 +1,4 @@
-import type { BaseComponentOptions, ImageMode } from "../common";
+import type { BaseComponentOptions, ImageMode } from "../common.js";
 
 export interface ImageComponentOptions extends BaseComponentOptions {
   tag: "img";

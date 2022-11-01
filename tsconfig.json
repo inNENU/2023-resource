@@ -16,7 +16,7 @@
     "inlineSourceMap": false,
     "inlineSources": false,
     "listEmittedFiles": true,
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
     "noEmitHelpers": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -30,10 +30,10 @@
     "strict": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "target": "es6",
+    "target": "ES2020",
     "lib": ["ESNext"],
     "locale": "zh-CN",
-    "module": "CommonJS"
+    "module": "NodeNext"
   },
   "include": ["./scripts", "./typings"]
 }

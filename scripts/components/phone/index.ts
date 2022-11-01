@@ -1,4 +1,4 @@
-import { PhoneComponentOptions } from "./typings";
+import { PhoneComponentOptions } from "./typings.js";
 import { checkKeys } from "@mr-hope/assert-type";
 
 export const resolvePhone = (

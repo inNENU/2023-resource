@@ -1,24 +1,24 @@
 import { checkKeys } from "@mr-hope/assert-type";
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "node:fs";
 
-import { resolveAccount } from "./account";
-import { resolveAction } from "./action";
-import { resolveAudio } from "./audio";
-import { resolveCard } from "./card";
-import { resolveCarousel } from "./carousel";
-import { resolveDoc } from "./doc";
-import { resolveFooter } from "./footer";
-import { resolveGrid } from "./grid";
-import { resolveList } from "./list";
-import { resolveLoading } from "./loading";
-import { resolveLocation } from "./location";
-import { resolveImg } from "./img";
-import { resolvePhone } from "./phone";
-import { resolveText } from "./text";
-import { resolveTitle } from "./title";
-import { resolveVideo } from "./video";
+import { resolveAccount } from "./account/index.js";
+import { resolveAction } from "./action/index.js";
+import { resolveAudio } from "./audio/index.js";
+import { resolveCard } from "./card/index.js";
+import { resolveCarousel } from "./carousel/index.js";
+import { resolveDoc } from "./doc/index.js";
+import { resolveFooter } from "./footer/index.js";
+import { resolveGrid } from "./grid/index.js";
+import { resolveList } from "./list/index.js";
+import { resolveLoading } from "./loading/index.js";
+import { resolveLocation } from "./location/index.js";
+import { resolveImg } from "./img/index.js";
+import { resolvePhone } from "./phone/index.js";
+import { resolveText } from "./text/index.js";
+import { resolveTitle } from "./title/index.js";
+import { resolveVideo } from "./video/index.js";
 
-import type { PageConfig, PageOptions } from "./typings";
+import type { PageConfig, PageOptions } from "./typings.js";
 
 /**
  * 处理页面数据

@@ -1,6 +1,6 @@
-import { readFileSync, writeFileSync } from "fs";
-import { resolve, relative } from "path";
-import { getFileList } from "./file";
+import { readFileSync, writeFileSync } from "node:fs";
+import { resolve, relative } from "node:path";
+import { getFileList } from "./file.js";
 
 export const convertFolder = (
   sourceFolder: string,

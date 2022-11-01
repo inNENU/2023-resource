@@ -1,6 +1,6 @@
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "node:fs";
 
-import { getFileList } from "../util";
+import { getFileList } from "../util/index.js";
 
 export interface SiteMapRule {
   /**

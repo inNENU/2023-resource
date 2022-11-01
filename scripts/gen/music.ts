@@ -1,4 +1,4 @@
-import { aliasResolve } from "../components/utils";
+import { aliasResolve } from "../components/utils.js";
 
 export interface MusicInfo {
   src: string;

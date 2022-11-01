@@ -1,6 +1,6 @@
 import { checkKeys } from "@mr-hope/assert-type";
-import { aliasResolve, resolveStyle } from "../utils";
-import type { CarouselComponentOptions } from "./typings";
+import { aliasResolve, resolveStyle } from "../utils.js";
+import type { CarouselComponentOptions } from "./typings.js";
 
 export const resolveCarousel = (
   element: CarouselComponentOptions,

@@ -1,6 +1,6 @@
 import { assertType } from "@mr-hope/assert-type";
-import { existsSync } from "fs";
-import { relative, resolve, sep } from "path";
+import { existsSync } from "node:fs";
+import { relative, resolve, sep } from "node:path";
 
 export const camelCase2kebabCase = (str: string): string => {
   const hyphenateRE = /([^-])([A-Z])/gu;

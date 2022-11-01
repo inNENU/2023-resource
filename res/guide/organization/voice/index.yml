@@ -1,7 +1,7 @@
 title: “东师之声”校园广播站
 desc: |-
   来源: 校团委官网
-time: 2022 年 9 月 9 日
+time: 2022 年 11 月 2 日
 shareable: true
 content:
   - tag: account
@@ -34,7 +34,21 @@ content:
 
   - tag: p
     text:
-      - “东师之声”校园广播站由主席团、播音部、广播剧部、融媒体部及办公室组成。
+      - “东师之声”校园广播站由节目中心、融媒体中心和办公室组成。
+
+  - tag: ul
+    heading: 节目中心
+    text:
+      - 知识节目中心
+      - 新闻节目中心
+      - 英语节目中心
+      - 文娱节目中心
+
+  - tag: ul
+    heading: 节目中心
+    text:
+      - 广宣组
+      - 运营组
 
   - tag: ul
     text:

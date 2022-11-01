@@ -256,6 +256,11 @@
       logo: $img/association/guozhuangwu.png
       path: guozhuanglin
 
+    - name: 东师 STEAM
+      desc: 东北师范大学 STEAM 教育研习社
+      logo: $img/association/steam/logo.png
+      path: steam
+
 - name: 其他
   account:
     - name: 苏东吴东北师大物业服务驿站

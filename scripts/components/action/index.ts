@@ -1,7 +1,7 @@
 import { checkKeys } from "@mr-hope/assert-type";
-import { aliasResolve } from "../utils";
+import { aliasResolve } from "../utils.js";
 
-import type { ActionComponentOptions } from "./typings";
+import type { ActionComponentOptions } from "./typings.js";
 
 export const resolveAction = (
   element: ActionComponentOptions,

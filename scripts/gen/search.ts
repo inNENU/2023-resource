@@ -1,9 +1,9 @@
-import { readFileSync, writeFileSync } from "fs";
-import { resolve } from "path";
-import { getFileList } from "../util";
+import { readFileSync, writeFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { getFileList } from "../util/index.js";
 
-import type { SearchInfo } from "./typings";
-import type { PageOptions } from "../components/typings";
+import type { SearchInfo } from "./typings.js";
+import type { PageOptions } from "../components/typings.js";
 
 const TITLE = 1;
 const HEADING = 2;

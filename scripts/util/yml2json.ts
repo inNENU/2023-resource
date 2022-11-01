@@ -1,7 +1,7 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, resolve, relative } from "node:path";
 import { load } from "js-yaml";
-import { dirname, resolve, relative } from "path";
-import { getFileList } from "./file";
+import { getFileList } from "./file.js";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const convertYml2Json = <T = any>(

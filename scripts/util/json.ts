@@ -1,4 +1,4 @@
-import { readFile, readdir } from "fs";
+import { readFile, readdir } from "node:fs";
 
 const testJSON = (path: string): Promise<void> =>
   new Promise((resolve, reject) => {

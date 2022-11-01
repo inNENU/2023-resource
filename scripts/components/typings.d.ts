@@ -1,39 +1,39 @@
-import type { AccountComponentOptions } from "./account/typings";
-import type { ActionComponentOptions } from "./action/typings";
-import type { AudioComponentOptions } from "./audio/typings";
-import type { CardComponentOptions } from "./card/typings";
-import type { CarouselComponentOptions } from "./carousel/typings";
-import type { DocComponentOptions } from "./doc/typings";
-import type { FooterComponentOptions } from "./footer/typings";
-import type { GridComponentOptions } from "./grid/typings";
-import type { ImageComponentOptions } from "./img/typings";
+import type { AccountComponentOptions } from "./account/typings.js";
+import type { ActionComponentOptions } from "./action/typings.js";
+import type { AudioComponentOptions } from "./audio/typings.js";
+import type { CardComponentOptions } from "./card/typings.js";
+import type { CarouselComponentOptions } from "./carousel/typings.js";
+import type { DocComponentOptions } from "./doc/typings.js";
+import type { FooterComponentOptions } from "./footer/typings.js";
+import type { GridComponentOptions } from "./grid/typings.js";
+import type { ImageComponentOptions } from "./img/typings.js";
 import type {
   FunctionalListComponentOptions,
   ListComponentOptions,
-} from "./list/typings";
-import type { LoadingComponentOptions } from "./loading/typings";
-import type { LocationComponentOptions } from "./location/typings";
-import type { VideoComponentOptions } from "./video/typings";
-import type { PhoneComponentOptions } from "./phone/typings";
-import type { TextComponentOptions } from "./text/typings";
-import type { TitleComponentOptions } from "./title/typings";
+} from "./list/typings.js";
+import type { LoadingComponentOptions } from "./loading/typings.js";
+import type { LocationComponentOptions } from "./location/typings.js";
+import type { VideoComponentOptions } from "./video/typings.js";
+import type { PhoneComponentOptions } from "./phone/typings.js";
+import type { TextComponentOptions } from "./text/typings.js";
+import type { TitleComponentOptions } from "./title/typings.js";
 
-export * from "./account/typings";
-export * from "./action/typings";
-export * from "./audio/typings";
-export * from "./card/typings";
-export * from "./carousel/typings";
-export * from "./doc/typings";
-export * from "./footer/typings";
-export * from "./grid/typings";
-export * from "./img/typings";
-export * from "./list/typings";
-export * from "./location/typings";
-export * from "./loading/typings";
-export * from "./phone/typings";
-export * from "./text/typings";
-export * from "./title/typings";
-export * from "./video/typings";
+export * from "./account/typings.js";
+export * from "./action/typings.js";
+export * from "./audio/typings.js";
+export * from "./card/typings.js";
+export * from "./carousel/typings.js";
+export * from "./doc/typings.js";
+export * from "./footer/typings.js";
+export * from "./grid/typings.js";
+export * from "./img/typings.js";
+export * from "./list/typings.js";
+export * from "./location/typings.js";
+export * from "./loading/typings.js";
+export * from "./phone/typings.js";
+export * from "./text/typings.js";
+export * from "./title/typings.js";
+export * from "./video/typings.js";
 
 export type PageTag =
   | "account"

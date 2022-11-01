@@ -1,30 +1,30 @@
 import { execSync } from "child_process";
-import { sync as del } from "del";
-import { convertYml2Json } from "../util/yml2json";
-import { resolvePage } from "../components/page";
-import { checkAccount, checkAccountDetail } from "./account";
-import { count } from "./count";
-import { genDonate } from "./donate";
-import { genEnrollPlan } from "./enroll-plan";
-import { genIcon } from "./icon";
-import { genLyric } from "./lyric";
-import { checkMusic } from "./music";
-import { genPEScore } from "./peScore";
-import { genQRCode } from "./qrcode";
-import { genSearchMap } from "./search";
-import { resolveLocationPage } from "./map";
-import { resolveMarker } from "./marker";
-import { genResource } from "./resource";
+import { deleteSync } from "del";
+import { convertYml2Json } from "../util/yml2json.js";
+import { resolvePage } from "../components/page.js";
+import { checkAccount, checkAccountDetail } from "./account.js";
+import { count } from "./count.js";
+import { genDonate } from "./donate.js";
+import { genEnrollPlan } from "./enroll-plan.js";
+import { genIcon } from "./icon.js";
+import { genLyric } from "./lyric.js";
+import { checkMusic } from "./music.js";
+import { genPEScore } from "./peScore.js";
+import { genQRCode } from "./qrcode.js";
+import { genSearchMap } from "./search.js";
+import { resolveLocationPage } from "./map.js";
+import { resolveMarker } from "./marker.js";
+import { genResource } from "./resource.js";
 
-import type { AccountConfig, AccountDetail } from "./account";
-import type { Donate } from "./donate";
-import type { PEConfig } from "./peScore";
-import type { MarkerOption } from "./marker";
-import type { MusicInfo } from "./music";
-import type { PageConfig } from "../components/typings";
+import type { AccountConfig, AccountDetail } from "./account.js";
+import type { Donate } from "./donate.js";
+import type { PEConfig } from "./peScore.js";
+import type { MarkerOption } from "./marker.js";
+import type { MusicInfo } from "./music.js";
+import type { PageConfig } from "../components/typings.js";
 
 // 删除旧的文件
-del([
+deleteSync([
   "./r/function/**",
   "./r/guide/**",
   "./r/intro/**",

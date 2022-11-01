@@ -1,6 +1,6 @@
 import { checkKeys } from "@mr-hope/assert-type";
-import { aliasResolve } from "../utils";
-import type { ImageComponentOptions } from "./typings";
+import { aliasResolve } from "../utils.js";
+import type { ImageComponentOptions } from "./typings.js";
 
 export const resolveImg = (
   element: ImageComponentOptions,

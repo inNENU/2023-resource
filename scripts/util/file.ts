@@ -1,5 +1,5 @@
-import { existsSync, mkdirSync, readdirSync, statSync } from "fs";
-import { resolve, relative } from "path";
+import { existsSync, mkdirSync, readdirSync, statSync } from "node:fs";
+import { resolve, relative } from "node:path";
 
 export interface ReadDirResult {
   file: string[];

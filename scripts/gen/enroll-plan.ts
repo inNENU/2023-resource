@@ -1,5 +1,5 @@
 /* eslint-disable line-comment-position */
-import { existsSync, mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 
 interface ClassConfig {
   class: string;

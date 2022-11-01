@@ -4,10 +4,10 @@ import {
   readFileSync,
   writeFileSync,
   unlinkSync,
-} from "fs";
-import { dirname, resolve } from "path";
+} from "node:fs";
+import { dirname, resolve } from "node:path";
 
-import { getFileList } from "../util";
+import { getFileList } from "../util/index.js";
 
 /** SVG 转换 */
 export const convertCSSSVG = (content: string): string =>

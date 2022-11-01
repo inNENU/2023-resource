@@ -1,8 +1,8 @@
-import { readFileSync, writeFileSync } from "fs";
-import { resolve } from "path";
-import { getFileList, getWordNumber } from "../util";
+import { readFileSync, writeFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { getFileList, getWordNumber } from "../util/index.js";
 
-import type { PageOptions } from "../components/typings";
+import type { PageOptions } from "../components/typings.js";
 
 export const getJSONValue = (content: unknown): string => {
   if (typeof content === "number") return content.toString();

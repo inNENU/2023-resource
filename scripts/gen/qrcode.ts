@@ -1,10 +1,14 @@
-import { existsSync, mkdirSync, unlinkSync, writeFileSync } from "fs";
-import { dirname, resolve } from "path";
+import { existsSync, mkdirSync, unlinkSync, writeFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
 import axios from "axios";
 import { toFile } from "qrcode";
 
-import { appIDInfo } from "../info";
-import { getFileList, getWechatAccessToken, promiseQueue } from "../util";
+import { appIDInfo } from "../info.js";
+import {
+  getFileList,
+  getWechatAccessToken,
+  promiseQueue,
+} from "../util/index.js";
 
 const appidList = Object.keys(appIDInfo);
 

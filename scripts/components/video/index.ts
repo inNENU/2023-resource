@@ -1,6 +1,6 @@
 import { checkKeys } from "@mr-hope/assert-type";
-import { aliasResolve } from "../utils";
-import type { VideoComponentOptions } from "./typings";
+import { aliasResolve } from "../utils.js";
+import type { VideoComponentOptions } from "./typings.js";
 
 export const resolveVideo = (
   element: VideoComponentOptions,

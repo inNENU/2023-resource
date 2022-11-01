@@ -1,7 +1,7 @@
+import { readFileSync, statSync, writeFileSync } from "node:fs";
+import { type } from "node:os";
 import { execSync } from "child_process";
-import { sync as del } from "del";
-import { readFileSync, statSync, writeFileSync } from "fs";
-import { type } from "os";
+import { deleteSync } from "del";
 
 // 生成排列组合
 const getCombine = <T = string>(
@@ -32,7 +32,7 @@ export const zip = (nameList: string[]): void => {
   /** 文件名 */
   const fileName = nameList.join("-");
 
-  del(`./r/${fileName}.zip`);
+  deleteSync(`./r/${fileName}.zip`);
 
   // 压缩文件
   if (type() === "Linux")

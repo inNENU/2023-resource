@@ -1,4 +1,4 @@
-import type { Marker, MarkerConfig, MarkerData } from "./typings";
+import type { Marker, MarkerConfig, MarkerData } from "./typings.js";
 
 /**
  * 处理 marker
