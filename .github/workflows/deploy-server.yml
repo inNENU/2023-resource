@@ -32,14 +32,14 @@ jobs:
           mkdir -p ~/.ssh/
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan innenu.com >> ~/.ssh/known_hosts
+          ssh-keyscan mp.innenu.com >> ~/.ssh/known_hosts
           git config --global user.name 'Mr.Hope'
-          git config --global user.email 'zhangbowang1998@gmail.com'
+          git config --global user.email 'mister-hope@outlook.com'
 
       - name: Linter Test
         run: pnpm lint
 
       - name: Deploy
         run: |
-          git push -f git@innenu.com:/www/wwwroot/mp main
-          ssh git@innenu.com "cd /www/wwwroot/mp && git reset --hard HEAD"
+          git push -f git@mp.innenu.com:/www/wwwroot/mp main
+          ssh git@mp.innenu.com "cd /www/wwwroot/mp && git reset --hard HEAD"
