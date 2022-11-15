@@ -17,7 +17,7 @@ export const resolveImg = (
       res: ["string", "undefined"],
       desc: ["string", "undefined"],
       lazy: ["boolean", "undefined"],
-      imgmode: {
+      imgMode: {
         type: ["string", "undefined"],
         enum: [
           "widthFix",

@@ -85,5 +85,5 @@ export interface CarouselComponentOptions extends BaseComponentOptions {
    */
   imgClass?: string;
   /** 图片的显示模式 */
-  imgmode?: ImageMode;
+  imgMode?: ImageMode;
 }

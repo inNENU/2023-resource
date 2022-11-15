@@ -21,13 +21,13 @@ require_once 'lib/curl.php';
  * 获得天气代码
  * 
  * @param $icon 天气代码
- * @param $isday 当前是否是白天
+ * @param $isDay 当前是否是白天
  */
-function getWeatherCode(string $icon, bool $isday)
+function getWeatherCode(string $icon, bool $isDay)
 {
   return (
     ($icon === "00" || $icon === "01" || $icon === "03" || $icon === "13"
-      ? ($isday ? "day/" : "night/")
+      ? ($isDay ? "day/" : "night/")
       : "") . $icon);
 };
 
@@ -55,14 +55,14 @@ foreach ($weatherData["rise"] as $index => $value) {
 unset($weatherData["rise"]);
 
 // 移除已经过期的日出日落时间
-$isday = false;
+$isDay = false;
 $setTime = "23:59";
 while (
   intval(substr($weatherData["forecast_1h"][0]["update_time"], 8, 2)) >
   intval(substr($riseTime[0], 0, 2))
 ) {
-  $isday = !$isday;
-  if (!$isday) {
+  $isDay = !$isDay;
+  if (!$isDay) {
     $setTime = array_shift($riseTime);
     break;
   } else array_shift($riseTime);
@@ -74,7 +74,7 @@ uksort($weatherData["forecast_1h"], "sortKey");
 foreach ($weatherData["forecast_1h"] as $index => $value) {
   if ($value["update_time"]) {
     // 白天
-    if ($isday) {
+    if ($isDay) {
       // 到了日落时间
       if (
         intval(substr($weatherData["forecast_1h"][$index]["update_time"], 8, 2)) >
@@ -86,7 +86,7 @@ foreach ($weatherData["forecast_1h"] as $index => $value) {
           "time" => $riseTime[0]
         ));
         $setTime = array_shift($riseTime);
-        $isday = false;
+        $isDay = false;
       }
     }
     // 夜晚且到了日出时间 
@@ -103,11 +103,11 @@ foreach ($weatherData["forecast_1h"] as $index => $value) {
         "time" => $riseTime[0]
       ));
       array_shift($riseTime);
-      $isday = true;
+      $isDay = true;
     }
 
     array_push($weatherData["hourForecast"], array(
-      "weatherCode" => getWeatherCode($value["weather_code"], $isday),
+      "weatherCode" => getWeatherCode($value["weather_code"], $isDay),
       "degree" => $value["degree"] . "°",
       "time" => substr($value["update_time"], 8, 2) . ":" .
         substr($value["update_time"], 10, 2)

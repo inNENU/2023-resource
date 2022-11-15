@@ -52,7 +52,7 @@ export const zip = (nameList: string[]): void => {
 
 export const genResource = (): void => {
   /** 资源列表 */
-  const resouceList = ["function", "guide", "icon", "intro"];
+  const resourceList = ["function", "guide", "icon", "intro"];
   /** 差异列表 */
   const diffResult = execSync("git status -s").toString();
 
@@ -63,7 +63,7 @@ export const genResource = (): void => {
   /** 更新列表 */
   const updateList: string[] = [];
 
-  resouceList.forEach((name) => {
+  resourceList.forEach((name) => {
     // 更新版本号
     if (diffResult.includes(` r/${name}/`)) {
       updateList.push(name);
@@ -72,7 +72,7 @@ export const genResource = (): void => {
   });
 
   // 生成 zip 并统计大小
-  getUpdateCombine(updateList, getCombine(resouceList)).forEach(
+  getUpdateCombine(updateList, getCombine(resourceList)).forEach(
     (resCombine) => {
       zip(resCombine);
 

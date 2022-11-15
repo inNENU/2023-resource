@@ -19,5 +19,5 @@ export interface ImageComponentOptions extends BaseComponentOptions {
    *
    * @default "widthFix"
    */
-  imgmode?: ImageMode;
+  imgMode?: ImageMode;
 }

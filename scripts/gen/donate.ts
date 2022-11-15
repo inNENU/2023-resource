@@ -10,7 +10,7 @@ export interface Donate {
 export const genDonate = (data: Donate, filePath: string): PageConfig => {
   const baseName = basename(filePath);
 
-  const donateAmmount = data.donations.reduce(
+  const donateAmount = data.donations.reduce(
     (prev, current) => prev + current[1],
     0
   );
@@ -106,8 +106,8 @@ export const genDonate = (data: Donate, filePath: string): PageConfig => {
         tag: "ul",
         text: [
           `总支出: ${data.all}元`,
-          `总支持: ${donateAmmount.toFixed(2)}元`,
-          `结余: ${(donateAmmount - data.all).toFixed(2)}元`,
+          `总支持: ${donateAmount.toFixed(2)}元`,
+          `结余: ${(donateAmount - data.all).toFixed(2)}元`,
         ],
       },
     ],

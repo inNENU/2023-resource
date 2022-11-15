@@ -41,13 +41,13 @@ export const getWords = (path: string): number => {
 };
 
 export const count = (): void => {
-  const functionwords = getWords("./r/function");
-  const guidewords = getWords("./r/guide");
+  const functionWords = getWords("./r/function");
+  const guideWords = getWords("./r/guide");
   const introWords = getWords("./r/intro");
   const otherWords = getWords("./r/other");
   const wordsTip = `小程序现有字数为 ${
-    functionwords + guidewords + introWords + otherWords
-  } 字，其中东师介绍部分 ${introWords} 字，东师指南部分 ${guidewords} 字，功能大厅部分 ${functionwords} 字，其他部分 ${otherWords} 字。`;
+    functionWords + guideWords + introWords + otherWords
+  } 字，其中东师介绍部分 ${introWords} 字，东师指南部分 ${guideWords} 字，功能大厅部分 ${functionWords} 字，其他部分 ${otherWords} 字。`;
 
   console.log(wordsTip);
 

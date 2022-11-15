@@ -478,7 +478,7 @@
           "description": "图片描述",
           "type": "string"
         },
-        "imgmode": {
+        "imgMode": {
           "description": "图片填充模式",
           "type": "string",
           "enum": [
@@ -824,7 +824,7 @@
           "description": "滑动方向是否纵向",
           "type": "number"
         },
-        "imgmode": {
+        "imgMode": {
           "description": "carousel 中图片的显示模式",
           "type": "string",
           "enum": [

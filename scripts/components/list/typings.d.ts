@@ -32,7 +32,7 @@ export interface ListComponentOptions extends BaseComponentOptions {
   footer?: string;
 }
 
-export interface NaviagatorListComponentItemOptions
+export interface NavigatorListComponentItemOptions
   extends BaseListComponentItemOptions {
   type: "navigator";
   /** 小程序提供的开放能力 */
@@ -124,7 +124,7 @@ export interface PickerListComponentItemOptions<T = any>
   value?: T;
 }
 
-export interface ButtonListComponnetItemOptions
+export interface ButtonListComponentItemOptions
   extends BaseListComponentItemOptions {
   type: "button";
   /**
@@ -161,11 +161,11 @@ export interface ButtonListComponnetItemOptions
 
 export type FunctionalListComponentItemOptions =
   | ListComponentItemOptions
-  | NaviagatorListComponentItemOptions
+  | NavigatorListComponentItemOptions
   | SwitchListComponentItemOptions
   | PickerListComponentItemOptions
   | SliderListComponentItemOptions
-  | ButtonListComponnetItemOptions;
+  | ButtonListComponentItemOptions;
 
 export interface FunctionalListComponentOptions extends BaseComponentOptions {
   tag: "functional-list";

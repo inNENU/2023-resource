@@ -40,7 +40,7 @@ export const resolveCarousel = (
       change: ["string", "undefined"],
       animation: ["string", "undefined"],
       imgClass: ["string", "undefined"],
-      imgmode: {
+      imgMode: {
         type: ["string", "undefined"],
         enum: [
           "widthFix",

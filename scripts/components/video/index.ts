@@ -16,21 +16,18 @@ export const resolveVideo = (
       src: "string",
       loop: ["boolean", "undefined"],
       controls: ["boolean", "undefined"],
+      title: ["string", "undefined"],
       poster: ["string", "undefined"],
       autoplay: ["boolean", "undefined"],
       startTime: ["number", "undefined"],
+      danmuBtn: ["boolean", "undefined"],
       env: ["string[]", "undefined"],
     },
     location
   );
 
-  if (element.damnu) {
-    checkKeys(element.damnu, {
-      btn: ["boolean", "undefined"],
-      items: ["array", "undefined"],
-    });
-
-    element.damnu.item?.forEach((item) => {
+  if (element.danmuList) {
+    element.danmuList.forEach((item) => {
       checkKeys(item, {
         text: ["string", "undefined"],
         color: ["string", "undefined"],
