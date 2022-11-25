@@ -29,23 +29,23 @@ content:
       #   icon: map
       #   url: map
 
-      - text: 校历
-        color: olive
-        name: Calendar
-        icon: calendar
-        url: calendar
+      # - text: 校历
+      #   color: olive
+      #   name: Calendar
+      #   icon: calendar
+      #   url: calendar
 
-      # - text: 音悦东师
-      #   color: blue
-      #   name: Music
-      #   icon: cd
-      #   url: music
+      - text: 音悦东师
+        color: blue
+        name: Music
+        icon: cd
+        url: music
 
-      # - text: 影约东师
-      #   color: mauve
-      #   name: Media
-      #   icon: media
-      #   url: video?type=video
+      - text: 影约东师
+        color: mauve
+        name: Media
+        icon: media
+        url: video?type=video
 
       - text: 体测计算器
         color: olive
@@ -53,11 +53,11 @@ content:
         icon: calculate
         url: pe-calculator
 
-      # - text: 校园媒体
-      #   color: grey
-      #   name: Accounts
-      #   icon: account
-      #   url: account
+      - text: 校园媒体
+        color: grey
+        name: Accounts
+        icon: account
+        url: account
 
       - text: 东师网站
         color: orange

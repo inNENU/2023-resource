@@ -1,7 +1,7 @@
 title: 助学金
 grey: true
 author: Mr.Hope
-time: 2022 年 8 月 21 日
+time: 2022 年 11 月 25 日
 shareable: true
 content:
   - tag: list
@@ -14,6 +14,6 @@ content:
         icon: apply
         path: apply
 
-      - text: 2021 至 2022 学年学校助学金评审通知
+      - text: 2022 至 2023 学年学校助学金评审通知
         icon: notice
         path: notice

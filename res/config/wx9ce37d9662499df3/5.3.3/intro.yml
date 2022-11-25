@@ -263,4 +263,10 @@ content:
         icon: archive
         path: intro/apt/archive/
 
+      - text: 体育馆
+        color: olive
+        name: Gym
+        icon: basketball
+        path: intro/apt/gym/
+
     footer: " "
