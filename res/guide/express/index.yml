@@ -1,15 +1,9 @@
 title: 快递
 author: Mr.Hope
-time: 2022 年 9 月 3 日
+time: 2022 年 11 月 25 日
 grey: true
 shareable: true
 content:
-  - tag: text
-    type: danger
-    text:
-      - 各快递点接到市里通知，由于疫情原因，暂不配送各高校，时间暂定半个月。
-      - 因此目前校园快递是只可寄出不可收件的状态。
-
   # - tag: text
   #   type: tip
   #   text:

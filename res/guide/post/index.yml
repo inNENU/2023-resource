@@ -1,6 +1,6 @@
 title: 考研保研相关
 author: Mr.Hope
-time: 2022 年 9 月 20 日
+time: 2022 年 11 月 25 日
 grey: true
 shareable: true
 content:
@@ -8,6 +8,7 @@ content:
     text: 推免 (保研)
 
   - tag: list
+    header: false
     items:
       - text: 2022 年推免通知
         icon: notice
@@ -32,6 +33,7 @@ content:
     text: 考研报考
 
   - tag: list
+    header: false
     items:
       - text: 2023 年时间安排
         icon: time
@@ -50,3 +52,10 @@ content:
       - text: 考研报名
         icon: apply
         path: exam/apply
+
+  - tag: list
+    header: 东师研究生招生
+    items:
+      - text: 东师研究生招生详情
+        icon: more
+        path: /intro/enroll/grad/
