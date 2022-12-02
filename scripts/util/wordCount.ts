@@ -1,12 +1,23 @@
-export const getWords = (data: string): RegExpMatchArray =>
-  data.match(/[\w\d\s,.\u00C0-\u024F]+/giu) || [];
+/**
+ * Extract Latin words from content
+ */
+const getWords = (content: string): RegExpMatchArray | null =>
+  // \u00C0-\u024F are Latin Supplement letters, maybe used in language like french
+  // \u0400-\u04FF are Cyrillic letters, used in russian
+  content.match(/[\w\d\s,.\u00C0-\u024F\u0400-\u04FF]+/giu);
 
-export const getChinese = (data: string): RegExpMatchArray =>
-  data.match(/[\u4E00-\u9FD5]/gu) || [];
+/**
+ * Extract Chinese Characters from content
+ */
+const getChinese = (content: string): RegExpMatchArray | null =>
+  content.match(/[\u4E00-\u9FD5]/gu);
 
-export const getWordNumber = (data: string): number =>
-  getWords(data).reduce<number>(
+/**
+ * Get word number of given string
+ */
+export const getWordNumber = (content: string): number =>
+  (getWords(content)?.reduce<number>(
     (accumulator, word) =>
       accumulator + (word.trim() === "" ? 0 : word.trim().split(/\s+/u).length),
     0
-  ) + getChinese(data).length;
+  ) || 0) + (getChinese(content)?.length || 0);
