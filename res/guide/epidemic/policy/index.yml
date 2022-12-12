@@ -1,5 +1,5 @@
 title: 国家疫情防控政策
-time: 2022 年 8 月 27 日
+time: 2022 年 12 月 12 日
 shareable: true
 cite:
   - http://www.nhc.gov.cn/jkj/s3577/202206/de224e7784fe4007b7189c1f1c9d5e85.shtml
@@ -24,3 +24,17 @@ content:
       - text: 第九版方案常见问题
         icon: faq
         path: faq
+
+  - tag: list
+    items:
+      - text: 新二十条
+        icon: intro
+        path: 20notice
+
+      - text: 新十条
+        icon: intro
+        path: 10notice
+
+      - text: 新十条方案常见问题
+        icon: faq
+        path: 10notice-faq

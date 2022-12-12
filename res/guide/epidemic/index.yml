@@ -1,7 +1,7 @@
 title: 疫情管理
 grey: true
 author: Mr.Hope
-time: 2022 年 11 月 25 日
+time: 2022 年 12 月 12 日
 shareable: true
 content:
   - tag: text
@@ -41,10 +41,6 @@ content:
       - text: 吉祥码
         icon: $img/epidemic/jixiang-code-icon.png
         path: jixiang-code/
-
-      - text: 通信行程卡
-        icon: $img/epidemic/history-visit.png
-        path: history-visit/
 
   - tag: title
     text: 其他功能
