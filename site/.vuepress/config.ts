@@ -8,6 +8,43 @@ export default defineUserConfig({
 
   lang: "zh-CN",
 
+  head: [
+    ["link", { rel: "icon", href: "/logo.svg" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: `/assets/icon/android-chrome-512x512.png`,
+        type: "image/png",
+        sizes: "192x192",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: `/assets/icon/android-chrome-192x192.png`,
+        type: "image/png",
+        sizes: "192x192",
+      },
+    ],
+    ["meta", { name: "theme-color", content: "#41c98b" }],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        href: `/assets/icon/apple-touch-icon.png`,
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "apple-mobile-web-app-status-bar-style",
+        content: "black",
+      },
+    ],
+  ],
+
   theme: hopeTheme({
     logo: "/logo.svg",
     hostname: "https://docs.innenu.com",
