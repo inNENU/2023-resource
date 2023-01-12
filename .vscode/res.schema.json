@@ -388,7 +388,7 @@
         },
         "heading": {
           "description": "文字块标题",
-          "oneOf": [{ "type": "string" }, { "const": false }]
+          "oneOf": [{ "type": "string" }, { "const": true }]
         },
         "text": {
           "description": "文字内容",

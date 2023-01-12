@@ -41,7 +41,7 @@ content:
         url: storage
 
   - tag: p
-    heading: " "
+    heading: true
     text:
       - 小程序由 Mr.Hope 个人开发编写，其观点和陈述仅代表 Mr.Hope 个人。如果您对内容有疑问或意见，欢迎联系校会君。
     style:
