@@ -3,11 +3,17 @@ import { dirname, resolve, relative } from "node:path";
 import { load } from "js-yaml";
 import { getFileList } from "./file.js";
 
+export const getYAMLValue = (content: string): string =>
+  content.startsWith("@") || content.includes(": ")
+    ? `"${content.replace(/"/g, '\\"')}"`
+    : content;
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const convertYml2Json = <T = any>(
+export const convertYml2Json = <T = any, U = T>(
   sourceFolder: string,
   targetFolder = sourceFolder,
-  convertFunction: (data: T, filePath: string) => T = (data): T => data,
+  convertFunction: (data: T, filePath: string) => U = (data): U =>
+    data as unknown as U,
   dir = ""
 ): void => {
   const fileList = getFileList(sourceFolder, "yml");

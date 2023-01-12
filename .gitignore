@@ -1,6 +1,20 @@
 # Node modules
 node_modules/
 
+
+# Site
+site/
+!site/.vuepress/
+!site/README.md
+
+# Vuepress Cache
+**/.vuepress/.cache/**
+# Vuepress Temp
+**/.vuepress/.temp/**
+# Vuepress Output
+**/.vuepress/dist/**
+
+
 # Backup files
 other/bak/
 

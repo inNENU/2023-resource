@@ -39,7 +39,7 @@ export const resolvePage = (
   if (!page.content)
     throw new Error(`${pagePath}.content doesn't contain anything`);
 
-  const { id = pagePath, author, cite, content, ...others } = page;
+  const { id = pagePath, author, cite, content, time, ...others } = page;
   const images: string[] = [];
   const pageData: PageOptions = {
     ...others,
@@ -101,6 +101,39 @@ export const resolvePage = (
   if (!pageData.cite?.length) delete page.cite;
   if (images.length) pageData.images = images;
 
+  if (time) {
+    // update time
+    if (diffResult.includes(`res/${pageData.id}`)) {
+      const date = new Date();
+
+      const timeText = `${date.getFullYear()} 年 ${
+        date.getMonth() + 1
+      } 月 ${date.getDate()} 日`;
+
+      writeFileSync(
+        `./res/${pagePath}.yml`,
+        readFileSync(`./res/${pagePath}.yml`, { encoding: "utf-8" }).replace(
+          /^time: .+$/m,
+          `time: ${date.toISOString()}`
+        ),
+        { encoding: "utf-8" }
+      );
+      pageData.time = timeText;
+    } else {
+      const timeText = `${time.getFullYear()} 年 ${
+        time.getMonth() + 1
+      } 月 ${time.getDate()} 日${
+        (time.getHours() !== 0 && time.getHours() !== 8) ||
+        time.getMinutes() ||
+        time.getSeconds()
+          ? ` ${time.toTimeString().split(" ")[0]}`
+          : ""
+      }`;
+
+      pageData.time = timeText;
+    }
+  }
+
   checkKeys(
     pageData,
     {
@@ -108,7 +141,7 @@ export const resolvePage = (
       id: "string",
       desc: ["string", "undefined"],
       author: ["string", "undefined"],
-      time: ["object", "undefined"],
+      time: ["string", "undefined"],
       grey: ["boolean", "undefined"],
       content: "array",
       hidden: ["boolean", "undefined"],
@@ -121,41 +154,6 @@ export const resolvePage = (
     },
     `${pagePath} page`
   );
-
-  // update time
-  if (pageData.time) {
-    if (diffResult.includes(`res/${pageData.id}`)) {
-      const date = new Date();
-
-      const time = `${date.getFullYear()} 年 ${
-        date.getMonth() + 1
-      } 月 ${date.getDate()} 日`;
-
-      writeFileSync(
-        `./res/${pagePath}.yml`,
-        readFileSync(`./res/${pagePath}.yml`, { encoding: "utf-8" }).replace(
-          /^time: .+$/m,
-          `time: ${date.toISOString()}`
-        ),
-        { encoding: "utf-8" }
-      );
-      pageData.time = time;
-    } else {
-      const date = pageData.time as unknown as Date;
-
-      const time = `${date.getFullYear()} 年 ${
-        date.getMonth() + 1
-      } 月 ${date.getDate()} 日${
-        (date.getHours() !== 0 && date.getHours() !== 8) ||
-        date.getMinutes() ||
-        date.getSeconds()
-          ? ` ${date.toTimeString().split(" ")[0]}`
-          : ""
-      }`;
-
-      pageData.time = time;
-    }
-  }
 
   return pageData;
 };

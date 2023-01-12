@@ -22,3 +22,36 @@ export const resolveAction = (
     location
   );
 };
+
+export const getActionMarkdown = (
+  component: ActionComponentOptions
+): string => {
+  const { content, header } = component;
+  const isLink =
+    content.match(/^https?:\/\//) ||
+    content.match(
+      /^(?:(?:25[0-5]|2[0-4]\d|1?\d?\d)\.){3}(?:25[0-5]|2[0-4]\d|1?\d?\d)(?::\d{1,5})?$/
+    );
+
+  return `\
+${
+  header
+    ? `\
+#### ${header}
+
+`
+    : ""
+}\
+${
+  isLink
+    ? `\
+[${header || content}](${content})
+`
+    : `\
+\`\`\`text
+component.content
+\`\`\`
+`
+}
+`;
+};

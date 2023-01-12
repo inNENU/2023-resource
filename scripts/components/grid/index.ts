@@ -1,6 +1,6 @@
 import { checkKeys } from "@mr-hope/assert-type";
 import { existsSync } from "node:fs";
-import { resolvePath } from "../utils.js";
+import { getPath, indent, resolvePath } from "../utils.js";
 import type { GridComponentOptions } from "./typings.js";
 
 export const resolveGrid = (
@@ -67,4 +67,31 @@ export const resolveGrid = (
     },
     location
   );
+};
+
+export const getGridMarkdown = (component: GridComponentOptions): string => {
+  const { header, footer, items = [] } = component;
+
+  return `\
+${
+  header
+    ? `\
+#### ${header}
+
+`
+    : ""
+}\
+${items
+  .map((item) => {
+    if ("type" in item || "url" in item) return null;
+
+    const { text, path } = item;
+
+    return `- ${path ? `[${text}](${getPath(path)})` : indent(text, 3)}`;
+  })
+  .filter((item): item is string => item !== null)
+  .join("\n")}
+
+${footer ? `> ${footer}\n\n` : ""}\
+`;
 };

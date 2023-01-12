@@ -1,6 +1,6 @@
 import { checkKeys } from "@mr-hope/assert-type";
 import { existsSync } from "node:fs";
-import { resolvePath, resolveStyle } from "../utils.js";
+import { getPath, indent, resolvePath, resolveStyle } from "../utils.js";
 
 import type { TextComponentOptions } from "./typings.js";
 
@@ -61,4 +61,49 @@ export const resolveText = (
     },
     location
   );
+};
+
+export const getTextMarkdown = (component: TextComponentOptions): string => {
+  // 处理样式
+  if (typeof component.style === "object")
+    component.style = resolveStyle(component.style);
+
+  // 处理段落
+  if (typeof component.text === "string") component.text = [component.text];
+
+  const { align, tag, heading, type, text = [], path } = component;
+
+  return `\
+${
+  align
+    ? `:::: ${align}
+
+`
+    : ""
+}\
+${
+  type || heading
+    ? `${type ? `::: ${type}` : ""}${
+        typeof heading === "string" ? ` ${type ? "" : "### "}${heading}` : ""
+      }
+
+`
+    : ""
+}\
+${
+  text
+    .map((item) =>
+      tag === "ul"
+        ? `- ${indent(item, 3)}`
+        : tag === "ol"
+        ? `0. ${indent(item, 3)}`
+        : item
+    )
+    ?.join("\n\n") || ""
+}
+
+${path ? `- [查看详情](${getPath(path)})\n\n` : ""}\
+${type ? ":::\n\n" : ""}\
+${align ? `::::\n\n` : ""}\
+`;
 };

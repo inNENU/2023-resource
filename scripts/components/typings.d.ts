@@ -80,7 +80,7 @@ export interface PageConfig {
   /** 页面作者 */
   author?: string[] | string;
   /** 页面最后更新时间 */
-  time?: string;
+  time?: Date;
   /** 页面标识 */
   id: string;
   /** 是否是灰色背景 */

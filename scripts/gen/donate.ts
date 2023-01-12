@@ -7,7 +7,7 @@ export interface Donate {
   donations: [string, number][];
 }
 
-export const genDonate = (data: Donate, filePath: string): PageConfig => {
+export const genDonate = (data: Donate, filePath: string): PageOptions => {
   const baseName = basename(filePath);
 
   const donateAmount = data.donations.reduce(
@@ -32,7 +32,7 @@ export const genDonate = (data: Donate, filePath: string): PageConfig => {
     .sort(([, a], [, b]) => b - a)
     .map((item) => `${item[0]}`);
 
-  const pageData: PageOptions = {
+  const pageData: PageConfig = {
     title: `${baseName}年感谢名单`,
     desc: "该页面为手动更新，会出现延迟",
     author: "Mr.Hope",

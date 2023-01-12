@@ -15,8 +15,11 @@
   },
   "type": "module",
   "scripts": {
+    "build:site": "vuepress build site",
+    "dev:site": "vuepress dev site",
     "generate": "ts-node --esm ./scripts/gen/index.ts",
     "generate:account": "ts-node --esm ./scripts/gen/account.ts",
+    "generate:site": "ts-node --esm ./scripts/gen/site.ts",
     "lint": "pnpm lint:eslint && pnpm lint:prettier",
     "lint:eslint": "eslint --ext .ts . --fix",
     "lint:prettier": "prettier --check --write .",
@@ -35,6 +38,7 @@
     "@types/qrcode": "1.5.0",
     "@typescript-eslint/eslint-plugin": "5.48.1",
     "@typescript-eslint/parser": "5.48.1",
+    "@vuepress/client": "2.0.0-beta.60",
     "axios": "1.2.2",
     "del": "7.0.0",
     "dotenv": "16.0.3",
@@ -51,7 +55,11 @@
     "sort-package-json": "2.1.0",
     "ts-node": "10.9.1",
     "tslib": "2.4.1",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "vue": "3.2.45",
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-plugin-search-pro": "2.0.0-beta.156",
+    "vuepress-theme-hope": "2.0.0-beta.156"
   },
   "packageManager": "pnpm@7.23.0"
 }

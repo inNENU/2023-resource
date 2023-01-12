@@ -1,6 +1,6 @@
 import { checkKeys } from "@mr-hope/assert-type";
 import { existsSync } from "node:fs";
-import { aliasResolve, resolvePath } from "../utils.js";
+import { aliasResolve, getPath, indent, resolvePath } from "../utils.js";
 import type {
   FunctionalListComponentOptions,
   ListComponentOptions,
@@ -228,4 +228,33 @@ export const resolveList = (
     },
     location
   );
+};
+
+export const getListMarkdown = (
+  component: ListComponentOptions | FunctionalListComponentOptions
+): string => {
+  const { header, footer, items = [] } = component;
+
+  return `\
+${
+  header
+    ? `\
+#### ${header}
+
+`
+    : ""
+}\
+${items
+  .map((item) => {
+    if ("type" in item || "url" in item) return null;
+
+    const { text, path } = item;
+
+    return `- ${path ? `[${text}](${getPath(path)})` : indent(text, 3)}`;
+  })
+  .filter((item): item is string => item !== null)
+  .join("\n")}
+
+${footer ? `> ${footer}\n\n` : ""}\
+`;
 };

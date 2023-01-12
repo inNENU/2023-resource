@@ -43,3 +43,14 @@ export const aliasResolve = (link = "", type = "", location = ""): string => {
 
   return link;
 };
+
+export const indent = (content: string, indent = 0): string =>
+  content
+    .split("\n")
+    .map((line, index) =>
+      index === 0 ? line : `${new Array(indent).fill("").join("")}${line}`
+    )
+    .join("\n\n");
+
+export const getPath = (path: string): string =>
+  `${path.replace(/\/(?:index)?$/, "/README")}.md`;

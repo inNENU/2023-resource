@@ -113,6 +113,6 @@ convertYml2Json("./res/config", "./r/config", (data, filePath) =>
 generateResource();
 
 // 生成二维码
-genQRCode().then(() => {
-  console.log("All completed");
-});
+await genQRCode();
+
+console.log("All completed");

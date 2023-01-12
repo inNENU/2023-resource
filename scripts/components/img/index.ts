@@ -1,3 +1,4 @@
+import { basename } from "node:path";
 import { checkKeys } from "@mr-hope/assert-type";
 import { aliasResolve } from "../utils.js";
 import type { ImageComponentOptions } from "./typings.js";
@@ -40,4 +41,18 @@ export const resolveImg = (
     },
     location
   );
+};
+
+export const getImgMarkdown = (element: ImageComponentOptions): string => {
+  // `$` alias resolve and file check
+  if (element.src) element.src = aliasResolve(element.src);
+
+  const { src, desc } = element;
+
+  return `\
+![${desc || basename(src).replace(/\..+$/, "")}](${src}${
+    desc ? ` "${desc}"` : ""
+  })
+
+`;
 };
