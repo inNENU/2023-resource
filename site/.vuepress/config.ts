@@ -9,6 +9,8 @@ export default defineUserConfig({
   lang: "zh-CN",
 
   theme: hopeTheme({
+    logo: "/logo.svg",
+    hostname: "https://docs.innenu.com",
     repo: "Hope-Studio/innenu-res",
 
     copyright: `使用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> 协议`,

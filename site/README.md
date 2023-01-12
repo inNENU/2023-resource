@@ -1,7 +1,7 @@
 ---
 home: true
 title: 主页
-icon: home
+heroImage: /logo.svg
 heroText: in 东师
 tagline: 在东师，就用 in 东师
 actions:
@@ -15,3 +15,11 @@ actions:
 
 footer: 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
 ---
+
+::: tip
+
+此网站内容从 in 东师小程序自动生成，如果条件允许，请尽量扫码下方图片使用 in 东师小程序。
+
+:::
+
+![小程序二维码](/qrcode.jpg)
