@@ -1,7 +1,6 @@
-import { execSync } from "child_process";
+import { execSync } from "node:child_process";
 import { deleteSync } from "del";
-import { convertYml2Json } from "../util/yml2json.js";
-import { resolvePage } from "../components/page.js";
+
 import { checkAccount, checkAccountDetail } from "./account.js";
 import { count } from "./count.js";
 import { genDonate } from "./donate.js";
@@ -14,7 +13,9 @@ import { genQRCode } from "./qrcode.js";
 import { genSearchMap } from "./search.js";
 import { resolveLocationPage } from "./map.js";
 import { resolveMarker } from "./marker.js";
-import { genResource } from "./resource.js";
+import { generateResource } from "./resource.js";
+import { resolvePage } from "../components/page.js";
+import { convertYml2Json } from "../utils/index.js";
 
 import type { AccountConfig, AccountDetail } from "./account.js";
 import type { Donate } from "./donate.js";
@@ -44,7 +45,10 @@ convertYml2Json("./res/function", "./r/function", (data, filePath) =>
   /map\/marker\/(benbu|jingyue)/u.exec(filePath)
     ? resolveMarker(data as MarkerOption)
     : /map\/(benbu|jingyue)\//u.exec(filePath)
-    ? resolveLocationPage(data as PageConfig & { photo?: string[] }, filePath)
+    ? resolveLocationPage(
+        data as PageConfig & { photo?: string[] },
+        `function/${filePath}`
+      )
     : /pe-calculator\/(male|female)-(low|high)/u.exec(filePath)
     ? genPEScore(data as PEConfig)
     : /account\//u.exec(filePath)
@@ -106,7 +110,7 @@ convertYml2Json("./res/config", "./r/config", (data, filePath) =>
 );
 
 // 生成资源
-genResource();
+generateResource();
 
 // 生成二维码
 genQRCode().then(() => {

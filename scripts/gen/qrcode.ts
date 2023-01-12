@@ -8,7 +8,7 @@ import {
   getFileList,
   getWechatAccessToken,
   promiseQueue,
-} from "../util/index.js";
+} from "../utils/index.js";
 
 const appidList = Object.keys(appIDInfo);
 

@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { getFileList } from "../util/index.js";
+import { getFileList } from "../utils/index.js";
 
 import type { SearchInfo } from "./typings.js";
 import type { PageOptions } from "../components/typings.js";

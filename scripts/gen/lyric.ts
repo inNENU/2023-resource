@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-import { getFileList } from "../util/index.js";
+import { getFileList } from "../utils/index.js";
 
 const lyricFolder = "./res/function/music";
 

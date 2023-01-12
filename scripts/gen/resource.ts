@@ -28,7 +28,7 @@ const getUpdateCombine = <T = string>(
     list.some((item) => updateList.some((updateItem) => updateItem === item))
   );
 
-export const zip = (nameList: string[]): void => {
+export const zipFiles = (nameList: string[]): void => {
   /** 文件名 */
   const fileName = nameList.join("-");
 
@@ -50,7 +50,7 @@ export const zip = (nameList: string[]): void => {
   else throw new Error("Mac OS is not supported");
 };
 
-export const genResource = (): void => {
+export const generateResource = (): void => {
   /** 资源列表 */
   const resourceList = ["function", "guide", "icon", "intro"];
   /** 差异列表 */
@@ -74,7 +74,7 @@ export const genResource = (): void => {
   // 生成 zip 并统计大小
   getUpdateCombine(updateList, getCombine(resourceList)).forEach(
     (resCombine) => {
-      zip(resCombine);
+      zipFiles(resCombine);
 
       const fileName = resCombine.join("-");
 

@@ -7,7 +7,7 @@ import {
 } from "node:fs";
 import { dirname, resolve } from "node:path";
 
-import { getFileList } from "../util/index.js";
+import { getFileList } from "../utils/index.js";
 
 /** SVG 转换 */
 export const convertCSSSVG = (content: string): string =>

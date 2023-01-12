@@ -1,7 +1,7 @@
 import axios from "axios";
 import { readFileSync, writeFileSync } from "node:fs";
 import { aliasResolve } from "../components/utils.js";
-import { getFileList } from "../util/index.js";
+import { getFileList } from "../utils/index.js";
 
 interface AccountInfo {
   name: string;

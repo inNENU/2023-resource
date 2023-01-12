@@ -1102,7 +1102,14 @@
     "time": {
       "description": "页面更新时间",
       "type": "string",
-      "pattern": "\\d\\d\\d\\d 年 1?\\d 月 (?:1|2|3)?\\d 日"
+      "oneOf": [
+        {
+          "format": "date"
+        },
+        {
+          "format": "date-string"
+        }
+      ]
     },
     "grey": {
       "description": "页面是否使用黑色背景",

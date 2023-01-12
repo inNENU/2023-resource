@@ -108,7 +108,7 @@ export const resolvePage = (
       id: "string",
       desc: ["string", "undefined"],
       author: ["string", "undefined"],
-      time: ["string", "undefined"],
+      time: ["object", "undefined"],
       grey: ["boolean", "undefined"],
       content: "array",
       hidden: ["boolean", "undefined"],
@@ -123,23 +123,38 @@ export const resolvePage = (
   );
 
   // update time
-  if (pageData.time && diffResult.includes(`res/${pageData.id}`)) {
-    const date = new Date();
+  if (pageData.time) {
+    if (diffResult.includes(`res/${pageData.id}`)) {
+      const date = new Date();
 
-    const time = `${date.getFullYear()} 年 ${
-      date.getMonth() + 1
-    } 月 ${date.getDate()} 日`;
+      const time = `${date.getFullYear()} 年 ${
+        date.getMonth() + 1
+      } 月 ${date.getDate()} 日`;
 
-    writeFileSync(
-      `./res/${pagePath}.yml`,
-      readFileSync(`./res/${pagePath}.yml`, { encoding: "utf-8" }).replace(
-        pageData.time,
-        time
-      ),
-      { encoding: "utf-8" }
-    );
+      writeFileSync(
+        `./res/${pagePath}.yml`,
+        readFileSync(`./res/${pagePath}.yml`, { encoding: "utf-8" }).replace(
+          /^time: .+$/m,
+          `time: ${date.toISOString()}`
+        ),
+        { encoding: "utf-8" }
+      );
+      pageData.time = time;
+    } else {
+      const date = pageData.time as unknown as Date;
 
-    pageData.time = time;
+      const time = `${date.getFullYear()} 年 ${
+        date.getMonth() + 1
+      } 月 ${date.getDate()} 日${
+        (date.getHours() !== 0 && date.getHours() !== 8) ||
+        date.getMinutes() ||
+        date.getSeconds()
+          ? ` ${date.toTimeString().split(" ")[0]}`
+          : ""
+      }`;
+
+      pageData.time = time;
+    }
   }
 
   return pageData;
