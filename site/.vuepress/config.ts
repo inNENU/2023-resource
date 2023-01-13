@@ -62,6 +62,9 @@ export default defineUserConfig({
     },
 
     plugins: {
+      components: {
+        components: ["AudioPlayer", "VideoPlayer"],
+      },
       mdEnhance: {
         align: true,
       },

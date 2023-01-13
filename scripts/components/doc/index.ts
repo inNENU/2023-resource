@@ -54,3 +54,15 @@ export const resolveDoc = (
     location
   );
 };
+
+export const getDocMarkdown = (component: DocComponentOptions): string => {
+  // `$` alias resolve and file check
+  component.url = aliasResolve(component.url);
+
+  const { name, url } = component;
+
+  return `\
+- [${name}](${url})
+
+`;
+};

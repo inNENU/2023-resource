@@ -23,3 +23,17 @@ export const resolveAudio = (
     location
   );
 };
+
+export const getAudioMarkdown = (component: AudioComponentOptions): string => {
+  // `$` alias resolve and file check
+  component.src = aliasResolve(component.src);
+
+  const { src, name, author } = component;
+
+  return `\
+<AudioPlayer src="${src}" title="${name ? `名称: ${name}` : ""} ${
+    author ? `作者: ${author}` : ""
+  }" />
+
+`;
+};

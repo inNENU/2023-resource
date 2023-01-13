@@ -36,3 +36,17 @@ export const resolveVideo = (
     });
   }
 };
+
+export const getVideoMarkdown = (component: VideoComponentOptions): string => {
+  // `$` alias resolve and file check
+  component.src = aliasResolve(component.src);
+
+  const { src, poster, title } = component;
+
+  return `\
+<VideoPlayer src="${src}"${title ? ` title="${title}"` : ""}"${
+    poster ? ` poster="${poster}"` : ""
+  } />
+
+`;
+};

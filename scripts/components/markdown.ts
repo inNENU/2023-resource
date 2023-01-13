@@ -1,9 +1,13 @@
 import { getActionMarkdown } from "./action/index.js";
+import { getAudioMarkdown } from "./audio/index.js";
+import { getDocMarkdown } from "./doc/index.js";
 import { getGridMarkdown } from "./grid/index.js";
 import { getListMarkdown } from "./list/index.js";
 import { getImgMarkdown } from "./img/index.js";
+import { getPhoneMarkdown } from "./phone/index.js";
 import { getTextMarkdown } from "./text/index.js";
 import { getTitleMarkdown } from "./title/index.js";
+import { getVideoMarkdown } from "./video/index.js";
 import { getYAMLValue } from "../utils/index.js";
 
 import type { PageConfig } from "./typings.js";
@@ -67,8 +71,16 @@ date: ${time.toLocaleString()}
       content += getListMarkdown(component);
     // 设置网格组件
     else if (tag === "grid") content += getGridMarkdown(component);
+    // 检测文档
+    else if (tag === "doc") content += getDocMarkdown(component);
+    // 设置电话
+    else if (tag === "phone") content += getPhoneMarkdown(component);
+    // 检测音频
+    else if (tag === "audio") content += getAudioMarkdown(component);
+    // 检测视频
+    else if (tag === "video") content += getVideoMarkdown(component);
     // 检测动作
-    else if (tag === "action") getActionMarkdown(component);
+    else if (tag === "action") content += getActionMarkdown(component);
   });
 
   if (desc || cite)
