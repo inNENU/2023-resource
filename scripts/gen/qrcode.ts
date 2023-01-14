@@ -53,92 +53,91 @@ const getQRCode = (name: string): Promise<void> => {
   );
 
   const promises = appidList.map((appid) => {
-    if (appid === "1109559721") {
-      const photoPromises = fileList.map(
-        (filePath): (() => Promise<void>) =>
-          (): Promise<void> => {
-            const folderPath = dirname(
-              resolve(`./qrcode`, appid, name, filePath)
-            );
+    if (Number.isNaN(Number(appid)))
+      return getWechatAccessToken(appid).then((accessToken) => {
+        const photoPromises = fileList.map(
+          (filePath): (() => Promise<void>) =>
+            (): Promise<void> => {
+              const folderPath = dirname(
+                resolve(`./qrcode`, appid, name, filePath)
+              );
 
-            if (
-              !existsSync(resolve(`./qrcode`, appid, name, `${filePath}.png`))
-            ) {
-              console.log(`${appid}: ${filePath}.png 不存在`);
-              if (!existsSync(folderPath))
-                mkdirSync(folderPath, { recursive: true });
+              if (
+                !existsSync(resolve(`./qrcode`, appid, name, `${filePath}.png`))
+              ) {
+                console.log(`${appid}: ${name}/${filePath}.png 不存在`);
 
-              return toFile(
-                resolve(`./qrcode`, appid, name, `${filePath}.png`),
-                `https://m.q.qq.com/a/p/${appid}?s=${encodeURI(
-                  `pages/info/info?path=/${filePath}`
-                )}`
-              ).then(() => {
-                console.log(`${appid}: ${name}/${filePath}.png 生成完成`);
-              });
-            } else return new Promise((resolve) => resolve());
-          }
-      );
+                // 创建文件夹
+                if (!existsSync(folderPath))
+                  mkdirSync(folderPath, { recursive: true });
 
-      return promiseQueue(photoPromises, 5);
-    }
+                const scene = `${
+                  name === "guide"
+                    ? "G"
+                    : name === "intro"
+                    ? "I"
+                    : name === "other"
+                    ? "O"
+                    : ""
+                }${filePath.replace(/\/index$/, "/")}`;
 
-    return getWechatAccessToken(appid).then((accessToken) => {
-      const photoPromises = fileList.map(
-        (filePath): (() => Promise<void>) =>
-          (): Promise<void> => {
-            const folderPath = dirname(
-              resolve(`./qrcode`, appid, name, filePath)
-            );
-
-            if (
-              !existsSync(resolve(`./qrcode`, appid, name, `${filePath}.png`))
-            ) {
-              console.log(`${appid}: ${name}/${filePath}.png 不存在`);
-
-              // 创建文件夹
-              if (!existsSync(folderPath))
-                mkdirSync(folderPath, { recursive: true });
-
-              const scene = `${
-                name === "guide"
-                  ? "G"
-                  : name === "intro"
-                  ? "I"
-                  : name === "other"
-                  ? "O"
-                  : ""
-              }${filePath.replace(/\/index$/, "/")}`;
-
-              // 判断 scene 长度
-              if (scene.length > 32) {
-                console.error(
-                  `\nLong Scene: ${scene} with length ${scene.length}\n`
-                );
-
-                return new Promise((resolve) => resolve());
-              }
-
-              return getWechatQRCode(accessToken, scene)
-                .then((data) => {
-                  console.log(`${appid}: ${name}/${filePath}.png 下载完成`);
-
-                  writeFileSync(
-                    resolve(`./qrcode`, appid, name, `${filePath}.png`),
-                    data
+                // 判断 scene 长度
+                if (scene.length > 32) {
+                  console.error(
+                    `\nLong Scene: ${scene} with length ${scene.length}\n`
                   );
 
-                  console.log(`${appid}: ${name}/${filePath}.png 写入完成`);
-                })
-                .catch(() => {
-                  console.error(`${appid}: ${name}/${filePath}.png 下载出错`);
-                });
-            } else return new Promise((resolve) => resolve());
-          }
-      );
+                  return new Promise((resolve) => resolve());
+                }
 
-      return promiseQueue(photoPromises, 5);
-    });
+                return getWechatQRCode(accessToken, scene)
+                  .then((data) => {
+                    console.log(`${appid}: ${name}/${filePath}.png 下载完成`);
+
+                    writeFileSync(
+                      resolve(`./qrcode`, appid, name, `${filePath}.png`),
+                      data
+                    );
+
+                    console.log(`${appid}: ${name}/${filePath}.png 写入完成`);
+                  })
+                  .catch(() => {
+                    console.error(`${appid}: ${name}/${filePath}.png 下载出错`);
+                  });
+              } else return new Promise((resolve) => resolve());
+            }
+        );
+
+        return promiseQueue(photoPromises, 5);
+      });
+
+    const photoPromises = fileList.map(
+      (filePath): (() => Promise<void>) =>
+        (): Promise<void> => {
+          const folderPath = dirname(
+            resolve(`./qrcode`, appid, name, filePath)
+          );
+
+          if (
+            !existsSync(resolve(`./qrcode`, appid, name, `${filePath}.png`))
+          ) {
+            console.log(`${appid}: ${filePath}.png 不存在`);
+            if (!existsSync(folderPath))
+              mkdirSync(folderPath, { recursive: true });
+
+            return toFile(
+              resolve(`./qrcode`, appid, name, `${filePath}.png`),
+              `https://m.q.qq.com/a/p/${appid}?s=${encodeURI(
+                `pages/info/info?path=/${filePath}`
+              )}`
+            ).then(() => {
+              console.log(`${appid}: ${name}/${filePath}.png 生成完成`);
+            });
+          } else return new Promise((resolve) => resolve());
+        }
+    );
+
+    return promiseQueue(photoPromises, 5);
   });
 
   return Promise.all(promises).then(() => {

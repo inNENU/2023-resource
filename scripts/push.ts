@@ -20,9 +20,8 @@ export const pushPages = (): Promise<void> => {
   }));
 
   const promises = appidList.map((appid) =>
-    appid === "1109559721"
-      ? Promise.resolve()
-      : axios
+    Number.isNaN(Number(appid))
+      ? axios
           // eslint-disable-next-line @typescript-eslint/naming-convention
           .get<{ access_token: string }>(
             `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appIDInfo[appid]}`
@@ -37,6 +36,7 @@ export const pushPages = (): Promise<void> => {
           .then(({ data }) => {
             console.log(data);
           })
+      : Promise.resolve()
   );
 
   return Promise.all(promises).then(() => {
