@@ -9,7 +9,7 @@ import { genIcon } from "./icon.js";
 import { genLyric } from "./lyric.js";
 import { checkMusic } from "./music.js";
 import { genPEScore } from "./peScore.js";
-import { genQRCode } from "./qrcode.js";
+import { generateQRCode } from "./qrcode.js";
 import { genSearchMap } from "./search.js";
 import { resolveLocationPage } from "./map.js";
 import { resolveMarker } from "./marker.js";
@@ -113,6 +113,6 @@ convertYml2Json("./res/config", "./r/config", (data, filePath) =>
 generateResource();
 
 // 生成二维码
-await genQRCode();
+await generateQRCode();
 
 console.log("All completed");

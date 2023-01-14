@@ -12,7 +12,7 @@ import {
 
 const appidList = Object.keys(appIDInfo);
 
-const removeQRCode = (name: string): void => {
+const removeUnneededQRCode = (name: string): void => {
   const fileList = getFileList(`./res/${name}`, ".yml").map((filePath) =>
     filePath.replace(/\.yml$/gu, "")
   );
@@ -42,9 +42,9 @@ const getWechatQRCode = (accessToken: string, scene: string): Promise<Buffer> =>
       { responseType: "arraybuffer" }
     )
     .then(({ data }) => {
-      if ("errcode" in data) throw new Error("QRCode Error");
+      if (Buffer.isBuffer(data)) return data;
 
-      return data;
+      throw new Error("QRCode Error");
     });
 
 const getQRCode = (name: string): Promise<void> => {
@@ -145,10 +145,10 @@ const getQRCode = (name: string): Promise<void> => {
   });
 };
 
-export const genQRCode = (): Promise<void[]> =>
+export const generateQRCode = (): Promise<void[]> =>
   Promise.all(
     ["guide", "intro", "other"].map((name) => {
-      removeQRCode(name);
+      removeUnneededQRCode(name);
 
       return getQRCode(name);
     })
