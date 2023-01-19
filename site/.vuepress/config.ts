@@ -46,6 +46,7 @@ export default defineUserConfig({
   ],
 
   theme: hopeTheme({
+    favicon: "/favicon.ico",
     logo: "/logo.svg",
     hostname: "https://docs.innenu.com",
     repo: "Hope-Studio/innenu-res",
@@ -65,9 +66,19 @@ export default defineUserConfig({
       components: {
         components: ["AudioPlayer", "VideoPlayer"],
       },
+
+      feed: {
+        atom: true,
+        json: true,
+        rss: true,
+      },
+
       mdEnhance: {
         align: true,
+        figure: true,
       },
+
+      sitemap: true,
     },
   }),
 
