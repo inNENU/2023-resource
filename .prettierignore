@@ -1,4 +1,9 @@
 r/
+site/
+!site/.vuepress/
+site/.vuepress/.cache/
+site/.vuepress/.temp/
+site/.vuepress/dist/
 
 service/vendor/
 service/composer.lock

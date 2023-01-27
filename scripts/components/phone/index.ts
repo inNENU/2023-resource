@@ -43,9 +43,9 @@ export const resolvePhone = (
 
 export const getPhoneMarkdown = (component: PhoneComponentOptions): string => {
   const {
-    header,
+    header = "",
     fName,
-    lName,
+    lName = "",
     num,
     workNum,
     homeNum,
@@ -54,9 +54,9 @@ export const getPhoneMarkdown = (component: PhoneComponentOptions): string => {
     org,
     title,
     remark,
-    province,
-    city,
-    street,
+    province = "",
+    city = "",
+    street = "",
     postCode,
     mail,
     site,
@@ -76,11 +76,7 @@ ${org ? `- 组织: ${org}\n` : ""}\
 ${title ? `- 职位: ${title}\n` : ""}\
 ${nick ? `- 昵称: ${nick}\n` : ""}\
 ${remark ? `- 备注: ${remark}\n` : ""}\
-${
-  province || city || street
-    ? `- 地址: ${province || ""}${city || ""}${street || ""}\n`
-    : ""
-}\
+${province || city || street ? `- 地址: ${province}${city}${street}\n` : ""}\
 ${postCode ? `- 邮编: ${postCode}\n` : ""}\
 
 :::
