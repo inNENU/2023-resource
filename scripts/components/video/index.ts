@@ -45,7 +45,7 @@ export const getVideoMarkdown = (component: VideoComponentOptions): string => {
   const { src, poster, title } = component;
 
   return `\
-<VideoPlayer src="${src}"${title ? ` title="${title}"` : ""}"${
+<VideoPlayer src="${src}"${title ? ` title="${title}"` : ""}${
     poster ? ` poster="${poster}"` : ""
   } />
 
