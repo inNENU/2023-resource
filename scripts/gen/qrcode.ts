@@ -1,5 +1,6 @@
 import { existsSync, mkdirSync, unlinkSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
+
 import axios from "axios";
 import { toFile } from "qrcode";
 

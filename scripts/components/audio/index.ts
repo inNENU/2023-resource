@@ -1,6 +1,7 @@
 import { checkKeys } from "@mr-hope/assert-type";
+
+import { type AudioComponentOptions } from "./typings.js";
 import { aliasResolve } from "../utils.js";
-import type { AudioComponentOptions } from "./typings.js";
 
 export const resolveAudio = (
   element: AudioComponentOptions,

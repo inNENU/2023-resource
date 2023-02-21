@@ -1,6 +1,7 @@
 import { checkKeys } from "@mr-hope/assert-type";
-import { resolveStyle } from "../utils.js";
+
 import { TitleComponentOptions } from "./typings.js";
+import { resolveStyle } from "../utils.js";
 
 export const resolveTitle = (
   element: TitleComponentOptions,

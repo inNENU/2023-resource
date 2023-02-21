@@ -1,5 +1,6 @@
-import { LocationComponentOptions } from "./typings.js";
 import { checkKeys } from "@mr-hope/assert-type";
+
+import { LocationComponentOptions } from "./typings.js";
 
 export const resolveLocation = (
   element: LocationComponentOptions,

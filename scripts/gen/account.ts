@@ -1,5 +1,7 @@
-import axios from "axios";
 import { readFileSync, writeFileSync } from "node:fs";
+
+import axios from "axios";
+
 import { aliasResolve } from "../components/utils.js";
 import { getFileList } from "../utils/index.js";
 

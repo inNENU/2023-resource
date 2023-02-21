@@ -1,5 +1,6 @@
-import { PhoneComponentOptions } from "./typings.js";
 import { checkKeys } from "@mr-hope/assert-type";
+
+import { PhoneComponentOptions } from "./typings.js";
 
 export const resolvePhone = (
   element: PhoneComponentOptions,
@@ -7,7 +8,6 @@ export const resolvePhone = (
 ): void => {
   for (const key in element)
     if (typeof element[key as keyof PhoneComponentOptions] === "number")
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       // eslint-disable-next-line
       element[key] = element[key].toString();

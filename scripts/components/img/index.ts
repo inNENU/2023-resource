@@ -1,7 +1,9 @@
 import { basename } from "node:path";
+
 import { checkKeys } from "@mr-hope/assert-type";
+
+import { type ImageComponentOptions } from "./typings.js";
 import { aliasResolve } from "../utils.js";
-import type { ImageComponentOptions } from "./typings.js";
 
 export const resolveImg = (
   element: ImageComponentOptions,

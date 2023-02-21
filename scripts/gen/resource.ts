@@ -1,6 +1,7 @@
+import { execSync } from "child_process";
 import { readFileSync, statSync, writeFileSync } from "node:fs";
 import { type } from "node:os";
-import { execSync } from "child_process";
+
 import { deleteSync } from "del";
 
 // 生成排列组合

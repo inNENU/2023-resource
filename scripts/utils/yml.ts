@@ -1,6 +1,8 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, resolve, relative } from "node:path";
+import { dirname, relative, resolve } from "node:path";
+
 import { load } from "js-yaml";
+
 import { getFileList } from "./file.js";
 
 export const getYAMLValue = (content: string): string =>

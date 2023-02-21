@@ -1,8 +1,9 @@
-import { checkKeys } from "@mr-hope/assert-type";
 import { existsSync } from "node:fs";
-import { getPath, indent, resolvePath, resolveStyle } from "../utils.js";
 
-import type { TextComponentOptions } from "./typings.js";
+import { checkKeys } from "@mr-hope/assert-type";
+
+import { type TextComponentOptions } from "./typings.js";
+import { getPath, indent, resolvePath, resolveStyle } from "../utils.js";
 
 export const resolveText = (
   element: TextComponentOptions,

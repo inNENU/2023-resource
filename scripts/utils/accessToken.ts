@@ -1,4 +1,5 @@
 import axios from "axios";
+
 import { appIDInfo } from "../info.js";
 
 export const getWechatAccessToken = (appid: string): Promise<string> =>

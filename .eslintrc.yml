@@ -8,25 +8,73 @@ extends:
   - plugin:prettier/recommended
 
 plugins:
-  - prettier
+  - import
 
 ignorePatterns:
   - other/
 
 rules:
-  eqeqeq: error
-  line-comment-position: error
-  object-shorthand: error
+  curly:
+    - error
+    - multi
+    - consistent
+
+  import/consistent-type-specifier-style:
+    - error
+    - prefer-inline
+
+  import/dynamic-import-chunkname:
+    - error
+
+  import/first:
+    - error
+
+  import/newline-after-import:
+    - error
+
+  import/no-commonjs:
+    - error
+
+  import/no-cycle:
+    - error
+
+  import/no-duplicates:
+    - error
+    - considerQueryString: true
+      prefer-inline: true
+
+  import/no-named-default:
+    - error
+
+  import/order:
+    - error
+    - alphabetize:
+        order: asc
+        orderImportKind: asc
+      groups:
+        - builtin
+        - external
+        - internal
+        - - parent
+          - sibling
+        - index
+        - object
+      newlines-between: always
+
+  no-duplicate-imports:
+    - error
+
+  no-unmodified-loop-condition:
+    - error
+
   padding-line-between-statements:
     - error
-    - blankLine: always
-      prev: "*"
-      next: return
     - blankLine: always
       prev:
         - const
         - let
-      next: "*"
+      next:
+        - "*"
     - blankLine: any
       prev:
         - const
@@ -34,52 +82,18 @@ rules:
       next:
         - const
         - let
+    - blankLine: always
+      prev:
+        - "*"
+      next:
+        - return
 
-  prefer-destructuring:
+  sort-imports:
     - error
-    - object: true
-
-  prefer-template: error
+    - allowSeparatedGroups: false
+      ignoreDeclarationSort: true
 
 overrides:
-  - files:
-      - ".lintstagedrc.js"
-
-    env:
-      node: true
-
-  - files:
-      - "*.wxs"
-
-    globals:
-      getDate: readonly
-
-    env:
-      es6: false
-      node: true
-
-    rules:
-      func-names:
-        - error
-        - "never"
-
-      func-style:
-        - error
-        - "declaration"
-
-      no-var:
-        - off
-
-      object-shorthand:
-        - error
-        - "never"
-
-      prefer-destructuring:
-        - off
-
-      prefer-template:
-        - off
-
   - files:
       - "*.ts"
 
@@ -98,7 +112,8 @@ overrides:
         - "./tsconfig.json"
 
     rules:
-      "@typescript-eslint/ban-ts-comment": off
+      "@typescript-eslint/ban-ts-comment":
+        - off
 
       "@typescript-eslint/explicit-function-return-type":
         - warn
@@ -109,12 +124,31 @@ overrides:
         - selector: default
           format:
             - camelCase
+          leadingUnderscore: allowSingleOrDouble
+          trailingUnderscore: allow
+
+        - selector:
+            - variable
+          format:
+            - camelCase
+            - PascalCase
+            - UPPER_CASE
+          leadingUnderscore: allowSingleOrDouble
+          trailingUnderscore: allowSingleOrDouble
+
+        - selector:
+            - parameter
+          format:
+            - camelCase
+            - PascalCase
           leadingUnderscore: allow
           trailingUnderscore: allow
 
-        - selector: variable
+        - selector:
+            - property
           format:
             - camelCase
+            - PascalCase
             - UPPER_CASE
           leadingUnderscore: allow
           trailingUnderscore: allow

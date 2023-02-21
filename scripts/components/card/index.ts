@@ -1,6 +1,8 @@
 import { existsSync } from "node:fs";
+
 import { checkKeys } from "@mr-hope/assert-type";
-import type { CardComponentOptions } from "./typings.js";
+
+import { type CardComponentOptions } from "./typings.js";
 import { aliasResolve } from "../utils.js";
 
 export const resolveCard = (

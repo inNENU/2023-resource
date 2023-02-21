@@ -1,10 +1,12 @@
-import { checkKeys } from "@mr-hope/assert-type";
 import { existsSync } from "node:fs";
-import { aliasResolve, getPath, indent, resolvePath } from "../utils.js";
-import type {
-  FunctionalListComponentOptions,
-  ListComponentOptions,
+
+import { checkKeys } from "@mr-hope/assert-type";
+
+import {
+  type FunctionalListComponentOptions,
+  type ListComponentOptions,
 } from "./typings.js";
+import { aliasResolve, getPath, indent, resolvePath } from "../utils.js";
 
 export const resolveList = (
   element: ListComponentOptions | FunctionalListComponentOptions,

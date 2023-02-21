@@ -1,7 +1,6 @@
 import { resolvePage } from "../components/page.js";
+import { type PageConfig, type PageOptions } from "../components/typings.js";
 import { aliasResolve } from "../components/utils.js";
-
-import type { PageConfig, PageOptions } from "../components/typings.js";
 
 export const resolveLocationPage = (
   data: PageConfig & { photo?: string[] },

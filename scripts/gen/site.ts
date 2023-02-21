@@ -1,10 +1,12 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, resolve, relative } from "node:path";
+import { dirname, relative, resolve } from "node:path";
+
 import { deleteSync } from "del";
 import { load } from "js-yaml";
+
 import { getMarkdown } from "../components/markdown.js";
-import { getFileList } from "../utils/index.js";
 import { PageConfig } from "../components/typings.js";
+import { getFileList } from "../utils/index.js";
 
 // 删除旧的文件
 deleteSync(["./site/**", "!./site/.vuepress/**", "!./site/README.md"]);

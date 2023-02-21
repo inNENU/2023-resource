@@ -1,28 +1,28 @@
 import { execSync } from "node:child_process";
+
 import { deleteSync } from "del";
 
-import { checkAccount, checkAccountDetail } from "./account.js";
+import {
+  type AccountConfig,
+  type AccountDetail,
+  checkAccount,
+  checkAccountDetail,
+} from "./account.js";
 import { count } from "./count.js";
-import { genDonate } from "./donate.js";
+import { type Donate, genDonate } from "./donate.js";
 import { genEnrollPlan } from "./enroll-plan.js";
 import { genIcon } from "./icon.js";
 import { genLyric } from "./lyric.js";
-import { checkMusic } from "./music.js";
-import { genPEScore } from "./peScore.js";
-import { generateQRCode } from "./qrcode.js";
-import { genSearchMap } from "./search.js";
 import { resolveLocationPage } from "./map.js";
-import { resolveMarker } from "./marker.js";
+import { type MarkerOption, resolveMarker } from "./marker.js";
+import { type MusicInfo, checkMusic } from "./music.js";
+import { type PEConfig, genPEScore } from "./peScore.js";
+import { generateQRCode } from "./qrcode.js";
 import { generateResource } from "./resource.js";
+import { genSearchMap } from "./search.js";
 import { resolvePage } from "../components/page.js";
+import { type PageConfig } from "../components/typings.js";
 import { convertYml2Json } from "../utils/index.js";
-
-import type { AccountConfig, AccountDetail } from "./account.js";
-import type { Donate } from "./donate.js";
-import type { PEConfig } from "./peScore.js";
-import type { MarkerOption } from "./marker.js";
-import type { MusicInfo } from "./music.js";
-import type { PageConfig } from "../components/typings.js";
 
 // 删除旧的文件
 deleteSync([

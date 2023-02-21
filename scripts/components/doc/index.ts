@@ -1,6 +1,7 @@
 import { checkKeys } from "@mr-hope/assert-type";
+
+import { type DocComponentOptions } from "./typings.js";
 import { aliasResolve } from "../utils.js";
-import type { DocComponentOptions } from "./typings.js";
 
 /**
  * 获得文档图标

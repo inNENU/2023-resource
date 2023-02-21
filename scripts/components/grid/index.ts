@@ -1,7 +1,9 @@
-import { checkKeys } from "@mr-hope/assert-type";
 import { existsSync } from "node:fs";
+
+import { checkKeys } from "@mr-hope/assert-type";
+
+import { type GridComponentOptions } from "./typings.js";
 import { getPath, indent, resolvePath } from "../utils.js";
-import type { GridComponentOptions } from "./typings.js";
 
 export const resolveGrid = (
   element: GridComponentOptions,

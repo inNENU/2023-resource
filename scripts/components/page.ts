@@ -1,5 +1,6 @@
-import { checkKeys } from "@mr-hope/assert-type";
 import { readFileSync, writeFileSync } from "node:fs";
+
+import { checkKeys } from "@mr-hope/assert-type";
 
 import { resolveAccount } from "./account/index.js";
 import { resolveAction } from "./action/index.js";
@@ -9,16 +10,15 @@ import { resolveCarousel } from "./carousel/index.js";
 import { resolveDoc } from "./doc/index.js";
 import { resolveFooter } from "./footer/index.js";
 import { resolveGrid } from "./grid/index.js";
+import { resolveImg } from "./img/index.js";
 import { resolveList } from "./list/index.js";
 import { resolveLoading } from "./loading/index.js";
 import { resolveLocation } from "./location/index.js";
-import { resolveImg } from "./img/index.js";
 import { resolvePhone } from "./phone/index.js";
 import { resolveText } from "./text/index.js";
 import { resolveTitle } from "./title/index.js";
+import { type PageConfig, type PageOptions } from "./typings.js";
 import { resolveVideo } from "./video/index.js";
-
-import type { PageConfig, PageOptions } from "./typings.js";
 
 /**
  * 处理页面数据
