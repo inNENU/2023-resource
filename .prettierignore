@@ -7,3 +7,5 @@ site/.vuepress/dist/
 
 service/vendor/
 service/composer.lock
+
+pnpm-lock.yaml
