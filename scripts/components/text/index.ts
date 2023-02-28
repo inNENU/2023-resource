@@ -84,8 +84,8 @@ ${
 }\
 ${
   type || heading
-    ? `${type ? `::: ${type}` : ""}${
-        typeof heading === "string" ? ` ${type ? "" : "### "}${heading}` : ""
+    ? `${type ? `::: ${type} ` : ""}${
+        typeof heading === "string" ? `${type ? "" : "### "}${heading}` : ""
       }
 
 `
