@@ -3,13 +3,6 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: card
-    cover: http://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg
-    title: 小程序封停以及整改声明
-    logo: $img/inNENU.png
-    name: in 东师
-    url: info?path=Oabout/change-notice
-
   - tag: grid
     header: 入校介绍
     items:
