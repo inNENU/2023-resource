@@ -12,6 +12,10 @@ actions:
   - type: primary
     text: 东师介绍
     link: /intro/
+head:
+  - - meta
+    - name: baidu-site-verification
+    - content: codeva-vWUwPsPNMh
 
 footer: 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
 ---
