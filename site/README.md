@@ -15,7 +15,7 @@ actions:
 head:
   - - meta
     - name: baidu-site-verification
-    - content: codeva-vWUwPsPNMh
+      content: codeva-vWUwPsPNMh
 
 footer: 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
 ---
