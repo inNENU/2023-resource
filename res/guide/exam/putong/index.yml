@@ -1,8 +1,14 @@
 title: 普通话水平测试
 author: Mr.Hope
-time: 2022-11-25
+time: 2023-04-25T05:43:43.603Z
 shareable: true
 content:
+  - tag: list
+    items:
+      - text: 2023 年公告
+        icon: notice
+        path: notice
+
   - tag: text
     type: info
     text:

@@ -1,6 +1,6 @@
 title: 资助体系介绍
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-04-25T05:43:42.603Z
 shareable: true
 content:
   - tag: title
@@ -77,7 +77,7 @@ content:
     items:
       - text: 勤工助学详情
         icon: more
-        path: work
+        path: work/
 
   - tag: text
     heading: “减”
