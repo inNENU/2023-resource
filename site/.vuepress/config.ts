@@ -83,4 +83,5 @@ export default defineUserConfig({
   }),
 
   plugins: [searchProPlugin({ indexContent: true })],
+  shouldPrefetch: () => false,
 });
