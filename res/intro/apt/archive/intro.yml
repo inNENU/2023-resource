@@ -1,8 +1,13 @@
 title: 档案馆介绍
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-05-10T16:32:31.225Z
 shareable: true
-cite: https://dag.nenu.edu.cn/gywm/zzjg.htm
+cite:
+  - https://dag.nenu.edu.cn/gywm/zzjg.htm
+  - https://dag.nenu.edu.cn/gywm/jgsz.htm
+  - https://dag.nenu.edu.cn/gywm/lsyg.htm
+  - https://dag.nenu.edu.cn/gywm/gzjj.htm
+  - https://dag.nenu.edu.cn/gywm/smyj.htm
 content:
   - tag: title
     text: 组织架构

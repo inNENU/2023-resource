@@ -1,6 +1,6 @@
 title: 教务处人员信息
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-05-10T16:32:31.249Z
 shareable: true
 content:
   - tag: list
@@ -31,3 +31,6 @@ content:
 
       - text: 净月教务管理办公室
         path: jingyue
+
+      - text: 经济管理实验教学中心
+        path: economy

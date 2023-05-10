@@ -1,7 +1,7 @@
 title: 研究生院
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-05-10T16:32:31.281Z
 shareable: true
 content:
   - tag: account
@@ -29,3 +29,15 @@ content:
       - text: 人员信息
         icon: student-org
         path: person
+
+  - tag: action
+    header: 综合管理系统
+    content: https://math127.nenu.edu.cn/HProg/yjsy/index_pc.php
+
+  - tag: action
+    header: 培养环节系统
+    content: http://py.nenu.edu.cn/
+
+  - tag: action
+    header: 学位证书查询
+    content: http://xwcx.nenu.edu.cn/
