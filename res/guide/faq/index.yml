@@ -1,6 +1,6 @@
 title: 常见问题
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-05-13T11:45:50.969Z
 grey: true
 shareable: true
 content:
@@ -10,10 +10,6 @@ content:
       - text: 录取相关
         icon: enroll
         path: enroll
-
-      - text: 疫情相关
-        icon: virus
-        path: epidemic
 
       - text: 录取通知书相关
         icon: letter

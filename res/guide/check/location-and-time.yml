@@ -1,6 +1,6 @@
-title: 报到时间地点
+title: 2022 年报到时间地点
 author: Mr.Hope
-time: 2022-09-02
+time: 2023-05-13T11:45:50.698Z
 shareable: true
 content:
   - tag: title
@@ -12,14 +12,6 @@ content:
     text:
       - 报到时间为 2022 年 8 月 31 日、9 月 1 日 (星期三、星期四)
       - 火车站将设有新生接待处
-
-  - tag: text
-    type: tip
-    heading: 研究生新生报到
-    text:
-      - 报到时间为 2022 年 9 月 2 日、9 月 3 日 (星期五、星期六)
-    style:
-      text-decoration: line-through
 
   - tag: text
     type: tip

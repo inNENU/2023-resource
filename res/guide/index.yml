@@ -23,12 +23,6 @@ content:
         icon: study
         path: yiban/
 
-      - text: 疫情相关
-        color: mauve
-        name: Epidemic
-        icon: virus
-        path: epidemic/
-
       - text: 需带物品
         color: olive
         name: Necessity
@@ -163,12 +157,6 @@ content:
         name: Wechat
         icon: wechat
         path: account/wechat/
-
-      - text: E 起战疫
-        color: grey
-        name: MiniApp
-        icon: miniapp
-        path: miniapp/
 
       - text: 教务系统
         color: purple

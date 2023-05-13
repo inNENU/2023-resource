@@ -1,6 +1,6 @@
 title: 长春站-到净月-3 号线
 author: Mr.Hope
-time: 2022-08-30
+time: 2023-05-13T11:45:50.506Z
 shareable: true
 content:
   - tag: text
@@ -72,13 +72,6 @@ content:
       - 出站时要测量体温。
       - 在长春乘坐公共交通工具、出入公共场所，都需要用到吉林省内的吉祥码。
       - 请提前进行相关注册并在地铁安检前自助扫描吉祥码。
-
-  - tag: list
-    header: false
-    items:
-      - text: 吉祥码注册与使用
-        icon: register
-        path: /guide/epidemic/jixiang-code/
 
   - tag: title
     text: 购票相关

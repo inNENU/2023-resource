@@ -1,6 +1,6 @@
 title: 长春火车站介绍
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-05-13T11:45:51.602Z
 shareable: true
 content:
   - tag: title
@@ -26,9 +26,3 @@ content:
   - tag: text
     heading: 长春南站
     text: 长春南站为货运站，主要以货物运输为主，几乎没有经停车辆。
-
-  - tag: text
-    type: info
-    heading: 疫情管控
-    text: 在长春站出站时，需要测量体温、刷身份证并查验健康码情况。需要隔离的会直接隔离。
-    path: /guide/epidemic/jixiang-code/

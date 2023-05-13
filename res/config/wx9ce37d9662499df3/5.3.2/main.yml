@@ -32,17 +32,6 @@ content:
     logo: map
     url: map
 
-  - tag: list
-    header: 疫情相关
-    items:
-      - text: 疫情管理调整
-        icon: virus
-        path: guide/epidemic/manage
-
-      - text: 选课/注课
-        icon: select
-        path: guide/select/
-
   - tag: grid
     header: 入校介绍
     items:

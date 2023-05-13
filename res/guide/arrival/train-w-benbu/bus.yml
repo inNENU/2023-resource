@@ -1,6 +1,6 @@
 title: 长春西站-到本部-公交
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-05-13T11:45:50.517Z
 shareable: true
 content:
   - tag: text
@@ -28,15 +28,6 @@ content:
 
   - tag: title
     text: 注意事项
-
-  - tag: text
-    type: info
-    heading: 疫情相关
-    text:
-      - 出站时要测量体温。
-      - 在长春乘坐公共交通工具、出入公共场所，都需要用到吉林省内的吉祥码。
-      - 请提前进行相关注册并在地铁安检前自助扫描吉祥码。
-    path: /guide/epidemic/jixiang-code/
 
   - tag: text
     type: danger

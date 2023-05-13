@@ -1,6 +1,6 @@
 title: 长春西站-到本部乘坐地铁
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-05-13T11:45:50.521Z
 shareable: true
 content:
   - tag: text
@@ -44,13 +44,6 @@ content:
     text:
       - 长春西站只有一个出站口方向，请直接按照指示出站即可。
 
-  - tag: text
-    type: info
-    heading: 疫情相关
-    text:
-      - 由于新冠疫情，从长春站出站时要测量体温、刷身份证、查验吉祥码，请提前做好准备。
-    path: /guide/epidemic/jixiang-code/
-
   - tag: img
     src: $img/arrival/train-west-exit.jpg
     desc: 长春西站出站口
@@ -73,14 +66,6 @@ content:
   - tag: text
     text:
       - 进站后左转下楼，做右手边的“东方广场”方向地铁。
-
-  - tag: text
-    type: info
-    heading: 疫情相关
-    text:
-      - 在长春乘坐公共交通工具、出入公共场所，都需要用到吉林省内的吉祥码。
-      - 请提前进行相关注册并在地铁安检前自助扫描吉祥码。
-    path: /guide/epidemic/jixiang-code/
 
   - tag: text
     type: info
