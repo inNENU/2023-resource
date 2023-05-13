@@ -1,14 +1,19 @@
 title: 净月校区快递介绍
 author: Mr.Hope
-time: 2022-09-04
+time: 2023-05-13T12:08:30.809Z
 shareable: true
 content:
+  - tag: text
+    type: tip
+    text:
+      - 为方便取行李，建议新生选择快递点在校园内部的快递服务。
+      - 其他快递也可送达，但需要到校外的快递点取件 (通常在校门口不远处)。
+
   - tag: title
     text: 校内快递点
 
   - tag: text
     text:
-      - 由于疫情封校，新生邮寄快递最好选择快递点在校园内部的快递服务。
       - |-
         净月快递点在校园内的有:
 

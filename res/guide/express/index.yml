@@ -1,15 +1,9 @@
 title: 快递
 author: Mr.Hope
-time: 2022-11-25
+time: 2023-05-13T12:08:30.800Z
 grey: true
 shareable: true
 content:
-  # - tag: text
-  #   type: tip
-  #   text:
-  #     - 由于疫情原因，开学学校会封校至少两周。
-  #     - 所以 Mr.Hope 建议同学们请尽量选择在校内有快递点的快递。
-
   - tag: list
     header: 提示
     items:

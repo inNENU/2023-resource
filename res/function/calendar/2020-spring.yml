@@ -3,8 +3,7 @@ content:
   - title: 3 月 - 4 月
     icon: ./icon/study.svg
     text: |-
-      · 因疫情原因未开学
-      · 全校开展线上授课
+      · 因疫情原因未开学，全校开展线上授课
 
   - title: 5 月
     icon: ./icon/study.svg
