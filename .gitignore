@@ -22,3 +22,5 @@ other/bak/
 service/info/
 
 .env
+
+pnpm-lock.yaml

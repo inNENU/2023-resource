@@ -32,6 +32,7 @@
     "*.{js,ts,json,yaml,md}": "prettier --write",
     "package.json": "sort-package-json"
   },
+  "packageManager": "pnpm@8.6.1",
   "dependencies": {
     "@mr-hope/assert-type": "1.2.5",
     "@types/js-yaml": "4.0.5",
@@ -42,8 +43,8 @@
     "@vuepress/client": "2.0.0-beta.62",
     "axios": "1.4.0",
     "del": "7.0.0",
-    "dotenv": "16.1.2",
-    "eslint": "8.41.0",
+    "dotenv": "16.1.3",
+    "eslint": "8.42.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-import": "2.27.5",
@@ -51,18 +52,17 @@
     "husky": "8.0.3",
     "js-yaml": "4.1.0",
     "lint-staged": "13.2.2",
-    "node-jieba": "0.0.2",
+    "node-jieba": "0.0.3",
     "prettier": "2.8.8",
     "qrcode": "1.5.3",
     "svgo": "3.0.2",
     "sort-package-json": "2.4.1",
     "tsx": "3.12.7",
-    "tslib": "2.5.2",
-    "typescript": "5.0.4",
+    "tslib": "2.5.3",
+    "typescript": "5.1.3",
     "vue": "3.3.4",
     "vuepress": "2.0.0-beta.62",
-    "vuepress-plugin-search-pro": "2.0.0-beta.218",
-    "vuepress-theme-hope": "2.0.0-beta.218"
-  },
-  "packageManager": "pnpm@8.6.0"
+    "vuepress-plugin-search-pro": "2.0.0-beta.220",
+    "vuepress-theme-hope": "2.0.0-beta.220"
+  }
 }

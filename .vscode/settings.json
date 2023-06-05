@@ -1,6 +1,6 @@
 {
   "yaml.schemas": {
-    "./res.schema.json": [
+    "./.vscode/res.schema.json": [
       "/res/guide/**/*.yml",
       "/res/intro/**/*.yml",
       "/res/other/**/*.yml"
