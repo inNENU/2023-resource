@@ -1,7 +1,7 @@
 title: 本科招生简章
 grey: true
 author: Mr.Hope
-time: 2023-06-05T14:25:59.321Z
+time: 2023-06-05T15:00:49.313Z
 shareable: true
 content:
   - tag: list
@@ -19,14 +19,17 @@ content:
       - text: 2023 年音乐学专业招生简章
         path: 2023-music
 
-      - text: 2022 年美术类专业招生简章
-        path: 2022-art
+      - text: 2023 年美术类专业招生简章
+        path: 2023-art
 
-      - text: 2022 年舞蹈编导专业招生简章
-        path: 2022-dance
+      - text: 2023 年舞蹈编导专业招生简章
+        path: 2023-dance
 
-      - text: 2022 年播音与主持艺术专业招生简章
-        path: 2022-host
+      - text: 2023 年播音与主持艺术专业招生简章
+        path: 2023-host
 
-      - text: 2022 年国家优师专项计划招生简章
-        path: 2022-great
+      - text: 2023 年运动训练、武术与民族传统体育专业招生简章
+        path: 2023-pe
+
+      - text: 2023 年高水平运动队招生简章
+        path: 2023-team
