@@ -3,16 +3,11 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: list
-    header: 纳新季
-    items:
-      - text: 学生组织纳新
-        icon: student-org
-        path: guide/organization/intake
-
-      - text: 社团纳新
-        icon: association
-        path: guide/association/intake
+  - tag: card
+    cover: $img/tab/enroll.png
+    title: 2023年本科招生指南
+    logo: enroll
+    url: info?id=/intro/enroll/under/rule/
 
   - tag: card
     cover: $img/tab/life.jpg
