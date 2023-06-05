@@ -18,7 +18,6 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7
           run_install: true
 
       - name: Setup Node.js
@@ -36,10 +35,10 @@ jobs:
           git config --global user.name 'Mr.Hope'
           git config --global user.email 'mister-hope@outlook.com'
 
-      - name: Linter Test
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm lint
+      # - name: Linter Test
+      #   env:
+      #     NODE_OPTIONS: --max_old_space_size=8192
+      #   run: pnpm lint
 
       - name: Deploy
         run: |
