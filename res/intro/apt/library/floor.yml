@@ -1,5 +1,6 @@
 title: 图书馆楼层平面图
-desc: "信息来源: 图书馆官网"
+desc: |-
+  信息来源: 图书馆官网
 shareable: true
 content:
   - tag: title

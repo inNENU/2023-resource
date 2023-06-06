@@ -1,22 +1,16 @@
 title: 馆藏分布
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-06T03:00:04.917Z
 shareable: true
 content:
   - tag: title
     text: 本部校区
 
   - tag: img
-    src: $img/library/benbuGuanCang.png
+    src: $img/library/benbu-store.png
 
   - tag: title
     text: 净月校区
 
   - tag: img
-    src: $img/library/jingyueGuanCang.png
-
-  - tag: title
-    text: 图书馆馆藏分布
-
-  - tag: img
-    src: $img/library/jingyueGuanCang2.jfif
+    src: $img/library/jingyue-store.png

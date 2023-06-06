@@ -1,13 +1,14 @@
 title: 图书馆
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-06T03:00:04.944Z
 shareable: true
 content:
   - tag: account
     name: 图书馆
     logo: $img/media/library.png
     detail: 东北师范大学图书馆
+    qq: 1665466732
     wxid: nenu_lib
     wxcode: $img/media/library-wx.jpg
     account: library
@@ -65,6 +66,10 @@ content:
 
   - tag: list
     items:
+      - text: 联系方式
+        icon: phone
+        path: contact
+
       - text: 常见问题
         icon: faq
         path: faq
