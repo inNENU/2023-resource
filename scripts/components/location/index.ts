@@ -3,11 +3,11 @@ import { checkKeys } from "@mr-hope/assert-type";
 import { LocationComponentOptions } from "./typings.js";
 
 export const resolveLocation = (
-  element: LocationComponentOptions,
+  component: LocationComponentOptions,
   location = ""
 ): void => {
   checkKeys(
-    element,
+    component,
     {
       tag: "string",
       title: "string",
@@ -17,7 +17,7 @@ export const resolveLocation = (
     location
   );
 
-  element.points.forEach((item) => {
+  component.points.forEach((item) => {
     checkKeys(item, {
       latitude: "number",
       longitude: "number",
@@ -26,4 +26,26 @@ export const resolveLocation = (
       path: ["string", "undefined"],
     });
   });
+};
+
+export const getLocationMarkdown = (component: LocationComponentOptions) => {
+  const { title, points = [] } = component;
+
+  return `\
+${
+  title
+    ? `\
+#### ${title}
+
+`
+    : ""
+}\
+<iframe src="https://apis.map.qq.com/tools/poimarker?type=0&marker=${points
+    // maximum 4 points
+    .slice(0, 4)
+    .map(
+      ({ latitude, longitude, name = "", detail = "" }) =>
+        `coord:${latitude},${longitude};title:${name};addr:${detail}|`
+    )}&key=YNUBZ-AN3HF-P62JK-J2GND-XQTQQ-TTBOB&referer=in东师" frameborder="0" width="100%" height="320px" />
+`;
 };

@@ -62,8 +62,13 @@ export const getDocMarkdown = (component: DocComponentOptions): string => {
 
   const { name, url } = component;
 
-  return `\
-- [${name}](${url})
+  const docName = `${name}.${url.split(".").pop()}`;
 
+  return `\
+${
+  url.match(/\.(pdf|jpe?g|png|bmp|svg)$/)
+    ? `- [${name}](${url})`
+    : `<a href="${url}" download="${docName}">${docName}</a>`
+}
 `;
 };

@@ -89,9 +89,17 @@ ${items
   .map((item) => {
     if ("type" in item || "url" in item) return null;
 
-    const { text, path } = item;
+    const { icon, text, path } = item;
 
-    return `- ${path ? `[${text}](${getPath(path)})` : indent(text, 3)}`;
+    return `- ${
+      path
+        ? `[${
+            icon
+              ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" /> `
+              : ""
+          } ${text}](${getPath(path)})`
+        : indent(text, 3)
+    }`;
   })
   .filter((item): item is string => item !== null)
   .join("\n")}

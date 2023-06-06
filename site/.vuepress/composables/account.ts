@@ -1,5 +1,6 @@
 import { useClipboard } from "@vueuse/core";
-import { onMounted } from "vue";
+import { usePageData } from "@vuepress/client";
+import { onMounted, watch } from "vue";
 import { Message } from "vuepress-shared/client";
 
 const CHECK_ICON =
@@ -7,26 +8,37 @@ const CHECK_ICON =
 
 export const setupAccount = () => {
   const { copy } = useClipboard({ legacy: true });
+  const page = usePageData();
 
   onMounted(() => {
     const message = new Message();
 
-    document.querySelectorAll<HTMLElement>(".account-action")?.forEach((el) => {
-      el.addEventListener("click", () => {
-        const { qqcode, qq, wxcode, wxid } = el.dataset;
+    const registerAccount = () => {
+      document
+        .querySelectorAll<HTMLElement>(".account-action")
+        ?.forEach((el) => {
+          el.addEventListener("click", () => {
+            const { qqcode, qq, wxcode, wxid } = el.dataset;
 
-        if (qqcode) {
-          window.open(el.dataset.qqcode, "_blank");
-        } else if (wxcode) {
-          window.open(el.dataset.qqcode, "_blank");
-        } else if (qq) {
-          copy(qq);
-          message.pop(`${CHECK_ICON}<span>QQ 号已复制到剪切板</span>`);
-        } else if (wxid) {
-          copy(wxid);
-          message.pop(`${CHECK_ICON}<span>微信号已复制到剪切板</span>`);
-        }
-      });
-    });
+            if (qqcode) {
+              window.open(el.dataset.qqcode, "_blank");
+            } else if (wxcode) {
+              window.open(el.dataset.qqcode, "_blank");
+            } else if (qq) {
+              copy(qq);
+              message.pop(`${CHECK_ICON}<span>QQ 号已复制到剪切板</span>`);
+            } else if (wxid) {
+              copy(wxid);
+              message.pop(`${CHECK_ICON}<span>微信号已复制到剪切板</span>`);
+            }
+          });
+        });
+    };
+
+    watch(
+      () => page.value.path,
+      () => registerAccount(),
+      { immediate: true }
+    );
   });
 };

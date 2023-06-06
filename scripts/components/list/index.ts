@@ -255,10 +255,14 @@ ${items
     const { icon, text, path } = item;
 
     return `- ${
-      icon
-        ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" /> `
-        : ""
-    }${path ? `[${text}](${getPath(path)})` : indent(text, 3)}`;
+      path
+        ? `[${
+            icon
+              ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" /> `
+              : ""
+          } ${text}](${getPath(path)})`
+        : indent(text, 3)
+    }`;
   })
   .filter((item): item is string => item !== null)
   .join("\n")}

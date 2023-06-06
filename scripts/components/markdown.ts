@@ -11,6 +11,7 @@ import { type PageConfig } from "./typings.js";
 import { getVideoMarkdown } from "./video/index.js";
 import { getYAMLValue } from "../utils/index.js";
 import { getAccountMarkdown } from "./account/index.js";
+import { getLocationMarkdown } from "./location/index.js";
 
 /**
  * 生成页面 Markdown
@@ -83,6 +84,8 @@ date: ${time.toISOString()}
     else if (tag === "action") content += getActionMarkdown(component);
     // 检测账号
     else if (tag === "account") content += getAccountMarkdown(component);
+    // 检测地点
+    else if (tag === "location") content += getLocationMarkdown(component);
   });
 
   if (desc || cite)
