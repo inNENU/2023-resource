@@ -1,3 +1,4 @@
+import { cut } from "nodejs-jieba";
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { hopeTheme } from "vuepress-theme-hope";
@@ -82,7 +83,15 @@ export default defineUserConfig({
     },
   }),
 
-  plugins: [searchProPlugin({ indexContent: true })],
-  shouldPrefetch: () => false,
-  shouldPreload: () => false,
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+      indexOptions: {
+        tokenize: (text, fieldName) =>
+          fieldName === "id" ? [text] : cut(text, true),
+      },
+    }),
+  ],
+  shouldPrefetch: false,
+  shouldPreload: false,
 });

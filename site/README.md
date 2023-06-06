@@ -22,7 +22,9 @@ footer: 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme
 
 ::: tip
 
-此网站内容从 in 东师小程序自动生成，如果条件允许，请尽量扫码下方图片使用 in 东师小程序。
+此网站内容从 in 东师小程序自动生成，用于 PC 端访问以及高级搜素。
+
+建议移动端扫码下方图片使用 in 东师小程序。
 
 :::
 

@@ -47,7 +47,7 @@ author: ${getYAMLValue(author)}
 
   if (time)
     content += `\
-date: ${time.toLocaleString()}
+date: ${time.toISOString()}
 `;
 
   content += `\
@@ -84,31 +84,28 @@ date: ${time.toLocaleString()}
 
   if (desc || cite)
     content += `\
-::: note
-
 ${
   desc
     ?.split("\n")
-    .map((line) => `${line}`)
-    .join("\n\n") || ""
+    .map((line) => `> ${line}`)
+    .join("\n>\n") || ""
 }\
 
 ${
   Array.isArray(cite)
     ? `\
-相关链接:
-
-${cite.map((line, index) => `[相关链接${index + 1}](${line})`).join("\n>\n")}
+> 相关链接:
+>
+> ${cite
+        .map((line, index) => `> [相关链接${index + 1}](${line})`)
+        .join("\n>\n")}
 `
     : cite
     ? `\
-[相关链接](${cite})
+> [相关链接](${cite})
 `
     : ""
 }
-
-:::
-
 `;
 
   return content;

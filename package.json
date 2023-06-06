@@ -52,7 +52,7 @@
     "husky": "8.0.3",
     "js-yaml": "4.1.0",
     "lint-staged": "13.2.2",
-    "node-jieba": "0.0.3",
+    "nodejs-jieba": "0.0.2",
     "prettier": "2.8.8",
     "qrcode": "1.5.3",
     "svgo": "3.0.2",
