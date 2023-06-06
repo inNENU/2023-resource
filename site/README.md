@@ -20,6 +20,8 @@ head:
 footer: 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
 ---
 
+## [2023 年本科招生章程](intro/enroll/under/rule/README.md)
+
 ::: tip
 
 此网站内容从 in 东师小程序自动生成，用于 PC 端访问以及高级搜素。

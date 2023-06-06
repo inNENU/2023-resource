@@ -10,6 +10,7 @@ import { getTitleMarkdown } from "./title/index.js";
 import { type PageConfig } from "./typings.js";
 import { getVideoMarkdown } from "./video/index.js";
 import { getYAMLValue } from "../utils/index.js";
+import { getAccountMarkdown } from "./account/index.js";
 
 /**
  * 生成页面 Markdown
@@ -80,6 +81,8 @@ date: ${time.toISOString()}
     else if (tag === "video") content += getVideoMarkdown(component);
     // 检测动作
     else if (tag === "action") content += getActionMarkdown(component);
+    // 检测账号
+    else if (tag === "account") content += getAccountMarkdown(component);
   });
 
   if (desc || cite)
@@ -93,12 +96,14 @@ ${
 
 ${
   Array.isArray(cite)
-    ? `\
+    ? cite.length > 1
+      ? `\
 > 相关链接:
 >
-> ${cite
-        .map((line, index) => `> [相关链接${index + 1}](${line})`)
-        .join("\n>\n")}
+${cite.map((line, index) => `> [相关链接${index + 1}](${line})`).join("\n>\n")}
+`
+      : `\
+> [相关链接](${cite[0]})
 `
     : cite
     ? `\

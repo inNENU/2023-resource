@@ -83,6 +83,8 @@ ${
 `
     : ""
 }\
+<div class="list">
+
 ${items
   .map((item) => {
     if ("type" in item || "url" in item) return null;
@@ -93,6 +95,8 @@ ${items
   })
   .filter((item): item is string => item !== null)
   .join("\n")}
+
+</div>
 
 ${footer ? `> ${footer}\n\n` : ""}\
 `;

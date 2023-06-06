@@ -4,19 +4,19 @@ import { type AccountComponentOptions } from "./typings.js";
 import { aliasResolve } from "../utils.js";
 
 export const resolveAccount = (
-  element: AccountComponentOptions,
+  component: AccountComponentOptions,
   location = ""
 ): void => {
   // `$` alias resolve and file check
-  if (element.logo)
-    element.logo = aliasResolve(element.logo, "Image", location);
-  if (element.qqcode)
-    element.qqcode = aliasResolve(element.qqcode, "Image", location);
-  if (element.wxcode)
-    element.wxcode = aliasResolve(element.wxcode, "Image", location);
+  if (component.logo)
+    component.logo = aliasResolve(component.logo, "Image", location);
+  if (component.qqcode)
+    component.qqcode = aliasResolve(component.qqcode, "Image", location);
+  if (component.wxcode)
+    component.wxcode = aliasResolve(component.wxcode, "Image", location);
 
   checkKeys(
-    element,
+    component,
     {
       tag: "string",
       name: "string",
@@ -38,10 +38,72 @@ export const resolveAccount = (
   );
 
   // check location
-  if (element.location)
+  if (component.location)
     checkKeys(
-      element.location,
+      component.location,
       { latitude: "number", longitude: "number" },
       `${location}.location`
     );
+};
+
+export const getAccountMarkdown = (
+  component: AccountComponentOptions
+): string => {
+  // `$` alias resolve and file check
+  if (component.logo) component.logo = aliasResolve(component.logo);
+  if (component.qqcode) component.qqcode = aliasResolve(component.qqcode);
+  if (component.wxcode) component.wxcode = aliasResolve(component.wxcode);
+
+  const { name, detail, desc, logo, qq, qqcode, wxid, wxcode, site, mail } =
+    component;
+
+  return `\
+<div class="account">
+  <img class="account-background" src="${logo}" alt="${name}" loading="lazy" no-index />
+  <div class="account-content">
+    <img class="account-logo" src="${logo}" alt="${name}" loading="lazy" no-index />
+    <div class="account-name">${name}</div>
+    <div class="account-detail">${detail}</div>
+    ${detail ? `<div class="account-detail">${detail}</div>` : ""}
+    ${desc ? `<div class="account-description"></div>` : ""}
+  </div>
+  <div class="account-action-list">
+  ${
+    qq || qqcode
+      ? `\
+    <button class="account-action" data-qq="${qq}" data-qqcode="${qqcode}"${
+          qq ? ` aria-label="${qq}" data-balloon-pos="up"` : ""
+        }>
+      <HopeIcon icon="https://mp.innenu.com/res/icon/qq.svg" no-index />
+    </button>`
+      : ""
+  }
+  ${
+    wxid || wxcode
+      ? `\
+    <button class="account-action" data-wxid="${wxid}" data-wxcode="${wxcode}">
+      <HopeIcon icon="https://mp.innenu.com/res/icon/wechat.svg" no-index />
+    </button>`
+      : ""
+  }
+  ${
+    site
+      ? `\
+    <a class="account-action" href="${site}" target="_blank">
+      <HopeIcon icon="https://mp.innenu.com/res/icon/web.svg" no-index />
+    </a>`
+      : ""
+  }
+  ${
+    mail
+      ? `\
+    <a class="account-action" href="mailto:${mail}">
+      <HopeIcon icon="https://mp.innenu.com/res/icon/mail.svg" no-index />
+    </a>`
+      : ""
+  }
+  </div>
+</div>
+
+`;
 };

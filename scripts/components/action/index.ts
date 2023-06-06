@@ -49,7 +49,7 @@ ${
 `
     : `\
 \`\`\`text
-component.content
+${content}
 \`\`\`
 `
 }
