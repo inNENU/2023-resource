@@ -35,10 +35,10 @@ jobs:
           git config --global user.name 'Mr.Hope'
           git config --global user.email 'mister-hope@outlook.com'
 
-      # - name: Linter Test
-      #   env:
-      #     NODE_OPTIONS: --max_old_space_size=8192
-      #   run: pnpm lint
+      - name: Linter Test
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: pnpm lint
 
       - name: Deploy
         run: |

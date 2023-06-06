@@ -32,7 +32,6 @@
     "strictPropertyInitialization": true,
     "target": "ES2020",
     "lib": ["ESNext"],
-    "locale": "zh-CN",
     "module": "NodeNext"
   },
   "include": ["./scripts", "./typings"]
