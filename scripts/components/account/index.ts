@@ -84,7 +84,7 @@ ${
     ? `\
     <button class="account-action" ${
       qq ? `aria-label="${qq}" data-balloon-pos="up" data-qq="${qq}" ` : ""
-    }${qqcode ? `data-qqcode="${qqcode}` : ""}>
+    }${qqcode ? `data-qqcode="${qqcode}"` : ""}>
       <HopeIcon icon="https://mp.innenu.com/res/icon/qq.svg" no-index />
     </button>
 `
