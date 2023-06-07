@@ -1,7 +1,17 @@
-import { cut } from "nodejs-jieba";
+import { cut, insertWord } from "nodejs-jieba";
+import { fs, getDirname, path } from "@vuepress/utils";
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { hopeTheme } from "vuepress-theme-hope";
+
+const __dirname = getDirname(import.meta.url);
+
+const words = fs
+  .readFileSync(path.resolve(__dirname, "words"), "utf-8")
+  .split("\n")
+  .filter((line) => line.trim() && !line.startsWith("#"));
+
+words.forEach(insertWord);
 
 export default defineUserConfig({
   title: "in 东师",
@@ -88,7 +98,9 @@ export default defineUserConfig({
       indexContent: true,
       indexOptions: {
         tokenize: (text, fieldName) =>
-          fieldName === "id" ? [text] : cut(text, true),
+          fieldName === "id"
+            ? [text]
+            : cut(text.replace(/<HopeIcon .*\/>/g, ""), true),
       },
     }),
   ],

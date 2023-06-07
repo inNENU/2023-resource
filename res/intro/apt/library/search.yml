@@ -1,38 +1,51 @@
-title: 书目检索
-desc: "信息来源: 图书馆官网"
+title: 图书检索指南
+desc: |-
+  信息来源: 图书馆官网
+cite:
+  - http://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001787&pageId=0&wfwfid=21248&websiteId=0
 shareable: true
 content:
-  - tag: title
-    text: OPAC 使用指南
+  - tag: p
+    text:
+      - “知行搜索”，是我馆馆藏检索系统，在这里不仅可以查找纸本图书、期刊、学位论文、数据库等多种资源，更使得资源发现、检索、获取融为一体，实现一站式服务，让信息利用更加高效便捷。
+      - 下面，我们以纸本图书检索为例，为大家介绍一下该检索系统的使用方法。
 
-  - tag: ul
-    text: 先访问图书馆主页
+  - tag: title
+    text: 检索入口
+
+  - tag: text
+    text: 访问图书馆主页，在检索栏选择“馆藏书目”，输入检索词直接检索。
 
   - tag: action
     content: http://www.library.nenu.edu.cn/
 
   - tag: img
-    src: $img/library/libraryGuide1.jpg
-    desc: 检索首页
-
-  - tag: img
-    src: $img/library/libraryGuide2.jpg
-    desc: 检索结果列表
-
-  - tag: img
-    src: $img/library/libraryGuide3.jpg
-    desc: 详细资料信息
-
-  - tag: title
-    text: 已借资料的查询与续借
+    src: $img/library/search1.jpg
+    desc: 首页检索
 
   - tag: text
-    text: 点击图书馆主页上“我的图书馆”链接
+    text: 直接使用执行搜索
+
+  - tag: action
+    content: https://nenu.primo.exlibrisgroup.com.cn/discovery/search?vid=86NEN_INST:NEN
+
+  - tag: text
+    type: note
+    text: 也可访问图书馆微信公众号，选择“圕服务”，点击“知行搜索”进入检索页面。
+
+  - tag: title
+    text: 检索方法
+
+  - tag: text
+    heading: 基本检索
+    text: 输入书名、作者或关键词等信息，进行检索。
 
   - tag: img
-    src: $img/library/libraryGuide4.jpg
-    desc: 登录页面
+    src: $img/library/search2.jpg
+
+  - tag: text
+    heading: 高级检索
+    text: 借助多字段与布尔逻辑相结合的方式，精确检索图书。
 
   - tag: img
-    src: $img/library/libraryGuide5.jpg
-    desc: 我的图书馆页面
+    src: $img/library/search3.jpg

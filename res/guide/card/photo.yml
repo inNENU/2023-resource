@@ -1,6 +1,6 @@
 title: 校园卡照片
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-07T14:29:29.045Z
 shareable: true
 content:
   - tag: title
@@ -9,7 +9,7 @@ content:
   - tag: ul
     text:
       - 对于本科生来说，校园卡使用的是高考报考照片。
-      - 对于硕士生来说，校园卡使用的是研究生统一招生考试的报考照片。
+      - 对于研究生来说，校园卡使用的是研究生招生考试 的报考照片。
 
   - tag: text
     type: note

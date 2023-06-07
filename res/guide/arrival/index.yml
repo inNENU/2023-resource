@@ -1,6 +1,6 @@
 title: 到校路线
 author: Mr.Hope
-time: 2023-05-13T11:45:50.478Z
+time: 2023-06-07T14:29:28.333Z
 grey: true
 shareable: true
 content:
@@ -10,11 +10,6 @@ content:
       - text: 专业所在校区
         icon: map
         path: /guide/check/locate
-
-  - tag: text
-    type: tip
-    text: |-
-      请妥善保管好出行信息 (如: 线上购票记录、单据等)，以备学校、疾控中心后期追踪调查。
 
   - tag: list
     header: 到本部校区

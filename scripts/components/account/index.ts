@@ -63,45 +63,46 @@ export const getAccountMarkdown = (
   <div class="account-content">
     <img class="account-logo" src="${logo}" alt="${name}" loading="lazy" no-index />
     <div class="account-name">${name}</div>
-    <div class="account-detail">${detail}</div>
     ${detail ? `<div class="account-detail">${detail}</div>` : ""}
-    ${desc ? `<div class="account-description"></div>` : ""}
+    ${desc ? `<div class="account-description">${desc}</div>` : ""}
   </div>
   <div class="account-action-list">
-  ${
-    qq || qqcode
-      ? `\
-    <button class="account-action" data-qq="${qq}" data-qqcode="${qqcode}"${
-          qq ? ` aria-label="${qq}" data-balloon-pos="up"` : ""
-        }>
+${
+  qq || qqcode
+    ? `\
+    <button class="account-action" ${
+      qq ? `aria-label="${qq}" data-balloon-pos="up" data-qq="${qq}" ` : ""
+    }${qqcode ? `data-qqcode="${qqcode}` : ""}">
       <HopeIcon icon="https://mp.innenu.com/res/icon/qq.svg" no-index />
     </button>`
-      : ""
-  }
-  ${
-    wxid || wxcode
-      ? `\
-    <button class="account-action" data-wxid="${wxid}" data-wxcode="${wxcode}">
+    : ""
+}
+${
+  wxid || wxcode
+    ? `\
+    <button class="account-action" ${wxid ? `data-wxid="${wxid}" ` : ""}${
+        wxcode ? `data-wxcode="${wxcode}" ` : ""
+      }>
       <HopeIcon icon="https://mp.innenu.com/res/icon/wechat.svg" no-index />
     </button>`
-      : ""
-  }
-  ${
-    site
-      ? `\
+    : ""
+}
+${
+  site
+    ? `\
     <a class="account-action" href="${site}" target="_blank">
       <HopeIcon icon="https://mp.innenu.com/res/icon/web.svg" no-index />
     </a>`
-      : ""
-  }
-  ${
-    mail
-      ? `\
+    : ""
+}
+${
+  mail
+    ? `\
     <a class="account-action" href="mailto:${mail}">
       <HopeIcon icon="https://mp.innenu.com/res/icon/mail.svg" no-index />
     </a>`
-      : ""
-  }
+    : ""
+}
   </div>
 </div>
 
