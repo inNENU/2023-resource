@@ -62,7 +62,7 @@ export const getDocMarkdown = (component: DocComponentOptions): string => {
 
   const { name, url } = component;
 
-  const docName = `${name}.${url.split(".").pop()}`;
+  const docName = `${name}.${url.split(".").pop()!}`;
 
   return `\
 ${

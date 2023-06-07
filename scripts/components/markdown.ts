@@ -1,17 +1,17 @@
+import { getAccountMarkdown } from "./account/index.js";
 import { getActionMarkdown } from "./action/index.js";
 import { getAudioMarkdown } from "./audio/index.js";
 import { getDocMarkdown } from "./doc/index.js";
 import { getGridMarkdown } from "./grid/index.js";
 import { getImgMarkdown } from "./img/index.js";
 import { getListMarkdown } from "./list/index.js";
+import { getLocationMarkdown } from "./location/index.js";
 import { getPhoneMarkdown } from "./phone/index.js";
 import { getTextMarkdown } from "./text/index.js";
 import { getTitleMarkdown } from "./title/index.js";
 import { type PageConfig } from "./typings.js";
 import { getVideoMarkdown } from "./video/index.js";
 import { getYAMLValue } from "../utils/index.js";
-import { getAccountMarkdown } from "./account/index.js";
-import { getLocationMarkdown } from "./location/index.js";
 
 /**
  * 生成页面 Markdown

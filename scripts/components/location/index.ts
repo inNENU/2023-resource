@@ -28,7 +28,9 @@ export const resolveLocation = (
   });
 };
 
-export const getLocationMarkdown = (component: LocationComponentOptions) => {
+export const getLocationMarkdown = (
+  component: LocationComponentOptions
+): string => {
   const { title, points = [] } = component;
 
   return `\
@@ -46,6 +48,10 @@ ${
     .map(
       ({ latitude, longitude, name = "", detail = "" }) =>
         `coord:${latitude},${longitude};title:${name};addr:${detail}|`
+    )
+    .join(
+      "&"
     )}&key=YNUBZ-AN3HF-P62JK-J2GND-XQTQQ-TTBOB&referer=in东师" frameborder="0" width="100%" height="320px" />
+
 `;
 };

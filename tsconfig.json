@@ -34,5 +34,5 @@
     "lib": ["ESNext"],
     "module": "NodeNext"
   },
-  "include": ["./scripts", "./typings"]
+  "include": ["./scripts/**/*.ts", "./site/**/*.ts", "./typings/**/*.ts"]
 }
