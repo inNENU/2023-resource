@@ -59,9 +59,9 @@ export const getAccountMarkdown = (
 
   return `\
 <div class="account">
-  <img class="account-background" src="${logo}" alt="${name}" loading="lazy" no-index />
+  <img class="account-background" src="${logo}" alt="${name}" loading="lazy" no-view />
   <div class="account-content">
-    <img class="account-logo" src="${logo}" alt="${name}" loading="lazy" no-index />
+    <img class="account-logo" src="${logo}" alt="${name}" loading="lazy" no-view />
     <div class="account-name">${name}</div>
 ${
   detail
@@ -85,7 +85,7 @@ ${
     <button class="account-action" ${
       qq ? `aria-label="${qq}" data-balloon-pos="up" data-qq="${qq}" ` : ""
     }${qqcode ? `data-qqcode="${qqcode}"` : ""}>
-      <HopeIcon icon="https://mp.innenu.com/res/icon/qq.svg" no-index />
+      <HopeIcon icon="https://mp.innenu.com/res/icon/qq.svg" no-view />
     </button>
 `
     : ""
@@ -96,7 +96,7 @@ ${
     <button class="account-action" ${wxid ? `data-wxid="${wxid}" ` : ""}${
         wxcode ? `data-wxcode="${wxcode}" ` : ""
       }>
-      <HopeIcon icon="https://mp.innenu.com/res/icon/wechat.svg" no-index />
+      <HopeIcon icon="https://mp.innenu.com/res/icon/wechat.svg" no-view />
     </button>
 `
     : ""
@@ -105,7 +105,7 @@ ${
   site
     ? `\
     <a class="account-action" href="${site}" target="_blank">
-      <HopeIcon icon="https://mp.innenu.com/res/icon/web.svg" no-index />
+      <HopeIcon icon="https://mp.innenu.com/res/icon/web.svg" no-view />
     </a>
 `
     : ""
@@ -114,7 +114,7 @@ ${
   mail
     ? `\
     <a class="account-action" href="mailto:${mail}">
-      <HopeIcon icon="https://mp.innenu.com/res/icon/mail.svg" no-index />
+      <HopeIcon icon="https://mp.innenu.com/res/icon/mail.svg" no-view />
     </a>
 `
     : ""
