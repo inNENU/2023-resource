@@ -85,7 +85,7 @@ ${
     <button class="innenu-account-action" ${
       qq ? `aria-label="${qq}" data-balloon-pos="up" data-qq="${qq}" ` : ""
     }${qqcode ? `data-qqcode="${qqcode}"` : ""}>
-      <img class="innenu-account-icon" src"https://mp.innenu.com/res/icon/qq.svg" no-view />
+      <img class="innenu-account-icon" src="https://mp.innenu.com/res/icon/qq.svg" no-view />
     </button>
 `
     : ""
