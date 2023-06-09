@@ -308,13 +308,13 @@ content:
         icon: archive
         path: archive/
 
-  - tag: grid
-    header: Mr.Hope 漫谈
-    items:
-      - text: 个人建议
-        color: blue
-        name: Advice
-        icon: idea
-        url: info?path=Oadvice/
+  # - tag: grid
+  #   header: Mr.Hope 漫谈
+  #   items:
+  #     - text: 个人建议
+  #       color: blue
+  #       name: Advice
+  #       icon: idea
+  #       url: info?path=Oadvice/
 
-    footer: " "
+  #   footer: " "
