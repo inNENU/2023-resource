@@ -1,12 +1,12 @@
 @use "vuepress-shared/styles/reset";
 
-.account {
+.innenu-account {
   position: relative;
   overflow: hidden;
   width: 100%;
 }
 
-.account-background {
+.innenu-account-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@
   filter: blur(8px);
 }
 
-.account-content {
+.innenu-account-content {
   position: relative;
   top: 0;
   left: 0;
@@ -34,7 +34,7 @@
   height: 100%;
 }
 
-.account-logo {
+.innenu-account-logo {
   width: 50%;
   max-width: 150px;
   height: 50%;
@@ -42,20 +42,20 @@
   margin-top: 12px;
 }
 
-.account-name {
+.innenu-account-name {
   margin: 4px 0;
   font-size: 18px;
   text-shadow: 0 0 1px var(--grey);
 }
 
-.account-desc {
+.innenu-account-desc {
   max-width: 80%;
   margin: 4px auto;
   color: var(--grey3);
   font-size: 14px;
 }
 
-.account-action-list {
+.innenu-account-action-list {
   position: relative;
   z-index: 1;
   display: flex;
@@ -63,7 +63,7 @@
   justify-content: space-evenly;
 }
 
-.account-action {
+.innenu-account-action {
   @include reset.button;
   overflow: hidden;
 
@@ -76,10 +76,10 @@
   &:hover {
     background-color: var(--bg-color-secondary);
   }
+}
 
-  .icon {
-    width: 2rem;
-    height: 2rem;
-    margin: 6px;
-  }
+.innenu-account-icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 6px;
 }

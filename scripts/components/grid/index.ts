@@ -3,7 +3,7 @@ import { existsSync } from "node:fs";
 import { checkKeys } from "@mr-hope/assert-type";
 
 import { type GridComponentOptions } from "./typings.js";
-import { getPath, indent, resolvePath } from "../utils.js";
+import { getPath, resolvePath } from "../utils.js";
 
 export const resolveGrid = (
   element: GridComponentOptions,
@@ -92,7 +92,11 @@ ${items
     const { icon, text, path } = item;
 
     const gridItemContent = `
-${icon ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" />` : ""}
+${
+  icon
+    ? `<img class="innenu-grid-icon" src="https://mp.innenu.com/res/icon/${icon}.svg" no-view />`
+    : ""
+}
 <div class="innenu-grid-text">
 ${text.replace(/\n/g, "<br />")}
 </div>

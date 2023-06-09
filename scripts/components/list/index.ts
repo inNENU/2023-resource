@@ -255,7 +255,11 @@ ${items
     const { icon, text, path, desc } = item;
 
     const listItemContent = `
-${icon ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" />` : ""}
+${
+  icon
+    ? `<img class="innenu-list-icon" src="https://mp.innenu.com/res/icon/${icon}.svg" no-view />`
+    : ""
+}
 <div class="innenu-list-detail">
 <div class="innenu-list-text">
 ${text.replace(/\n/g, "<br />")}

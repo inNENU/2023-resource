@@ -62,16 +62,22 @@ export const getDocMarkdown = (component: DocComponentOptions): string => {
 
   const { name, url } = component;
 
+  const docIcon = `<img class="innenu-doc-icon" src="https://mp.innenu.com/assets/icon/${getDocIcon(
+    url
+  )}.svg" alt="${name}" />`;
   const docName = `${name}.${url.split(".").pop()!}`;
 
   return `
 ${
   url.match(/\.(pdf|jpe?g|png|bmp|svg)$/)
     ? `
-- [${name}](${url})
+<a class="innenu-doc" href="${url}" target="_blank" rel="noopener noreferrer">
+  ${docIcon}
+  ${docName}
+</a>
 `
     : `
-<a href="${url}" download="${docName}">${docName}</a>
+<a class="innenu-doc" href="${url}" download="${name}">${docIcon}${docName}</a>
 `
 }
 `;

@@ -14,11 +14,11 @@
   @media (min-width: hope-config.$tablet) {
     padding: 0 10px;
   }
+}
 
-  .icon {
-    width: 28px;
-    height: 28px;
-  }
+.innenu-grid-icon {
+  width: 28px;
+  height: 28px;
 }
 
 .innenu-grid-item {
@@ -47,7 +47,7 @@
   font-size: 14px;
 }
 
-.grid-component-footer {
+.innenu-grid-footer {
   min-height: 15px;
   padding: 5px 15px;
 

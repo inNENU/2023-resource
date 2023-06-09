@@ -58,34 +58,34 @@ export const getAccountMarkdown = (
     component;
 
   return `\
-<div class="account">
-  <img class="account-background" src="${logo}" alt="${name}" loading="lazy" no-view />
-  <div class="account-content">
-    <img class="account-logo" src="${logo}" alt="${name}" loading="lazy" no-view />
-    <div class="account-name">${name}</div>
+<div class="innenu-account">
+  <img class="innenu-account-background" src="${logo}" alt="${name}" loading="lazy" no-view />
+  <div class="innenu-account-content">
+    <img class="innenu-account-logo" src="${logo}" alt="${name}" loading="lazy" no-view />
+    <div class="innenu-account-name">${name}</div>
 ${
   detail
     ? `\
-    <div class="account-detail">${detail}</div>
+    <div class="innenu-account-detail">${detail}</div>
 `
     : ""
 }\
 ${
   desc
     ? `\
-    <div class="account-description">${desc}</div>
+    <div class="innenu-account-description">${desc}</div>
 `
     : ""
 }\
   </div>
-  <div class="account-action-list">
+  <div class="innenu-account-action-list">
 ${
   qq || qqcode
     ? `\
-    <button class="account-action" ${
+    <button class="innenu-account-action" ${
       qq ? `aria-label="${qq}" data-balloon-pos="up" data-qq="${qq}" ` : ""
     }${qqcode ? `data-qqcode="${qqcode}"` : ""}>
-      <HopeIcon icon="https://mp.innenu.com/res/icon/qq.svg" no-view />
+      <img class="innenu-account-icon" src"https://mp.innenu.com/res/icon/qq.svg" no-view />
     </button>
 `
     : ""
@@ -93,10 +93,10 @@ ${
 ${
   wxid || wxcode
     ? `\
-    <button class="account-action" ${wxid ? `data-wxid="${wxid}" ` : ""}${
-        wxcode ? `data-wxcode="${wxcode}" ` : ""
-      }>
-      <HopeIcon icon="https://mp.innenu.com/res/icon/wechat.svg" no-view />
+    <button class="innenu-account-action" ${
+      wxid ? `data-wxid="${wxid}" ` : ""
+    }${wxcode ? `data-wxcode="${wxcode}" ` : ""}>
+      <img class="innenu-account-icon" src="https://mp.innenu.com/res/icon/wechat.svg" no-view />
     </button>
 `
     : ""
@@ -104,8 +104,8 @@ ${
 ${
   site
     ? `\
-    <a class="account-action" href="${site}" target="_blank">
-      <HopeIcon icon="https://mp.innenu.com/res/icon/web.svg" no-view />
+    <a class="innenu-account-action" href="${site}" target="_blank">
+      <img class="innenu-account-icon" src="https://mp.innenu.com/assets/icon/web.svg" no-view />
     </a>
 `
     : ""
@@ -113,8 +113,8 @@ ${
 ${
   mail
     ? `\
-    <a class="account-action" href="mailto:${mail}">
-      <HopeIcon icon="https://mp.innenu.com/res/icon/mail.svg" no-view />
+    <a class="innenu-account-action" href="mailto:${mail}">
+      <img class="innenu-account-icon" src="https://mp.innenu.com/assets/icon/mail.svg" no-view />
     </a>
 `
     : ""

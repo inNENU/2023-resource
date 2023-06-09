@@ -99,9 +99,7 @@ export default defineUserConfig({
       indexContent: true,
       indexOptions: {
         tokenize: (text, fieldName) =>
-          fieldName === "id"
-            ? [text]
-            : cut(text.replace(/<HopeIcon .*\/>/g, ""), true),
+          fieldName === "id" ? [text] : cut(text, true),
       },
     }),
   ],
