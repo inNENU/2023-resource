@@ -1,24 +1,132 @@
-.list {
-  li {
-    padding: 0;
-    font-size: 18px;
+@use "@sass-palette/hope-config";
+@use "mixins";
 
-    a {
-      padding: 0.5rem;
-      display: block;
-      font-weight: bold;
-      letter-spacing: 1px;
+.innenu-list-header {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-      &:hover {
-        background-color: var(--bg-color-secondary);
-        text-decoration: none;
-      }
+.innenu-list {
+  position: relative;
 
-      .icon {
-        width: 1.8em;
-        height: 1.8em;
-        vertical-align: middle;
-      }
+  overflow: hidden;
+
+  padding: 0;
+  list-style: none;
+  border-radius: 8px;
+  background-color: var(--bg-color-block);
+}
+
+.innenu-list-item {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  width: auto;
+  padding: 0 15px;
+  border-radius: 0;
+
+  background-color: var(--bg-color-block);
+  color: var(--text-color);
+
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.45;
+
+  &.md-link {
+    @include mixins.hover;
+
+    position: relative;
+    padding-right: 30px;
+
+    &::after {
+      content: " ";
+
+      position: absolute;
+      top: 50%;
+      right: 17px;
+
+      display: inline-block;
+
+      width: 7px;
+      height: 7px;
+      margin-top: -4px;
+      border-width: 2px 2px 0 0;
+      border-style: solid;
+      border-color: var(--arrow-color);
+
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
     }
   }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 10px 0;
+  }
+}
+
+.innenu-list-detail {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+  padding: 10px 0;
+
+  position: relative;
+
+  &::after {
+    content: " ";
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 1px;
+    border-bottom: 1px solid var(--border-color);
+
+    transform: scaleY(0.4);
+    transform-origin: 0 100%;
+  }
+}
+
+.innenu-list-text {
+  flex-grow: 1;
+
+  color: var(--text-color);
+
+  line-height: 1.5;
+  text-align: left;
+  word-break: break-word;
+}
+
+.innenu-list-desc {
+  flex-shrink: 1;
+
+  overflow: hidden;
+
+  max-width: 40%;
+
+  color: #8a8a8e;
+
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  #{hope-config.$dark-selector} {
+    color: #98989f;
+  }
+}
+
+.innenu-list-footer {
+  min-height: 16px;
+  margin: 0 15px;
+  padding: 5px 15px 0;
+
+  color: var(--dark-grey);
+
+  font-size: 13px;
+  text-align: left;
 }

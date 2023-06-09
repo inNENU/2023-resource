@@ -1,0 +1,58 @@
+@use "@sass-palette/hope-config";
+@use "mixins";
+
+.innenu-grid-header {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.innenu-grid {
+  padding: 0 6px;
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (min-width: hope-config.$tablet) {
+    padding: 0 10px;
+  }
+
+  .icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.innenu-grid-item {
+  width: calc(25% - 10px);
+  margin: 5px;
+  padding: 10px 0;
+  border-radius: 6px;
+  text-align: center;
+  color: var(--text-color);
+
+  background-color: var(--bg-color-block);
+
+  @media (min-width: hope-config.$mobile) {
+    width: calc(16.666% - 10px);
+  }
+
+  @media (min-width: hope-config.$pc) {
+    width: calc(12.5% - 10px);
+  }
+
+  @include mixins.hover;
+}
+
+.innenu-grid-text {
+  color: var(--grey4);
+  font-size: 14px;
+}
+
+.grid-component-footer {
+  min-height: 15px;
+  padding: 5px 15px;
+
+  color: var(--dark-grey);
+
+  font-size: 13px;
+  text-align: left;
+}

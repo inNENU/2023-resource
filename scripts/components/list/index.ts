@@ -6,7 +6,7 @@ import {
   type FunctionalListComponentOptions,
   type ListComponentOptions,
 } from "./typings.js";
-import { aliasResolve, getPath, indent, resolvePath } from "../utils.js";
+import { aliasResolve, getPath, resolvePath } from "../utils.js";
 
 export const resolveList = (
   element: ListComponentOptions | FunctionalListComponentOptions,
@@ -241,35 +241,64 @@ export const getListMarkdown = (
 ${
   header
     ? `\
-#### ${header}
+#### ${header} {.innenu-list-header}
 
 `
     : ""
 }\
-<div class="list">
+<div class="innenu-list">
 
 ${items
   .map((item) => {
     if ("type" in item || "url" in item) return null;
 
-    const { icon, text, path } = item;
+    const { icon, text, path, desc } = item;
 
-    return `- ${
-      path
-        ? `[${
-            icon
-              ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" /> `
-              : ""
-          } ${text}](${getPath(path)})`
-        : indent(text, 3)
-    }`;
+    const listItemContent = `
+${icon ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" />` : ""}
+<div class="innenu-list-detail">
+<div class="innenu-list-text">
+${text.replace(/\n/g, "<br />")}
+</div>
+${
+  desc
+    ? `\
+<div class="innenu-list-desc">
+${desc}
+</div>
+`
+    : ""
+}
+</div>
+`;
+
+    return `\
+${
+  path
+    ? `<VPLink class="innenu-list-item" to="${getPath(path)}">
+${listItemContent}
+</VPLink>`
+    : `\
+<div class="innenu-list-item">
+${listItemContent}
+</div>`
+}
+`;
   })
   .filter((item): item is string => item !== null)
   .join("\n")}
 
 </div>
 
-${footer ? `> ${footer}\n\n` : ""}\
+${
+  footer
+    ? `\
+<div class="innenu-list-footer">
+${footer}
+<div>
+`
+    : ""
+}\
 
 `;
 };

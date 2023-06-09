@@ -86,6 +86,7 @@ export default defineUserConfig({
 
       mdEnhance: {
         align: true,
+        attrs: true,
         figure: true,
       },
 

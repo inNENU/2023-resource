@@ -78,12 +78,12 @@ export const getGridMarkdown = (component: GridComponentOptions): string => {
 ${
   header
     ? `\
-#### ${header}
+#### ${header} {.innenu-grid-header}
 
 `
     : ""
 }\
-<div class="list">
+<div class="innenu-grid">
 
 ${items
   .map((item) => {
@@ -91,21 +91,40 @@ ${items
 
     const { icon, text, path } = item;
 
-    return `- ${
-      path
-        ? `[${
-            icon
-              ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" /> `
-              : ""
-          } ${text}](${getPath(path)})`
-        : indent(text, 3)
-    }`;
+    const gridItemContent = `
+${icon ? `<HopeIcon icon="https://mp.innenu.com/res/icon/${icon}.svg" />` : ""}
+<div class="innenu-grid-text">
+${text.replace(/\n/g, "<br />")}
+</div>
+`;
+
+    return `\
+${
+  path
+    ? `<VPLink class="innenu-grid-item" to="${getPath(path)}">
+${gridItemContent}
+</VPLink>`
+    : `\
+<div class="innenu-grid-item">
+${gridItemContent}
+</div>`
+}
+`;
   })
   .filter((item): item is string => item !== null)
   .join("\n")}
 
 </div>
 
-${footer ? `> ${footer}\n\n` : ""}\
+${
+  footer
+    ? `\
+<div class="innenu-grid-footer">
+${footer}
+</div>
+`
+    : ""
+}\
+
 `;
 };
