@@ -18,6 +18,10 @@ actions:
     text: 东师介绍
     link: /intro/
 
+  - type: secondary
+    text: 小程序介绍
+    link: /others/guide/
+
 highlights:
   - header: 东师指南
     description: 东师新生的最好礼物
@@ -389,7 +393,8 @@ head:
     - name: baidu-site-verification
       content: codeva-vWUwPsPNMh
 
-footer: 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
+footer: |-
+  <a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 辽ICP备18007023号</a> | 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
 ---
 
 ::: tip

@@ -1,19 +1,12 @@
 @use "@sass-palette/hope-config";
 @use "mixins";
 
-.innenu-grid-header {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+// .innenu-grid-header {
+// }
 
 .innenu-grid {
-  padding: 0 6px;
   display: flex;
   flex-wrap: wrap;
-
-  @media (min-width: hope-config.$tablet) {
-    padding: 0 10px;
-  }
 }
 
 .innenu-grid-icon {
