@@ -20,7 +20,7 @@ actions:
 
   - type: secondary
     text: 小程序介绍
-    link: /others/guide/
+    link: /other/guide/
 
 highlights:
   - header: 东师指南
@@ -169,7 +169,7 @@ highlights:
 
       - title: 图书馆
         icon: https://mp.innenu.com/res/icon/library.svg
-        link: ./guide//intro/apt/library/
+        link: ./intro/apt/library/
 
       - title: 校内考试
         icon: https://mp.innenu.com/res/icon/test.svg
@@ -189,7 +189,7 @@ highlights:
 
       - title: 生活贴士
         icon: https://mp.innenu.com/res/icon/life.svg
-        link: ./guide/tip/life
+        link: ./guide/tip/life.html
 
       - title: 交通出行
         icon: https://mp.innenu.com/res/icon/traffic.svg
@@ -197,7 +197,7 @@ highlights:
 
       - title: 数码产品
         icon: https://mp.innenu.com/res/icon/digital.svg
-        link: ./guide/tip/digital
+        link: ./guide/tip/digital.html
 
       - title: 学生组织
         icon: https://mp.innenu.com/res/icon/student-org.svg
@@ -226,167 +226,166 @@ highlights:
     features:
       - title:  学校概况
         icon: https://mp.innenu.com/res/icon/about.svg
-        link: about/
+        link: ./intro/about/
 
       - title:  学科建设
         icon: https://mp.innenu.com/res/icon/content.svg
-        link: subject/
+        link: ./intro/subject/
 
       - title:  招生概况
         icon: https://mp.innenu.com/res/icon/enroll.svg
-        link: enroll/
+        link: ./intro/enroll/
 
       - title:  学生就业
         icon: https://mp.innenu.com/res/icon/job.svg
-        link: job/
+        link: ./intro/job/
 
       - title:  资助
         icon: https://mp.innenu.com/res/icon/subsidize.svg
-        link: subsidize/
+        link: ./intro/subsidize/
 
       - title:  教育学部
         icon: https://mp.innenu.com/res/icon/education.svg
-        link: school/education/
+        link: ./intro/school/education/
 
       - title:  心理学院
         icon: https://mp.innenu.com/res/icon/psychology.svg
-        link: school/psychology/
+        link: ./intro/school/psychology/
 
       - title:  政法学院
         icon: https://mp.innenu.com/res/icon/politics.svg
-        link: school/politics/
+        link: ./intro/school/politics/
 
       - title:  经济与管理学院
         icon: https://mp.innenu.com/res/icon/economy.svg
-        link: school/economy/
+        link: ./intro/school/economy/
 
       - title:  文学院
         icon: https://mp.innenu.com/res/icon/chinese.svg
-        link: school/chinese/
+        link: ./intro/school/chinese/
 
       - title:  历史文化学院
         icon: https://mp.innenu.com/res/icon/history.svg
-        link: school/history/
+        link: ./intro/school/history/
 
       - title:  外国语学院
         icon: https://mp.innenu.com/res/icon/foreign.svg
-        link: school/foreign/
+        link: ./intro/school/foreign/
 
       - title:  音乐学院
         icon: https://mp.innenu.com/res/icon/music.svg
-        link: school/music/
+        link: ./intro/school/music/
 
       - title:  美术学院
         icon: https://mp.innenu.com/res/icon/art.svg
-        link: school/art/
+        link: ./intro/school/art/
 
       - title:  马克思主义学部
         icon: https://mp.innenu.com/res/icon/marx.svg
-        link: school/marx/
+        link: ./intro/school/marx/
 
       - title:  数学与统计学院
         icon: https://mp.innenu.com/res/icon/math.svg
-        link: school/math/
+        link: ./intro/school/math/
 
       - title:  信息科学与技术学院
         icon: https://mp.innenu.com/res/icon/ist.svg
-        link: school/ist/
+        link: ./intro/school/ist/
 
       - title:  物理学院
         icon: https://mp.innenu.com/res/icon/physics.svg
-        link: school/physics/
+        link: ./intro/school/physics/
 
       - title:  化学学院
         icon: https://mp.innenu.com/res/icon/chemistry.svg
-        link: school/chemistry/
+        link: ./intro/school/chemistry/
 
       - title:  生命科学学院
         icon: https://mp.innenu.com/res/icon/biology.svg
-        link: school/biology/
+        link: ./intro/school/biology/
 
       - title:  地理科学学院
         icon: https://mp.innenu.com/res/icon/geography.svg
-        link: school/geography/
+        link: ./intro/school/geography/
 
       - title:  环境学院
         icon: https://mp.innenu.com/res/icon/environment.svg
-        link: school/environment/
+        link: ./intro/school/environment/
 
       - title:  体育学院
         icon: https://mp.innenu.com/res/icon/basketball.svg
-        link: school/pe/
+        link: ./intro/school/pe/
 
       - title:  传媒科学学院
         icon: https://mp.innenu.com/res/icon/media.svg
-        link: school/media/
+        link: ./intro/school/media/
       - title:  国际汉学院
         icon: https://mp.innenu.com/res/icon/network.svg
-        link: school/internation/
-
+        link: ./intro/school/internation/
 
       - title:  招生办公室
         icon: https://mp.innenu.com/res/icon/enroll.svg
-        link: apt/enroll/
+        link: ./intro/apt/enroll/
 
       - title:  研究生院
         icon: https://mp.innenu.com/res/icon/degree.svg
-        link: apt/grad/
+        link: ./intro/apt/grad/
 
       - title:  党委学生工作部
         icon: https://mp.innenu.com/res/icon/student.svg
-        link: apt/student/
+        link: ./intro/apt/student/
 
       - title:  信息化办公室
         icon: https://mp.innenu.com/res/icon/pc.svg
-        link: apt/xxhb/
+        link: ./intro/apt/xxhb/
 
       - title:  党委宣传部
         icon: https://mp.innenu.com/res/icon/league.svg
-        link: apt/publicize/
+        link: ./intro/apt/publicize/
 
       - title:  学生心理健康教育中心
         icon: https://mp.innenu.com/res/icon/psychology.svg
-        link: apt/psychology/
+        link: ./intro/apt/psychology/
 
       - title:  学校办公室
         icon: https://mp.innenu.com/res/icon/office.svg
-        link: apt/office/
+        link: ./intro/apt/office/
 
       - title:  校团委
         icon: https://mp.innenu.com/res/icon/league.svg
-        link: apt/youth-league/
+        link: ./intro/apt/youth-league/
 
       - title:  后勤管理处
         icon: https://mp.innenu.com/res/icon/repair.svg
-        link: apt/logistics/
+        link: ./intro/apt/logistics/
 
       - title:  校医院
         icon: https://mp.innenu.com/res/icon/hospital.svg
-        link: apt/hospital/
+        link: ./intro/apt/hospital/
 
       - title:  保卫科
         icon: https://mp.innenu.com/res/icon/safe.svg
-        link: apt/defend
+        link: ./intro/apt/defend.html
 
       - title:  图书馆
         icon: https://mp.innenu.com/res/icon/library.svg
-        link: apt/library/
+        link: ./intro/apt/library/
 
       - title:  教务处
         icon: https://mp.innenu.com/res/icon/jwc.svg
-        link: apt/course/
+        link: ./intro/apt/course/
 
       - title:  学生就业指导服务中心
         icon: https://mp.innenu.com/res/icon/job.svg
-        link: apt/career
+        link: ./intro/apt/career.html
 
       - title:  档案馆
         icon: https://mp.innenu.com/res/icon/archive.svg
-        link: apt/archive/
+        link: ./intro/apt/archive/
 
       - title:  体育馆
         icon: https://mp.innenu.com/res/icon/basketball.svg
-        link: apt/gym/
+        link: ./intro/apt/gym/
 
 head:
   - - meta
@@ -394,7 +393,15 @@ head:
       content: codeva-vWUwPsPNMh
 
 footer: |-
-  <a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 辽ICP备18007023号</a> | 主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
+  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21030202000266" target="_blank" style="color:inherit;text-decoration:none;">
+    <img src="http://www.beian.gov.cn/img/ghs.png" style="width:1rem;"> 辽公网安备 21030202000266号
+  </a>
+  |
+  <a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;">
+  辽ICP备 18007023号
+  </a>
+  <br>
+  主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
 ---
 
 ::: tip

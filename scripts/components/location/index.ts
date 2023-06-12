@@ -46,8 +46,10 @@ ${
     // maximum 4 points
     .slice(0, 4)
     .map(
-      ({ latitude, longitude, name = "", detail = "" }) =>
-        `coord:${latitude},${longitude};title:${name};addr:${detail}`
+      ({ latitude, longitude, name = "位置", detail = "详情" }) =>
+        `coord:${latitude},${longitude};title:${encodeURIComponent(
+          name
+        )};addr:${encodeURIComponent(detail)}`
     )
     .join(
       "|"
