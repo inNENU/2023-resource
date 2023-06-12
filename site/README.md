@@ -393,15 +393,18 @@ head:
       content: codeva-vWUwPsPNMh
 
 footer: |-
-  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21030202000266" target="_blank" style="color:inherit;text-decoration:none;">
-    <img src="http://www.beian.gov.cn/img/ghs.png" style="width:1rem;"> 辽公网安备 21030202000266号
+  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21030202000266" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">
+    <img src="http://www.beian.gov.cn/img/ghs.png" style="width:1rem;vertical-align:middle;"> 辽公网安备 21030202000266号
   </a>
-  |
-  <a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;">
+  /
+  <a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">
   辽ICP备 18007023号
   </a>
   <br>
-  主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a>
+copyright: |-
+  <span style="white-space:nowrap;">主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a></span>
+  |
+  <span style="white-space:nowrap;">基于 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> 协议</span>
 ---
 
 ::: tip

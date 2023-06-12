@@ -52,6 +52,11 @@ author: ${getYAMLValue(author)}
 date: ${time.toISOString()}
 `;
 
+  if (!cite)
+    content += `\
+isOriginal: true
+`;
+
   content += `\
 ---
 

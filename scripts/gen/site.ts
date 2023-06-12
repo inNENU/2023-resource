@@ -9,7 +9,13 @@ import { PageConfig } from "../components/typings.js";
 import { getFileList } from "../utils/index.js";
 
 // 删除旧的文件
-deleteSync(["./site/**", "!./site/.vuepress/**", "!./site/README.md"]);
+deleteSync([
+  "./site/**",
+  "!./site/.vuepress/**",
+  "!./site/README.md",
+  "!./site/about/**",
+  "!./site/contributing/**",
+]);
 
 // 生成对应的 Markdown
 

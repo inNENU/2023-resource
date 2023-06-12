@@ -52,9 +52,10 @@ export const getImgMarkdown = (element: ImageComponentOptions): string => {
   const { src, desc } = element;
 
   return `\
-![${desc || basename(src).replace(/\..+$/, "")}](${src}${
-    desc ? ` "${desc}"` : ""
-  })
+<figure>
+  <img src="${src}" alt="${desc || basename(src).replace(/\..+$/, "")}" />
+  ${desc ? `<figcaption>${desc}</figcaption>` : ""}
+</figure>
 
 `;
 };

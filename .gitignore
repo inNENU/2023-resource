@@ -6,6 +6,8 @@ node_modules/
 site/**/*.md
 !site/.vuepress/**
 !site/README.md
+!site/about/**
+!site/contributing/**
 
 # Vuepress Cache
 **/.vuepress/.cache/**
