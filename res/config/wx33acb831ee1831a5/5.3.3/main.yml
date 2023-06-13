@@ -3,6 +3,12 @@ id: main
 grey: true
 hidden: true
 content:
+  - tag: card
+    cover: $img/tab/enroll.png
+    title: 2023年本科招生指南
+    logo: enroll
+    url: info?id=/intro/enroll/under/rule/
+
   # - tag: title
   #   text: 本科招生
 
