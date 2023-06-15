@@ -1,7 +1,7 @@
 title: 图书馆
 grey: true
 author: Mr.Hope
-time: 2023-06-15T17:20:10.697Z
+time: 2023-06-15T17:58:20.130Z
 shareable: true
 content:
   - tag: account
@@ -28,20 +28,12 @@ content:
         icon: photo
         path: scene
 
+  - tag: list
+    items:
       - text: 馆藏分布
         icon: bookshelf
         path: distribution
 
-      - text: 楼层平面图
-        icon: floor
-        path: floor
-
-      - text: 开馆时间
-        icon: time
-        path: door
-
-  - tag: list
-    items:
       - text: 书目检索
         icon: search
         path: search
@@ -68,6 +60,18 @@ content:
 
   - tag: list
     items:
+      - text: 楼层平面图
+        icon: floor
+        path: floor
+
+      - text: 开馆时间
+        icon: time
+        path: door
+
+      - text: 独立学习区
+        icon: study
+        path: study
+
       - text: 电子资源
         icon: bookshelf
         path: res
@@ -82,6 +86,10 @@ content:
 
   - tag: list
     items:
+      - text: 图书馆守则
+        icon: rule
+        path: rule
+
       - text: 联系方式
         icon: phone
         path: contact

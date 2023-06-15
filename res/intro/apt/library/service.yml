@@ -1,17 +1,8 @@
 title: 其他服务
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-15T17:58:20.143Z
 shareable: true
 content:
-  - tag: title
-    text: 第一学习空间
-
-  - tag: p
-    text: 第一学习空间在本部图书馆二楼南侧，环境优雅，有电风扇、小台灯和插座。
-
-  - tag: img
-    src: $img/library/learningPlace.jfif
-
   - tag: title
     text: WIFI
 
