@@ -45,7 +45,7 @@ export const count = (): void => {
   const guideWords = getWords("./r/guide");
   const introWords = getWords("./r/intro");
   const otherWords = getWords("./r/other");
-  const wordsTip = `小程序现有字数为 ${
+  const wordsTip = `现有字数为 ${
     functionWords + guideWords + introWords + otherWords
   } 字，其中东师介绍部分 ${introWords} 字，东师指南部分 ${guideWords} 字，功能大厅部分 ${functionWords} 字，其他部分 ${otherWords} 字。`;
 
@@ -57,7 +57,7 @@ export const count = (): void => {
         encoding: "utf-8",
       });
       const newContent = content.replace(
-        /小程序现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
+        /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
         wordsTip
       );
 
@@ -68,7 +68,7 @@ export const count = (): void => {
       encoding: "utf-8",
     });
     const newContent = content.replace(
-      /小程序现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
+      /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
       wordsTip
     );
 
