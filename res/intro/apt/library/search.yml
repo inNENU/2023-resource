@@ -8,12 +8,12 @@ content:
   - tag: p
     text:
       - “知行搜索”，是我馆馆藏检索系统，在这里不仅可以查找纸本图书、期刊、学位论文、数据库等多种资源，更使得资源发现、检索、获取融为一体，实现一站式服务，让信息利用更加高效便捷。
-      - 下面，我们以纸本图书检索为例，为大家介绍一下该检索系统的使用方法。
 
   - tag: title
     text: 检索入口
 
   - tag: text
+    heading: 官网首页
     text: 访问图书馆主页，在检索栏选择“馆藏书目”，输入检索词直接检索。
 
   - tag: action
@@ -24,6 +24,7 @@ content:
     desc: 首页检索
 
   - tag: text
+    heading: 搜索服务
     text: 直接使用执行搜索
 
   - tag: action
@@ -42,6 +43,7 @@ content:
 
   - tag: img
     src: $img/library/search2.jpg
+    desc: 基本检索
 
   - tag: text
     heading: 高级检索
@@ -49,3 +51,38 @@ content:
 
   - tag: img
     src: $img/library/search3.jpg
+    desc: 高级检索
+
+  - tag: title
+    text: 筛选结果
+
+  - tag: text
+    heading: 电脑端
+    text: 使用左侧栏目选项，筛选检索结果。
+
+  - tag: img
+    src: $img/library/search-filter-pc.jpg
+    desc: PC 端筛选
+
+  - tag: text
+    heading: 移动端
+    text: 点击检索结果页面右上角的过滤器图标，筛选检索结果。
+
+  - tag: img
+    src: $img/library/search-filter-mobile.jpg
+    desc: 移动端筛选
+
+  - tag: title
+    text: 图书信息
+
+  - tag: text
+    text: 点击“书名”或“可获取位置”进一步查看图书及馆藏详细信息。
+
+  - tag: img
+    src: $img/library/book-info1.jpg
+
+  - tag: img
+    src: $img/library/book-info2.jpg
+
+  - tag: img
+    src: $img/library/book-info3.jpg
