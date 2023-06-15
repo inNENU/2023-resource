@@ -25,14 +25,14 @@ content:
 
   - tag: text
     heading: 搜索服务
-    text: 直接使用执行搜索
+    text: 推荐直接使用知行搜索
 
   - tag: action
     content: https://nenu.primo.exlibrisgroup.com.cn/discovery/search?vid=86NEN_INST:NEN
 
   - tag: text
     type: note
-    text: 也可访问图书馆微信公众号，选择“圕服务”，点击“知行搜索”进入检索页面。
+    text: 也可访问图书馆微信公众号，选择“服务”，点击“知行搜索”进入检索页面。
 
   - tag: title
     text: 检索方法

@@ -1,7 +1,7 @@
 title: 图书馆
 grey: true
 author: Mr.Hope
-time: 2023-06-15T15:58:46.701Z
+time: 2023-06-15T17:20:10.697Z
 shareable: true
 content:
   - tag: account
@@ -28,6 +28,18 @@ content:
         icon: photo
         path: scene
 
+      - text: 馆藏分布
+        icon: bookshelf
+        path: distribution
+
+      - text: 楼层平面图
+        icon: floor
+        path: floor
+
+      - text: 开馆时间
+        icon: time
+        path: door
+
   - tag: list
     items:
       - text: 书目检索
@@ -36,45 +48,37 @@ content:
 
       - text: 借书权限
         icon: borrow
-        path: borrow
+        path: auth
 
       - text: 图书预约
         icon: borrow
+        path: book
+
+      - text: 借书还书
+        icon: flow
         path: borrow
 
-      - text: 借阅流程
+      - text: 续借图书
         icon: flow
-        path: borrow-flow
+        path: renew
 
-      - text: 还书流程
-        icon: flow
-        path: return
+      - text: 图书荐购
+        icon: money
+        path: buy
 
   - tag: list
     items:
-      - text: 楼层平面图
-        icon: floor
-        path: floor
-
-      - text: 馆藏分布
-        icon: bookshelf
-        path: distribution
-
-      - text: 开馆时间
-        icon: time
-        path: door
-
       - text: 电子资源
         icon: bookshelf
         path: res
 
-      - text: 其他服务
-        icon: contact
-        path: service
-
       - text: 电子阅览室
         icon: pc
         path: digit-room
+
+      - text: 其他服务
+        icon: contact
+        path: service
 
   - tag: list
     items:

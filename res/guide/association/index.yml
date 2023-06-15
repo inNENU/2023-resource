@@ -2,7 +2,7 @@ title: 社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2022-09-16
+time: 2023-06-15T17:20:11.481Z
 shareable: true
 content:
   - tag: text
@@ -15,7 +15,7 @@ content:
     items:
       - text: 学生社团发展管理中心
         icon: $img/organization/sheguan.png
-        path: /guide/organization/association-union
+        path: /guide/org/association-union
 
   - tag: title
     text: 本部校区

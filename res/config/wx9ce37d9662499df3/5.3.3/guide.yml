@@ -280,7 +280,7 @@ content:
         color: blue
         name: Orgnazation
         icon: student-org
-        path: guide/organization/
+        path: guide/org/
 
       - text: 社团
         color: orange
