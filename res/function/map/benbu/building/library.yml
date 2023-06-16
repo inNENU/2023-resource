@@ -72,7 +72,7 @@ content:
     items:
       - text: 电子资源
         icon: bookshelf
-        path: /intro/apt/library/res
+        path: /intro/apt/library/evpn
 
       - text: 电子阅览室
         icon: pc

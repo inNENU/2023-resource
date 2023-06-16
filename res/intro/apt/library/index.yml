@@ -1,7 +1,7 @@
 title: 图书馆
 grey: true
 author: Mr.Hope
-time: 2023-06-15T17:58:20.130Z
+time: 2023-06-16T02:36:46.050Z
 shareable: true
 content:
   - tag: account
@@ -58,6 +58,14 @@ content:
         icon: money
         path: buy
 
+      - text: 文献传递
+        icon: express
+        path: article
+
+      - text: 馆际互借
+        icon: borrow
+        path: deliver
+
   - tag: list
     items:
       - text: 楼层平面图
@@ -72,9 +80,17 @@ content:
         icon: study
         path: study
 
+      - text: 合作空间
+        icon: student-org
+        path: space
+
+      - text: 学术厅
+        icon: degree
+        path: hall
+
       - text: 电子资源
         icon: bookshelf
-        path: res
+        path: evpn
 
       - text: 电子阅览室
         icon: pc

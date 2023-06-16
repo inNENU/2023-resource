@@ -2,7 +2,7 @@ title: 图书预约
 desc: |-
   信息来源: 图书馆官网
 shareable: true
-time: 2023-06-15T17:20:10.678Z
+time: 2023-06-16T02:36:46.010Z
 cite:
   - http://www.library.nenu.edu.cn/page/87872/show?leftNavId=3001788
 content:
@@ -10,11 +10,11 @@ content:
     text: 预约流程
 
   - tag: p
-    text: 使用学校统一认证用户名和密码，登录执行搜索。
+    text: 使用学校统一认证用户名和密码，登录知行搜索。
 
   - tag: action
     header: 登录地址
-    content: https://authserver.nenu.edu.cn/authserver/login?service=https%3A%2F%2Fnenu.primo.exlibrisgroup.com.cn%2Finfra%2FcasRedirect?ctx=/primaws
+    content: https://authserver.nenu.edu.cn/authserver/login?service=https://nenu.primo.exlibrisgroup.com.cn/discovery/search?vid=86NEN_INST:NEN
 
   - tag: text
     text: 在“知行搜索”页面，检索需要的图书。
