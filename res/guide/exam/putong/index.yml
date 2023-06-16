@@ -1,6 +1,6 @@
 title: 普通话水平测试
 author: Mr.Hope
-time: 2023-04-25T05:43:43.603Z
+time: 2023-06-16T06:56:37.370Z
 shareable: true
 content:
   - tag: list
@@ -29,7 +29,12 @@ content:
       - 我校每年春季 3 月份、秋季 9 月份组织报名；学生报名须登录《普通话水平测试在线报名系统》。
 
   - tag: action
+    header: 吉林省报名系统
     content: http://jlbm.cltt.org/pscweb/index.html
+
+  - tag: action
+    header: 国家报名系统
+    content: https://bm.cltt.org/#/index
 
   - tag: text
     text:
@@ -52,11 +57,11 @@ content:
 
   - tag: action
     header: 普通话水平测试应考辅导
-    content: http://mooc1.chaoxing.com/course/87352198.html
+    content: https://mooc1.chaoxing.com/course/87352198.html
 
   - tag: action
     header: 普通话语音和播音发声
-    content: http://mooc1.chaoxing.com/course/80688090.html
+    content: https://mooc1.chaoxing.com/course/80688090.html
 
   - tag: title
     text: 组织测试

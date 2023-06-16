@@ -1,6 +1,6 @@
 title: NCRE 考试成绩
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-16T06:56:37.306Z
 shareable: true
 content:
   - tag: title
@@ -14,10 +14,10 @@ content:
     text: 成绩查询
 
   - tag: p
-    text: 考试成绩约在考试结束 2 个月后公布，考生可登录教育部考试中心中国教育考试网 (https://ncre.neea.edu.cn) 查询本次考试成绩及证书信息。
+    text: 考试成绩约在考试结束 2 个月后公布，考生可登录教育部考试中心中国教育考试网查询本次考试成绩及证书信息。
 
   - tag: action
-    content: https://ncre.neea.edu.cn
+    content: https://cjcx.neea.edu.cn/html1/folder/22014/5476-1.htm
 
   - tag: title
     text: 证书获得条件

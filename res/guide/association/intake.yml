@@ -2,7 +2,7 @@ title: 社团纳新
 desc: |-
   新增、修改、删除社团纳新信息请联系 Mr.Hope
 author: Mr.Hope
-time: 2022-09-13
+time: 2023-06-16T06:56:36.694Z
 shareable: true
 content:
   - tag: card
@@ -18,14 +18,6 @@ content:
     name: 模拟联合国协会
     title: 我们在纳新
     url: info?id=/guide/association/study/mun-in
-
-  - tag: action
-    header: 学生就业指导服务中心净月签约派遣服务团
-    content: https://open.work.weixin.qq.com/wwopen/mpnews?mixuin=Lt8UBgAABwAOvRssAAAUAA&mfid=WW0307-9O4iNwAABwCUxtlDx-DBIARZWMv69&idx=0&sn=5ec11d237ac3b9a7be1a4f86d157a5db
-
-  - tag: action
-    header: 东师拾全拾美
-    content: https://mp.weixin.qq.com/s?__biz=MzIyNjU0OTcwNA==&mid=2247521688&idx=1&sn=2452301f5b0fb5b193bf6ddbe6c6d7a1&chksm=e86c1f3fdf1b962916123db06e04c1a491174edda210b13d60271801aebd1b9538631841688a&mpshare=1&scene=23&srcid=09085obUevP64r8l36NixHpa&sharer_sharetime=1662957516416&sharer_shareid=72736667d782ce2fc774dfb8056d46e7#rd
 
   - tag: functional-list
     header: 如需修改信息，请

@@ -1,10 +1,10 @@
 title: 故障报修
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-16T06:56:36.438Z
 shareable: true
 content:
   - tag: text
     text: 请通过以下网址报修
 
   - tag: action
-    content: http://gyglxt.nenu.edu.cn/?typeName=repair
+    content: http://gyglxt.nenu.edu.cn//repair/redirect/website/index

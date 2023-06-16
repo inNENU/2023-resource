@@ -1,7 +1,7 @@
 title: 寝室
 grey: true
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-06-16T06:56:37.215Z
 shareable: true
 content:
   - tag: list
@@ -108,7 +108,7 @@ content:
 
   - tag: action
     header: 故障报修
-    content: http://gyglxt.nenu.edu.cn/?typeName=repair
+    content: http://gyglxt.nenu.edu.cn//repair/redirect/website/index
 
   - tag: list
     items:
