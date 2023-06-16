@@ -13,7 +13,7 @@ content:
         color: cyan
         name: MyNenu
         icon: network
-        url: web?url=https://my.nenu.edu.cn/
+        url: web?url=http://my.nenu.edu.cn/
 
       - text: 校园邮箱
         color: olive

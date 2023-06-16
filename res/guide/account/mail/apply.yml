@@ -1,6 +1,6 @@
 title: 校园邮箱申请
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-16T07:08:46.106Z
 shareable: true
 content:
   - tag: text
@@ -23,7 +23,7 @@ content:
 
   - tag: action
     header: 校内访问
-    content: https://my.nenu.edu.cn/
+    content: http://my.nenu.edu.cn/
 
   - tag: action
     header: 校外访问
