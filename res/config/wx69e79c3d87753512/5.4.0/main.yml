@@ -9,6 +9,12 @@ content:
     logo: enroll
     url: info?id=/intro/enroll/under/rule/
 
+  - tag: card
+    cover: $img/scenery/benbu-main.jpg
+    title: 选课系统
+    logo: system
+    url: select
+
   # - tag: title
   #   text: 本科招生
 
