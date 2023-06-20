@@ -120,3 +120,29 @@ export interface WechatConfig {
     url: string;
   }[];
 }
+
+interface ClassConfig {
+  type: string;
+}
+
+interface CategoryConfig {
+  category: string;
+  items: ClassConfig[];
+}
+
+interface PlanConfig {
+  plan: string;
+  items: CategoryConfig[];
+}
+
+interface ProvinceConfig {
+  province: string;
+  items: PlanConfig[];
+}
+
+interface YearConfig {
+  year: string;
+  items: ProvinceConfig[];
+}
+
+export type EnrollPlanConfig = YearConfig[];

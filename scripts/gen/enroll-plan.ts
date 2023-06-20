@@ -1,31 +1,7 @@
 /* eslint-disable line-comment-position */
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 
-interface ClassConfig {
-  class: string;
-}
-
-interface CategoryConfig {
-  category: string;
-  items: ClassConfig[];
-}
-
-interface PlanConfig {
-  plan: string;
-  items: CategoryConfig[];
-}
-
-interface ProvinceConfig {
-  province: string;
-  items: PlanConfig[];
-}
-
-interface YearConfig {
-  year: string;
-  items: ProvinceConfig[];
-}
-
-type EnrollPlanConfig = YearConfig[];
+import { type EnrollPlanConfig } from "./typings.js";
 
 class Dsy {
   private config: EnrollPlanConfig;
@@ -128,11 +104,11 @@ class Dsy {
         )
           this.config[ids[1]].items[ids[2]].items[ids[3]].items[ids[4]].items[
             index
-          ] = { class: "" };
+          ] = { type: "" };
 
         this.config[ids[1]].items[ids[2]].items[ids[3]].items[ids[4]].items[
           index
-        ].class = item;
+        ].type = item;
       });
     }
   }
