@@ -4,72 +4,71 @@ grey: true
 hidden: true
 content:
   - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkaWCR4aDTneRttJA1aicVDCDoeibt7dlDxLweq9LPysYuibrTQ9VLn90LPPEyV3xVvjcAd53CibOxkBA/0?wx_fmt=jpeg
-    logo: $img/organization/nenuyouth.png
-    name: 东师青年
-    title: 欣欣向“融” ，“媒”你不行！快来加入我们吧！
-    desc: 融媒体大家庭期待你的到来!
-    url: https://mp.weixin.qq.com/s/_Kuk0Ijc19aLMUXz-fqyJg
+    cover: $img/scenery/benbu-main.jpg
+    title: 选课系统
+    logo: select
+    url: select
+
+  - tag: title
+    text: 本科招生
 
   - tag: card
-    cover: $img/tab/life.jpg
-    title: 校园生活最强指南
-    logo: life
-    url: info?id=/guide/life/
+    cover: $img/tab/enroll.png
+    title: 2023年本科招生指南
+    logo: enroll
+    url: info?id=/intro/enroll/under/rule/
 
-  - tag: card
-    cover: $img/tab/dining.jpg
-    title: 食堂档口最强指南
-    logo: dining
-    url: info?id=/guide/dining/
+  - tag: list
+    header: false
+    items:
+      - text: 2023 年招生计划
+        icon: time
+        url: enroll-plan
 
-  - tag: card
-    cover: $img/tab/map.jpg
-    title: 校园地图
-    logo: map
-    url: map
+      - text: 招生咨询群
+        icon: qq-group
+        path: intro/enroll/under/qq-group
+
+      - text: 招生直播活动
+        icon: activity
+        path: intro/enroll/under/activity
+
+      - text: 更多信息
+        icon: more
+        path: intro/enroll/under/
+
+  # - tag: list
+  #   header: 研究生
+  #   items:
+  #     - text: 研究生调档
+  #       path: guide/archive/post-in
+
+  #     - text: 研究生党员组织关系接转
+  #       path: guide/prepare/league
+
+  #     - text: 研究生团员组织关系接转
+  #       path: guide/prepare/group
+
+  # - tag: title
+  #   text: 希望工作室长期招新
+
+  # - tag: list
+  #   header: false
+  #   items:
+  #     - text: 招新详情
+  #       url: info?path=Ohope-studio/invite
+
+  # - tag: title
+  #   text: 此处有搜索👆 您可以对小程序内容进行查找
 
   - tag: grid
-    header: 入校介绍
+    header: 您可能想关注
     items:
-      - text: 寝室
-        color: blue
-        name: Dorm
-        icon: dorm
-        path: guide/dorm/
-
-      - text: 超市
-        color: olive
-        name: Shop
-        icon: shop
-        path: guide/shop/
-
-      - text: 洗浴
-        color: red
-        name: Bath
-        icon: bath
-        path: guide/bath/
-
-      - text: 校园卡
-        color: red
-        name: Card
-        icon: card
-        path: guide/card/
-
-      - text: 校园网
-        color: purple
-        name: Network
-        icon: network
-        path: guide/network/
-
-  - tag: grid
-    header: 了解学习
-    items:
-      - text: 专业介绍
-        color: olive
-        name: Major
-        icon: about
-        path: intro/school/major
+      # - text: 专业介绍
+      #   color: olive
+      #   name: Major
+      #   icon: about
+      #   path: intro/school/major
 
       - text: 转专业
         color: red
@@ -83,11 +82,41 @@ content:
         icon: teacher
         path: guide/normal/
 
+      - text: 寝室
+        color: blue
+        name: Dorm
+        icon: dorm
+        path: guide/dorm/
+
+      - text: 食堂
+        color: orange
+        name: Dining
+        icon: dining
+        path: guide/dining/
+
+      - text: 洗浴
+        color: red
+        name: Bath
+        icon: bath
+        path: guide/bath/
+
+      - text: 生活
+        color: purple
+        name: Life
+        icon: life
+        path: guide/life/
+
       - text: 课程
         color: orange
         name: Course
         icon: content
         path: guide/course/
+
+      # - text: 找到组织
+      #   color: olive
+      #   name: Contact
+      #   icon: qq-group
+      #   path: guide/contact/
 
       - text: 学习
         color: mauve
@@ -95,22 +124,29 @@ content:
         icon: study
         path: guide/study/
 
-      - text: 选课
+      - text: 校历
+        color: mauve
+        name: Calendar
+        icon: calendar
+        url: calendar
+
+      - text: 常见问题
         color: cyan
-        name: Select
-        icon: select
-        path: guide/select/
-
-      - text: 图书馆
-        color: blue
-        name: Library
-        icon: library
-        path: intro/apt/library/
-
-      - text: 考试
-        color: olive
-        name: Test
-        icon: test
-        path: guide/test/
+        name: FAQ
+        icon: faq
+        path: guide/faq/
 
     footer: 更多内容请详见下方其他 Tab 页
+
+  - tag: card
+    cover: $img/tab/faq.png
+    title: 常见问题
+    logo: faq
+    url: info?id=Gfaq/
+
+  # - tag: card
+  #   cover: http://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg
+  #   title: 招纳小程序志愿者
+  #   logo: $img/inNENU.png
+  #   name: in 东师
+  #   url: info?path=Oguide/volunteer
