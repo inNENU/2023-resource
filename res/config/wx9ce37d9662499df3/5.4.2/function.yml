@@ -16,6 +16,7 @@ content:
     url: map
 
   - tag: grid
+    header: false
     items:
       # - text: 校园地图
       #   color: orange

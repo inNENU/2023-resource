@@ -16,6 +16,7 @@ content:
     url: map
 
   - tag: grid
+    header: false
     items:
       # - text: 校园地图
       #   color: orange
@@ -28,6 +29,12 @@ content:
       #   name: Calendar
       #   icon: calendar
       #   url: calendar
+
+      - text: 选课系统
+        color: blue
+        name: Select
+        icon: select
+        url: select
 
       - text: 音悦东师
         color: blue
@@ -70,4 +77,5 @@ content:
         name: Admission
         icon: letter
         url: admission?type=search
+
     footer: " "

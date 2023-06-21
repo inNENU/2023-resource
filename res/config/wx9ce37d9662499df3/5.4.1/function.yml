@@ -16,6 +16,7 @@ content:
     url: map
 
   - tag: grid
+    header: false
     items:
       # - text: 校园地图
       #   color: orange
@@ -38,7 +39,7 @@ content:
       - text: 选课系统
         color: purple
         name: Select
-        icon: system
+        icon: select
         url: select
 
       - text: 影约东师
