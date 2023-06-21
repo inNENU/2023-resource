@@ -60,11 +60,11 @@ content:
         icon: faq
         path: guide/faq/
 
-      - text: 经验分享直播与答疑
-        color: purple
-        name: Streaming
-        icon: activity
-        url: info?path=OMrHope/streaming
+      # - text: 经验分享直播与答疑
+      #   color: purple
+      #   name: Streaming
+      #   icon: activity
+      #   url: info?path=OMrHope/streaming
 
   - tag: grid
     header: 行在东师

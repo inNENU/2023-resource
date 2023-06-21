@@ -4,6 +4,12 @@ grey: true
 hidden: true
 content:
   - tag: card
+    cover: $img/tab/calendar.jpg
+    title: 校历
+    logo: calendar
+    url: calendar
+
+  - tag: card
     cover: $img/tab/map.jpg
     title: 校园地图
     logo: map
@@ -17,17 +23,23 @@ content:
       #   icon: map
       #   url: map
 
-      - text: 校历
-        color: olive
-        name: Calendar
-        icon: calendar
-        url: calendar
+      # - text: 校历
+      #   color: olive
+      #   name: Calendar
+      #   icon: calendar
+      #   url: calendar
 
       - text: 音悦东师
         color: blue
         name: Music
         icon: cd
         url: music
+
+      - text: 选课系统
+        color: purple
+        name: Select
+        icon: system
+        url: select
 
       - text: 影约东师
         color: mauve
@@ -45,7 +57,7 @@ content:
         color: grey
         name: Accounts
         icon: account
-        url: account
+        url: school-media
 
       - text: 东师网站
         color: orange
@@ -64,3 +76,4 @@ content:
         name: Admission
         icon: letter
         url: admission?type=search
+    footer: " "

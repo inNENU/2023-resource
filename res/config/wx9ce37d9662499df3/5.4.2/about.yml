@@ -11,6 +11,10 @@
     - text: Mr.Hope 个人介绍
       url: info?path=Oabout/mrhope
 
+    - text: |-
+        记: in 东师
+      url: info?path=Oabout/history
+
     - text: 开发者访谈
       url: info?path=Oabout/interview
 

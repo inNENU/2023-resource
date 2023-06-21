@@ -3,12 +3,6 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: card
-    cover: $img/scenery/benbu-main.jpg
-    title: 选课系统
-    logo: select
-    url: select
-
   - tag: title
     text: 本科招生
 
