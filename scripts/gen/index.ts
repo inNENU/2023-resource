@@ -11,6 +11,7 @@ import {
 import { count } from "./count.js";
 import { type Donate, genDonate } from "./donate.js";
 import { genEnrollPlan } from "./enroll-plan.js";
+import { genHistoryResult } from "./history-grade.js";
 import { genIcon } from "./icon.js";
 import { genLyric } from "./lyric.js";
 import { resolveLocationPage } from "./map.js";
@@ -85,8 +86,9 @@ genSearchMap();
 // 生成歌词
 genLyric();
 
-// 生成招生计划信息
+// 生成招生相关资源
 genEnrollPlan();
+genHistoryResult();
 
 // 生成捐赠
 convertYml2Json("./res/config/donate", "./r/other/donate", (data, filePath) =>
