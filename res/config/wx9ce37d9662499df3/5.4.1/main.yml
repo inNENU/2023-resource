@@ -3,31 +3,33 @@ id: main
 grey: true
 hidden: true
 content:
-  # - tag: title
-  #   text: 本科招生
+  - tag: title
+    text: 本科招生
 
-  # - tag: list
-  #   header: false
-  #   items:
-  #     - text: 2022 年本科招生简章
-  #       icon: rule
-  #       path: intro/enroll/under/rule/
+  - tag: card
+    cover: $img/tab/enroll.png
+    title: 2023年本科招生指南
+    logo: enroll
+    url: info?id=/intro/enroll/under/rule/
 
-  #     - text: 2022 年招生计划与历史分数线
-  #       icon: time
-  #       path: intro/enroll/under/info
+  - tag: list
+    header: false
+    items:
+      - text: 2023 年招生计划
+        icon: time
+        url: enroll-plan
 
-  #     - text: 招生咨询群
-  #       icon: qq-group
-  #       path: intro/enroll/under/qq-group
+      - text: 招生咨询群
+        icon: qq-group
+        path: intro/enroll/under/qq-group
 
-  #     - text: 招生直播活动
-  #       icon: activity
-  #       path: intro/enroll/under/activity
+      - text: 招生直播活动
+        icon: activity
+        path: intro/enroll/under/activity
 
-  #     - text: 更多信息
-  #       icon: more
-  #       path: intro/enroll/under/
+      - text: 更多信息
+        icon: more
+        path: intro/enroll/under/
 
   # - tag: list
   #   header: 研究生
@@ -56,11 +58,11 @@ content:
   - tag: grid
     header: 您可能想关注
     items:
-      - text: 专业介绍
-        color: olive
-        name: Major
-        icon: about
-        path: intro/school/major
+      # - text: 专业介绍
+      #   color: olive
+      #   name: Major
+      #   icon: about
+      #   path: intro/school/major
 
       - text: 转专业
         color: red
@@ -129,12 +131,6 @@ content:
         path: guide/faq/
 
     footer: 更多内容请详见下方其他 Tab 页
-
-  - tag: card
-    cover: $img/tab/map.jpg
-    title: 校园地图与导航
-    logo: map
-    url: map
 
   - tag: card
     cover: $img/tab/faq.png
