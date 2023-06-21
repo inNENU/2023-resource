@@ -43,7 +43,7 @@ content:
   #   cover: $img/tab/media.jpg
   #   title: 校园媒体
   #   logo: account
-  #   url: account
+  #   url: school-media
 
   - tag: card
     cover: $img/tab/website.jpg

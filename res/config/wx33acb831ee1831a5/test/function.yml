@@ -69,7 +69,7 @@ content:
         color: grey
         name: Accounts
         icon: account
-        url: account
+        url: school-media
 
       - text: 东师网站
         color: orange
