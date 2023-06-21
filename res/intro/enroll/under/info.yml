@@ -1,12 +1,14 @@
 title: 本科招生相关信息
 grey: true
 author: Mr.Hope
-time: 2023-04-25T05:43:42.170Z
+time: 2023-06-21T01:46:04.355Z
 shareable: true
 content:
-  - tag: action
-    header: 2022 本科招生计划
-    content: http://bkzsw.nenu.edu.cn/col_000018_000171.html
+  - tag: list
+    items:
+      - text: 2023 年招生计划
+        icon: time
+        url: enroll-plan
 
   - tag: action
     header: 本科往年分数线

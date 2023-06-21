@@ -1,11 +1,11 @@
 title: 本科招生
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T01:46:04.349Z
 shareable: true
 content:
   - tag: list
-    header: 2022 年
+    header: 2023 年
     items:
       - text: 招生相关信息
         icon: about
@@ -13,19 +13,19 @@ content:
 
       - text: 本科开设专业
         icon: intro
-        path: major/2022
+        path: major/2023
 
       - text: 本科招生章程
         icon: rule
         path: rule/
 
+  - tag: list
+    header: 更多
+    items:
       - text: 录取通知书查询
         icon: search
         path: search
 
-  - tag: list
-    header: 更多
-    items:
       - text: 本科历史招生信息
         icon: time
         path: history
