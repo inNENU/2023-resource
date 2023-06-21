@@ -30,17 +30,17 @@ content:
       #   icon: calendar
       #   url: calendar
 
+      - text: 选课系统
+        color: blue
+        name: Select
+        icon: select
+        url: select
+
       - text: 音悦东师
         color: blue
         name: Music
         icon: cd
         url: music
-
-      - text: 选课系统
-        color: purple
-        name: Select
-        icon: system
-        url: select
 
       - text: 影约东师
         color: mauve
@@ -77,4 +77,5 @@ content:
         name: Admission
         icon: letter
         url: admission?type=search
+
     footer: " "

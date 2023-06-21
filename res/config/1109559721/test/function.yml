@@ -15,6 +15,18 @@ content:
     logo: map
     url: map
 
+  # - tag: card
+  #   cover: $img/tab/admission.jpg
+  #   title: 录取查询
+  #   logo: letter
+  #   url: admission?type=search
+
+  # - tag: card
+  #   cover: $img/tab/headphone.jpg
+  #   title: 音悦东师
+  #   logo: cd
+  #   url: music
+
   - tag: grid
     header: false
     items:
@@ -30,17 +42,17 @@ content:
       #   icon: calendar
       #   url: calendar
 
+      - text: 选课系统
+        color: blue
+        name: Select
+        icon: select
+        url: select
+
       - text: 音悦东师
         color: blue
         name: Music
         icon: cd
         url: music
-
-      - text: 选课系统
-        color: purple
-        name: Select
-        icon: select
-        url: select
 
       - text: 影约东师
         color: mauve
@@ -77,4 +89,5 @@ content:
         name: Admission
         icon: letter
         url: admission?type=search
+
     footer: " "
