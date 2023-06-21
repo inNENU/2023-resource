@@ -1,6 +1,6 @@
 title: in 东北师大群
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:01.642Z
 shareable: true
 content:
   - tag: title
@@ -9,6 +9,7 @@ content:
   - tag: img
     src: $img/about/innenu.jpg
     env:
+      - app
       - wx
 
   - tag: functional-list

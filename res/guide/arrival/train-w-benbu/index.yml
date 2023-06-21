@@ -1,6 +1,6 @@
 title: 长春西站-到本部
 author: Mr.Hope
-time: 2023-05-13T12:08:30.136Z
+time: 2023-06-21T10:21:01.343Z
 shareable: true
 content:
   - tag: title
@@ -31,6 +31,7 @@ content:
       - 导航功能仅在微信小程序上提供
     env:
       - qq
+      - app
 
   - tag: title
     text: 到校方式

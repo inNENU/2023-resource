@@ -19,6 +19,7 @@ content:
     logo: $img/organization/newspaper.png
     url: https://mp.weixin.qq.com/s/PDvwUdUxv7BPIl9Vn8AW-A
     env:
+      - app
       - wx
 
   - tag: card

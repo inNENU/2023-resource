@@ -20,6 +20,7 @@ content:
     desc: 融媒体大家庭期待你的到来!
     url: https://mp.weixin.qq.com/s/_Kuk0Ijc19aLMUXz-fqyJg
     env:
+      - app
       - wx
 
   - tag: card

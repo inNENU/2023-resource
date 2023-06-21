@@ -1,7 +1,7 @@
 title: 净月报到流程
 desc: 照片来自王慕梓
 author: Mr.Hope
-time: 2023-05-13T11:45:50.692Z
+time: 2023-06-21T10:21:01.613Z
 shareable: true
 content:
   - tag: title
@@ -35,14 +35,7 @@ content:
       font-size: 20px
 
   - tag: title
-    text: 值班辅导员核查返校码并完成入校登记
-
-  - tag: card
-    title: 返校健康码
-    desc: 快速打开返校健康码
-    options:
-      appId: wxa9de818af2c7f9ab
-      path: pages/code/code/code
+    text: 值班辅导员完成入校登记
 
   - tag: text
     text:
@@ -74,25 +67,6 @@ content:
     style:
       font-weight: "500"
       font-size: 20px
-
-  - tag: title
-    text: 进行核酸检测并到报到处报到
-
-  - tag: img
-    src: $img/check/jingyue-2022.png
-    desc: 2022 年净月迎新摆台示意图
-
-  - tag: text
-    text:
-      - 所有同学需要出示身份证并前往核酸检测点进行检测。
-
-  # - tag: img
-  #   src: $img/check/benbu-2022-nucleic-acid1.jpg
-  #   desc: 核酸检测点分布
-
-  # - tag: img
-  #   src: $img/check/benbu-2022-nucleic-acid2.jpg
-  #   desc: 核酸检测点详情
 
   - tag: text
     text:
@@ -134,7 +108,7 @@ content:
 
   - tag: text
     text:
-      - 步行前往寝室大厅。向宿管阿姨出示身份证上的采样贴纸，之后凭住宿卡按照学院安排的床位和床号，在宿管阿姨处完成入住登记，之后使用电梯自行将行李运送上楼。
+      - 步行前往寝室大厅。凭住宿卡按照学院安排的床位和床号，在宿管阿姨处完成入住登记，之后使用电梯自行将行李运送上楼。
 
   - tag: text
     type: tip

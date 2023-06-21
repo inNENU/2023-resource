@@ -1,6 +1,6 @@
 title: 校园邮箱账号获取
 author: Mr.Hope
-time: 2023-06-16T07:08:46.113Z
+time: 2023-06-21T10:21:01.082Z
 shareable: true
 content:
   - tag: ul
@@ -34,28 +34,28 @@ content:
       - 2. 进行如下选择
 
   - tag: img
-    src: $img/account/mail-apply1.png
+    src: $img/account/mail-apply1.jpg
 
   - tag: text
     text:
       - 3. 找到“个人邮箱申请”入口。
 
   - tag: img
-    src: $img/account/mail-apply2.png
+    src: $img/account/mail-apply2.jpg
 
   - tag: text
     text:
       - 4. 点击开始办理
 
   - tag: img
-    src: $img/account/mail-apply3.png
+    src: $img/account/mail-apply3.jpg
 
   - tag: text
     text:
       - 5. 系统会提示分配的邮箱账户名称
 
   - tag: img
-    src: $img/account/mail-account-hint.png
+    src: $img/account/mail-account-hint.jpg
 
   - tag: title
     text: 2021 级及之前
@@ -85,7 +85,7 @@ content:
 
   - tag: text
     text:
-      - 3. 请通过微信登陆企业微信
+      - 3. 请通过微信登录企业微信
       - 4. 在侧边栏中选择“东北师范大学”机构
       - 5. 点击下方 Tab 栏中的 “工作台”
       - 6. 在工作台中找到“个人中心”并进入

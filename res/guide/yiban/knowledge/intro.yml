@@ -1,6 +1,6 @@
 title: 学校情况
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:03.092Z
 shareable: true
 content:
   - tag: ul
@@ -27,8 +27,8 @@ content:
     type: info
     heading: 学校领导
     text:
-      - 现任书记是『杨晓慧』
-      - 现任校长是『刘益春』
+      - 现任书记是『兰恒斌』
+      - 现任校长是『徐海阳』
     path: /intro/about/leader
 
   - tag: text

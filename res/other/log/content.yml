@@ -1439,7 +1439,7 @@ content:
   - tag: ul
     heading: 更新
     text:
-      - 提示不同系统登陆账号
+      - 提示不同系统登录账号
       - 完善邮箱相关提示
 
   - tag: title
@@ -1469,7 +1469,7 @@ content:
     heading: 更新
     text:
       - 完善校园网指引
-      - 强调了邮箱登陆不能放置别名
+      - 强调了邮箱登录不能放置别名
 
   - tag: title
     text: 2021/09/05

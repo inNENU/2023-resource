@@ -1,6 +1,6 @@
 title: 东师 e 起战疫介绍
 author: Mr.Hope
-time: 2023-05-13T11:45:51.725Z
+time: 2023-06-21T10:21:03.249Z
 shareable: true
 content:
   - tag: title
@@ -14,11 +14,13 @@ content:
     text:
       - 请使用微信扫描下方的二维码，或直接在微信首页下拉并搜索 “东师 e 起战疫”
     env:
+      - app
       - qq
 
   - tag: img
     src: $img/epidemic/miniprogram.jpg
     env:
+      - app
       - qq
 
   - tag: card
@@ -26,3 +28,5 @@ content:
     options:
       appId: wxa9de818af2c7f9ab
       path: pages/index/index
+    env:
+      - wx

@@ -1,6 +1,6 @@
 title: 咨询与联系
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:01.237Z
 shareable: true
 content:
   - tag: text
@@ -18,7 +18,7 @@ content:
     heading: 微信公众号
 
   - tag: img
-    src: $img/archive/account.png
+    src: $img/archive/account.jpg
     desc: 档案馆公众号 / 东北师范大学企业号
 
   - tag: text

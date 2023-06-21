@@ -16,7 +16,7 @@ content:
         icon: account
         url: web?url=https://passport.neea.edu.cn/Register
 
-      - text: 账号登陆
+      - text: 账号登录
         color: olive
         name: Email
         icon: account

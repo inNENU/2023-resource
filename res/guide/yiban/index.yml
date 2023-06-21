@@ -1,13 +1,18 @@
 title: 入学教育课程
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:03.062Z
 shareable: true
 content:
   - tag: text
     type: info
     text:
-      - 报到前每位本科新生同学必须在 8 月 27 日前，在易班上完成课程学习，并通过考试、完成作业并参与互评。
+      - 报到前每位本科新生同学需在易班上完成课程学习，并通过考试、完成作业并参与互评。
       - 研究生无需进行此入学教育课程。
+
+  - tag: text
+    type: note
+    text:
+      - 2023 年入学教育课程细则暂未公布。
 
   - tag: list
     header: 简介

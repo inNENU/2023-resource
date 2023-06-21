@@ -2,7 +2,7 @@ title: 本部社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2023-06-15T17:20:11.478Z
+time: 2023-06-21T10:21:01.371Z
 shareable: true
 content:
   - tag: text
@@ -55,3 +55,9 @@ content:
         openId: 868D7B2F0C609B4285698EAB77A47BA1
         env:
           - qq
+
+      - text: QQ 搜索 inNENU 联系 in 东师
+        icon: contact
+        type: button
+        env:
+          - app

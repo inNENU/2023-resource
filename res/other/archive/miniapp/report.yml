@@ -1,6 +1,6 @@
 title: 在校健康检测
 author: Mr.Hope
-time: 2023-05-13T11:45:51.729Z
+time: 2023-06-21T10:21:03.254Z
 shareable: true
 content:
   - tag: title
@@ -23,7 +23,7 @@ content:
   - tag: list
     header: false
     items:
-      - text: 登陆小程序
+      - text: 登录小程序
         path: login
 
   - tag: ol

@@ -1,6 +1,6 @@
 title: 城乡居民基本医疗保险缴费
 author: Mr.Hope
-time: 2022-10-27
+time: 2023-06-21T10:21:02.084Z
 shareable: true
 content:
   - tag: text
@@ -68,6 +68,7 @@ content:
   - tag: img
     src: $img/insurance/base-pay.jpg
     env:
+      - app
       - qq
 
   - tag: ul

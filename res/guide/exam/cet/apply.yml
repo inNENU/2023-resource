@@ -2,7 +2,7 @@ title: 大学英语水平测试报名
 author:
   - Mr.Hope
   - 张楚
-time: 2023-06-16T06:56:37.273Z
+time: 2023-06-21T10:21:01.886Z
 shareable: true
 content:
   - tag: title
@@ -60,7 +60,7 @@ content:
     content: https://passport.neea.edu.cn/Register
 
   - tag: action
-    header: 登陆地址
+    header: 登录地址
     content: https://passport.neea.edu.cn/CETLogin?ReturnUrl=http://cet-bm.neea.edu.cn/Home/VerifyPassport/?LoginType=0
 
   - tag: ol

@@ -1,6 +1,6 @@
 title: Windows 11 用户向导指引
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.936Z
 shareable: true
 content:
   - tag: text
@@ -34,15 +34,15 @@ content:
 
   - tag: img
     src: $img/tip/win11-setup-5.png
-    desc: 在这里请登陆自己的微软账户。如果您没有，请您创建一个。
+    desc: 在这里请登录自己的微软账户。如果您没有，请您创建一个。
 
   - tag: img
     src: $img/tip/win11-setup-6.png
-    desc: 输入密码并完成登陆
+    desc: 输入密码并完成登录
 
   - tag: img
     src: $img/tip/win11-setup-7.png
-    desc: 按照要求设置 PIN 码，PIN 码主要用于开机登陆
+    desc: 按照要求设置 PIN 码，PIN 码主要用于开机登录
 
   - tag: img
     src: $img/tip/win11-setup-8.png

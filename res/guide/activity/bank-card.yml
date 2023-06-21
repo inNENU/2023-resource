@@ -1,6 +1,6 @@
 title: 银行卡办理
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:01.159Z
 shareable: true
 content:
   - tag: text
@@ -45,22 +45,22 @@ content:
     text: 在首页中点击『全部』
 
   - tag: img
-    src: $img/activity/bank-card-tool1.png
+    src: $img/activity/bank-card-tool1.jpg
 
   - tag: text
     text: 下拉，在『助手』中找到『我的安全』
 
   - tag: img
-    src: $img/activity/bank-card-tool2.png
+    src: $img/activity/bank-card-tool2.jpg
 
   - tag: text
     text: 点击『身份认证工具』
 
   - tag: img
-    src: $img/activity/bank-card-tool3.png
+    src: $img/activity/bank-card-tool3.jpg
 
   - tag: text
     text: 选择申领短信密码
 
   - tag: img
-    src: $img/activity/bank-card-tool4.png
+    src: $img/activity/bank-card-tool4.jpg

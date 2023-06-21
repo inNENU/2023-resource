@@ -1,6 +1,6 @@
 title: 伪装官方
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.633Z
 shareable: true
 content:
   - tag: text
@@ -48,6 +48,14 @@ content:
         type: button
         openType: addFriend
         openId: 41D0ED9AEDD96C611B0E679EF3ED67F9
+        env:
+          - qq
+
+  - tag: text
+    text: QQ 搜索 inNENU 添加 in 东师媒体号进行咨询
+    env:
+      - wx
+      - app
 
   - tag: title
     text: 其他

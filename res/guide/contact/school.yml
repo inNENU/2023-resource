@@ -1,7 +1,7 @@
 title: 学院迎新群
 author: Mr.Hope
 desc: 欢迎大家私聊并提交自己学院的新生群二维码
-time: 2022-08-21
+time: 2023-06-21T10:21:01.647Z
 shareable: true
 content:
   - tag: title
@@ -24,22 +24,6 @@ content:
       - 下列群聊都是官方群，也就是学院团学组织建立且学院团委老师为管理员或群主的群，或辅导员为管理员或群主的年级群。
       - Mr.Hope 也仅会核实并添加符合以上两点要求的群，所以请不要私聊发送自行创建的群。
 
-  - tag: img
-    src: $img/about/physic-2022.png
-    desc: 物理学院
-
-  - tag: img
-    src: $img/about/psychology-2022.jpg
-    desc: 心理学院
-
-  - tag: img
-    src: $img/about/economy-2022.png
-    desc: 经济与管理学院
-
-  - tag: img
-    src: $img/about/ist-2022.jpg
-    desc: 信息技术与科学学院
-
   - tag: text
     type: tip
     text: Mr.Hope 欢迎各学院团学组织的同学们或各位辅导员老师们联系并提供相关群的二维码。(⚠需要证实自己身份)
@@ -52,30 +36,6 @@ content:
     text:
       - 下列群聊均为非官方群，也就是不含有辅导员或学院团委老师，学长学姐自发建立的。
       - Mr.Hope 只会偶尔监控一下各群状态是否正常，不对群的正规性以及加群产生的任何后果负责。
-
-  - tag: img
-    src: $img/about/education-2022.jpg
-    desc: 教育学部
-
-  - tag: img
-    src: $img/about/chemistry-2022.jpg
-    desc: 化学学院
-
-  - tag: img
-    src: $img/about/geography-2022.png
-    desc: 地理科学学院
-
-  - tag: img
-    src: $img/about/media-2022.jpg
-    desc: 传媒科学学院
-
-  - tag: img
-    src: $img/about/art-2022.png
-    desc: 美术学院
-
-  - tag: img
-    src: $img/about/pe-2022.jpg
-    desc: 体育学院
 
   - tag: ul
     type: info

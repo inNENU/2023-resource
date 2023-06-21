@@ -1,6 +1,6 @@
 title: 国家防疫健康信息码
 author: Mr.Hope
-time: 2023-05-13T11:45:51.701Z
+time: 2023-06-21T10:21:03.211Z
 shareable: true
 cite: https://gjzwfw.www.gov.cn/col/col994/index.html
 content:
@@ -16,6 +16,7 @@ content:
   - tag: img
     src: $img/epidemic/health-code.jpg
     env:
+      - app
       - qq
 
   - tag: card

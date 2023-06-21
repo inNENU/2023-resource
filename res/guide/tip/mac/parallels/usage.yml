@@ -1,13 +1,13 @@
 title: 使用 Parallels
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.851Z
 shareable: true
 content:
   - tag: text
     type: info
     heading: 商业付费软件
     text:
-      - Parallels Desktop 是一个商业付费软件。每个用户可以在下载并登陆后免费试用 15 天，如试用期后仍想要使用需购买许可证激活。
+      - Parallels Desktop 是一个商业付费软件。每个用户可以在下载并登录后免费试用 15 天，如试用期后仍想要使用需购买许可证激活。
       - 想要使用 Parallels Desktop，您必须拥有一个 Parallels 账户并登录它。
 
   - tag: title
@@ -27,7 +27,7 @@ content:
 
   - tag: p
     text:
-      - 在新设备安装 Parallels Desktop 并登陆有效 Parallels 账户后，您可以享受 15 天的试用期。试用期结束后，如果您想继续使用 Parallels Desktop 软件，根据 Parallels 用户协议，您需要购买一个有效的许可证。
+      - 在新设备安装 Parallels Desktop 并登录有效 Parallels 账户后，您可以享受 15 天的试用期。试用期结束后，如果您想继续使用 Parallels Desktop 软件，根据 Parallels 用户协议，您需要购买一个有效的许可证。
 
   - tag: text
     type: warning

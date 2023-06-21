@@ -1,6 +1,6 @@
 title: 校园邮箱
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-06-21T10:21:01.090Z
 shareable: true
 content:
   - tag: title
@@ -43,7 +43,7 @@ content:
       - 因为校园邮箱使用网易企业邮，邮箱拥有自己的账号系统。换言之，您需要在邮箱内部的“设置”中进行密码管理，且该密码不与学校统一身份认证同步。
 
   - tag: title
-    text: 登陆地址
+    text: 登录地址
 
   - tag: action
     content: https://mail.nenu.edu.cn/

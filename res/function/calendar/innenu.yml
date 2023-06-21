@@ -171,3 +171,14 @@ content:
     icon: ./icon/flag.svg
     text: |-
       小程序突破 60 万字
+
+  - title: 2023 年 5 月
+    icon: ./icon/flag.svg
+    text: |-
+      小程序突破 80 万字
+
+  - title: 2023 年 6 月
+    icon: ./icon/flag.svg
+    text: |-
+      in 东师安卓 App 上线
+      选课系统上线

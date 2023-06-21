@@ -1,6 +1,6 @@
 title: 奖学金申请
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.637Z
 shareable: true
 content:
   - tag: title
@@ -19,6 +19,7 @@ content:
     src: $img/study/jiangxuebao.jpg
     desc: 奖学宝小程序二维码
     env:
+      - app
       - qq
 
   - tag: title

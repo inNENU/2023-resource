@@ -1,6 +1,6 @@
 title: 坐飞机-到净月
 author: Mr.Hope
-time: 2022-08-30
+time: 2023-06-21T10:21:01.297Z
 shareable: true
 content:
   - tag: title
@@ -22,6 +22,7 @@ content:
     type: warning
     env:
       - qq
+      - app
     text:
       - 导航功能仅在微信小程序上提供!
 

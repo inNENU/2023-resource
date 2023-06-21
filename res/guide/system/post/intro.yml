@@ -1,6 +1,6 @@
 title: 研究生教学服务系统介绍
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.746Z
 shareable: true
 content:
   - tag: title
@@ -24,7 +24,7 @@ content:
     content: https://math127.nenu.edu.cn/HProg/yjsy/index_pc.php
 
   - tag: title
-    text: 登陆方式
+    text: 登录方式
 
   - tag: img
     src: $img/system/post/login.png

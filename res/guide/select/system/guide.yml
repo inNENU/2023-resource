@@ -1,6 +1,6 @@
 title: 选课系统使用说明
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.691Z
 shareable: true
 content:
   - tag: title
@@ -29,7 +29,7 @@ content:
 
   - tag: text
     type: info
-    heading: 选课系统登陆
+    heading: 选课系统登录
     path: login
 
   - tag: p
@@ -48,7 +48,7 @@ content:
 
   - tag: p
     heading: 个人基本信息
-    text: 显示当前登陆账号的基本信息
+    text: 显示当前登录账号的基本信息
 
   - tag: p
     heading: 课程自定义检索区

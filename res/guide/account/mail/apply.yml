@@ -1,6 +1,6 @@
 title: 校园邮箱申请
 author: Mr.Hope
-time: 2023-06-16T07:08:46.106Z
+time: 2023-06-21T10:21:01.076Z
 shareable: true
 content:
   - tag: text
@@ -34,21 +34,21 @@ content:
       - 2. 进行如下选择
 
   - tag: img
-    src: $img/account/mail-apply1.png
+    src: $img/account/mail-apply1.jpg
 
   - tag: text
     text:
       - 3. 找到“个人邮箱申请”入口。
 
   - tag: img
-    src: $img/account/mail-apply2.png
+    src: $img/account/mail-apply2.jpg
 
   - tag: text
     text:
       - 4. 点击开始办理
 
   - tag: img
-    src: $img/account/mail-apply3.png
+    src: $img/account/mail-apply3.jpg
 
   - tag: text
     text:
@@ -60,26 +60,26 @@ content:
       - 如果首选邮箱名称都已经被申请，那么你需要选择数字后缀并设置自己喜欢的数字后缀。
 
   - tag: img
-    src: $img/account/mail-apply-select.png
+    src: $img/account/mail-apply-select.jpg
 
   - tag: text
     text:
       - 6. 填好信息后选择提交，如果你选择的邮箱用户名没有被占用，会弹出成功提示
 
   - tag: img
-    src: $img/account/mail-apply-success.png
+    src: $img/account/mail-apply-success.jpg
 
   - tag: text
     text:
-      - 7. 点击确定后，系统会给出用户名和初始密码。请登陆邮箱并修改。
+      - 7. 点击确定后，系统会给出用户名和初始密码。请登录邮箱并修改。
 
   - tag: img
-    src: $img/account/mail-apply-result.png
+    src: $img/account/mail-apply-result.jpg
 
   - tag: list
     header: false
     items:
-      - text: 登陆邮箱
+      - text: 登录邮箱
         path: intro
 
   - tag: text
@@ -88,4 +88,4 @@ content:
       - 请妥善截图或记录初始密码，如果不小心退出或忘记初始密码，请在首页中点击“我的申请查看”
 
   - tag: img
-    src: $img/account/mail-apply-password.png
+    src: $img/account/mail-apply-password.jpg

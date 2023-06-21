@@ -1,6 +1,6 @@
 title: 通信大数据行程卡介绍
 author: Mr.Hope
-time: 2022-12-12
+time: 2023-06-21T10:21:03.219Z
 shareable: true
 cite: https://xc.caict.ac.cn/help.html
 content:
@@ -20,6 +20,7 @@ content:
     src: $img/epidemic/history-visit.jpg
     desc: 微信小程序码
     env:
+      - app
       - qq
 
   - tag: title

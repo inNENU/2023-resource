@@ -5,7 +5,7 @@
     "env": {
       "type": "array",
       "items": {
-        "enum": ["qq", "wx"]
+        "enum": ["app", "qq", "wx"]
       }
     },
     "location": {

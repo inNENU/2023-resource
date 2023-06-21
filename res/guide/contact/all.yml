@@ -1,6 +1,6 @@
 title: 学校新生群
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:01.629Z
 shareable: true
 content:
   - tag: text
@@ -17,17 +17,18 @@ content:
     path: cheat
 
   - tag: title
-    text: 东北师范大学 2022 本科新生群
+    text: 东北师范大学 2023 本科新生群
 
   - tag: img
     src: $img/about/under.jpg
     env:
+      - app
       - wx
 
   - tag: functional-list
     header: false
     items:
-      - text: 加入东北师范大学 2022 本科新生群
+      - text: 加入东北师范大学 2023 本科新生群
         icon: qq-group
         type: button
         openType: openGroupProfile
@@ -41,6 +42,7 @@ content:
   - tag: img
     src: $img/about/post.jpg
     env:
+      - app
       - wx
 
   - tag: functional-list
@@ -77,6 +79,7 @@ content:
     src: $img/about/hope.jpg
     desc: 这是一个需要严格身份验证，同时每天长期监控的群
     env:
+      - app
       - wx
 
   - tag: functional-list
@@ -96,6 +99,7 @@ content:
   - tag: text
     text: 请在 QQ 频道手动搜索“东北师大”。
     env:
+      - app
       - wx
 
   - tag: functional-list

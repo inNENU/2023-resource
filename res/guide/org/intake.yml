@@ -2,7 +2,7 @@ title: 学生组织纳新
 desc: |-
   新增、修改、删除学生组织纳新信息请联系 Mr.Hope
 author: Mr.Hope
-time: 2023-06-15T17:20:12.241Z
+time: 2023-06-21T10:21:02.479Z
 shareable: true
 content:
   - tag: card
@@ -23,6 +23,7 @@ content:
     desc: 融媒体大家庭期待你的到来!
     url: https://mp.weixin.qq.com/s/_Kuk0Ijc19aLMUXz-fqyJg
     env:
+      - app
       - wx
 
   - tag: card
@@ -43,6 +44,7 @@ content:
     logo: $img/organization/newspaper.png
     url: info?id=/guide/org/newspaper/intake
     env:
+      - app
       - wx
 
   - tag: list

@@ -1,6 +1,6 @@
 title: 更改企业号认证微信与手机
 author: Mr.Hope
-time: 2022-09-02
+time: 2023-06-21T10:21:01.103Z
 shareable: true
 content:
   - tag: title
@@ -37,7 +37,7 @@ content:
   - tag: ol
     text:
       - 原微信登录“企业微信”
-      - 需要更换的微信登陆同手机微信
+      - 需要更换的微信登录同手机微信
       - 点击下方菜单栏中的“我”
       - 点击“设置”
       - 点击“账号与安全”

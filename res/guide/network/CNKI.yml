@@ -1,6 +1,6 @@
 title: 校外访问知网
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.415Z
 shareable: true
 content:
   - tag: title
@@ -13,7 +13,7 @@ content:
     text: 请直接访问上述地址，并在要求登录时跳转到 Web VPN 进行登录即可。
 
   # - tag: p
-  #   heading: 登陆地址
+  #   heading: 登录地址
   #   text: 使用非校园 IP 地址打开浏览器，输入入口网址，在页面上的 “选择高校／机构” 下拉框中选 择“东北师范大学”，点击 “前往”。
 
   # - tag: img

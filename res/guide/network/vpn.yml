@@ -1,6 +1,6 @@
 title: 校园 VPN
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-21T10:21:02.427Z
 shareable: true
 content:
   - tag: title
@@ -10,12 +10,12 @@ content:
     text: 当在校外需要访问校内资源时，大多数情况下，您可以使用 Web VPN 进行身份认证后进行访问。
 
   - tag: action
-    header: 登陆地址
+    header: 登录地址
     content: https://webvpn.nenu.edu.cn/
 
   - tag: img
     src: $img/account/webvpn-login.jpg
-    desc: VPN 登陆界面
+    desc: VPN 登录界面
 
   - tag: text
     text: 输入自己的统一身份认证账号(工号或学号、邮箱账号)，点击登录按钮。

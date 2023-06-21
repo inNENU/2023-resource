@@ -1,6 +1,6 @@
 title: in 东师志愿者招募
 author: Mr.Hope
-time: 2023-06-16T02:36:48.133Z
+time: 2023-06-21T10:21:03.282Z
 shareable: true
 content:
   - tag: title
@@ -28,6 +28,7 @@ content:
     header: 计划列表
     content: https://docs.qq.com/sheet/DYnJRZ2RpenJ3WGFH
     env:
+      - app
       - qq
 
   - tag: text
