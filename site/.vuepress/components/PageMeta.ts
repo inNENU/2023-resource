@@ -22,7 +22,7 @@ export default defineComponent({
 
     const editLink = computed(
       () =>
-        `https://github.com/Hope-Studio/innenu-res/edit/main/res${page.value.path
+        `https://github.com/inNENU/resource/edit/main/res${page.value.path
           .replace(/\/$/, "/index.yml")
           .replace(/\.html$/, ".yml")}`
     );

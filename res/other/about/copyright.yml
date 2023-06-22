@@ -22,7 +22,7 @@ content:
     text: in 东师的全部代码置于 “Mr.Hope 协议 1.0 草案” 下。
 
   - tag: action
-    content: https://github.com/Hope-Studio/inNENU-miniapp/tree/wechat/v5/LICENSE
+    content: https://github.com/inNENU/inNENU/tree/main/LICENSE
 
   - tag: title
     text: 『CC BY-NC-ND 4.0』

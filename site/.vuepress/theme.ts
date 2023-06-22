@@ -5,7 +5,7 @@ export default hopeTheme(
     favicon: "/favicon.ico",
     logo: "/logo.svg",
     hostname: "https://innenu.com",
-    repo: "Hope-Studio/innenu-res",
+    repo: "inNENU/resource",
 
     editLink: false,
     footer: "在东师，就用 in 东师",
