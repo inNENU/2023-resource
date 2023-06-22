@@ -22,6 +22,10 @@ actions:
     text: 小程序介绍
     link: /other/guide/
 
+  - type: secondary
+    text: App 下载
+    link: https://assets.innenu.com/innenu%20v5.4.0-230622.apk
+
 highlights:
   - header: 东师指南
     description: 东师新生的最好礼物
