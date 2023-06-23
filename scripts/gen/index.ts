@@ -18,7 +18,6 @@ import { resolveLocationPage } from "./map.js";
 import { type MarkerOption, resolveMarker } from "./marker.js";
 import { type MusicInfo, checkMusic } from "./music.js";
 import { type PEConfig, genPEScore } from "./peScore.js";
-import { generateQRCode } from "./qrcode.js";
 import { generateResource } from "./resource.js";
 import { genSearchMap } from "./search.js";
 import { resolvePage } from "../components/page.js";
@@ -113,8 +112,5 @@ convertYml2Json("./res/config", "./r/config", (data, filePath) =>
 
 // 生成资源
 generateResource();
-
-// 生成二维码
-await generateQRCode();
 
 console.log("All completed");

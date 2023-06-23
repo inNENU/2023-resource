@@ -187,7 +187,7 @@ class Spider(object):
                         should_fetch = False
 
         except Exception as e:
-            traceback.print_exc()
+            traceback.print_exc(e)
 
         with open('../../res/account/' + filename + '.yml', 'w', encoding="utf-8") as f:
             f.write(content.replace('article:\n', 'article:\n' + result))
