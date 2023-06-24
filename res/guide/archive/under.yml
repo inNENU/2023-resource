@@ -1,7 +1,7 @@
 title: 档案相关
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-24T06:08:52.899Z
 shareable: true
 content:
   - tag: list
@@ -27,7 +27,7 @@ content:
 
       - text: 特殊情况的档案处理
         icon: alert
-        path: sepcial
+        path: special
 
       - text: 其他常见问题
         icon: faq

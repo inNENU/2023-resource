@@ -25,6 +25,10 @@ content:
       - 提供四六级、计算机查询 (民生业务必须使用政务主体)
       - 校园公告 (个人主体禁止提供资讯服务)
 
+  - tag: text
+    type: tip
+    text: 自 2023 年 6 月起，Mr.Hope 推出了 in 东师 App，App 将会上线更多内容。
+
   - tag: title
     text: 部分资讯过时或出现错误
 

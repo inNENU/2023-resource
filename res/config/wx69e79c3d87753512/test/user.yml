@@ -34,7 +34,7 @@ content:
 
       - text: 隐私说明
         icon: privacy
-        url: privacy
+        url: info?path=other/about/app-privacy
 
       - text: 存储设置
         icon: file
