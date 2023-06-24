@@ -1,6 +1,6 @@
 title: 本科生试卷查阅
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-24T05:53:44.239Z
 shareable: true
 cite: http://my.nenu.edu.cn/hallIndex/showAppDetail?appid=fc5b2602ea3a47d98a2737b6a4a593c8
 content:
@@ -16,6 +16,7 @@ content:
   - tag: list
     header: false
     items:
+      # TODO:
       - text: 本科生试卷查阅申请
         desc: 制作中
         path: /guide/system/under/

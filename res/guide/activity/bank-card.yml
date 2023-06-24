@@ -1,6 +1,6 @@
 title: 银行卡办理
 author: Mr.Hope
-time: 2023-06-21T10:21:01.159Z
+time: 2023-06-24T05:53:44.245Z
 shareable: true
 content:
   - tag: text
@@ -19,7 +19,7 @@ content:
   - tag: text
     type: note
     text:
-      - 借记卡又叫储蓄卡，没有信用额度，持卡人需要先存款、后使用。
+      - 借记卡俗称储蓄卡，没有信用额度，持卡人需要先存款、后使用。
 
   - tag: title
     text: 办理方式

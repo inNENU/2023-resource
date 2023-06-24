@@ -4,6 +4,42 @@ id: geonenu
 logo: $img/media/geo.png
 qrcode: $img/media/geo-wechat.jpg
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeAC8HicgJk1ibibIPqtpH4sI8CFNibY7RiclaenQa628JXoCHYr0YdQ4n6wpKI6U4BPGOicPuSLTwloqXug/0?wx_fmt=jpeg
+    title: 毕业季 | 青春启航，奔赴山海——祝2023届全体毕业生毕业快乐！
+    desc: 祝2023届全体毕业生毕业快乐，前程似锦！
+    url: https://mp.weixin.qq.com/s/_F16G-_ZYWI4RqrTLc7NFw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeDPiciaYqV9qdicsUx21hLiaN8T91U0PPSWt4BC8xahBoWQ3e5u4Qnw0KmbZ52zXyyYfhbyNt6aH0utzQ/0?wx_fmt=jpeg
+    title: 喜报|我院学子在首届“行远杯”全国地理实践技能越野赛决赛中获得佳绩
+    desc: 我院2020级地理科学（公费师范）专业本科生杨婧（指导教师为丁继昭老师）荣获特等奖， 2019级地理科学专业本科生胡雨鑫（指导教师为李鸿凯老师）荣获一等奖。
+    url: https://mp.weixin.qq.com/s/W4LSeHV6jPQZ1IPfNzZ_SA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeDjs6pFoxDqGdLo1df72iaYYDX2eeiaicxiaekBewTLahQgA8cibTyAUqGWaN5KyZuOMJJdTG6ickpb6CPQ/0?wx_fmt=jpeg
+    title: 学院新闻 | 院长白娥教授当选吉林省新一届人民代表大会常务委员会委员
+    url: https://mp.weixin.qq.com/s/BUdPV6wDisHo9DqrksUhCQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeC6DHVoKvu7CaeSYuUdKKm1bHXNxQw14zkfiabAia0u9DQ56SVcVO0Jav5b0VZicJiaPXgXia34rm28KrA/0?wx_fmt=jpeg
+    title: 活动报道 | 学院党委举办第四期“对话·成长”青年教师成长分享活动
+    desc: 11月20日，地理科学学院党委举办第四期“对话·成长”青年教师成长分享活动。
+    url: https://mp.weixin.qq.com/s/Kk9p1kqdPYEgnuaroN0Qww
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeCiaxicBDxkmVDXIT4OGot0kzPQQGUA5QooKWK1P6ciagrnO5A78006hic46tmjI2mFF6BurjRqcrLjYQ/0?wx_fmt=jpeg
+    title: 活动报道 | 我院举办首届全国地理课程与教学论方向博士（生）学术论坛
+    desc: 10月28日，我院举办首届全国地理课程与教学论方向博士（生）学术论坛。
+    url: https://mp.weixin.qq.com/s/sCcn9Geregii78LJMtP48w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeBR8wLpFsWeOthVWYCmu9aGeQ0Yn3xEU7vm6AteMNk81WVmo9rzFHSJz8KEWRkJR0HlR7bblWTm6w/0?wx_fmt=jpeg
+    title: 东北师范大学地理科学学院2023年城市规划（专业学位）硕士招生简章
+    url: https://mp.weixin.qq.com/s/sf2aab2NYHlQajF4qRXxLA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeArPP32BQVBevOiapsxwhyRgUibLPClj2iaHe5XUyXvYeqFNak3YJLpF7mNhcOAciacYNnmrqKg12xqmg/0?wx_fmt=jpeg
+    title: 喜报 | 我院学子在2022年吉林省科普讲解大赛中荣获佳绩
+    url: https://mp.weixin.qq.com/s/2ub5zGYb9sMwWLlSuCzjaA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeCia4xUfuA1mlqXiccRgGbXb4fwYQ4ItnvbKicCHXqsTTLLuoFia7mNU3rscltVQTmKgFYzr21HXl5c9A/0?wx_fmt=jpeg
+    title: 东北师范大学地理科学学院2023年接收优秀应届本科毕业生免试攻读研究生复试录取工作实施细则
+    url: https://mp.weixin.qq.com/s/Ab9L8VKUycAVdlmD5vHOsQ
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeC8gc24xysQamTM169ZZxWRmkfgZuiaLLghUyTnyw8Oicicf0CpBDthzQcBfUjJGYPgdBU44Qt1FWAiaA/0?wx_fmt=jpeg
     title: 情怀地理，立德树人 | 东北师范大学第三届“郑德荣式好老师”——吴正方教授
     desc: 长白山上风雪无惧，三尺讲台风范尽显。把论文写在大地上，把品行传承在事业中，他用赤诚丹心、博学睿智、敦厚勤勉，成就莘莘学子，谱写地理华章。
