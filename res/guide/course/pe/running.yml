@@ -1,6 +1,6 @@
 title: 校园跑
 author: Mr.Hope
-time: 2023-06-21T10:21:01.697Z
+time: 2023-06-24T17:26:43.116Z
 shareable: true
 content:
   - tag: title
@@ -17,7 +17,7 @@ content:
 
   - tag: action
     header: 下载地址
-    content: http://h5.gxapp.iydsj.com/gxapp/version/v1.22/download/index.html
+    content: https://h5.gxapp.iydsj.com/gxapp/version/v1.22/download/index.html
 
   - tag: text
     type: info

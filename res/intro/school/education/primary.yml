@@ -1,10 +1,10 @@
 title: 小学教育专业
 desc: |-
   来源: 2022 年本科招生指南
-time: 2022-08-21
+time: 2023-06-24T17:26:42.423Z
 cite:
   - https://book.eol.cn/books/cusm/mobile/index.html
-  - http://edu.nenu.edu.cn/rcpy/bksjy1/bkzs.htm
+  - https://edu.nenu.edu.cn/rcpy/bksjy1/bkzs.htm
 shareable: true
 content:
   - tag: title
@@ -17,7 +17,7 @@ content:
     text: 专业介绍视频
 
   - tag: video
-    src: http://zsb.nenu.edu.cn/__local/0/FD/9E/807141846976EF4110B8F0C446A_2D715807_A08397C.mp4?e=.mp4
+    src: https://zsb.nenu.edu.cn/__local/0/FD/9E/807141846976EF4110B8F0C446A_2D715807_A08397C.mp4?e=.mp4
 
   - tag: title
     text: 主干课程

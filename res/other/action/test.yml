@@ -8,7 +8,7 @@ content:
         color: blue
         name: Apply
         icon: apply
-        url: web?url=http://cet.neea.edu.cn
+        url: web?url=https://cet.neea.edu.cn
 
       - text: 账号注册
         color: cyan
@@ -20,7 +20,7 @@ content:
         color: olive
         name: Email
         icon: account
-        url: web?url=https://passport.neea.edu.cn/CETLogin?ReturnUrl=http://cet-bm.neea.edu.cn/Home/VerifyPassport/?LoginType=0
+        url: web?url=https://passport.neea.edu.cn/CETLogin?ReturnUrl=https://cet-bm.neea.edu.cn/Home/VerifyPassport/?LoginType=0
 
       - text: 成绩查询
         color: red

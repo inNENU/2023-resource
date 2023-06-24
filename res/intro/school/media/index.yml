@@ -1,7 +1,7 @@
 title: 传媒科学学院
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-24T17:26:42.531Z
 shareable: true
 content:
   - tag: account
@@ -15,7 +15,7 @@ content:
       latitude: 43.82637
       longitude: 125.42704
     mail: chuanmei@nenu.edu.cn
-    site: http://chuanmei.nenu.edu.cn/
+    site: https://chuanmei.nenu.edu.cn/
 
   - tag: list
     items:

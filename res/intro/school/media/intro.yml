@@ -1,10 +1,10 @@
 title: 传媒科学学院介绍
 desc: |-
   来源: 2022 本科招生指南、传媒科学学院官网
-time: 2022-08-21
+time: 2023-06-24T17:26:42.533Z
 cite:
   - https://book.eol.cn/books/cusm/mobile/index.html
-  - http://chuanmei.nenu.edu.cn/xygk/xyjj.htm
+  - https://chuanmei.nenu.edu.cn/xygk/xyjj.htm
 shareable: true
 content:
   - tag: account
@@ -18,7 +18,7 @@ content:
       latitude: 43.82637
       longitude: 125.42704
     mail: chuanmei@nenu.edu.cn
-    site: http://chuanmei.nenu.edu.cn/
+    site: https://chuanmei.nenu.edu.cn/
 
   - tag: title
     text: 学院介绍
@@ -68,4 +68,4 @@ content:
     street: 长春市净月大街 2555 号
     postCode: 130117
     mail: chuanmei@nenu.edu.cn
-    site: http://chuanmei.nenu.edu.cn/
+    site: https://chuanmei.nenu.edu.cn/

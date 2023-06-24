@@ -2,7 +2,7 @@
   list:
     - name: 东师欢迎你
       author: 2022 年招生宣传片
-      src: http://zsb.nenu.edu.cn/__local/4/23/D5/A4C2140C2112A2FE9E046CEE80E_6322EBD9_2B4F9A0A.mp4?e=.mp4
+      src: https://zsb.nenu.edu.cn/__local/4/23/D5/A4C2140C2112A2FE9E046CEE80E_6322EBD9_2B4F9A0A.mp4?e=.mp4
 
     - name: 这里是东师
       author: 东北师范大学党委宣传部
@@ -15,6 +15,10 @@
     - name: New Experience New Us
       author: 东北师范大学党委宣传部
       src: https://www.nenu.edu.cn/_upload/article/videos/32/b8/e76e9c994b4cbbbd39e8a15e5b3a/a20a8299-b782-4b10-9543-e816c6e2e336.mp4
+
+    - name: 东师校歌 MV
+      author: 东北师范大学
+      src: https://www.nenu.edu.cn/xgmv.mp4
 
 - title: 院长说专业
   list:
@@ -112,18 +116,6 @@
         传媒科学学院: 这里是传媒
       author: 阴艳
       src: https://www.nenu.edu.cn/__local/B/FD/E0/B957821D6B82F9580DD9F92FDE2_4D0DC8A6_C3F8934.mp4?e=.mp4
-
-    # 旧
-    - name: |-
-        美术学院: 艺术并重 道器兼修
-      author: 东北师范大学招生办公室
-      src: https://zsb.nenu.edu.cn/__local/3/2B/A8/EFAC87FF34B43020087E5E41285_6C2F4F91_DB5B6DE.mp4?e=.mp4
-
-    # 旧
-    - name: |-
-        音乐学院: 弦歌曼舞 德音在兹
-      author: 东北师范大学招生办公室
-      src: https://zsb.nenu.edu.cn/__local/5/2B/23/1F7FB8F33E6AC2D2D7C5594DAD5_8C4A13F1_12D41BC7.mp4?e=.mp4
 
 - title: 规章制度
   list:

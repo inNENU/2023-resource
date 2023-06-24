@@ -63,34 +63,36 @@ isOriginal: true
 `;
 
   pageContents.forEach((component) => {
-    const { tag } = component;
+    const { env, tag } = component;
 
-    // 处理图片
-    if (tag === "img") content += getImgMarkdown(component);
-    // 设置标题
-    else if (tag === "title") content += getTitleMarkdown(component);
-    // 设置文字
-    else if (tag === "text" || tag === "p" || tag === "ul" || tag === "ol")
-      content += getTextMarkdown(component);
-    // 设置列表组件
-    else if (tag === "list" || tag === "functional-list")
-      content += getListMarkdown(component);
-    // 设置网格组件
-    else if (tag === "grid") content += getGridMarkdown(component);
-    // 检测文档
-    else if (tag === "doc") content += getDocMarkdown(component);
-    // 设置电话
-    else if (tag === "phone") content += getPhoneMarkdown(component);
-    // 检测音频
-    else if (tag === "audio") content += getAudioMarkdown(component);
-    // 检测视频
-    else if (tag === "video") content += getVideoMarkdown(component);
-    // 检测动作
-    else if (tag === "action") content += getActionMarkdown(component);
-    // 检测账号
-    else if (tag === "account") content += getAccountMarkdown(component);
-    // 检测地点
-    else if (tag === "location") content += getLocationMarkdown(component);
+    if (!env || env.includes("web")) {
+      // 处理图片
+      if (tag === "img") content += getImgMarkdown(component);
+      // 设置标题
+      else if (tag === "title") content += getTitleMarkdown(component);
+      // 设置文字
+      else if (tag === "text" || tag === "p" || tag === "ul" || tag === "ol")
+        content += getTextMarkdown(component);
+      // 设置列表组件
+      else if (tag === "list" || tag === "functional-list")
+        content += getListMarkdown(component);
+      // 设置网格组件
+      else if (tag === "grid") content += getGridMarkdown(component);
+      // 检测文档
+      else if (tag === "doc") content += getDocMarkdown(component);
+      // 设置电话
+      else if (tag === "phone") content += getPhoneMarkdown(component);
+      // 检测音频
+      else if (tag === "audio") content += getAudioMarkdown(component);
+      // 检测视频
+      else if (tag === "video") content += getVideoMarkdown(component);
+      // 检测动作
+      else if (tag === "action") content += getActionMarkdown(component);
+      // 检测账号
+      else if (tag === "account") content += getAccountMarkdown(component);
+      // 检测地点
+      else if (tag === "location") content += getLocationMarkdown(component);
+    }
   });
 
   if (desc || cite)

@@ -1,7 +1,7 @@
 title: 信息科学与技术学院
 desc: |-
   来源: 2022 年本科招生指南
-time: 2022-08-21
+time: 2023-06-24T17:26:42.492Z
 cite:
   - https://book.eol.cn/books/cusm/mobile/index.html
 shareable: true
@@ -16,7 +16,7 @@ content:
     location:
       latitude: 43.82572
       longitude: 125.42695
-    site: http://www.ist.nenu.edu.cn/
+    site: https://ist.nenu.edu.cn/
 
   - tag: title
     text: 学院简介
@@ -60,4 +60,4 @@ content:
     org: 东北师范大学
     street: 吉林省长春市净月大街 2555 号
     postCode: 130117
-    site: http://www.ist.nenu.edu.cn/
+    site: https://ist.nenu.edu.cn/

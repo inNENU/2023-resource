@@ -2,14 +2,14 @@ title: 大学英语水平测试报名
 author:
   - Mr.Hope
   - 张楚
-time: 2023-06-21T10:21:01.886Z
+time: 2023-06-24T17:26:43.245Z
 shareable: true
 content:
   - tag: title
     text: 四六级报考网站
 
   - tag: action
-    content: http://cet.neea.edu.cn
+    content: https://cet.neea.edu.cn
 
   - tag: title
     text: 东北师范大学考点
@@ -61,7 +61,7 @@ content:
 
   - tag: action
     header: 登录地址
-    content: https://passport.neea.edu.cn/CETLogin?ReturnUrl=http://cet-bm.neea.edu.cn/Home/VerifyPassport/?LoginType=0
+    content: https://passport.neea.edu.cn/CETLogin?ReturnUrl=https://cet-bm.neea.edu.cn/Home/VerifyPassport/?LoginType=0
 
   - tag: ol
     text:

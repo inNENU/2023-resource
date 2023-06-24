@@ -1,9 +1,9 @@
 title: 东北师范大学 2023 年研究生全国统考招生专业目录
 desc: |-
   来源: 研究生院官网
-time: 2022-10-27
+time: 2023-06-24T17:26:42.212Z
 shareable: true
-cite: http://yzb.nenu.edu.cn/tmp/2023ssml.htm
+cite: https://yzb.nenu.edu.cn/tmp/2023ssml.htm
 content:
   - tag: text
     type: info
@@ -12,7 +12,7 @@ content:
 
   - tag: action
     header: 查询地址
-    content: hhttp://yzb.nenu.edu.cn/tmp/2023ssml.htm
+    content: https://yzb.nenu.edu.cn/tmp/2023ssml.htm
 
   - tag: doc
     name: 2023 年研究生学费及培养校区

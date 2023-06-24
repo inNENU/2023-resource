@@ -1,10 +1,10 @@
 title: 中日联谊医院就诊流程
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-24T17:26:43.480Z
 shareable: true
 cite:
-  - http://www.zrlyyy.com/jzzn/jyxz/
-  - http://yygh.zrlyyy.com/
+  - https://www.zrlyyy.com/jzzn/jyxz/
+  - https://yygh.zrlyyy.com/
 content:
   - tag: title
     text: 预约挂号
@@ -14,7 +14,7 @@ content:
 
   - tag: action
     header: 网上预约平台
-    content: http://yygh.zrlyyy.com/index.php
+    content: https://yygh.zrlyyy.com/index.php
 
   - tag: img
     src: $img/life/hospital/zhongri-wechat.png

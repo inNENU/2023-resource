@@ -1,7 +1,7 @@
 title: 中国共产主义青年团标识
 desc: |-
   信息来源: 校团委官网
-time: 2022-08-21
+time: 2023-06-24T17:26:42.203Z
 shareable: true
 content:
   - tag: title
@@ -40,7 +40,7 @@ content:
     heading: 团歌视频
 
   - tag: video
-    src: http://youth.nenu.edu.cn/__local/8/E9/E1/814F000EDE3259CAC2D9F8F2E60_B997AA3D_937010.mp4?e=.mp4
+    src: https://youth.nenu.edu.cn/__local/8/E9/E1/814F000EDE3259CAC2D9F8F2E60_B997AA3D_937010.mp4?e=.mp4
 
   - tag: text
     heading: 团歌合唱

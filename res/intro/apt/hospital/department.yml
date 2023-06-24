@@ -1,7 +1,7 @@
 title: 科室介绍
 desc: |-
   信息来源: 校医院官网
-time: 2022-08-21
+time: 2023-06-24T17:26:42.095Z
 shareable: true
 cite:
   - https://hos.nenu.edu.cn/ksjs.htm
@@ -10,12 +10,12 @@ cite:
   - https://hos.nenu.edu.cn/info/1079/1311.htm
   - https://hos.nenu.edu.cn/info/1079/1036.htm
   - https://hos.nenu.edu.cn/info/1079/1035.htm
-  # - http://hos.nenu.edu.cn/info/1079/1034.htm
-  - http://hos.nenu.edu.cn/info/1079/1033.htm
-  - http://hos.nenu.edu.cn/info/1079/1032.htm
-  - http://hos.nenu.edu.cn/info/1079/1031.htm
-  - http://hos.nenu.edu.cn/info/1079/1024.htm
-  - http://hos.nenu.edu.cn/info/1079/1023.htm
+  # - https://hos.nenu.edu.cn/info/1079/1034.htm
+  - https://hos.nenu.edu.cn/info/1079/1033.htm
+  - https://hos.nenu.edu.cn/info/1079/1032.htm
+  - https://hos.nenu.edu.cn/info/1079/1031.htm
+  - https://hos.nenu.edu.cn/info/1079/1024.htm
+  - https://hos.nenu.edu.cn/info/1079/1023.htm
 content:
   - tag: title
     text: 检验科

@@ -1,6 +1,6 @@
 title: 服兵役学生资助常见问题
 author: Mr.Hope
-time: 2022-08-26
+time: 2023-06-24T17:26:42.648Z
 cite:
   - https://mp.weixin.qq.com/s/27IA7UOyJhH8rIIsqM7uDA
 shareable: true
@@ -21,7 +21,7 @@ content:
 
   - tag: action
     header: 全国征兵网
-    content: http://www.gfbzb.gov.cn
+    content: https://www.gfbzb.gov.cn
 
   - tag: p
     type: info

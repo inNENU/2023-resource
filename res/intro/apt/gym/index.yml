@@ -1,7 +1,7 @@
 title: 体育馆
 desc: |-
   信息来源: 综合体育馆官网、学校官网
-time: 2022-11-25
+time: 2023-06-24T17:26:42.087Z
 grey: true
 shareable: true
 content:
@@ -11,7 +11,7 @@ content:
     wxid: dbsfdxzhtyg
     wxcode: $img/media/gym-wechat.jpg
     detail: 东北师范大学综合体育馆
-    site: http://http://gym.nenu.edu.cn/
+    site: https://gym.nenu.edu.cn/
     account: gym
     location:
       latitude: 43.86028

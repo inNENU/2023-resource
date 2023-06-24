@@ -1,7 +1,7 @@
 title: 本科招生
 grey: true
 author: Mr.Hope
-time: 2023-06-21T10:21:00.321Z
+time: 2023-06-24T17:26:42.230Z
 shareable: true
 content:
   - tag: list
@@ -58,4 +58,4 @@ content:
 
   - tag: action
     header: 招生办留言板
-    content: http://zsb.nenu.edu.cn/lyb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1123
+    content: https://zsb.nenu.edu.cn/lyb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1123
