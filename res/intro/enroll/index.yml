@@ -1,7 +1,7 @@
 title: 招生情况
 grey: true
 author: Mr.Hope
-time: 2023-06-24T11:02:38.858Z
+time: 2023-06-24T18:37:19.178Z
 shareable: true
 content:
   - tag: list
@@ -11,9 +11,21 @@ content:
         icon: rule
         path: under/rule/
 
-      - text: 2022 年招生计划与历史分数线
+      - text: 2023 年招生计划
+        icon: rule
+        url: enroll-plan
+        env:
+          - app
+          - qq
+          - wx
+
+      - text: 历史分数线
         icon: time
-        path: under/info
+        url: enroll-grade
+        env:
+          - app
+          - qq
+          - wx
 
       - text: 招生咨询群
         icon: qq-group

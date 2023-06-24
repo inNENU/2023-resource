@@ -18,6 +18,12 @@
     "body": ["  - tag: text", "    text: $0"],
     "description": "inset text"
   },
+  "Add paragraph component": {
+    "scope": "yaml",
+    "prefix": "p",
+    "body": ["  - tag: p", "    text: $0"],
+    "description": "inset paragraph"
+  },
   "Add texts component": {
     "scope": "yaml",
     "prefix": ["ts", "texts"],
