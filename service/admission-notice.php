@@ -26,40 +26,7 @@ $postDataArray = json_decode(file_get_contents('php://input'), true);
 $client = new \GuzzleHttp\Client();
 
 if ($postData->type === 'fetch') {
-  if ($postData->level === '本科生') {
-    $jar = new \GuzzleHttp\Cookie\CookieJar(true);
-
-    // fetch code
-    $response = $client->get(
-      'http://bkzsw.nenu.edu.cn/include/webgetcode.php?width=85&height=28&sitex=15&sitey=6',
-      ['cookies' => $jar],
-    );
-
-    $base64Image =
-      "data:image/png;base64," . base64_encode($response->getBody()->getContents());
-
-    // fetch info
-    $response = $client->get(
-      'http://bkzsw.nenu.edu.cn/col_000018_000169.html',
-    );
-
-    $content = $response->getBody()->getContents();
-
-    preg_match('/<td colspan="2" align="left">截止 (.*?)<\/td>/', $content, $notice);
-
-    $info = [
-      'cookies' => $jar->toArray(),
-      'info' => ['name', 'id', 'testId'],
-      'verifyCode' => $base64Image,
-      'notice' => '部分省份信息正在录入中，点击查看详情',
-      'detail' => [
-        'title' => "录取信息",
-        'content' => str_replace('<br>', "\n", $notice[1]),
-      ],
-    ];
-
-    echo (json_encode($info, 320));
-  } else if ($postData->level === '研究生') {
+  if ($postData->level === '研究生') {
     $info = [
       'cookies' => [],
       'info' => ['name', 'id'],
@@ -70,100 +37,9 @@ if ($postData->type === 'fetch') {
     echo (json_encode($info, 320));
   }
 } else if ($postData->type === 'search') {
-  if ($postData->level === '本科生') {
-    $jar = new \GuzzleHttp\Cookie\CookieJar(
-      true,
-      $postDataArray['cookies']
-    );
-
-    // result
-    $content = $client->send($jar->withCookieHeader(new Request(
-      'POST',
-      'http://bkzsw.nenu.edu.cn/col_000018_000169_action_Entrance.html',
-      [
-        "accept" =>  "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "accept-language" =>  "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
-        "cache-control" =>  "max-age=0",
-        "content-type" =>  "application/x-www-form-urlencoded",
-        "upgrade-insecure-requests" =>  "1",
-        "Referrer-Policy" =>  "strict-origin-when-cross-origin"
-      ],
-      'en_zkz=' . $postData->testId . '&en_sfz=' . $postData->id . '&en_xm=' . urlencode($postData->name) . '&en_code=' . (strlen($postData->verifyCode) ? $postData->verifyCode : $postDataArray['verify-code'])
-    )))->getBody()->getContents();
-
-    preg_match('/<script language="javascript">alert\("(.*)"\);history.back\(-1\);<\/script>/', $content, $info);
-
-    if (count($info)) {
-      echo ('{"status": "error", "msg": "' . $info[1] . '"}');
-    } else {
-      preg_match('/<td width="20%" align="right">姓　　名：<\/td>\s*?<td width="40%">(.*?)<\/td>/', $content, $name);
-      preg_match('/<td align="right">身份证号：<\/td>\s*?<td>(.*?)<\/td>/', $content, $id);
-      preg_match('/<td align="right">考&nbsp;&nbsp;生&nbsp;&nbsp;号：<\/td>\s*?<td>(.*)<\/td>/', $content, $testId);
-      preg_match('/<td align="right">省　　份：<\/td>\s*?<td>(.*?)<\/td>/', $content, $province);
-      preg_match('/<td colspan="3" align="center"><font color="#FF0000" style="font-size:16px;"><p>恭喜你，你已经被我校 <\/p><p>(.*?)&nbsp;&nbsp;(.*?)&nbsp;&nbsp;专业录取！<\/p><\/font><\/td>/', $content, $result);
-      preg_match('/<td align="right">通讯书邮寄地址：<\/td>\s*?<td colspan="2" align="left">(.*?)<\/td>/', $content, $address);
-      preg_match('/<td align="right">邮政编码：<\/td>\s*?<td align="left">(.*?)<\/td>/', $content, $postCode);
-      preg_match('/<td align="right">收&nbsp;&nbsp;件&nbsp;&nbsp;人：<\/td>\s*?<td align="left">(.*?)<\/td>/', $content, $receiver);
-      preg_match('/<td align="right">联系电话：<\/td>\s*?<td align="left">(.*?)<\/td>/', $content, $phone);
-      preg_match('/id="emsdh">(.*?)<\/a>/', $content, $expressNumber);
-
-
-      $info = [
-        [
-          'text' => '姓名',
-          'value' => $name[1]
-        ],
-        [
-          'text' => '考生号',
-          'value' => $testId[1]
-        ],
-        [
-          'text' => '省份',
-          'value' => $province[1]
-        ],
-        [
-          'text' => '录取专业',
-          'value' => $result[2]
-        ],
-        [
-          'text' => '所在学院',
-          'value' => $result[1]
-        ],
-        [
-          'text' => '录取通知书单号',
-          'value' => ($expressNumber ? $expressNumber[1] : '暂无')
-        ],
-      ];
-
-      if ($address) array_push($info, [
-        'text' => '通讯地址',
-        'value' => $address[1]
-      ]);
-
-      if ($postCode) array_push($info, [
-        'text' => '邮政编码',
-        'value' => $postCode[1]
-      ]);
-
-      if ($receiver) array_push($info, [
-        'text' => '收件人',
-        'value' => $receiver[1]
-      ]);
-
-      if ($phone) array_push($info, [
-        'text' => '联系电话',
-        'value' => $phone[1]
-      ]);
-
-      echo (json_encode([
-        'status' => 'success',
-        'info' => $info,
-        'raw' => $content,
-      ], 320));
-    }
-  } else if ($postData->level === '研究生') {
+  if ($postData->level === '研究生') {
     $content = $client->send(
-      new Request('POST', 'http://yzb.nenu.edu.cn/yjs/sslq_result/2022',    [
+      new Request('POST', 'http://yzb.nenu.edu.cn/yjs/sslq_result/2023',    [
         "accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
         "accept-language" => "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
         "content-type" => "application/x-www-form-urlencoded",
