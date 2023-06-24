@@ -33,7 +33,7 @@ content:
       - text: 选课系统
         color: blue
         name: Select
-        icon: system
+        icon: select
         url: select
 
       - text: 音悦东师
