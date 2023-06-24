@@ -4,14 +4,6 @@ grey: true
 hidden: true
 content:
   - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkaWCR4aDTneRttJA1aicVDCDoeibt7dlDxLweq9LPysYuibrTQ9VLn90LPPEyV3xVvjcAd53CibOxkBA/0?wx_fmt=jpeg
-    logo: $img/organization/nenuyouth.png
-    name: 东师青年
-    title: 欣欣向“融” ，“媒”你不行！快来加入我们吧！
-    desc: 融媒体大家庭期待你的到来!
-    url: https://mp.weixin.qq.com/s/_Kuk0Ijc19aLMUXz-fqyJg
-
-  - tag: card
     cover: $img/tab/life.jpg
     title: 校园生活最强指南
     logo: life

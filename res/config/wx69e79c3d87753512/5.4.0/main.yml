@@ -3,18 +3,6 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: card
-    cover: $img/scenery/benbu-main.jpg
-    title: 选课系统
-    logo: select
-    url: select
-
-  - tag: card
-    cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ic9k8LCTbicc7MjW2oBkgRHf9aWRiarzZRukWbhGrVk2P52M2sufAaxgxOrEA9YNv9qTlCR05bFkqEHcf5ibEBjeGQ/0?wx_fmt=jpeg
-    title: 关于 in 东师选课系统的说明
-    logo: $img/inNENU.png
-    url: web?url=https://mp.weixin.qq.com/s/IxxGfEhSx7ZEhhbYoNurgA
-
   - tag: title
     text: 本科招生
 
