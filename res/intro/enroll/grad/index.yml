@@ -1,7 +1,7 @@
 title: 研究生招生
 grey: true
 author: Mr.Hope
-time: 2022-10-27
+time: 2023-06-24T11:02:38.863Z
 shareable: true
 content:
   - tag: list
@@ -24,7 +24,7 @@ content:
     items:
       - text: 东师研招公众号
         icon: wechat
-        url: account-detail?path=graduate
+        url: wechat-detail?path=graduate
 
   - tag: list
     header: 更多

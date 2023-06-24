@@ -1,7 +1,7 @@
 title: 招生情况
 grey: true
 author: Mr.Hope
-time: 2023-06-21T10:21:00.291Z
+time: 2023-06-24T11:02:38.858Z
 shareable: true
 content:
   - tag: list
@@ -36,7 +36,7 @@ content:
 
       - text: 东师研招公众号
         icon: wechat
-        url: account-detail?path=graduate
+        url: wechat-detail?path=graduate
 
       - text: 更多
         icon: more
