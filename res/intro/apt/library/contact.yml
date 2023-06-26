@@ -1,6 +1,6 @@
 title: 图书馆联系方式
 author: Mr.Hope
-time: 2023-06-16T02:36:46.018Z
+time: 2023-06-26T17:24:56.625Z
 shareable: true
 cite:
   - http://www.library.nenu.edu.cn/page/88333/show?leftNavId=3008913
@@ -16,7 +16,8 @@ content:
 
   - tag: text
     heading: QQ
-    text: 周一至周五，上午8：30--11：00，下午14：00--16：30
+    text: |-
+      周一至周五，上午8: 30--11: 00，下午14: 00--16: 30
 
   - tag: action
     header: QQ 号
@@ -24,7 +25,6 @@ content:
 
   - tag: text
     heading: 微信
-    text: 东北师范大学图书馆官方微信：微信号 nenu_lib
 
   - tag: account
     name: 图书馆
