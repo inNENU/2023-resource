@@ -5,6 +5,11 @@ id: nenuweixin
 logo: $img/media/official.png
 qrcode: $img/media/officail-qrcode.jpg
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/ysE1q5sFFFg00eqTMGa5fWwVN4I4AMPIorn5hkoNTmMEfqpAUqIcxLXtdTVaDY8WgSXyGibegBD8NJBic4NwImOw/0?wx_fmt=jpeg
+    title: 东师校园开放日 | 张张笑脸写满“喜欢” ，奶牛君祝您东师梦圆！
+    desc: 今日，共赴一场期待已久的约会！
+    url: https://mp.weixin.qq.com/s/-Ctlw5unHTNQkoaRDAZDfg
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/ysE1q5sFFFgCwmhrqF3YelD5l8DmBjP83DHYerEg0qQceJlITFPzMmdZYtQiaiaITpuScp6qvQC2bBhKA7e2TKxQ/0?wx_fmt=jpeg
     title: 重磅预告 | 东北师范大学2023届学生毕业典礼暨校园开放日活动即将举行
     desc: 6月25日相约东师，不见不散！

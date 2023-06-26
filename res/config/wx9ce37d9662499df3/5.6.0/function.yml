@@ -18,6 +18,12 @@ content:
   - tag: grid
     header: false
     items:
+      - text: 课程表
+        color: grey
+        name: Degree
+        icon: degree
+        url: course-table
+
       # - text: 校园地图
       #   color: orange
       #   name: Map

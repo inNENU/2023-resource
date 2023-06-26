@@ -30,6 +30,12 @@ content:
       #   icon: calendar
       #   url: calendar
 
+      - text: 课程表
+        color: grey
+        name: Degree
+        icon: degree
+        url: course-table
+
       - text: 选课系统
         color: blue
         name: Select
