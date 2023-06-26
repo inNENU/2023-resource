@@ -16,8 +16,12 @@ content:
     header: false
     items:
       - text: 2023 年招生计划
-        icon: time
+        icon: rule
         url: enroll-plan
+
+      - text: 历史分数
+        icon: time
+        url: enroll-grade
 
       - text: 招生咨询群
         icon: qq-group

@@ -3,6 +3,12 @@ id: main
 grey: true
 hidden: true
 content:
+  - tag: card
+    cover: $img/scenery/benbu-main.jpg
+    title: 选课系统
+    logo: select
+    url: select
+
   - tag: title
     text: 本科招生
 
@@ -16,8 +22,12 @@ content:
     header: false
     items:
       - text: 2023 年招生计划
-        icon: time
+        icon: rule
         url: enroll-plan
+
+      - text: 历史分数
+        icon: time
+        url: enroll-grade
 
       - text: 招生咨询群
         icon: qq-group
