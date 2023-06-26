@@ -82,10 +82,7 @@
           "type": "string"
         },
         "env": {
-          "type": "array",
-          "items": {
-            "enum": ["app", "qq", "wx"]
-          }
+          "$ref": "#/definitions/env"
         }
       },
       "required": ["text"],
@@ -345,6 +342,9 @@
         "url": {
           "description": "网格项目地址",
           "type": "string"
+        },
+        "env": {
+          "$ref": "#/definitions/env"
         }
       },
       "required": ["text", "icon", "color", "name"],

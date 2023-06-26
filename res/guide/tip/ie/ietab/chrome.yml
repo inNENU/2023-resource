@@ -1,6 +1,6 @@
 title: Chrome 安装 IETab
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-06-26T10:31:31.781Z
 shareable: true
 content:
   # TODO: Add Chrome Intro Page
@@ -21,7 +21,7 @@ content:
 
   - tag: action
     header: 下载地址
-    content: $file/tools/IE-Tab-15.8.13.1.crx
+    content: $file/tools/IE-Tab-16.5.5.1.crx
 
   - tag: text
     text: 请下载好文件，并通过下图所述方式打开 Chrome 的扩展程序面板。

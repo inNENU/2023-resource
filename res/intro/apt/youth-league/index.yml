@@ -1,9 +1,18 @@
 title: 校团委
 grey: true
 author: Mr.Hope
-time: 2023-06-24T17:26:42.195Z
+time: 2023-06-26T10:31:30.192Z
 shareable: true
 content:
+  - tag: account
+    name: 校团委
+    logo: $img/media/tuanwei.png
+    detail: 东北师范大学团委
+    wxid: nenu-tuanwei
+    wxcode: $img/media/tuanwei-wechat.jpg
+    account: tuanwei
+    site: https://youth.nenu.edu.cn/index.htm
+
   - tag: list
     items:
       - text: 校团委介绍
@@ -32,7 +41,3 @@ content:
       - text: 党政热词
         icon: intro
         path: league
-
-  - tag: action
-    header: 官网
-    content: https://youth.nenu.edu.cn/index.htm

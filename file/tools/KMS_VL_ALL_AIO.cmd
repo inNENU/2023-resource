@@ -1,6 +1,6 @@
 <!-- : Begin batch script
 @setlocal DisableDelayedExpansion
-@set uivr=v45
+@set uivr=v49
 @echo off
 :: ### Configuration Options ###
 
@@ -14,6 +14,9 @@ set ActOffice=1
 :: change to 0 to turn OFF auto conversion for Office C2R Retail to Volume
 set AutoR2V=1
 
+:: change to 0 to keep Office C2R vNext license (subscription or lifetime)
+set vNextOverride=1
+
 :: change to 0 to revert Windows 10/11 KMS38 to normal KMS
 set SkipKMS38=1
 
@@ -21,7 +24,7 @@ set SkipKMS38=1
 
 :: change to 1 and set KMS_IP address to activate via external KMS server unattended
 set External=0
-set KMS_IP=0.0.0.0
+set KMS_IP=172.16.0.2
 
 :: change to 1 to run Manual activation mode unattended
 set uManual=0
@@ -50,8 +53,8 @@ set KMS_HWID=0x3A1C049600B60076
 :: change KMS TCP port
 set KMS_Port=1688
 
-:: change to 1 to use VBScript instead wmic.exe to access WMI
-:: this option is automatically enabled for Windows 11 build 22483 and later
+:: change to 1 to use VBScript to access WMI
+:: automatically enabled if wmic.exe is not available for Windows 11 build 22483 and later
 set WMI_VBS=0
 
 :: Notice for advanced users on Windows 64-bit (x64 / ARM64):
@@ -67,21 +70,9 @@ set WMI_VBS=0
 
 set KMS_Emulation=1
 set Unattend=0
-set _uIP=0.0.0.0
+set _uIP=172.16.0.2
 
 set "_Null=1>nul 2>nul"
-
-set "_cmdf=%~f0"
-if exist "%SystemRoot%\Sysnative\cmd.exe" (
-setlocal EnableDelayedExpansion
-start %SystemRoot%\Sysnative\cmd.exe /c ""!_cmdf!" %*"
-exit /b
-)
-if exist "%SystemRoot%\SysArm32\cmd.exe" if /i %PROCESSOR_ARCHITECTURE%==AMD64 (
-setlocal EnableDelayedExpansion
-start %SystemRoot%\SysArm32\cmd.exe /c ""!_cmdf!" %*"
-exit /b
-)
 
 set _args=
 set _elev=
@@ -95,6 +86,8 @@ if not defined _args goto :NoProgArgs
 set _args=%_args:"=%
 for %%A in (%_args%) do (
 if /i "%%A"=="-elevated" (set _elev=1
+) else if /i "%%A"=="-wow" (set _rel1=1
+) else if /i "%%A"=="-arm" (set _rel2=1
 ) else if /i "%%A"=="/d" (set _Debug=1
 ) else if /i "%%A"=="/u" (set Unattend=1
 ) else if /i "%%A"=="/s" (set Silent=1
@@ -102,6 +95,7 @@ if /i "%%A"=="-elevated" (set _elev=1
 ) else if /i "%%A"=="/o" (set ActOffice=1&set ActWindows=0
 ) else if /i "%%A"=="/w" (set ActOffice=0&set ActWindows=1
 ) else if /i "%%A"=="/c" (set AutoR2V=0
+) else if /i "%%A"=="/v" (set vNextOverride=0
 ) else if /i "%%A"=="/x" (set SkipKMS38=0
 ) else if /i "%%A"=="/e" (set fAUR=0&set External=1&set uManual=0&set uAutoRenewal=0
 ) else if /i "%%A"=="/m" (set fAUR=0&set External=0&set uAutoRenewal=0
@@ -111,6 +105,17 @@ if /i "%%A"=="-elevated" (set _elev=1
 )
 
 :NoProgArgs
+set "_cmdf=%~f0"
+if exist "%SystemRoot%\Sysnative\cmd.exe" if not defined _rel1 (
+setlocal EnableDelayedExpansion
+start %SystemRoot%\Sysnative\cmd.exe /c ""!_cmdf!" -wow %*"
+exit /b
+)
+if exist "%SystemRoot%\SysArm32\cmd.exe" if /i %PROCESSOR_ARCHITECTURE%==AMD64 if not defined _rel2 (
+setlocal EnableDelayedExpansion
+start %SystemRoot%\SysArm32\cmd.exe /c ""!_cmdf!" -arm %*"
+exit /b
+)
 if %External% EQU 1 (if "%KMS_IP%"=="%_uIP%" (set fAUR=0&set External=0) else (set fAUR=0))
 if %uManual% EQU 1 (set fAUR=0&set External=0&set uAutoRenewal=0)
 if %uAutoRenewal% EQU 1 (set fAUR=1&set External=0&set uManual=0)
@@ -121,8 +126,11 @@ set _run=nul
 if %Logger% EQU 1 set _run="%~dpn0_Silent.log"
 
 set "SysPath=%SystemRoot%\System32"
-if exist "%SystemRoot%\Sysnative\reg.exe" (set "SysPath=%SystemRoot%\Sysnative")
-set "Path=%SysPath%;%SystemRoot%;%SysPath%\Wbem;%SystemRoot%\System32\WindowsPowerShell\v1.0\"
+set "Path=%SystemRoot%\System32;%SystemRoot%\System32\Wbem;%SystemRoot%\System32\WindowsPowerShell\v1.0\"
+if exist "%SystemRoot%\Sysnative\reg.exe" (
+set "SysPath=%SystemRoot%\Sysnative"
+set "Path=%SystemRoot%\Sysnative;%SystemRoot%\Sysnative\Wbem;%SystemRoot%\Sysnative\WindowsPowerShell\v1.0\;%Path%"
+)
 set "_err===== ERROR ===="
 set "_psc=powershell -nop -c"
 set "_buf={$W=$Host.UI.RawUI.WindowSize;$B=$Host.UI.RawUI.BufferSize;$W.Height=31;$B.Height=300;$Host.UI.RawUI.WindowSize=$W;$Host.UI.RawUI.BufferSize=$B;}"
@@ -137,12 +145,23 @@ if /i "%PROCESSOR_ARCHITECTURE%"=="x86" if "%PROCESSOR_ARCHITEW6432%"=="" set "x
 if /i "%PROCESSOR_ARCHITEW6432%"=="amd64" set "xBit=x64"&set "xOS=x64"&set "_orig=%o_x64%"
 if /i "%PROCESSOR_ARCHITEW6432%"=="arm64" set "xBit=x86"&set "xOS=A64"&set "_orig=%o_arm%"
 
-if not exist "%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" goto :E_PS
+reg query HKLM\SYSTEM\CurrentControlSet\Services\WinMgmt /v Start 2>nul | find /i "0x4" 1>nul && (goto :E_WMS)
 
-set pwsh32=0
-if %xOS%==A64 %_psc% $env:PROCESSOR_ARCHITECTURE 2>nul | find /i "x86" 1>nul && set pwsh32=1
+set _cwmi=0
+for %%# in (wmic.exe) do @if not "%%~$PATH:#"=="" (
+wmic path Win32_ComputerSystem get CreationClassName /value 2>nul | find /i "ComputerSystem" 1>nul && set _cwmi=1
+)
+set _pwsh=1
+for %%# in (powershell.exe) do @if "%%~$PATH:#"=="" set _pwsh=0
+if not exist "%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" set _pwsh=0
+if %_pwsh% equ 0 goto :E_PS
+
+set psfull=1
+2>nul %_psc% $ExecutionContext.SessionState.LanguageMode | find /i "Full" 1>nul || set psfull=0
+if %psfull% equ 0 goto :E_LM
+
 set _dllPath=%SystemRoot%\System32
-if %pwsh32% EQU 1 set _dllPath=%SystemRoot%\Sysnative
+if %xOS%==A64 %_psc% $env:PROCESSOR_ARCHITECTURE 2>nul | find /i "x86" 1>nul && set _dllPath=%SystemRoot%\Sysnative
 set _dllNum=1
 if %xOS%==x64 set _dllNum=2
 if %xOS%==A64 set _dllNum=3
@@ -169,10 +188,11 @@ set _PSarg=%_PSarg:'=''%
 )
 
 :Passed
+if not exist "%SystemRoot%\Temp\" mkdir "%SystemRoot%\Temp" 1>nul 2>nul
 set "_batf=%~f0"
 set "_batp=%_batf:'=''%"
-set "_Local=%LocalAppData%"
 set "_utemp=%TEMP%"
+set "_Local=%LocalAppData%"
 set "_temp=%SystemRoot%\Temp"
 set "_log=%~dpn0"
 set "_work=%~dp0"
@@ -194,7 +214,8 @@ set "_mO14m=Detected Office 2010 MSI Retail is not supported by KMS_VL_ALL"
 set "_mO15m=Detected Office 2013 MSI Retail is not supported by KMS_VL_ALL"
 set "_mO16m=Detected Office 2016 MSI Retail is not supported by KMS_VL_ALL"
 set "_mOuwp=Detected Office 365/2016 UWP is not supported by KMS_VL_ALL"
-set DO16Ids=ProPlus,ProjectPro,VisioPro,Standard,ProjectStd,VisioStd,Access,SkypeforBusiness,Excel,Outlook,PowerPoint,Publisher,Word
+set DO15Ids=ProPlus,Standard,Access,Lync,Excel,Groove,InfoPath,OneNote,Outlook,PowerPoint,Publisher,Word
+set DO16Ids=ProPlus,Standard,Access,SkypeforBusiness,Excel,Outlook,PowerPoint,Publisher,Word
 set LV16Ids=Mondo,ProPlus,ProjectPro,VisioPro,Standard,ProjectStd,VisioStd,Access,SkypeforBusiness,OneNote,Excel,Outlook,PowerPoint,Publisher,Word
 set LR16Ids=%LV16Ids%,Professional,HomeBusiness,HomeStudent,O365Business,O365SmallBusPrem,O365HomePrem,O365EduCloud
 set "ESUEditions=Enterprise,EnterpriseE,EnterpriseN,Professional,ProfessionalE,ProfessionalN,Ultimate,UltimateE,UltimateN"
@@ -208,7 +229,7 @@ set "_csm=cscript.exe //NoLogo //Job:WmiMethod "%~nx0?.wsf""
 set "_csp=cscript.exe //NoLogo //Job:WmiPKey "%~nx0?.wsf""
 set "_csx=cscript.exe //NoLogo //Job:XPDT "%~nx0?.wsf""
 set "_csd=cscript.exe //NoLogo //Job:MPS "%~nx0?.wsf""
-if %winbuild% GEQ 22483 set WMI_VBS=1
+if %_cwmi% EQU 0 set WMI_VBS=1
 if %WMI_VBS% EQU 0 (
 set "_zz1=wmic path"
 set "_zz2=where"
@@ -341,6 +362,13 @@ if %OSType% EQU Win8 reg query "%IFEO%\sppsvc.exe" %_Nul3% && (
 reg delete "%IFEO%\sppsvc.exe" /f %_Nul3%
 call :StopService sppsvc
 )
+
+set kNext=HKCU\SOFTWARE\Microsoft\Office\16.0\Common\Licensing\LicensingNext
+:: set _Identity=0
+:: dir /b /s /a:-d "!_Local!\Microsoft\Office\Licenses\*1*" %_Nul3% && set _Identity=1
+:: dir /b /s /a:-d "!ProgramData!\Microsoft\Office\Licenses\*1*" %_Nul3% && set _Identity=1
+:: if %_Identity% EQU 1 
+
 set _uRI=%KMS_RenewalInterval%
 set _uAI=%KMS_ActivationInterval%
 set _dDbg=No
@@ -349,6 +377,11 @@ if %_Debug% EQU 1 if not defined fAUR set fAUR=0&set External=0
 if %Unattend% EQU 1 if not defined fAUR set fAUR=0&set External=0
 if not defined fAUR if not defined rAUR goto :MainMenu
 if defined rAUR (set _verb=1&cls&call :RemoveHook&goto :cCache)
+set sub_next=0
+set sub_o365=0
+set sub_proj=0
+set sub_vsio=0
+reg query %kNext% /v MigrationToV5Done %_Nul2% | find /i "0x1" %_Nul1% && call :officeSub
 set Unattend=1
 set _ReAR=0
 set _AUR=0
@@ -361,10 +394,15 @@ cls&goto :DoActivate
 
 :MainMenu
 cls
-mode con cols=80 lines=32
+mode con cols=80 lines=34
 color 07
 set "_title=KMS_VL_ALL_AIO %uivr%"
 title %_title%
+set sub_next=0
+set sub_o365=0
+set sub_proj=0
+set sub_vsio=0
+reg query %kNext% /v MigrationToV5Done %_Nul2% | find /i "0x1" %_Nul1% && call :officeSub
 set _dMode=Manual
 set _ReAR=0
 set _AUR=0
@@ -377,6 +415,7 @@ if %ActOffice% EQU 0 (set _dAoff=No) else (set _dAoff=Yes)
 if %AutoR2V% EQU 0 (set _dArtv=No) else (set _dArtv=Yes)
 if %SkipKMS38% EQU 0 (set _dWXKMS=No) else (set _dWXKMS=Yes)
 if %_Debug% EQU 0 (set _dDbg=No) else (set _dDbg=Yes)
+if %vNextOverride% EQU 0 (set _dNxt=No) else (set _dNxt=Yes)
 set _el=
 set _quit=
 if %preparedcolor%==0 call :colorprep
@@ -387,14 +426,14 @@ if not exist "'" (<nul >"'" set /p "=.")
 echo.
 echo           %line3%
 echo.
-if %_AUR% EQU 1 (           
 rem echo                [1] Activate [%_dMode% Mode]
+if %_AUR% EQU 1 (
 call :Cfgbg %_cWht% "               [1] Activate " %_cGrn% "[%_dMode% Mode]"
 ) else (
 call :Cfgbg %_cWht% "               [1] Activate " %_cBlu% "[%_dMode% Mode]"
 )
 echo.
-if %_AUR% EQU 1 (           
+if %_AUR% EQU 1 (
 call :Cfgbg %_cWht% "               [2] Install Activation Auto-Renewal " %_cGrn% "[%_dHook%]"
 ) else (
 echo                [2] Install Activation Auto-Renewal
@@ -404,51 +443,67 @@ echo                %line4%
 echo.
 echo                    Configuration:
 echo.
-if %_dDbg%==No (           
-echo                [4] Enable Debug Mode       [%_dDbg%]
+if %_dDbg%==No (
+echo                [4] Enable Debug Mode         [%_dDbg%]
 ) else (
-call :Cfgbg %_cWht% "               [4] Enable Debug Mode       " %_cRed% "[%_dDbg%]"
+call :Cfgbg %_cWht% "               [4] Enable Debug Mode         " %_cRed% "[%_dDbg%]"
 )
 if %_dAwin%==Yes (
-echo                [5] Process Windows         [%_dAwin%]
+echo                [5] Process Windows           [%_dAwin%]
 ) else (
-call :Cfgbg %_cWht% "               [5] Process Windows         " %_cYel% "[%_dAwin%]"
+call :Cfgbg %_cWht% "               [5] Process Windows           " %_cYel% "[%_dAwin%]"
 )
 if %_dAoff%==Yes (
-echo                [6] Process Office          [%_dAoff%]
+echo                [6] Process Office            [%_dAoff%]
 ) else (
-call :Cfgbg %_cWht% "               [6] Process Office          " %_cYel% "[%_dAoff%]"
+call :Cfgbg %_cWht% "               [6] Process Office            " %_cYel% "[%_dAoff%]"
 )
 if %_dArtv%==Yes (
-echo                [7] Convert Office C2R-R2V  [%_dArtv%]
+echo                [7] Convert Office C2R-R2V    [%_dArtv%]
 ) else (
-call :Cfgbg %_cWht% "               [7] Convert Office C2R-R2V  " %_cYel% "[%_dArtv%]"
+call :Cfgbg %_cWht% "               [7] Convert Office C2R-R2V    " %_cYel% "[%_dArtv%]"
+)
+if %_dNxt%==No (
+if %sub_next% EQU 1 (
+call :Cfgbg %_cYel% "               [V] Override Office C2R vNext " %_cYel% "[%_dNxt%]"
+  ) else (
+echo                [V] Override Office C2R vNext [%_dNxt%]
+  )
+) else (
+if %sub_next% EQU 1 (
+call :Cfgbg %_cYel% "               [V] Override Office C2R vNext " %_cRed% "[%_dNxt%]"
+  ) else (
+echo                [V] Override Office C2R vNext [%_dNxt%]
+  )
 )
 if %winbuild% GEQ 10240 (
 if %_dWXKMS%==Yes (
-echo                [X] Skip Windows KMS38      [%_dWXKMS%]
+echo                [X] Skip Windows KMS38        [%_dWXKMS%]
 ) else (
-call :Cfgbg %_cWht% "               [X] Skip Windows KMS38      " %_cYel% "[%_dWXKMS%]"
+call :Cfgbg %_cWht% "               [X] Skip Windows KMS38        " %_cYel% "[%_dWXKMS%]"
 ))
 echo                %line4%
 echo.
 echo                    Miscellaneous:
 echo.
-echo                [8] Check Activation Status [vbs]
-echo                [9] Check Activation Status [wmi]
+echo                [8] Check Activation Status {vbs}
+echo                [9] Check Activation Status {wmi}
 echo                [S] Create $OEM$ Folder
+echo                [D] Decode Embedded Binary Files
 echo                [R] Read Me
-echo                [E] Activate [External Mode]
+echo                [E] Activate {External Mode}
 echo           %line3%
 echo.
 if %_NCS% EQU 0 (
 popd
 )
-choice /c 1234567890ERSX /n /m ">           Choose a menu option, or press 0 to Exit: "
+choice /c 1234567890EDRSVX /n /m ">           Choose a menu option, or press 0 to Exit: "
 set _el=%errorlevel%
-if %_el%==14 if %winbuild% GEQ 10240 (if %SkipKMS38% EQU 0 (set SkipKMS38=1) else (set SkipKMS38=0))&goto :MainMenu
-if %_el%==13 (call :CreateOEM)&goto :MainMenu
-if %_el%==12 (call :CreateReadMe)&goto :MainMenu
+if %_el%==16 if %winbuild% GEQ 10240 (if %SkipKMS38% EQU 0 (set SkipKMS38=1) else (set SkipKMS38=0))&goto :MainMenu
+if %_el%==15 (if %vNextOverride% EQU 0 (set vNextOverride=1) else (set vNextOverride=0))&goto :MainMenu
+if %_el%==14 (call :CreateOEM)&goto :MainMenu
+if %_el%==13 (call :CreateReadMe)&goto :MainMenu
+if %_el%==12 (call :CreateBIN)&goto :MainMenu
 if %_el%==11 goto :E_IP
 if %_el%==10 (set _quit=1&goto :TheEnd)
 if %_el%==9 (call :casWm)&goto :MainMenu
@@ -534,6 +589,7 @@ if %_dDbg%==Yes (
 set "_para=/d"
 if %ActWindows% EQU 0 set "_para=!_para! /o"
 if %ActOffice% EQU 0 set "_para=!_para! /w"
+if %vNextOverride% EQU 0 set "_para=!_para! /v"
 if %SkipKMS38% EQU 0 set "_para=!_para! /x"
 if %External% EQU 1 set "_para=!_para! /e %KMS_IP%"
 if %External% EQU 0 if %_AUR% EQU 0 set "_para=!_para! /m"
@@ -619,7 +675,7 @@ IF %winbuild% LSS 14393 (
 )
 IF NOT "%EditionWMI%"=="" SET "EditionID=%EditionWMI%"
 IF /I "%EditionID%"=="IoTEnterprise" SET "EditionID=Enterprise"
-IF /I "%EditionID%"=="IoTEnterpriseS" SET "EditionID=EnterpriseS"
+IF /I "%EditionID%"=="IoTEnterpriseS" IF %winbuild% LSS 22610 SET "EditionID=EnterpriseS"
 IF /I "%EditionID%"=="ProfessionalSingleLanguage" SET "EditionID=Professional"
 IF /I "%EditionID%"=="ProfessionalCountrySpecific" SET "EditionID=Professional"
 IF /I "%EditionID%"=="EnterpriseG" SET Win10Gov=1
@@ -689,7 +745,7 @@ set W1nd0ws=1
 set WinPerm=0
 set WinVL=0
 set Off1ce=0
-set RunR2V=0
+set RanR2V=0
 set aC2R21=0
 set aC2R19=0
 set aC2R16=0
@@ -705,7 +761,7 @@ if %ActWindows% EQU 0 (
     echo.&echo %_winos% %nKMS%
     if defined _eval echo %nEval%
     ) else (
-    echo.&echo Failed checking KMS Activation ID^(s^) for Windows.&echo Either sppsvc service or SppExtComObjHook.dll is not functional.&echo See Read Me for troubleshooting.
+    echo.&echo Error: Failed checking KMS Activation ID^(s^) for Windows.&echo Either sppsvc service or SppExtComObjHook.dll is not functional.&call :CheckWS
     exit /b
     )
   )
@@ -752,7 +808,7 @@ if %W1nd0ws% EQU 1 if %ActWindows% NEQ 0 for /f "tokens=2 delims==" %%G in ('%_q
 :: if %ESU_EDT% EQU 1 if %ActWindows% NEQ 0 for /f "tokens=2 delims==" %%G in ('%_qr%') do (set app=%%G&call :esuchk)
 if %W1nd0ws% EQU 1 if %ActWindows% EQU 0 (echo.&echo Windows activation is OFF...)
 set "_qr=%_zz7% %spp% %_zz2% %_zz5%ApplicationID='%_oApp%' and Description like '%%KMSCLIENT%%' %_zz6% %_zz3% ID %_zz8%"
-if %Off1ce% EQU 1 if %ActOffice% NEQ 0 for /f "tokens=2 delims==" %%G in ('%_qr%') do (set app=%%G&call :sppchkoff)
+if %Off1ce% EQU 1 if %ActOffice% NEQ 0 for /f "tokens=2 delims==" %%G in ('%_qr%') do (set app=%%G&call :sppchkoff 1)
 if %_AUR% EQU 0 (
 call :cREG %_Nul3%
 ) else (
@@ -769,20 +825,31 @@ if not %xOS%==x86 dir /b "%ProgramW6432%\WindowsApps\Microsoft.Office.Desktop*" 
 )
 rem nothing installed
 if %loc_off21% EQU 0 if %loc_off19% EQU 0 if %loc_off16% EQU 0 if %loc_off15% EQU 0 (
-if %OffUWP% EQU 0 (echo.&echo No Installed Office 2013-2021 Product Detected...) else (echo.&echo %_mOuwp%)
-exit /b
+if %winbuild% GEQ 9200 (
+  if %OffUWP% EQU 0 (echo.&echo No Installed Office 2013-2021 Product Detected...) else (echo.&echo %_mOuwp%)
+  exit /b
+  )
+if %winbuild% LSS 9200 (if %loc_off14% EQU 0 (echo.&echo No Installed Office %aword% Product Detected...&exit /b))
+)
+if %vNextOverride% EQU 1 if %AutoR2V% EQU 1 (
+set sub_o365=0
+set sub_proj=0
+set sub_vsio=0
+if %sub_next% EQU 1 reg delete HKCU\SOFTWARE\Microsoft\Office\16.0\Common\Licensing /f %_Nul3%
 )
 set Off1ce=1
 set _sC2R=sppoff
 set _fC2R=ReturnSPP
-set vol_off15=0&set vol_off16=0&set vol_off19=0&set vol_off21=0
+
+set vol_off14=0&set vol_off15=0&set vol_off16=0&set vol_off19=0&set vol_off21=0
 set "_qr=%_zz1% %spp% %_zz2% %_zz5%Description like '%%KMSCLIENT%%' AND NOT Name like '%%MondoR_KMS_Automation%%' %_zz6% %_zz3% Name %_zz4%"
 %_qr% > "!_temp!\sppchk.txt" 2>&1
 find /i "Office 21" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off21=1)
 find /i "Office 19" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off19=1)
 find /i "Office 16" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off16=1)
 find /i "Office 15" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off15=1)
-for %%A in (15,16,19,21) do if !loc_off%%A! EQU 0 set vol_off%%A=0
+if %winbuild% LSS 9200 find /i "Office 14" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off14=1)
+for %%A in (14,15,16,19,21) do if !loc_off%%A! EQU 0 set vol_off%%A=0
 set "_qr=%_zz1% %spp% %_zz2% "ApplicationID='%_oApp%' AND LicenseFamily like 'Office16O365%%'" %_zz3% LicenseFamily %_zz4%"
 if %vol_off16% EQU 1 find /i "Office16MondoVL_KMS_Client" "!_temp!\sppchk.txt" %_Nul1% && (
 %_qr% %_Nul2% | find /i "O365" %_Nul1% || (set vol_off16=0)
@@ -791,53 +858,159 @@ set "_qr=%_zz1% %spp% %_zz2% "ApplicationID='%_oApp%' AND LicenseFamily like 'Of
 if %vol_off15% EQU 1 find /i "OfficeMondoVL_KMS_Client" "!_temp!\sppchk.txt" %_Nul1% && (
 %_qr% %_Nul2% | find /i "O365" %_Nul1% || (set vol_off15=0)
 )
-set ret_off15=0&set ret_off16=0&set ret_off19=0&set ret_off21=0
+
+set ret_off14=0&set ret_off15=0&set ret_off16=0&set ret_off19=0&set ret_off21=0
 set "_qr=%_zz1% %spp% %_zz2% %_zz5%ApplicationID='%_oApp%' AND NOT Name like '%%O365%%' %_zz6% %_zz3% Name %_zz4%"
 %_qr% > "!_temp!\sppchk.txt" 2>&1
 find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 21" %_Nul1% && (set ret_off21=1)
 find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 19" %_Nul1% && (set ret_off19=1)
 find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 16" %_Nul1% && (set ret_off16=1)
 find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 15" %_Nul1% && (set ret_off15=1)
-if %ret_off21% EQU 1 if %_O16MSI% EQU 0 set vol_off21=0
-if %ret_off19% EQU 1 if %_O16MSI% EQU 0 set vol_off19=0
-if %ret_off16% EQU 1 if %_O16MSI% EQU 0 set vol_off16=0
-if %ret_off15% EQU 1 if %_O15MSI% EQU 0 set vol_off15=0
-set run_off16=0
-if defined _C16R if %loc_off16% EQU 1 if %vol_off16% EQU 0 if %ret_off16% EQU 1 (
+set "_qr=%_zz1% %spp% %_zz2% %_zz5%ApplicationID='%_oA14%'%_zz6% %_zz3% Description %_zz4%"
+if %winbuild% LSS 9200 if %vol_off14% EQU 0 %_qr% %_Nul2% | findstr /i channel %_Nul1% && (set ret_off14=1)
+
+set run_off21=0&set prr_off21=0&set prv_off21=0
+if %loc_off21% EQU 1 if %ret_off21% EQU 1 if %_O16MSI% EQU 0 if %vol_off21% EQU 0 set run_off21=1
+if %loc_off21% EQU 1 if %ret_off21% EQU 1 if %_O16MSI% EQU 0 if %vol_off21% EQU 1 (
+for %%a in (%DO16Ids%) do find /i "Office21%%a2021R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off21+=1
+  find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off21+=1
+  )
+for %%a in (Professional) do find /i "Office21%%a2021R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off21+=1
+  find /i "Office21ProPlus2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off21+=1
+  )
+for %%a in (HomeBusiness,HomeStudent) do find /i "Office21%%a2021R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off21+=1
+  find /i "Office21Standard2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off21+=1
+  )
+if %sub_proj% EQU 0 for %%a in (ProjectPro,ProjectStd) do find /i "Office21%%a2021R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off21+=1
+  find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off21+=1
+  )
+if %sub_vsio% EQU 0 for %%a in (VisioPro,VisioStd) do find /i "Office21%%a2021R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off21+=1
+  find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off21+=1
+  )
+)
+if %loc_off21% EQU 1 if %ret_off21% EQU 1 if %_O16MSI% EQU 0 if %vol_off21% EQU 1 if %prv_off21% LSS %prr_off21% (set vol_off21=0&set run_off21=1)
+
+set run_off19=0&set prr_off19=0&set prv_off19=0
+if %loc_off19% EQU 1 if %ret_off19% EQU 1 if %_O16MSI% EQU 0 if %vol_off19% EQU 0 set run_off19=1
+if %loc_off19% EQU 1 if %ret_off19% EQU 1 if %_O16MSI% EQU 0 if %vol_off19% EQU 1 (
+for %%a in (%DO16Ids%) do find /i "Office19%%a2019R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off19+=1
+  find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off19+=1
+  )
+for %%a in (Professional) do find /i "Office19%%a2019R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off19+=1
+  find /i "Office19ProPlus2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off19+=1
+  )
+for %%a in (HomeBusiness,HomeStudent) do find /i "Office19%%a2019R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off19+=1
+  find /i "Office19Standard2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off19+=1
+  )
+if %sub_proj% EQU 0 for %%a in (ProjectPro,ProjectStd) do find /i "Office19%%a2019R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off19+=1
+  find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off19+=1
+  )
+if %sub_vsio% EQU 0 for %%a in (VisioPro,VisioStd) do find /i "Office19%%a2019R" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off19+=1
+  find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off19+=1
+  )
+)
+if %loc_off19% EQU 1 if %ret_off19% EQU 1 if %_O16MSI% EQU 0 if %vol_off19% EQU 1 if %prv_off19% LSS %prr_off19% (set vol_off19=0&set run_off19=1)
+
+set run_off16=0&set prr_off16=0&set prv_off16=0
+if %loc_off16% EQU 1 if %ret_off16% EQU 1 if %_O16MSI% EQU 0 if defined _C16R (
 for %%a in (%DO16Ids%) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
-  if %vol_off21% EQU 1 find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  if %vol_off19% EQU 1 find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
+  call set /a prr_off16+=1
+  if %vol_off16% EQU 1 if %vol_off21% EQU 0 if %vol_off19% EQU 0 find /i "Office16%%aVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off21% EQU 1 find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off19% EQU 1 find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
   )
 for %%a in (Professional) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
-  if %vol_off21% EQU 1 find /i "Office21ProPlus2021VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  if %vol_off19% EQU 1 find /i "Office19ProPlus2019VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
+  call set /a prr_off16+=1
+  if %vol_off16% EQU 1 if %vol_off21% EQU 0 if %vol_off19% EQU 0 find /i "Office16ProPlusVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off21% EQU 1 find /i "Office21ProPlus2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off19% EQU 1 find /i "Office19ProPlus2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
   )
 for %%a in (HomeBusiness,HomeStudent) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
-  if %vol_off21% EQU 1 find /i "Office21Standard2021VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  if %vol_off19% EQU 1 find /i "Office19Standard2019VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
+  call set /a prr_off16+=1
+  if %vol_off16% EQU 1 if %vol_off21% EQU 0 if %vol_off19% EQU 0 find /i "Office16StandardVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off21% EQU 1 find /i "Office21Standard2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off19% EQU 1 find /i "Office19Standard2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  )
+if %sub_proj% EQU 0 for %%a in (ProjectPro,ProjectStd) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off16+=1
+  if %vol_off16% EQU 1 if %vol_off21% EQU 0 if %vol_off19% EQU 0 find /i "Office16%%aVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off21% EQU 1 find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off19% EQU 1 find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  )
+if %sub_vsio% EQU 0 for %%a in (VisioPro,VisioStd) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off16+=1
+  if %vol_off16% EQU 1 if %vol_off21% EQU 0 if %vol_off19% EQU 0 find /i "Office16%%aVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off21% EQU 1 find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
+  if %vol_off16% EQU 0 if %vol_off19% EQU 1 find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off16+=1
   )
 )
+if %loc_off16% EQU 1 if %ret_off16% EQU 1 if %_O16MSI% EQU 0 if defined _C16R if %prv_off16% LSS %prr_off16% (set vol_off16=0&set run_off16=1)
 set "_qr=%_zz1% %spp% %_zz2% %_zz5%ApplicationID='%_oApp%' AND LicenseFamily like 'Office16O365%%' %_zz6% %_zz3% LicenseFamily %_zz4%"
-if defined _C16R if %loc_off16% EQU 1 if %run_off16% EQU 0 %_qr% %_Nul2% | find /i "O365" %_Nul1% && (
+if %loc_off16% EQU 1 if %run_off16% EQU 0 if %sub_o365% EQU 0 if defined _C16R %_qr% %_Nul2% | find /i "O365" %_Nul1% && (
 find /i "Office16MondoVL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
 )
+
+set run_off15=0&set prr_off15=0&set prv_off15=0
+if %loc_off15% EQU 1 if %ret_off15% EQU 1 if %_O15MSI% EQU 0 if %vol_off15% EQU 0 if defined _C15R set run_off15=1
+if %loc_off15% EQU 1 if %ret_off15% EQU 1 if %_O15MSI% EQU 0 if %vol_off15% EQU 1 if defined _C15R (
+for %%a in (%DO15Ids%) do find /i "Office%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off15+=1
+  find /i "Office%%aVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off15+=1
+  )
+for %%a in (Professional) do find /i "Office%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off15+=1
+  find /i "OfficeProPlusVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off15+=1
+  )
+for %%a in (HomeBusiness,HomeStudent) do find /i "Office%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off15+=1
+  find /i "OfficeStandardVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off15+=1
+  )
+if %sub_proj% EQU 0 for %%a in (ProjectPro,ProjectStd) do find /i "Office%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off15+=1
+  find /i "Office%%aVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off15+=1
+  )
+if %sub_vsio% EQU 0 for %%a in (VisioPro,VisioStd) do find /i "Office%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
+  call set /a prr_off15+=1
+  find /i "Office%%aVL" "!_temp!\sppchk.txt" %_Nul1% && call set /a prv_off15+=1
+  )
+)
+if %loc_off15% EQU 1 if %ret_off15% EQU 1 if %_O15MSI% EQU 0 if %vol_off15% EQU 1 if defined _C15R if %prv_off15% LSS %prr_off15% (set vol_off15=0&set run_off15=1)
+set "_qr=%_zz1% %spp% %_zz2% %_zz5%ApplicationID='%_oApp%' AND LicenseFamily like 'OfficeO365%%' %_zz6% %_zz3% LicenseFamily %_zz4%"
+if %loc_off15% EQU 1 if %run_off15% EQU 0 if defined _C15R %_qr% %_Nul2% | find /i "O365" %_Nul1% && (
+find /i "OfficeMondoVL" "!_temp!\sppchk.txt" %_Nul1% || set run_off15=1
+)
+
 set vol_offgl=1
-if %vol_off21% EQU 0 if %vol_off19% EQU 0 if %vol_off16% EQU 0 if %vol_off15% EQU 0 set vol_offgl=0
+if %vol_off21% EQU 0 if %vol_off19% EQU 0 if %vol_off16% EQU 0 if %vol_off15% EQU 0 (
+if %winbuild% GEQ 9200 set vol_offgl=0
+if %winbuild% LSS 9200 if %vol_off14% EQU 0 set vol_offgl=0
+)
 rem mixed Volume + Retail
-if %loc_off21% EQU 1 if %vol_off21% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
-if %loc_off19% EQU 1 if %vol_off19% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
-if defined _C16R if %loc_off16% EQU 1 if %vol_off16% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 if %run_off16% EQU 1 goto :C2RR2V
-if defined _C15R if %loc_off15% EQU 1 if %vol_off15% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
-if %loc_off16% EQU 0 if %ret_off16% EQU 1 if %_O16MSI% EQU 0 if %OffUWP% EQU 1 (echo.&echo %_mOuwp%)
+if %run_off21% EQU 1 if %AutoR2V% EQU 1 if %RanR2V% EQU 0 goto :C2RR2V
+if %run_off19% EQU 1 if %AutoR2V% EQU 1 if %RanR2V% EQU 0 goto :C2RR2V
+if %run_off16% EQU 1 if %AutoR2V% EQU 1 if %RanR2V% EQU 0 goto :C2RR2V
+if %run_off15% EQU 1 if %AutoR2V% EQU 1 if %RanR2V% EQU 0 goto :C2RR2V
 rem all supported Volume + message for unsupported
+if %loc_off16% EQU 0 if %ret_off16% EQU 1 if %_O16MSI% EQU 0 if %OffUWP% EQU 1 (echo.&echo %_mOuwp%)
 if %vol_offgl% EQU 1 (
 if %ret_off16% EQU 1 if %_O16MSI% EQU 1 (echo.&echo %_mO16m%)
 if %ret_off15% EQU 1 if %_O15MSI% EQU 1 (echo.&echo %_mO15m%)
+if %winbuild% LSS 9200 if %loc_off14% EQU 1 if %vol_off14% EQU 0 (if defined _C14R (echo.&echo %_mO14c%) else if %_O14MSI% EQU 1 (if %ret_off14% EQU 1 echo.&echo %_mO14m%))
 exit /b
 )
 set Off1ce=0
 rem Retail C2R
-if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
+if %AutoR2V% EQU 1 if %RanR2V% EQU 0 goto :C2RR2V
 :ReturnSPP
 rem Retail MSI/C2R or failed C2R-R2V
 if %loc_off21% EQU 1 if %vol_off21% EQU 0 (
@@ -847,21 +1020,25 @@ if %loc_off19% EQU 1 if %vol_off19% EQU 0 (
 if %aC2R19% EQU 1 (echo.&echo %_mO19a%) else (echo.&echo %_mO19c%)
 )
 if %loc_off16% EQU 1 if %vol_off16% EQU 0 (
-if defined _C16R (if %aC2R16% EQU 1 (echo.&echo %_mO16a%) else (echo.&echo %_mO16c%)) else if %_O16MSI% EQU 1 (if %ret_off16% EQU 1 echo.&echo %_mO16m%)
+if defined _C16R (if %aC2R16% EQU 1 (echo.&echo %_mO16a%) else (if %sub_o365% EQU 0 echo.&echo %_mO16c%)) else if %_O16MSI% EQU 1 (if %ret_off16% EQU 1 echo.&echo %_mO16m%)
 )
 if %loc_off15% EQU 1 if %vol_off15% EQU 0 (
 if defined _C15R (if %aC2R15% EQU 1 (echo.&echo %_mO15a%) else (echo.&echo %_mO15c%)) else if %_O15MSI% EQU 1 (if %ret_off15% EQU 1 echo.&echo %_mO15m%)
+)
+if %winbuild% LSS 9200 if %loc_off14% EQU 1 if %vol_off14% EQU 0 (
+if defined _C14R (echo.&echo %_mO14c%) else if %_O14MSI% EQU 1 (if %ret_off14% EQU 1 echo.&echo %_mO14m%)
 )
 exit /b
 
 :sppchkoff
 set "_qr=%_zz1% %spp% %_zz2% %_zz5%ID='%app%'%_zz6% %_zz3% Name %_zz4%"
 %_qr% > "!_temp!\sppchk.txt"
+if %winbuild% LSS 9200 find /i "Office 14" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off14% EQU 0 exit /b)
 find /i "Office 15" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off15% EQU 0 exit /b)
 find /i "Office 16" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off16% EQU 0 exit /b)
 find /i "Office 19" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off19% EQU 0 exit /b)
 find /i "Office 21" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off21% EQU 0 exit /b)
-set _officespp=1
+if %1 EQU 1 (set _officespp=1) else (set _officespp=0)
 set "_qr=%_zz1% %spp% %_zz2% %_zz5%PartialProductKey is not NULL%_zz6% %_zz3% ID %_zz4%"
 %_qr% %_Nul2% | findstr /i "%app%" %_Nul1% && (echo.&call :activate&exit /b)
 set "_qr=%_zz7% %spp% %_zz2% %_zz5%ID='%app%'%_zz6% %_zz3% Name %_zz8%"
@@ -988,7 +1165,7 @@ exit /b
 set spp=OfficeSoftwareProtectionProduct
 set sps=OfficeSoftwareProtectionService
 set Off1ce=0
-set RunR2V=0
+set RanR2V=0
 set aC2R21=0
 set aC2R19=0
 set aC2R16=0
@@ -1002,8 +1179,8 @@ sc start osppsvc %_Nul3%
 if !errorlevel! EQU 1053 set err_offsvc=1
 )
 if %err_offsvc% EQU 1 (echo.&echo Error: osppsvc service is not running...&exit /b)
-if %winbuild% GEQ 9200 call :win8off
-if %winbuild% LSS 9200 call :win7off
+if %winbuild% GEQ 9200 call :oppoff
+if %winbuild% LSS 9200 call :sppoff
 if %Off1ce% EQU 0 exit /b
 if %_AUR% EQU 0 (
 reg delete "HKLM\%OPPk%\%_oA14%" /f %_Null%
@@ -1019,7 +1196,7 @@ for /f "tokens=2 delims==" %%A in ('%_qr% %_Nul6%') do set slsv=%%A
 reg add "HKLM\%OPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "%KMS_IP%" %_Nul3%
 reg add "HKLM\%OPPk%" /f /v KeyManagementServicePort /t REG_SZ /d "%KMS_Port%" %_Nul3%
 set "_qr=%_zz7% %spp% %_zz2% %_zz5%Description like '%%KMSCLIENT%%' %_zz6% %_zz3% ID %_zz8%"
-for /f "tokens=2 delims==" %%G in ('%_qr%') do (set app=%%G&call :osppchk)
+for /f "tokens=2 delims==" %%G in ('%_qr%') do (set app=%%G&call :sppchkoff 2)
 if %_AUR% EQU 0 (
 call :cREG %_Nul3%
 ) else (
@@ -1028,7 +1205,7 @@ reg delete "HKLM\%OPPk%" /f /v DisableKeyManagementServiceHostCaching %_Null%
 )
 exit /b
 
-:win8off
+:oppoff
 set "_qr=%_zz1% %spp% %_zz3% Description %_zz4%"
 %_qr% %_Nul2% | findstr /i KMSCLIENT %_Nul1% && (
 set Off1ce=1
@@ -1037,113 +1214,6 @@ exit /b
 set ret_off14=0
 %_qr% %_Nul2% | findstr /i channel %_Nul1% && (set ret_off14=1)
 if defined _C14R (echo.&echo %_mO14c%) else if %_O14MSI% EQU 1 (if %ret_off14% EQU 1 echo.&echo %_mO14m%)
-exit /b
-
-:win7off
-rem nothing installed
-if %loc_off21% EQU 0 if %loc_off19% EQU 0 if %loc_off16% EQU 0 if %loc_off15% EQU 0 if %loc_off14% EQU 0 (echo.&echo No Installed Office %aword% Product Detected...&exit /b)
-set Off1ce=1
-set _sC2R=win7off
-set _fC2R=ReturnOSPP
-set vol_off14=0&set vol_off15=0&set vol_off16=0&set vol_off19=0&set vol_off21=0
-set "_qr=%_zz1% %spp% %_zz2% %_zz5%Description like '%%KMSCLIENT%%' AND NOT Name like '%%MondoR_KMS_Automation%%' %_zz6% %_zz3% Name %_zz4%"
-%_qr% > "!_temp!\sppchk.txt" 2>&1
-find /i "Office 21" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off21=1)
-find /i "Office 19" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off19=1)
-find /i "Office 16" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off16=1)
-find /i "Office 15" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off15=1)
-find /i "Office 14" "!_temp!\sppchk.txt" %_Nul1% && (set vol_off14=1)
-for %%A in (14,15,16,19,21) do if !loc_off%%A! EQU 0 set vol_off%%A=0
-set "_qr=%_zz1% %spp% %_zz2% "ApplicationID='%_oApp%' AND LicenseFamily like 'Office16O365%%'" %_zz3% LicenseFamily %_zz4%"
-if %vol_off16% EQU 1 find /i "Office16MondoVL_KMS_Client" "!_temp!\sppchk.txt" %_Nul1% && (
-%_qr% %_Nul2% | find /i "O365" %_Nul1% || (set vol_off16=0)
-)
-set "_qr=%_zz1% %spp% %_zz2% "ApplicationID='%_oApp%' AND LicenseFamily like 'OfficeO365%%'" %_zz3% LicenseFamily %_zz4%"
-if %vol_off15% EQU 1 find /i "OfficeMondoVL_KMS_Client" "!_temp!\sppchk.txt" %_Nul1% && (
-%_qr% %_Nul2% | find /i "O365" %_Nul1% || (set vol_off15=0)
-)
-set ret_off14=0&set ret_off15=0&set ret_off16=0&set ret_off19=0&set ret_off21=0
-set "_qr=%_zz1% %spp% %_zz2% %_zz5%ApplicationID='%_oApp%' AND NOT Name like '%%O365%%' %_zz6% %_zz3% Name %_zz4%"
-%_qr% > "!_temp!\sppchk.txt" 2>&1
-find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 21" %_Nul1% && (set ret_off21=1)
-find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 19" %_Nul1% && (set ret_off19=1)
-find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 16" %_Nul1% && (set ret_off16=1)
-find /i "R_Retail" "!_temp!\sppchk.txt" %_Nul2% | find /i "Office 15" %_Nul1% && (set ret_off15=1)
-if %ret_off21% EQU 1 if %_O16MSI% EQU 0 set vol_off21=0
-if %ret_off19% EQU 1 if %_O16MSI% EQU 0 set vol_off19=0
-if %ret_off16% EQU 1 if %_O16MSI% EQU 0 set vol_off16=0
-if %ret_off15% EQU 1 if %_O15MSI% EQU 0 set vol_off15=0
-set "_qr=%_zz1% %spp% %_zz2% %_zz5%ApplicationID='%_oA14%'%_zz6% %_zz3% Description %_zz4%"
-if %vol_off14% EQU 0 %_qr% %_Nul2% | findstr /i channel %_Nul1% && (set ret_off14=1)
-set run_off16=0
-if defined _C16R if %loc_off16% EQU 1 if %vol_off16% EQU 0 if %ret_off16% EQU 1 (
-for %%a in (%DO16Ids%) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
-  if %vol_off21% EQU 1 find /i "Office21%%a2021VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  if %vol_off19% EQU 1 find /i "Office19%%a2019VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  )
-for %%a in (Professional) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
-  if %vol_off21% EQU 1 find /i "Office21ProPlus2021VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  if %vol_off19% EQU 1 find /i "Office19ProPlus2019VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  )
-for %%a in (HomeBusiness,HomeStudent) do find /i "Office16%%aR" "!_temp!\sppchk.txt" %_Nul1% && (
-  if %vol_off21% EQU 1 find /i "Office21Standard2021VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  if %vol_off19% EQU 1 find /i "Office19Standard2019VL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-  )
-)
-set "_qr=%_zz1% %spp% %_zz2% %_zz5%ApplicationID='%_oApp%' AND LicenseFamily like 'Office16O365%%' %_zz6% %_zz3% LicenseFamily %_zz4%"
-if defined _C16R if %loc_off16% EQU 1 if %run_off16% EQU 0 %_qr% %_Nul2% | find /i "O365" %_Nul1% && (
-find /i "Office16MondoVL" "!_temp!\sppchk.txt" %_Nul1% || set run_off16=1
-)
-set vol_offgl=1
-if %vol_off21% EQU 0 if %vol_off19% EQU 0 if %vol_off16% EQU 0 if %vol_off15% EQU 0 if %vol_off14% EQU 0 set vol_offgl=0
-rem mixed Volume + Retail
-if %loc_off21% EQU 1 if %vol_off21% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
-if %loc_off19% EQU 1 if %vol_off19% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
-if defined _C16R if %loc_off16% EQU 1 if %vol_off16% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 if %run_off16% EQU 1 goto :C2RR2V
-if defined _C15R if %loc_off15% EQU 1 if %vol_off15% EQU 0 if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
-rem all supported Volume + message for unsupported
-if %vol_offgl% EQU 1 (
-if %ret_off16% EQU 1 if %_O16MSI% EQU 1 (echo.&echo %_mO16m%)
-if %ret_off15% EQU 1 if %_O15MSI% EQU 1 (echo.&echo %_mO15m%)
-if %loc_off14% EQU 1 if %vol_off14% EQU 0 (if defined _C14R (echo.&echo %_mO14c%) else if %_O14MSI% EQU 1 (if %ret_off14% EQU 1 echo.&echo %_mO14m%))
-exit /b
-)
-set Off1ce=0
-rem Retail C2R
-if %RunR2V% EQU 0 if %AutoR2V% EQU 1 goto :C2RR2V
-:ReturnOSPP
-rem Retail MSI/C2R or failed C2R-R2V
-if %loc_off21% EQU 1 if %vol_off21% EQU 0 (
-if %aC2R21% EQU 1 (echo.&echo %_mO21a%) else (echo.&echo %_mO21c%)
-)
-if %loc_off19% EQU 1 if %vol_off19% EQU 0 (
-if %aC2R19% EQU 1 (echo.&echo %_mO19a%) else (echo.&echo %_mO19c%)
-)
-if %loc_off16% EQU 1 if %vol_off16% EQU 0 (
-if defined _C16R (if %aC2R16% EQU 1 (echo.&echo %_mO16a%) else (echo.&echo %_mO16c%)) else if %_O16MSI% EQU 1 (if %ret_off16% EQU 1 echo.&echo %_mO16m%)
-)
-if %loc_off15% EQU 1 if %vol_off15% EQU 0 (
-if defined _C15R (if %aC2R15% EQU 1 (echo.&echo %_mO15a%) else (echo.&echo %_mO15c%)) else if %_O15MSI% EQU 1 (if %ret_off15% EQU 1 echo.&echo %_mO15m%)
-)
-if %loc_off14% EQU 1 if %vol_off14% EQU 0 (
-if defined _C14R (echo.&echo %_mO14c%) else if %_O14MSI% EQU 1 (if %ret_off14% EQU 1 echo.&echo %_mO14m%)
-)
-exit /b
-
-:osppchk
-set "_qr=%_zz1% %spp% %_zz2% %_zz5%ID='%app%'%_zz6% %_zz3% Name %_zz4%"
-%_qr% > "!_temp!\sppchk.txt"
-find /i "Office 14" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off14% EQU 0 exit /b)
-find /i "Office 15" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off15% EQU 0 exit /b)
-find /i "Office 16" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off16% EQU 0 exit /b)
-find /i "Office 19" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off19% EQU 0 exit /b)
-find /i "Office 21" "!_temp!\sppchk.txt" %_Nul1% && (if %loc_off21% EQU 0 exit /b)
-set _officespp=0
-set "_qr=%_zz1% %spp% %_zz2% %_zz5%PartialProductKey is not NULL%_zz6% %_zz3% ID %_zz4%"
-%_qr% %_Nul2% | findstr /i "%app%" %_Nul1% && (echo.&call :activate&exit /b)
-set "_qr=%_zz7% %spp% %_zz2% %_zz5%ID='%app%'%_zz6% %_zz3% Name %_zz8%"
-for /f "tokens=3 delims==, " %%G in ('%_qr%') do set OffVer=%%G
-call :offchk%OffVer%
 exit /b
 
 :offchk
@@ -1388,6 +1458,20 @@ if not %xOS%==x86 if exist "%ProgramW6432%\Microsoft Office\Office%1\OSPP.VBS" s
 if not %xOS%==x86 if exist "%ProgramFiles(x86)%\Microsoft Office\Office%1\OSPP.VBS" set loc_off%1=1
 exit /b
 
+:officeSub
+reg query %kNext% | findstr /i /r ".*retail" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x2" %_Nul1% && (set sub_o365=1)
+reg query %kNext% | findstr /i /r ".*retail" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x3" %_Nul1% && (set sub_o365=1)
+reg query %kNext% | findstr /i /r ".*volume" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x2" %_Nul1% && (set sub_o365=1)
+reg query %kNext% | findstr /i /r ".*volume" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x3" %_Nul1% && (set sub_o365=1)
+reg query %kNext% | findstr /i /r "project.*" %_Nul2% | find /i "0x2" %_Nul1% && set sub_proj=1
+reg query %kNext% | findstr /i /r "project.*" %_Nul2% | find /i "0x3" %_Nul1% && set sub_proj=1
+reg query %kNext% | findstr /i /r "visio.*" %_Nul2% | find /i "0x2" %_Nul1% && set sub_vsio=1
+reg query %kNext% | findstr /i /r "visio.*" %_Nul2% | find /i "0x3" %_Nul1% && set sub_vsio=1
+if %sub_o365% EQU 1 set sub_next=1
+if %sub_proj% EQU 1 set sub_next=1
+if %sub_vsio% EQU 1 set sub_next=1
+exit /b
+
 :insKey
 set S_OK=1
 echo.
@@ -1449,6 +1533,11 @@ echo Windows needs to rebuild the activation-related files.
 echo See KB2736303 for details.
 exit /b
 )
+if %ERRORCODE% EQU -1073422315 (
+echo Product Activation Failed: 0xC004E015
+echo Running slmgr.vbs /rilc to mitigate.
+cscript //Nologo //B %SysPath%\slmgr.vbs /rilc
+)
 if %ERRORCODE% NEQ 0 (
 if %sps% EQU SoftwareLicensingService (call :StopService sppsvc) else (call :StopService osppsvc)
 %_qr% %_Nul3%
@@ -1493,12 +1582,13 @@ if %_dDbg%==Yes (
 set "_para=/d /a"
 if %ActWindows% EQU 0 set "_para=!_para! /o"
 if %ActOffice% EQU 0 set "_para=!_para! /w"
+if %vNextOverride% EQU 0 set "_para=!_para! /v"
 if %SkipKMS38% EQU 0 set "_para=!_para! /x"
 goto :DoDebug
 )
 if %_verb% EQU 1 (
 if %Silent% EQU 0 if %_Debug% EQU 0 (
-mode con cols=100 lines=32
+mode con cols=100 lines=34
 %_Nul3% %_psc% "&%_buf%"
 if %Unattend% EQU 0 title %_title%
 )
@@ -1524,7 +1614,11 @@ for %%# in (SppExtComObjHookAvrf.dll,SppExtComObjHook.dll,SppExtComObjPatcher.dl
   if exist "%SysPath%\%%#" del /f /q "%SysPath%\%%#" %_Nul3%
   if exist "%SystemRoot%\SysWOW64\%%#" del /f /q "%SystemRoot%\SysWOW64\%%#" %_Nul3%
 )
+setlocal
+set "TMP=%SystemRoot%\Temp"
+set "TEMP=%SystemRoot%\Temp"
 %_Nul3% %_psc% "$d='%_dllPath%';$f=[IO.File]::ReadAllText('!_batp!') -split ':embdbin\:.*';iex ($f[1]);X %_dllNum%"
+endlocal
 if %Unattend% EQU 0 title %_title%
 if %_verb% EQU 1 (
 echo.
@@ -1541,7 +1635,7 @@ if %SSppHook% NEQ 0 if not exist %w7inf% (
   echo [WTR]
   echo Name="KMS_VL_ALL"
   echo.
-  echo [WTR.W8]
+  echo [WTR.*]
   echo NotifyUser="No"
   echo.
   echo [System.Registry]
@@ -1567,8 +1661,9 @@ if %winbuild% GEQ 9600 (
 )
 if %_verb% EQU 1 (
 if %Silent% EQU 0 if %_Debug% EQU 0 (
-mode con cols=100 lines=32
+mode con cols=100 lines=34
 %_Nul3% %_psc% "&%_buf%"
+if %Unattend% EQU 0 title %_title%
 )
 echo.&echo %line3%&echo.
 echo Uninstalling Local KMS Emulator...
@@ -1597,7 +1692,7 @@ for %%# in (SppExtComObj.exe,sppsvc.exe,osppsvc.exe) do reg query "%IFEO%\%%#" %
 if %OSType% EQU Win8 schtasks /query /tn "%_TaskEx%" %_Nul3% && (
 if %_verb% EQU 1 (
 echo.
-echo Removing Schedule Task...
+echo Removing Scheduled Task...
 echo %_TaskEx%
 )
 schtasks /delete /f /tn "%_TaskEx%" %_Nul3%
@@ -1633,7 +1728,7 @@ if %OsppHook% EQU 0 (
 reg delete "%IFEO%\%1" /f %_Null%
 )
 if %OsppHook% NEQ 0 for %%A in (Debugger,VerifierDlls,VerifierDebug,VerifierFlags,GlobalFlag,KMS_Emulation,KMS_ActivationInterval,KMS_RenewalInterval,Office2010,Office2013,Office2016,Office2019) do reg delete "%IFEO%\%1" /v %%A /f %_Null%
-reg add "HKLM\%OPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "0.0.0.0" %_Nul3%
+reg add "HKLM\%OPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "%_uIP%" %_Nul3%
 reg add "HKLM\%OPPk%" /f /v KeyManagementServicePort /t REG_SZ /d "1688" %_Nul3%
 goto :eof
 
@@ -1705,15 +1800,9 @@ echo.
 echo Verify that Antivirus protection is OFF or the registry path is excluded.
 )
 
-set E_WMI=0
-for /f "skip=2 tokens=2*" %%a in ('reg query HKLM\SYSTEM\CurrentControlSet\Services\WinMgmt /v Start %_Nul6%') do if /i %%b equ 0x4 set E_WMI=1
-set "_qr=%_zz1% Win32_ComputerSystem %_zz3% CreationClassName %_zz4%"
-%_qr% %_Nul2% | find /i "computersystem" %_Nul1%
-if %errorlevel% NEQ 0 set E_WMI=1
-set "_qr=%_zz1% SoftwareLicensingService %_zz3% Version %_zz4%"
-%_qr% %_Nul2% | find /i "." %_Nul1%
-if %errorlevel% NEQ 0 set E_WMI=1
-if %E_WMI% EQU 1 (
+set WMIe=0
+call :CheckWS
+if %WMIe% EQU 1 (
 echo.
 echo %_err%
 echo Failed running WMI query check.
@@ -1722,25 +1811,38 @@ echo Verify that these services are working correctly:
 echo Windows Management Instrumentation [WinMgmt]
 echo Software Protection [sppsvc]
 )
+goto :eof
 
+:CheckWS
+set "_qrw=%_zz1% Win32_ComputerSystem %_zz3% CreationClassName %_zz4%"
+set "_qrs=%_zz1% SoftwareLicensingService %_zz3% Version %_zz4%"
+
+%_qrs% %_Nul2% | findstr /r "[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*" %_Nul1% || (
+  set WMIe=1
+  %_qrw% %_Nul2% | find /i "ComputerSystem" %_Nul1% && (
+    echo Error: SPP is not responding
+    ) || (
+    echo Error: WMI ^& SPP are not responding
+  )
+)
 goto :eof
 
 :cREG
-reg add "HKLM\%SPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "0.0.0.0"
+reg add "HKLM\%SPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "%_uIP%"
 reg add "HKLM\%SPPk%" /f /v KeyManagementServicePort /t REG_SZ /d "1688"
 reg delete "HKLM\%SPPk%" /f /v DisableDnsPublishing
 reg delete "HKLM\%SPPk%" /f /v DisableKeyManagementServiceHostCaching
 reg delete "HKLM\%SPPk%\%_wApp%" /f
 if %winbuild% GEQ 9200 (
 if not %xOS%==x86 (
-reg add "HKLM\%SPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "0.0.0.0" /reg:32
+reg add "HKLM\%SPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "%_uIP%" /reg:32
 reg add "HKLM\%SPPk%" /f /v KeyManagementServicePort /t REG_SZ /d "1688" /reg:32
 reg delete "HKLM\%SPPk%\%_oApp%" /f /reg:32
-reg add "HKLM\%SPPk%\%_oApp%" /f /v KeyManagementServiceName /t REG_SZ /d "0.0.0.0" /reg:32
+reg add "HKLM\%SPPk%\%_oApp%" /f /v KeyManagementServiceName /t REG_SZ /d "%_uIP%" /reg:32
 reg add "HKLM\%SPPk%\%_oApp%" /f /v KeyManagementServicePort /t REG_SZ /d "1688" /reg:32
 )
 reg delete "HKLM\%SPPk%\%_oApp%" /f
-reg add "HKLM\%SPPk%\%_oApp%" /f /v KeyManagementServiceName /t REG_SZ /d "0.0.0.0"
+reg add "HKLM\%SPPk%\%_oApp%" /f /v KeyManagementServiceName /t REG_SZ /d "%_uIP%"
 reg add "HKLM\%SPPk%\%_oApp%" /f /v KeyManagementServicePort /t REG_SZ /d "1688"
 )
 if %winbuild% GEQ 9600 (
@@ -1750,7 +1852,7 @@ reg delete "HKU\S-1-5-20\%SPPk%\%_oApp%" /f
 if %OsppHook% EQU 0 (
 goto :eof
 )
-reg add "HKLM\%OPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "0.0.0.0"
+reg add "HKLM\%OPPk%" /f /v KeyManagementServiceName /t REG_SZ /d "%_uIP%"
 reg delete "HKLM\%OPPk%" /f /v KeyManagementServicePort
 reg delete "HKLM\%OPPk%" /f /v DisableDnsPublishing
 reg delete "HKLM\%OPPk%" /f /v DisableKeyManagementServiceHostCaching
@@ -1816,8 +1918,8 @@ schtasks /query /tn "%_TaskEx%" %_Nul3% || (
 schtasks /query /tn "%_TaskEx%" %_Nul3% || (
 pushd %_temp%
 %_Nul3% %_psc% "$f=[IO.File]::ReadAllText('!_batp!') -split ':spptask\:.*'; [IO.File]::WriteAllText('SvcTrigger.xml',$f[1].Trim(),[System.Text.Encoding]::Unicode)"
-popd
 if %Unattend% EQU 0 title %_title%
+popd
 if exist "!_temp!\SvcTrigger.xml" (
   schtasks /create /tn "%_TaskEx%" /xml "!_temp!\SvcTrigger.xml" /f %_Nul3%
   del /f /q "!_temp!\SvcTrigger.xml" %_Nul3%
@@ -1825,7 +1927,7 @@ if exist "!_temp!\SvcTrigger.xml" (
 )
 schtasks /query /tn "%_TaskEx%" %_Nul3% && if %_verb% EQU 1 (
 echo.
-echo Adding Schedule Task...
+echo Adding Scheduled Task...
 echo %_TaskEx%
 )
 goto :eof
@@ -1834,8 +1936,8 @@ goto :eof
 if not exist "%PUBLIC%\ReadMeAIO.html" (
 pushd %PUBLIC%
 %_Nul3% %_psc% "$f=[IO.File]::ReadAllText('!_batp!') -split ':readme\:.*'; [IO.File]::WriteAllText('ReadMeAIO.html',$f[1].Trim(),[System.Text.Encoding]::UTF8)"
-popd
 if %Unattend% EQU 0 title %_title%
+popd
 )
 if exist "%PUBLIC%\ReadMeAIO.html" start "" "%PUBLIC%\ReadMeAIO.html"
 timeout /t 2 %_Nul3%
@@ -1872,8 +1974,44 @@ echo Press any key to continue...
 pause >nul
 goto :eof
 
+:CreateBIN
+cls
+if exist "!_oem!\KMS_VL_ALL_AIO-bin\*.dll" if exist "!_oem!\KMS_VL_ALL_AIO-bin\*.cab" (
+echo.&echo %line3%&echo.
+echo Binaries Folder already exist...
+echo "!_oem!\KMS_VL_ALL_AIO-bin"
+echo.
+echo Manually remove it if you wish to create a fresh copy.
+echo.&echo %line3%&echo.
+echo Press any key to continue...
+pause >nul
+goto :eof
+)
+if not exist "!_oem!\KMS_VL_ALL_AIO-bin\*.dll" mkdir "!_oem!\KMS_VL_ALL_AIO-bin"
+pushd "!_oem!\KMS_VL_ALL_AIO-bin"
+%_Nul3% rmdir /s /q .
+setlocal
+set "TMP=%SystemRoot%\Temp"
+set "TEMP=%SystemRoot%\Temp"
+%_Nul3% %_psc% "cd -Lit ($env:__CD__); $f=[IO.File]::ReadAllText('!_batp!') -split ':embdbin\:.*';iex ($f[1]); 2..4|%%{[BAT85]::Decode($_, $f[$_])}; [IO.File]::WriteAllText('CleanOffice.ps1',$f[5].Trim(),[System.Text.Encoding]::ASCII)"
+endlocal
+if %Unattend% EQU 0 title %_title%
+%_Nul3% ren 2 SppExtComObjHook-x86.dll
+%_Nul3% ren 3 SppExtComObjHook-x64.dll
+%_Nul3% ren 4 SppExtComObjHook-arm64.dll
+popd
+echo.&echo %line3%&echo.
+echo Binaries Folder Created...
+echo.
+echo "!_oem!\KMS_VL_ALL_AIO-bin"
+echo.&echo %line3%&echo.
+echo.
+echo Press any key to continue...
+pause >nul
+goto :eof
+
 :C2RR2V
-set RunR2V=1
+set RanR2V=1
 set "_SLMGR=%SysPath%\slmgr.vbs"
 if %_Debug% EQU 0 (
 set "_cscript=cscript //Nologo //B"
@@ -1887,6 +2025,7 @@ set error1=%errorlevel%
 sc query OfficeSvc %_Nul3%
 set error2=%errorlevel%
 if %error1% EQU 1060 if %error2% EQU 1060 (
+echo Error: Office C2R service is not detected
 goto :%_fC2R%
 )
 set _Office16=0
@@ -1904,6 +2043,7 @@ for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\WOW6432Node\Microsof
   set _Office15=1
 )
 if %_Office16% EQU 0 if %_Office15% EQU 0 (
+echo Error: Office C2R InstallPath is not detected
 goto :%_fC2R%
 )
 
@@ -1918,12 +2058,14 @@ set "_LicensesPath="
 set "_Integrator="
 for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\Microsoft\Office\ClickToRun /v InstallPath" %_Nul6%') do (set "_InstallRoot=%%b\root")
 if not "%_InstallRoot%"=="" (
+  for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\Microsoft\Office\ClickToRun /v InstallPath" %_Nul6%') do (set "_OSPPVBS=%%b\Office16\OSPP.VBS")
   for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\Microsoft\Office\ClickToRun /v PackageGUID" %_Nul6%') do (set "_GUID=%%b")
   for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Configuration /v ProductReleaseIds" %_Nul6%') do (set "_ProductIds=%%b")
   set "_Config=HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Configuration"
   set "_PRIDs=HKLM\SOFTWARE\Microsoft\Office\ClickToRun\ProductReleaseIDs"
 ) else (
   for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\WOW6432Node\Microsoft\Office\ClickToRun /v InstallPath" %_Nul6%') do (set "_InstallRoot=%%b\root")
+  for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\WOW6432Node\Microsoft\Office\ClickToRun /v InstallPath" %_Nul6%') do (set "_OSPPVBS=%%b\Office16\OSPP.VBS")
   for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\WOW6432Node\Microsoft\Office\ClickToRun /v PackageGUID" %_Nul6%') do (set "_GUID=%%b")
   for /f "skip=2 tokens=2*" %%a in ('"reg query HKLM\SOFTWARE\WOW6432Node\Microsoft\Office\ClickToRun\Configuration /v ProductReleaseIds" %_Nul6%') do (set "_ProductIds=%%b")
   set "_Config=HKLM\SOFTWARE\WOW6432Node\Microsoft\Office\ClickToRun\Configuration"
@@ -1933,13 +2075,13 @@ set "_LicensesPath=%_InstallRoot%\Licenses16"
 set "_Integrator=%_InstallRoot%\integration\integrator.exe"
 for /f "skip=2 tokens=2*" %%a in ('"reg query %_PRIDs% /v ActiveConfiguration" %_Nul6%') do set "_PRIDs=%_PRIDs%\%%b"
 if "%_ProductIds%"=="" (
-if %_Office15% EQU 0 (goto :%_fC2R%) else (goto :Reg15istry)
+if %_Office15% EQU 0 (echo Error: Office C2R ProductIDs are not detected&goto :%_fC2R%) else (goto :Reg15istry)
 )
 if not exist "%_LicensesPath%\ProPlus*.xrm-ms" (
-if %_Office15% EQU 0 (goto :%_fC2R%) else (goto :Reg15istry)
+if %_Office15% EQU 0 (echo Error: Office C2R Licenses files are not detected&goto :%_fC2R%) else (goto :Reg15istry)
 )
 if not exist "%_Integrator%" (
-if %_Office15% EQU 0 (goto :%_fC2R%) else (goto :Reg15istry)
+if %_Office15% EQU 0 (echo Error: Office C2R Licenses Integrator is not detected&goto :%_fC2R%) else (goto :Reg15istry)
 )
 if exist "%_LicensesPath%\Word2019VL_KMS_Client_AE*.xrm-ms" (set "_tag=2019"&set "_ons= 2019")
 if exist "%_LicensesPath%\Word2021VL_KMS_Client_AE*.xrm-ms" (set _LTSC=1)
@@ -1990,13 +2132,13 @@ if exist "%ProgramFiles%\Microsoft Office\Office15\OSPP.VBS" (
   set "_OSPP15VBS=%ProgramFiles(x86)%\Microsoft Office\Office15\OSPP.VBS"
 )
 if "%_Product15Ids%"=="" (
-if %_Office16% EQU 0 (goto :%_fC2R%) else (goto :CheckC2R)
+if %_Office16% EQU 0 (echo Error: Office 2013 C2R ProductIDs are not detected&goto :%_fC2R%) else (goto :CheckC2R)
 )
 if not exist "%_Licenses15Path%\ProPlus*.xrm-ms" (
-if %_Office16% EQU 0 (goto :%_fC2R%) else (goto :CheckC2R)
+if %_Office16% EQU 0 (echo Error: Office 2013 C2R Licenses files are not detected&goto :%_fC2R%) else (goto :CheckC2R)
 )
 if %winbuild% LSS 9200 if not exist "%_OSPP15VBS%" (
-if %_Office16% EQU 0 (goto :%_fC2R%) else (goto :CheckC2R)
+if %_Office16% EQU 0 (echo Error: Office 2013 C2R Licensing tool OSPP.vbs is not detected&goto :%_fC2R%) else (goto :CheckC2R)
 )
 
 :CheckC2R
@@ -2013,35 +2155,20 @@ if %winbuild% GEQ 9200 (
 set _spp=SoftwareLicensingProduct
 set _sps=SoftwareLicensingService
 set "_vbsi=%_SLMGR% /ilc "
+set "_vbsf=%_SLMGR% /ilc "
 ) else (
 set _spp=OfficeSoftwareProtectionProduct
 set _sps=OfficeSoftwareProtectionService
 set _vbsi="!_OSPP15VBS!" /inslic:
+set _vbsf="!_OSPPVBS!" /inslic:
 )
 set "_wmi="
 set "_qr=%_zz7% %_sps% %_zz3% Version %_zz8%"
 for /f "tokens=2 delims==" %%# in ('%_qr%') do set _wmi=%%#
 if "%_wmi%"=="" (
+echo Error: %_sps% WMI version is not detected
+call :CheckWS
 goto :%_fC2R%
-)
-set _Identity=0
-set _vNext=0
-set sub_O365=0
-set sub_proj=0
-set sub_vis=0
-dir /b /s /a:-d "!_Local!\Microsoft\Office\Licenses\*1*" %_Nul3% && set _Identity=1
-dir /b /s /a:-d "!ProgramData!\Microsoft\Office\Licenses\*1*" %_Nul3% && set _Identity=1
-set kNext=HKCU\SOFTWARE\Microsoft\Office\16.0\Common\Licensing\LicensingNext
-if %_Identity% EQU 1 reg query %kNext% /v MigrationToV5Done %_Nul2% | find /i "0x1" %_Nul1% && set _vNext=1
-if %_vNext% EQU 1 (
-reg query %kNext% | findstr /i /r ".*retail" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x2" %_Nul1% && (set sub_O365=1)
-reg query %kNext% | findstr /i /r ".*retail" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x3" %_Nul1% && (set sub_O365=1)
-reg query %kNext% | findstr /i /r ".*volume" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x2" %_Nul1% && (set sub_O365=1)
-reg query %kNext% | findstr /i /r ".*volume" %_Nul2% | findstr /i /v "project visio" %_Nul2% | find /i "0x3" %_Nul1% && (set sub_O365=1)
-reg query %kNext% | findstr /i /r "project.*" %_Nul2% | find /i "0x2" %_Nul1% && set sub_proj=1
-reg query %kNext% | findstr /i /r "project.*" %_Nul2% | find /i "0x3" %_Nul1% && set sub_proj=1
-reg query %kNext% | findstr /i /r "visio.*" %_Nul2% | find /i "0x2" %_Nul1% && set sub_vis=1
-reg query %kNext% | findstr /i /r "visio.*" %_Nul2% | find /i "0x3" %_Nul1% && set sub_vis=1
 )
 set _Retail=0
 set "_ocq=ApplicationID='%_oApp%' AND LicenseStatus='1' AND PartialProductKey is not NULL"
@@ -2051,33 +2178,17 @@ if %WMI_VBS% NEQ 0 %_qr% %_Nul2% >"!_temp!\crvRetail.txt"
 find /i "RETAIL channel" "!_temp!\crvRetail.txt" %_Nul1% && set _Retail=1
 find /i "RETAIL(MAK) channel" "!_temp!\crvRetail.txt" %_Nul1% && set _Retail=1
 find /i "TIMEBASED_SUB channel" "!_temp!\crvRetail.txt" %_Nul1% && set _Retail=1
-set "_copp="
-if exist "%SysPath%\msvcr100.dll" (
-set _copp=%_temp%
-) else if exist "!_InstallRoot!\vfs\System\msvcr100.dll" (
-set _copp="!_InstallRoot!\vfs\System"
-) else if exist "!_Install15Root!\vfs\System\msvcr100.dll" (
-set _copp="!_Install15Root!\vfs\System"
-) else if exist "%SystemRoot%\SysWOW64\msvcr100.dll" (
-set _copp=%_temp%
-set xBit=x86
-) else if exist "!_InstallRoot!\vfs\SystemX86\msvcr100.dll" (
-set _copp="!_InstallRoot!\vfs\SystemX86"
-set xBit=x86
-) else if exist "!_Install15Root!\vfs\SystemX86\msvcr100.dll" (
-set _copp="!_Install15Root!\vfs\SystemX86"
-set xBit=x86
-)
-set _exeNum=4
-if %xBit%==x64 set _exeNum=5
-if %_Identity% EQU 0 if %_Retail% EQU 0 if %_OMSI% EQU 0 if defined _copp (
-pushd %_copp%
-%_Nul3% %_psc% "$d='!cd!';$f=[IO.File]::ReadAllText('!_batp!') -split ':embdbin\:.*';iex ($f[1]);Y %_exeNum%"
-%_Nul3% cleanospp.exe -Licenses
-%_Nul3% del /f /q cleanospp.exe
-popd
+set rancopp=0
+if %_Retail% EQU 0 if %_OMSI% EQU 0 call :oppcln
+goto :oppchk
+
+:oppcln
+set rancopp=1
+%_Nul3% %_psc% "$f=[IO.File]::ReadAllText('!_batp!') -split ':embdbin\:.*';iex ($f[5])"
 if %Unattend% EQU 0 title %_title%
-)
+exit /b
+
+:oppchk
 set _O16O365=0
 set _C16Msg=0
 set _C15Msg=0
@@ -2171,20 +2282,20 @@ find /i "Office16MondoVL_KMS_Client" "!_temp!\crvVolume.txt" %_Nul1% && (
   for %%a in (O365ProPlus,O365Business,O365SmallBusPrem,O365HomePrem,O365EduCloud) do set _%%a=0
   )
 )
-if %sub_O365% EQU 1 (
+if %sub_o365% EQU 1 (
   for %%a in (%_Suites%) do set _%%a=0
 echo.
-echo Microsoft 365 product is activated with a subscription.
+echo Microsoft Office is activated with a vNext license.
 )
 if %sub_proj% EQU 1 (
   for %%a in (%_PrjSKU%) do set _%%a=0
 echo.
-echo Microsoft Project is activated with a subscription.
+echo Microsoft Project is activated with a vNext license.
 )
-if %sub_vis% EQU 1 (
+if %sub_vsio% EQU 1 (
   for %%a in (%_VisSKU%) do set _%%a=0
 echo.
-echo Microsoft Visio is activated with a subscription.
+echo Microsoft Visio is activated with a vNext license.
 )
 
 for %%a in (%_RetIds%,ProPlus) do if !_%%a! EQU 1 (
@@ -2195,6 +2306,11 @@ echo.
 echo Converting Office C2R Retail-to-Volume:
 )
 if %_C16Msg% EQU 0 (if %_Office15% EQU 1 (goto :R15V) else (goto :GVLKC2R))
+
+for %%# in ("!_LicensesPath!\client-issuance-*.xrm-ms") do (
+%_cscript% %_vbsf%"!_LicensesPath!\%%~nx#"
+)
+%_cscript% %_vbsf%"!_LicensesPath!\pkeyconfig-office.xrm-ms"
 
 if !_Mondo! EQU 1 (
 call :InsLic Mondo
@@ -2364,11 +2480,6 @@ if !_O365ProPlus! EQU 0 if !_ProPlus2021! EQU 0 if !_ProPlus2019! EQU 0 if !_Pro
 if %_Office15% EQU 1 (goto :R15V) else (goto :GVLKC2R)
 
 :R15V
-for %%# in ("!_Licenses15Path!\client-issuance-*.xrm-ms") do (
-%_cscript% %_vbsi%"!_Licenses15Path!\%%~nx#"
-)
-%_cscript% %_vbsi%"!_Licenses15Path!\pkeyconfig-office.xrm-ms"
-
 set _O15Ids=Standard,ProjectPro,VisioPro,ProjectStd,VisioStd,Access,Lync
 set _A15Ids=Excel,Groove,InfoPath,OneNote,Outlook,PowerPoint,Publisher,Word
 set _R15Ids=SPD,Mondo,%_O15Ids%,%_A15Ids%,Professional,HomeBusiness,HomeStudent,O365ProPlus,O365Business,O365SmallBusPrem,O365HomePrem
@@ -2425,6 +2536,11 @@ echo.
 echo Converting Office C2R Retail-to-Volume:
 )
 if %_C15Msg% EQU 0 goto :GVLKC2R
+
+for %%# in ("!_Licenses15Path!\client-issuance-*.xrm-ms") do (
+%_cscript% %_vbsi%"!_Licenses15Path!\%%~nx#"
+)
+%_cscript% %_vbsi%"!_Licenses15Path!\pkeyconfig-office.xrm-ms"
 
 if !_Mondo! EQU 1 (
 call :Ins15Lic Mondo
@@ -2507,13 +2623,56 @@ goto :GVLKC2R
 
 :InsLic
 set "_ID=%1Volume"
+set "_patt=%1VL_"
 set "_pkey="
+set "_kpey="
 if not "%2"=="" (
 set "_ID=%1Retail"
+set "_patt=%1R_"
 set "_pkey=PidKey=%2"
+set "_kpey=%2"
 )
 reg delete %_Config% /f /v %_ID%.OSPPReady %_Nul3%
 "!_Integrator!" /I /License PRIDName=%_ID%.16 %_pkey% PackageGUID="%_GUID%" PackageRoot="!_InstallRoot!" %_Nul1%
+
+set fallback=0
+set "_qr=wmic path %_spp% where ApplicationID='%_oApp%' get LicenseFamily"
+if %WMI_VBS% NEQ 0 set "_qr=%_csq% %_spp% "ApplicationID='%_oApp%'" LicenseFamily"
+%_qr% %_Nul2% | find /i "%_patt%" %_Nul1% || (set fallback=1)
+if %fallback% equ 0 goto :IntOK
+
+set "_lsfs="
+for %%# in ("!_LicensesPath!\%_patt%*.xrm-ms") do (
+set "_lsfs=!_lsfs! %%~nx#"
+)
+if defined _kpey (
+  for %%# in ("!_LicensesPath!\%1DemoR*.xrm-ms") do (
+  set "_lsfs=!_lsfs! %%~nx#"
+  )
+  for %%# in ("!_LicensesPath!\%1E5R*.xrm-ms") do (
+  set "_lsfs=!_lsfs! %%~nx#"
+  )
+  for %%# in ("!_LicensesPath!\%1EDUR*.xrm-ms") do (
+  set "_lsfs=!_lsfs! %%~nx#"
+  )
+  for %%# in ("!_LicensesPath!\%1MSDNR*.xrm-ms") do (
+  set "_lsfs=!_lsfs! %%~nx#"
+  )
+  for %%# in ("!_LicensesPath!\%1O365R*.xrm-ms") do (
+  set "_lsfs=!_lsfs! %%~nx#"
+  )
+  for %%# in ("!_LicensesPath!\%1CO365R*.xrm-ms") do (
+  set "_lsfs=!_lsfs! %%~nx#"
+  )
+)
+for %%# in (!_lsfs!) do (
+%_cscript% %_vbsf%"!_LicensesPath!\%%#"
+)
+set "_qr=wmic path %_sps% where Version='%_wmi%' call InstallProductKey ProductKey="%_kpey%""
+if %WMI_VBS% NEQ 0 set "_qr=%_csp% %_sps% "%_kpey%""
+if defined _kpey %_qr% %_Nul3%
+
+:IntOK
 reg add %_Config% /f /v %_ID%.OSPPReady /t REG_SZ /d 1 %_Nul1%
 reg query %_Config% /v ProductReleaseIds | findstr /I "%_ID%" %_Nul1%
 if %errorlevel% NEQ 0 (
@@ -2545,6 +2704,9 @@ for /f "skip=2 tokens=2*" %%a in ('reg query %_Con15fig% %_Nul6%') do reg add %_
 exit /b
 
 :GVLKC2R
+set _CtRMsg=0
+if %_C16Msg% EQU 1 set _CtRMsg=1
+if %_C15Msg% EQU 1 set _CtRMsg=1
 if %_Office16% EQU 1 (
 for %%a in (%_RetIds%,ProPlus) do set "_%%a="
 )
@@ -2554,14 +2716,15 @@ for %%a in (%_R15Ids%,ProPlus) do set "_%%a="
 set "_qr=wmic path %_sps% where version='%_wmi%' call RefreshLicenseStatus"
 if %WMI_VBS% NEQ 0 set "_qr=%_csm% "%_sps%.Version='%_wmi%'" RefreshLicenseStatus"
 if %winbuild% GEQ 9200 %_qr% %_Nul3%
-if exist "%SysPath%\spp\store_test\2.0\tokens.dat" if defined _copp (
+if exist "%SysPath%\spp\store_test\2.0\tokens.dat" if %rancopp% EQU 1 if %_CtRMsg% EQU 1 (
 %_cscript% %_SLMGR% /rilc
+if !ERRORLEVEL! NEQ 0 %_cscript% %_SLMGR% /rilc
 )
 goto :%_sC2R%
 
 :casVm
 cls
-mode con cols=100 lines=32
+mode con cols=100 lines=34
 %_Nul3% %_psc% "&%_buf%"
 title Check Activation Status [vbs]
 setlocal
@@ -2742,7 +2905,7 @@ goto :eof
 
 :casWm
 cls
-mode con cols=100 lines=32
+mode con cols=100 lines=34
 %_Nul3% %_psc% "&%_buf%"
 title Check Activation Status [wmi]
 setlocal
@@ -2761,9 +2924,9 @@ if %winbuild% GEQ 9600 set "spp_get=%spp_get%, DiscoveredKeyManagementServiceMac
 set _Identity=0
 dir /b /s /a:-d "!_Local!\Microsoft\Office\Licenses\*1*" 1>nul 2>nul && set _Identity=1
 dir /b /s /a:-d "!ProgramData!\Microsoft\Office\Licenses\*1*" 1>nul 2>nul && set _Identity=1
-if %winbuild% LSS 9200 if not exist "%SystemRoot%\servicing\Packages\Microsoft-Windows-PowerShell-WTR-Package~*.mum" set _Identity=0
-set _pwrsh=1
-if not exist "%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" set _pwrsh=0
+set _prsh=1
+for %%# in (powershell.exe) do @if "%%~$PATH:#"=="" set _prsh=0
+if %winbuild% LSS 9200 if not exist "%SystemRoot%\servicing\Packages\Microsoft-Windows-PowerShell-WTR-Package~*.mum" set _prsh=0
 
 set OsppHook=1
 sc query osppsvc >nul 2>&1
@@ -2869,7 +3032,7 @@ set "LicenseMsg=Time remaining: %GracePeriodRemaining% minute(s) (%_gpr% day(s))
 if %_gpr% GEQ 1 if %_WSH% EQU 1 (
 for /f "tokens=* delims=" %%# in ('%_csx% %GracePeriodRemaining%') do set "_xpr=%%#"
 )
-if %_gpr% GEQ 1 if %_pwrsh% EQU 1 if not defined _xpr (
+if %_gpr% GEQ 1 if not defined _xpr (
 for /f "tokens=* delims=" %%# in ('%_psc% "$([DateTime]::Now.addMinutes(%GracePeriodRemaining%)).ToString('yyyy-MM-dd HH:mm:ss')" 2^>nul') do set "_xpr=%%#"
 title Check Activation Status [wmi]
 )
@@ -2985,7 +3148,7 @@ if defined ExpireMsg echo.&echo.    %ExpireMsg%
 exit /b
 
 :casWend
-if %_Identity% EQU 1 if %_pwrsh% EQU 1 (
+if %_Identity% EQU 1 if %_prsh% EQU 1 (
 echo %line2%
 echo ***                  Office vNext Status                 ***
 echo %line2%
@@ -3003,7 +3166,7 @@ goto :eof
 function PrintModePerPridFromRegistry
 {
 	$vNextRegkey = "HKCU:\SOFTWARE\Microsoft\Office\16.0\Common\Licensing\LicensingNext"
-	$vNextPrids = Get-Item -Path $vNextRegkey -ErrorAction Ignore | Select-Object -ExpandProperty 'property' | Where-Object -FilterScript {$_ -Ne 'InstalledGraceKey' -And $_ -Ne 'MigrationToV5Done' -And $_ -Ne 'test' -And $_ -Ne 'unknown'}
+	$vNextPrids = Get-Item -Path $vNextRegkey -ErrorAction Ignore | Select-Object -ExpandProperty 'property' | Where-Object -FilterScript {$_.ToLower() -like "*retail" -or $_.ToLower() -like "*volume"}
 	If ($vNextPrids -Eq $null)
 	{
 		Write-Host "No registry keys found."
@@ -3098,15 +3261,20 @@ function PrintLicensesInformation
 		$license = (Get-Content -Encoding Unicode $_.FullName | ConvertFrom-Json).License
 		$decodedLicense = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($license)) | ConvertFrom-Json
 		$licenseType = $decodedLicense.LicenseType
-		$userId = $decodedLicense.Metadata.UserId
-		$identitiesRegkey = Get-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Office\16.0\Common\Identity\Identities\${userId}*" -ErrorAction Ignore
+		If ($null -Ne $decodedLicense.ExpiresOn)
+		{
+			$expiry = [DateTime]::Parse($decodedLicense.ExpiresOn, $null, 48)
+		}
+		Else
+		{
+			$expiry = New-Object DateTime
+		}
 		$licenseState = $null
 		If ((Get-Date) -Gt (Get-Date $decodedLicense.MetaData.NotAfter))
 		{
 			$licenseState = "RFM"
 		}
-		ElseIf (($decodedLicense.ExpiresOn -Eq $null) -Or
-			((Get-Date) -Lt (Get-Date $decodedLicense.ExpiresOn)))
+		ElseIf ((Get-Date) -Lt (Get-Date $expiry))
 		{
 			$licenseState = "Licensed"
 		}
@@ -3124,11 +3292,11 @@ function PrintLicensesInformation
 				Acid = $decodedLicense.Acid;
 				LicenseState = $licenseState;
 				EntitlementStatus = $decodedLicense.Status;
+				EntitlementExpiration = $decodedLicense.ExpiresOn;
 				ReasonCode = $decodedLicense.ReasonCode;
 				NotBefore = $decodedLicense.Metadata.NotBefore;
 				NotAfter = $decodedLicense.Metadata.NotAfter;
 				NextRenewal = $decodedLicense.Metadata.RenewAfter;
-				Expiration = $decodedLicense.ExpiresOn;
 				TenantId = $decodedLicense.Metadata.TenantId;
 			} | ConvertTo-Json
 		}
@@ -3143,11 +3311,11 @@ function PrintLicensesInformation
 				DeviceId = $decodedLicense.Metadata.DeviceId;
 				LicenseState = $licenseState;
 				EntitlementStatus = $decodedLicense.Status;
+				EntitlementExpiration = $decodedLicense.ExpiresOn;
 				ReasonCode = $decodedLicense.ReasonCode;
 				NotBefore = $decodedLicense.Metadata.NotBefore;
 				NotAfter = $decodedLicense.Metadata.NotAfter;
 				NextRenewal = $decodedLicense.Metadata.RenewAfter;
-				Expiration = $decodedLicense.ExpiresOn;
 				TenantId = $decodedLicense.Metadata.TenantId;
 			} | ConvertTo-Json
 		}
@@ -3175,6 +3343,11 @@ PrintLicensesInformation -Mode "Device"
 :keys
 if "%~1"=="" exit /b
 goto :%1 %_Nul2%
+
+:: Windows 11 [Ni]
+:59eb965c-9150-42b7-a0ec-22151b9897c5
+set "_key=KBN8V-HFGQ4-MGXVD-347P6-PDQGT" &:: IoT Enterprise LTSC
+exit /b
 
 :: Windows 11 [Co]
 :ca7df2e3-5ea0-47b8-9ac1-b1be4d8edd69
@@ -3973,6 +4146,21 @@ Add-Type -Language CSharp -TypeDefinition @"
  private static byte[] n4b(){ return new byte[4]{(byte)(n>>24),(byte)(n>>16),(byte)(n>>8),(byte)n}; } private static long n=0; }
 "@; function X([int]$r=1){ [BAT85]::Decode($d+"\\SppExtComObjHook.dll", $f[$r+1]) }; function Y([int]$r=1){ $tmp="$r._"; [BAT85]::Decode($tmp, $f[$r+1]); expand $d\$tmp -F:* -R; del $tmp -force }
 
+<#
+:: 1st Block (above):
+:: Powershell code which decode the embedded files
+:: https://github.com/AveYo/Compressed2TXT
+::
+:: 2nd Block:
+:: SppExtComObjHook-x86.dll   SHA-1: da8f931c7f3bc6643e20063e075cd8fa044b53ae
+:: 3rd Block:
+:: SppExtComObjHook-x64.dll   SHA-1: 684103f5c312ae956e66a02b965d9aad59710745
+:: 4th Block:
+:: SppExtComObjHook-arm64.dll SHA-1: 1139ae6243934ca621e6d4ed2e2f34cc130ef88a
+:: 5th Block:
+:: CleanOffice.ps1            SHA-1: e34083950878395df4e3101da19b4ad3248c943b
+#>
+
 :embdbin:
 ::O;Iru0{{R31ONa4|Nj60xBvhE00000KmY($0000000000000000000000000000000000000000$N(HU4j/M?0JI6sA.Dld&]^51X?&ZOa(KpHVQnB|VQy}3bRc47
 ::AaZqXAZczOL{C#7ZEs{{E+5L|Bme,a00000v}wA@[CekK[CekK[CekK;YU#E]9a;N[CenL)FoL=XL{Y5^z2XSXL{C}[d)tLQfXso[CekK00000000000000000000
@@ -4541,170 +4729,53 @@ Add-Type -Language CSharp -TypeDefinition @"
 ::00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 ::0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 :embdbin:
-::O/bZg00000vK{~c00000EC2ui000000|5a50RR9100000N(o.=0RRIP07L++00000005js0BQgLV{Bz&Zf|pNa4uzdWdQc^MT=k^07P4WfQ;wY20#S?GDBb]000jF
-::;nm&MErwD{qEHrEKpp=lE4!StIjVhYGEh-9LZjuPWy,GR62Jlhej|n&_uKW6JX@WuJ4[Z_kYt3O-3H&yT7Xj+o4fURrH}b!/-?A$DH+m5C2L4!4FJpx9Mk~.J=kXZ
-::U/CFjr&Rgvoq-h4u$rt9afgky.V1ZJS$m#hvh~{a73J9WY_2l~Yx~|L&G$l}k92Hp8jj}bq(3!5(?aM,uZbN;6eM6P0+iY8xIn]P|NHNMK?Pqe00319Kovt3[14wf
-::Gv8x2-Z$F|L5ZeGO8hSfy&OR}5@}vCsQ=|MV#.(700|;!EiMQI=wAwEwmS^a)T42tWFa4HX|+uAA=#L]Hg{?d@eX#1;/l&/?B/Qr@c&!d/p@T?e&DgkS@J|/)Cxv!
-::YiYHHOl-=mclY[+rH}t.^hQ_=9cQzpNk7h.3(0R?5@!@Jo=u@rvv(N6tc9_c#IhQ^{@nV1G!ZFl.MPTbqG00FD6It?[hBUDxvbs(5+7}fD^r4,c#+s=]Q)wGfCee8
-::xsM;#1g{S&Nb_72^^34Tu0pVq&i90Z_;jS_EOYmnZA$X,49L&_$5OK)wrh5t;k#uCuJbF;P87OqxG66jIDjCB!asve+[Rp=^GRecapW1ufaTT|6tnSgL5Lq,nG17!
-::_^H9xIzJik)=_xRS-xF-3g-.;L7IJ^+^b{[v(VP=pbG@9LQ_.E0W}MFiD0p+Lz[T(b0GI&!-^v{a2JC$Gu.6L2tPm(K=}fP6|y)Pb]zI+pb3FDJhB,|ZUN?3ki7H$
-::2r^0s0zqI4fENbLbKnzgL)0MN0[4r-{eW}e^/F(e?/d@|NCy!2fmz@$5t{tyKR~UFe7_Lj#$F6c21$R38Bq(ZtAec!MS5PANT=8nI!)Pb$w3O?7v$I7IeBBU!kY-p
-::klvN{f,gf7BB/pyCUxy05[+iLC}o&&P.i.[E9rWS;{(za0wz,e?eXya7nNwlDaxU-NjPr]F0(sqn}2DMzi^Jo,Se5.MivntdFL0NCY(!V]A2q6,V0@W24,M+Mjh=8
-::F(;^(aEZ},)2FX/lAPFu_vvv99VeC6O3_Qvmpq{igQggsMAzkL8X+yGdmhuD0i9VFc5vX@9Tf!Flv.,b3SDfBbnc9t2TWOtUDE?7lcxWS-IkM-hDLnpL]T&jL+7w9
-::u{nv67x?cEdRSkTF^E~mH|6$dgT_hrY0$T4XQNAAJGU6SsX2,Ug?y1^9{AHqv/CLZG;WGi@bYS-;H&3Cv)}@IuTncv@$u;|U6S22o!&Ua=alSCr47d?C&4Z|a!2/(
-::U1=8$[tf~bf{EsAS.Vx&=.K7W/L.Tx==RKYYvJ1IY$~RRk.I6A@Mdj@RO/jFhnYYn[50#,^x,8mYIjotRG!)&?mBpJ;.GXOQ{B!(Pwk[(&VeGZCOtyBm[cUflKTF8
-::9n4}c(4sBwa|Sh99SG+K-T|2e,G;Jzuv~FFOSdTU@+bRrTAb0KhSNwV#(c6Vh=I4CM0xt5#)q(wNi=@k^M_iVUaG|tJl,wbCPPvD+Ks}?v(3!&8Pei^x)5TNxIq3@
-::)HZ.Kf!2,{tQR@CE#6|[qchRl]v!@Ism#ppc0oY5q[J3~ayWfA0Uk;k_!6lWGVo0E/#oOXC-Z2Ca!C&~2d#x98r8ikG33JLeG8(^hKQZ8(5,TI3v3;)-~-FSCK}5b
-::no#nRZXg@95UA98Xm5b1LFEYqM0$Zr;;?&(M_$vx{a}n39-eA4fj$eUBGM]V3[$SI,!-7i2]knF=w?j^]wxH0X^k|lOj6?T)IhY[0qYE,h|y.HO9U_V@8ic-1a4(|
-::3=0zgh_7j2kcQ4CCLz5{0!RoJ$nnPIhh1obDO/ZuDDoq}HB5xQO$xcTp&iDcSL2UtCn0rQk}~?;^b-8zlqNTYjRsA5W1;#6;WfL8lEC1nqr?hFJfkssE.Je-C1pzF
-::id^)GNFx&WJe0~!FXK@e[b/c_08BagZhlgN9e]3ORBXAyI|ztg|8{r]x3H!Fi{#T3a~qi3bcE[FZaO{_q..D24;NJefnrSCnghm](=5RQHK.,hIq5!nB9K5DW]zHw
-::rhwb,gvPbM3^(BTVnp$eP2dYzs0^+ZaDH{jRS)NVxAgNZX#UFBykAs|aGy;0jiPW#f}|?jCa7V0e-tY(KbVjp[{{2mF2zOFKOU=USnU8X41MI(-hD64HX5qqioJ;Y
-::p}0Zi$48aWXsey}OQ@-6t45zu9DJFoPYOuNX&a,T]xT4~7],Vy@q@lFcwZDyklB^)&9b5hGx(s21oELX[@nVFebC/ZYXpEmJ}Px/LM.2aB[CxQ)fqGBV=UTPq-tLA
-::HAWSn&BRYu?X0g@8c3}@P$]pFGRS&n)&Eb6@=d@{2O}u~f)(^7MV36[FX.=F6KZ|0yo=Zv8QMPEy-=xd9wz_FYZ+&mZ~]Yq.-QOZDA~?q4NYSBb!g_hCV~OPV]OOq
-::A#7$5D$3Pdll782#-aBb)Z))-eSDp)p?@}m/c7ZBvw;LOs9k5MQHQQQG[L2b{k#hnO^OiR6b.A?No1mqHJC/5BhBzrnRK3GU!hiIZU!12w2pWvrV2IVY!u-{[FN.2
-::CG?@Oh-o?+;W4B#;-?tQCtLYdGzD3AFUdDuD(mSc,XZR6bDQ)}h,[J.SI-AFUanfXRkQwoL9~Plr51u!NphusW?i$0c2+d.KY~]lEef1Osp|?N3gA8C.vxw9mvx|H
-::ML80+sItx5Ws,x0qjJV)/QFf^g;h=,w=?]mEs$=t;[5CGo!R~8mvoh,,U|&[+qm@W38U|@8a@xJ#4{Cilfa{;,E+zQWn?BN=X@[efk|ZPZ$48]__mOk3@m.=dZSlS
-::D$5#k)rj9eRfVM@BZ_~N6b#mY6y1-_k|5Sn#D.neT!zN^,l&#fnU5j/)Vd~tC6nJBxeI&oz;fvUa6V(s#Wko_x8)7mqJ5/+OA),{IPh|XoC6L2vg-VG3JTwli|S#n
-::WnDl-Xh+=GEIH3N.{5JHa?nU.hmx,73bvr3_b(?i)K7N]wiSx,R^Q1O?$o!0fR{nTp|=R,;O;N-h.$P)5K^5[4}d4qYKmCvy~FAU,]8)]3+,aLeHZ6IZ-esWs=T7V
-::+vl)3PmoOkEp3C1u9t=m=uAx?^q$j#FIv7+n88RPi)4&e3)w;hk9~Pn@;w^((.VUhM@UJ^Mo}Iov=9N|8wZoCvEz;(0yqu~&qE(UGjW9fiYDIM.kuwhl0i[IL08Kc
-::D.|@weChO}vuCjUjt^R^4m}V1$87OHXsYOr-TXEab;H!VA=jmkLgGV]HUoPT0fd/;84Q2^ANEl0{hkQ=f9?m_S4Fw.I]OL9.3,DJcy36q)1-Uu1{Xbh@1p[}wD7Eq
-::uRH60Jn)r#^;&ZE$u2hpctdBr(OKV^?[4d]oj&5xcWRFAl#6hLH,x6emhNzLtfwf3eg-Qek$#xwd}Udggkb86WfSl.bQU(GA$fAMxi7CVO7bOM4=uT$V4b7cY)t/~
-::]~u$uaPVBkYA0j2.ar|c5VPph&YDf#h4LA2snwO1cQNX.@^4kM$g/&|gQQ6fMbbAg9(Yw3q;i}vqgU;Z1tI0q{1)Jjsw2i,n[2l9RH_wT;sds]B5afhs1WHOOM@hX
-::L^icEHiKH-vzQdI75=PDIcPuIXYo_9r{,ADI_QIF!1$GXXG?y1{]hA]x@}o?XK;,Neo1WUdswiX2P#$y5;x](k1$0F3T3IzvoL+TlRqp5i($M]vQcG=m!C_unlHSU
-::XxFE&TB)y+(Dttd12K9),/lKt!&n$yGm3#SHJZ6H9.#i6mgP2LFM0gvN@THi;z9=dWw;2MS~#X,g.FB/[_##+avx}eCDk8CwYL35u#,gCC|XlPM{V/.2!x8|MWi2A
-::_uOOqD!iEms-#2Ccc,u&n3tvI0RP(d;+PCk!aX5a,s2)gPsI2c@fQl,r2NGEZ]d/2{{0hlDzRW(g=Fn1RD#ajPfFgfe|gh#Lm]Z57nccY_FC4?p!jd2tQS)P@7~oR
-::$qLD2aBl=1)V?&q57mPKbI;bJ)3eTld/ZE1ef6xj8tJuDbcD_4/Vtl&Na~-rX!v8ol[Ps7cBlPNaRi]{QG25kgfN@BtgVYqkRMYpz-Aj_J)/Xn74Nd$!@8h.3f3iR
-::crB1GsH4;$M#KhL1J7e|#{.x,M})g;=6+m{FVFsbj2oXo=ZxOY{c_7nfvp+#B/I^$xo+AO(scNe7oRtDVDasW-2zU&-]OU4.)NRI2vm#8@0p|yUOv[2@;WF-1;d_)
-::reT51IjF(D#,5Q-gA2myeo0B+I]67zYU)_=P8IxM,a3fkPxe{36TAeln$qh_3lJeoX~,JiGvkS@=(,SW7UA7-tY=sW-iy}qgBuY)4$Fo,SXCuff&20M=X4xazH(u9
-::Bei}DbHzolqGC;$8!2x/pIC,r;!zI9Lw3iLaI9(.I#nd&ILsXn9EqoP1dG_L8|n26Xt{#gXlY~Acutpek,A)X[XW^74(TIm?kn!A&2+jJ^5Ge|uINpNwj]8q8Tab;
-::wS=8d9+#3BBHORt0V=g5XQyRFoO89xK1O,p^yJyPuC6M_[NU4Z$Y1!$GX2-JoZB,t.UM(V7E;_}R4Nhp1CNmp4VfzAH1IUW&bf4|6;|^fCz49$,LN&yVWdH2y0=ad
-::;)SsZp=tbiMc;SPYwMlT1hA,Fq&1@aDx-U[=FX|}eVi#=73g/cBjxD$a7lbh#WV1uI!hf&K(mOXrX?(z?9OE8{T~53q;2=FNnOg_(ay5BIeVASq[-dcdk1kSEoS$c
-::j9qc}b.7KAOIA~aoyyb^.4LNba2S,+ZpZ4M]te2_86N6G+4-D[QQfHJN}4H!YJ[@S/LZaw2LJxBnY6=@O}7C,4yDwvifo6CFg$|w3beFUMEg|NJkR}H.encM@[qpo
-::b]+L{BjU(^W_.MNF;HIZo;AF.11sfnM;gp!_WXccf{w4wnB(~!4mA3mmc&=EdeB;o#I,n}&kP1Gr8zgO)Cn4(J{1=W$.2p(y3]ptJvRU{JiN$7VC]hX=oTAx]X/8;
-::X=E8RfsVHB5=j18p~ChVW!r=vw#QGiWKDR)run1f{ttDR1OwYy+(&w8Jtb3l+(8M(#ZQR)=(8oKG?o!6AEeA5nU?bNw=bA1&cvwi5,4}rI6QG3=P4ELa;0!djfKHj
-::-C~xZ]R~u.g[2u6n,y_R@u?XLX#5&=V[3x4Kb=KG|4y-kwdk}WbZkqn!ib73fCW&kMp9TWS|0oBB=qCD7]~Q1C{TDrq!j8)pJFJxQ[N1v0T7mq8TSf|B|&3ue-C#s
-::]qOX.Mg[|hX+Tnt;Ut;qey7Yq&.h~E^dzuP@OgMy,+r8NbB{S@CuHqu3EMV4zA_3EXl~U}UI3eIXZ[5bLrpv&ZZ^+wMX~bQ[Y~tqFNm&#gQgsD_0{]avFMlc,mrW8
-::2i)Mv${breta]FkiJ_poz,K5$hDp&-3EWuuPz1cJTPA5.@o.OvB)DpD&Um^}-)k@ZFPT-d|G8^Ei{QH)=BY-GoOr/[D,NnFI3X#x/RThiEtM;q,q@L^Za/e9mn3dT
-::dc/}3tr7-om.|Z=e6kDv?+i_ki@Q3Wrp03AXJ-Cvx#aQ/h0P3an5V|hldsoPU3w1JJn9Cs&e5~Sdnk}7I(;V9MzUnNSj^ghvUT#!vL{Qggfl@^kBfQTEY1z~Q+ZH]
-::Px=Fvao7KfCFZ_],KpVuVJoFB{P0ujd6|rxN#wHQ4Ka,Rg2mae9n..1?_Qe$R1-iSNKB3HJXfakQ$NdJRi8{l.WVTo^~gI-bg|ue8ffpgwSDwZz.S(ZwPw#_JK7_#
-::h2aBvhEyj^p!I[NT&cC?pPe!?yrBFx1)+.,n0|&tyFWDvqE)/;Gm.qjcu7TrfUm^PLoLi.AjoY2-lFEUMuDP7NgViH+StFbGHHds[He-PCd&zwccW&[HZD!|sAk=K
-::[?5aeAEo=Mf]!{$x7YTcxx4;2zx6.0MuA!H!CK1PzJAaKcMdtY-{kWhH!?R-jf&#]!QCq61sC)6Fy1{Dtjc;,$e,#uQU8f(FResBv{nnuQ585PcF{RVLwUi42#wL|
-::,Z+bUk6d!UM_^)wx9~odBKD&Dp#CS${y=~Htg-_a{lyS@?bTO~48+5xJl|skjA;M9/kaPHPhnQ|_0oZ7XVt;}a.S!1=?cu[Bft8mNJkQWV&fE8Zz]+m2^EBOs.S&g
-::Rl9sY&^/b)F{bp2.S,d02[d(hCi05Zc0klLTGX.8HJ]tXv9nFf&M,jl8+UY1@J!,HFODDM7Vr1C{$!8@!{AYU{J^TKu.&^X=qDGug1T5LP5fTN3+plFl6tH)H}2ch
-::cCNtf)RlB.lSrxfIFTMp?!_NcyZ0I!9IaiCF{]x!k(2PkeBI,)_fR{.PG[=]!ZW+ms4qG-m)C)[TqPLq;45snC)hMc4uEVGMX9KLQ?xTRr{uKrpMQ_qt[Q0f1;rIU
-::j/Fr$V66/z--5{9)CUPO#J0=xr1@,@/T=N7boUQa_f[rH9[?l,+Iyv{]@9Bt0X1pTEj7/9zN],cHLKOT,Kk=wx]^M9L#c=Dd{l#a8^H^p9JAT_tu5{/8r#,XLNb)Z
-::^myvpzkW)PZHa,N,R@+XBVwvJZ_1sS88x[t$1jNLG7Pn.]-H=DNY8LkA8Bo08EM4Rm6g(zvbk-S8U@kOD[XJo?P2j{PPb?poAZD/ORG@WaXhy.wEN~i;^w_MQ7dVq
-::o/y2GXKDfqWu;59|7paKEuiQZfsK_F]2m4vh$]u8(Q8Gbu}^;80$xAYL0X]F)j6qJ+!0SZ3eUMfVcUl2FHtzS5ssKtfMJHAV_euMq=r$!,-buZx~Lp~?dJDw/D9Br
-::{c]U#yDGNxKTUJ@+o8@e&?9xg[Og9ukLoQto6wAc0^raL!|jFo@E)yFG-Q,EdO;o2.ZQC^uHmetY.haA{UkggrdGAV?R9a4w.A_ze6.B)tj?LL@|ZDwP!jHKJ-#hx
-::eAyKct(K}~?t7|c19==ZA8H=+Vf52I+fhe-cEdpnsSWhFbrgEgIax|Ctafn689K6zW}sX&Iv4_f^rH$GFxhO~HCzNs2IS[U[DJKXtCam8@1Qza]FY;AgwLSvR)HU8
-::&f51J5t7eU|2TtUyp,{ny6DoSy[ewn0+F2.ZrjgdmR{gh|I=H9iC4]5.9O5YssV_b=Ak#MESTY09xn^M.lt_VO{Z7bZ.p?Ed2pO|s-E4Y1v[]&]!zo0VcS9ww4F,o
-::m]1/i{.F+b!@aI/bv_tzARO?[_K9MHLPi#6s[#,6TcFTZ8?i@gk_ZQJ-XH$lq9lvG&AXJ.=y;m~fTGEg(ZzAIZj!-K5q7HkKe01&tt_LabaU$hQ5g)d&LUscWIGe9
-::PAPT&WKW+3px,ei{J&fynH@e6_d6CP&Oys[o.kA(!Wlki[{9];]dG|Db6I;w5$-?!!JcE^GQ)yq&mlCOl/(E^ddwC_w@DOW.1]|-ayE&6uA1i]t@)4$2zT]Ga;)Dg
-::9J3y^Smey_,MC^#SE{xM7!Zhef-aj43h&]aiXvH5ONC/iDROSt=F7,)ySDp6S[Hw43=qEhIM&Roi;^V8503c{RGloxT2PSwNhb4]@Up-G+.GLsLLjSd+-;P6km5Jx
-::_kpt}w&Y!KPFq,Ay##yKzaX[agUm|)Mig]xB$U2!l#W5zn&/_,=e5_J3~g?p#f3wYkch8-#]f}E=?,/9iUErT(b-y|7+1SF4.PC]7Y&oFGII9R)_8NckprE|6]#sW
-::@!QG8xEZ/TpY@ORLVK|R)TthHv5bnKGood4Hvn^{)cePcy$jsmyUo10K$?3Ln!k5]IC?ZADn{h@ZSwZo0AF$L?jw#;+gMnrQZCh?W=CJ[M.f(&739~u=)p}}j&GVG
-::IGNR7i)lv-_g4~2Bze_l5cwp@H0|D$^)GVSHB2Tf?t#Dy!@A[Ao!tCC4o,u)N~i{8a^8D~saKIjGaudgJYI7DXfjh/,BKt}z5DybHJUklG=W[?H/Xs47zp_+{cOC9
-::BtDxII)-QxSD6p9cW-$PGKGcEyhf,r/T7-m;#(JrNK+17NdWT)X+{iL)9SvD^g+U(MwWU0q.jX/8./[=)vwU}{/_h?KtVmyoqly8CLgrnE]KML#}Tu~rY^f$5L4[|
-::Lu|8=FO9W_9~.W-N!e1X)~tW5oVxK;]&Aak-;aTOwuPOY1P-6(m/d$rc006)@el!~=r6S7UDgUnC7j.VC[r.=oAc^|py}+E#p&d[Mt|{D/hkC-XkT6UXkP-b/-/3|
-::cUSC]?gE@K0n=9snUx~.U]dUBuypR/!KVGx+=V5((e36cJHh=Qd+Z.;zWU?_;VxBrCBLRaE}PQm)xuL)smUzKO(00marq$E1D(VI=p?nI9?S$5+kcaMyS-H=SaANj
-::J4ez}mo.]!zXDyXx1OgbI^bEb&kL9L!V=n~3GC]#DH}_q+XJF$R=7wJ5~Y)PZfUf-@f,=!q6jO/oe$!v0jRK{B+26{yO2)cRP^=p^b8_zeeZ8nv2&Cs5Sy=$Lspu)
-::@!btLrRgXcPk!!WQ,HWXqyJ~Kd3e[gA!wFmR385Rob}oLH6Z}2C.kVrc58C6j]6GqHygyK8{H_C2yor,tyDWZz2@ZLU#M5+zxA=&^}=CC&TD1|8-0bQz;-=Y9IB,s
-::Y=~A62)4}lcXIWeMKdo(+hfRr7v7_4!lUWL^s84/H;xSvs!rRqN$1ZZoXLBmUOC1~q91q6kHg#v)i+(J0p|pk7C@0P00bCdV{noI[B#5H83=WOfB}GFiE~IxKyib{
-::2p~cr^yB--iZf;GumwN_1LDFU41&i,2b6,#-W.zK8CV4X;@9Z~88kECb8$n/2n.;}7z#o#Ac89kEof_NPyq&S93)R6gupliSq7{pFoXdWVxZ1J2m,i,2Z,x7MfCq7
-::-1K-St(!fhPhKv(k}&f}liBvqj)HpZT&V_~#6Tb)1/zoE3#;TaKwYF5B]f2@?,Fl!?[4Lznuq/iA7/abu-fmL5VDBl2wV]~Aag^VLn;MqNb.;EM2NPCy]/2jencJ#
-::k9;c]$oG.Ov9~cWu_#hVF,?n4Mtk.rVJ^W]W3j)ji(bKvVu~bINV-SDE~&4HBdM=Mzr/)#OBj/ilE[Ou!u{k?fxfmT?[v1]V@4nh$Yb=ee=Lt7W2j8|V|_,DD8^u9
-::jGdgF9.nbcA~p$SleUw,6TVF^o8(v/Jo!HnPi(Lhr1#@aByc42&Kto1=}&gd/$$qDmdr-$MutYVM&G96LpGj^lg.HtneO8~H71?t^-,))Oco}al3kMxWUd-P6gXS;
-::FAHU^GPkm[Ws[@xGPoJvnO.tZ-2C1U3~?yw/l7&e^hrA#ml0,4ndoMErCuSH?6gc{s+nvGuiml.4j-]q(]3Vl0C(UJ4P!o^GECmVc0;q&LuY~Z2fqi,2hGFpVEs7$
-::5PcYZFnu)C/WHzMj0keVHzIcl_Vtf.!b5~)1n7v$[+GyLy(hg|1]=ZuobMLBXT2aC5$5#XICtVZ{SMr,]/quF@;35EdJk|Ovwwvj&OAv#^mBRA{22eJKA]w8Utuq^
-::m+&$5cKOo}^-S?S5=K5uht)MM7J8}_Pl!E454l2(hYUhmM9dO.d4xD)I8r#WJ[OwJN19[cnB$n246.I!kuIi.?0-VSx+?|wD@ui4go.qu(zHj_-p+/lv$2_6!ejd}
-::KZeJAjQS3LQlUY_F3Yv#pZF+VCy2[JYUDx&h!YYg|4+^tm_Y;;C?0tSYuMR=ER^ef4s0LX9[qsLnM]2ySQ~-D4wW71H{AIU.C!]Sl]G6DfCmH,6dpJ{fOsMCgW_w9
-::hs-O,9~vJxA36_f9w0bG[){s6mIp8oWF9a$LGuT~913|bShd5U2hSW3aY&$gu];QrAhH)GT,S/0=pqD!Rb!y|VvPtkOH[Fu5l3M/1RWtT4UupN08A?Fn1V5JVgkiP
-::iwT)&7!x!ma87hifKNash+g1ogk&$fCM..~kjQ3YgoG3lVMt/#5-6)+k@=$UNYq6O@3jMX0Du
-:embdbin:
-::O/bZg00000!XN-u00000EC2ui000000|5a50RR9100000N(o.=0RRIP08Rh]00000005js0BQgLV{Bz&Zf|pNa4uzdWdJ2ilOu2.08U$gfQ;wo2jFoN0Jl?HBq9KS
-::008cfr?;tDkd,4b?GCKCnmgo^dROl1myYJ8Y[swTP1jY!@&qo78NeWY-&N09^};1hHr_Y9(.i&X?+U{D4J1V3T.t~y[NrC7gAuv$x6wA}pz^=v0APe[s&8KHtqj}V
-::TY5IvrZCKGsl^3=tMEw[L91Gg)i,enb^]KESYEUQ6PnPL[Rm1^]OpKairi,f_k7_#d8/Zycui;2LNP+/?8^.jVvHV/3ZIgA/&Vni[4x?0ATj]|0surq15oWyy7zi^
-::HB6K?5D5ivNx_HH2x8P2uomP0e@(w3P+Okihc$G8JOM=jN9Tgi2lQOs7XlGjmMdOv2e^psS;i,uh!i&mG#9}&3zwGp/f5_)@F|O,.]LA#aWZMV;b2^cYm9@+Yf-kN
-::Wu3[lzAt^+/I.BTzuf=ct|_e/D!OGB$;aNt-,G.)k?f3LU/N1?L&(=eOt?t-&pU/puAE|c)k@C8lM^/[wLofdS]+ZAzPp5~0klq9+~vBWYsSrg,h#f?$X^Tv!5?2?
-::fhb,_4&PYTWFJ8ANKu2(oAEFH)flX?_!t$&/Y7rYGdKP&S84@oa!3=&vr^|phoNH4jJEU{I$3PmiL,MfP3_;8Ff7W)-J32J-n^&{)PmjMw4,i/o$K4a^~7~nS{bN$
-::M})t9wB41(W$F@zS8$A3$+ML}kOrh+2(RxSbgA78ec|B=mYMh!X9CN5@A7Rn@1i73R#/FkYxogzoNL6730C,U$O;J1;+ifuaHKli/lk_p194KhQ-($VF~]1VFjfmt
-::[k9]?6IsaS+ME5yT7kWzYjNEpSi}Af^xYvU1bW$9/[5.;etIM/TIKXRQKYv_lY9awS,LO(=QBUT?R&ZtBGX1bjp7dcH1~Ko-DQIxqjy4/(v.1Ve437#G+0e1H&{.P
-::{+fqhnGR0qQuMl}VA}w?|D?!m;DJ(c{,t,tF#B/Q{;&9RKo$.6l3GDt)qTt$a6SvE4)a;2[WI-x=LPV2OlE#Q]U@J/6al{qOV+$r#zw7qQN#]GwC{&QdW+bCyf{FH
-::.l2n+d;}@K8ybp7]M/!z(YZp&g;4Q&,p;5AdZ1YHoMsGz=0V3Q]aSrn,4trDV)@3$D;tr9rKh;H#s_xH&Cpxjfoyto9KFG/j!dZ/R0i^mi{7/ZJNzsVRy;Qh#tDv!
-::(j=CM;y_ah1tU}p.0v[/!usOKsV@g1JyAdNkOq.IPy9]f0WV&D#YtUJ1Bg$}w4+YGaIJrOu0PFEdZ)$5yHKwrYx@0YaUz/+yIOZCHn1l8C0#J)E0R$DqE!E!xn@s7
-::e4IXnLHPJEo~gEXB3$y0uBchan,nkO8$/+w4D9@r6QtW6-Mv2[#EJ&0]oYbaXz{yz&Jd&pa5xNenY}|y!!k!Y#n,wzV4]hj//YvTi_]ZpAuWp8|5=Y3q3N4$Gv#tP
-::on@|8au7l]Z8BC;=J[#iM^hP=AB2OwiveWFDHkbU/~j2eS0[+|(}7!10j53pgZgjt#NAE?8y]$FX-IJ8=f4=^yb@Dq)D7BQip~tEZ4RI~o++yp;n@.&;gB0kxtBzg
-::m-MhEUP#PQuK0u}SnWNAwtgGA$z5AJ=oJ1+Y4~wPp9=83gn8G]pDwzHEG{VJt6|7=hf}@SoIxQ^ipf_i/qN;_C7g&2DJ=Xar+?XlK0//sHmvQ0Qh^/;M{i@aICoDL
-::Km8)&d~l2;.4kFP/0f)yLKBG-vX+pY.Sc_ql9tg2yov514yG6Ap+j61Ckp_eLzM0D=0kJ-,5]~QxU=_vfJPo^_,n._ug_Si|LYeTe4l.x8I9jUt&S8JWk.S!2]9g$
-::o}Y(bs@dEU;{=lRUHz,ZEW058ca&!-0q(NpsuPenCS2H1OVvG9Vk.T~wT67Ec_BF)Kh&4t(W#U8EW-2qPqBc4@N(B&RS/+6AM6r44y65S__v2Qa#cTS!@0}zB01mG
-::VMTCckW0]}6]S$VDIL+8cCES4iLPaVr{6x_vMtJ539;[W^~gZ[fOFSRuy4id^2WpxFJh!3IY!zCNy13(eRtFD)5x^4(WK=.gw~adMd8JdzasL]09Kin;$)dl)Kp0I
-::9?1TXF2thKtNn=weZ/LE;!oI.hL13uH)Fooj^xEI_xqSr_upw~F@o^[8uK#PNWU7UmC63PD_oQS7KpWM_Ov~;K1$VoJUcj_^MN&0x.wMZy-{9I6!?B#UFC=bQ9rng
-::[?J3wubU^g-RcQmP=O@&tfLX4g^$a$]l[]JVL?yLA@36FON&uJt5nU0?zfRI57/J^U37G$Gd#s8]rIj;e_m{lB^[p=lGu$!r8t-e??Vp$v+J{@iX,^^cRxVM7}~3a
-::yLgs24M/uqVQ];sq^]3Nk{I~Y5NtGkc~XhuUwi1uqx[(_xwBv(OUimXvV;Q?2^.@taC{V?WE5~RpAwNi&zop~1r(ZubmzscFDa1O#^-EoahfJ7l{Z?Wq{jx&KJ&aQ
-::uUabHg(mFBqA-BU5e+y[4^jFxpeTs.)PRPIa~5FN432lDO7qY0gQcLYpyvybh3LKkmq_aVko!;.!A=lll}|h42Mu8Rt+_e98(C2[]whw]/p~d,kAr-xvH2_&9+P7y
-::;U[1DwZ/l}Gk!k@S#Ii^b#dvWlP[@|BmLeSPpOz|D.{=x.PUm_&.EPRXVimL;XVb1Co?j#Zay9Kj-iTHW&_$U38d#DqDVD^D.iMK-#M1_=5g#g@mws3yVHV_s8bi9
-::as[NqZ0T@;VH&[b4rS$Os[6G09_x3~jzNDi^#/JR#y@g&js)oB)!DzrAdl4Nh~+rf78eHeV+s_EFb0,hl[}/})4YQJ6vv)S0|Pcrb@RnYUIsc;WK7rZnPCY-hU#kT
-::teoab0{[Rs$(oD|7JW;vkE3M1o$;-),tB&Q)}o~71NyqxvghU.Q^m=LJPBDJ]o5_B?pE,beT8N+Dkv7VwvZ(Ewa;]|I)?cjQN]eh07rpr$TxVr/}Xe;{O4MA?[5[_
-::E,tc}6n}}RYQ)ACwp/Im6r_aA!U7~LU=MByEbV,uZ^XoQ8GlN3hLu1K1nVeMAszQHUt09rQf?nlSlkfIG[z4bX|.)rv5fEwCx.uCwK]]@gFz6^{d-@b5dDm=tF6ol
-::pjzd+eQiZ9UxTxj&/CcO&LOm^-ti;Ua1rEu.rZPs75,NBY0~^/vE{|hSzJ!bLAF7-AF8nAuNy4g!~MEkAX,oz7eFXJilezFUr8Radx0#-U)snZh6[F)_QK0b8C@eY
-::DzkL[2bbnu;;xKYe)60vkL9hLoJR_kht[b@O_rI,Zj6MI2c7JPVdEI+f.mM8Igiyi{5.y;zY6w[y+qvikG(fQC8JReJBG7Wv7giY!uHS8)U?+!HZ(p2wd1[M]{eiQ
-::e/^~|+w?fGvMO6R|0s?^Op)$CpOonNV3o]VGp9ZF8B#N)gnxxxiq?upk!trQD[P;Yj9?c2[MdYlJM=-jourz~I+1@{YTT7eUcT}Ysjj_or2QzILejM7l)~]RpC}.V
-::&c)0ah!Uu?Vcl1N#U-hoPT6bTE[cy0lQjmU]Cx3,mFWjUiSfn.iCVc^Khqgi)Gl4bhpi9=nnM5H?e{CPJ.x1y=-q4D&r,{Uj)w^@bvjcUi?t#JY}V^m^@rZ&K;{;d
-::+KOXvK^b,6^/l!X7c3caYJ;Ilk3sl[,wr{J)Oy})a0qr43@6$CrzB5{VzGOY^noJ(rP4z&PyAKYBl&LfI3J_~KOt5rZpLC7BQPBZR{xjSub;K039mSkd#1B1/q$Nf
-::C4X4bcfzgbPh]UHS.sRk+tLouwh#PJr!6hSnxnk@Q.XEG,H8k_eW5j,8S]KuDS~Z=W~wTEf1W?_@nri#X}_AjSF)i^ndAFUSH.{$w-&{oI.=hm|LgaR8mwK=r$PI#
-::eaB!r-Ov{YBF-d2/703ks0(H|55h4[eN;w[7goI[?_8e+POv[y@#@][X1[s!A+v6ap.dH0]bHPJlAagn]o{3+bdO|dz(Q=cTtq|iFM4F@+.zg#N3hItRy]NOo4)e1
-::@@6jJKZ?HGXHu^KaVpu|R]t(LR9s+.d]v?$-V2NHb(/)sI+7_rAcD8e.}{uB-n!b99/FZUJwN6e@5Uf8)lKi,,hSj_hc}~Npyi$[hfT.PWdB;oTEeCVN[=RV8g#t)
-::.|Vv1J4r!.g#F{0)T}-P$k[sp{nF?#8{25G75Tf/IL~|8JXd-L1;O{)^r@!uO7xxcZMMzRNDpj(3v/Och1Y{ldGa4W.01cu^ol^_]9Y4#?}gWiN2}2mpV|QQS)3HZ
-::iSFOfA?xb7^w)xp6o&8=#kYe]{5GHVnNo9Im;!xy;~&lHc2hV+w~I-5;hbOqz#N^oQ13E}W.Bf[[fkroHRZFm(6lVNSHfm?bx&~db-UiJzbLYwKYeRt|KQ6/Q|VN;
-::;}?}Q^@vz_,K=i1F0HrNO[1}C-[x(1BiuN9aV}XNex@_cRw}gy1@)x;o/B5VgY$n#Qp,tIfs66&L$hhw3@0NORUAaheZ##6$)a]0jUj59n[Q)aN9^r#V??hA{_Cy{
-::0;,n4+NG#$2$Q.gU09LRY#2LY-/711p1ml/uv}Kyt|!6Tb2|?pM7I!s,u^o([ulpx{_jA21DqQUd4^i(C8y#N9I3xnnKyOcHI9_m]Fko?m$D&?Q&X]FLjy0zh}+n1
-::JyZq!tv$Anm|-(},uAig2a9_C3Aj&mpff!]Eamr.Bis[0vo8i+zn^izw0aSOo|LWIL#Vct|Gtvb(u8Ct5|vse6jNTt0ibHI$pER2Obx,(vz?5uCN-}}t4XK|?;^CF
-::uGWXD+K-j#f|Sm~]D[OkZhA$9P,lUnsnYKhIAtat1;)0kPtoM5Tt^0tF6{X~IW-mT0)Sj1lCQ^9U}I!A9&gEsrm-QXa6{9)pf{C6li=.HwYQZ}/lb]O?9[AmwmIC8
-::H[f]cIIV)sE~mG8ySZ(!W~F^mZBc;F/C]{d,=zgFU1/0={wzwi0L^Q,+fsrh)ukEyeem~5=kqoH-dr]YQVLD&njD(,ql!y4]IzWSQ|KqGWM4^=8(u^MiPy-Pk)aF[
-::|Bi/z8D~96U85nTpj$9G$vv;6$aYEzIYg[G{!p{A8r)+vfw@F,BOF(X@U#L[V3F1n5X(;thlT/p0!5bz&s[~@B[VbM5Ii;f,dICT$i]oCn_|HB0^gx&6ZZwArGl57
-::Mi@TgEpwud+)5=Bu}THjeOf2FBR=N#IWq$F37@5#UCW-S^9xF72iF&P6Md^;Mjd+KG0c-3a)3BI{@mJMLJgvn]$1[fVM,sPHWuuNAwqlWO4vp2R)$p[a|4CkR4W.o
-::tL]Qo=T0(a,K]VS4ehP(,[js4oiTZmy)8CE7m8[qQza-ab@mu3bXgDTIimE}iF@Vr09[6[Sx$[w!70UfUfM?^#qRLhtr)TCk|0n/{0~qe1xlij^yAxpB@H+XMJ!U^
-::rW|lr8-A!~(HNr;6!yJ9.~Kyks2pJI4C#eW=WW@k!7@!Mpp2K7g@^guDYe+Z!Z[T_HgC]4SBcsHF4qXEix|wV&T#qG{Tom@+y[=8ltQ=v|6MR5Qh@Lil5J4)G~|dE
-::RjDRd#m$56r,0q^[o@j-tHHJ#Y)+2FZIb/v2haa=JI9[1JApxo4($UMhZ{H]mE!H#?yIf+ZN?wenC{rOZaLqaBGBppvwnpTVK@|.XH]/P51vBdf.|Gq!3D5CtYM@F
-::,XlPRGKYZ2)n~aehy;+i-pWBU{o~cA{7ce+So]1|.PO|juIMBCePJI_T,Rk-+h)4FPi(m82Z}nN^AskHbi}~+D!R27Ge.Hp0FIBfkHI0LQ|.o$@Hv_~cK@]m{IoI1
-::b3+ZU!}4eU.XVOL63?7cF!.VF!SBP_Ucym+y^mWNv?i}2-5SgZ]6?Kk[,)qKh;AugFnu9#bJj2xbJoKI!{85b9|{k~]+y4|WzIg^JUne6.Qgm_[E8Nu2d?[2IN|uP
-::_Ox1G)+_RiSjKEILS8p!#(8CP@PogX(&7T[9zs7r4BmObPp,f_(wLNim$c)eg8#HbHct2sV=.dUygyT4SAx&w{#)9vy7~SrjuEHs!0@1x0B|bO=JqX-HK5u6V.Bjo
-::5Yi&98=y$hSkWMe1iH6t[^j[|;8e+5QRcUIP-(J.zWKW^o5Q1uk&Ml7aE0X&/Y1/1xtv0Iqc?&Rgwu^X=s8kWf@tm=G#mY6w6|t7FKS[pBb5tU8Yto;&]b8|UU-?&
-::Ip+y{TMi8Ifg+CDC/mc~Ie@G|)^G(SIGUc);rf43RBA~~LnN.5TpN0A5{V1QEubUB^,MvvLq!DR.4aKf+L02cg+9Pb1?hOHz6;2ZB!WYNhs[(;g2s+Iy1iX6OO(aE
-::OGj@0Kq&#x451z(#6u{{otZ&niA1EAVhC6o2#nCn8jAB[9t7-nAiVJ{I]/@OAu2fzk^2Qa?Pxo.@m#z|y4V)7gtOnYrzF|oX!S.KbXi!_7PToyP5dC3(hAoORu@2/
-::$+-l5mk~3Hjk?_|ORbD5]ojIQln_l}fns#qKY,V(EQx3q;;1+J5S&25Zk7QQxlv1R1Yx~2II2/U{Mr$/n.MHEU=|6.7euQ~goeDANYo|khAHiKEG-Kj5Fx?lOetwE
-::CaTcFG5xJ#TnUvWWkG;#1qnbMmM#+59O{ZB&MpmK96TwxXR{?n,&D;/HAf^VsF$haVrlr[rrb;bI??4|y?NISyYNsn7vaw6/OiuktK3YYB{agtejRj4ZfRxHgf[Q]
-::rS)mRK/;8ix-f25flXLzw/;KgL.eUoDIui}u;83FY6y@kj1ZLnlX9$TRp@.T7)sG7Ary,7ZXOxZ+P?IzN.#lgv=-Z+J4[t07(+cu[_-Qa.De4)2_rFz0hP,;RFa?|
-::r-^W#-N9}Aw_B.SRHaW7DM17mVN7W?uoM~~QTn)k!jYt5mt;0pD(c38fEYnx0RCeco;dTrsSz}@/Y#psQ#s8V2u!9&DAY&5z#7qVyC95HjcKYHiE!U26c|]KsqNNq
-::2a[&tO2D^ZLTc!#ER/)K3i?L_IwmTfUka[A7EXvUO;$2B_Bh2;mm?zRzON{~,.g8|LRvy.09=Aa!|.T+!gIx2&]Ol.n]4w7q+PRqB/qJmOKpaPN/3Zy,HQMabd0Ee
-::CDN-ZIAYgpGs474+^^DN4m[|kKG+_uA16GfG4$!CUca8!6@7|O7)]F]T$=-8I2D?V-(G9@{k_6?.-UX)b}Qs8+xi7[gX4B.5tOaH&fLZ&]0MD(41|yv?3P543csaA
-::Sdo3ZjQxJxYd9[PC;xHt-SPJNw8p(6lNfn_R9KX/nn$8H)60fGw!O@]aMXj##!-mO19,g!gnxPvG&vO_SE0KGS/K}@TUsa[fr+{lZ$L)X,CMC-9@9A(CvujT1+)kG
-::VNGzd.;jNqq)r.|z0sr?WI=00M4jea)H]v)5UR06YmMfzC/Xvnmo,thV4aC]jFCgD8kOUHf(wlXTht[WBp4eGnQXsN!Zjl@lSc&ewUaoSOxvinC8B8HwTpg4]MEWR
-::=G9E|HI62&6l@m$!bq9+QwxofrKE~,[h{k[FFV{/tNI3@{_s~=BVWIU1{amo2u&Y?I3gJXAzf3+TH(j66=,z=,{C.mGWmy+7A6{]i.Mu(#JnfDi7V1,AVDXk+gsaG
-::1|v6,pyYrw,PPp|?fMzd5/_b^VXf5]I3dUhQB$Uis/6$xyZpug,#$KhxttekRT^j#lj3qnx]of-+r6+i[tlx=r5vdFu8}Wpx.NgtSarVuua=O.goYGGu?mphMyjCQ
-::H?btM)hy]}GvvKAyCh{-sp7W;TF;vvc3TAXx578T2gFX4@h91x3XW[F^JyKk(C|#!Qwl]9UMS6NRAs5y?tFpPDL_/eV.lErd6K$dLypX9xkflexe@mT??IuSHL4U(
-::8Ek7M&-j1tIW#kXZB,+X-WW7iIkXv=E^j!eQi.dZH&J!y)}8Ek@H1b}|Ei7F#lzeXB1o,JYxVJ~njz+)7]1k.cMX?Uad@(;9G1,9R7+XhT2^v1I;}Z?6s{VIiX,6L
-::jHoGX=/{zbMloQd=h.A7B{XcMispTPRTS;mk08_NsX?dVX=~/ZG+r+s;uXdJ8D.FQ]tQV&$0v!pI+-g.g|i(@U@xHsN[=cPp#HG8^-|;xHkkwNf-VY6rI[WMz4Ewe
-::(TGxuJTWl#e#7kHsPL1h]-=5yb;-5/sv)8&W8=v}e9qI(^J&8DUwVae#GQBma7(6@Oh}OE[iRPo@ZpDco!!qY_sE3PuFeB9&c{Sj-S{$Be$DD!e)YvUg=j+sHV|Yo
-::6pC3|wYJkXw^.0EOx|Qn+?zH{c9,i_iw~0AGk;S_c^89q5rmoFs/Z|.nbDw/{LQwp8+w]srZMKin/G)dAP[2V!M#Mjo7Xf/.Z$1QGWLI]v/5#!e=_f#z)8d/]t$##
-::AeG.#M)ZpqCF;/6A2rqxdk-Fx+xrf|SZ$jhz_H.Ip4Uv)]j4H1N-G~WEGZSIV)@Y4ROks.P)U?jRuzGTSy~vZ98n5]g3lMh34RhqgeY016^K[.f,6U+b(O4r71sq;
-::z/dMvxvxFEDjW]B6;hILy2]JAJiqy92V/kPaQS[yz,Lv(zKY+.pzLh@]y&VGTCh{A{KiE;=wX3Ozpg(2y{SX~+R2n_yb866b?o7FRNPv#3Zc6;Ag{WLqJg-NE1mHk
-::3P^])S72+)]?4A4D~9w8JV7_h!!K~RhlvZ|31?((IEgUMyl}zJQVS.Kg3S8WSo0Gw3V0B{PiL_,Olx)qQA&S2Y5[YQ,piiHqGH9BuK?f&N2^nur?a]5Qh&({s67_L
-::$tK}hGm5,eF8Cmv0X2)xFR;1,YHPoFp~ImHf@x.GIr)Wia3Gj4NH1/rL,JSOv_eoxHn@rIMz3vyzn8@tSQ&)xc-YJFHoAqB8?a|+C2/U==)JaY1X-lF^D69j.QRL}
-::[D}{OyNC-!Xwpl(h/gN56dsbn=Iy}R0{N}4#trwc(eF{#=z?Ur)YD.rAJL4qt!ia|i/dIQh-fgQeY;FEYHuuUJZ6Hh)#qOkcKLDBo!pP)kCZ.52|ItN{laRQbRt;=
-::1Hbk}cSfUhfZGJ+PY)Hjnescj]LK_AG+t9CrNL#QdMJp?ZP8Q9+I#|28;FJvH;tf[skBiGuN4mP4qlv2#bDd@h?]nBddFg34!8du8g3B!WYQfO9KYYcF44zy3;t~x
-::_nO=yx}IDm^,[wTcv(wHDwJ/=1ez0xS)HdlfcjGYx[GYN[6-tPPHI2hgT~25V;gjr)ws@o&fF&X9HgJ~Or;KI]s=Kd=TzPWOiswPL##?L@X8tNGMPBKr)CFqGGU^A
-::N?cZy9256@o@ViS$BUv2|AyNc2A1Hl$pn0?QiEqj8_I]Mo8JqW7Po64uv~VxF#tk7PD7NKj(xLFMK7DolQ^4MlgVsM+a7X}{TkU&5QV;#-9lu,+LzjTvM9$$C5j3;
-::3NIJ95TJvy])ReFLANxEIp+OyaH#YR^Q-16At@5VX=W!4qOp#&uqPuLJ@BL$6.]wev4w3LKJ(hlxD-[$b)F3taJu=zlEe^pkCa2^pN|P9p@Q+O.7jB6_0zoct4JiO
-::61&&&{gV4ELU!bssq!zsgwDL(jZuhzpb9j1@{jFsB1a=[tU)e5!}bKn_JQeEH0tK=4wKqfwju5=-/3?c&g)g.(knu,HqHOs2E}8!_G5[yr^-aj_M^dP)klCFpj/EW
-::&#;{(THlxW&(njH#)4-!M.4.=OwOM460QRePm]ceg_(pqCt8wzIbdpv8X|IWrlNTF4@v_wLL{z4D]v@w^skk#^L.gdCrI@|&sqkcj+$#Vi-}y+WAWUC+axS2G-iSQ
-::AbNvU4+Q;!54ZE=|5vQ(ceU^PhRGYscwpTi#RK#P=o{g0TZ~tP+DCGLy?l}i/V.w2QTctCZ43~@Z[{Wyu;zlFhP@Oyp-bkcaQx]!;1$m_m&3,I(;(6_gWtayS!!IE
-::oDD!X!_=,m&VmsGFu@}Q9]yU}H$3r?p21xV5zaAGmBGLafo^B14SPKNW3ZVn$).9T!2{|B(?O,T.us@chTvM{6Z.D|g8SGC#NF2~xB1MOmLahByIKFj!?X&Zz[P;^
-::Dwa3tYhVCuq4bqm.hm;GU!rig#8wk)BLGbx7oh?)3uYq)jiBX#fd9}(!Lrym/Q_CR,spm)m=F$}m|;uxP$$Bko&/Uxt_!c)EhruCPPo9?T$rHCmP=kh@Sgi&x=$m[
-::kD&qi-3|apE.2U8z,L;O)1^hd?^MiYI18aR2@~hP96UY0o[hJ7nCN(9u@a,Qgy/mw7yPhdC5?Q^NK24B#GQF^Rq#s0.F6(ZZKqAWKmrdPd+Io;$jGc-8XhIqRoZ.^
-::bGRRDAA5b7t^#hC4,OSzaS4])o!!yhkKc87#dpU$KspGOml#N^/0&QOV|c5oyQ;fyQ)Nb#@op1b.K4roy0W]nI;|F~I?BAx9bNZ$;zG6,y1Y8Qy1kv^U0;DF.Cqk(
-::JG$&u,+iEw,j=[2,r~8{W&pvo#cr8hnO(RRj2$?TV7suL(aT{!vwOCy,)urO-3DNu??TX-@ELKh-Iiarh&Ck)synN[jk~pXjyoQAlkVLFyUKT&cX2zxXW[@;@=J67
-::^.=RSch_64c=vo4?9hln6([8{2Hsk{2c8c-TzDpURq(PJo#Dgai]B=V3ghVT$MHJ6V!R&n9$p[vG2Rc+53di/2k#+BGF|}BRbo1Ey3T,I0AK
+function UninstallLicenses($DllPath) {
+    $DynAssembly = New-Object System.Reflection.AssemblyName('Win32Lib')
+    $AssemblyBuilder = [AppDomain]::CurrentDomain.DefineDynamicAssembly($DynAssembly, [Reflection.Emit.AssemblyBuilderAccess]::Run)
+    $ModuleBuilder = $AssemblyBuilder.DefineDynamicModule('Win32Lib', $False)
+    $TypeBuilder = $ModuleBuilder.DefineType('sppc', 'Public, Class')
+    $DllImportConstructor = [Runtime.InteropServices.DllImportAttribute].GetConstructor(@([String]))
+    $FieldArray = [Reflection.FieldInfo[]] @([Runtime.InteropServices.DllImportAttribute].GetField('EntryPoint'))
+
+    $Open = $TypeBuilder.DefineMethod('SLOpen', [Reflection.MethodAttributes] 'Public, Static', [int], @([IntPtr].MakeByRefType()))
+    $Open.SetCustomAttribute((New-Object Reflection.Emit.CustomAttributeBuilder(
+                $DllImportConstructor,
+                @($DllPath),
+                $FieldArray,
+                @('SLOpen'))))
+
+    $GetSLIDList = $TypeBuilder.DefineMethod('SLGetSLIDList', [Reflection.MethodAttributes] 'Public, Static', [int], @([IntPtr], [int], [guid].MakeByRefType(), [int], [int].MakeByRefType(), [IntPtr].MakeByRefType()))
+    $GetSLIDList.SetCustomAttribute((New-Object Reflection.Emit.CustomAttributeBuilder(
+                $DllImportConstructor,
+                @($DllPath),
+                $FieldArray,
+                @('SLGetSLIDList'))))
+
+    $UninstallLicense = $TypeBuilder.DefineMethod('SLUninstallLicense', [Reflection.MethodAttributes] 'Public, Static', [int], @([IntPtr], [IntPtr]))
+    $UninstallLicense.SetCustomAttribute((New-Object Reflection.Emit.CustomAttributeBuilder(
+                $DllImportConstructor,
+                @($DllPath),
+                $FieldArray,
+                @('SLUninstallLicense'))))
+
+    $SPPC = $TypeBuilder.CreateType()
+    $Handle = [IntPtr]::Zero
+    $SPPC::SLOpen([ref]$handle) | Out-Null
+    $pnReturnIds = 0
+    $ppReturnIds = [IntPtr]::Zero
+
+    if (!$SPPC::SLGetSLIDList($handle, 0, [ref][guid]"0ff1ce15-a989-479d-af46-f275c6370663", 6, [ref]$pnReturnIds, [ref]$ppReturnIds)) {
+        foreach ($i in 0..($pnReturnIds - 1)) {
+            $SPPC::SLUninstallLicense($handle, [System.Int64]$ppReturnIds + [System.Int64]16 * $i) | Out-Null
+        }    
+    }
+}
+
+$OSPP = (Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\OfficeSoftwareProtectionPlatform" -ErrorAction SilentlyContinue).Path
+if ($OSPP) {
+    UninstallLicenses($OSPP + "osppc.dll")
+}
+UninstallLicenses("sppc.dll")
 :embdbin:
 
 :spptask:
@@ -4822,12 +4893,6 @@ Add-Type -Language CSharp -TypeDefinition @"
       this is false-positive, as long as you download the file from the trusted Home Page.</li>
     </ul>
     <ul>
-      <li>wmic.exe tool is removed from Windows 11 build 22483 and later.
-      <div>In order to overcome this, KMS_VL_ALL v45 and later incorporate simple VBScripts to query and execute WMI functions.<br />
-      <div>This require Windows Script Host to be working and <u>not disabled</u>.<br />
-      <div>Furthermore, be advised, this may increase the ratio for marking the script(s) as a security threat.</div></li>
-    </ul>
-    <ul>
       <li>Home Page:<br />
       <a href="https://forums.mydigitallife.net/posts/838808/" target="_blank">https://forums.mydigitallife.net/posts/838808/</a><br />
       Backup links:<br />
@@ -4882,7 +4947,7 @@ Add-Type -Language CSharp -TypeDefinition @"
       <li>Updates for Windows or Office do not affect or block KMS activation, only a new KMS protocol will not work with the local emulator.</li>
     </ul>
     <ul>
-      <li>The mechanism of <strong>SppExtComObjPatcher</strong> makes it act as a ready-on-request KMS server, providing instant activation without external schedule tasks or manual intervention.<br />
+      <li>The mechanism of <strong>SppExtComObjPatcher</strong> makes it act as a ready-on-request KMS server, providing instant activation without external scheduled tasks or manual intervention.<br />
       Including auto renewal, auto activation of volume Office afterward, reactivation because of hardware change, date change, windows or office edition change... etc.
       <div>On Windows 7, later installed Office may require initiating the first activation vis OSPP.vbs or the script, or opening Office program.</div></li>
     </ul>
@@ -4900,7 +4965,7 @@ Add-Type -Language CSharp -TypeDefinition @"
       <div>copy or link the file <code>"C:\Windows\System32\SppExtComObjHook.dll"</code><br />
       add the hook registry keys to <code>"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options"</code><br />
       add osppsvc.exe keys to <code>"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OfficeSoftwareProtectionPlatform"</code><br />
-      create schedule task <code>"\Microsoft\Windows\SoftwareProtectionPlatform\SvcTrigger"</code> (on Windows 8 and later)</div></li>
+      create scheduled task <code>"\Microsoft\Windows\SoftwareProtectionPlatform\SvcTrigger"</code> (on Windows 8 and later)</div></li>
     </ul>
             <hr />
             <br />
@@ -4908,8 +4973,10 @@ Add-Type -Language CSharp -TypeDefinition @"
             <h2 id="Supported">Supported Products</h2>
     <p>Volume-capable:</p>
     <ul>
-      <li>Windows 10/11:<br />
-      Enterprise, Enterprise LTSC/LTSB, Enterprise G, Enterprise multi-session, Enterprise, Education, Pro, Pro Workstation, Pro Education, Home, Home Single Language, Home China</li><br />
+      <li>Windows 11:<br />
+      Enterprise, Enterprise LTSC, IoT Enterprise LTSC, Enterprise G, SE (CloudEdition), Education, Pro, Pro Workstation, Pro Education, Home, Home Single Language, Home China</li><br />
+      <li>Windows 10:<br />
+      Enterprise, Enterprise LTSC/LTSB, Enterprise G, Education, Pro, Pro Workstation, Pro Education, Home, Home Single Language, Home China</li><br />
       <li>Windows 8.1:<br />
       Enterprise, Pro, Pro with Media Center, Core, Core Single Language, Core China, Pro for Students, Bing, Bing Single Language, Bing China, Embedded Industry Enterprise/Pro/Automotive</li><br />
       <li>Windows 8:<br />
@@ -4937,6 +5004,12 @@ Add-Type -Language CSharp -TypeDefinition @"
     <ul>
       <li>Windows 8 Core edition variants, Pro with Media Center</li>
     </ul>
+    <p>Windows 10/11 Enterprise multi-session:</p>
+    <ul>
+      <li>This edition is officially supported for Azure Virtual Desktop service</li>
+      <li>With 2022 updates, the edition KMS activation will not work without AVD license</li>
+      <li>For more info, see <a href="https://docs.microsoft.com/en-us/azure/virtual-desktop/windows-10-multisession-faq" target="_blank">here</a></li>
+    </ul>
     <p>Notes:</p>
     <ul>
       <li>supported <u>Windows</u> products do not need volume conversion, only the GVLK (KMS key) is needed, which the script will install accordingly.</li>
@@ -4950,15 +5023,16 @@ Add-Type -Language CSharp -TypeDefinition @"
       <li>Windows editions which do not support KMS activation by design:<br />
       Windows Evaluation Editions<br />
       Windows 7 (Starter, HomeBasic, HomePremium, Ultimate)<br />
-      Windows 10 (Cloud "S", IoTEnterprise, IoTEnterpriseS, ProfessionalSingleLanguage... etc)<br />
-      Windows Server (Server Foundation, Storage Server, Home Server 2011... etc)</li>
+      Windows 10 (Cloud "S", IoT Enterprise, IoT EnterpriseS, Professional SingleLanguage, Professional China... etc)<br />
+      Windows 11 (IoT Enterprise, Professional SingleLanguage, Professional China... etc)<br />
+      Windows Server (Azure Stack HCI, Server Foundation, Storage Server, Home Server 2011... etc)</li>
     </ul>
     <p>______________________________</p>
             <h3>Office C2R 'Your license isn't genuine' notification banner</h3>
     <ul>
       <li>Office Click-to-Run builds (since February 2021) that are activated with KMS checks the existence of the KMS server name in the registry.</li>
       <li>If KMS server is not present, a banner is shown in Office programs notifying that "Office isn't licensed properly", see <a href="https://i.imgur.com/gLFxssD.png" target="_blank">here</a>.</li>
-      <li>Therefore in manual mode, <code>KeyManagementServiceName</code> value containing a non-existent IP address <strong>0.0.0.0</strong> will be kept in the below registry keys:
+      <li>Therefore in manual mode, <code>KeyManagementServiceName</code> value containing an internal private-network IP address <strong>172.16.0.2</strong> will be kept in the below registry keys:
       <div><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</code><br />
       <code>HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</code></div></li>
       <li>This is perfectly fine to keep, and it does not affect Windows or Office activation.</li>
@@ -4986,8 +5060,8 @@ Add-Type -Language CSharp -TypeDefinition @"
     <a href="https://forums.mydigitallife.net/posts/1150042/" target="_blank">Office-C2R-Retail2Volume</a></p>
     <p>You can also use other tools that can convert licensing:</p>
     <ul>
-      <li><a href="https://forums.mydigitallife.net/posts/1125229/" target="_blank">OfficeRTool</a> (supports converting and activating Office UWP)</li>
       <li><a href="https://forums.mydigitallife.net/threads/78950/" target="_blank">Office Tool Plus</a></li>
+      <li><a href="https://forums.mydigitallife.net/posts/1125229/" target="_blank">OfficeRTool</a></li>
     </ul>
             <hr />
             <br />
@@ -5032,7 +5106,7 @@ Add-Type -Language CSharp -TypeDefinition @"
     <ul>
       <li>from the menu, press <b>1</b> to <strong>Activate [Auto Renewal Mode]</strong></li>
     </ul>
-    <p>On Windows 8 and later, the script <em>duplicate</em> inbox system schedule task <code>SvcRestartTaskLogon</code> to <code>SvcTrigger</code><br />
+    <p>On Windows 8 and later, the script <em>duplicate</em> inbox system scheduled task <code>SvcRestartTaskLogon</code> to <code>SvcTrigger</code><br />
     this is just a precaution step to insure that the auto renewal period is evaluated and respected, it's not directly related to activation itself, and you can manually remove it.</p>
     <p>To remove this mode:</p>
     <ul>
@@ -5112,6 +5186,16 @@ Add-Type -Language CSharp -TypeDefinition @"
     <ul>
       <li>from the menu, press <b>7</b> to change the state to <strong>Convert Office C2R-R2V</strong> <b>[No]</b></li>
     </ul>
+    <p>______________________________</p>
+
+            <h3 id="ConfOVR">Override Office C2R vNext</h3>
+    <p>The script is set by default to override Office C2R vNext license (subscription or lifetime) or its residue.</p>
+    <p>However, if you prefer to turn OFF this function:</p>
+    <ul>
+      <li>from the menu, press letter <b>V</b> to change the state to <strong>Override Office C2R vNext</strong> <b>[No]</b></li>
+    </ul>
+    <p>Notice:<br />
+    If Office vNext license is detected, the option and state will be highlighted, to draw the user attention</p>
     <p>______________________________</p>
 
             <h3 id="ConfW10">Skip Windows 10/11 KMS 2038</h3>
@@ -5243,6 +5327,9 @@ Add-Type -Language CSharp -TypeDefinition @"
       <li>Turn OFF Office C2R-R2V conversion:<br /><code>/c</code></li>
     </ul>
     <ul>
+      <li>Do not override Office C2R vNext:<br /><code>/v</code></li>
+    </ul>
+    <ul>
       <li>Do not skip Windows 10/11 KMS38:<br /><code>/x</code></li>
     </ul>
     <p>
@@ -5264,7 +5351,7 @@ Add-Type -Language CSharp -TypeDefinition @"
       <li>Uninstall switch <code>/r</code> always takes precedence over Activation switches</li>
     </ul>
     <ul>
-      <li>If these Configuration switches <code>/w /o /c /x</code> are specified without other switches, they only change the corresponding state in Menu.</li>
+      <li>If these Configuration switches <code>/w /o /c /v /x</code> are specified without other switches, they only change the corresponding state in Menu.</li>
     </ul>
     <ul>
       <li>If Process Windows/Office switches <code>/o /w</code> are specified together, the last one takes precedence.</li>
@@ -5406,6 +5493,7 @@ reg add HKLM\SOFTWARE\Classes\cmdfile\shell\runas\command /f /v "" /t REG_EXPAND
       <a href="https://forums.mydigitallife.net/posts/309737/" target="_blank">MasterDisaster</a> - Original script, WMI methods.<br />
       <a href="https://forums.mydigitallife.net/members/1108726/" target="_blank">Windows_Addict</a> - Features suggestion, ideas, testing, and co-enhancing.<br />
       <a href="https://github.com/AveYo/Compressed2TXT" target="_blank">AveYo</a> - Compressed2TXT ascii encoder.<br />
+      <a href="https://gist.github.com/ave9858/9fff6af726ba3ddc646285d1bbf37e71" target="_blank">ave9858</a> - CleanOffice.ps1<br />
       <a href="https://stackoverflow.com/a/10407642" target="_blank">dbenham, jeb</a> - Color text in batch script.<br />
       <a href="https://stackoverflow.com/a/13351373" target="_blank">dbenham</a> - Set buffer height independently of window height.<br />
       <a href="https://forums.mydigitallife.net/threads/74769/" target="_blank">hearywarlot</a> - Auto Elevate as admin.<br />
@@ -5451,7 +5539,8 @@ reg add HKLM\SOFTWARE\Classes\cmdfile\shell\runas\command /f /v "" /t REG_EXPAND
             &nbsp;&nbsp;&nbsp;<a href="#ConfDbg">Debug Mode</a><br />
             &nbsp;&nbsp;&nbsp;<a href="#ConfAct">Activation Choice</a><br />
             &nbsp;&nbsp;&nbsp;<a href="#ConfC2R">Office C2R-R2V</a><br />
-            &nbsp;&nbsp;&nbsp;<a href="#ConfW10">KMS38 Win10</a><br /><br />
+            &nbsp;&nbsp;&nbsp;<a href="#ConfOVR">Office C2R vNext</a><br />
+            &nbsp;&nbsp;&nbsp;<a href="#ConfW10">KMS38 Win 10/11</a><br /><br />
             <a href="#OptMisc">Miscellaneous Options</a><br />
             &nbsp;&nbsp;&nbsp;<a href="#MiscChk">Activation Status</a><br />
             &nbsp;&nbsp;&nbsp;<a href="#MiscOEM">$OEM$ Folder</a><br /><br />
@@ -5497,9 +5586,31 @@ if %Unattend% EQU 1 goto :eof
 pause >nul
 goto :eof
 
+:E_LM
+echo %_err%
+echo Windows PowerShell is not properly responding.
+echo check if it is working, and not locked in Constrained Language Mode.
+echo.
+echo Press any key to exit.
+if %_Debug% EQU 1 goto :eof
+if %Unattend% EQU 1 goto :eof
+pause >nul
+goto :eof
+
 :E_VBS
 echo %_err%
 echo Windows Script Host is disabled.
+echo It is required for this script to work.
+echo.
+echo Press any key to exit.
+if %_Debug% EQU 1 goto :eof
+if %Unattend% EQU 1 goto :eof
+pause >nul
+goto :eof
+
+:E_WMS
+echo %_err%
+echo Windows Management Instrumentation [WinMgmt] service is disabled.
 echo It is required for this script to work.
 echo.
 echo Press any key to exit.

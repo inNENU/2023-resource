@@ -1,7 +1,7 @@
 title: 本科招生
 grey: true
 author: Mr.Hope
-time: 2023-06-24T17:26:42.230Z
+time: 2023-06-26T10:31:30.231Z
 shareable: true
 content:
   - tag: list
@@ -40,6 +40,10 @@ content:
       - text: 招生咨询群
         icon: qq-group
         path: qq-group
+
+      - text: 线下招生咨询活动
+        icon: activity
+        path: activity
 
   - tag: list
     header: 常见问题

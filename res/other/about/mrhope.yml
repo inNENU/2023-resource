@@ -1,6 +1,6 @@
 title: Mr.Hope 个人简介
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-26T10:31:31.968Z
 shareable: true
 content:
   - tag: account
@@ -26,25 +26,103 @@ content:
   - tag: title
     text: 媒体账号
 
+  - tag: grid
+    items:
+      - text: GitHub
+        icon: github
+        name: GitHub
+        color: olive
+        url: web?url=https://github.com/Mister-Hope
+        env:
+          - app
+          - web
+
+      - text: QQ 空间
+        icon: qzone
+        name: Qzone
+        color: red
+        url: web?url=https://1178522294.qzone.qq.com/
+        env:
+          - app
+          - web
+
+      - text: 知乎
+        icon: zhihu
+        name: Zhihu
+        color: blue
+        url: web?url=https://www.zhihu.com/people/mister-hope
+        env:
+          - app
+          - web
+
+      - text: B 站
+        icon: bilibili
+        name: BiliBili
+        color: grey
+        url: web?url=https://space.bilibili.com/327957
+        env:
+          - app
+          - web
+
+      - text: Steam
+        icon: steam
+        name: Steam
+        color: blue
+        url: web?url=https://steamcommunity.com/id/Mr-Hope/
+        env:
+          - app
+          - web
+
+      - text: 微博
+        icon: weibo
+        name: Weibo
+        color: orange
+        url: web?url=https://steamcommunity.com/id/Mr-Hope/
+        env:
+          - app
+          - web
+
   - tag: action
     header: Github
     content: https://github.com/Mister-Hope
+    env:
+      - qq
+      - wx
 
   - tag: action
     header: QQ 空间
     content: https://1178522294.qzone.qq.com/
+    env:
+      - qq
+      - wx
 
   - tag: action
     header: 知乎
     content: https://www.zhihu.com/people/mister-hope
+    env:
+      - qq
+      - wx
 
   - tag: action
     header: Steam
     content: https://steamcommunity.com/id/Mr-Hope/
+    env:
+      - qq
+      - wx
+
+  - tag: action
+    header: BiliBili
+    content: https://space.bilibili.com/630395917
+    env:
+      - qq
+      - wx
 
   - tag: action
     header: 微博
     content: https://weibo.com/misterhope
+    env:
+      - qq
+      - wx
 
   - tag: title
     text: 本科所获奖学金与奖项

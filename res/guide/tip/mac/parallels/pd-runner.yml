@@ -1,6 +1,6 @@
 title: 避免通过 PD Runner 延长试用期
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-26T10:31:31.806Z
 shareable: true
 content:
   - tag: title
@@ -26,7 +26,7 @@ content:
 
   - tag: action
     header: 下载地址
-    content: $file/tools/PD-Runner_v0.3.6_Universal2.dmg
+    content: $file/tools/PDPatcher-v18.1.1r1.zip
 
   - tag: text
     heading: 不要安装

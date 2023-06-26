@@ -25,7 +25,7 @@ content:
         color: purple
         name: Repair
         icon: repair
-        url: web?url=http://gyglxt.nenu.edu.cn//repair/redirect/website/index
+        url: web?url=http://gyglxt.nenu.edu.cn/repair/redirect/website/index
 
       - text: 宿舍系统
         color: grey

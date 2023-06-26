@@ -33,6 +33,10 @@ content:
         icon: qq-group
         path: intro/enroll/under/qq-group
 
+      - text: 线下招生咨询活动
+        icon: activity
+        path: intro/enroll/under/activity
+
       - text: 更多信息
         icon: more
         path: intro/enroll/under/
