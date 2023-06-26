@@ -1,6 +1,6 @@
 title: Mr.Hope 个人简介
 author: Mr.Hope
-time: 2023-06-26T10:31:31.968Z
+time: 2023-06-26T10:43:33.956Z
 shareable: true
 content:
   - tag: account
@@ -27,6 +27,7 @@ content:
     text: 媒体账号
 
   - tag: grid
+    header: false
     items:
       - text: GitHub
         icon: github
@@ -59,7 +60,7 @@ content:
         icon: bilibili
         name: BiliBili
         color: grey
-        url: web?url=https://space.bilibili.com/327957
+        url: web?url=https://space.bilibili.com/630395917
         env:
           - app
           - web
@@ -77,7 +78,7 @@ content:
         icon: weibo
         name: Weibo
         color: orange
-        url: web?url=https://steamcommunity.com/id/Mr-Hope/
+        url: web?url=https://weibo.com/u/5253461473
         env:
           - app
           - web
@@ -119,7 +120,7 @@ content:
 
   - tag: action
     header: 微博
-    content: https://weibo.com/misterhope
+    content: https://weibo.com/u/5253461473
     env:
       - qq
       - wx
