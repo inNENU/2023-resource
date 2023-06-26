@@ -4,7 +4,7 @@ content:
   - tag: grid
     header: 四六级 (CET)
     items:
-      - text: 报考
+      - text: 报名
         color: blue
         name: Apply
         icon: apply
