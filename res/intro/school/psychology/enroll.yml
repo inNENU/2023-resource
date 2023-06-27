@@ -1,7 +1,7 @@
 title: 心理学院招生
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-27T07:41:46.524Z
 shareable: true
 content:
   - tag: title
@@ -28,7 +28,7 @@ content:
     heading: 心灵所向 智慧所往
 
   - tag: video
-    src: https://www.nenu.edu.cn/__local/6/2B/99/C7D661573E3961A783527BE9937_8D8B49CA_21E2030C.mp4?e=.mp4
+    src: https://zsb.nenu.edu.cn/__local/4/7F/D1/5F2FFE994F26F77806FB5533BFA_DDC58E5E_263AE510.mp4?e=.mp4
 
   - tag: list
     header: false
