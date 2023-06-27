@@ -1,6 +1,6 @@
 title: 经济与管理学院招生
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-27T16:49:20.729Z
 shareable: true
 content:
   - tag: title
@@ -17,6 +17,14 @@ content:
 
       - text: 会计学(中外合作办学)
         path: accountant-cop
+
+  - tag: phone
+    header: 本科招生电话
+    fName: 经管学院本科招生电话
+    num: 0431-84536127
+    org: 东北师范大学经济学院
+    street: 吉林省长春市净月大街 2555 号
+    postCode: 130117
 
   - tag: title
     text: 专业介绍视频

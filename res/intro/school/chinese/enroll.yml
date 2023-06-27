@@ -1,6 +1,6 @@
 title: 文学院专业
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-27T16:49:20.709Z
 shareable: true
 content:
   - tag: title
@@ -27,6 +27,15 @@ content:
 
   - tag: video
     src: https://www.nenu.edu.cn/__local/D/65/95/0AE1DEE36FA0E101694F6EED335_CD3FD9E4_B49F23B.mp4?e=.mp4
+
+  - tag: phone
+    fName: 文学院本科招生咨询
+    num: 0431-85098571
+    org: 东北师范大学
+    street: 吉林省长春市人民大街 5268 号
+    postCode: 130024
+    mail: wenxy@nenu.edu.cn
+    site: http://chinese.nenu.edu.cn/home
 
   - tag: title
     text: 硕士研究生招生概况

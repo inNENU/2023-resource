@@ -38,7 +38,7 @@
     - text: 本科招生指南
       icon: idea
       name: Guide
-      url: web?url=https://book.eol.cn/books/cusm/mobile/index.html
+      url: web?url=https://book.eol.cn/books/kpeu/mobile/index.html
       env:
         - app
         - web
@@ -52,8 +52,8 @@
         - web
 
 - tag: action
-  header: 2022 本科招生指南
-  content: https://book.eol.cn/books/cusm/mobile/index.html
+  header: 2023 本科招生指南
+  content: https://book.eol.cn/books/kpeu/mobile/index.html
   env:
     - qq
     - wx

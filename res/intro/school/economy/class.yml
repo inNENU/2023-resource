@@ -1,5 +1,5 @@
 title: 经济学类介绍
-time: 2022-08-21
+time: 2023-06-27T16:49:20.726Z
 shareable: true
 content:
   - tag: title
@@ -20,6 +20,15 @@ content:
     text: 分流专业详情
 
   - tag: list
+    header: 经济学
+    items:
+      - text: 经济学
+        path: economy
+
+      - text: 金融学
+        path: finance
+
+  - tag: list
     header: 工商管理
     items:
       - text: 人力资源管理
@@ -30,12 +39,3 @@ content:
 
       - text: 市场营销
         path: market
-
-  - tag: list
-    header: 经济学
-    items:
-      - text: 经济学
-        path: economy
-
-      - text: 金融学
-        path: finance

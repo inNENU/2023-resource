@@ -1,6 +1,6 @@
 title: 信息科学与技术学院招生
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-27T16:49:20.851Z
 shareable: true
 content:
   - tag: title
@@ -25,7 +25,7 @@ content:
     heading: 相关介绍
 
   - tag: doc
-    name: 计算机科学与技术专业、教育技术学专业、图书馆学专业&信息资源管理专业课程简介与大纲
+    name: 计算机科学与技术专业、教育技术学专业、图书馆学专业和信息资源管理专业课程简介与大纲
     url: $file/study/ist-kcjj.pdf
 
   - tag: title
@@ -36,6 +36,15 @@ content:
 
   - tag: video
     src: https://www.nenu.edu.cn/__local/F/D5/93/D59E3112BF53C1B96E564225CEB_441A7D1D_9569010.mp4?e=.mp4
+
+  - tag: phone
+    fName: 信息科学与技术学院本科招生
+    num: 0431-84536338
+    org: 东北师范大学
+    street: 吉林省长春市净月大街 2555 号
+    postCode: 130117
+    hostNum: 0431-84536331
+    site: https://ist.nenu.edu.cn/
 
   - tag: title
     text: 硕士研究生招生概况

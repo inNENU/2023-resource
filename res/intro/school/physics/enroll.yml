@@ -1,13 +1,16 @@
 title: 物理学院招生
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-27T16:49:20.957Z
 shareable: true
 content:
   - tag: title
     text: 本科招生概况
 
   - tag: p
-    text: 物理学从 2020 年开始按照物理学类进行大类招生，大二开学进行专业分流。
+    text:
+      - |-
+        学院招生专业包括: 物理学 (公费师范) 、物理学 (优师专项) 、物理学类。
+      - 物理学从 2020 年开始按照物理学类进行大类招生，大二开学进行专业分流。
 
   - tag: list
     header: 专业详情

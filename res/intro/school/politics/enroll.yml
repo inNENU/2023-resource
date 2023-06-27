@@ -1,19 +1,19 @@
 title: 政法学院招生
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2023-06-27T07:41:46.435Z
+time: 2023-06-27T16:49:20.970Z
 shareable: true
 content:
   - tag: title
     text: 本科招生概况
 
   - tag: p
-    text: 政法学院现设有思想政治教育(公费师范)、法学、行政管理、国际政治、政治学与行政学 5 个本科专业，其中后四个专业采取大类招生。
+    text: 政法学院现设有思想政治教育 (公费师范)、法学、行政管理、国际政治、政治学与行政学 5 个本科专业，其中后三个专业采取政治学大类招生。
 
   - tag: list
     header: 专业详情
     items:
-      - text: 思想政治教育(公费师范)
+      - text: 思想政治教育 (公费师范)
         path: mind
 
       - text: 法学
@@ -30,6 +30,14 @@ content:
 
   - tag: video
     src: https://zsb.nenu.edu.cn/__local/F/16/F4/E1573CA2A03822C16D112128B05_FE97B4C8_37DA6F11.mp4?e=.mp4
+
+  - tag: phone
+    fName: 政法学院本科招生咨询电话
+    num: 0431-84536183
+    org: 东北师范大学
+    street: 长春市净月大街 2555 号
+    postCode: 130117
+    site: https://zf.nenu.edu.cn/
 
   - tag: title
     text: 硕士研究生招生概况

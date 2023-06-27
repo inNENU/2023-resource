@@ -1,9 +1,9 @@
 title: 数字媒体技术专业
 desc: |-
   来源: 2022 本科招生指南、传媒科学学院官网
-time: 2023-06-24T17:26:42.523Z
+time: 2023-06-27T16:49:20.891Z
 cite:
-  - https://book.eol.cn/books/cusm/mobile/index.html
+  - https://book.eol.cn/books/kpeu/mobile/index.html
   - https://chuanmei.nenu.edu.cn/yxsz/szmt.htm
 shareable: true
 content:
@@ -22,12 +22,6 @@ content:
       - 近年来，我校数字媒体技术系承担了吉林省发展和改革委员会的科研项目，与项目合作方“北京微景天下科技有限公司”联合打造“全景摄像摄影技术”的专业实践课程，2015 级数字媒体技术专业参与课程实习并参与项目实施，完成“伪满皇宫”和“伪满八大部”两个全景影像 H5 应用的设计和开发。与此同时，我系还承担了学校信息化建设项目，由 2015 级和 2016 级数字媒体技术专业学生参与设计开发的“睛彩在线”大学生原创视频分享平台，旨在为吉林省高校学生影视类社团和传媒专业等相关学生、团队提供一个面向社会的原创作品的展示平台。
 
   - tag: title
-    text: 学费价格
-
-  - tag: text
-    text: 5060 元/年
-
-  - tag: title
     text: 主干课程
 
   - tag: ul
@@ -44,6 +38,12 @@ content:
       - 数字动画设计
       - 影视剪辑与实践
       - 计算机算法和互联网电视
+
+  - tag: title
+    text: 学费价格
+
+  - tag: text
+    text: 6830 元/年
 
   - tag: title
     text: 师资力量

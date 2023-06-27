@@ -1,7 +1,7 @@
 title: 文学院
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-06-27T16:49:20.712Z
 shareable: true
 content:
   - tag: account
@@ -14,7 +14,7 @@ content:
     location:
       latitude: 43.85947
       longitude: 125.32917
-    mail: chinese@nenu.edu.cn
+    mail: wenxy@nenu.edu.cn
     site: http://chinese.nenu.edu.cn/home
 
   - tag: list

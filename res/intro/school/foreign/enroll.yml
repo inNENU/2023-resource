@@ -1,6 +1,6 @@
 title: 外国语学院专业
 author: Mr.Hope
-time: 2022-08-23
+time: 2023-06-27T16:49:20.798Z
 shareable: true
 content:
   - tag: title
@@ -9,12 +9,13 @@ content:
   - tag: ul
     text:
       - "英语(公费师范): 公费培养"
-      - "英语: ￥5060/年"
-      - "英语(中外合作办学): ￥19000元/年"
-      - "日语: ￥3850/年"
-      - "俄语: ￥3850/年"
-      - "德语: ￥3850/年"
-      - "商务英语: ￥5060/年"
+      - "英语: ￥5810/年"
+      - "英语(中外合作办学): ￥26000元/年"
+      - "日语: ￥5810/年"
+      - "俄语: ￥5810/年"
+      - "德语: ￥5290/年"
+      - "商务英语: ￥5810/年"
+      - "商务英语(预科): ￥5000/年"
 
   - tag: ul
     type: warning
@@ -51,6 +52,16 @@ content:
 
   - tag: video
     src: https://www.nenu.edu.cn/__local/7/4E/F4/1BBF879C54FEE5DFC1F17350B45_DF692746_158A74AA.mp4?e=.mp4
+
+  - tag: phone
+    fName: 外国语学院本科招生咨询
+    num: 0431-85099679
+    org: 东北师范大学
+    street: 吉林省长春市人民大街 5268 号
+    hostNum: 0431-85099679
+    postCode: 130024(本部) / 130117(净月)
+    mail: wy@nenu.edu.cn
+    site: https://wy.nenu.edu.cn/
 
   - tag: title
     text: 硕士研究生招生概况

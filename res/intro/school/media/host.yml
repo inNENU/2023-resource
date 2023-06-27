@@ -1,9 +1,9 @@
 title: 播音与主持艺术专业
 desc: |-
   来源: 2022 本科招生指南、传媒科学学院官网
-time: 2023-06-24T17:26:42.529Z
+time: 2023-06-27T16:49:20.897Z
 cite:
-  - https://book.eol.cn/books/cusm/mobile/index.html
+  - https://book.eol.cn/books/kpeu/mobile/index.html
   - https://chuanmei.nenu.edu.cn/yxsz/byzc.htm
 shareable: true
 content:
@@ -22,12 +22,6 @@ content:
       - 本专业建立了“厚基础、重实践”的课程体系，在语言学、传播学、新闻学、社会学、艺术学等基础上，注重语言表达、语音纯正、文艺表演、新闻采编的专业学习特色；注重视野开阔、立德树人的传媒人思想品行，同时鼓励学生开辟个人双学位学习。
 
   - tag: title
-    text: 学费价格
-
-  - tag: text
-    text: 12000 元/年
-
-  - tag: title
     text: 主干课程
 
   - tag: ul
@@ -43,6 +37,12 @@ content:
       - 公共口语表达
       - 短视频策划与制作
       - 社交媒体营销
+
+  - tag: title
+    text: 学费价格
+
+  - tag: text
+    text: 12000 元/年
 
   - tag: title
     text: 师资力量

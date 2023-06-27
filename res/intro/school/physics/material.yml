@@ -1,9 +1,9 @@
 title: 材料物理
 desc: |-
-  来源: 2022 年本科招生指南
-time: 2022-08-21
+  来源: 2023 年本科招生指南
+time: 2023-06-27T16:49:20.962Z
 cite:
-  - https://book.eol.cn/books/cusm/mobile/index.html
+  - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
 content:
   - tag: title
@@ -41,10 +41,20 @@ content:
     text: 学费价格
 
   - tag: text
-    text: 3850 元/年
+    text: 6320 元/年
 
   - tag: title
     text: 就业方向
 
   - tag: text
     text: 为高等教育院校及科研院所培养材料科学专门人才，或从事与材料科学相关的工作。
+
+  - tag: title
+    text: 优秀毕业生建议
+
+  - tag: list
+    header: false
+    items:
+      - text: 张哲
+        icon: idea
+        path: /guide/advice/physics/zhe
