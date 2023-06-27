@@ -3,37 +3,27 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: title
-    text: 本科招生
+  # - tag: title
+  #   text: 本科招生
 
-  - tag: card
-    cover: $img/tab/enroll.png
-    title: 2023年本科招生指南
-    logo: enroll
-    url: info?id=/intro/enroll/under/rule/
+  # - tag: list
+  #   header: false
+  #   items:
+  #     - text: 2022 年本科招生简章
+  #       icon: rule
+  #       path: intro/enroll/under/rule/
 
-  - tag: list
-    header: false
-    items:
-      - text: 2023 年招生计划
-        icon: rule
-        url: enroll-plan
+  #     - text: 2022 年招生计划与历史分数线
+  #       icon: time
+  #       path: intro/enroll/under/info
 
-      - text: 历史分数
-        icon: time
-        url: enroll-grade
+  #     - text: 招生咨询群
+  #       icon: qq-group
+  #       path: intro/enroll/under/qq-group
 
-      - text: 招生咨询群
-        icon: qq-group
-        path: intro/enroll/under/qq-group
-
-      - text: 线下招生咨询活动
-        icon: activity
-        path: intro/enroll/under/activity
-
-      - text: 更多信息
-        icon: more
-        path: intro/enroll/under/
+  #     - text: 更多信息
+  #       icon: more
+  #       path: intro/enroll/under/
 
   # - tag: list
   #   header: 研究生
