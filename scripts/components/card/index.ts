@@ -6,25 +6,25 @@ import { type CardComponentOptions } from "./typings.js";
 import { aliasResolve } from "../utils.js";
 
 export const resolveCard = (
-  element: CardComponentOptions,
+  component: CardComponentOptions,
   location = ""
 ): void => {
-  if (element.logo) {
+  if (component.logo) {
     // check icons
     if (
-      !element.logo.match(/^https?:\/\//) &&
-      !element.logo.match(/\./) &&
-      !existsSync(`./res/icon/${element.logo}.svg`)
+      !component.logo.match(/^https?:\/\//) &&
+      !component.logo.match(/\./) &&
+      !existsSync(`./res/icon/${component.logo}.svg`)
     ) {
-      console.warn(`Icon ${element.logo} not exist in ${location}`);
-    } else element.logo = aliasResolve(element.logo, "Image", location);
+      console.warn(`Icon ${component.logo} not exist in ${location}`);
+    } else component.logo = aliasResolve(component.logo, "Image", location);
   }
 
-  if (element.cover)
-    element.cover = aliasResolve(element.cover, "Image", location);
+  if (component.cover)
+    component.cover = aliasResolve(component.cover, "Image", location);
 
   checkKeys(
-    element,
+    component,
     {
       tag: "string",
       cover: ["string", "undefined"],
@@ -40,9 +40,9 @@ export const resolveCard = (
   );
 
   // check options
-  if ("options" in element)
+  if ("options" in component)
     checkKeys(
-      element.options,
+      component.options,
       {
         appId: "string",
         envVersion: {
@@ -55,4 +55,46 @@ export const resolveCard = (
       },
       `${location}.options`
     );
+};
+
+export const getCardMarkdown = (component: CardComponentOptions): string => {
+  const logo = component.logo
+    ? component.logo.match(/^https?:\/\//)
+      ? component.logo
+      : aliasResolve(component.logo)
+    : null;
+  const cover = component.cover ? aliasResolve(component.cover) : null;
+
+  if ("options" in component) return "";
+
+  const { name, desc, title, url } = component;
+
+  if (url.startsWith("info?"))
+    return `\
+<MDLink class="innenu-card">
+${
+  cover
+    ? `
+  <img class="innenu-card-cover" src="${cover}" alt="${title}" no-view />
+`
+    : ""
+}
+  <div class="innenu-card-detail">
+    <div class="innenu-card-info">
+${
+  logo
+    ? `
+      <img class="innenu-card-logo" src="${logo}" alt="${title}" no-view />
+`
+    : ""
+}
+      <div class="innenu-card-name">${name}</div>
+    </div>
+    <div class="innenu-card-title">${title}</div>
+    <div class="innenu-card-desc">${desc}</div>
+  </div>
+</MDLink>
+`;
+
+  return "";
 };

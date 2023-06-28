@@ -37,7 +37,7 @@ export const aliasResolve = (link = "", type = "", location = ""): string => {
     const localePath = link.replace(/^\$/, "./");
 
     if (existsSync(localePath))
-      return link.replace(/^\$/, "https://mp.innenu.com/");
+      return link.replace(/^\$/, "https://assets.innenu.com/");
 
     console.warn(`${type} ${localePath} not exist in ${location}`);
   }
