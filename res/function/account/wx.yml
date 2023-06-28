@@ -48,7 +48,7 @@
     - name: 东师后勤
       desc: 东北师范大学后勤保障部
       logo: $img/media/logistics.jpg
-      path: archive
+      path: logistics
 
     - name: 东师档案
       desc: 东北师范大学档案、校史与校友服务

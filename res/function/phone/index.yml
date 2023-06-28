@@ -9,7 +9,7 @@
       site: https://edu.nenu.edu.cn/
 
     - name: 心理学院
-      num: 85098050
+      num: 85099535
       locate: benbu
       mail: psy@nenu.edu.cn
       site: https://psy.nenu.edu.cn/
@@ -25,7 +25,7 @@
       site: https://bs.nenu.edu.cn/
 
     - name: 文学院
-      num: 85099492
+      num: 85099068
       locate: benbu
       mail: chinese@nenu.edu.cn
       site: http://chinese.nenu.edu.cn/home
