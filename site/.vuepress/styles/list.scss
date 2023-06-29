@@ -1,10 +1,6 @@
 @use "@sass-palette/hope-config";
 @use "mixins";
 
-// .innenu-list-header {
-
-// }
-
 .innenu-list {
   position: relative;
 
@@ -13,6 +9,7 @@
   padding: 0;
   list-style: none;
   border-radius: 8px;
+
   background-color: var(--bg-color-block);
 }
 
@@ -33,7 +30,7 @@
   font-size: 17px;
   line-height: 1.45;
 
-  &.md-link {
+  &.vp-link {
     @include mixins.hover;
 
     position: relative;
@@ -58,6 +55,31 @@
       transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
     }
   }
+
+  &:empty {
+    padding: 0;
+  }
+
+  &::before {
+    content: " ";
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+
+    height: 1px;
+    border-bottom: 1px solid var(--border-color);
+
+    transform: scaleY(0.4);
+    transform-origin: 0 100%;
+  }
+
+  &:last-child {
+    &::before {
+      display: none;
+    }
+  }
 }
 
 .innenu-list-icon {
@@ -74,21 +96,6 @@
   padding: 10px 0;
 
   position: relative;
-
-  &::after {
-    content: " ";
-
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-    height: 1px;
-    border-bottom: 1px solid var(--border-color);
-
-    transform: scaleY(0.4);
-    transform-origin: 0 100%;
-  }
 }
 
 .innenu-list-text {
@@ -98,6 +105,7 @@
 
   line-height: 1.5;
   text-align: left;
+  max-width: 100%;
   word-break: break-word;
 }
 

@@ -12,6 +12,7 @@ import { getTitleMarkdown } from "./title/index.js";
 import { type PageConfig } from "./typings.js";
 import { getVideoMarkdown } from "./video/index.js";
 import { getYAMLValue } from "../utils/index.js";
+import { getCardMarkdown } from "./card/index.js";
 
 /**
  * 生成页面 Markdown
@@ -82,6 +83,8 @@ isOriginal: true
       else if (tag === "doc") content += getDocMarkdown(component);
       // 设置电话
       else if (tag === "phone") content += getPhoneMarkdown(component);
+      // 检测音频
+      else if (tag === "card") content += getCardMarkdown(component);
       // 检测音频
       else if (tag === "audio") content += getAudioMarkdown(component);
       // 检测视频

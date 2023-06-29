@@ -250,14 +250,23 @@ ${
 
 ${items
   .map((item) => {
+    if ("env" in item && !item.env.includes("web")) return null;
     if ("type" in item || "url" in item) return null;
 
     const { icon, text, path, desc } = item;
 
+    const resolvedIcon = icon
+      ? icon.match(/^https?:\/\//)
+        ? icon
+        : icon.startsWith("$")
+        ? aliasResolve(icon)
+        : `https://mp.innenu.com/res/icon/${icon}.svg`
+      : "";
+
     const listItemContent = `
 ${
-  icon
-    ? `<img class="innenu-list-icon" src="https://mp.innenu.com/res/icon/${icon}.svg" no-view />`
+  resolvedIcon
+    ? `<img class="innenu-list-icon" src="${resolvedIcon}" no-view />`
     : ""
 }
 <div class="innenu-list-detail">
