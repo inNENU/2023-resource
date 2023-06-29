@@ -23,6 +23,7 @@ import { genSearchMap } from "./search.js";
 import { resolvePage } from "../components/page.js";
 import { type PageConfig } from "../components/typings.js";
 import { convertYml2Json } from "../utils/index.js";
+import { syncOSS } from "./oss.js";
 
 // 删除旧的文件
 deleteSync([
@@ -112,5 +113,7 @@ convertYml2Json("./res/config", "./r/config", (data, filePath) =>
 
 // 生成资源
 generateResource();
+
+syncOSS();
 
 console.log("All completed");
