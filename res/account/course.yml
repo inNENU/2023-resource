@@ -4,6 +4,21 @@ id: nenuwjx
 logo: $img/media/course.png
 qrcode: $img/media/course-qrcode.jpg
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy2IyOOpUkaF5fwtLN6ic3awttGA5rktJ9Lo6L6IZTkVDx1MhhhiaTibzHv3eXRXg4ShPicYj3c573Zo0Q/0?wx_fmt=jpeg
+    title: 新闻 | 教育部教师工作司司长任友群赴东北师范大学组团开展师范教育协同提质计划工作调研
+    desc: 新闻 | 教育部教师工作司司长任友群赴东北师范大学组团开展师范教育协同提质计划工作调研
+    url: https://mp.weixin.qq.com/s/Dck8ppgqLrd-_sa9FLverA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy2IyOOpUkaF5fwtLN6ic3awtSkiaXjc8d3iciayvW4LBiahKNpYO3J3LhicuRINOIZFpjcMVOdb87pktBlQ/0?wx_fmt=jpeg
+    title: 教务贴士 | 本科教学通知汇总及提醒（6月28日）
+    desc: 近期本科教学通知汇总及提醒（6月28日）
+    url: https://mp.weixin.qq.com/s/ZL6ea60Y5sjokHKW3Y6czw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy3UalHcxhh3f8jNy4d7rKhnciacSxib3XBmLuTG5sw8zibM1icibAEj6E79BYAynHINnaFiaZy8kjCpcRAg/0?wx_fmt=jpeg
+    title: 周报 | 东北师范大学本科教学工作周报 （2023年6月19-25日）
+    desc: 东北师范大学本科教学工作周报（2023年6月19-25日）
+    url: https://mp.weixin.qq.com/s/03kHMDzu-uQKl3CtIsTMgQ
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy0icFPX6ppv9dv2lVlVtIDn0C3CPB5ZTocn0yIT7icZS8XTKfgbibmkr1sQaPGx65hjsfDQIMJsY8HicA/0?wx_fmt=jpeg
     title: 教务贴士 | 本科教学通知汇总及提醒 (6月21日)
     desc: 近期本科教学通知汇总及提醒 (6月21日)
@@ -166,7 +181,7 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy3HicXX1GfnNrViandibDibLnHe0bl76INug4uSzCAx47UplLcOQWmic7rxlETwVyib9oUhmuwMscfGkBoA/0?wx_fmt=jpeg
     title: 周报 | 东北师范大学本科教学工作周报  (3月6—12日)
-    desc: 东北师范大学本科教学工作周报\x0a (3月6—12日)
+    desc: 东北师范大学本科教学工作周报  (3月6—12日)
     url: https://mp.weixin.qq.com/s/5puYtMjobyMzr1a1qNi-Qg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy3HicXX1GfnNrViandibDibLnHejUCKiafhiayz21HPBiarZnWtuNE3jmteBaXFXc3Lp6OicryBsKqgAynwZQ/0?wx_fmt=jpeg
@@ -176,7 +191,7 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy2eJYb607TPqdTWANKQrWHeZmgg0p8MEEXajw1OPblUicxYicThjEAzicCiavtibKtZr2ic48B5UCVUbbuw/0?wx_fmt=jpeg
     title: 周报 | 东北师范大学本科教学工作周报  (2月27-3月3日)
-    desc: 东北师范大学本科教学工作周报\x0a (2月27-3月3日)
+    desc: 东北师范大学本科教学工作周报  (2月27-3月3日)
     url: https://mp.weixin.qq.com/s/UiNF6MzUv5BQL7x8MUFtNQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy2eJYb607TPqdTWANKQrWHedGQyNyIVBAABKdK6jpgUBGiboJqKlEPmVAwt6N3KjWlX76XoTRbOJfQ/0?wx_fmt=jpeg
@@ -186,7 +201,7 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy0CTSGKW7KoiceVq6ghjvZybJN3sgYeyFrfJxpXLI81jCgJBQ02LAaL5DK6iaibqC79y9uYRbPiaxb6Yg/0?wx_fmt=jpeg
     title: 周报 | 东北师范大学本科教学工作周报  (2月20-24日)
-    desc: 东北师范大学本科教学工作周报\x0a (2月20-24日)
+    desc: 东北师范大学本科教学工作周报  (2月20-24日)
     url: https://mp.weixin.qq.com/s/h5EoSRsGH925f3OyL_2Y-g
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy2ibDk6gK9QRDSV7S5ERnMJbCHoDkbxGiarwtloTcFZaJp4LaNoVsQzicBbFsNS2Z7N1rbMicUvPRsZnw/0?wx_fmt=jpeg
@@ -206,7 +221,7 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy3MaO4jVkzXn7tObUgBx9kNy6xUjF1qoslxia9eibNvDA4JOfWh6Grhbx2RY0qfSVHDLm0MibBsf2RJQ/0?wx_fmt=jpeg
     title: 周报 | 东北师范大学本科教学工作周报  (12月5-9日)
-    desc: 东北师范大学本科教学工作周报\x0a (12月5-9日)
+    desc: 东北师范大学本科教学工作周报  (12月5-9日)
     url: https://mp.weixin.qq.com/s/xgOHqW8H6DyIQq8QsgKFmg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy3MaO4jVkzXn7tObUgBx9kNv4w4y2w6ys3Cfvh8pLnXRuRExWYDGdby1rUEW4MLugXaEK8XWibqT5Q/0?wx_fmt=jpeg
@@ -221,7 +236,7 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy0icLlwyKfZWWyNdXkNSfza2jUzQyVg2seSEq0MdRNqUnAbcGg4lzADfUDSFQL7dGes8xVNRBL5Xgw/0?wx_fmt=jpeg
     title: 周报 | 东北师范大学本科教学工作周报  (11月28日-12月4日)
-    desc: 东北师范大学本科教学工作周报\x0a (11月28日-12月4日)
+    desc: 东北师范大学本科教学工作周报  (11月28日-12月4日)
     url: https://mp.weixin.qq.com/s/uZgROGxGpLgcwENTVzLdPg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy1Zew2oaW2sk4IE7tASlMgGIXhbC8ibg3VPKVgG4lMoQarlKa6iaUeoatppfs5TfOJLTDcZX4XdaVtA/0?wx_fmt=jpeg
@@ -231,7 +246,7 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy2DdMHhxyiaAcqmEeNaq3Y7vZ2S6Ecduy0RxJpcThNicqxDhnctjH8Pwuw2NbhQnzfKMzgEcibIomRUA/0?wx_fmt=jpeg
     title: 周报 | 东北师范大学本科教学工作周报  (11月14-20日)
-    desc: 东北师范大学本科教学工作周报\x0a (11月14-20日)
+    desc: 东北师范大学本科教学工作周报  (11月14-20日)
     url: https://mp.weixin.qq.com/s/jpw6BtjawxkCHOIogWFGvw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy0pBK64y6rt6jHLJmiaAahWAeer3CuzgegICzdApp28o9N9J5ppAPBNv5DribJf0Oib7ibTKP1F142ZoA/0?wx_fmt=jpeg

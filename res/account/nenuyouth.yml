@@ -7,6 +7,408 @@ qrcode: $img/media/nenuyouth-qrcode.jpg
 authorized: true
 follow: https://mp.weixin.qq.com/s/BeK2n3irkKLO-67d5Or8Zw
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnJkqjnCjAgaNpgXkibTWtafXghWPCBbpq9B2bOH48ia88ZJ7eMOFribccSzicV0HNWzlmhUW7ia952yPQ/0?wx_fmt=jpeg
+    title: 中国共产主义青年团章程
+    url: https://mp.weixin.qq.com/s/x4RiAcLGlulBzCY3Ya1e4A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJklicNnVYLuAeuTVpS7caXeA0WVtK7Odtp522NNG5mxYr62J2wqZ1tIrygbxFnCPvuNoE8qzbFI2bQ/0?wx_fmt=jpeg
+    title: 总书记这样指导青年工作
+    url: https://mp.weixin.qq.com/s/MKzQ99Ae4O0_lgoH5l8L8g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmpCjnmjlne1nGPTT2f4kAYHyGaDxj37ZOtSCNlX3RVObNbXWqZUUSaZ4ycmxvUXFAWmicGYO4qgTQ/0?wx_fmt=jpeg
+    title: 关于共青团工作，总书记这样嘱托
+    url: https://mp.weixin.qq.com/s/DVL4-WoNAbMkuBzrITpfpQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkWcibjfQscUBeiaG36cnO7XuSlQLbY8rKUun9gCmyb24iagKX1qwdyaqcNlMiaFIUOXDbQiaev15MJM1Q/0?wx_fmt=jpeg
+    title: 东师校园开放日 | 张张笑脸写满“喜欢” ，奶牛君祝您东师梦圆！
+    url: https://mp.weixin.qq.com/s/Uzr91ghWsqdoUdzMRnX3og
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkTZuhxaq6MscR3w5kmWkgMMOtOEh51FTMOaY4oBlxrRmkKBGibZnoS0OVcCumZxNXBANCGoswpXCw/0?wx_fmt=jpeg
+    title: 热烈祝贺中国共产主义青年团第十九次全国代表大会闭幕
+    url: https://mp.weixin.qq.com/s/E9gvZ3mK8XyOLkbJGOgIfg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkTZuhxaq6MscR3w5kmWkgMdaLzmWzfYL4LnsuUWnFbsgKp72zJ5hpgNuic7FibArpTW3icTlHBpZa5g/0?wx_fmt=jpeg
+    title: 东师青年热议团十九大开幕会党中央致辞
+    url: https://mp.weixin.qq.com/s/ewLPlYB7f54EJCRvEicPFQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJloibuQE6hE8020dqPM1ibZ1MmPfEt6mPcWEprVAiacQ2ic4GLtkwPSboVicjJgBWgM6Psq1UM4VoonXfw/0?wx_fmt=jpeg
+    title: 云上2023年中国品牌博览会正式开馆！
+    desc: 快来和校会君一起云上参展吧~
+    url: https://mp.weixin.qq.com/s/08u4kh_rebseCMt_ojMwbg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJloibuQE6hE8020dqPM1ibZ1Mib71AgNvg54mG8BAKWWU5yhrQDiaksmFLHHuJeoiahtS0FJE9oa1DXseA/0?wx_fmt=jpeg
+    title: 中国共产主义青年团第十九次全国代表大会在京开幕
+    url: https://mp.weixin.qq.com/s/vJ_rnKxEbRCxN1HnUZR8lg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlJBKb2oM8xH5xQkn4lltl5FtVRj338j5BWbcWc17TRMX6Wm3rwaFe8Jycpjz0pUtyOibZibUHymibFA/0?wx_fmt=jpeg
+    title: 东青特辑 | 谨以此文迎接中国共产主义青年团第十九次全国代表大会
+    url: https://mp.weixin.qq.com/s/46DWoY6znWSqv3KLEJCWXQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJk3WBUE8GcuKAJtxoh8650MgFcLgQlwH34hlg4KCzo6lBFJtTF9ibv0vEezI41DNSyqbnFu6nqoJFA/0?wx_fmt=jpeg
+    title: 省委书记景俊海到东北师范大学调研并主持召开吉林省教育强省建设座谈会
+    url: https://mp.weixin.qq.com/s/_sDblItcbebmezSrVXa6Kw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJm7kofgSr6QbLyxRbyAAwDgvgoGcglicLkoicJrEiaJWM4FPBicSsgbZy395CWibdZDmOwMTPib8FuAEFibw/0?wx_fmt=jpeg
+    title: 毕业特辑 | 远方有你，不说再见
+    desc: 灯火璀璨，为你闪耀。山水迢迢，终有相逢，远方有你，不说再见！
+    url: https://mp.weixin.qq.com/s/4VRCbOaJmfpRgVl4DO8t8g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnvrnSHL17d4licOamoQt8OpgakUvGmcsiaWfgWBW8YxXtGRnUpyaVVEiayWOwDKkqVLRkeCg2nSmqjQ/0?wx_fmt=jpeg
+    title: 全校欢庆 | 东北师范大学第五十七届运动会暨第七届美食节、购物节隆重举行
+    desc: 大量精彩照片！看看里面有你吗？
+    url: https://mp.weixin.qq.com/s/HTWlygZatf5KQLykmgko9w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlE278hF7wygwKtrd4GpCLjtSYmR02YHUyVWicUkLIHUqFNYG0pGWQbTc0ANIjyTMM1TkDibHA8iba8Q/0?wx_fmt=jpeg
+    title: 槐花特辑 | 槐花清香，情暖初夏
+    desc: 初夏，品尝槐花的味道。
+    url: https://mp.weixin.qq.com/s/n3r-Es313oVtUkVcDQQTCA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlGlRAnOGUMNiaU47RXp8IQAxhRy9kS0gHDIxmiavDTf1hicmSUdA14icsh2B2bZSkLAib5LbKKM3X5Zuw/0?wx_fmt=jpeg
+    title: “528，表白吧”  | 天猫超市购物节
+    desc: “520表白吧”天猫超市购物节开始啦！快来和校会君一起看看吧。
+    url: https://mp.weixin.qq.com/s/jmKPTAdI8BqxoHscpKjm2g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlSx2MY2cp5EibNS7iabgQwqcQBb0J71M0RkEeHyHvyR4erPqjiaBFFWfjibG3tyxZPwT8wbR5HUbNKsw/0?wx_fmt=jpeg
+    title: 大学生学习贯彻党的二十大精神知识竞赛圆满收官
+    url: https://mp.weixin.qq.com/s/gbY5XdJbxvndHjaV9DzzMw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkeVbunX3A16JvPOYOxXictJ0000gKfibLt1CgvwRBpeCzIianQZxvBFTMZicbApNlSUPaBdicIialBENug/0?wx_fmt=jpeg
+    title: 学习二十大 | 理论知识答题竞赛
+    desc: 学习二十大，争做好青年学习。二十大知识竞赛活动正在如火如荼地进行着。
+    url: https://mp.weixin.qq.com/s/mjmGdNRH6UEqsPG-EoOLeA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkddX4NOTUeVYyHbeM82EJAImj8HbKAISPw4f0K1CSBMqB5xkW42M3hqchVV6o9Iia6SVNqxImqHkg/0?wx_fmt=jpeg
+    title: 母亲节 | 打卡妈妈的心愿单
+    desc: 母亲节到来之际，让我们仔细思量，为妈妈用心准备一份心愿礼物吧！
+    url: https://mp.weixin.qq.com/s/u4y7EGSpckm-AGCslxf-7Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkYzozWicoWNgHiawcm7W3VMoOKIIGZeABQFfo2BrxDaWgWspVYPlibNMw2lklIJOD05qHqicuEia8Ttog/0?wx_fmt=jpeg
+    title: 春日特辑 | 看花花七十二变
+    desc: 点击，借想象力发现隐藏在东师不一样的春日花花~
+    url: https://mp.weixin.qq.com/s/B56v-YukltyxKYV9NREUGg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkTvDTLh1r1KibicV23fdlPiaOtZoiceEkDdhUgzlaUCc4cOc4Xu8589xlEdTjRXqsyMlz5fDD0FftZRA/0?wx_fmt=jpeg
+    title: 学校举办“学习二十大、永远跟党走、奋进新征程”合唱音乐会暨五四青春歌会
+    url: https://mp.weixin.qq.com/s/Yhuux1Gu6EDnqvssNk_N6A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJn6WB3JP0uZdFOiaicS94wXkWqVMevOXFT2qy9Xnn02Im0GbibwL1G8YOLfTmM0HmqOeNAg2YLQK7C0g/0?wx_fmt=jpeg
+    title: 集结令｜2021-2022学年本科生奖学金颁奖典礼暨第二十三届“理想与成才”报告团首场报告会来啦！
+    desc: 2023年5月7日8:30，我们不见不散！
+    url: https://mp.weixin.qq.com/s/bUBwSmmQgeeHZVcKIyZcXw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJl0rOlibsRgnuibBIPiauGLPkquicVVzWfjice7Qf309baWjQ81N61weDERwFicKvgoFoTCiaMt7PQMh9lNg/0?wx_fmt=jpeg
+    title: “学习二十大、永远跟党走、奋进新征程”东北师范大学合唱音乐会暨五四青春歌会节目单已送达~
+    desc: 欢迎大家查收~
+    url: https://mp.weixin.qq.com/s/yr-mDUcpD4KwXg_fQ15Wrg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJngw68ZPMmUdbEibQaCq7JjbOpiazzfR1l90XtBVDCkqW2GY7nzr6jyhIaLytBkrmEUFqRrVjia4tjCg/0?wx_fmt=jpeg
+    title: 诗情五四 | 诗诵青春信仰，情传五四华章
+    desc: 五四的火炬传递至今，青春志气和信念不变，新的征程上，东师青年昂首阔步，步履不停。
+    url: https://mp.weixin.qq.com/s/GAUdYvYW6JqUBC-MupBIJA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnELiam0GB6GBWNjM1G8xyBTxyXZf67K9wh2AMibUoUNduPlI6IR2BaVicbkWIh9icUwvWia52zQCAaOTA/0?wx_fmt=jpeg
+    title: 牢记殷殷嘱托 不负切切期望
+    desc: 和校会君一起回顾这些年来习总书记陪我们度过的青年节，牢记那些饱含深情的嘱托和期望。
+    url: https://mp.weixin.qq.com/s/VkVp45JjY4KV1-QGiwMnUQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnELiam0GB6GBWNjM1G8xyBTAPHJ30qDUiaXS1K4PfRTMjB6xMHRNic6V6tHMFvicrdBjaCJobOCpqR5Q/0?wx_fmt=jpeg
+    title: 兰台拾韵 | 东北师大历史上的五四青年节
+    desc: 和校会君一起阅读77年来，东师学子是如何传承“五四”精神的吧~
+    url: https://mp.weixin.qq.com/s/9-7tKC7pvuJkoE8U2Vm6xQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnELiam0GB6GBWNjM1G8xyBTgxE25VT9ETqibdZ8A6dJzGRZmqz9M9t1eblWTzU9CicyKAYbhaHm31ug/0?wx_fmt=jpeg
+    title: 五四青年节 | 小长假归来第一堂课，这6个“青春关键词”讲给孩子听……
+    desc: 和校会君一起，看看青春有哪些关键词吧~
+    url: https://mp.weixin.qq.com/s/7IzVbUH9jZe0Li8WSEvV4A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmP0yGzY0Px72YRzibbwzuI7raN7YLaxu7hcd6MIaon0DJjIAqh6Wu5AiacPEtH3Rhia6ywazpML9SgA/0?wx_fmt=jpeg
+    title: 习近平向全国广大劳动群众致以节日的祝贺和诚挚的慰问
+    url: https://mp.weixin.qq.com/s/WNtSAEtOawEr-47jTBnyXA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnrPhgjZ0k8A9u8icQic5DzRrDADnPFNgliajabGEtLxgPicJysZBuA7ssGO5HByWk5nQhLiaOkKOT4NLw/0?wx_fmt=jpeg
+    title: 东师一角 | 带你探索生活中的小美好
+    desc: 美好，有迹可循！
+    url: https://mp.weixin.qq.com/s/iVOlPBWbW95DdqGx8RtFoA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkyAzm9g5DXlOXmgUskDDPFbcAN9UkeLiby4NAbOkKKJvy6x7t5WN8XOJRZLDv7rR99JZOz4u2mmWg/0?wx_fmt=jpeg
+    title: 校团委举办“学习二十大 永远跟党走 奋进新征程”主题合唱音乐节
+    url: https://mp.weixin.qq.com/s/_aLQhGUp32sZfkOnpB_Hpw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkyAzm9g5DXlOXmgUskDDPFHmnmSsuFl3HWsRSMY4vtqy8vgZO7QqNWD7EBOUFFNKibAT3SibcjFwkw/0?wx_fmt=jpeg
+    title: 春日律动，桃李游园
+    desc: 人间四月天，正是踏青好时节。净月校区“桃李园”于4月23日正式开园啦！
+    url: https://mp.weixin.qq.com/s/wJNQpp3kMeEm3S4mvmBQ3w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnyLoz5fvPSkqsW4mGtLpYq81F1F8P7iaztxp7JcK3MOwVqScYw6YRZB79WlZicjiaBNpYgkeWtRv83w/0?wx_fmt=jpeg
+    title: 读书日特辑 | 染蕴书香，情沐学人
+    desc: 世界读书日书籍推荐专栏，快点进来看看吧！
+    url: https://mp.weixin.qq.com/s/1enW3ALJEAikCvUC2Zw3GQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmayCorUa25gicAkAFPGQyjFicpiaqIrlJQkezwrsBJ9iaPUZlLB1sAoJvtBrVJLYqqN4PibAfEbK2QaRQ/0?wx_fmt=jpeg
+    title: 地球日特辑 | 星际穿越，回归地球
+    desc: 星月夜，梦幻谈，世界地球日，你我共探险。
+    url: https://mp.weixin.qq.com/s/wYtoT8ljnPC6VtWHoXomrw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkiaia7DS4mjT28fibicDiccvRGd5Xg6z1ibg64BcjlnWPPhbwLwlicJTQ2mlFmvaFhTs6nBKwY3bDicnsTicQ/0?wx_fmt=jpeg
+    title: 【留学项目】#全额奖学金#2023年联合国国际组织人才培养项目
+    url: https://mp.weixin.qq.com/s/1-xO1QtAUcJkC5VtvtAP3A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJndLbibyIVfyJZqaOpWPt0rcaqibX3cJ2el0icMk3oVicMcqbZNxq0Lv1pZbyeewyL8RPQJdGjxBXkCicA/0?wx_fmt=jpeg
+    title: 校会君提醒你合理消费！
+    desc: 校会君倡导大家树立正确的消费观念，合理消费!
+    url: https://mp.weixin.qq.com/s/TaLWLG5NzwJGv9D1agY19w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJndLbibyIVfyJZqaOpWPt0rcfH6sOW9dFkeN9v3TwozTfbvribfiaib3msvfaaM4nyDkf2YXPzibN57Kfg/0?wx_fmt=jpeg
+    title: “相约晨光 书声琅琅”致全体东师学子的校园晨读活动倡议书
+    url: https://mp.weixin.qq.com/s/qFeO3p9bIIenLhL4LZfoIg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkYzozWicoWNgHiawcm7W3VMoWxl11SHfibDzoXRgVxSIOd3GNbUI8pBCTBfTBwia2soc8S4XKdMoOOTA/0?wx_fmt=jpeg
+    title: 4·15国家安全教育主题知识竞赛来啦！
+    desc: 快来一起看看如何参与4·15国家安全教育主题知识竞赛吧！
+    url: https://mp.weixin.qq.com/s/Eq1yuMKT2DTqcZzbl_poDA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJn556uF3rcFK2FhRnNXx1IQicDWKEM46Mfd5orRt433iaj4Z2ibZUicomfZL0kTUCDIvuvlNH6AQ8Lchg/0?wx_fmt=jpeg
+    title: 音为梦响 | “新时代•新征程•新青年”校园歌手大赛圆满结束!
+    desc: 音为梦响“新时代•新征程•新青年”校园歌手大赛圆满结束!
+    url: https://mp.weixin.qq.com/s/k_Y4GOFt41efpMvcmhzdcg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnE4eD2u0zj2MRbKnOV4g3deC5I7IOpHu4oj0OyAWp5salFZNFF98hic23NQA09RvXPKvHzYkicf5Xg/0?wx_fmt=jpeg
+    title: 音为梦响｜校园歌手大赛决赛圈名单出炉啦
+    url: https://mp.weixin.qq.com/s/dKjMH4V6iysjRJU1wwHpkQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkvhrCXaazcoNazNAxQn5cPTy0B0ABkdZcib5CDmAb7DlLCOK5hhD4Y27I3Ls3QsrW1m1uibZicQxwOg/0?wx_fmt=jpeg
+    title: 今晚！2022最美大学生/最美高校辅导员发布仪式，闪亮的名字属于你们！
+    url: https://mp.weixin.qq.com/s/JH9py0AnaQF-a3jHPCh2Mw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmNicNKaf39sndIheYhS9HH1nEIQYI5F58dMFAQ6xFI9YzEYGmdCxAfF7ibjWWrvJOIhowUiadFNch8w/0?wx_fmt=jpeg
+    title: 新学期人设图鉴！看看有你没
+    desc: 新学期开始了，快来get一下都有哪些新人设吧！
+    url: https://mp.weixin.qq.com/s/vxr-u8TJQYYnMuAQQ5Zzrg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJma3ibicaMVQhmeUfLwLvWhotKZyhtVSP4VN4tIXomt1BDPKdeKvuanBVCb1dYwudyfPtG5w9GU8ib0g/0?wx_fmt=jpeg
+    title: 东师萌宠：你又偷拍我的表情包！
+    desc: 春日明媚，东师萌宠齐聚一堂。快来pick你心中的最佳萌宠吧！
+    url: https://mp.weixin.qq.com/s/NDC9ySqWdc4ZRnDyyWzALQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlQLLgyV3noRDmrrzmMtvA2PcL0EIfs7bHcv2l0QFRyIYEEh8Bsibzq72PxAPuZgEEOosUtS91ek7w/0?wx_fmt=jpeg
+    title: 校会君带你打卡长春！
+    desc: nenuer们和校会君一起了解长春的特色景点，打卡长春吧！
+    url: https://mp.weixin.qq.com/s/h6flxjimthUDvQRp--2Vlg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlQLLgyV3noRDmrrzmMtvA26IYryc2rXwic75Fkicep3qo5nooW7Djtf0cBBTUw1b3DibgqCOBzMdckA/0?wx_fmt=jpeg
+    title: “植”此青绿，手种桃李
+    desc: 植树节，植千万树，育万千人
+    url: https://mp.weixin.qq.com/s/cpBlDhsoMOwk9n9WmhCM4Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlXBseArlvRd099BJGLBzSJMpT7VegS1xxYo0ymvL9TToksDMDjEYHic0FPdWmxFjZdltHFmAlpudw/0?wx_fmt=jpeg
+    title: “益起行动·节约粮食”大型公益活动来啦
+    desc: 和校会君一起节约粮食
+    url: https://mp.weixin.qq.com/s/VoA0irwpgDz4lgU5Qh4gzQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkJbQ1GNySIL3VS0meLNwU7rO86njCmZmZWNkEcmRUag3icEW38LCaC4MQHtUL6GeYXPAArW0ZWDWA/0?wx_fmt=jpeg
+    title: 预防甲流，校会君来科普！
+    url: https://mp.weixin.qq.com/s/Dk9oQ1-j5tuTSau4U8ID2A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlRJqJov8ibuCMSrg2iaTyvCs03sFZMEAialYBY9B0HXGksfPOetgFMBvDr7ALibiaJfib6IhEUYzFIrrlA/0?wx_fmt=jpeg
+    title: 东北师范大学大学生理论宣讲团赴长盛小学宣讲雷锋精神
+    url: https://mp.weixin.qq.com/s/-svvFUKAPSrfPbAUFLY6Yg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJngsKMWXNWbRW1gkyS5JzdSCFgJHB3I6Itsgv9biaFHKjIGobia6d82JCAD57jzAubCnAUicwT0hoDEw/0?wx_fmt=jpeg
+    title: 满怀信心，开好局起好步
+    url: https://mp.weixin.qq.com/s/KrxN1P15Rc8rZWCSeQHOCQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmiaWBmTXTqtjVibj9yrgO7I2RjqmMXiaoKq96d24uKCduDjBcj6SFD58vBVhPiaqeianBR5RrXLLbYKpw/0?wx_fmt=jpeg
+    title: 当前疫情防控的四个热点问题，解答来了
+    url: https://mp.weixin.qq.com/s/Yu5c-z8I1gtwYF8n1HUjXQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmiaWBmTXTqtjVibj9yrgO7I2RVfDgVic1KZeMk1e5qkGN2r9NcrVbV2I6jweV90akicXVpeIURhy9cAw/0?wx_fmt=jpeg
+    title: 一图速览丨划重点！第十版防控方案来了
+    url: https://mp.weixin.qq.com/s/e5cQvxufOMbih9AlOwkgbQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnkVHxUR7qURG30mWBFzZXQfFhbx4vz1QFZJStsXfHGInfwicM6tb5g1DompPSniaIqMd6nEftEoIpg/0?wx_fmt=jpeg
+    title: 习近平：祝愿大家新年快乐、皆得所愿！
+    url: https://mp.weixin.qq.com/s/1QybluaAis30V6QRBHwuzw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnkVHxUR7qURG30mWBFzZXQfFhbx4vz1QFZJStsXfHGInfwicM6tb5g1DompPSniaIqMd6nEftEoIpg/0?wx_fmt=jpeg
+    title: 习近平发表的二〇二三年新年贺词里提到了这些大事
+    url: https://mp.weixin.qq.com/s/e3bSaZycHM4ekHLo6k0zNg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkibSH5oC8liccGRefOnIPvSibQ1lobbF0WibzUBPliaMCrEhXRXxicxedXXib6ZSd34aKnDslkDS3ic5kfug/0?wx_fmt=jpeg
+    title: 第一观察｜中央经济工作会议提出“六个更好统筹”
+    url: https://mp.weixin.qq.com/s/h2vFUMSyV-EGLQJ4-KfPZA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkibSH5oC8liccGRefOnIPvSibW1ichJcbibZNfOOHJhp4zQaJz8x3zN5WEAeaKnAG0TqJ26MiaCB3Ap4hw/0?wx_fmt=jpeg
+    title: 一图速览 | 党的二十大后首次中央经济工作会议定调2023年经济工作
+    url: https://mp.weixin.qq.com/s/leACFZm0VpX2DaxRf5Pk6g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkEusibibTpbH80mkznw1JDicaKbKyVeuicXvfwHZG4SvKSS6XXgVfVypqr9ewuXVA8cbtagF6Ficatdiaw/0?wx_fmt=jpeg
+    title: 钟南山院士来开讲啦！全国高校抗疫大讲堂：新冠（Omicron）疫情动态及应对
+    url: https://mp.weixin.qq.com/s/k2Un8r5bBfyLkVgcWmof6g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlucBTjq6Xy8nnsPwdIkQQuAnetNnYmqdnK5W4L6MMqQ5qwzwmuslSB94uMq9iaZDNWnbNuicdiaBs9w/0?wx_fmt=jpeg
+    title: 如何面对奥密克戎——高校学生亲历者说（三）
+    url: https://mp.weixin.qq.com/s/l7GuHs24bT1evFPhUJF_WQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlucBTjq6Xy8nnsPwdIkQQuhFXAm5dsxnbwAVNicu7tZ1R3eBEwiaBjLK35Xr9Slkooz8HOXqVk8duA/0?wx_fmt=jpeg
+    title: 如何面对奥密克戎——高校学生亲历者说（四）
+    url: https://mp.weixin.qq.com/s/gIkQgWErD-AcWdM0Rsu3ZQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlucBTjq6Xy8nnsPwdIkQQufDAoTGIggbupEv7X6ZU2EsGhHY61icia7mibncOFtozmdddRicw455SQiaA/0?wx_fmt=jpeg
+    title: 如何面对奥密克戎——高校学生亲历者说（五）
+    url: https://mp.weixin.qq.com/s/5yeiHF190zXH0QqcrOMhLg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJm0bMrIOM8BUUicPf5u71m440xCWPdDIbOiauXFVicp55ClFanxANrEXd5lia0iaKBOchxCLymwoYQTm5g/0?wx_fmt=jpeg
+    title: 如何面对奥密克戎——高校学生亲历者说
+    url: https://mp.weixin.qq.com/s/GaE_Gg-dry6QhjPUV-Vxyw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJm0bMrIOM8BUUicPf5u71m44OBusPak9UbIX8KXPOlvERqdLZcM3scnqJMNicGJA7xlUt0cf2NGathQ/0?wx_fmt=jpeg
+    title: 如何面对奥密克戎——高校学生亲历者说（二）
+    url: https://mp.weixin.qq.com/s/psUK_cKge_caHyMF34qNlg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkTU9tg25AoeAlp4EA54eSIz4SWOcU0TAvDMSD7NL31I9lrSIXolObzmMkZv14GpsF0dI3bMGQ93g/0?wx_fmt=jpeg
+    title: 权威解读丨哪些感染者需要就医？居家隔离治疗有哪些注意事项？专家解答→
+    desc: 权威解读丨哪些感染者需要就医？居家隔离治疗有哪些注意事项？专家解答→
+    url: https://mp.weixin.qq.com/s/QB4ArMn0qjw5Wpe_zXA35A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkTU9tg25AoeAlp4EA54eSIBFGJmFSxlHWwV3ts10zzvU4NqSOCfyEsGZ6HvW8ETQglhTjPicgJkQg/0?wx_fmt=jpeg
+    title: 个人防疫手册（第二版）
+    url: https://mp.weixin.qq.com/s/SJQKqhYbNgXMZ9B7yhVy0w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkTU9tg25AoeAlp4EA54eSIZHr724kichpgpGkJsMsYtbdCLkQsagFT6cO2nKErZtKvJSar3w9xUdg/0?wx_fmt=jpeg
+    title: 关于当前防疫，你应该知道的50条科学信息
+    url: https://mp.weixin.qq.com/s/IL0gkihlUZ9aAUI1kdsakg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlGHiaU7SxWzDhlYLYJRQAztgNqgDaPWKeL8MKZcRVIl9FKAALrFZQicwmibn0cjJNibNpzCiaeJkmxhew/0?wx_fmt=jpeg
+    title: 春风讲堂回顾丨第一讲实录：如何理性面对奥密克戎？
+    url: https://mp.weixin.qq.com/s/TOUlJJaCtN1LYkRPKo4yyg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlGHiaU7SxWzDhlYLYJRQAztr5tmBURkPH35Ggf4BzptBhot0CcPJJAFg1GOiabGaOUmok1IoLPMIBQ/0?wx_fmt=jpeg
+    title: 居家隔离，这些事一定要做好！【科学防疫小贴士】（2）
+    desc: 叮！居家隔离小贴士请查收~
+    url: https://mp.weixin.qq.com/s/y9SzRCBfsUc7TC3kXJHxHQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlGHiaU7SxWzDhlYLYJRQAztGEibvKRd2n3WKtTZiaibTjdnKKIA9Q2BY7M9SicauJOQA9icwUBQG3GZtibw/0?wx_fmt=jpeg
+    title: 居家健康监测，这些事一定要做好！【科学防疫小贴士】（1）
+    desc: 叮！居家健康检测小贴士请查收～
+    url: https://mp.weixin.qq.com/s/7zIVEeGdu43HzkU6jlZ02g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmerDCGc9PfLLGnBDPMVfzo1CKibQ3maMvC3yXteWTiaHPCDaYSEbiakRkicZBux84YCCjyZwnbickaHcg/0?wx_fmt=jpeg
+    title: 东师美食大探秘第一弹
+    desc: 快来和校会君一起品尝东师的美食吧~
+    url: https://mp.weixin.qq.com/s/JAAoNYikZMNgdVfTu1ngdg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnIibAiaWurPydqibShzKj5JKSicRzcGP28e206qtslyytlAcc4Xu8DVrWyOmbrfP11IHPWPLjMzSnFibg/0?wx_fmt=jpeg
+    title: 学校举行2022年度各学院（部）基层团支部书记培训会暨学生社团临时团支部书记培训班
+    desc: 贯彻落实二十大精神｜学校举行2022年度各学院（部）基层团支部书记培训会暨学生社团临时团支部书记培训班
+    url: https://mp.weixin.qq.com/s/X_8hy9plrhE27lcV77ZyCg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkWDM2V6CDvWMaEOiaZqHEYAwDZmgGkvhTOSW4NHW2q4CS1g8YUuB2hMibrWazichIUnribLMLtSENg4A/0?wx_fmt=jpeg
+    title: 东北师范大学第二十二次学生代表大会召开
+    desc: 东北师范大学第二十二次学生代表大会于11月18日举行。
+    url: https://mp.weixin.qq.com/s/w8fHpzvBrYU8dbIIvUcpFA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkKAVpzoh1JU8Tk1vWpt5qfEGLoiaGBY7VOmxq9YUoI2gXAFrDu7apsf7snvaib7ndjUYyamd91d0mA/0?wx_fmt=jpeg
+    title: “食安校园共建·我们步履不停”食品安全月活动来啦！
+    url: https://mp.weixin.qq.com/s/sxVavom4u2BUprFEqvXp1A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnu44Pp0Kh35XK1pB0PLMEUSUkAKdaDnY6uzcW1IDoSvm6Hh4l0KtCmJr0Sz4Dic6lWqU1TjiaoQb4A/0?wx_fmt=jpeg
+    title: 习近平向“杂交水稻援外与世界粮食安全”国际论坛发表书面致辞
+    url: https://mp.weixin.qq.com/s/BqKlvMCkh10ZRTgWUg5mqg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlmZjenharKSo7rcM2tMiaPSOUd3D6X9ictOCxHsZEiaFJWpTqx4KQrFo6VWIAe0wFx1ibxE3mFerInPQ/0?wx_fmt=jpeg
+    title: 2022初雪特辑 | 齐聚东师赏如画冬景
+    desc: 2022初雪来袭，快来和校会君相约东师，一起赏雪！
+    url: https://mp.weixin.qq.com/s/1cRd-3hIGta-Kvub1ReEcw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkQBZFa9R01SsT9OGUic6qjadX4RUAESBPXl46KunjkrAl4nNSF43d9B89CxdagauNha3k4f10VWAg/0?wx_fmt=jpeg
+    title: 广大知识分子和青年学生掀起学习贯彻党的二十大精神热潮
+    desc: 广大知识分子和青年学生以多种形式深入学习认真领悟党的二十大精神
+    url: https://mp.weixin.qq.com/s/DQAeNMD2k3caTlc3G0NMRw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmic5s3tDfpGeNU1lXjWhvwNeOWffbsFv84R1qBaINwr8svvTB5kPGf8KZS6WDRRKN2gtnsV5wtXTw/0?wx_fmt=jpeg
+    title: “学习二十大、永远跟党走、奋进新征程”主题书画作品征集活动开始啦~
+    desc: 欢迎同学们踊跃报名~
+    url: https://mp.weixin.qq.com/s/FeviRjtzpmeERHxTUVCtrw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJnjicdejDB75sWNYaZMqicum7AJ5yXqmX1qkiaTmJLOnbcktJRYmpXN4pBzXkeOM0FlHuuPJ0Mkia5LKw/0?wx_fmt=jpeg
+    title: 中共中央关于认真学习宣传贯彻党的二十大精神的决定
+    url: https://mp.weixin.qq.com/s/-qYeouBBNe-8SqesYcYhrw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkD1MzAQqns3zV7go1nGSfTYyPTasrgFMrdtEVXLegJREXyEtibVYeAFicIGIlRsZHLAFsIeOKXVPzw/0?wx_fmt=jpeg
+    title: 高举中国特色社会主义伟大旗帜 为全面建设社会主义现代化国家而团结奋斗
+    url: https://mp.weixin.qq.com/s/H5PTaHx8U9LMU8Lf4EkG7g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkD1MzAQqns3zV7go1nGSfTK1jAhWzv7tT9jOmPsLhZc9jvIkuMwjMBJflrXZicFspg7dUxxiabdKjQ/0?wx_fmt=jpeg
+    title: 习近平：全面学习把握落实党的二十大精神 奋力夺取全面建设社会主义现代化国家的新胜利
+    url: https://mp.weixin.qq.com/s/meIXwphzJ2hHAGnXPKmxBA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJl4VMwbVcg7gLZ9btSgoQK6Bou2L7m11x6t5WwOaU7tRvsVfYxZtgvsWFSK4LU46DY8KKJ6MKScvQ/0?wx_fmt=jpeg
+    title: 高举伟大旗帜 谱写崭新篇章——新一届中共中央委员会和中共中央纪律检查委员会诞生记
+    url: https://mp.weixin.qq.com/s/Dp1hqFniO_88-Nclbqkbeg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJl4VMwbVcg7gLZ9btSgoQK6uLDS6Ed4cwLG9cxewLsOFs1iafwibJztXoRaj3DjasAFyvWdvFU3C9AQ/0?wx_fmt=jpeg
+    title: 中国共产党第二十次全国代表大会关于《中国共产党章程（修正案）》的决议
+    url: https://mp.weixin.qq.com/s/PPG-Xu3QcctegN_u9p1RqA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJl4VMwbVcg7gLZ9btSgoQK6uLDS6Ed4cwLG9cxewLsOFs1iafwibJztXoRaj3DjasAFyvWdvFU3C9AQ/0?wx_fmt=jpeg
+    title: 中国共产党第二十次全国代表大会关于十九届中央委员会报告的决议
+    url: https://mp.weixin.qq.com/s/U1rg7Lgaxb4u0fN_WwI8uw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJl4VMwbVcg7gLZ9btSgoQK6uLDS6Ed4cwLG9cxewLsOFs1iafwibJztXoRaj3DjasAFyvWdvFU3C9AQ/0?wx_fmt=jpeg
+    title: 中国共产党第二十次全国代表大会关于十九届中央纪律检查委员会工作报告的决议
+    url: https://mp.weixin.qq.com/s/TK-dLIlkRHmy5vyx_UxElQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJl4VMwbVcg7gLZ9btSgoQK6iclzernXwfPbKmUGOJq8tPzPKcGyQgTrZIgOzKe1OWMKQP5O023BQ3Q/0?wx_fmt=jpeg
+    title: 中共二十届一中全会公报
+    url: https://mp.weixin.qq.com/s/3K1-1DH2lxD1x6OkK_r20g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJk929JsfW4jPO0XOnVIKUj4I0PGEQBUYHPeYtgSNDh5fMp4pFa7nic0ibzs82ia3MajcOnfFLtX2NJ4A/0?wx_fmt=jpeg
+    title: 未来怎么干？看懂二十大报告中的这些关键词
+    url: https://mp.weixin.qq.com/s/0VLr1gN0ElXSEi0MAJ2JAA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJk929JsfW4jPO0XOnVIKUj4I0PGEQBUYHPeYtgSNDh5fMp4pFa7nic0ibzs82ia3MajcOnfFLtX2NJ4A/0?wx_fmt=jpeg
+    title: 9个数字！带你速读二十大报告
+    url: https://mp.weixin.qq.com/s/4qs_QI42iqMWHsFbtQgEEQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJntnv41TtNdrAXRJ7Dx3RibedYHiawRquL3XZhL5K2TlpSr7MYXCezyxurhpBic5YHstaP7UPNqoicVSw/0?wx_fmt=jpeg
+    title: 二十大报告金句
+    url: https://mp.weixin.qq.com/s/WDnx6oadBOsOR1Ky9ZfbVw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJk0SUSTRLo1orokKeMibIKuia9Qiahyc7q5s7dibLbGspjpcMySfIiaTj7UxAecHWXIJm3mWagS6OtJ6zQ/0?wx_fmt=jpeg
+    title: 习近平治国理政的中国智慧
+    desc: 新华社北京10月13日电 题：习近平治国理政的中国智慧新华社记者党的十八大以来，习近平总书记聚焦时代课题、擘
+    url: https://mp.weixin.qq.com/s/9S71jYUpMsXAB6dBgbF12w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJk0SUSTRLo1orokKeMibIKuia0wAS865M7uaxIjpxNUpWON4weyibicWbaSUQx3adyEHjgMJ2icWhmOImw/0?wx_fmt=jpeg
+    title: 党的十九大以来大事记（二）
+    desc: 快来和校会君一起回顾党的十九大以来祖国发生的大事吧~
+    url: https://mp.weixin.qq.com/s/P2fHgas3w6_q5hIxvBfqCA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJk0SUSTRLo1orokKeMibIKuia0wAS865M7uaxIjpxNUpWON4weyibicWbaSUQx3adyEHjgMJ2icWhmOImw/0?wx_fmt=jpeg
+    title: 党的十九大以来大事记（一）
+    desc: 快来和校会君一起回顾党的十九大以来祖国发生的大事吧~
+    url: https://mp.weixin.qq.com/s/rAE6rmEN5fSm9oxlyIelrQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJma3ibicaMVQhmeUfLwLvWhotTu8BeHlGI5qaebT2xxYHK39BVkCPnnWgnCJRMhseSGjuG9jbVdCqkQ/0?wx_fmt=jpeg
+    title: 云成长 | 共同成长计划之读书打卡活动开始啦
+    desc: 和校会君一起加入共同成长计划之自律打卡活动吧~
+    url: https://mp.weixin.qq.com/s/id1xI4z1-n66HviDkqogSA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJl5Piazd7HPu7Io4xuj6eIteIkosk8TlavMeIP4uzY7KnCDyiaNvmNI2PAQCPMLg4uB1DgBWxwkPrWg/0?wx_fmt=jpeg
+    title: 志愿温度 | 服务东师青年返校记
+    desc: 我们终于又在东师重逢了~
+    url: https://mp.weixin.qq.com/s/S5c7gq8LKuq7w9UQpIa-sA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJm7SMwkDA2U0BInSXJh8ZFb7By9ds7D2y1AiaZlLOIRgibUPfNmsUZzibgHranbovc646stuhDf2kUyg/0?wx_fmt=jpeg
+    title: “喜迎二十大 永远跟党走”之青春寄语来啦~
+    desc: 二十大“寄”青春活动来啦，快来欣赏东师优秀学子的青春寄语
+    url: https://mp.weixin.qq.com/s/7r5KhhdGNq1BMYAmFLIQlA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkpHeZ5oFUuoTQCbyQiacwicicDY3TrMzPV9Kpolwof52804TCL3DoWphSibrZscNvpdHGvET4ibicEQpaA/0?wx_fmt=jpeg
+    title: 从“家里嫌”到“家里宝”的居家求生指南
+    desc: 校会君独门秘笈之如何在居家生活中轻松赢得父母的欢心，各位东师学子走过路过不要错过哦！
+    url: https://mp.weixin.qq.com/s/zuHKKfsMtJ9ZOUOJWcxIOQ
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJn9KqKb0TXjGAeZBC2EnmcEJ9Kn6BcuoYjPCszNpwCCD4GYoojlVjlgyAl1V72gcJLfXzgiabCAdOw/0?wx_fmt=jpeg
     title: 东北师范大学关工委给2022级新生的一封信
     url: https://mp.weixin.qq.com/s/EOjiVSCmGhOzMTNlsYrm3Q

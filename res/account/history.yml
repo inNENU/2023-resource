@@ -5,6 +5,78 @@ id: dssyxl
 logo: $img/media/history.jpg
 qrcode: $img/media/history-qrcode.jpg
 article:
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK8bndR05ic1kicnic6NU5pzaialQc8QOjh9lY6muvA9KS7CB2liacpOrjn1CxicYVLUuiaf1BAJnjhnQ6Lkw/0?wx_fmt=jpeg
+    title: 历史文化学院在2023年春季学期校园文化活动中屡获佳绩
+    url: https://mp.weixin.qq.com/s/ZpXlWd7oSukrYj9Rh2NRhQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK9AIknibDdds7UzPHLXeZNxicxbIqhYu8wqSz9iafdBibupV1u9YYuk0Lylka9C5WA8NHtf5eiar2wErOg/0?wx_fmt=jpeg
+    title: 对话·史坛之窗|期刊推荐（第四期）
+    url: https://mp.weixin.qq.com/s/jXEL5w96FD6pde_SmWTxPA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKicZnj4WLm0ficBdicu8CBZ4cP9mzAPWiafnm5gMKmvVZuWo7Ko2ExB8fZKTSf5PXazpp0Tq5q1AV0Grw/0?wx_fmt=jpeg
+    title: 对话·史坛之窗｜期刊推荐（第三期）
+    url: https://mp.weixin.qq.com/s/GHSUFs-7QvytVMlgM_rzVQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKic0C6qGL15hOQZlK58g5ibLaiagPMGwU3ebXpJgj13N1gVKibCl9mdJicmeTvm2T1SicyibbpQibJibU50CEQ/0?wx_fmt=jpeg
+    title: 先彼之忧，乐行实事——“停云信箱”回信（第二期）
+    url: https://mp.weixin.qq.com/s/f-Fl_XOEaa8nVHCRlsWnuw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKic3qjdu2sawltD488HOMvLVTuFmacJsQDg0NtWICe9fnqm2xrBvztwQO9WB41Q4bTBwND3YCQAnjA/0?wx_fmt=jpeg
+    title: 2023年“乐活春季”主题周末文化航班活动顺利收官！
+    url: https://mp.weixin.qq.com/s/1ZVAzMwrn7MgWRDHLhXVSg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK9RbUhcVCkJezSXOlYMaBDiaje3bMHAHTd3t5B9Bv8rqGEIwkpdDZx06OYLdicGjqhlWYtfqP471wlA/0?wx_fmt=jpeg
+    title: 东北师范大学首届东北地区卓越历史教师教研协作体工作论坛成功举办
+    url: https://mp.weixin.qq.com/s/xbxUojps14OyP9FknLJHvQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKicD3cRiaqiaeh6rlTETkvpp7BoMu4V16YpD3zeHyZt8XyoLBLkgr6cU7XUpLzSLet7iafAaDtzYZSslQ/0?wx_fmt=jpeg
+    title: 第八赛季“史师杯”学生教师技能竞赛全明星赛暨颁奖典礼成功举办
+    url: https://mp.weixin.qq.com/s/euRN8BSj3vpcjJm3pdjHRA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKicgcMfv97eRRbaZRcqs4kXNVr5icZgicqwkCJjUlcVEl80iacY1CRcA7AQbWcf9AW0UiaOo5ZHQOz5paA/0?wx_fmt=jpeg
+    title: 历史文化学院“五育并举教育实践共建基地”揭牌仪式成功举办
+    url: https://mp.weixin.qq.com/s/lGeQRJMhf0UCQK9rucSFqg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKicgcMfv97eRRbaZRcqs4kXNnATZicMYahlu2r7xibGiacJTDiclibH9icFr2r07p9B4NibTJIToicUtgGyiaSA/0?wx_fmt=jpeg
+    title: 对话·史坛之窗|期刊推荐（第二期）
+    url: https://mp.weixin.qq.com/s/sML0dbwPP4V4xuMq4CD6Ig
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK9O0sjFp9qXYnHs0ZInU0iaMp3k0NUicxia5c7o4qIiaTQmUyibbwCoajk3GnaXqe9obTOFyI9mCWhAoqQ/0?wx_fmt=jpeg
+    title: 喜报|史苑男女足双双获“东师杯”足球赛冠军
+    url: https://mp.weixin.qq.com/s/To8HbXE7MAEroq3q2bdCVw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKicnHibl9VicNCkfEQ5MuyffOe9BTKolZ49eu9W593jSIcDpml82llvXqrW3EyRWTPltfiapyNLjUuegA/0?wx_fmt=jpeg
+    title: 第84期"青史论坛&quot;之&quot;青史悦读&quot;2022级本科生专场圆满结束
+    url: https://mp.weixin.qq.com/s/xxRTW1M4KaaOpy69dDuWcA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKibeJcjwgibvzCtFBCj40MpcB34J8C4LgKB9e8QFPQiaibMRllI5bA1YlspUooYTwJTjGq4wICI48tPFA/0?wx_fmt=jpeg
+    title: 对话•史坛之窗 | 期刊推荐（第一期）
+    url: https://mp.weixin.qq.com/s/HR7Z67pCJgTUJ6ad8Wu_hw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK8pZQTqaJ0ohIek7MQJEWckeeEsh7yqkz40aFtHzeTwHHYUMB45LozdmU3F7cq9TySsAxSc94K6pQ/0?wx_fmt=jpeg
+    title: 先彼之忧，乐行实事——“停云信箱”回信（第一期）
+    url: https://mp.weixin.qq.com/s/eQ0J_MNNcz12IjgZh--r4Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK85xxUZfOOWPHiczqF0iclscMDwbQgiaTJQf01uk9Ao0hg9VmnLV9eVo2eB0JpsLY4JNiahFjicOQCmq8w/0?wx_fmt=jpeg
+    title: 第83期“青史论坛”之“2023年国创科研经验分享会”顺利召开
+    url: https://mp.weixin.qq.com/s/R_oSpTfpTm4T-H3Q5yan2g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKibdGW8pYHMoHZDBHl6mTq092ITfrEQkqxibYWzTqCswdrUEYd87bfjSicd1hOzYxZdVBvTYvYnr5coQ/0?wx_fmt=jpeg
+    title: 第82期“青史论坛”之“《史记》论读”2022级本科生专场圆满结束
+    url: https://mp.weixin.qq.com/s/mpHtXkAKNYw9H9dVtsZ-uw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKicia1owF1cUkyoAQ3h6le0CMU5Z2K9bibUiakKaqeB9qlDZFRficwuVCX2ticjBGdeeoQtV01n2Qj4iaOmQ/0?wx_fmt=jpeg
+    title: 历史文化学院团委2023年“乐活春季”主题周末文化航班活动正式推出！
+    url: https://mp.weixin.qq.com/s/GZ4xj-mwd9pSfr-vcfo8qg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbKicQBuYPsJI1J2fILW4smicPKetDkUAjfJ3c2RQ0YQgBhiaHggFym54ZlSC4MQjVsLdia14To5iaJaYxXg/0?wx_fmt=jpeg
+    title: 先彼之忧，乐行实事——“停云信箱”正式上线
+    url: https://mp.weixin.qq.com/s/_4Z1BkG1Go5lLoGWLvoUgA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK9UMwRic29xYibvzf6ogum7GoL6VibXG7lqsl93P48enEN5kOpsrgNjU3heBIUtdOTeFaygQbibyg8qjQ/0?wx_fmt=jpeg
+    title: 第82期“青史论坛”之“史思沙龙”暨史学协会“稷下对谈”读书会成功举办
+    url: https://mp.weixin.qq.com/s/grn25X-UflirlpgUfoJ2Gg
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/oicpMGd7RbK92xrWfTnmFdBUonpVzDI3yuiaaPUl1ibKMH30xXxdtn8ULz64npZSC8kU5Ay9fJzKQ63iaoicIREflWg/0?wx_fmt=jpeg
     title: 对话•史坛之窗 | 学术信息(第二十五期)
     url: https://mp.weixin.qq.com/s/ARvyWI5gQ2RIIvcPrm3TIQ

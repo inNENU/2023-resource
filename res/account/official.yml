@@ -5,6 +5,11 @@ id: nenuweixin
 logo: $img/media/official.png
 qrcode: $img/media/officail-qrcode.jpg
 article:
+  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/ysE1q5sFFFhNn8xxLulzvr0VpTicwpoZRSq1xtVIBibRicLHLLMdwUlFic3YRfClwibYIwyCqJeJPj7HZRUcMASRpUQ/0?wx_fmt=jpeg
+    title: 东师·印象 | 又是一年毕业季
+    desc: 暖心共读，一篇来自东师师长的、情真意切的送别散文。
+    url: https://mp.weixin.qq.com/s/lDorvE3Lftt7JpbeIkEV7g
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/ysE1q5sFFFg00eqTMGa5fWwVN4I4AMPIorn5hkoNTmMEfqpAUqIcxLXtdTVaDY8WgSXyGibegBD8NJBic4NwImOw/0?wx_fmt=jpeg
     title: 东师校园开放日 | 张张笑脸写满“喜欢” ，奶牛君祝您东师梦圆！
     desc: 今日，共赴一场期待已久的约会！

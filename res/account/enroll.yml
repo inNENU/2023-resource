@@ -4,6 +4,18 @@ id: nenuzsb
 logo: $img/media/official.png
 qrcode: $img/media/enroll-wechat.jpg
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQH86ucV8HShg4iaLicXX5MoXMKIaIEYspLzqokolibiaMkJfszduvtU4twRWgKUSPeE1xymnTgubjGicfw/0?wx_fmt=jpeg
+    title: 2023年招生季学院（部）招生宣传活动（二）
+    url: https://mp.weixin.qq.com/s/etPxTsqKkd0e3guiIVuIIA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQGBVvLHa5RTS5iaHkf4fTZ7jl8icnniaVtQdsLdcpkibQfsjHxh8AYdufgiacdrbK4VDEwdUUYSW1pJopA/0?wx_fmt=jpeg
+    title: 2023年招生季学院（部）招生宣传活动（一）
+    url: https://mp.weixin.qq.com/s/V7szqJQ2h2nQxQRpchM9jA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEFMvt5b6O9dkgZdAnmJyksUn1wl6bia9MNztYBn9X3Ga9ib2I8XsQOsVxkpxGL64kWs2Gg9t0AnOiaA/0?wx_fmt=jpeg
+    title: 星落东北，笔书新章丨东北师范大学等你共赴“星”海！
+    url: https://mp.weixin.qq.com/s/nJKevUikDGFXFyaynHVD1w
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEFMvt5b6O9dkgZdAnmJyksrn3jg6EEEI2kWf4cCDLBrXPcKaVSyyZBrtewdjZ40OPBG4dPef78MQ/0?wx_fmt=jpeg
     title: 东师校友忆芳华丨杰出校友展风采，东师伴你一路前行
     url: https://mp.weixin.qq.com/s/m1z4jFIxT4jMpcVkdmmOHQ
@@ -433,7 +445,7 @@ article:
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQHmpYLksIdKqh1TlHZlw1GzQDCAvgbXxzq8lUrDLialcNYjibyJymuyz8JqyNE6D3jeZfdm1icXTaGcQ/0?wx_fmt=jpeg
     title: 东北师范大学2022年高考招生线上咨询月启动！
-    desc: 招生咨询方式汇总已上线！\x0a我们在东师，期待与你相遇！
+    desc: 招生咨询方式汇总已上线！ 我们在东师，期待与你相遇！
     url: https://mp.weixin.qq.com/s/cgX7ziljEb50KkLujqA0ZA
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQFo7jch4aF03x3MQUwOHuCPYPsiazvZ6cWIgz9KE0CIGGTV1hlA2lKJ277d66Nfrms1t6VbokWIib9A/0?wx_fmt=jpeg
