@@ -1,6 +1,6 @@
 title: 本科生转专业实施办法解读
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-03T03:58:12.090Z
 shareable: true
 content:
   - tag: title
@@ -78,6 +78,18 @@ content:
     type: tip
     heading: Mr.Hope の 解释
     text: 也就是说每一个专业的转入和转出的总人数是有限的，这也是显然的。所以如果自己专业存在很多想要转出或想转往大量转入的热门专业时，要对自身的成绩和实力做好评估。
+
+  - tag: text
+    text: 师范类 (非公费) 专业仅限原专业同为师范类 (非公费) 的学生转入
+
+  - tag: text
+    type: info
+    text: 以上消息是近两年学校统一执行的方案，详见各学院发布的专业准入要求。
+
+  - tag: p
+    type: tip
+    heading: Mr.Hope の 解释
+    text: 也就是说您必须在录取时，录取到师范类专业 (非公费) ，才有资格转入其他非公费师范类专业 (如物理、化学、数学)
 
   - tag: title
     text: 特殊情况
