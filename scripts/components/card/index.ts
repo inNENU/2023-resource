@@ -86,7 +86,13 @@ ${
 `
     : ""
 }\
+${
+  name
+    ? `\
     <div class="innenu-card-name">${name}</div>
+`
+    : ""
+}\
   </div>
   <div class="innenu-card-title">${title}</div>
 ${

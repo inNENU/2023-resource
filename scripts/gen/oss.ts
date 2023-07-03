@@ -1,6 +1,7 @@
 import { execSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+
 import OSS from "ali-oss";
 
 const __dirname = path.dirname(
@@ -21,13 +22,14 @@ export const syncOSS = async (): Promise<void> => {
     region: "oss-cn-beijing",
     accessKeyId: process.env.OSS_KEY_ID!,
     accessKeySecret: process.env.OSS_KEY_SECRET!,
-    // 填写Bucket名称。
     bucket: "innenu",
     secure: true,
   });
 
   const headers = {
+    // eslint-disable-next-line @typescript-eslint/naming-convention
     "x-oss-storage-class": "Standard",
+    // eslint-disable-next-line @typescript-eslint/naming-convention
     "x-oss-object-acl": "public-read",
   };
 
@@ -38,6 +40,7 @@ export const syncOSS = async (): Promise<void> => {
         path.normalize(path.join(__dirname, filePath)),
         { headers }
       );
+
       if (result.res.status !== 200)
         console.log(`${filePath} upload failed:`, result.res.status);
     } catch (err) {
@@ -45,12 +48,14 @@ export const syncOSS = async (): Promise<void> => {
     }
   };
 
-  files.forEach((item) => {
-    if (
-      item.startsWith("img/") ||
-      item.startsWith("file/") ||
-      (item.startsWith("r/") && item.endsWith(".zip"))
-    )
-      put(item);
-  });
+  await Promise.all(
+    files.map(async (item) => {
+      if (
+        item.startsWith("img/") ||
+        item.startsWith("file/") ||
+        (item.startsWith("r/") && item.endsWith(".zip"))
+      )
+        await put(item);
+    })
+  );
 };

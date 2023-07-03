@@ -17,13 +17,13 @@ import { genLyric } from "./lyric.js";
 import { resolveLocationPage } from "./map.js";
 import { type MarkerOption, resolveMarker } from "./marker.js";
 import { type MusicInfo, checkMusic } from "./music.js";
+import { syncOSS } from "./oss.js";
 import { type PEConfig, genPEScore } from "./peScore.js";
 import { generateResource } from "./resource.js";
 import { genSearchMap } from "./search.js";
 import { resolvePage } from "../components/page.js";
 import { type PageConfig } from "../components/typings.js";
 import { convertYml2Json } from "../utils/index.js";
-import { syncOSS } from "./oss.js";
 
 // 删除旧的文件
 deleteSync([
