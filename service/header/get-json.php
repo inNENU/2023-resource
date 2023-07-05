@@ -10,7 +10,7 @@
  * @author    Mr.Hope <zhangbowang1998@gmail.com>
  * @copyright 2021 Mr.Hope
  * @license   No License
- * @link      https://mrhope.site
+ * @link      https://mister-hope.com
  */
 
 header("Content-Type: text/json; charset=utf-8");

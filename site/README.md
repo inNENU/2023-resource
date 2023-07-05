@@ -396,6 +396,10 @@ head:
     - name: baidu-site-verification
       content: codeva-vWUwPsPNMh
 
+  - - meta
+    - name: baidu-site-verification
+      content: codeva-iZVMV2BVix
+
 footer: |-
   <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21030202000266" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">
     <img src="http://www.beian.gov.cn/img/ghs.png" style="width:1rem;vertical-align:middle;"> 辽公网安备 21030202000266号

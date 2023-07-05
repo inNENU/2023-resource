@@ -1,6 +1,6 @@
 # in 东师 小程序页面配置文件
 
-[![作者: Mr.Hope](https://img.shields.io/badge/作者-Mr.Hope-blue.svg?style=for-the-badge)](https://mrhope.site)
+[![作者: Mr.Hope](https://img.shields.io/badge/作者-Mr.Hope-blue.svg?style=for-the-badge)](https://mister-hope.com)
 
 > 请注意: 本项目的文本部分，除采集于公共领域(均标注了引用来源)的部份外，其余文本使用[署名-非商业性使用-禁止演绎 4.0 国际许可证](https://creativecommons.org/licenses/by-nc-nd/4.0/)。
 >
@@ -14,8 +14,8 @@
 
 ## 编写说明
 
-- [简单开发教程](https://mrhope.site/code/mini-app/framework/simple-debug/)
-- [小程序参数表](https://mrhope.site/code/mini-app/framework/tag-list/)
+- [简单开发教程](https://mister-hope.com/code/mini-app/framework/simple-debug/)
+- [小程序参数表](https://mister-hope.com/code/mini-app/framework/tag-list/)
 
 ## 其他说明
 
