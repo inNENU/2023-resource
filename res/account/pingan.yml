@@ -147,7 +147,8 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/E2eJYIhNrs88rWZYxUqiagKxTaAf2M6zmO0Z4QZbX8NBrKjXOgP8KmHmF3ceVLUSneJ9zrZEFdsTicN86ibl11O0A/0?wx_fmt=jpeg
     title: ​叮咚！共享单车骑行宝典来袭~
-    desc: Nenuer们最喜欢的活动方式：共享单车
+    desc: |-
+      Nenuer们最喜欢的活动方式: 共享单车
     url: https://mp.weixin.qq.com/s/sSLFN7zpp_YKlx8J89z3sw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/E2eJYIhNrs8XKJenWK9yCsL2TTZdmibcnrFwSvrkOPIkLmxWRWKFYPDev3TXZD71jPPzaO2ZUxlKMciajibAKUzMA/0?wx_fmt=jpeg
@@ -211,7 +212,8 @@ article:
     url: https://mp.weixin.qq.com/s/qeD0mMyDb-AphFzE8hxR6Q
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/E2eJYIhNrsibwQ1IibGhazwRgEO3mf12h4bY7TDB3kCdZSPP4LFQ6vJh0Nqia9FbfwADTD6ghoEwKzIF9M6Z4OoWQ/0?wx_fmt=jpeg
-    title: 温馨提示：疫情期间如何安全收取快递？
+    title: |-
+      温馨提示: 疫情期间如何安全收取快递？
     desc: 最近，新一轮新冠肺炎疫情已经波及全国多地。“辽宁阜新一快递包裹核酸阳性”的新闻引发了人们的关注大家在经历过“
     url: https://mp.weixin.qq.com/s/cgdY6TUnl_HaC2GDEJfHBg
 
@@ -256,7 +258,8 @@ article:
     url: https://mp.weixin.qq.com/s/r8GH2-FBFaO54kxtxGYQ_w
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/E2eJYIhNrs9iaMS29ibFQN0wjNDauxw9hqFRia7ylr1j88eeP7FwmWyA16CGLsyDriaAfEpscMYxkIo1cQpHqH9zGA/0?wx_fmt=jpeg
-    title: 防诈骗小课堂第四课：冒充熟人诈骗
+    title: |-
+      防诈骗小课堂第四课: 冒充熟人诈骗
     desc: 号外！号外！防诈骗小课堂第四课来啦！
     url: https://mp.weixin.qq.com/s/vp5-yhMVXkJCYLkjC40cEQ
 
@@ -270,17 +273,20 @@ article:
     url: https://mp.weixin.qq.com/s/MMcSA6miTFA_TjfpYGvxJw
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/E2eJYIhNrsicXYXSAnfWLiaicsMx57efHYOtO6sx5ia4hef2QaticTcRZMIEkz43CzJPgPCxv5C55oNP3KqMB5VGW9w/0?wx_fmt=jpeg
-    title: 防骗小课堂第三课：杀猪盘陷阱
+    title: |-
+      防骗小课堂第三课: 杀猪盘陷阱
     desc: 防骗小课堂第三课来咯~盲目投资有风险，假冒恋人骗感情社交平台变“猪圈”，耐心骗子把“猪”杀~
     url: https://mp.weixin.qq.com/s/cvW7vASIIph2nYXe6PAXYQ
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/E2eJYIhNrs81Fv9QsmvjYnjQnNrxITHUrFxrjzpFWDwRFjicb4NSFXLbGCdRUCvRib4WWzqahYvQicibPbDNDciaBgQ/0?wx_fmt=jpeg
-    title: 防诈骗小课堂第二课：冒充客服诈骗
+    title: |-
+      防诈骗小课堂第二课: 冒充客服诈骗
     desc: 凡自称网购/借贷平台客服，假借官方说辞指引操作的都是骗局！同学们一定要提高警惕。
     url: https://mp.weixin.qq.com/s/vED7Z7Qngr6iki0xpULBBw
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/E2eJYIhNrs9QgbtCzMTjtKzP7pFjP5LDmXOksGicNGhCvlIAIich2GROGv247tGhxa1zr7jbOZPxXGOGBEp0mTtA/0?wx_fmt=jpeg
-    title: 防诈骗小课堂第一课：刷单兼职诈骗
+    title: |-
+      防诈骗小课堂第一课: 刷单兼职诈骗
     desc: 刷单是违法欺诈行为！请同学们提高警惕，勿入刷单骗局！
     url: https://mp.weixin.qq.com/s/ZFo1wvby09LBIpXT1IdsyQ
 

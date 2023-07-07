@@ -6,12 +6,14 @@ qrcode: $img/media/vocation-wechat.jpg
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/HIgMKoC4BOWOjrg3JksCiatuuJJDBD0YiaAG4xrUD7CtOBYdVb0tXQkjb7TtWCVOk4E4o4ibub7oicPSOcOAVcRplg/0?wx_fmt=jpeg
     title: 东北师范大学2023年9月课程考试预约及相关要求
-    desc: 各位学习中心老师、学生：​ 根据东北师范大学课程考试安排，本次考试主要采取远程网络考试形式，主要为网考开卷和网考闭卷考试，其中网考开卷考试为328门，网考闭卷考试为235门，另有13门课程采取平时考核形式，具体考试形式参见附件1。
+    desc: |-
+      各位学习中心老师、学生: ​ 根据东北师范大学课程考试安排，本次考试主要采取远程网络考试形式，主要为网考开卷和网考闭卷考试，其中网考开卷考试为328门，网考闭卷考试为235门，另有13门课程采取平时考核形式，具体考试形式参见附件1。
     url: https://mp.weixin.qq.com/s/Siz-bwBYuMrDFeEdXDfJRQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOUJGKgkI5EnJD9ic6k7WtYLdy4iaXQicliaPwg06yAkDlx0VrIfksomroUWJOehOjnyBtLicTibmzT66ckQ/0?wx_fmt=jpeg
     title: 关于2023年7月份毕业生统考免考补办的通知
-    desc: 各学习中心老师、网络教育学生：由于各种原因有个别2023年7月份毕业的网络教育学生没有如期办理统考免考。
+    desc: |-
+      各学习中心老师、网络教育学生: 由于各种原因有个别2023年7月份毕业的网络教育学生没有如期办理统考免考。
     url: https://mp.weixin.qq.com/s/QU3c_y3sszKwnk1INRp51A
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOXZ3IZjpViaH2BDsxMGWTsGicppcocyic8IWaBKJtX7IcWJpSNsKCYsYrIyM0GU3B273miaib9K4E0oVww/0?wx_fmt=jpeg
@@ -21,22 +23,26 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOXbxMtlcYibUMjvlXQ2z4IPSDN0r9ffr8a5Gsv8BtacvicFpE9RXAKQAdXsgLDSy9Xiasv6oicvBgEk5g/0?wx_fmt=jpeg
     title: 东北师范大学2023年4月网络教育部分公共基础课统一考试的通知
-    desc: 各授权学习中心、网络教育学生：根据教育部现代远程教育试点高校网络教育部分公共基础课全国统一考试 (即统考)
+    desc: |-
+      各授权学习中心、网络教育学生: 根据教育部现代远程教育试点高校网络教育部分公共基础课全国统一考试 (即统考)
     url: https://mp.weixin.qq.com/s/U9ilfoEOMcza6EWyvC7R1Q
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOXbxMtlcYibUMjvlXQ2z4IPSgKspeYCBqjPibwuN54SvAqhicBABTZ1ictLrR3IYkWO2t5fYLZXLtIR0A/0?wx_fmt=jpeg
     title: 关于2023年4月网络教育全国统一考试《大学英语》重考报名工作的通知
-    desc: 各授权学习中心、网络教育学生：根据《关于印发东北师范大学授予成人高等教育本科毕业生学士学位实施细则 (试行)
+    desc: |-
+      各授权学习中心、网络教育学生: 根据《关于印发东北师范大学授予成人高等教育本科毕业生学士学位实施细则 (试行)
     url: https://mp.weixin.qq.com/s/RMAj8c57rwwKqe5bM-GW3Q
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOW5nZWd0Gn5uONGaicJicwcnIW1jqlF9gJfw1YWhyXGUCK5st5fmBZ7TT9MocgDibhibJFgD8a5ggJoYg/0?wx_fmt=jpeg
     title: 东北师范大学2023年3月课程考试实施在线考试的通知
-    desc: 各位老师及同学： 东北师范大学2023年3月课程考试共计562门课程实施在线考试，其中网考开卷328门
+    desc: |-
+      各位老师及同学:  东北师范大学2023年3月课程考试共计562门课程实施在线考试，其中网考开卷328门
     url: https://mp.weixin.qq.com/s/fyeseCBOgsF3spgye2KDHg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOW5nZWd0Gn5uONGaicJicwcnIZcPB5KDnTxHjicIOnQTzb5DgWB3ZNpVrV0DDlIGqD37wsonPX8QnKibA/0?wx_fmt=jpeg
     title: 关于东北师范大学2023年春季学期学位论写写作的通知
-    desc: 各学习中心及各位同学：根据东北师范大学教学安排，2023年春季学期2302批次学位论文提纲将于2023年3月
+    desc: |-
+      各学习中心及各位同学: 根据东北师范大学教学安排，2023年春季学期2302批次学位论文提纲将于2023年3月
     url: https://mp.weixin.qq.com/s/Ka7bx9As639FyK3F7hHhQA
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOUcibd2iaaGCuonB8PhlQ1GQkK2QEJll3fNFHdia4aKwUQb7uJk8g9EZaicT8a86twYZrAcX8eiaJ3SyCA/0?wx_fmt=jpeg
@@ -60,27 +66,32 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOUW1R1OWk4WoV29uHicqfDOdXeiad2Gnx056VoZMXlW5xslssQZYSlH48vicvUSKmyCPNCjLyMc2oqYA/0?wx_fmt=jpeg
     title: 关于东北师范大学2023年春季学期论文选题安排的通知
-    desc: 奥鹏各学习中心及各位同学：根据东北师范大学教学安排，2023年春季学期论文工作将于2023年1月31日12时正式启动。
+    desc: |-
+      奥鹏各学习中心及各位同学: 根据东北师范大学教学安排，2023年春季学期论文工作将于2023年1月31日12时正式启动。
     url: https://mp.weixin.qq.com/s/PYO9zN_mNcO83yYWzg_-Nw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOV10TGhNM5jo6uwuTDkVMBEGpV64hXk2VhO6qgWFzLekfNyT2GAfT4ia511LLyibdahujfNd3wUa8ibg/0?wx_fmt=jpeg
     title: 东北师范大学2023年3月课程考试预约及相关要求
-    desc: 各位学习中心老师、学生：根据东北师范大学课程考试安排，本次考试形式主要为网考开卷和网考闭卷考试，取消原作业考
+    desc: |-
+      各位学习中心老师、学生: 根据东北师范大学课程考试安排，本次考试形式主要为网考开卷和网考闭卷考试，取消原作业考
     url: https://mp.weixin.qq.com/s/wJcOR7w4sSgyuPID48kmlw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOWeRUjwnaUp0tDIY98bZlh1Dl96DXeBeLqFrIXaXE3HSAef2Tia2mkhevia3xaVpn9gFp5ciaialoicBPw/0?wx_fmt=jpeg
     title: 东北师范大学网络教育2022年秋季学期平时作业开启的通知
-    desc: 奥鹏各学习中心及各位同学：        东北师范大学2022年秋学期各课程平时作业已陆续发布，各位同学可以做作业了。请各位同学先认真学习课件、教材及课程导学资料，再完成各课程作业。
+    desc: |-
+      奥鹏各学习中心及各位同学:         东北师范大学2022年秋学期各课程平时作业已陆续发布，各位同学可以做作业了。请各位同学先认真学习课件、教材及课程导学资料，再完成各课程作业。
     url: https://mp.weixin.qq.com/s/34QR5vDmeRL2KJVZlp5-6A
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOXibkhVoibEUTFvSXgK8chmdkebiadTEEpYygIIM6AsYnQsiaQTPSEXTVVplmqhNJG5k3dhJDNrmicwrdg/0?wx_fmt=jpeg
     title: 东北师范大学网络教育2208批次本科学位论文成绩发布的通知
-    desc: 奥鹏各学习中心及参加本次写作的同学：东北师范大学2022年秋季学期学位论文 (2208论文批次) 成绩及答辩成绩均已发布。
+    desc: |-
+      奥鹏各学习中心及参加本次写作的同学: 东北师范大学2022年秋季学期学位论文 (2208论文批次) 成绩及答辩成绩均已发布。
     url: https://mp.weixin.qq.com/s/bHysxAr-oGouNIX4maShVw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOUibDr76uiantExEuo4WaCDy26voCovpKjkD2GYKD6SN3nkHNo2vPo0D7axBCeaNjnEPRyywCTSCwLg/0?wx_fmt=jpeg
     title: 东北师范大学网络教育2207批次本科毕业论文成绩发布的通知
-    desc: 奥鹏各学习中心及参加本次写作的同学：东北师范大学2022年秋学期非学位论文 (2207论文批次) 成绩已发布。
+    desc: |-
+      奥鹏各学习中心及参加本次写作的同学: 东北师范大学2022年秋学期非学位论文 (2207论文批次) 成绩已发布。
     url: https://mp.weixin.qq.com/s/wq7kVE1MjnN3GycIFYNr1Q
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOWLKGrvNpoFGribhWx1XsjXzdf3plVGtLprpl05MMd6jHMIheWtwiarl4nfKOsLKa4ssDb19mzc3QDQ/0?wx_fmt=jpeg
@@ -95,17 +106,20 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOWx4LuLVcxPCDT4KAmk7wVX4DQb40VRIgNgjXPpNkN5lzDzs1NwiaPfTkYqXHVYkYHiacZUXwu93IDg/0?wx_fmt=jpeg
     title: 关于2023年1月份毕业生统考免考补办的通知
-    desc: 各学习中心老师、网络教育学生：      由于各种原因有个别2023年1月份毕业的网络教育学生没有如期办理统考免考，导致相关统考课程未通过，为了不影响学生2023年1月份正常毕业，经我校研究决定将针对此次毕业学生进行统考免考补办。
+    desc: |-
+      各学习中心老师、网络教育学生:       由于各种原因有个别2023年1月份毕业的网络教育学生没有如期办理统考免考，导致相关统考课程未通过，为了不影响学生2023年1月份正常毕业，经我校研究决定将针对此次毕业学生进行统考免考补办。
     url: https://mp.weixin.qq.com/s/BTuzrNCRhZUlfHyD9bROcw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOWx4LuLVcxPCDT4KAmk7wVXXEEd2Bv8PcrJk8fnpPydYfR73BhYMxmuuyVibBE47Xg59iawI2EM4s7w/0?wx_fmt=jpeg
     title: 吉林省2022年成人高考疫情防控提醒
-    desc: 各位考生： 吉林省2022年成人高考即将在11月5日举行。当前，国内疫情防控形势依然严峻复杂。为保障广大考生和涉考人员的生命安全和身体健康，现将考生参加本次考试的防疫要求提醒如下：
+    desc: |-
+      各位考生:  吉林省2022年成人高考即将在11月5日举行。当前，国内疫情防控形势依然严峻复杂。为保障广大考生和涉考人员的生命安全和身体健康，现将考生参加本次考试的防疫要求提醒如下:
     url: https://mp.weixin.qq.com/s/qQJ4QTNGZlutZMT82Swd9w
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOVXYUg8obLbcBb3YISIlsTRQp0pjlXo6FicaR4EiahvZwpXMxdro9XGmjOK1BnxY0KicDh6qN3HEL5Zw/0?wx_fmt=jpeg
     title: 东北师范大学网络教育2208批次本科学位论文答辩通知
-    desc: 2208批次学位论文写作实行抽查答辩，答辩时间为11月12日上午8：30。
+    desc: |-
+      2208批次学位论文写作实行抽查答辩，答辩时间为11月12日上午8: 30。
     url: https://mp.weixin.qq.com/s/502xXdyqWcnJK3-ihkeULA
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOWu2mSRhhiayCq1WLAWpLSibk7w1PzUKk50FawVSHtLaNJkqlusuXRYXsQQ0QHJ7AUvU7YfdpL2NiaKA/0?wx_fmt=jpeg
@@ -125,7 +139,8 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOVTPBUEE3psxBW2SrWTZFRZeDZP5QSNxbbLfH4sSYTlfVhH7OaQPEwoGQkcJDSicWrGD9ZQv8ic7Esw/0?wx_fmt=jpeg
     title: 关于2022年10月网络教育全国统一考试​ 《大学英语》重考报名工作的通知
-    desc: 2022年10月统考大学英语重考报名申请：2022年9月5日—9月18日。
+    desc: |-
+      2022年10月统考大学英语重考报名申请: 2022年9月5日—9月18日。
     url: https://mp.weixin.qq.com/s/fP1kO2lVZeR63ULBaLjfyg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOV4Gr34t65ibMSic5fOtjS0XjFiapzDW1eFdSic5I1fbJ4icrYCcvjSJzffaPqzsXkhibS3AiclQRW9A8T9Q/0?wx_fmt=jpeg
@@ -234,7 +249,8 @@ article:
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOUHn9KpZ1FCaX6HV5poKgicYNjmlAkwRqqFPddx2GvmmllC9g81lUkqkt92hm6fTYzwQanVEtxQLHw/0?wx_fmt=jpeg
     title: 关于2021年12月份统考免考补办的通知
-    desc: 重要通知：统考免考补办正在进行中！
+    desc: |-
+      重要通知: 统考免考补办正在进行中！
     url: https://mp.weixin.qq.com/s/29fLQc9qLnWYqE78PtiuZw
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/HIgMKoC4BOXcXosrMKlSvRXDlQhcs9ThZk546ZIiafGiauHkkOCWUB6hibkZtIj6GIw3Pt6AQQyMHKhl7kDxtkzeQ/0?wx_fmt=jpeg

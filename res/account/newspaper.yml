@@ -8,12 +8,14 @@ qrcode: $img/media/newspaper-wechat.jpg
 authorized: true
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmN9uWAgMQdItPicJwgJxBdgjicib9xSMiantCSakHgeWXWWEHceia0sUtQfqKGiaibun5Hial0G0Ex2Eia2hw/0?wx_fmt=jpeg
-    title: 毕业特刊 | 致谢：祝你轻盈地飞舞，也带着深沉的想念
+    title: |-
+      毕业特刊 | 致谢: 祝你轻盈地飞舞，也带着深沉的想念
     desc: 我们要靠岸了
     url: https://mp.weixin.qq.com/s/5bVJOF_n80cTxh5UwGOmTw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmN9uWAgMQdItPicJwgJxBdgiaicCJVMv0XMndzF6JjENjZmYNN8L8n8pD8U8OSU0D7sabVZyUiaKib2Rg/0?wx_fmt=jpeg
-    title: 毕业特刊 | @19级东小青：再见啦，永远不要相互遗忘
+    title: |-
+      毕业特刊 | @19级东小青: 再见啦，永远不要相互遗忘
     desc: 《东师青年》报社祝你此行平安，祝你未来光明灿烂。
     url: https://mp.weixin.qq.com/s/WSndNvt3TLoh8qw_GIKezQ
 
@@ -76,12 +78,14 @@ article:
     url: https://mp.weixin.qq.com/s/Z5sQSf6Tp5B9c73GF4rnVw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHlbHfibibI3ficF6R9zAGHsNxjiaOlaib5LVrzuj4rzq7DDM5AV9OuA9M2PSV2e2yev7Qa8DNUwhOasvIw/0?wx_fmt=jpeg
-    title: 童年照相馆：打捞那份天真｜六一特别策划
+    title: |-
+      童年照相馆: 打捞那份天真｜六一特别策划
     desc: 原来我还是多年前望着天空，想要躲进云朵里的那个孩子。
     url: https://mp.weixin.qq.com/s/CxuxgPTMktu6_ruwOsamIQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmjt5KSPnkN0YJM7xRTt5cVlcwyByeldKFMrEhKFejBrvySohV9eohXBOzerqlFVAU36MR4kq12pw/0?wx_fmt=jpeg
-    title: 来路：我们应当如何回望高考？
+    title: |-
+      来路: 我们应当如何回望高考？
     desc: 还记得吗？那段青春旅途的必经之路，我们来时的路。
     url: https://mp.weixin.qq.com/s/IQlLqRsH644a5UL6tGSc-w
 
@@ -127,7 +131,8 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHkKLyicHo4850KXLrDD20WibDIsSnV3BJzKlwqlVfstazibO8YWHGAvicU8yxkQqBklrpkaCThJoB1Olw/0?wx_fmt=jpeg
     title: 母亲节特别策划 | 鲜花里，是我真挚的爱与祝福
-    desc: 告诉母亲：你是我生命中最重要的人。
+    desc: |-
+      告诉母亲: 你是我生命中最重要的人。
     url: https://mp.weixin.qq.com/s/AX_vS7qQzihGLnweUC3FUQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHnwk0WrmlBmVRHu9kxNUxOibqGWoADia8n1qcdMKuWqV6yx3a34Jl5EVlzC3s2ZJiaib5SVVjgl4eicfrA/0?wx_fmt=jpeg
@@ -146,7 +151,8 @@ article:
     url: https://mp.weixin.qq.com/s/euwcPh0N8tmwMAAP0oqeXQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHkticuRNJFX3scWWJF6J7NEROhpbiaPDZlvqcuxReblKkD9DwLJsGKlRE5WEdfRoudNZs7OLClP4RLw/0?wx_fmt=jpeg
-    title: 五四特辑 | 若有岁月可回眸：五四时空里的女性光华
+    title: |-
+      五四特辑 | 若有岁月可回眸: 五四时空里的女性光华
     desc: 百花齐放，是五四时代，也是我们的时代。
     url: https://mp.weixin.qq.com/s/szjnKAqkLkSLa2DGe5o--Q
 
@@ -181,12 +187,14 @@ article:
     url: https://mp.weixin.qq.com/s/Tviyhp6eYnPKkIItt1SYcw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHlezufQKmh8IRE9O4KlHIN4ayibfnVcFGzgTCNWYA0QR6LyaIo2h52LF1YFWh9Eoy9zeoCAuXTvagQ/0?wx_fmt=jpeg
-    title: 青·数字报 乐活版｜当大学生涌入早市：往春天的烟火里赶去
+    title: |-
+      青·数字报 乐活版｜当大学生涌入早市: 往春天的烟火里赶去
     desc: 趁着春风，出去走走吧！
     url: https://mp.weixin.qq.com/s/9WygPX4WA_1tzqyTIftZkg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHlNRBMmYwpBqJxM8Yt2cldK8icIibFs4INuZYZmalkvpuv5o3CFvpOxwuSh0hLbRVxH3ticZibyIb4elQ/0?wx_fmt=jpeg
-    title: 青·数字报 文论版｜AI入局绘画：福焉？祸焉？
+    title: |-
+      青·数字报 文论版｜AI入局绘画: 福焉？祸焉？
     desc: 当科技冲击艺术，身入此局，如何抉择？
     url: https://mp.weixin.qq.com/s/Pz-DQHoo2XCb1DU6yCH8Lw
 
@@ -337,7 +345,8 @@ article:
     url: https://mp.weixin.qq.com/s/9NYMAeyODvVefW0UnWgNew
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmuRyHdJwz6lz6txl5BtmJSEoTicK0mKg4DC78yJYFGy1HuM9nLSX3w0DVlD8eNOlApcuAZx4AVqmg/0?wx_fmt=jpeg
-    title: 青·文墨 | 冰糖葫芦：味在酸甜，忆往韶华
+    title: |-
+      青·文墨 | 冰糖葫芦: 味在酸甜，忆往韶华
     desc: 寒冬配山楂，季凛对味佳。
     url: https://mp.weixin.qq.com/s/1MZxS8A3MUQAD1ee2OVVww
 
@@ -363,7 +372,8 @@ article:
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHkPDliaG2zHOpb9oxlnr0VjibYRyX7blhv7wxUE754Csur8zElibS9XXRkpJoIj67YW8SBzVf9HQFibPg/0?wx_fmt=jpeg
     title: 青·视角 | 格“橘”打开，双向奔赴
-    desc: 谋大事者，首重格局古来便常说格局，那格局是什么呢？人民日报一言掷地有声：“真正的见世面，不是只见世界的一面”
+    desc: |-
+      谋大事者，首重格局古来便常说格局，那格局是什么呢？人民日报一言掷地有声: “真正的见世面，不是只见世界的一面”
     url: https://mp.weixin.qq.com/s/wHbmwPdVP0MRnCDuJZ9iOA
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHlZebrNL28dFFYoNKzKjDLM8T3OYQgr9WPoA51cjsocUCk4ctZbibRJIuEBqO1PjWXB2eAUpVgiayvQ/0?wx_fmt=jpeg
@@ -379,11 +389,13 @@ article:
     url: https://mp.weixin.qq.com/s/dEt3AE01T912Q4XHSHZ-IA
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHlnGYibTbKSf1qKJoea9GmX7pSmRI2eNpcFSOEVwU3P54JFeUk8rOCnU2rpRnLW4FsAHUakSiaOr6EQ/0?wx_fmt=jpeg
-    title: 青·人物 | 韩喆明：一盏宋韵，茶中日月长
+    title: |-
+      青·人物 | 韩喆明: 一盏宋韵，茶中日月长
     url: https://mp.weixin.qq.com/s/C4Q9lrfCPUKRJ50Tsv5nRA
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmRp0adRRQGyTDJ6aBcDhcO0v7mKYVHz4ZQVMRvkSW9BbAoiaXmvVUCETKjVdC1OSdIRLpmMXQ4C0A/0?wx_fmt=jpeg
-    title: 青·观察 | “Make 东北 great again”：辉煌、生锈、好起来
+    title: |-
+      青·观察 | “Make 东北 great again”: 辉煌、生锈、好起来
     desc: 一切都正在鲜活地发生着
     url: https://mp.weixin.qq.com/s/NqYbMQKG2yGT74IMCv21Ng
 

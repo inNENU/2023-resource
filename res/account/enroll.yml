@@ -91,7 +91,8 @@ article:
     url: https://mp.weixin.qq.com/s/iurFJbe7HbWBQMl-Rml3aw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQH2TMDzyzs8YXOR5vk1gEdicTVoANSyDkkNgfLUF58NcgibBnhAa20RWh8dk3e5GZnZWrqDErwaehcw/0?wx_fmt=jpeg
-    title: 院长说专业丨音乐学院刘欣院长：弦歌曼舞 德音在兹
+    title: |-
+      院长说专业丨音乐学院刘欣院长: 弦歌曼舞 德音在兹
     url: https://mp.weixin.qq.com/s/zojGWeDQZj8HVLreiVH4hg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQH2TMDzyzs8YXOR5vk1gEdicGAWB3ARINwiafbW1wCFPcvARa5icGcHxHsGXnR8KtjgeWKRDDYm8udiaA/0?wx_fmt=jpeg
@@ -100,7 +101,8 @@ article:
     url: https://mp.weixin.qq.com/s/4Xj5MD7rbMmJubklRUTIFw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQF3jcGvqt0J2ia70PHjr4CibcE2TmXrowOuyevJgicMFYSMuLYVyrIaARgicSAKCD5d5OxCkxUD6Z86HQ/0?wx_fmt=jpeg
-    title: 院长说专业丨环境学院周丹丹院长：生态环境永续 人与自然和谐共生
+    title: |-
+      院长说专业丨环境学院周丹丹院长: 生态环境永续 人与自然和谐共生
     url: https://mp.weixin.qq.com/s/lDxjwFbndwPFSAhqYGfJOA
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQH2TMDzyzs8YXOR5vk1gEdicKhP7wicZu3QhoFT3ekicB3A0cRfUeDBKV4icibTqQJs7w3Kd3pOSw3kgqg/0?wx_fmt=jpeg
@@ -108,7 +110,8 @@ article:
     url: https://mp.weixin.qq.com/s/GRv90gNaSpI1vpoqZtEcJw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQE8GzF0SGjtpGMy67OcKv872ibSAibN6jGdP8BhMzkFgFNZLkHtTvoYFVAiaJBiccXVgl0GIg425IUzhQ/0?wx_fmt=jpeg
-    title: 院长说专业丨地理科学学院白娥院长：地载万物 理蕴乾坤
+    title: |-
+      院长说专业丨地理科学学院白娥院长: 地载万物 理蕴乾坤
     url: https://mp.weixin.qq.com/s/fu74djxC_SSXYJRr8FAXtQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQF3jcGvqt0J2ia70PHjr4CibcXN4Rexg46Kib6SJ5zIkOXWlnthiciaEaKY6ibGCIUuicBomMShdgXDxh0hA/0?wx_fmt=jpeg
@@ -117,23 +120,28 @@ article:
     url: https://mp.weixin.qq.com/s/cOPGpGMIdqCrwGzcyKIgIw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQFJibKkDrVozENdF8sibFJuElFMp2IdfUwU3zxJ07sFiaaH1ETIuzKMCoVt5YMGtIAYjrTO6xsvEgztg/0?wx_fmt=jpeg
-    title: 院长说专业丨生命科学学院宫磊院长：热爱生命 筑梦未来
+    title: |-
+      院长说专业丨生命科学学院宫磊院长: 热爱生命 筑梦未来
     url: https://mp.weixin.qq.com/s/v0YhVMGkboVYRLSgZ1mikQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEOeicSiauzMmgv0Yf6PHOsh1VnCPGnUhMEicXQERicdwAWzVAZ9cVL0ELzCCdLyykV8QKsEI2sGIhfjA/0?wx_fmt=jpeg
-    title: 院长说专业丨化学学院毕锡和副院长：美丽化学 寄情东师
+    title: |-
+      院长说专业丨化学学院毕锡和副院长: 美丽化学 寄情东师
     url: https://mp.weixin.qq.com/s/otVGWUhM-fcpoVEWmtH31w
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEiblYPPSDasulk7yCl0AcGlhlfdf8LTVtgLNmibRBEBZicAGQN1F2lPricpWMiceKJgu3rTZKD0FNzibww/0?wx_fmt=jpeg
-    title: 院长说专业丨物理学院马剑钢院长：格物致知 穷理笃行
+    title: |-
+      院长说专业丨物理学院马剑钢院长: 格物致知 穷理笃行
     url: https://mp.weixin.qq.com/s/tU8f-DBwybuuh1FIqtJOqw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEiblYPPSDasulk7yCl0AcGlOj7XjPiaQ9CSvP0kXj3fE2kfEiceXb4ZYztCiayWiatiaOq8T24VtJNorTA/0?wx_fmt=jpeg
-    title: 院长说专业丨信息科学与技术学院殷明浩院长：智能创造 遇见未来
+    title: |-
+      院长说专业丨信息科学与技术学院殷明浩院长: 智能创造 遇见未来
     url: https://mp.weixin.qq.com/s/L3XcECoiD6G4GYuw2qbW2w
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEiblYPPSDasulk7yCl0AcGlDj1n08fRukHEw087e1F30ZReOcuh12ib9Y5OJ4BhVKyvsFXK7LD6MDQ/0?wx_fmt=jpeg
-    title: 院长说专业丨数学与统计学院冀书关院长：选择东师，学习数学和统计
+    title: |-
+      院长说专业丨数学与统计学院冀书关院长: 选择东师，学习数学和统计
     url: https://mp.weixin.qq.com/s/ffiLj6QeY-R6qgo608SNeQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEiblYPPSDasulk7yCl0AcGlicFCuP2X0icdHWpHxVly6epN2FxF6AVwnvOJsXtO9qsdn6Rqlib6xPHVw/0?wx_fmt=jpeg
@@ -141,11 +149,13 @@ article:
     url: https://mp.weixin.qq.com/s/XTscX6USptj8zVHLYyV8bw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQERHe5KXeI2eIjMGvAo7T6d3ey1UjD9XAw19OWxiaHnU9tm9PRkzNTNhe8AEnsldyKYP7MgZJZicPrg/0?wx_fmt=jpeg
-    title: 院长说专业丨马克思主义学部史巍副部长：一“马”当先 筑梦未来
+    title: |-
+      院长说专业丨马克思主义学部史巍副部长: 一“马”当先 筑梦未来
     url: https://mp.weixin.qq.com/s/IIBhSTwZPqf5oV6JBTQ7Mg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQHTFP0adzAS1qiaH0RyicqqckkhZiasCJVHLBdDnHux65cGiaQ6v1BtJ2JVyN99Kjc2z47iab4jqBZE2Xw/0?wx_fmt=jpeg
-    title: 院长说专业丨美术学院张群党委书记：东北▪师范▪美院——东师美院面面观
+    title: |-
+      院长说专业丨美术学院张群党委书记: 东北▪师范▪美院——东师美院面面观
     url: https://mp.weixin.qq.com/s/av4eZ_3OorK7o9Zk88HSSg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQHTFP0adzAS1qiaH0RyicqqckKrVYNJuiaDtNO9iaUMiaBxBEB34RYiaiaicibaGeak3E1ibGxCRG00TxCszJDg/0?wx_fmt=jpeg
@@ -153,19 +163,23 @@ article:
     url: https://mp.weixin.qq.com/s/GW0OK8E885OweV0yBT2vhw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQF4m1TcXXs8icVvicnQdkVhwoDEdsJ7sYTmRfCoH9Woz0KjBTf32MNjBiaLsptWJiboTcEV1vFgDv030w/0?wx_fmt=jpeg
-    title: 院长说专业丨传媒科学学院 (新闻学院) 史册  副院长：青春扬帆 成为大时代“美的传媒人”
+    title: |-
+      院长说专业丨传媒科学学院 (新闻学院) 史册  副院长: 青春扬帆 成为大时代“美的传媒人”
     url: https://mp.weixin.qq.com/s/BgPswKLrn6kCD-Z0K-h9BA
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEmZGGHL0bMhAyblAibP0sQKQ83PpwzpXGib84nL7MDL0UBibfO3VyIHiaS1LNLE8NUjOo4giaEs8e1Isg/0?wx_fmt=jpeg
-    title: 院长说专业丨外国语学院周桂君院长：赓续传统，开拓创新，砥砺奋进
+    title: |-
+      院长说专业丨外国语学院周桂君院长: 赓续传统，开拓创新，砥砺奋进
     url: https://mp.weixin.qq.com/s/iiTzifzU8DziDRDQmbCQEw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQHvTMicISWeIUiapMB2oLqvbarLucWVNt4X2H0aGoaXlEUJsGE0Ztibxhic4TY5aOHvVnCQUhAkzACvDQ/0?wx_fmt=jpeg
-    title: 院长说专业丨文学院王春雨院长：文以载道 追求卓越
+    title: |-
+      院长说专业丨文学院王春雨院长: 文以载道 追求卓越
     url: https://mp.weixin.qq.com/s/79ONwd-S5Eg9YI63yMZS7g
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQFDrPAnRsCwST6jyVFX1iczBrmvJhnUUugkkfKoQpiba9WQxDloMRjurHTdiaTBzxMOvqtH2NrrUZ3hA/0?wx_fmt=jpeg
-    title: 院长说专业丨历史文化学院董灏智院长：青蓝赓续 守正创新
+    title: |-
+      院长说专业丨历史文化学院董灏智院长: 青蓝赓续 守正创新
     url: https://mp.weixin.qq.com/s/PtAqVZcOttEE3EUD4dUjrg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQFDrPAnRsCwST6jyVFX1iczBHveP9yN7KhyzFMibicspoS0Hh5YUgh3Dv2SgtzqNpHYobR6iaicCngAl0g/0?wx_fmt=jpeg
@@ -173,7 +187,8 @@ article:
     url: https://mp.weixin.qq.com/s/WNfGekaJFuBg83G3B9f7Tg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQHdAuRId7xNibO4ZicA6q2ZxSTicLUJd8ia4aGJAvus0u3mpqgRvOd3Z69Pb35QlDSxn5ibWuCSowDv9bg/0?wx_fmt=jpeg
-    title: 院长说专业丨经济与管理学院吕康银院长：经世济民 启智创行
+    title: |-
+      院长说专业丨经济与管理学院吕康银院长: 经世济民 启智创行
     url: https://mp.weixin.qq.com/s/NFCSvsLoWyUCuVVdzdpodQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQHdAuRId7xNibO4ZicA6q2ZxSWibQewtbb32AaXXlLiaAwiabKXNkxUvlAgFNibZ7NTahz6icXh8JDa63ETw/0?wx_fmt=jpeg
@@ -181,15 +196,18 @@ article:
     url: https://mp.weixin.qq.com/s/Z52C8lzWErCZx6DRmPdYHQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQGBIORSFyLVicfYicISFaleicqFBf83Z5ppehXqUeq95NT3oKwe5nUMORhKHvKLicfr8XrOes2kCpf3mg/0?wx_fmt=jpeg
-    title: 院长说专业丨政法学院李红权院长：逐梦政法 接续最美
+    title: |-
+      院长说专业丨政法学院李红权院长: 逐梦政法 接续最美
     url: https://mp.weixin.qq.com/s/pRvN7hoMtCAA_9AqRYmwnw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQGtxwIYDFrzqEcaQMZzhyjfgJUxh7pKuibibyv3tfMopoVBThhhCrlNf8sMKibSWic2kPIG8oQhYADhaQ/0?wx_fmt=jpeg
-    title: 院长说专业丨心理学院盖笑松院长：心理世界 奥妙万千
+    title: |-
+      院长说专业丨心理学院盖笑松院长: 心理世界 奥妙万千
     url: https://mp.weixin.qq.com/s/eC3G1I_7rdJGyOXsOLbTMg
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQGqZia6OaHwWyyasl0epvWgg41TzWbib1h7Sh6ia1kpdQictY85S90BAj2Y0iaSZpyJUPYBlcqXyDOeCTA/0?wx_fmt=jpeg
-    title: 院长说专业丨教育学部吕立杰部长：松高芝兰，教育诗篇
+    title: |-
+      院长说专业丨教育学部吕立杰部长: 松高芝兰，教育诗篇
     url: https://mp.weixin.qq.com/s/zKyrsMeQbk8UydaVNiNE4A
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQHAUfCknfHBC4Icw7KARN6RPic5r1MOtV8blUkdlDNlgO8hmFN9xxoZib7oHw89xgGJibCURvjZrECPA/0?wx_fmt=jpeg
@@ -276,7 +294,8 @@ article:
     url: https://mp.weixin.qq.com/s/3oZhMNAZUw5hDEIy9OWSDw
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQFA2xibGHGg4yF90JsheQ1qJQ9ViaDbQVccSXEFQAygUdk5IFgqOmddv4NA5BcrQ8DBjpW3LicgTKhicA/0?wx_fmt=jpeg
-    title: 东师学子说丨陈红宇：“环”抱梦想，“境”益求精；筑梦环境，逐梦未来
+    title: |-
+      东师学子说丨陈红宇: “环”抱梦想，“境”益求精；筑梦环境，逐梦未来
     url: https://mp.weixin.qq.com/s/DN3dGpni-SDkAtBcgxGeIQ
 
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEl6O7IUfk3uWBcMR6aUbtMC1icvr8zekVGMj2pYmPicTIOfDpSqsdXVGwjOSplcaO7eSSXibZQNUN2g/0?wx_fmt=jpeg
@@ -508,7 +527,8 @@ article:
     url: https://mp.weixin.qq.com/s/0PFQqg0kTJSUd3Feb9X22w
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQG9ZRS8M57N5jy3MNnBSc8a4ZXWJD2HyydichiaKyllO1dNdMU2dGnGDtxiaLybXqRWGaEzO3CpQBMoA/0?wx_fmt=jpeg
-    title: 学霸来了 | 王之圣：准备比赛的经历，是逼迫自己去思考、输入、训练、输出的过程
+    title: |-
+      学霸来了 | 王之圣: 准备比赛的经历，是逼迫自己去思考、输入、训练、输出的过程
     desc: 向下扎根，向上突破。
     url: https://mp.weixin.qq.com/s/xfsyY4_hieCxE5ippQFZzA
 
@@ -648,7 +668,8 @@ article:
     url: https://mp.weixin.qq.com/s/FXwYLSfKDVYOqNp2-vf0zQ
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQErM2Xqs9iatWlHwJ5JvdFIrXUxLNdvt75hNCHBLHW7qbiaeQPEOXaxn64UZWdU3oML3cY0ZeWib9ywQ/0?wx_fmt=jpeg
-    title: 学霸来了 | 崔秀琳：爱你所爱，行你所行，听从你心，无问西东
+    title: |-
+      学霸来了 | 崔秀琳: 爱你所爱，行你所行，听从你心，无问西东
     url: https://mp.weixin.qq.com/s/vMvQK7wzh0GE37XNmb81qw
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQFLEnmktW7wheHroOib01FibqQjeOCRictelDyC7eVOqXMtLsYSXC4ibphaethvawqM45dwNpibUMB5jFA/0?wx_fmt=jpeg
@@ -661,7 +682,8 @@ article:
     url: https://mp.weixin.qq.com/s/I0iTEmf0RiNLzG7tO0sfrg
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQEEjQhGjiceQXrP5r2nVmibFSlYIso63L13naaYsqJyCboIvD3jARwQpdSdeJNowabxSwpVuhbd6lvA/0?wx_fmt=jpeg
-    title: 学霸来了 | 侯宇轩：每一次经历、每一份努力，都汇聚成今天与众不同的你
+    title: |-
+      学霸来了 | 侯宇轩: 每一次经历、每一份努力，都汇聚成今天与众不同的你
     desc: “志之所趋，无远弗届，穷山距海，不能限也。”
     url: https://mp.weixin.qq.com/s/Gkb3ROs03U7EbpfgYid5cw
 
@@ -681,7 +703,8 @@ article:
     url: https://mp.weixin.qq.com/s/NrXfqM8DeW0_eR5sVQPGzg
 
   - cover: http://mmbiz.qpic.cn/mmbiz_jpg/dz10wiatQOQExCDUwbl99ZeCG8I8wSjjuXbxBDnoubew8s9CHnrWDOGdd8RgwFlufZKVjloItDYG39afZKoeLGg/0?wx_fmt=jpeg
-    title: 学霸来了 | 赵梦宇：怕什么真理无穷，进一寸有一寸的欢喜
+    title: |-
+      学霸来了 | 赵梦宇: 怕什么真理无穷，进一寸有一寸的欢喜
     desc: “世界广阔，值得学习的东西数不胜数，想想都是一件很快乐的事情。”
     url: https://mp.weixin.qq.com/s/Z0Qw-lRV2p4wBFLmXkgZeQ
 
