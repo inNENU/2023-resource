@@ -1,6 +1,6 @@
 title: 长春站-到净月-4转3
 author: Mr.Hope
-time: 2023-05-13T11:45:50.508Z
+time: 2023-07-07T17:36:28.911Z
 shareable: true
 content:
   - tag: text
@@ -21,7 +21,7 @@ content:
     heading: 运营时间
     text:
       - 开往天工路方向的轻轨运营时间是 6:00 - 21:00
-      - 开往长影世纪城方向的轻轨运营时间是 6:02 - 21:00
+      - 开往长影世纪城方向的轻轨运营时间是 6:00 - 21:00
       - 其他时间请选择打车去宾馆 (别想着报到了)。
       - 详细的地铁时刻表请详见“地铁运营时间”
     path: /guide/traffic/railway/time
@@ -136,11 +136,11 @@ content:
   - tag: title
     text: 到达校门
 
-  - tag: text
-    type: warning
-    text:
-      # - 由于疫情原因，2022 年报到仅开放学校 2 号门 (雕塑门)。
-      - 由于疫情原因，2022 年报到仅开放学校 1 号门 (正门)。
+  # - tag: text
+  #   type: warning
+  #   text:
+  #     - 由于疫情原因，2022 年报到仅开放学校 2 号门 (雕塑门)。
+  #     - 由于疫情原因，2022 年报到仅开放学校 1 号门 (正门)。
 
   - tag: ul
     text:

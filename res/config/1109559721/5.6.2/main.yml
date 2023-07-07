@@ -4,49 +4,6 @@ grey: true
 hidden: true
 content:
   # - tag: title
-  #   text: 本科招生
-
-  # - tag: list
-  #   header: false
-  #   items:
-  #     - text: 2022 年本科招生简章
-  #       icon: rule
-  #       path: intro/enroll/under/rule/
-
-  #     - text: 2022 年招生计划与历史分数线
-  #       icon: time
-  #       path: intro/enroll/under/info
-
-  #     - text: 招生咨询群
-  #       icon: qq-group
-  #       path: intro/enroll/under/qq-group
-
-  #     - text: 更多信息
-  #       icon: more
-  #       path: intro/enroll/under/
-
-  # - tag: list
-  #   header: 研究生
-  #   items:
-  #     - text: 研究生调档
-  #       path: guide/archive/post-in
-
-  #     - text: 研究生党员组织关系接转
-  #       path: guide/prepare/league
-
-  #     - text: 研究生团员组织关系接转
-  #       path: guide/prepare/group
-
-  # - tag: title
-  #   text: 希望工作室长期招新
-
-  # - tag: list
-  #   header: false
-  #   items:
-  #     - text: 招新详情
-  #       url: info?path=Ohope-studio/invite
-
-  # - tag: title
   #   text: 此处有搜索👆 您可以对小程序内容进行查找
 
   - tag: grid

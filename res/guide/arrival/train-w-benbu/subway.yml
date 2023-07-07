@@ -1,6 +1,6 @@
 title: 长春西站-到本部乘坐地铁
 author: Mr.Hope
-time: 2023-05-13T11:45:50.521Z
+time: 2023-07-07T17:36:28.942Z
 shareable: true
 content:
   - tag: text
@@ -145,11 +145,11 @@ content:
   - tag: title
     text: 到达校门
 
-  - tag: text
-    type: warning
-    text:
-      # - 由于疫情原因，2022 年报到仅开放学校正门 (西门)。
-      - 由于疫情原因，2022 年报到仅开放学校东北门。
+  # - tag: text
+  #   type: warning
+  #   text:
+  #     - 由于疫情原因，2022 年报到仅开放学校正门 (西门)。
+  #     - 由于疫情原因，2022 年报到仅开放学校东北门。
 
   - tag: ul
     text:

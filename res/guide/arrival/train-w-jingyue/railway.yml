@@ -1,6 +1,6 @@
 title: 长春西站-到净月-轨道交通
 author: Mr.Hope
-time: 2023-05-13T11:45:50.529Z
+time: 2023-07-07T17:36:28.958Z
 shareable: true
 content:
   - tag: text
@@ -178,11 +178,11 @@ content:
   - tag: title
     text: 到达校门
 
-  - tag: text
-    type: warning
-    text:
-      - 由于疫情原因，2022 年报到仅开放学校 1 号门 (正门)。
-      # - 由于疫情原因，2022 年报到仅开放学校 2 号门 (雕塑门)。
+  # - tag: text
+  #   type: warning
+  #   text:
+  #     - 由于疫情原因，2022 年报到仅开放学校 1 号门 (正门)。
+  #     - 由于疫情原因，2022 年报到仅开放学校 2 号门 (雕塑门)。
 
   - tag: ul
     text:

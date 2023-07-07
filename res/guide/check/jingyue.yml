@@ -1,6 +1,6 @@
 title: 净月校区校门
 author: Mr.Hope
-time: 2023-06-21T10:21:01.615Z
+time: 2023-07-07T17:36:29.414Z
 shareable: true
 content:
   - tag: title
@@ -28,9 +28,9 @@ content:
   - tag: title
     text: 净月北门(雕塑门、2 号门)
 
-  - tag: text
-    type: danger
-    text: 疫情报到期间此门关闭!
+  # - tag: text
+  #   type: danger
+  #   text: 疫情报到期间此门关闭!
 
   - tag: location
     title: 北门

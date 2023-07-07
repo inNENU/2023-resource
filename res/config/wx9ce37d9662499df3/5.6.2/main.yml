@@ -6,55 +6,50 @@ content:
   - tag: title
     text: 本科招生
 
-  - tag: card
-    cover: $img/tab/enroll.png
-    title: 2023年本科招生指南
-    logo: enroll
-    url: info?id=/intro/enroll/under/rule/
+  # - tag: card
+  #   cover: $img/tab/enroll.png
+  #   title: 2023年本科招生指南
+  #   logo: enroll
+  #   url: info?id=/intro/enroll/under/rule/
 
   - tag: list
     header: false
     items:
-      - text: 2023 年招生计划
+      - text: 2023 年招生简章
         icon: rule
+        path: intro/enroll/under/rule/
+
+      - text: 2023 年招生计划
+        icon: enroll
         url: enroll-plan
 
       - text: 历史分数
         icon: time
         url: enroll-grade
 
-      - text: 招生咨询群
-        icon: qq-group
-        path: intro/enroll/under/qq-group
+      # - text: 招生咨询群
+      #   icon: qq-group
+      #   path: intro/enroll/under/qq-group
 
-      - text: 线下招生咨询活动
-        icon: activity
-        path: intro/enroll/under/activity
+      # - text: 线下招生咨询活动
+      #   icon: activity
+      #   path: intro/enroll/under/activity
 
       - text: 更多信息
         icon: more
         path: intro/enroll/under/
 
-  # - tag: list
-  #   header: 研究生
-  #   items:
-  #     - text: 研究生调档
-  #       path: guide/archive/post-in
+  - tag: list
+    header: 研究生
+    items:
+      - text: 研究生调档
+        path: guide/archive/post-in
 
-  #     - text: 研究生党员组织关系接转
-  #       path: guide/prepare/league
+      - text: 研究生党员组织关系接转
+        path: guide/prepare/league
 
-  #     - text: 研究生团员组织关系接转
-  #       path: guide/prepare/group
-
-  # - tag: title
-  #   text: 希望工作室长期招新
-
-  # - tag: list
-  #   header: false
-  #   items:
-  #     - text: 招新详情
-  #       url: info?path=Ohope-studio/invite
+      - text: 研究生团员组织关系接转
+        path: guide/prepare/group
 
   # - tag: title
   #   text: 此处有搜索👆 您可以对小程序内容进行查找
@@ -62,11 +57,11 @@ content:
   - tag: grid
     header: 您可能想关注
     items:
-      # - text: 专业介绍
-      #   color: olive
-      #   name: Major
-      #   icon: about
-      #   path: intro/school/major
+      - text: 专业介绍
+        color: olive
+        name: Major
+        icon: about
+        path: intro/school/major
 
       - text: 转专业
         color: red
@@ -136,11 +131,11 @@ content:
 
     footer: 更多内容请详见下方其他 Tab 页
 
-  - tag: card
-    cover: $img/tab/faq.png
-    title: 常见问题
-    logo: faq
-    url: info?id=Gfaq/
+  # - tag: card
+  #   cover: $img/tab/faq.png
+  #   title: 常见问题
+  #   logo: faq
+  #   url: info?id=Gfaq/
 
   # - tag: card
   #   cover: https://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg

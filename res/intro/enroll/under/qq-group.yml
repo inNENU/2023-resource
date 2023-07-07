@@ -1,10 +1,29 @@
 title: 官方招生咨询群
 author: Mr.Hope
-time: 2023-06-26T17:24:56.797Z
+time: 2023-07-07T17:36:27.091Z
 shareable: true
 content:
   - tag: title
+    text: 学校招生咨询群
+
+  - tag: text
+    text: 无，因招生办人员有限，暂无精力解答 QQ 群内容。如有疑问请致电招生办或向招生办留言。
+
+  - tag: list
+    header: false
+    items:
+      - text: 招生办公室联系方式
+        icon: phone
+        path: /intro/apt/enroll/contact
+
+  - tag: title
     text: 各学院招生咨询群
+
+  - tag: text
+    type: warning
+    heading: 学院招生咨询已截止
+    text:
+      - 各学院招生咨询已于 7 月 7 日截至。
 
   - tag: action
     header: 教育学部

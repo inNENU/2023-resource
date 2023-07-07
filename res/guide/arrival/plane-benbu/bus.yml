@@ -1,6 +1,6 @@
 title: 坐飞机-到本部-巴士
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-07T17:36:28.861Z
 shareable: true
 content:
   - tag: text
@@ -54,11 +54,11 @@ content:
   - tag: title
     text: 到达校门
 
-  - tag: text
-    type: warning
-    text:
-      - 由于疫情原因，2022 年报到仅开放学校东北门。
-      # - 由于疫情原因，2022 年报到仅开放学校西门。
+  # - tag: text
+  #   type: warning
+  #   text:
+  #     - 由于疫情原因，2022 年报到仅开放学校东北门。
+  #     - 由于疫情原因，2022 年报到仅开放学校西门。
 
   - tag: ul
     text:
