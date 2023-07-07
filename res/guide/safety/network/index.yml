@@ -1,10 +1,11 @@
 title: 常见网上诈骗
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-07T18:58:13.563Z
 grey: true
 shareable: true
 content:
   - tag: list
+    header: 针对新生诈骗
     items:
       - text: 群聊诈骗
         path: group
@@ -17,3 +18,13 @@ content:
 
       - text: 盗号
         path: account
+
+      - text: 分享屏幕
+        path: screen
+
+  - tag: list
+    header: 常见其他诈骗
+    items:
+      - text: |-
+          发送病毒
+          请在电脑和手机上启用杀毒软件，并在运行任何一个文件前，使用它们对文件进行扫描与检查。如报毒请立即删除相关文件。

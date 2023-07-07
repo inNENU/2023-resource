@@ -1,6 +1,6 @@
 title: 缴费相关
 author: Mr.Hope
-time: 2023-06-26T10:31:31.599Z
+time: 2023-07-07T18:58:13.469Z
 cite:
   - https://publish.nenu.edu.cn/info/1068/2632.htm
   - https://publish.nenu.edu.cn/info/1068/2634.htm
@@ -26,6 +26,10 @@ content:
 
   - tag: text
     text: 学生需要通过缴费系统自行缴费。
+
+  - tag: text
+    type: note
+    text: 交学费这件事情不着急，在报到之后完成即可。
 
   - tag: list
     header: false
