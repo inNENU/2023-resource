@@ -93,6 +93,17 @@ export interface VersionInfo {
   size: Record<string, number>;
 }
 
+export interface WechatArticleItem {
+  /** 标题 */
+  title: string;
+  /** 图文摘要 */
+  desc?: string;
+  /** 图文封面 */
+  cover: string;
+  /** 图文地址 */
+  url: string;
+}
+
 export interface WechatConfig {
   /** 公众号名称 */
   name: string;
@@ -109,16 +120,7 @@ export interface WechatConfig {
   /** 关注链接 */
   follow?: string;
   /** 图文列表 */
-  article: {
-    /** 标题 */
-    title: string;
-    /** 图文摘要 */
-    desc?: string;
-    /** 图文封面 */
-    cover: string;
-    /** 图文地址 */
-    url: string;
-  }[];
+  article: WechatArticleItem[];
 }
 
 interface ClassConfig {
