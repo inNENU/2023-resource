@@ -44,7 +44,7 @@ content:
 
       - text: 课程表
         color: grey
-        name: Degree
+        name: Course
         icon: degree
         url: course-table
 
