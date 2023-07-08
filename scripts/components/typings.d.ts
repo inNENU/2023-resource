@@ -14,6 +14,7 @@ import {
 import { type LoadingComponentOptions } from "./loading/typings.js";
 import { type LocationComponentOptions } from "./location/typings.js";
 import { type PhoneComponentOptions } from "./phone/typings.js";
+import { type TableComponentOptions } from "./table/typings.js";
 import { type TextComponentOptions } from "./text/typings.js";
 import { type TitleComponentOptions } from "./title/typings.js";
 import { type VideoComponentOptions } from "./video/typings.js";
@@ -31,6 +32,7 @@ export * from "./list/typings.js";
 export * from "./location/typings.js";
 export * from "./loading/typings.js";
 export * from "./phone/typings.js";
+export * from "./table/typings.js";
 export * from "./text/typings.js";
 export * from "./title/typings.js";
 export * from "./video/typings.js";
@@ -47,6 +49,7 @@ export type PageTag =
   | "grid"
   | "img"
   | "list"
+  | "table"
   | "title"
   | "text"
   | "phone"
@@ -67,6 +70,7 @@ export type ComponentOptions =
   | ImageComponentOptions
   | LoadingComponentOptions
   | PhoneComponentOptions
+  | TableComponentOptions
   | TextComponentOptions
   | TitleComponentOptions
   | VideoComponentOptions;

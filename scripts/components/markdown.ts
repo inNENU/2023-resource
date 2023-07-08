@@ -8,6 +8,7 @@ import { getImgMarkdown } from "./img/index.js";
 import { getListMarkdown } from "./list/index.js";
 import { getLocationMarkdown } from "./location/index.js";
 import { getPhoneMarkdown } from "./phone/index.js";
+import { getTableMarkdown } from "./table/index.js";
 import { getTextMarkdown } from "./text/index.js";
 import { getTitleMarkdown } from "./title/index.js";
 import { type PageConfig } from "./typings.js";
@@ -95,6 +96,8 @@ isOriginal: true
       else if (tag === "account") content += getAccountMarkdown(component);
       // 检测地点
       else if (tag === "location") content += getLocationMarkdown(component);
+      // 表格
+      else if (tag === "table") content += getTableMarkdown(component);
     }
   });
 

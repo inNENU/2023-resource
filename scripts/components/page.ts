@@ -15,6 +15,7 @@ import { resolveList } from "./list/index.js";
 import { resolveLoading } from "./loading/index.js";
 import { resolveLocation } from "./location/index.js";
 import { resolvePhone } from "./phone/index.js";
+import { resolveTable } from "./table/index.js";
 import { resolveText } from "./text/index.js";
 import { resolveTitle } from "./title/index.js";
 import { type PageConfig, type PageOptions } from "./typings.js";
@@ -85,6 +86,8 @@ export const resolvePage = (
       else if (tag === "video") resolveVideo(element, position);
       // 检测地点
       else if (tag === "location") resolveLocation(element, position);
+      // 检测表格
+      else if (tag === "table") resolveTable(element, position);
       // 检测加载
       else if (tag === "loading") resolveLoading(element, position);
       else
