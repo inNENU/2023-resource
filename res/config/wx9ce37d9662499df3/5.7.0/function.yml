@@ -36,6 +36,12 @@ content:
         icon: degree
         url: course-table
 
+      - text: 成绩查询
+        color: orange
+        name: Grade
+        icon: grade
+        url: grade-list
+
       # - text: 校园地图
       #   color: orange
       #   name: Map
