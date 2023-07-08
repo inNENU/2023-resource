@@ -6,7 +6,7 @@ content:
     items:
       - text: in 东师全部内容均由 Mr.Hope 独立开发。
 
-      - text: in 东师现有字数为 833397 字，其中东师介绍部分 304916 字，东师指南部分 437392 字，功能大厅部分 39185 字，其他部分 51904 字。
+      - text: in 东师现有字数为 833750 字，其中东师介绍部分 305275 字，东师指南部分 437386 字，功能大厅部分 39185 字，其他部分 51904 字。
 
       - text: in 东师介绍
         icon: about
@@ -27,7 +27,7 @@ content:
   - tag: functional-list
     header: 支持 in 东师
     items:
-      - text: 为保证 in 东师运行，每年购买维护服务器资源会产生开销。，如果您希望帮助 Mr.Hope，欢迎联系 Mr.Hope 施以援手。
+      - text: 为保证 in 东师运行，每年购买维护服务器资源会产生开销。如果您希望帮助 Mr.Hope，欢迎联系 Mr.Hope 施以援手。
 
       - text: 联系 Mr.Hope
         icon: contact

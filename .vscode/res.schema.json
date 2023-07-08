@@ -358,7 +358,7 @@
       "additionalProperties": false
     },
     "title-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#title",
+      "$comment": "https://innenu.com/contributing/tag-list.html#title",
       "description": "标题组件",
       "type": "object",
       "properties": {
@@ -384,8 +384,47 @@
       "default": { "tag": "title", "text": "" },
       "additionalProperties": false
     },
+    "table-component": {
+      "$comment": "https://innenu.com/contributing/tag-list.html#table",
+      "description": "表格组件",
+      "type": "object",
+      "properties": {
+        "tag": {
+          "const": "table"
+        },
+        "caption": {
+          "description": "表格标题",
+          "type": "string"
+        },
+        "header": {
+          "description": "表格表头",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "body": {
+          "description": "表格内容",
+          "type": "array",
+          "items": {
+            "description": "表格每行内容",
+            "type": "array",
+            "items": {
+              "description": "表格单元文字",
+              "type": "string"
+            }
+          }
+        },
+        "env": {
+          "$ref": "#/definitions/env"
+        }
+      },
+      "required": ["header", "body"],
+      "default": { "tag": "table", "header": [], "body": [] },
+      "additionalProperties": false
+    },
     "text-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#text",
+      "$comment": "https://innenu.com/contributing/tag-list.html#text",
       "description": "标题组件",
       "type": "object",
       "properties": {
@@ -431,7 +470,7 @@
       "additionalProperties": false
     },
     "list-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#list",
+      "$comment": "https://innenu.com/contributing/tag-list.html#list",
       "description": "列表组件",
       "type": "object",
       "properties": {
@@ -463,7 +502,7 @@
       "additionalProperties": false
     },
     "img-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#img",
+      "$comment": "https://innenu.com/contributing/tag-list.html#img",
       "description": "图片组件",
       "type": "object",
       "properties": {
@@ -512,7 +551,7 @@
       "additionalProperties": false
     },
     "doc-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#doc",
+      "$comment": "https://innenu.com/contributing/tag-list.html#doc",
       "description": "文档组件",
       "type": "object",
       "properties": {
@@ -545,7 +584,7 @@
       "additionalProperties": false
     },
     "phone-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#phone",
+      "$comment": "https://innenu.com/contributing/tag-list.html#phone",
       "description": "电话组件",
       "type": "object",
       "properties": {
@@ -657,7 +696,7 @@
       "additionalProperties": false
     },
     "action-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#action",
+      "$comment": "https://innenu.com/contributing/tag-list.html#action",
       "description": "动作组件",
       "type": "object",
       "properties": {
@@ -681,7 +720,7 @@
       "additionalProperties": false
     },
     "account-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#account",
+      "$comment": "https://innenu.com/contributing/tag-list.html#account",
       "description": "账户组件",
       "type": "object",
       "properties": {
@@ -752,7 +791,7 @@
       "additionalProperties": false
     },
     "location-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#location",
+      "$comment": "https://innenu.com/contributing/tag-list.html#location",
       "description": "地点组件",
       "type": "object",
       "properties": {
@@ -783,7 +822,7 @@
       "additionalProperties": false
     },
     "carousel-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#carousel",
+      "$comment": "https://innenu.com/contributing/tag-list.html#carousel",
       "description": "地点组件",
       "type": "object",
       "properties": {
@@ -866,7 +905,7 @@
       "additionalProperties": false
     },
     "card-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#card",
+      "$comment": "https://innenu.com/contributing/tag-list.html#card",
       "description": "卡片组件",
       "type": "object",
       "properties": {
@@ -932,7 +971,7 @@
       "additionalProperties": false
     },
     "grid-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#grid",
+      "$comment": "https://innenu.com/contributing/tag-list.html#grid",
       "description": "网格组件",
       "type": "object",
       "properties": {
@@ -964,7 +1003,7 @@
       "additionalProperties": false
     },
     "media-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#media",
+      "$comment": "https://innenu.com/contributing/tag-list.html#media",
       "description": "媒体",
       "type": "object",
       "oneOf": [
@@ -1044,7 +1083,7 @@
       "default": { "tag": "video", "src": "" }
     },
     "functional-list-component": {
-      "$comment": "https://mister-hope.com/code/mini-app/framework/tag-list.html#functional-list",
+      "$comment": "https://innenu.com/contributing/tag-list.html#functional-list",
       "description": "列表组件",
       "type": "object",
       "properties": {
@@ -1146,6 +1185,7 @@
       "items": {
         "oneOf": [
           { "$ref": "#/definitions/title-component" },
+          { "$ref": "#/definitions/table-component" },
           { "$ref": "#/definitions/text-component" },
           { "$ref": "#/definitions/list-component" },
           { "$ref": "#/definitions/img-component" },

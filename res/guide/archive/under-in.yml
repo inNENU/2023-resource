@@ -1,6 +1,6 @@
 title: 本科生档案转入
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-08T16:13:56.360Z
 shareable: true
 content:
   - tag: title
@@ -53,9 +53,9 @@ content:
   - tag: list
     header: false
     items:
-      - text: 2022 年档案接收人
+      - text: 2023 年档案接收人
         icon: contact
-        path: 2022-contact
+        path: under-contact
 
   - tag: text
     type: info
