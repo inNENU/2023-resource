@@ -10,7 +10,7 @@ content:
       font-size: 13px
 
   - tag: title
-    text: 第一章 总　则
+    text: 第一章 总 则
 
   - tag: p
     text:
@@ -62,7 +62,7 @@ content:
       - 第二十三条 学士学位授予单位应建立相应的学位授予救济制度，处理申请、授予、撤销等过程中出现的异议，建立申诉复议通道，保障学生权益。
 
   - tag: title
-    text: 第五章 附　则
+    text: 第五章 附 则
 
   - tag: p
     text:

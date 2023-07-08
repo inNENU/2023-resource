@@ -13,6 +13,25 @@ content:
     text: 近期更新
 
   - tag: list
+    header: v5.6.0
+    items:
+      - text: |-
+          · 增加招生计划
+          · 增加历史分数
+
+  - tag: list
+    header: v5.5.0
+    items:
+      - text: |-
+          · 增加课程表
+
+  - tag: list
+    header: v5.4.0
+    items:
+      - text: |-
+          · 增加选课系统
+
+  - tag: list
     header: v5.3.0
     items:
       - text: |-

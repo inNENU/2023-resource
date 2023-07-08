@@ -15,9 +15,27 @@ content:
     logo: map
     url: map
 
+  # - tag: card
+  #   cover: $img/tab/admission.jpg
+  #   title: 录取查询
+  #   logo: letter
+  #   url: admission?type=search
+
+  # - tag: card
+  #   cover: $img/tab/headphone.jpg
+  #   title: 音悦东师
+  #   logo: cd
+  #   url: music
+
   - tag: grid
     header: false
     items:
+      - text: 课程表
+        color: grey
+        name: Course
+        icon: degree
+        url: course-table
+
       # - text: 校园地图
       #   color: orange
       #   name: Map
