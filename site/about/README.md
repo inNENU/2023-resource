@@ -36,6 +36,6 @@ title: 关于本站
 
 ## 站点内容修订
 
- in 东师页面内容仓库在 Github 上开源。如您愿意对 in 东师提供帮助，欢迎您点击下方链接为该仓库做贡献。您可以帮助扩充或编辑 in 东师的页面文字、图片以及相关文件。
+in 东师页面内容仓库在 Github 上开源。如您愿意对 in 东师提供帮助，欢迎您点击下方链接为该仓库做贡献。您可以帮助扩充或编辑 in 东师的页面文字、图片以及相关文件。
 
 [https://github.com/Hope-Studio/innenu-res](https://github.com/Hope-Studio/innenu-res)
