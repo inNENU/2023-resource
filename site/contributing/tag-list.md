@@ -436,7 +436,7 @@ category: 小程序
 
 :::
 
-## Functional List
+## functional-list
 
 功能列表每一项参数
 

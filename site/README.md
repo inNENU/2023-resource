@@ -143,7 +143,7 @@ highlights:
         icon: https://mp.innenu.com/res/icon/degree.svg
         link: ./guide/degree/
 
-      - title:  专业介绍
+      - title: 专业介绍
         icon: https://mp.innenu.com/res/icon/about.svg
         link: ./intro/school/major.html
 
@@ -228,166 +228,166 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     features:
-      - title:  学校概况
+      - title: 学校概况
         icon: https://mp.innenu.com/res/icon/about.svg
         link: ./intro/about/
 
-      - title:  学科建设
+      - title: 学科建设
         icon: https://mp.innenu.com/res/icon/content.svg
         link: ./intro/subject/
 
-      - title:  招生概况
+      - title: 招生概况
         icon: https://mp.innenu.com/res/icon/enroll.svg
         link: ./intro/enroll/
 
-      - title:  学生就业
+      - title: 学生就业
         icon: https://mp.innenu.com/res/icon/job.svg
         link: ./intro/job/
 
-      - title:  资助
+      - title: 资助
         icon: https://mp.innenu.com/res/icon/subsidize.svg
         link: ./intro/subsidize/
 
-      - title:  教育学部
+      - title: 教育学部
         icon: https://mp.innenu.com/res/icon/education.svg
         link: ./intro/school/education/
 
-      - title:  心理学院
+      - title: 心理学院
         icon: https://mp.innenu.com/res/icon/psychology.svg
         link: ./intro/school/psychology/
 
-      - title:  政法学院
+      - title: 政法学院
         icon: https://mp.innenu.com/res/icon/politics.svg
         link: ./intro/school/politics/
 
-      - title:  经济与管理学院
+      - title: 经济与管理学院
         icon: https://mp.innenu.com/res/icon/economy.svg
         link: ./intro/school/economy/
 
-      - title:  文学院
+      - title: 文学院
         icon: https://mp.innenu.com/res/icon/chinese.svg
         link: ./intro/school/chinese/
 
-      - title:  历史文化学院
+      - title: 历史文化学院
         icon: https://mp.innenu.com/res/icon/history.svg
         link: ./intro/school/history/
 
-      - title:  外国语学院
+      - title: 外国语学院
         icon: https://mp.innenu.com/res/icon/foreign.svg
         link: ./intro/school/foreign/
 
-      - title:  音乐学院
+      - title: 音乐学院
         icon: https://mp.innenu.com/res/icon/music.svg
         link: ./intro/school/music/
 
-      - title:  美术学院
+      - title: 美术学院
         icon: https://mp.innenu.com/res/icon/art.svg
         link: ./intro/school/art/
 
-      - title:  马克思主义学部
+      - title: 马克思主义学部
         icon: https://mp.innenu.com/res/icon/marx.svg
         link: ./intro/school/marx/
 
-      - title:  数学与统计学院
+      - title: 数学与统计学院
         icon: https://mp.innenu.com/res/icon/math.svg
         link: ./intro/school/math/
 
-      - title:  信息科学与技术学院
+      - title: 信息科学与技术学院
         icon: https://mp.innenu.com/res/icon/ist.svg
         link: ./intro/school/ist/
 
-      - title:  物理学院
+      - title: 物理学院
         icon: https://mp.innenu.com/res/icon/physics.svg
         link: ./intro/school/physics/
 
-      - title:  化学学院
+      - title: 化学学院
         icon: https://mp.innenu.com/res/icon/chemistry.svg
         link: ./intro/school/chemistry/
 
-      - title:  生命科学学院
+      - title: 生命科学学院
         icon: https://mp.innenu.com/res/icon/biology.svg
         link: ./intro/school/biology/
 
-      - title:  地理科学学院
+      - title: 地理科学学院
         icon: https://mp.innenu.com/res/icon/geography.svg
         link: ./intro/school/geography/
 
-      - title:  环境学院
+      - title: 环境学院
         icon: https://mp.innenu.com/res/icon/environment.svg
         link: ./intro/school/environment/
 
-      - title:  体育学院
+      - title: 体育学院
         icon: https://mp.innenu.com/res/icon/basketball.svg
         link: ./intro/school/pe/
 
-      - title:  传媒科学学院
+      - title: 传媒科学学院
         icon: https://mp.innenu.com/res/icon/media.svg
         link: ./intro/school/media/
-      - title:  国际汉学院
+      - title: 国际汉学院
         icon: https://mp.innenu.com/res/icon/network.svg
         link: ./intro/school/internation/
 
-      - title:  招生办公室
+      - title: 招生办公室
         icon: https://mp.innenu.com/res/icon/enroll.svg
         link: ./intro/apt/enroll/
 
-      - title:  研究生院
+      - title: 研究生院
         icon: https://mp.innenu.com/res/icon/degree.svg
         link: ./intro/apt/grad/
 
-      - title:  党委学生工作部
+      - title: 党委学生工作部
         icon: https://mp.innenu.com/res/icon/student.svg
         link: ./intro/apt/student/
 
-      - title:  信息化办公室
+      - title: 信息化办公室
         icon: https://mp.innenu.com/res/icon/pc.svg
         link: ./intro/apt/xxhb/
 
-      - title:  党委宣传部
+      - title: 党委宣传部
         icon: https://mp.innenu.com/res/icon/league.svg
         link: ./intro/apt/publicize/
 
-      - title:  学生心理健康教育中心
+      - title: 学生心理健康教育中心
         icon: https://mp.innenu.com/res/icon/psychology.svg
         link: ./intro/apt/psychology/
 
-      - title:  学校办公室
+      - title: 学校办公室
         icon: https://mp.innenu.com/res/icon/office.svg
         link: ./intro/apt/office/
 
-      - title:  校团委
+      - title: 校团委
         icon: https://mp.innenu.com/res/icon/league.svg
         link: ./intro/apt/youth-league/
 
-      - title:  后勤管理处
+      - title: 后勤管理处
         icon: https://mp.innenu.com/res/icon/repair.svg
         link: ./intro/apt/logistics/
 
-      - title:  校医院
+      - title: 校医院
         icon: https://mp.innenu.com/res/icon/hospital.svg
         link: ./intro/apt/hospital/
 
-      - title:  保卫科
+      - title: 保卫科
         icon: https://mp.innenu.com/res/icon/safe.svg
         link: ./intro/apt/defend.html
 
-      - title:  图书馆
+      - title: 图书馆
         icon: https://mp.innenu.com/res/icon/library.svg
         link: ./intro/apt/library/
 
-      - title:  教务处
+      - title: 教务处
         icon: https://mp.innenu.com/res/icon/jwc.svg
         link: ./intro/apt/course/
 
-      - title:  学生就业指导服务中心
+      - title: 学生就业指导服务中心
         icon: https://mp.innenu.com/res/icon/job.svg
         link: ./intro/apt/career.html
 
-      - title:  档案馆
+      - title: 档案馆
         icon: https://mp.innenu.com/res/icon/archive.svg
         link: ./intro/apt/archive/
 
-      - title:  体育馆
+      - title: 体育馆
         icon: https://mp.innenu.com/res/icon/basketball.svg
         link: ./intro/apt/gym/
 
