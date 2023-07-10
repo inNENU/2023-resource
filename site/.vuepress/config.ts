@@ -72,7 +72,7 @@ export default defineUserConfig({
   alias: {
     "@theme-hope/modules/info/components/PageMeta": path.resolve(
       __dirname,
-      "components/PageMeta.ts"
+      "components/PageMeta.ts",
     ),
   },
 

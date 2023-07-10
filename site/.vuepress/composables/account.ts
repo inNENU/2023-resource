@@ -40,7 +40,7 @@ export const setupAccount = () => {
     watch(
       () => page.value.path,
       () => registerAccount(),
-      { immediate: true }
+      { immediate: true },
     );
   });
 };

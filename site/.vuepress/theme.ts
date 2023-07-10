@@ -63,5 +63,5 @@ export default hopeTheme(
       sitemap: true,
     },
   },
-  { custom: true }
+  { custom: true },
 );
