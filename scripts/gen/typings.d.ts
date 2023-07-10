@@ -147,4 +147,4 @@ interface YearConfig {
   items: ProvinceConfig[];
 }
 
-export type EnrollPlanConfig = YearConfig[];
+export type SelectConfig = YearConfig[];

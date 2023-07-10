@@ -123,6 +123,12 @@ content:
         icon: select
         url: select
 
+      - text: 图书馆
+        color: purple
+        name: Library
+        icon: library
+        url: library
+
       - text: 体测计算器
         color: olive
         name: PE Calculator

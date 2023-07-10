@@ -1,10 +1,10 @@
 /* eslint-disable line-comment-position */
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 
-import { type EnrollPlanConfig } from "./typings.js";
+import { type SelectConfig } from "./typings.js";
 
 class Dsy {
-  private config: EnrollPlanConfig;
+  private config: SelectConfig;
   constructor() {
     this.config = [];
   }
