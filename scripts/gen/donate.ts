@@ -13,7 +13,7 @@ export const genDonate = (data: Donate, filePath: string): PageOptions => {
 
   const donateAmount = data.donations.reduce(
     (prev, current) => prev + current[1],
-    0
+    0,
   );
 
   const bestData = data.donations

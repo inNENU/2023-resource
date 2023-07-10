@@ -24,7 +24,7 @@ const convertYml2Md = <T = any>(
   sourceFolder: string,
   targetFolder: string,
   convertFunction: (data: T, filePath: string) => string,
-  dir = ""
+  dir = "",
 ): void => {
   const fileList = getFileList(sourceFolder, "yml");
 
@@ -43,18 +43,18 @@ const convertYml2Md = <T = any>(
         targetFolder,
         filePath
           .replace(/\.yml/u, ".md")
-          .replace(/(\/|^)index.md$/, "$1README.md")
+          .replace(/(\/|^)index.md$/, "$1README.md"),
       ),
 
       convertFunction(
         json,
         relative("./", resolve(dir, filePath.replace(/\.yml/u, ""))).replace(
           /\\/gu,
-          "/"
-        )
+          "/",
+        ),
       ),
 
-      { encoding: "utf-8" }
+      { encoding: "utf-8" },
     );
   });
 };

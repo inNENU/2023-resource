@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import OSS from "ali-oss";
 
 const __dirname = path.dirname(
-  path.join(fileURLToPath(import.meta.url), "../../")
+  path.join(fileURLToPath(import.meta.url), "../../"),
 );
 
 console.log(__dirname);
@@ -38,7 +38,7 @@ export const syncOSS = async (): Promise<void> => {
       const result = await client.put(
         filePath,
         path.normalize(path.join(__dirname, filePath)),
-        { headers }
+        { headers },
       );
 
       if (result.res.status !== 200)
@@ -56,6 +56,6 @@ export const syncOSS = async (): Promise<void> => {
         (item.startsWith("r/") && item.endsWith(".zip"))
       )
         await put(item);
-    })
+    }),
   );
 };

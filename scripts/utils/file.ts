@@ -33,7 +33,7 @@ const getFiles = (base: string, dir = "", ext?: string): string[] => {
   if (result.dir.length !== 0)
     result.dir.forEach((dirPath) => {
       fileList.push(
-        ...getFiles(base, relative("./", resolve(dir, dirPath)), ext)
+        ...getFiles(base, relative("./", resolve(dir, dirPath)), ext),
       );
     });
 

@@ -4,7 +4,7 @@ import { FooterComponentOptions } from "./typings.js";
 
 export const resolveFooter = (
   element: FooterComponentOptions,
-  location = ""
+  location = "",
 ): void => {
   checkKeys(
     element,
@@ -16,6 +16,6 @@ export const resolveFooter = (
       env: ["string[]", "undefined"],
       cite: ["string[]", "undefined"],
     },
-    location
+    location,
   );
 };

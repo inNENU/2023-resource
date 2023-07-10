@@ -16,7 +16,7 @@ export const convertYml2Json = <T = any, U = T>(
   targetFolder = sourceFolder,
   convertFunction: (data: T, filePath: string) => U = (data): U =>
     data as unknown as U,
-  dir = ""
+  dir = "",
 ): void => {
   const fileList = getFileList(sourceFolder, "yml");
 
@@ -37,11 +37,11 @@ export const convertYml2Json = <T = any, U = T>(
           json,
           relative("./", resolve(dir, filePath.replace(/\.yml/u, ""))).replace(
             /\\/gu,
-            "/"
-          )
-        )
+            "/",
+          ),
+        ),
       ),
-      { encoding: "utf-8" }
+      { encoding: "utf-8" },
     );
   });
 };

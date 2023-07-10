@@ -4,7 +4,7 @@ import { type TableComponentOptions } from "./typings.js";
 
 export const resolveTable = (
   element: TableComponentOptions,
-  location = ""
+  location = "",
 ): void => {
   checkKeys(
     element,
@@ -15,7 +15,7 @@ export const resolveTable = (
       body: "array",
       env: ["string[]", "undefined"],
     },
-    location
+    location,
   );
 
   element.body.forEach((item) => {

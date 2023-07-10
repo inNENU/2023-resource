@@ -29,7 +29,7 @@ export const getWords = (path: string): number => {
     const pageContent = <PageOptions>JSON.parse(
       readFileSync(resolve(path, filePath), {
         encoding: "utf-8",
-      })
+      }),
     );
 
     const content = getJSONValue(pageContent);
@@ -58,7 +58,7 @@ export const count = (): void => {
       });
       const newContent = content.replace(
         /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
-        wordsTip
+        wordsTip,
       );
 
       writeFileSync(resolve("./res/config/", filePath), newContent);
@@ -69,7 +69,7 @@ export const count = (): void => {
     });
     const newContent = content.replace(
       /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
-      wordsTip
+      wordsTip,
     );
 
     writeFileSync("./res/other/guide/index.yml", newContent);

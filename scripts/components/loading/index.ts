@@ -4,7 +4,7 @@ import { type LoadingComponentOptions } from "./typings.js";
 
 export const resolveLoading = (
   element: LoadingComponentOptions,
-  location = ""
+  location = "",
 ): void => {
   checkKeys(
     element,
@@ -12,6 +12,6 @@ export const resolveLoading = (
       tag: "string",
       env: ["string[]", "undefined"],
     },
-    location
+    location,
   );
 };

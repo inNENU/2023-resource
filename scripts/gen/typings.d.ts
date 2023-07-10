@@ -23,7 +23,7 @@ export type SearchInfoItem = [
   /** 页面名称 */
   string,
   /** 搜索索引 */
-  SearchIndex[]
+  SearchIndex[],
 ];
 
 export type SearchInfo = Record<string, SearchInfoItem>;

@@ -20,7 +20,7 @@ export const convertCSSSVG = (content: string): string =>
 const convertBase64SVG = (content: string): string =>
   `data:image/svg+xml;base64,${Buffer.from(
     unescape(encodeURIComponent(content)),
-    "utf8"
+    "utf8",
   ).toString("base64")}`;
 
 export const genIcon = (): void => {
@@ -70,7 +70,7 @@ export const genIcon = (): void => {
       writeFileSync(
         resolve("./r/icon", filePath.replace(/\.svg$/u, "")),
         convertBase64SVG(svgContent),
-        { encoding: "utf-8" }
+        { encoding: "utf-8" },
       );
     }
   });

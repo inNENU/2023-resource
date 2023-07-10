@@ -4,7 +4,7 @@ import { LocationComponentOptions } from "./typings.js";
 
 export const resolveLocation = (
   component: LocationComponentOptions,
-  location = ""
+  location = "",
 ): void => {
   checkKeys(
     component,
@@ -14,7 +14,7 @@ export const resolveLocation = (
       points: "object[]",
       navigate: ["boolean", "undefined"],
     },
-    location
+    location,
   );
 
   component.points.forEach((item) => {
@@ -29,7 +29,7 @@ export const resolveLocation = (
 };
 
 export const getLocationMarkdown = (
-  component: LocationComponentOptions
+  component: LocationComponentOptions,
 ): string => {
   const { title, points = [] } = component;
 
@@ -48,11 +48,11 @@ ${
     .map(
       ({ latitude, longitude, name = "位置", detail = "详情" }) =>
         `coord:${latitude},${longitude};title:${encodeURIComponent(
-          name
-        )};addr:${encodeURIComponent(detail)}`
+          name,
+        )};addr:${encodeURIComponent(detail)}`,
     )
     .join(
-      "|"
+      "|",
     )}&key=YNUBZ-AN3HF-P62JK-J2GND-XQTQQ-TTBOB&referer=in东师" frameborder="0" width="100%" height="320px" />
 
 `;

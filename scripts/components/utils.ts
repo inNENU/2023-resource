@@ -16,8 +16,8 @@ export const resolvePath = (path: string): string =>
   relative(
     process.cwd(),
     resolve(
-      path.replace(/\/\//u, "/").replace(/^\//u, "").replace(/\/$/u, "/index")
-    )
+      path.replace(/\/\//u, "/").replace(/^\//u, "").replace(/\/$/u, "/index"),
+    ),
   ).replaceAll(sep, "/");
 
 /** 处理样式 */
@@ -49,7 +49,7 @@ export const indent = (content: string, indent = 0): string =>
   content
     .split("\n")
     .map((line, index) =>
-      index === 0 ? line : `${new Array(indent).fill("").join("")}${line}`
+      index === 0 ? line : `${new Array(indent).fill("").join("")}${line}`,
     )
     .join("\n\n");
 

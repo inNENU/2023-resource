@@ -7,7 +7,7 @@ import { aliasResolve, getPath } from "../utils.js";
 
 export const resolveCard = (
   component: CardComponentOptions,
-  location = ""
+  location = "",
 ): void => {
   if (component.logo) {
     // check icons
@@ -36,7 +36,7 @@ export const resolveCard = (
       options: ["object", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location
+    location,
   );
 
   // check options
@@ -53,7 +53,7 @@ export const resolveCard = (
         path: ["string", "undefined"],
         shortLink: ["string", "undefined"],
       },
-      `${location}.options`
+      `${location}.options`,
     );
 };
 

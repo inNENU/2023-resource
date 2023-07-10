@@ -10,7 +10,7 @@ import { type Marker, type MarkerConfig, type MarkerData } from "./typings.js";
 const genMarker = (
   marker: Marker,
   category: string,
-  id: number
+  id: number,
 ): MarkerData => ({
   id,
   ...marker,
@@ -48,7 +48,7 @@ export const resolveMarker = (data: MarkerOption): MarkerConfig => {
   categories.forEach((category) => {
     markers[category] = data[category].content.map((marker) =>
       // eslint-disable-next-line no-plusplus
-      genMarker(marker, category, id++)
+      genMarker(marker, category, id++),
     );
 
     markers.all = markers.all.concat(markers[category]);

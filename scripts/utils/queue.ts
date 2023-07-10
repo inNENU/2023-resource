@@ -16,7 +16,7 @@ export interface Task {
 export class Queue {
   constructor(
     /** 允许同时并行的任务数 */
-    public capacity = 1
+    public capacity = 1,
   ) {}
 
   /** 回调队列 */
@@ -81,7 +81,7 @@ export class Queue {
  */
 export const promiseQueue = (
   promiseList: (() => Promise<void>)[],
-  capacity = 1
+  capacity = 1,
 ): Promise<void> =>
   new Promise((resolve) => {
     /** 回调队列 */

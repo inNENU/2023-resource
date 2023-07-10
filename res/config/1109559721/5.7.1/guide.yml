@@ -48,23 +48,11 @@ content:
         icon: activity
         path: guide/activity/
 
-      - text: 防盗防骗
-        color: olive
-        name: Safety
-        icon: safe
-        path: guide/safety/
-
       - text: 常见问题
         color: cyan
         name: FAQ
         icon: faq
         path: guide/faq/
-
-      - text: 经验分享直播与答疑
-        color: purple
-        name: Streaming
-        icon: activity
-        url: info?path=OMrHope/streaming
 
   - tag: grid
     header: 行在东师
@@ -93,11 +81,11 @@ content:
         icon: money
         path: guide/pay/
 
-      - text: 保险
-        color: blue
-        name: Insurance
-        icon: insurance
-        path: /guide/insurance/
+      # - text: 保险
+      #   color: blue
+      #   name: Insurance
+      #   icon: insurance
+      #   path: /guide/insurance/
 
       - text: 规章制度
         color: orange
@@ -245,12 +233,6 @@ content:
         name: Exam
         icon: exam
         path: guide/exam/
-
-      - text: 考研/保研
-        color: red
-        name: Postgraduate
-        icon: study
-        path: guide/post/
 
       - text: 优秀毕业生建议
         color: purple

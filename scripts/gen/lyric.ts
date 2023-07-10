@@ -29,7 +29,7 @@ export const genLyric = (): void => {
         const timeResult = /(.*):(.*)/u.exec(result[1])!;
         /** 正确的时间 */
         const time = Number(
-          (Number(timeResult[1]) * 60 + Number(timeResult[2])).toFixed(3)
+          (Number(timeResult[1]) * 60 + Number(timeResult[2])).toFixed(3),
         );
 
         lyricConfig.push({ time, text: result[2] });
@@ -38,7 +38,7 @@ export const genLyric = (): void => {
 
     writeFileSync(
       `./r/function/music/${lyricPath.replace(/lrc$/u, "json")}`,
-      JSON.stringify(lyricConfig)
+      JSON.stringify(lyricConfig),
     );
   });
   console.log("Generated lyric!");

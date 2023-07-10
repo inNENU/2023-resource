@@ -4,7 +4,7 @@ import { PhoneComponentOptions } from "./typings.js";
 
 export const resolvePhone = (
   element: PhoneComponentOptions,
-  location = ""
+  location = "",
 ): void => {
   for (const key in element)
     if (typeof element[key as keyof PhoneComponentOptions] === "number")
@@ -37,7 +37,7 @@ export const resolvePhone = (
       avatar: ["string", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location
+    location,
   );
 };
 

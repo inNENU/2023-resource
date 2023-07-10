@@ -8,7 +8,7 @@ export const convertFolder = (
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   convertFunction: (data: string, filePath: string) => any = (data): string =>
     data,
-  dir = ""
+  dir = "",
 ): void => {
   const fileList = getFileList(sourceFolder, "yml");
 
@@ -23,10 +23,10 @@ export const convertFolder = (
         content,
         relative("./", resolve(dir, filePath.replace(/\.yml/u, ""))).replace(
           /\\/gu,
-          "/"
-        )
+          "/",
+        ),
       ) as string,
-      { encoding: "utf-8" }
+      { encoding: "utf-8" },
     );
   });
 };

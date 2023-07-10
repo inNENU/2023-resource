@@ -38,7 +38,7 @@ export const genSitemap = (): void => {
   );
 
   sitemapContent.rules[0].params = fileList.map(
-    (filePath) => `scene=${filePath.replace(/\.yml$/u, "")}`
+    (filePath) => `scene=${filePath.replace(/\.yml$/u, "")}`,
   );
 
   writeFileSync("../app/sitemap.json", JSON.stringify(sitemapContent), {

@@ -8,7 +8,7 @@ import { deleteSync } from "del";
 const getCombine = <T = string>(
   list: T[],
   index = 0,
-  result: T[][] = []
+  result: T[][] = [],
 ): T[][] => {
   if (list.length === 0) return [];
   const temp: T[][] = [[list[index]]];
@@ -23,10 +23,10 @@ const getCombine = <T = string>(
 
 const getUpdateCombine = <T = string>(
   updateList: T[],
-  fullList: T[][]
+  fullList: T[][],
 ): T[][] =>
   fullList.filter((list) =>
-    list.some((item) => updateList.some((updateItem) => updateItem === item))
+    list.some((item) => updateList.some((updateItem) => updateItem === item)),
   );
 
 export const zipFiles = (nameList: string[]): void => {
@@ -40,13 +40,13 @@ export const zipFiles = (nameList: string[]): void => {
     execSync(
       `zip -r r/${fileName}.zip ${nameList
         .map((name) => `r/${name}`)
-        .join(" ")}`
+        .join(" ")}`,
     );
   else if (type() === "Windows_NT")
     execSync(
       `cd ./r && "../assets/lib/7za" a -r ${fileName}.zip ${nameList
         .map((name) => `"${name}/"`)
-        .join(" ")} && cd ..`
+        .join(" ")} && cd ..`,
     );
   else throw new Error("Mac OS is not supported");
 };
@@ -80,9 +80,9 @@ export const generateResource = (): void => {
       const fileName = resCombine.join("-");
 
       versionInfo.size[fileName] = Math.round(
-        statSync(`./r/${fileName}.zip`).size / 1024
+        statSync(`./r/${fileName}.zip`).size / 1024,
       );
-    }
+    },
   );
 
   // 写入版本信息
