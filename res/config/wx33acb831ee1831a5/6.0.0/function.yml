@@ -117,11 +117,17 @@ content:
         icon: grade
         url: grade-list
 
-      - text: 校园公告
+      - text: 学校通知
         color: red
         name: Notice
         icon: notice
         url: notice-list
+
+      - text: 学校新闻
+        color: cyan
+        name: News
+        icon: news
+        url: notice-list?type=news
 
       - text: 选课系统
         color: blue
