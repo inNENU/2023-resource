@@ -20,10 +20,6 @@ content:
   - tag: functional-list
     header: 设置
     items:
-      - text: 账户信息
-        icon: account
-        url: account
-
       - type: picker
         icon: theme
         text: 主题设置
