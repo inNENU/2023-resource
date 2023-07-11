@@ -117,6 +117,12 @@ content:
         icon: grade
         url: grade-list
 
+      - text: 校园公告
+        color: red
+        name: Notice
+        icon: notice
+        url: notice-list
+
       - text: 选课系统
         color: blue
         name: Select
