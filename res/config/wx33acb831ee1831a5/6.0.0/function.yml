@@ -90,6 +90,24 @@ content:
         icon: account
         url: school-media
 
+      - text: 学校通知
+        color: red
+        name: Notice
+        icon: notice
+        url: info-list
+
+      - text: 学校新闻
+        color: cyan
+        name: News
+        icon: news
+        url: info-list?type=news
+
+      - text: 学术会议
+        color: cyan
+        name: News
+        icon: study
+        url: info-list?type=academic
+
       - text: 东师网站
         color: orange
         name: Websites

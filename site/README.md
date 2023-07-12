@@ -24,7 +24,7 @@ actions:
 
   - type: secondary
     text: App 下载
-    link: https://assets.innenu.com/innenu-v5.6.1.apk
+    link: https://assets.innenu.com/innenu-v5.7.0.apk
 
 highlights:
   - header: 东师指南
