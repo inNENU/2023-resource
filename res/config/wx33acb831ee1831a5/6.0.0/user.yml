@@ -13,32 +13,13 @@ content:
         icon: log
         url: info?path=Olog/
 
-      - text: 关于
-        icon: about
-        url: about
-
-  - tag: functional-list
-    header: 设置
-    items:
-      - type: picker
-        icon: theme
-        text: 主题设置
-        select:
-          - ios
-          - android
-          - nenu
-          - weui
-        key: themeNum
-        handler: updateTheme
-        single: true
-
       - text: 隐私说明
         icon: privacy
         url: privacy
 
-      - text: 存储设置
-        icon: file
-        url: storage
+      - text: 关于
+        icon: about
+        url: about
 
   - tag: p
     heading: " "
@@ -55,11 +36,6 @@ content:
         icon: share
         type: button
         openType: share
-
-      - text: 关注 Mr.Hope
-        icon: wechat
-        type: button
-        handler: openProfile
 
       - text: 联系 Mr.Hope
         icon: contact
