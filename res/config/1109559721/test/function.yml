@@ -3,17 +3,17 @@ id: function
 grey: true
 hidden: true
 content:
-  - tag: card
-    cover: $img/tab/calendar.jpg
-    title: 校历
-    logo: calendar
-    url: calendar
+  # - tag: card
+  #   cover: $img/tab/calendar.jpg
+  #   title: 校历
+  #   logo: calendar
+  #   url: calendar
 
-  - tag: card
-    cover: $img/tab/map.jpg
-    title: 校园地图
-    logo: map
-    url: map
+  # - tag: card
+  #   cover: $img/tab/map.jpg
+  #   title: 校园地图
+  #   logo: map
+  #   url: map
 
   # - tag: card
   #   cover: $img/tab/admission.jpg
@@ -27,38 +27,47 @@ content:
   #   logo: cd
   #   url: music
 
+  # - tag: card
+  #   cover: $img/tab/video.jpg
+  #   title: 影约东师
+  #   logo: media
+  #   url: video?type=video
+
   - tag: grid
-    header: false
+    header: 本科招生
     items:
-      - text: 课程表
-        color: grey
-        name: Course
-        icon: degree
-        url: course-table
-
-      - text: 成绩查询
-        color: orange
-        name: Grade
-        icon: grade
-        url: grade-list
-
-      # - text: 校园地图
-      #   color: orange
-      #   name: Map
-      #   icon: map
-      #   url: map
-
-      # - text: 校历
-      #   color: olive
-      #   name: Calendar
-      #   icon: calendar
-      #   url: calendar
-
-      - text: 选课系统
+      - text: 2023 年招生简章
+        name: Rule
         color: blue
-        name: Select
-        icon: select
-        url: select
+        icon: rule
+        path: intro/enroll/under/rule/
+
+      - text: 2023 年招生计划
+        name: Plan
+        color: orange
+        icon: enroll
+        url: enroll-plan
+
+      - text: 历史分数
+        name: History grade
+        color: purple
+        icon: time
+        url: enroll-grade
+
+      - text: 录取查询
+        name: Admission
+        color: cyan
+        icon: letter
+        url: admission?type=search
+
+  - tag: grid
+    header: 东师风采
+    items:
+      - text: 校园地图
+        color: orange
+        name: Map
+        icon: map
+        url: map
 
       - text: 音悦东师
         color: blue
@@ -72,17 +81,38 @@ content:
         icon: media
         url: video?type=video
 
-      - text: 体测计算器
+  - tag: grid
+    header: 信息查询
+    items:
+      - text: 校历
         color: olive
-        name: PE Calculator
-        icon: calculate
-        url: pe-calculator
+        name: Calendar
+        icon: calendar
+        url: calendar
 
       - text: 校园媒体
         color: grey
         name: Accounts
         icon: account
         url: school-media
+
+      - text: 学校通知
+        color: red
+        name: Notice
+        icon: notice
+        url: info-list
+
+      - text: 学校新闻
+        color: cyan
+        name: News
+        icon: news
+        url: info-list?type=news
+
+      - text: 学术会议
+        color: cyan
+        name: News
+        icon: study
+        url: info-list?type=academic
 
       - text: 东师网站
         color: orange
@@ -96,10 +126,49 @@ content:
         icon: phone
         url: phone
 
-      - text: 录取查询
+  - tag: grid
+    header: 功能
+    items:
+      - text: 课程表
+        color: grey
+        name: Course
+        icon: degree
+        url: course-table
+
+      - text: 成绩查询
+        color: orange
+        name: Grade
+        icon: grade
+        url: course-grade
+
+      - text: 内网通知
         color: red
-        name: Admission
-        icon: letter
-        url: admission?type=search
+        name: Notice
+        icon: notice
+        url: notice-list
+
+      - text: 内网新闻
+        color: cyan
+        name: News
+        icon: news
+        url: notice-list?type=news
+
+      - text: 选课系统
+        color: blue
+        name: Select
+        icon: select
+        url: select
+
+      - text: 图书馆
+        color: purple
+        name: Library
+        icon: library
+        url: library
+
+      - text: 体测计算器
+        color: olive
+        name: PE Calculator
+        icon: calculate
+        url: pe-calculator
 
     footer: " "

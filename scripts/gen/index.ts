@@ -106,7 +106,9 @@ convertYml2Json("./res/other/guide", "./r/other/guide", (data, filePath) =>
 
 // 生成 tab 页
 convertYml2Json("./res/config", "./r/config", (data, filePath) =>
-  /(function|guide|intro|main|user)/u.exec(filePath)
+  // TODO: FIXME
+  /(function|guide|intro|main|user)/u.exec(filePath) &&
+  !filePath.includes("6.0.0")
     ? resolvePage(data as PageConfig, filePath)
     : (data as unknown),
 );

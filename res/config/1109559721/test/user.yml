@@ -13,36 +13,13 @@ content:
         icon: log
         url: info?path=Olog/
 
-      - text: 关于
-        icon: about
-        url: about
-
-  - tag: functional-list
-    header: 设置
-    items:
-      - text: 账户信息
-        icon: account
-        url: account
-
-      - type: picker
-        icon: theme
-        text: 主题设置
-        select:
-          - ios
-          - android
-          - nenu
-          - weui
-        key: themeNum
-        handler: updateTheme
-        single: true
-
       - text: 隐私说明
         icon: privacy
         url: privacy
 
-      - text: 存储设置
-        icon: file
-        url: storage
+      - text: 关于
+        icon: about
+        url: about
 
   - tag: p
     heading: " "

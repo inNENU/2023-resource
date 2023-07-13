@@ -40,15 +40,15 @@ content:
         color: orange
         name: Grade
         icon: grade
-        url: grade-list
+        url: course-grade
 
-      - text: 学校通知
+      - text: 内网通知
         color: red
         name: Notice
         icon: notice
         url: notice-list
 
-      - text: 学校新闻
+      - text: 内网新闻
         color: cyan
         name: News
         icon: news

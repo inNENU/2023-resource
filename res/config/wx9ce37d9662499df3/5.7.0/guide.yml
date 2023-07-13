@@ -290,7 +290,7 @@ content:
     items:
       - text: 学生组织
         color: blue
-        name: Orgnazation
+        name: Organization
         icon: student-org
         path: guide/org/
 

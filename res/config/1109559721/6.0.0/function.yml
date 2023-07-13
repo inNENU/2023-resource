@@ -40,7 +40,7 @@ content:
         color: orange
         name: Grade
         icon: grade
-        url: grade-list
+        url: course-grade
 
       # - text: 校园地图
       #   color: orange

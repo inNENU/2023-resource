@@ -1,10 +1,9 @@
-title: 东师指南
-id: guide
-grey: true
-hidden: true
-content:
-  - tag: grid
-    header: 你好东师
+before: []
+after: []
+data:
+  newcomer:
+    name: 新生你好
+    path: guide/newcomer
     items:
       - text: 入学准备
         color: red
@@ -78,8 +77,8 @@ content:
         icon: activity
         url: info?path=OMrHope/streaming
 
-  - tag: grid
-    header: 行在东师
+  service:
+    text: 行在东师
     items:
       - text: 学费缴纳
         color: olive
@@ -93,18 +92,6 @@ content:
         icon: insurance
         path: /guide/insurance/
 
-      - text: 校园卡
-        color: red
-        name: Card
-        icon: card
-        path: guide/card/
-
-      - text: 校园网
-        color: purple
-        name: Network
-        icon: network
-        path: guide/network/
-
       - text: 规章制度
         color: orange
         name: Rule
@@ -117,8 +104,8 @@ content:
         icon: service
         path: guide/action/
 
-  - tag: grid
-    header: 东师日常
+  live:
+    text: 东师日常
     items:
       - text: 寝室
         color: blue
@@ -156,8 +143,8 @@ content:
         icon: life
         path: guide/life/
 
-  - tag: grid
-    header: 数字东师
+  account:
+    text: 数字东师
     items:
       - text: 统一身份认证
         color: blue
@@ -170,6 +157,18 @@ content:
         name: Email
         icon: email
         path: guide/account/mail/
+
+      - text: 校园卡
+        color: red
+        name: Card
+        icon: card
+        path: guide/card/
+
+      - text: 校园网
+        color: purple
+        name: Network
+        icon: network
+        path: guide/network/
 
       - text: 企业号
         color: blue
@@ -189,8 +188,8 @@ content:
         icon: select
         path: guide/select/system/
 
-  - tag: grid
-    header: 学在东师
+  study:
+    text: 学在东师
     items:
       - text: 学位
         color: blue
@@ -264,8 +263,8 @@ content:
         icon: idea
         path: guide/advice/
 
-  - tag: grid
-    header: 东师贴士
+  tip:
+    text: 东师贴士
     items:
       - text: 生活贴士
         color: blue
@@ -285,12 +284,12 @@ content:
         icon: digital
         path: guide/tip/digital
 
-  - tag: grid
-    header: 乐在东师
+  enjoy:
+    text: 乐在东师
     items:
       - text: 学生组织
         color: blue
-        name: Orgnazation
+        name: Organization
         icon: student-org
         path: guide/org/
 
@@ -306,8 +305,14 @@ content:
         icon: nearby
         path: guide/life/nearby/
 
-  - tag: grid
-    header: 再见东师
+      - text: Hope 建议
+        color: blue
+        name: Advice
+        icon: idea
+        url: info?path=Oadvice/
+
+  graduate:
+    text: 再见东师
     items:
       - text: 就业
         color: blue
@@ -320,14 +325,3 @@ content:
         name: Archive
         icon: archive
         path: guide/archive/
-
-  - tag: grid
-    header: Mr.Hope 漫谈
-    items:
-      - text: 个人建议
-        color: blue
-        name: Advice
-        icon: idea
-        url: info?path=Oadvice/
-
-    footer: " "
