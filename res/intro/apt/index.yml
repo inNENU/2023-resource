@@ -1,7 +1,7 @@
 title: 学校机构介绍
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-13T06:37:07.138Z
 shareable: true
 content:
   - tag: grid
@@ -12,41 +12,17 @@ content:
         icon: enroll
         path: enroll/
 
-      - text: 党委学生工作部
-        color: blue
-        name: Student
-        icon: student
-        path: student/
+      - text: 研究生院
+        color: grey
+        name: Graduate
+        icon: degree
+        path: grad/
 
-      - text: 党委宣传部
-        color: olive
-        name: Publicize
-        icon: league
-        path: publicize/
-
-      - text: 学生心理健康教育中心
-        color: orange
-        name: Psychology
-        icon: psychology
-        path: psychology/
-
-      - text: 学校办公室
-        color: red
-        name: Office
-        icon: office
-        path: office/
-
-      - text: 校团委
+      - text: 信息化办公室
         color: purple
-        name: League
-        icon: league
-        path: youth-league/
-
-      - text: 后勤管理处
-        color: cyan
-        name: Logistics
-        icon: repair
-        path: logistics/
+        name: Information
+        icon: pc
+        path: xxhb/
 
       - text: 校医院
         color: olive
@@ -66,6 +42,24 @@ content:
         icon: library
         path: library/
 
+      - text: 学校办公室
+        color: red
+        name: Office
+        icon: office
+        path: office/
+
+      - text: 党委学生工作部
+        color: blue
+        name: Student
+        icon: student
+        path: student/
+
+      - text: 后勤管理处
+        color: cyan
+        name: Logistics
+        icon: repair
+        path: logistics/
+
       - text: 教务处
         color: blue
         name: Course
@@ -78,8 +72,32 @@ content:
         icon: job
         path: career
 
+      - text: 校团委
+        color: purple
+        name: League
+        icon: league
+        path: youth-league/
+
+      - text: 学生心理健康教育中心
+        color: orange
+        name: Psychology
+        icon: psychology
+        path: psychology/
+
       - text: 档案馆
         color: purple
         name: Archive
         icon: archive
         path: archive/
+
+      - text: 党委宣传部
+        color: olive
+        name: Publicize
+        icon: league
+        path: publicize/
+
+      - text: 体育馆
+        color: olive
+        name: Gym
+        icon: basketball
+        path: gym/

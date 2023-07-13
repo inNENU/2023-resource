@@ -1,5 +1,4 @@
 title: 东师介绍
-id: intro/index
 grey: true
 content:
   - tag: grid
@@ -17,12 +16,6 @@ content:
         icon: content
         path: subject/
 
-      - text: 招生概况
-        color: orange
-        name: Enroll
-        icon: enroll
-        path: enroll/
-
       - text: 学生就业
         color: cyan
         name: Job
@@ -34,6 +27,27 @@ content:
         name: Subsidize
         icon: subsidize
         path: subsidize/
+
+  - tag: grid
+    header: 招生信息
+    items:
+      - text: 本科生招生
+        color: orange
+        name: Under enroll
+        icon: enroll
+        path: enroll/under/
+
+      - text: 研究生招生
+        color: blue
+        name: Grad enroll
+        icon: enroll
+        path: enroll/grad/
+
+      - text: 第二学士学位
+        color: grey
+        name: Double enroll
+        icon: enroll
+        path: enroll/second-degree/
 
   - tag: grid
     header: 学院介绍
@@ -151,23 +165,12 @@ content:
         name: Media
         icon: media
         path: school/media/
+
       - text: 国际汉学院
         color: mauve
         name: Internation
         icon: network
         path: school/internation/
-
-      # - text: 民族教育学院
-      #   color: olive
-      #   name: People
-      #   icon: people
-      #   path: school/people/
-
-      # - text: 纽瓦克学院
-      #   color: blue
-      #   name: Newark
-      #   icon: school
-      #   path: school/newark/
 
   - tag: grid
     header: 机构介绍
@@ -184,47 +187,11 @@ content:
         icon: degree
         path: apt/grad/
 
-      - text: 党委学生工作部
-        color: blue
-        name: Student
-        icon: student
-        path: apt/student/
-
       - text: 信息化办公室
         color: purple
         name: Information
         icon: pc
         path: apt/xxhb/
-
-      - text: 党委宣传部
-        color: olive
-        name: Publicize
-        icon: league
-        path: apt/publicize/
-
-      - text: 学生心理健康教育中心
-        color: orange
-        name: Psychology
-        icon: psychology
-        path: apt/psychology/
-
-      - text: 学校办公室
-        color: red
-        name: Office
-        icon: office
-        path: apt/office/
-
-      - text: 校团委
-        color: purple
-        name: League
-        icon: league
-        path: apt/youth-league/
-
-      - text: 后勤管理处
-        color: cyan
-        name: Logistics
-        icon: repair
-        path: apt/logistics/
 
       - text: 校医院
         color: olive
@@ -244,6 +211,24 @@ content:
         icon: library
         path: apt/library/
 
+      - text: 学校办公室
+        color: red
+        name: Office
+        icon: office
+        path: apt/office/
+
+      - text: 党委学生工作部
+        color: blue
+        name: Student
+        icon: student
+        path: apt/student/
+
+      - text: 后勤管理处
+        color: cyan
+        name: Logistics
+        icon: repair
+        path: apt/logistics/
+
       - text: 教务处
         color: blue
         name: Course
@@ -256,11 +241,29 @@ content:
         icon: job
         path: apt/career
 
+      - text: 校团委
+        color: purple
+        name: League
+        icon: league
+        path: apt/youth-league/
+
+      - text: 学生心理健康教育中心
+        color: orange
+        name: Psychology
+        icon: psychology
+        path: apt/psychology/
+
       - text: 档案馆
         color: purple
         name: Archive
         icon: archive
         path: apt/archive/
+
+      - text: 党委宣传部
+        color: olive
+        name: Publicize
+        icon: league
+        path: apt/publicize/
 
       - text: 体育馆
         color: olive

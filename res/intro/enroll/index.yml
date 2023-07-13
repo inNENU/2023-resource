@@ -1,7 +1,7 @@
 title: 招生情况
 grey: true
 author: Mr.Hope
-time: 2023-06-24T18:37:19.178Z
+time: 2023-07-13T06:37:07.413Z
 shareable: true
 content:
   - tag: list
@@ -57,6 +57,6 @@ content:
   - tag: list
     header: 第二学士学位
     items:
-      - text: 2022 年第二学士学位招生简章
+      - text: 2023 年第二学士学位招生简章
         icon: rule
-        path: second-degree/2022
+        path: second-degree/2023

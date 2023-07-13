@@ -1,5 +1,4 @@
 title: 东师指南
-id: guide/index
 grey: true
 content:
   - tag: grid
@@ -47,11 +46,23 @@ content:
         icon: activity
         path: activity/
 
+      - text: 防盗防骗
+        color: olive
+        name: Safety
+        icon: safe
+        path: safety/
+
       - text: 常见问题
         color: cyan
         name: FAQ
         icon: faq
         path: faq/
+
+      # - text: 经验分享直播与答疑
+      #   color: purple
+      #   name: Streaming
+      #   icon: activity
+      #   url: info?path=OMrHope/streaming
 
   - tag: grid
     header: 行在东师
@@ -277,7 +288,7 @@ content:
     items:
       - text: 学生组织
         color: blue
-        name: Orgnazation
+        name: Organization
         icon: student-org
         path: org/
 
@@ -308,13 +319,13 @@ content:
         icon: archive
         path: archive/
 
-  # - tag: grid
-  #   header: Mr.Hope 漫谈
-  #   items:
-  #     - text: 个人建议
-  #       color: blue
-  #       name: Advice
-  #       icon: idea
-  #       url: info?path=Oadvice/
+    # - tag: grid
+    #   header: Mr.Hope 漫谈
+    #   items:
+    #     - text: 个人建议
+    #       color: blue
+    #       name: Advice
+    #       icon: idea
+    #       url: info?path=Oadvice/
 
-  #   footer: " "
+    footer: " "

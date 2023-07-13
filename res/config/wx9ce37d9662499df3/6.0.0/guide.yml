@@ -97,7 +97,7 @@ content:
         color: blue
         name: Insurance
         icon: insurance
-        path: /guide/insurance/
+        path: guide/insurance/
 
       - text: 规章制度
         color: orange
@@ -290,7 +290,7 @@ content:
     items:
       - text: 学生组织
         color: blue
-        name: Orgnazation
+        name: Organization
         icon: student-org
         path: guide/org/
 

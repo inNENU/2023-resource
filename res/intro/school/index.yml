@@ -1,7 +1,7 @@
 title: 学院介绍
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-13T06:37:07.624Z
 shareable: true
 content:
   - tag: grid
@@ -120,20 +120,8 @@ content:
         icon: media
         path: media/
 
-      - text: 民族教育学院
-        color: olive
-        name: People
-        icon: people
-        path: people/
-
       - text: 国际汉学院
         color: mauve
         name: Internation
         icon: network
         path: internation/
-
-      - text: 纽瓦克学院
-        color: blue
-        name: Newark
-        icon: school
-        path: newark/

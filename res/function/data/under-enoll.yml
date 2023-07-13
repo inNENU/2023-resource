@@ -1,0 +1,25 @@
+path: intro/enroll/under/
+items:
+  - text: 2023 年招生简章
+    name: Rule
+    color: blue
+    icon: rule
+    path: intro/enroll/under/rule/
+
+  - text: 2023 年招生计划
+    name: Plan
+    color: orange
+    icon: enroll
+    url: enroll-plan
+
+  - text: 历史分数
+    name: History grade
+    color: purple
+    icon: time
+    url: enroll-grade
+
+  - text: 录取查询
+    name: Admission
+    color: cyan
+    icon: letter
+    url: admission?type=search
