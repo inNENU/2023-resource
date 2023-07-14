@@ -26,6 +26,7 @@
     "lint:prettier": "prettier --check .",
     "prepare": "husky install",
     "push": "tsx ./scripts/push.ts",
+    "sync:oss": "tsx ./scripts/oss.ts",
     "upload": "tsx ./scripts/upload.ts"
   },
   "lint-staged": {

@@ -1,6 +1,6 @@
 title: 入学准备
 author: Mr.Hope
-time: 2023-06-21T10:21:02.579Z
+time: 2023-07-14T10:28:45.688Z
 grey: true
 shareable: true
 content:
@@ -51,13 +51,17 @@ content:
   - tag: list
     header: 研究生入学准备
     items:
-      - text: 录取通知书详情
-        icon: letter
-        path: post-admission-notice
-
       - text: 档案邮寄
         icon: archive
         path: /guide/archive/post-in
+
+      - text: 证件材料
+        icon: material
+        path: /guide/necessity/material
+
+      - text: 录取通知书详情
+        icon: letter
+        path: post-admission-notice
 
       - text: 党员组织关系接转
         icon: league

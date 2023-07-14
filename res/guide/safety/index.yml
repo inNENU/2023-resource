@@ -1,6 +1,6 @@
 title: 防盗防骗与人身安全
 author: Mr.Hope
-time: 2023-07-07T18:58:13.541Z
+time: 2023-07-14T10:28:45.716Z
 shareable: true
 content:
   - tag: title
@@ -13,50 +13,61 @@ content:
     header: 常见网上诈骗
     items:
       - text: 群聊诈骗
+        icon: qq-group
         path: network/group
 
       - text: 伪装学长学姐
+        icon: elder
         path: network/elder
 
       - text: 伪装官方
+        icon: $img/song/schoolLogo.jpg
         path: network/official
 
       - text: 盗号
+        icon: thief
         path: network/account
 
       - text: 分享屏幕
+        icon: cellphone
         path: network/screen
+
+      - text: 电话入会
+        icon: phone
+        path: network/phone
 
   - tag: title
     text: 线下防盗防骗
-
-  - tag: text
-    text: 网上诈骗具有多样性，而且很多骗子已经发展了完整的行骗流程。请您务必警惕。
 
   - tag: list
     header: 常见线下诈骗
     items:
       - text: 订阅类
+        icon: subscribe
         path: local/subscribe
 
       - text: 兼职类
+        icon: job
         path: local/part-time
 
       - text: 传销类
+        icon: mlm
         path: local/mlm
 
       - text: 更多
+        icon: more
         path: local/more
 
   - tag: text
     type: tip
     text:
-      - 如果您上当受骗，请及时给您的辅导员打电话说明情况，并致电学校保卫科保安。
-      - 您也可以联系 Mr.Hope 讲述您经历的新型骗局，Mr.Hope 会增添到in东师里用作警示以防他人受骗。
+      - 如在校内遭到盗窃，请及时联系保卫科。
+      - 如遇到诈骗且数额巨大，请及时报案。
+      - 您可以联系 Mr.Hope 讲述您经历的新型骗局，Mr.Hope 会增添到in东师里用作警示以防他人受骗。
 
   - tag: list
     header: false
     items:
       - text: 保卫科
-        icon: safe
+        icon: police
         path: /intro/apt/defend

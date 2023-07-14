@@ -1,6 +1,6 @@
 title: 证件材料类
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-14T10:28:45.557Z
 shareable: true
 content:
   - tag: title
@@ -27,7 +27,7 @@ content:
 
   - tag: text
     type: info
-    heading: 档案材料
+    heading: 档案材料 (仅限本科生，研究生需调档)
     text:
       - 就是高中母校交给同学们的装在牛皮档案里的材料
       - 一般为个人档案，个人档案数据电子化的省份可能只有团籍档案
