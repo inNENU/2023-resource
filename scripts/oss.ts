@@ -60,14 +60,14 @@ const syncOSS = async (): Promise<void> => {
     }
   };
 
-  const deleteFile = async (filePath: string): Promise<void> => {
+  const deleteFiles = async (filePaths: string[]): Promise<void> => {
     try {
-      const result = await client.delete(filePath);
+      const result = await client.deleteMulti(filePaths);
 
       if (result.res.status !== 200)
-        console.log(`${filePath} delete failed:`, result.res.status);
+        console.log(`delete failed:`, result.res.status);
     } catch (err) {
-      console.error(`${filePath} delete failed:`, err);
+      console.error(`delete failed:`, err);
     }
   };
 
@@ -75,9 +75,7 @@ const syncOSS = async (): Promise<void> => {
     ...updatedFiles.map(async (item) => {
       await putFile(item);
     }),
-    ...deletedFiles.map(async (item) => {
-      await deleteFile(item);
-    }),
+    deleteFiles(deletedFiles),
   ]);
 };
 
