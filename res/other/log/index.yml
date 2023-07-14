@@ -8,10 +8,6 @@ content:
         icon: log
         url: info?path=Olog/app
 
-      - text: 内容更新日志
-        icon: log
-        url: info?path=Olog/content
-
   - tag: card
     cover: https://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg
     title: Mr.Hope 需要您的帮助

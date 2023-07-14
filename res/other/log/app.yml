@@ -13,6 +13,25 @@ content:
     text: 近期更新
 
   - tag: list
+    header: v5.8.0
+    items:
+      - text: |-
+          · 增加校园卡余额
+          · 增加图书借阅
+          · 增加学校新闻
+          · 增加学校通知
+          · 增加学术会议
+          · 增加内网公告
+          · 增加内网新闻
+          · 增加图书馆人数
+
+  - tag: list
+    header: v5.7.0
+    items:
+      - text: |-
+          · 增加成绩列表
+
+  - tag: list
     header: v5.6.0
     items:
       - text: |-
