@@ -8,7 +8,7 @@ import { config } from "dotenv";
 config();
 
 const __dirname = path.dirname(
-  path.join(fileURLToPath(import.meta.url), "../")
+  path.join(fileURLToPath(import.meta.url), "../"),
 );
 
 const syncOSS = async (): Promise<void> => {
@@ -20,7 +20,7 @@ const syncOSS = async (): Promise<void> => {
       (item) =>
         item.startsWith("img/") ||
         item.startsWith("file/") ||
-        (item.startsWith("r/") && item.endsWith(".zip"))
+        (item.startsWith("r/") && item.endsWith(".zip")),
     );
 
   const updatedFiles = files
@@ -50,7 +50,7 @@ const syncOSS = async (): Promise<void> => {
       const result = await client.put(
         filePath,
         path.normalize(path.join(__dirname, filePath)),
-        { headers }
+        { headers },
       );
 
       if (result.res.status !== 200)
