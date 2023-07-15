@@ -4,11 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "res/guide/**"
-      - "res/intro/**"
-      - "scripts/**"
-      - "site/**"
+
 jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest

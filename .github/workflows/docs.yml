@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "res/guide/**"
+      - "res/intro/**"
+      - "scripts/**"
+      - "site/**"
 
 permissions:
   contents: write
