@@ -49,18 +49,22 @@ content:
   - tag: img
     src: $img/bath/benbu-env.jpg
     desc: 洗浴区
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-cloth-box.jpg
     desc: 衣物箱
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-dressing-table.jpg
     desc: 梳妆台 (有吹风机)
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-scale.jpg
     desc: 体重秤
+    watermark: true
 
   - tag: title
     text: 开放时间

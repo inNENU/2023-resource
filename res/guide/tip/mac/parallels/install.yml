@@ -1,6 +1,6 @@
 title: 安装 Parallels Desktop 17
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.687Z
 shareable: true
 content:
   - tag: title
@@ -18,14 +18,17 @@ content:
   - tag: img
     src: $img/tip/mac/parallels/download.png
     desc: 双击打开镜像
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/warning.png
     desc: 如果出现此警告，请选择“打开”
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/install.png
     desc: 双击右侧图标开始安装
+    watermark: true
 
   - tag: text
     text: 安装程序会自动下载最新版 Parallels Desktop，请您耐心等待。
@@ -33,6 +36,7 @@ content:
   - tag: img
     src: $img/tip/mac/parallels/install-progress.png
     desc: 安装进程
+    watermark: true
 
   - tag: text
     text:
@@ -41,6 +45,7 @@ content:
   - tag: img
     src: $img/tip/mac/parallels/install-request.png
     desc: 询问账户密码
+    watermark: true
 
   - tag: text
     text:
@@ -48,9 +53,11 @@ content:
 
   - tag: img
     src: $img/tip/mac/parallels/installing.png
+    watermark: true
 
   - tag: text
     text: 首次安装完成后，Parallels 会自动启动
 
   - tag: img
     src: $img/tip/mac/parallels/startup.png
+    watermark: true

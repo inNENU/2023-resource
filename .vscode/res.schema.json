@@ -523,6 +523,10 @@
           "description": "图片描述",
           "type": "string"
         },
+        "watermark": {
+          "description": "图片水印",
+          "type": "boolean"
+        },
         "imgMode": {
           "description": "图片填充模式",
           "type": "string",

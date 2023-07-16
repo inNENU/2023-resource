@@ -2,7 +2,7 @@ title: 本部临时取件点
 author:
   - Mr.Hope
   - 战俊华
-time: 2022-08-21
+time: 2023-07-16T11:41:46.949Z
 shareable: true
 content:
   - tag: title
@@ -28,6 +28,7 @@ content:
   - tag: img
     src: $img/express/benbu-temp-entrance.jpg
     desc: 临时取件点入口
+    watermark: true
 
   - tag: text
     heading: 开放时间
@@ -39,7 +40,9 @@ content:
   - tag: img
     src: $img/express/benbu-temp.jpg
     desc: 临时取件点内景
+    watermark: true
 
   - tag: img
     src: $img/express/benbu-temp-scan.jpg
     desc: 临时取件点出库处
+    watermark: true

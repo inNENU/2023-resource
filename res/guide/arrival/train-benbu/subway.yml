@@ -1,6 +1,6 @@
 title: 长春站-到本部乘坐地铁
 author: Mr.Hope
-time: 2023-07-07T17:36:28.890Z
+time: 2023-07-16T11:41:46.263Z
 shareable: true
 content:
   - tag: text
@@ -82,6 +82,7 @@ content:
   - tag: img
     src: $img/arrival/subway-chang-chun-north.jpg
     desc: 地铁 1 号线门口
+    watermark: true
 
   - tag: text
     type: warning
@@ -122,10 +123,12 @@ content:
   - tag: img
     src: $img/arrival/ticket-machine.jpg
     desc: 自助售票机
+    watermark: true
 
   - tag: img
     src: $img/arrival/subway-ticket.jpg
     desc: 轨道交通票
+    watermark: true
 
   - tag: title
     text: 进出站验票
@@ -142,14 +145,17 @@ content:
   - tag: img
     src: $img/traffic/ccqg/subway-1.png
     desc: 地铁 1 号线停靠点
+    watermark: true
 
   - tag: img
     src: $img/arrival/subway-env.jpg
     desc: 地铁内部环境
+    watermark: true
 
   - tag: img
     src: $img/arrival/subway-nenu.jpg
     desc: 东北师大站 C 出入口
+    watermark: true
 
   - tag: title
     text: 到达校门

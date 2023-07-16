@@ -1,6 +1,6 @@
 title: 体育学院寝室
 author: 孙祎凡
-time: 2023-06-29T15:34:45.647Z
+time: 2023-07-16T11:41:46.855Z
 shareable: true
 content:
   - tag: title
@@ -12,6 +12,7 @@ content:
   - tag: img
     src: $img/dorm/PEdorm.jpg
     desc: 体育公寓
+    watermark: true
 
   - tag: title
     text: 情况简介
@@ -63,15 +64,20 @@ content:
 
   - tag: img
     src: $img/dorm/pe-requirement1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/pe-requirement2.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/pe-requirement3.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/pe-requirement4.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/pe-requirement5.jpg
+    watermark: true

@@ -1,6 +1,6 @@
 title: 安卓邮件客户端设置
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.073Z
 shareable: true
 content:
   - tag: text
@@ -14,12 +14,14 @@ content:
 
   - tag: img
     src: $img/account/mail/gmail-1.jpg
+    watermark: true
 
   - tag: ul
     text: 选择 “其他”
 
   - tag: img
     src: $img/account/mail/gmail-2.jpg
+    watermark: true
 
   - tag: ul
     text:
@@ -28,18 +30,21 @@ content:
 
   - tag: img
     src: $img/account/mail/gmail-3.jpg
+    watermark: true
 
   - tag: ul
     text: 选择 “个人(IMAP)”
 
   - tag: img
     src: $img/account/mail/gmail-4.jpg
+    watermark: true
 
   - tag: ul
     text: 输入密码
 
   - tag: img
     src: $img/account/mail/gmail-5.jpg
+    watermark: true
 
   - tag: ul
     text: 在接收服务器中输入
@@ -55,6 +60,7 @@ content:
 
   - tag: img
     src: $img/account/mail/gmail-6.jpg
+    watermark: true
 
   - tag: ul
     text: 在外发服务器中输入
@@ -70,6 +76,7 @@ content:
 
   - tag: img
     src: $img/account/mail/gmail-7.jpg
+    watermark: true
 
   - tag: ul
     text: 自行选择合适的同步频率
@@ -80,9 +87,11 @@ content:
 
   - tag: img
     src: $img/account/mail/gmail-8.jpg
+    watermark: true
 
   - tag: ul
     text: 选择合适的账号名称与发件人姓名
 
   - tag: img
     src: $img/account/mail/gmail-9.jpg
+    watermark: true

@@ -1,6 +1,6 @@
 title: 自习室
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.822Z
 shareable: true
 content:
   - tag: title
@@ -15,18 +15,22 @@ content:
   - tag: img
     src: $img/dorm/self-study1.jpg
     desc: 三舍 A 自习室
+    watermark: true
 
   - tag: img
     src: $img/dorm/self-study2.jpg
     desc: 三舍 B 自习室
+    watermark: true
 
   - tag: img
     src: $img/dorm/self-study3.jpg
     desc: 三舍 C 自习室
+    watermark: true
 
   - tag: img
     src: $img/dorm/self-study4.jpg
     desc: 天华公寓自习室
+    watermark: true
 
   - tag: title
     text: Mr.Hope の 吐槽

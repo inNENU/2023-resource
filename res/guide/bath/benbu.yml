@@ -1,6 +1,6 @@
 title: 本部浴池
 author: Mr.Hope
-time: 2022-09-03
+time: 2023-07-16T11:41:46.461Z
 shareable: true
 content:
   - tag: title
@@ -20,14 +20,17 @@ content:
   - tag: img
     src: $img/bath/benbu-main.jpg
     desc: 正门
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-outside.jpg
     desc: 外景
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-main-2.jpg
     desc: 大厅
+    watermark: true
 
   - tag: text
     heading: 一楼
@@ -65,18 +68,22 @@ content:
   - tag: img
     src: $img/bath/benbu-env.jpg
     desc: 洗浴区
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-cloth-box.jpg
     desc: 衣物箱
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-dressing-table.jpg
     desc: 梳妆台 (有吹风机)
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-scale.jpg
     desc: 体重秤
+    watermark: true
 
   - tag: title
     text: 开放时间

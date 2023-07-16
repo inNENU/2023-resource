@@ -1,6 +1,6 @@
 title: 入学准备
 author: Mr.Hope
-time: 2023-07-14T10:28:45.688Z
+time: 2023-07-16T11:41:47.408Z
 grey: true
 shareable: true
 content:
@@ -41,7 +41,7 @@ content:
         path: league
 
       - text: 团员组织关系接转
-        icon: league
+        icon: $img/about/group.png
         path: group
 
       - text: 户口迁移
@@ -56,7 +56,7 @@ content:
         path: /guide/archive/post-in
 
       - text: 证件材料
-        icon: material
+        icon: photo
         path: /guide/necessity/material
 
       - text: 录取通知书详情
@@ -68,7 +68,7 @@ content:
         path: league
 
       - text: 团员组织关系接转
-        icon: league
+        icon: $img/about/group.png
         path: group
 
       - text: 户口迁移

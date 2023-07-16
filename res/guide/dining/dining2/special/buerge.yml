@@ -2,7 +2,7 @@ title: 二食堂二楼不二格米粉
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2022-09-03
+time: 2023-07-16T11:41:46.755Z
 shareable: true
 content:
   - tag: title
@@ -15,9 +15,11 @@ content:
 
   - tag: img
     src: $img/dining/dining2/buerge-location.jpg
+    watermark: true
 
   - tag: title
     text: 相关菜品与价格
 
   - tag: img
     src: $img/dining/dining2/buerge.jpg
+    watermark: true

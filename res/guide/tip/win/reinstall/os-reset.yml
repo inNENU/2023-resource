@@ -1,6 +1,6 @@
 title: 重置系统
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-07-16T11:41:47.721Z
 shareable: true
 content:
   - tag: text
@@ -18,10 +18,12 @@ content:
   - tag: img
     src: $img/tip/win11-reset-1.png
     desc: 点击“系统” - “恢复”
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-reset-2.png
     desc: 选择初始化此电脑
+    watermark: true
 
   - tag: text
     heading: Windows 10
@@ -31,10 +33,12 @@ content:
   - tag: img
     src: $img/tip/win10-reset-1.png
     desc: 点击“更新与安全”
+    watermark: true
 
   - tag: img
     src: $img/tip/win10-reset-2.png
     desc: 点击“恢复”并开始重置此电脑
+    watermark: true
 
   - tag: title
     text: 重置流程指引
@@ -42,10 +46,12 @@ content:
   - tag: img
     src: $img/tip/windows-reset-1.png
     desc: 根据提示选择对应的选项并确认
+    watermark: true
 
   - tag: img
     src: $img/tip/windows-reset-2.png
     desc: 根据提示选择对应的选项并确认
+    watermark: true
 
   - tag: text
     type: warning
@@ -62,10 +68,12 @@ content:
   - tag: img
     src: $img/tip/windows-reset-3.png
     desc: 再次确认您的选择
+    watermark: true
 
   - tag: img
     src: $img/tip/windows-reset-4.png
     desc: 开始重置
+    watermark: true
 
   - tag: p
     text:
@@ -77,6 +85,3 @@ content:
     items:
       - text: Windows 11 用户向导
         path: ../win11/setup
-
-      - text: Windows 10 用户向导
-        path: ../win10/setup

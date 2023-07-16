@@ -1,6 +1,6 @@
 title: 校园卡企业号充值
 author: Mr.Hope
-time: 2023-06-21T10:21:01.569Z
+time: 2023-07-16T11:41:46.516Z
 shareable: true
 content:
   - tag: text
@@ -22,6 +22,7 @@ content:
 
   - tag: img
     src: $img/card/wechat-card-charge.jpg
+    watermark: true
 
   - tag: text
     text: 点击屏幕下方的“校园卡”自定义菜单
@@ -29,6 +30,7 @@ content:
   - tag: img
     src: $img/card/wechat-card.jpg
     desc: 在弹出的页面选择“校园卡充值”
+    watermark: true
 
   - tag: text
     text: 直接输入充值金额，点击微信支付并点击支付按钮即可

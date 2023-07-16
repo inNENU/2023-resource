@@ -1,6 +1,6 @@
 title: 南苑基本餐
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-16T11:41:46.775Z
 shareable: true
 content:
   - tag: title
@@ -20,21 +20,28 @@ content:
 
   - tag: img
     src: $img/dining/nanyuan/basic1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/nanyuan/basic2.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/nanyuan/basic3.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/nanyuan/basic4.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/nanyuan/basic5.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/nanyuan/basic6.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/nanyuan/basic7.jpg
+    watermark: true

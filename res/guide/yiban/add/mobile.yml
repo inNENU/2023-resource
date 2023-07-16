@@ -1,6 +1,6 @@
 title: 客户端新生课程添加
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.891Z
 shareable: true
 content:
   - tag: text
@@ -8,18 +8,21 @@ content:
 
   - tag: img
     src: $img/yiban/mobile-add1.png
+    watermark: true
 
   - tag: text
     text: 之后点击右下角『课群』 ↓
 
   - tag: img
     src: $img/yiban/mobile-add2.png
+    watermark: true
 
   - tag: text
     text: 点击下方的『添加课程』 ↓
 
   - tag: img
     src: $img/yiban/mobile-add4.jpg
+    watermark: true
 
   - tag: text
     text: 输入『V5LUHDRN』 ↓
@@ -29,9 +32,11 @@ content:
 
   - tag: img
     src: $img/yiban/mobile-add3.png
+    watermark: true
 
   - tag: text
     text: 选择自己的学院并加入 ↓
 
   - tag: img
     src: $img/yiban/mobile-add6.jpg
+    watermark: true

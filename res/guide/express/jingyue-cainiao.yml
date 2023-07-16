@@ -2,7 +2,7 @@ title: 净月菜鸟驿站
 desc: 照片来自王慕梓
 author:
   - Mr.Hope
-time: 2022-09-04
+time: 2023-07-16T11:41:46.961Z
 shareable: true
 content:
   - tag: title
@@ -42,22 +42,28 @@ content:
   - tag: img
     src: $img/express/jingyue-cainiao.jpg
     desc: 正门
+    watermark: true
 
   - tag: img
     src: $img/express/jingyue-cainiao1.jpg
+    watermark: true
 
   - tag: img
     src: $img/express/jingyue-cainiao2.jpg
+    watermark: true
 
   - tag: img
     src: $img/express/jingyue-cainiao3.jpg
     desc: 自助取件处
+    watermark: true
 
   - tag: img
     src: $img/express/jingyue-cainiao4.jpg
+    watermark: true
 
   - tag: img
     src: $img/express/jingyue-cainiao5.jpg
+    watermark: true
 
   - tag: title
     text: 取件方式

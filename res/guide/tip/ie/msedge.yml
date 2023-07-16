@@ -1,6 +1,6 @@
 title: 在 Windows 中使用 Edge 的兼容模式
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.637Z
 shareable: true
 content:
   - tag: text
@@ -32,6 +32,7 @@ content:
 
   - tag: img
     src: $img/tip/msedge-ie-compatable-1.jpg
+    watermark: true
 
   - tag: title
     text: 打开相应网站时切换到 IE 兼容模式
@@ -42,6 +43,7 @@ content:
 
   - tag: img
     src: $img/tip/msedge-ie-compatable-2.jpg
+    watermark: true
 
   - tag: text
     type: tip
@@ -50,3 +52,4 @@ content:
 
   - tag: img
     src: $img/tip/msedge-ie-compatable-3.jpg
+    watermark: true

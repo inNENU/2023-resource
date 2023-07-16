@@ -1,6 +1,6 @@
 title: 通过启动转换助理在 Mac 上安装 Windows
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.677Z
 shareable: true
 cite: https://support.apple.com/zh-cn/HT201468
 content:
@@ -20,26 +20,32 @@ content:
   - tag: img
     src: $img/tip/mac/bootcamp/find.jpg
     desc: 打开启动转换助理
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/bootcamp/startup.png
     desc: 点击继续
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/bootcamp/setup.png
     desc: 请注意分配合适的大小，空间分配后不允许再次调整
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/bootcamp/iso-select.png
     desc: 选择刚刚下载好的 Windows 镜像
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/bootcamp/software-download.png
     desc: 下载 Windows 支持软件，过程中请保持联网
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/bootcamp/partition.png
     desc: 磁盘分区
+    watermark: true
 
   - tag: text
     type: warning
@@ -63,13 +69,13 @@ content:
   - tag: list
     header: 相关内容
     items:
-      - text: Windows 10 安装
+      - text: Windows 11 安装
         icon: idea
-        path: ../../win/win10/install
+        path: ../../win/win11/install
 
-      - text: Windows 10 用户向导
+      - text: Windows 11 用户向导
         icon: intro
-        path: ../../win/win10/setup
+        path: ../../win/win11/setup
 
   - tag: text
     text:

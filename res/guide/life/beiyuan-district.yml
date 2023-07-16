@@ -1,7 +1,7 @@
 title: 北苑生活区介绍
 desc: 《北苑生活区》由 Mr.Hope 自行起名，仅用于in东师文中
 author: Mr.Hope
-time: 2023-06-15T16:13:06.347Z
+time: 2023-07-16T11:41:47.079Z
 shareable: true
 content:
   - tag: title
@@ -17,6 +17,7 @@ content:
 
   - tag: img
     src: $img/life/beiyuan/map.jpg
+    watermark: true
 
   - tag: title
     text: 店铺详情
@@ -24,63 +25,79 @@ content:
   - tag: img
     src: $img/life/beiyuan/sushi.jpg
     desc: 一间寿司
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/icecream.jpg
     desc: 小姑娘冰激淋
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/duck-neck.jpg
     desc: 茉莉香鸭脖王
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/duck-neck-price.jpg
     desc: 茉莉香鸭脖王价目表
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/fruit.jpg
     desc: 葱蜂鲜果
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/haircut.jpg
     desc: 理发店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/print.jpg
     desc: 复印店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/wash.jpg
     desc: 洗衣店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/telecom.jpg
     desc: 电信营业厅
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/print2.jpg
     desc: 复印店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/grocery.jpg
     desc: 杂货店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/glass.jpg
     desc: 眼镜店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/manicure.jpg
     desc: 美甲店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/flower.jpg
     desc: 花店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/bake.jpg
     desc: 蛋糕店
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/beiyuan-tea.jpg
     desc: 北苑的茶
+    watermark: true

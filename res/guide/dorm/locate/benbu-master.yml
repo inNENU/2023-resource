@@ -1,7 +1,7 @@
 title: 本部研究生寝室安排
 desc: 部分照片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.841Z
 shareable: true
 content:
   - tag: title
@@ -60,22 +60,27 @@ content:
   - tag: img
     src: $img/dorm/dorm2.jpg
     desc: 学生二舍
+    watermark: true
 
   - tag: img
     src: $img/dorm/dorm5.jpg
     desc: 学生五舍
+    watermark: true
 
   - tag: img
     src: $img/dorm/dorm7.jpg
     desc: 学生七舍
+    watermark: true
 
   - tag: img
     src: $img/dorm/dorm8.jpg
     desc: 学生八舍
+    watermark: true
 
   - tag: img
     src: $img/dorm/dorm9.jpg
     desc: 学生九舍
+    watermark: true
 
   - tag: text
     type: tip

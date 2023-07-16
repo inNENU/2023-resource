@@ -1,6 +1,6 @@
 title: 易班客户端注册流程
 author: Mr.Hope
-time: 2023-06-21T10:21:03.114Z
+time: 2023-07-16T11:41:47.917Z
 shareable: true
 content:
   - tag: title
@@ -16,6 +16,7 @@ content:
 
   - tag: img
     src: $img/yiban/mobile-register1.png
+    watermark: true
 
   - tag: ul
     text:
@@ -23,6 +24,7 @@ content:
 
   - tag: img
     src: $img/yiban/mobile-register2.jpg
+    watermark: true
 
   - tag: ul
     text:
@@ -30,12 +32,14 @@ content:
 
   - tag: img
     src: $img/yiban/mobile-register3.jpg
+    watermark: true
 
   - tag: ul
     text: 直接点击『马上去校方认证』
 
   - tag: img
     src: $img/yiban/mobile-register4.png
+    watermark: true
 
   - tag: ul
     text:
@@ -49,6 +53,7 @@ content:
 
   - tag: img
     src: $img/yiban/mobile-register5.jpg
+    watermark: true
 
   - tag: text
     type: warning

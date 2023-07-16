@@ -1,6 +1,6 @@
 title: 使用 IE 内核浏览网页
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-07-16T11:41:47.635Z
 shareable: true
 content:
   - tag: title
@@ -26,6 +26,7 @@ content:
 
   - tag: img
     src: $img/select/ie.jpg
+    watermark: true
 
   - tag: title
     text: 直接使用 IE 浏览器

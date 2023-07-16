@@ -3,13 +3,9 @@ desc: |-
   信息来源: 学生处官网
 cite:
   - https://xsc.nenu.edu.cn/dwjs/jcdw/fsj.htm
-time: 2022-08-21
+time: 2023-07-16T11:41:45.419Z
 shareable: true
 content:
-  - tag: img
-    src: $img/apartment/shuji-contact.png
-    desc: 汇总表格
-
   - tag: title
     text: 教育学部
 
@@ -227,7 +223,7 @@ content:
     num: 0431-89165618
     title: 党委副书记兼副院长
     org: 东北师范大学
-    street: 吉林省长春市人民大街 5268 号
+    street: 吉林省长春市净月大街 2555 号
     postCode: 130024
     mail: changy123@nenu.edu.cn
 
@@ -253,9 +249,22 @@ content:
     num: 0431-84536478
     title: 党委副书记兼副院长
     org: 东北师范大学
-    street: 吉林省长春市人民大街 5268 号
+    street: 吉林省长春市净月大街 2555 号
     postCode: 130024
     mail: zhangd@nenu.edu.cn
+
+  - tag: title
+    text: 国际汉学院
+
+  - tag: phone
+    lName: 刘
+    fName: 国军
+    num: 0431-85099525
+    title: 党委副书记兼副院长
+    org: 东北师范大学
+    street: 吉林省长春市净月大街 2555 号
+    postCode: 130024
+    mail: liugj764@nenu.edu.cn
 
   - tag: title
     text: 罗格斯大学纽瓦克学院

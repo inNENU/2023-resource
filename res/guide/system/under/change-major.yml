@@ -1,6 +1,6 @@
 title: 转专业申请
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.574Z
 shareable: true
 content:
   - tag: title
@@ -22,6 +22,7 @@ content:
 
   - tag: img
     src: $img/system/school-roll1.png
+    watermark: true
 
   - tag: ul
     heading: 查看转专业计划
@@ -32,6 +33,7 @@ content:
 
   - tag: img
     src: $img/system/school-roll2.png
+    watermark: true
 
   - tag: ul
     heading: 进行转专业申请
@@ -43,6 +45,7 @@ content:
 
   - tag: img
     src: $img/system/school-roll3.png
+    watermark: true
 
   - tag: ul
     text:
@@ -50,6 +53,7 @@ content:
 
   - tag: img
     src: $img/system/school-roll4.jpg
+    watermark: true
 
   - tag: title
     text: 撤销申请

@@ -1,6 +1,6 @@
 title: 常见故障及解决办法
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.494Z
 shareable: true
 content:
   - tag: title
@@ -22,6 +22,7 @@ content:
   - tag: img
     src: $img/card/water-terminal.jpg
     desc: 生活用水补助机
+    watermark: true
 
   - tag: text
     heading: 其他情况

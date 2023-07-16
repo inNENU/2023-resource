@@ -1,6 +1,6 @@
 title: 本部报到流程
 author: Mr.Hope
-time: 2023-06-21T10:21:01.595Z
+time: 2023-07-16T11:41:46.546Z
 shareable: true
 content:
   - tag: text
@@ -25,6 +25,7 @@ content:
 
   - tag: img
     src: $img/scenery/benbu/gate/north.jpg
+    watermark: true
 
   - tag: ol
     heading: Mr.Hope の 友情提示
@@ -73,10 +74,12 @@ content:
   - tag: img
     src: $img/check/benbu-check1.jpg
     desc: 报到处
+    watermark: true
 
   - tag: img
     src: $img/check/benbu-check2.jpg
     desc: 报到处
+    watermark: true
 
   - tag: text
     text: 👇

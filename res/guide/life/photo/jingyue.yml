@@ -1,6 +1,6 @@
 title: 净月照相
 author: Mr.Hope
-time: 2022-09-02
+time: 2023-07-16T11:41:47.213Z
 shareable: true
 content:
   - tag: title
@@ -22,6 +22,7 @@ content:
   - tag: img
     src: $img/life/dining2/jingyue-copy.jpg
     desc: 师大图文复印店
+    watermark: true
 
   - tag: title
     text: 校外店铺

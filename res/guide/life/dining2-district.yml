@@ -1,7 +1,7 @@
 title: 二食堂生活区介绍
 desc: 《二食堂生活区》由 Mr.Hope 自行起名，仅用于in东师文中
 author: Mr.Hope
-time: 2023-06-15T16:13:06.370Z
+time: 2023-07-16T11:41:47.094Z
 shareable: true
 content:
   - tag: title
@@ -17,6 +17,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/map.jpg
+    watermark: true
 
   - tag: title
     text: 店铺详情
@@ -33,9 +34,11 @@ content:
 
   - tag: img
     src: $img/life/dining2/new-start1.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/new-start2.jpg
+    watermark: true
 
   - tag: text
     heading: M & G 晨光文具
@@ -43,6 +46,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/mg.jpg
+    watermark: true
 
   - tag: text
     heading: 樂讀書莊
@@ -52,10 +56,12 @@ content:
   - tag: img
     src: $img/life/dining2/book-store1.jpg
     desc: 外部入口
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/book-store2.jpg
     desc: 内部入口
+    watermark: true
 
   - tag: carousel
     images:
@@ -85,6 +91,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/binguowu1.jpg
+    watermark: true
 
   - tag: carousel
     images:
@@ -96,6 +103,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/show-hair.jpg
+    watermark: true
 
   - tag: text
     heading: 瑞幸咖啡
@@ -115,12 +123,15 @@ content:
 
   - tag: img
     src: $img/life/dining2/hongcheng1.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/hongcheng2.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/hongcheng3.jpg
+    watermark: true
 
   - tag: text
     heading: 甜啦啦
@@ -129,13 +140,16 @@ content:
 
   - tag: img
     src: $img/life/dining2/tianlala1.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/tianlala2.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/tianlala-price.jpg
     desc: 价目表
+    watermark: true
 
   - tag: text
     heading: 酷乐冰城
@@ -144,10 +158,12 @@ content:
 
   - tag: img
     src: $img/life/dining2/cooler-city.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/cooler-city-price.jpg
     desc: 价目表
+    watermark: true
 
   - tag: text
     heading: 平价水果超市
@@ -156,6 +172,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/jingyue-fruit-2.jpg
+    watermark: true
 
   - tag: text
     heading: 品胜手机电脑
@@ -164,9 +181,11 @@ content:
 
   - tag: img
     src: $img/life/dining2/digital1.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/digital1-1.jpg
+    watermark: true
 
   - tag: text
     heading: 中国移动+数码产品维修
@@ -175,6 +194,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/digital2.jpg
+    watermark: true
 
   - tag: text
     heading: 米多の店
@@ -183,6 +203,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/miduo.jpg
+    watermark: true
 
   - tag: text
     heading: 运福铺子
@@ -191,6 +212,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/yunfu.jpg
+    watermark: true
 
   - tag: text
     heading: 亿亩良田
@@ -199,6 +221,7 @@ content:
 
   - tag: img
     src: $img/life/dining2/yimuliangtian.jpg
+    watermark: true
 
   - tag: text
     heading: 正大茄子饭
@@ -208,3 +231,4 @@ content:
 
   - tag: img
     src: $img/life/dining2/zhengdaqiezifan.jpg
+    watermark: true

@@ -1,6 +1,6 @@
 title: 智慧团建小程序操作流程
 author: Mr.Hope
-time: 2023-06-21T10:21:02.604Z
+time: 2023-07-16T11:41:47.432Z
 shareable: true
 content:
   - tag: title
@@ -40,9 +40,11 @@ content:
 
   - tag: img
     src: $img/prepare/youth-miniapp-login2.jpg
+    watermark: true
 
   - tag: img
     src: $img/prepare/youth-miniapp-login3.jpg
+    watermark: true
 
   - tag: title
     text: 转接流程
@@ -52,6 +54,7 @@ content:
 
   - tag: img
     src: $img/prepare/youth-miniapp-main.jpg
+    watermark: true
 
   - tag: ol
     heading: 按照下列要求填写转接申请
@@ -77,6 +80,7 @@ content:
 
   - tag: img
     src: $img/prepare/youth-miniapp-select.png
+    watermark: true
 
   - tag: text
     type: danger
@@ -88,3 +92,4 @@ content:
 
   - tag: img
     src: $img/prepare/youth-miniapp-apply.png
+    watermark: true

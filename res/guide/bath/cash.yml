@@ -1,6 +1,6 @@
 title: 钱包金额查看
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.464Z
 shareable: true
 content:
   - tag: title
@@ -12,6 +12,7 @@ content:
   - tag: img
     src: $img/bath/charge-pay.jpg
     desc: 充值页面
+    watermark: true
 
   - tag: text
     text: 点击提现即可对钱包金额进行提现，显示提现成功字样后请等待提现申请通过系统审批。
@@ -19,14 +20,17 @@ content:
   - tag: img
     src: $img/bath/return.jpg
     desc: 提现页面
+    watermark: true
 
   - tag: img
     src: $img/bath/return-success.jpg
     desc: 发起提现成功提示
+    watermark: true
 
   - tag: img
     src: $img/bath/return-wait.jpg
     desc: 此时只是发起提现申请，提现未成功需要等候通知
+    watermark: true
 
   - tag: text
     type: tip

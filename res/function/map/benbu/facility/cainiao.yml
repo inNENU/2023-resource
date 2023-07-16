@@ -34,6 +34,7 @@ content:
   - tag: img
     src: $img/express/cainiao-contact.jpg
     desc: 菜鸟驿站联系方式
+    watermark: true
 
   - tag: title
     text: 取件方式
@@ -78,15 +79,19 @@ content:
   - tag: img
     src: $img/express/cainiao1.jpg
     desc: 菜鸟驿站柜台
+    watermark: true
 
   - tag: img
     src: $img/express/cainiao2.jpg
     desc: 菜鸟驿站货架
+    watermark: true
 
   - tag: img
     src: $img/express/cainiao-scan.jpg
     desc: 菜鸟驿站扫描处
+    watermark: true
 
   - tag: img
     src: $img/express/cainiao-temp.jpg
     desc: 菜鸟驿站临时取件点
+    watermark: true

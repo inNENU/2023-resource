@@ -1,6 +1,6 @@
 title: Windows 小贴士
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-07-16T11:41:47.710Z
 shareable: true
 content:
   - tag: title
@@ -16,17 +16,6 @@ content:
       - text: 更多 Windows 11 介绍
         icon: more
         path: win11/
-
-  - tag: list
-    header: Windows 10
-    items:
-      - text: Windows 10 用户向导指引
-        icon: intro
-        path: win10/setup
-
-      - text: 更多 Windows 10 介绍
-        icon: more
-        path: win10/
 
   - tag: title
     text: 常见故障修复

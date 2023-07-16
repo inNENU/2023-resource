@@ -1,6 +1,6 @@
 title: 长春站-到净月-4转3
 author: Mr.Hope
-time: 2023-07-07T17:36:28.911Z
+time: 2023-07-16T11:41:46.281Z
 shareable: true
 content:
   - tag: text
@@ -112,6 +112,7 @@ content:
   - tag: img
     src: $img/arrival/subway-ticket.jpg
     desc: 轨道交通票
+    watermark: true
 
   - tag: title
     text: 进出站验票

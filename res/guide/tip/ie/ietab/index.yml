@@ -1,6 +1,6 @@
 title: IETab
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-07-16T11:41:47.657Z
 shareable: true
 content:
   - tag: title
@@ -34,10 +34,12 @@ content:
   - tag: img
     src: $img/tip/ietab-pin.jpg
     desc: 固定 IE Tab 到地址栏
+    watermark: true
 
   - tag: img
     src: $img/tip/ietab-usage.jpg
     desc: 使用 IE Tab
+    watermark: true
 
   - tag: title
     text: 功能描述

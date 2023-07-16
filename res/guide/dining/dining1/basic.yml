@@ -2,7 +2,7 @@ title: 一食堂基本餐
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-16T11:41:46.713Z
 shareable: true
 content:
   - tag: title
@@ -23,6 +23,8 @@ content:
 
   - tag: img
     src: $img/dining/dining1/basic1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/basic2.jpg
+    watermark: true

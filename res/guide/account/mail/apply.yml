@@ -1,6 +1,6 @@
 title: 校园邮箱申请
 author: Mr.Hope
-time: 2023-06-21T10:21:01.076Z
+time: 2023-07-16T11:41:46.076Z
 shareable: true
 content:
   - tag: text
@@ -35,6 +35,7 @@ content:
 
   - tag: img
     src: $img/account/mail-apply1.jpg
+    watermark: true
 
   - tag: text
     text:
@@ -42,6 +43,7 @@ content:
 
   - tag: img
     src: $img/account/mail-apply2.jpg
+    watermark: true
 
   - tag: text
     text:
@@ -49,6 +51,7 @@ content:
 
   - tag: img
     src: $img/account/mail-apply3.jpg
+    watermark: true
 
   - tag: text
     text:
@@ -61,6 +64,7 @@ content:
 
   - tag: img
     src: $img/account/mail-apply-select.jpg
+    watermark: true
 
   - tag: text
     text:
@@ -68,6 +72,7 @@ content:
 
   - tag: img
     src: $img/account/mail-apply-success.jpg
+    watermark: true
 
   - tag: text
     text:
@@ -75,6 +80,7 @@ content:
 
   - tag: img
     src: $img/account/mail-apply-result.jpg
+    watermark: true
 
   - tag: list
     header: false
@@ -89,3 +95,4 @@ content:
 
   - tag: img
     src: $img/account/mail-apply-password.jpg
+    watermark: true

@@ -1,6 +1,6 @@
 title: 无线上网(Wifi)
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.265Z
 shareable: true
 content:
   - tag: title
@@ -8,6 +8,7 @@ content:
 
   - tag: img
     src: $img/network/wifi.jpg
+    watermark: true
 
   - tag: ol
     text:

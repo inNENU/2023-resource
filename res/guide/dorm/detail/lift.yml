@@ -1,6 +1,6 @@
 title: 电梯
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.817Z
 shareable: true
 content:
   - tag: title
@@ -16,6 +16,7 @@ content:
   - tag: img
     src: $img/dorm/lift.jpg
     desc: 三舍电梯
+    watermark: true
 
   - tag: p
     type: tip

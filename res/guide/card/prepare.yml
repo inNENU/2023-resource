@@ -1,6 +1,6 @@
 title: 新卡使用前准备
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.499Z
 shareable: true
 content:
   - tag: text
@@ -25,6 +25,7 @@ content:
   - tag: img
     src: $img/card/water-terminal.jpg
     desc: 生活用水补助机
+    watermark: true
 
   - tag: p
     heading: 激活方式
@@ -44,6 +45,7 @@ content:
   - tag: img
     src: $img/card/shell-main.png
     desc: 自助终端机界面
+    watermark: true
 
   - tag: text
     type: info
@@ -60,10 +62,12 @@ content:
   - tag: img
     src: $img/card/shell-service.jpg
     desc: 自助服务界面
+    watermark: true
 
   - tag: img
     src: $img/card/change-password.png
     desc: 修改密码界面
+    watermark: true
 
   - tag: p
     text: 在默认设置下，校园卡每次单次消费最多为 20 元。超过 20 元，需要分多次刷卡或者输入密码。如果您时长单次消费消费超过 20 元觉得很不方便的话，可以修改消费限额。
@@ -75,3 +79,4 @@ content:
   - tag: img
     src: $img/card/change-limit.png
     desc: 修改限额界面
+    watermark: true

@@ -1,6 +1,6 @@
 title: 净月校区校门
 author: Mr.Hope
-time: 2023-07-07T17:36:29.414Z
+time: 2023-07-16T11:41:46.567Z
 shareable: true
 content:
   - tag: title
@@ -24,6 +24,7 @@ content:
 
   - tag: img
     src: $img/scenery/jingyue/gate/east.jpg
+    watermark: true
 
   - tag: title
     text: 净月北门(雕塑门、2 号门)
@@ -41,6 +42,7 @@ content:
 
   - tag: img
     src: $img/scenery/jingyue/gate/north.jpg
+    watermark: true
 
   - tag: p
     text:

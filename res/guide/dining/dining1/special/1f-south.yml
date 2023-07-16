@@ -2,7 +2,7 @@ title: 一食堂一楼南侧档口
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-16T11:41:46.723Z
 shareable: true
 content:
   - tag: title
@@ -27,24 +27,32 @@ content:
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail2.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail3.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail4.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail5.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail6.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail7.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail8.jpg
+    watermark: true

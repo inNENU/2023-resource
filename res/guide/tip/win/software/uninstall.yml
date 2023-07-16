@@ -1,6 +1,6 @@
 title: 卸载软件
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-07-16T11:41:47.774Z
 shareable: true
 content:
   - tag: text
@@ -25,12 +25,14 @@ content:
 
   - tag: img
     src: $img/tip/software/uwp-uninstall1.jpg
+    watermark: true
 
   - tag: text
     text: 也可以点击开始菜单中的搜索按钮，输入软件名称并右键选择卸载
 
   - tag: img
     src: $img/tip/software/uwp-uninstall2.jpg
+    watermark: true
 
   - tag: text
     text: 当然，你也可以按照下方的流程进行卸载
@@ -43,9 +45,11 @@ content:
 
   - tag: img
     src: $img/tip/software/uninstall1.jpg
+    watermark: true
 
   - tag: text
     text: 在弹出的设置窗口中，找到需要卸载的应用，点击右侧的详情按钮选择卸载。
 
   - tag: img
     src: $img/tip/software/uninstall2.jpg
+    watermark: true

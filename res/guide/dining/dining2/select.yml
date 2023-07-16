@@ -2,7 +2,7 @@ title: 二食堂称重自选餐
 desc: |-
   特别鸣谢浅浅笙歌、南玖提供相关照片
 author: Mr.Hope
-time: 2022-09-01
+time: 2023-07-16T11:41:46.740Z
 shareable: true
 content:
   - tag: title
@@ -16,40 +16,52 @@ content:
   - tag: img
     src: $img/dining/dining2/select.jpg
     desc: 称重自选餐位置
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select-price.jpg
     desc: 称重自选餐价格
+    watermark: true
 
   - tag: title
     text: 菜品情况
 
   - tag: img
     src: $img/dining/dining2/select1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select2.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select3.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select4.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select5.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select6.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select7.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select8.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select9.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/select10.jpg
+    watermark: true

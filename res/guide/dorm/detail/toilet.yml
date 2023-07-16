@@ -1,6 +1,6 @@
 title: 卫生间
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.825Z
 shareable: true
 content:
   - tag: ul
@@ -10,9 +10,11 @@ content:
 
   - tag: img
     src: $img/dorm/toilet.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/toilet2.jpg
+    watermark: true
 
   - tag: title
     text: Mr.Hope の 吐槽

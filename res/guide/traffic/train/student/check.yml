@@ -1,6 +1,6 @@
 title: 火车学生票核验
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.871Z
 shareable: true
 cite:
   - https://mp.weixin.qq.com/s/K-iGgaNPjQ6cg-BM3Y-PIw
@@ -27,22 +27,27 @@ content:
   - tag: img
     src: $img/traffic/train/student-check-1.jpg
     desc: 点击“优惠资质绑定”
+    watermark: true
 
   - tag: img
     src: $img/traffic/train/student-check-2.jpg
     desc: 选择“学生购优惠票资质绑定”
+    watermark: true
 
   - tag: img
     src: $img/traffic/train/student-check-3.jpg
     desc: 确认绑定须知
+    watermark: true
 
   - tag: img
     src: $img/traffic/train/student-check-4.jpg
     desc: 刷“学生购票优惠卡”
+    watermark: true
 
   - tag: img
     src: $img/traffic/train/student-check-5.jpg
     desc: 刷“身份证”
+    watermark: true
 
   - tag: title
     text: 进站注意事项

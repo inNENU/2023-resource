@@ -1,6 +1,6 @@
 title: 洗浴方式
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.480Z
 shareable: true
 content:
   - tag: title
@@ -20,6 +20,7 @@ content:
   - tag: img
     src: $img/bath/password-menu.jpg
     desc: 密码账户菜单
+    watermark: true
 
   - tag: text
     text: 之后设置自己的 4 位密码 (按照要求不可连号或者重复)
@@ -27,6 +28,7 @@ content:
   - tag: img
     src: $img/bath/password-set.jpg
     desc: 设置密码
+    watermark: true
 
   - tag: text
     type: danger
@@ -45,6 +47,7 @@ content:
   - tag: img
     src: $img/bath/shell.jpg
     desc: 终端
+    watermark: true
 
   - tag: text
     type: info

@@ -1,6 +1,6 @@
 title: 南苑餐厅三楼
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-16T11:41:46.772Z
 shareable: true
 content:
   - tag: title
@@ -24,6 +24,8 @@ content:
 
   - tag: img
     src: $img/dining/dining26.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining27.jpg
+    watermark: true

@@ -2,7 +2,7 @@ title: 一食堂二楼特色档口
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2022-09-09
+time: 2023-07-16T11:41:46.727Z
 shareable: true
 content:
   - tag: title
@@ -39,36 +39,48 @@ content:
 
   - tag: img
     src: $img/dining/dining1/2f-detail1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail2.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail3.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail4.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail5.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail6.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail7.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail7-1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail8.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail9.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail9-1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining1/2f-detail10.jpg
+    watermark: true

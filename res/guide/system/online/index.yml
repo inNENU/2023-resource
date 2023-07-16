@@ -1,6 +1,6 @@
 title: 线上课程信息中心
 author: Mr.Hope
-time: 2023-06-21T10:21:02.739Z
+time: 2023-07-16T11:41:47.563Z
 shareable: true
 content:
   - tag: title
@@ -19,6 +19,7 @@ content:
 
   - tag: img
     src: $img/system/online/1.png
+    watermark: true
 
   - tag: text
     text:
@@ -26,6 +27,7 @@ content:
 
   - tag: img
     src: $img/system/online/2.png
+    watermark: true
 
   - tag: text
     type: tip

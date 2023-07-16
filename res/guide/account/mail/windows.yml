@@ -1,6 +1,6 @@
 title: Windows 邮件客户端设置
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.096Z
 shareable: true
 content:
   - tag: text
@@ -13,19 +13,24 @@ content:
 
   - tag: img
     src: $img/account/mail/windows-1.jpg
+    watermark: true
 
   - tag: img
     src: $img/account/mail/windows-2.jpg
+    watermark: true
 
   - tag: img
     src: $img/account/mail/windows-3.png
+    watermark: true
 
   - tag: img
     src: $img/account/mail/windows-4.png
     desc: 输入账号和密码
+    watermark: true
 
   - tag: img
     src: $img/account/mail/windows-5.png
+    watermark: true
 
   - tag: text
     type: info
@@ -34,10 +39,13 @@ content:
   - tag: img
     src: $img/account/mail/windows-6.png
     desc: 右键邮箱，选择账户设置，并点击红框
+    watermark: true
 
   - tag: img
     src: $img/account/mail/windows-7.png
+    watermark: true
 
   - tag: img
     src: $img/account/mail/windows-8.png
     desc: 修改红框内容
+    watermark: true

@@ -244,7 +244,7 @@ content:
       - text: 校团委
         color: purple
         name: League
-        icon: league
+        icon: $img/about/group.png
         path: apt/youth-league/
 
       - text: 学生心理健康教育中心

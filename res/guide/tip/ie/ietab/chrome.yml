@@ -1,6 +1,6 @@
 title: Chrome 安装 IETab
 author: Mr.Hope
-time: 2023-06-26T10:31:31.781Z
+time: 2023-07-16T11:41:47.654Z
 shareable: true
 content:
   # TODO: Add Chrome Intro Page
@@ -28,12 +28,15 @@ content:
 
   - tag: img
     src: $img/tip/chrome-extension.jpg
+    watermark: true
 
   - tag: text
     text: 之后请将扩展程序拖入，并允许安装。
 
   - tag: img
     src: $img/tip/chrome-extension-install.jpg
+    watermark: true
 
   - tag: img
     src: $img/tip/ietab-chrome-install.jpg
+    watermark: true

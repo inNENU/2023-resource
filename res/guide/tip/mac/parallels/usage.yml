@@ -1,6 +1,6 @@
 title: 使用 Parallels
 author: Mr.Hope
-time: 2023-06-21T10:21:02.851Z
+time: 2023-07-16T11:41:47.692Z
 shareable: true
 content:
   - tag: text
@@ -16,6 +16,7 @@ content:
   - tag: img
     src: $img/tip/mac/parallels/register.png
     desc: 注册页面
+    watermark: true
 
   - tag: text
     type: info

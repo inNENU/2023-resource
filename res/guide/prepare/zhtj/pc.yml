@@ -1,6 +1,6 @@
 title: 智慧团建 PC 端操作流程
 author: Mr.Hope
-time: 2023-06-21T10:21:02.607Z
+time: 2023-07-16T11:41:47.435Z
 shareable: true
 content:
   - tag: title
@@ -14,6 +14,7 @@ content:
 
   - tag: img
     src: $img/prepare/youth-login.png
+    watermark: true
 
   - tag: text
     text: 输入登录自己身份证号与密码，登录智慧团建系统。
@@ -31,6 +32,7 @@ content:
 
   - tag: img
     src: $img/prepare/youth-UI.png
+    watermark: true
 
   - tag: ol
     heading: 按照下列要求填写转接申请
@@ -56,6 +58,7 @@ content:
 
   - tag: img
     src: $img/prepare/youth-select.png
+    watermark: true
 
   - tag: text
     type: danger
@@ -67,3 +70,4 @@ content:
 
   - tag: img
     src: $img/prepare/youth-apply.png
+    watermark: true

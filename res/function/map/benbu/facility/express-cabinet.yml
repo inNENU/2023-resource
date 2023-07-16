@@ -18,6 +18,7 @@ content:
   - tag: img
     src: $img/express/benbu-cabinet.jpg
     desc: 快递柜
+    watermark: true
 
   - tag: title
     text: 取件方式
@@ -30,6 +31,7 @@ content:
   - tag: img
     src: $img/express/benbu-cabinet-fetch.jpg
     desc: 取件方式
+    watermark: true
 
   - tag: title
     text: 常见问题

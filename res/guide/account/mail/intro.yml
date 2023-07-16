@@ -1,6 +1,6 @@
 title: 校园邮箱
 author: Mr.Hope
-time: 2023-06-21T10:21:01.090Z
+time: 2023-07-16T11:41:46.088Z
 shareable: true
 content:
   - tag: title
@@ -61,7 +61,9 @@ content:
   - tag: img
     src: $img/account/email-login.jpg
     desc: 邮箱登录页面
+    watermark: true
 
   - tag: img
     src: $img/account/email.jpg
     desc: 网页版邮箱页面
+    watermark: true

@@ -1,6 +1,6 @@
 title: 本部本科寝室安排
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.844Z
 shareable: true
 content:
   - tag: text
@@ -53,6 +53,7 @@ content:
   - tag: img
     src: $img/dorm/dorm3B.jpg
     desc: 三舍 B 座
+    watermark: true
 
   - tag: title
     text: 三舍 C 座

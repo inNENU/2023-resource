@@ -1,6 +1,6 @@
 title: 北苑清真餐厅
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.689Z
 shareable: true
 content:
   - tag: title
@@ -11,9 +11,11 @@ content:
 
   - tag: img
     src: $img/dining/dining14.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining15.jpg
+    watermark: true
 
   - tag: text
     heading: 清真套餐

@@ -1,7 +1,7 @@
 title: 英语免修评定
 desc: 部分截图素材来自阮怀正
 author: Mr.Hope
-time: 2022-08-30
+time: 2023-07-16T11:41:47.596Z
 shareable: true
 content:
   - tag: title
@@ -28,15 +28,20 @@ content:
 
   - tag: img
     src: $img/system/test-manage.jpg
+    watermark: true
 
   - tag: img
     src: $img/system/english-exemption1.jpg
+    watermark: true
 
   - tag: img
     src: $img/system/english-exemption2.jpg
+    watermark: true
 
   - tag: img
     src: $img/system/english-exemption3.jpg
+    watermark: true
 
   - tag: img
     src: $img/system/english-exemption4.jpg
+    watermark: true

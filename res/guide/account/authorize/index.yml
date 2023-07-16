@@ -1,6 +1,6 @@
 title: 统一身份认证
 author: Mr.Hope
-time: 2023-06-21T10:21:01.069Z
+time: 2023-07-16T11:41:46.071Z
 shareable: true
 content:
   - tag: text
@@ -40,6 +40,7 @@ content:
 
   - tag: img
     src: $img/account/authserver.jpg
+    watermark: true
 
   - tag: title
     text: 密保绑定
@@ -62,6 +63,7 @@ content:
 
   - tag: img
     src: $img/account/reset-password.jpg
+    watermark: true
 
   # - tag: text
   #   type: warning

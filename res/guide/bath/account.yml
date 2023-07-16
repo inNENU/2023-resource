@@ -1,6 +1,6 @@
 title: 浴池账户
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.457Z
 shareable: true
 content:
   - tag: title
@@ -22,6 +22,7 @@ content:
   - tag: img
     src: $img/bath/account.jpg
     desc: 公众号
+    watermark: true
 
   - tag: phone
     fName: 浴池反馈电话

@@ -1,6 +1,6 @@
 title: 本部打印复印
 author: Mr.Hope
-time: 2022-09-02
+time: 2023-07-16T11:41:47.216Z
 shareable: true
 content:
   - tag: title
@@ -55,14 +55,17 @@ content:
   - tag: img
     src: $img/bath/benbu-right.jpg
     desc: 浴池好又快图文店
+    watermark: true
 
   - tag: img
     src: $img/life/benbu/bath-copy.jpg
     desc: 好又快图文店内照片
+    watermark: true
 
   - tag: img
     src: $img/life/benbu/bath-price.jpg
     desc: 价格表
+    watermark: true
 
   - tag: text
     heading: 北苑复印店
@@ -72,10 +75,12 @@ content:
   - tag: img
     src: $img/life/beiyuan/print.jpg
     desc: 北苑复印店 1
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/print2.jpg
     desc: 北苑复印店 2
+    watermark: true
 
   - tag: text
     heading: 南苑复印店
@@ -84,6 +89,7 @@ content:
   - tag: img
     src: $img/life/benbu/nanyuan-copy.jpg
     desc: 南苑复印店
+    watermark: true
 
   - tag: title
     text: 校外位置

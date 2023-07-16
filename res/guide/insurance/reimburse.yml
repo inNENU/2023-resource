@@ -1,6 +1,6 @@
 title: 长春市城乡居民基本医疗保险报销
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.010Z
 shareable: true
 content:
   - tag: text
@@ -75,6 +75,7 @@ content:
 
   - tag: img
     src: $img/insurance/percent.png
+    watermark: true
 
   - tag: title
     text: 异地住院
@@ -157,9 +158,11 @@ content:
 
   - tag: img
     src: $img/insurance/base-1.jpg
+    watermark: true
 
   - tag: img
     src: $img/insurance/base-2.jpg
+    watermark: true
 
   - tag: title
     text: 补充说明

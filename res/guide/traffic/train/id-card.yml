@@ -1,6 +1,6 @@
 title: 临时身份证
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.852Z
 shareable: true
 content:
   - tag: text
@@ -17,10 +17,12 @@ content:
   - tag: img
     src: $img/traffic/train/id-card-1.jpg
     desc: 长春站自助补办机位置
+    watermark: true
 
   - tag: img
     src: $img/traffic/train/id-card-2.jpg
     desc: 自助补办机界面详情
+    watermark: true
 
   - tag: text
     type: info

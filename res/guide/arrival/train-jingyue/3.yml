@@ -1,6 +1,6 @@
 title: 长春站-到净月-3 号线
 author: Mr.Hope
-time: 2023-05-13T12:08:30.106Z
+time: 2023-07-16T11:41:46.278Z
 shareable: true
 content:
   - tag: text
@@ -87,6 +87,7 @@ content:
   - tag: img
     src: $img/arrival/subway-ticket.jpg
     desc: 轨道交通票
+    watermark: true
 
   - tag: title
     text: 进出站验票

@@ -1,6 +1,6 @@
 title: 打车提示
 author: Mr.Hope
-time: 2023-06-21T10:21:01.282Z
+time: 2023-07-16T11:41:46.242Z
 shareable: true
 content:
   - tag: title
@@ -17,6 +17,7 @@ content:
   - tag: img
     src: $img/arrival/train-north-taxi.jpg
     desc: 乘降中心指示牌
+    watermark: true
 
   - tag: title
     text: 关于目的地

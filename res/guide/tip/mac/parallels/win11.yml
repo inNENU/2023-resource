@@ -1,6 +1,6 @@
 title: 使用 Parallels 安装 Win11
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.695Z
 shareable: true
 content:
   - tag: title
@@ -13,6 +13,7 @@ content:
   - tag: img
     src: $img/tip/mac/parallels/win11-install-request.png
     desc: 安装提示
+    watermark: true
 
   - tag: text
     text:
@@ -28,25 +29,32 @@ content:
   - tag: img
     src: $img/tip/mac/parallels/win11-download.png
     desc: 下载 Windows 11
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/win11-verify.png
     desc: 下载完成后，Parallels 会自动校验镜像完整性
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/win11-install-1.png
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/win11-install-2.png
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/win11-install-3.png
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/win11-install-4.png
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/parallels/win11-install-5.png
+    watermark: true
 
   - tag: text
     text:
@@ -55,6 +63,7 @@ content:
 
   - tag: img
     src: $img/tip/mac/parallels/win11-install-finish.png
+    watermark: true
 
   - tag: text
     type: tip

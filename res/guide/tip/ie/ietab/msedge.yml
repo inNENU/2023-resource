@@ -1,6 +1,6 @@
 title: Microsoft Edge 安装 IETab
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.660Z
 shareable: true
 content:
   - tag: text
@@ -30,6 +30,8 @@ content:
 
   - tag: img
     src: $img/tip/msedge-ietab-install-1.jpg
+    watermark: true
 
   - tag: img
     src: $img/tip/msedge-ietab-install-2.jpg
+    watermark: true

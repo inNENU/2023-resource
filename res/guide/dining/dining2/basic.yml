@@ -2,7 +2,7 @@ title: 二食堂基本餐
 desc: |-
   特别鸣谢思教乐乐提供相关照片
 author: Mr.Hope
-time: 2022-09-01
+time: 2023-07-16T11:41:46.733Z
 shareable: true
 content:
   - tag: title
@@ -41,30 +41,40 @@ content:
 
   - tag: img
     src: $img/dining/dining2/basic1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic2.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic3.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic4.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic5.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic6.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic7.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic8.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic9.jpg
+    watermark: true
 
   - tag: img
     src: $img/dining/dining2/basic10.jpg
+    watermark: true

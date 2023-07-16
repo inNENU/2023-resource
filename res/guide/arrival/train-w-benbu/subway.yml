@@ -1,6 +1,6 @@
 title: 长春西站-到本部乘坐地铁
 author: Mr.Hope
-time: 2023-07-07T17:36:28.942Z
+time: 2023-07-16T11:41:46.299Z
 shareable: true
 content:
   - tag: text
@@ -47,6 +47,7 @@ content:
   - tag: img
     src: $img/arrival/train-west-exit.jpg
     desc: 长春西站出站口
+    watermark: true
 
   - tag: title
     text: 前往地铁站
@@ -58,10 +59,12 @@ content:
   - tag: img
     src: $img/arrival/train-west-subway-entrance1.jpg
     desc: 2 号线“长春西站”入口
+    watermark: true
 
   - tag: img
     src: $img/arrival/train-west-subway-entrance2.jpg
     desc: 2 号线“长春西站”站台扶梯入口
+    watermark: true
 
   - tag: text
     text:
@@ -102,10 +105,12 @@ content:
   - tag: img
     src: $img/arrival/ticket-machine.jpg
     desc: 自助售票机
+    watermark: true
 
   - tag: img
     src: $img/arrival/subway-ticket.jpg
     desc: 轨道交通票
+    watermark: true
 
   - tag: title
     text: 进出站验票
@@ -137,10 +142,12 @@ content:
   - tag: img
     src: $img/arrival/subway-env.jpg
     desc: 地铁内部环境
+    watermark: true
 
   - tag: img
     src: $img/arrival/subway-nenu.jpg
     desc: 东北师大站 C 出口
+    watermark: true
 
   - tag: title
     text: 到达校门

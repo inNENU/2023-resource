@@ -1,6 +1,6 @@
 title: 宿舍神器类
 author: Mr.Hope
-time: 2022-08-23
+time: 2023-07-16T11:41:47.234Z
 shareable: true
 content:
   - tag: title
@@ -17,6 +17,7 @@ content:
 
   - tag: img
     src: $img/necessity/dorm-tool1.jpg
+    watermark: true
 
   - tag: title
     text: 床上折叠书桌
@@ -34,6 +35,7 @@ content:
   - tag: img
     src: $img/necessity/dorm-tool2.jpg
     desc: 懒人必备，勤快人买了用处不大
+    watermark: true
 
   - tag: title
     text: 创意收纳盒
@@ -46,6 +48,7 @@ content:
   - tag: img
     src: $img/necessity/dorm-tool3.jpg
     desc: 保持桌面整洁必备，如果觉得平时自己懒得收拾也可不用购买
+    watermark: true
 
   - tag: title
     text: 衣物折叠收纳箱
@@ -58,6 +61,7 @@ content:
   - tag: img
     src: $img/necessity/dorm-tool4.jpg
     desc: 衣服多的女生考虑一下
+    watermark: true
 
   - tag: title
     text: 下挂篮 / 收纳架
@@ -70,6 +74,7 @@ content:
   - tag: img
     src: $img/necessity/dorm-tool5.jpg
     desc: 有效利用衣柜下半部分空间
+    watermark: true
 
   - tag: title
     text: 墙挂式收纳袋
@@ -82,6 +87,7 @@ content:
   - tag: img
     src: $img/necessity/dorm-tool6.jpg
     desc: 挂在衣柜侧
+    watermark: true
 
   - tag: title
     text: 暖宝宝

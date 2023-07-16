@@ -2,7 +2,7 @@ title: 菜鸟驿站身份码
 author:
   - Mr.Hope
   - 战俊华
-time: 2023-06-21T10:21:01.990Z
+time: 2023-07-16T11:41:46.955Z
 shareable: true
 content:
   - tag: title
@@ -32,3 +32,4 @@ content:
   - tag: img
     src: $img/express/taobao-code.jpg
     desc: “我的快递”位置
+    watermark: true

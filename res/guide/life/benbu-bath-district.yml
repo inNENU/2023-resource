@@ -3,7 +3,7 @@ desc: |-
   《本部浴池生活区》由 Mr.Hope 自行起名，仅用于in东师文中
   感谢晴子提供照片
 author: Mr.Hope
-time: 2023-06-15T16:13:06.354Z
+time: 2023-07-16T11:41:47.082Z
 shareable: true
 content:
   - tag: title
@@ -19,14 +19,17 @@ content:
   - tag: img
     src: $img/bath/benbu-left.jpg
     desc: 浴池左侧
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-main.jpg
     desc: 浴池正门
+    watermark: true
 
   - tag: img
     src: $img/bath/benbu-right.jpg
     desc: 浴池右侧
+    watermark: true
 
   - tag: title
     text: 包含商家

@@ -1,7 +1,7 @@
 title: 本部饮品店
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2022-09-03
+time: 2023-07-16T11:41:47.123Z
 shareable: true
 content:
   - tag: title
@@ -53,12 +53,14 @@ content:
 
   - tag: img
     src: $img/bath/benbu-left.jpg
+    watermark: true
 
   - tag: text
     heading: 木子鐡饮品店
 
   - tag: img
     src: $img/life/beiyuan/muzitie.jpg
+    watermark: true
 
   - tag: text
     heading: 北苑的茶
@@ -69,10 +71,12 @@ content:
   - tag: img
     src: $img/life/beiyuan/beiyuan-tea.jpg
     desc: 北苑的茶
+    watermark: true
 
   - tag: img
     src: $img/life/beiyuan/beiyuan-tea-price.jpg
     desc: 北苑的茶价目表
+    watermark: true
 
   - tag: text
     heading: 贡茶
@@ -80,6 +84,7 @@ content:
   - tag: img
     src: $img/life/benbu/gong-tea.jpg
     desc: 贡茶
+    watermark: true
 
   - tag: title
     text: 校外店铺

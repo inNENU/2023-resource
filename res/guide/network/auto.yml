@@ -1,6 +1,6 @@
 title: 无感知认证
 author: Mr.Hope
-time: 2023-06-21T10:21:02.413Z
+time: 2023-07-16T11:41:47.252Z
 shareable: true
 content:
   - tag: title
@@ -32,6 +32,7 @@ content:
   - tag: img
     src: $img/network/use-device-mac.jpg
     desc: 同时关闭 iNENU-2G 和 iNENU-5G 的私有地址开关
+    watermark: true
 
   - tag: text
     heading: Android
@@ -40,15 +41,19 @@ content:
 
   - tag: img
     src: $img/network/fix-mac1.jpg
+    watermark: true
 
   - tag: img
     src: $img/network/fix-mac2.jpg
+    watermark: true
 
   - tag: img
     src: $img/network/fix-mac3.jpg
+    watermark: true
 
   - tag: img
     src: $img/network/fix-mac4.jpg
+    watermark: true
 
   - tag: title
     text: 高级管理
@@ -62,9 +67,11 @@ content:
 
   - tag: img
     src: $img/network/auto-manage1.png
+    watermark: true
 
   - tag: img
     src: $img/network/auto-manage2.png
+    watermark: true
 
   - tag: text
     text: 您可以在这个页面新增、删除或管理无感知认证设备。

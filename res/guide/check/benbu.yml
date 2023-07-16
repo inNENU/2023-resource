@@ -1,6 +1,6 @@
 title: 本部校区校门
 author: Mr.Hope
-time: 2023-07-07T17:36:29.386Z
+time: 2023-07-16T11:41:46.550Z
 shareable: true
 content:
   - tag: text
@@ -25,6 +25,7 @@ content:
 
   - tag: img
     src: $img/scenery/benbu/gate/north.jpg
+    watermark: true
 
   - tag: p
     text:
@@ -84,6 +85,7 @@ content:
 
   - tag: img
     src: $img/scenery/benbu/gate/north-west.jpg
+    watermark: true
 
   - tag: p
     text:

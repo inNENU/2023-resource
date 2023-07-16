@@ -1,10 +1,11 @@
 title: 净月洗衣机使用说明
 author: Mr.Hope
-time: 2022-11-25
+time: 2023-07-16T11:41:46.815Z
 shareable: true
 content:
   - tag: img
     src: $img/dorm/jingyue-washer.jpg
+    watermark: true
 
   - tag: title
     text: 洗涤方式
@@ -34,9 +35,12 @@ content:
 
   - tag: img
     src: $img/dorm/jingyue-washer1.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/jingyue-washer2.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/jingyue-washer3.jpg
+    watermark: true

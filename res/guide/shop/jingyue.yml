@@ -1,7 +1,7 @@
 title: 京东便利店师大净月店
 desc: 特别鸣谢张云歌提供照片
 author: Mr.Hope
-time: 2023-06-15T16:13:06.692Z
+time: 2023-07-16T11:41:47.530Z
 shareable: true
 content:
   - tag: title
@@ -20,6 +20,7 @@ content:
   - tag: img
     src: $img/shop/jingdong-entrance.jpg
     desc: 超市入口
+    watermark: true
 
   - tag: title
     text: 超市详情
@@ -27,6 +28,7 @@ content:
   - tag: img
     src: $img/life/dining2/map.jpg
     desc: 超市分布图
+    watermark: true
 
   - tag: carousel
     images:
@@ -52,6 +54,7 @@ content:
 
   - tag: img
     src: $img/shop/jingdong-pay.jpg
+    watermark: true
 
   - tag: phone
     num: 13159611100

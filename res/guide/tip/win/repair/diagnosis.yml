@@ -1,6 +1,6 @@
 title: 系统诊断
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-07-16T11:41:47.727Z
 shareable: true
 content:
   - tag: title
@@ -33,9 +33,11 @@ content:
 
   - tag: img
     src: $img/tip/win11-diagnosis-1.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-diagnosis-2.png
+    watermark: true
 
   - tag: text
     text: 请您根据自己遇到的问题运行对应的疑难解答。
@@ -47,9 +49,11 @@ content:
 
   - tag: img
     src: $img/tip/win10-diagnosis-1.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win10-diagnosis-2.png
+    watermark: true
 
   - tag: text
     text: 请您根据自己遇到的问题运行对应的疑难解答。

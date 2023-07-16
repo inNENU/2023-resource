@@ -1,6 +1,6 @@
 title: 本科录取通知书
 author: Mr.Hope
-time: 2023-06-21T10:21:02.592Z
+time: 2023-07-16T11:41:47.421Z
 shareable: true
 content:
   - tag: title
@@ -60,10 +60,13 @@ content:
   - tag: img
     src: $img/prepare/admission-bag.jpg
     desc: 录取通知书邮寄袋
+    watermark: true
 
   - tag: img
     src: $img/prepare/under-admission-letter.jpg
     desc: 录取通知书
+    watermark: true
 
   - tag: img
     src: $img/prepare/under-admission-letter-back.jpg
+    watermark: true

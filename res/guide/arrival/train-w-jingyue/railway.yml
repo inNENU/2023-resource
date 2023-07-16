@@ -1,6 +1,6 @@
 title: 长春西站-到净月-轨道交通
 author: Mr.Hope
-time: 2023-07-07T17:36:28.958Z
+time: 2023-07-16T11:41:46.310Z
 shareable: true
 content:
   - tag: text
@@ -87,10 +87,12 @@ content:
   - tag: img
     src: $img/arrival/train-west-subway-entrance1.jpg
     desc: 2 号线“长春西站”入口
+    watermark: true
 
   - tag: img
     src: $img/arrival/train-west-subway-entrance2.jpg
     desc: 2 号线“长春西站”站台扶梯入口
+    watermark: true
 
   - tag: text
     text:
@@ -131,10 +133,12 @@ content:
   - tag: img
     src: $img/arrival/ticket-machine.jpg
     desc: 自助售票机
+    watermark: true
 
   - tag: img
     src: $img/arrival/subway-ticket.jpg
     desc: 轨道交通票
+    watermark: true
 
   - tag: title
     text: 进出站验票

@@ -1,7 +1,7 @@
 title: 净月烘焙坊
 desc: 特别鸣谢小艺学长提供部分照片
 author: Mr.Hope
-time: 2022-09-02
+time: 2023-07-16T11:41:47.115Z
 shareable: true
 content:
   - tag: title
@@ -27,12 +27,15 @@ content:
 
   - tag: img
     src: $img/life/dining2/hongcheng1.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/hongcheng2.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/dining2/hongcheng3.jpg
+    watermark: true
 
   - tag: title
     text: 校外店铺

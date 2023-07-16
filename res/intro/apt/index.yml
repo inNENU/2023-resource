@@ -1,7 +1,7 @@
 title: 学校机构介绍
 grey: true
 author: Mr.Hope
-time: 2023-07-14T10:28:44.209Z
+time: 2023-07-16T11:41:45.261Z
 shareable: true
 content:
   - tag: grid
@@ -75,7 +75,7 @@ content:
       - text: 校团委
         color: purple
         name: League
-        icon: league
+        icon: $img/about/group.png
         path: youth-league/
 
       - text: 学生心理健康教育中心

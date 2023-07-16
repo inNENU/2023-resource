@@ -1,6 +1,6 @@
 title: 启动助理安装前的准备工作
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.679Z
 shareable: true
 cite: https://support.apple.com/zh-cn/HT201468
 content:
@@ -17,18 +17,22 @@ content:
   - tag: img
     src: $img/tip/mac/win-iso-download.png
     desc: 版本选择
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/win-iso-choose.png
     desc: 选择 64-bit
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/win-iso-confirm.png
     desc: 允许网站下载
+    watermark: true
 
   - tag: img
     src: $img/tip/mac/win-iso-progress.png
     desc: Safari 下载列表中会显示下载剩余时间与下载进度
+    watermark: true
 
   - tag: title
     text: 检查您的“安全启动”设置

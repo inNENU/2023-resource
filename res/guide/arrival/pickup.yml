@@ -1,6 +1,6 @@
 title: 接站
 author: Mr.Hope
-time: 2023-06-21T10:21:01.277Z
+time: 2023-07-16T11:41:46.237Z
 shareable: true
 content:
   - tag: title
@@ -26,6 +26,7 @@ content:
   - tag: img
     src: $img/arrival/pickup.jpg
     desc: 图为接站人员
+    watermark: true
 
   - tag: title
     text: 接站时间

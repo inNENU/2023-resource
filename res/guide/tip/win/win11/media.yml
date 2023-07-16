@@ -1,6 +1,6 @@
 title: Windows 11 启动盘制作
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.785Z
 shareable: true
 content:
   - tag: text
@@ -17,28 +17,37 @@ content:
 
   - tag: img
     src: $img/tip/win11-media-1.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-2.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-3.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-4.png
     desc: 视您使用的 U 盘品牌，其名称可能与图片不符
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-5.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-6.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-7.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-8.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-media-9.png
+    watermark: true

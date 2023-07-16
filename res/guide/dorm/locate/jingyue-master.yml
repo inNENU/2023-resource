@@ -1,7 +1,7 @@
 title: 净月研究生寝室安排
 desc: 部分图片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2023-06-24T18:37:20.142Z
+time: 2023-07-16T11:41:46.848Z
 shareable: true
 content:
   - tag: title
@@ -46,6 +46,7 @@ content:
 
   - tag: img
     src: $img/dorm/ren-hua.jpg
+    watermark: true
 
   - tag: title
     text: 冬华公寓
@@ -57,6 +58,7 @@ content:
 
   - tag: img
     src: $img/dorm/dong-hua.jpg
+    watermark: true
 
   - tag: title
     text: 星华公寓
@@ -67,6 +69,7 @@ content:
 
   - tag: img
     src: $img/dorm/xing-hua.jpg
+    watermark: true
 
   - tag: title
     text: 月华公寓
@@ -76,6 +79,7 @@ content:
 
   - tag: img
     src: $img/dorm/yue-hua.jpg
+    watermark: true
 
   - tag: title
     text: 春华公寓
@@ -85,6 +89,7 @@ content:
 
   - tag: img
     src: $img/dorm/chun-hua.jpg
+    watermark: true
 
   - tag: title
     text: 日华公寓
@@ -94,6 +99,7 @@ content:
 
   - tag: img
     src: $img/dorm/ri-hua.jpg
+    watermark: true
 
   - tag: text
     type: tip

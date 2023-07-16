@@ -1,6 +1,6 @@
 title: 360 安全浏览器
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-07-16T11:41:47.647Z
 shareable: true
 content:
   - tag: text
@@ -27,6 +27,7 @@ content:
   - tag: img
     src: $img/tip/360/evil.jpg
     desc: 界面展示
+    watermark: true
 
   - tag: list
     header: 详情
@@ -44,6 +45,7 @@ content:
   - tag: img
     src: $img/tip/360/after.jpg
     desc: 修改后的干爽页面
+    watermark: true
 
   - tag: title
     text: 使用 IE 内核
@@ -66,3 +68,4 @@ content:
   - tag: img
     src: $img/tip/360/compatable.png
     desc: 兼容模式切换
+    watermark: true

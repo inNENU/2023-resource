@@ -1,6 +1,6 @@
 title: 长春站-到本部-打车
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.267Z
 shareable: true
 content:
   - tag: p
@@ -58,6 +58,7 @@ content:
   - tag: img
     src: $img/arrival/train-north-taxi.jpg
     desc: 长春站北侧乘降中心指示牌
+    watermark: true
 
   - tag: text
     heading: 出站口 3
@@ -68,10 +69,12 @@ content:
   - tag: img
     src: $img/arrival/train-south-taxi-door.jpg
     desc: 长春站南侧乘降中心入口
+    watermark: true
 
   - tag: img
     src: $img/arrival/train-south-taxi.jpg
     desc: 长春站南侧乘降中心
+    watermark: true
 
   - tag: text
     type: note

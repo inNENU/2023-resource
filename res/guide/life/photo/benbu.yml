@@ -1,6 +1,6 @@
 title: 本部照相
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-16T11:41:47.209Z
 shareable: true
 content:
   - tag: title
@@ -22,10 +22,12 @@ content:
   - tag: img
     src: $img/bath/benbu-right.jpg
     desc: 浴池好又快图文店
+    watermark: true
 
   - tag: img
     src: $img/life/benbu/bath-copy.jpg
     desc: 好又快图文店内照片
+    watermark: true
 
   - tag: title
     text: 校外店铺

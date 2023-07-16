@@ -30,6 +30,7 @@ content:
 
   - tag: img
     src: $img/dining/nanyuan/env.jpg
+    watermark: true
 
   - tag: list
     header: 一楼

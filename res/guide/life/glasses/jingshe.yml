@@ -1,6 +1,6 @@
 title: 镜舍眼镜店
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.148Z
 shareable: true
 content:
   - tag: title
@@ -14,6 +14,7 @@ content:
   - tag: img
     src: $img/life/benbu/jingshe-location.jpg
     desc: 镜舍位置
+    watermark: true
 
   - tag: title
     text: 店铺环境
@@ -24,18 +25,23 @@ content:
 
   - tag: img
     src: $img/life/benbu/jingshe-env-1.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/benbu/jingshe-env-2.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/benbu/jingshe-env-3.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/benbu/jingshe-env-4.jpg
+    watermark: true
 
   - tag: img
     src: $img/life/benbu/jingshe-gift.jpg
+    watermark: true
 
   - tag: text
     heading: 营业时间

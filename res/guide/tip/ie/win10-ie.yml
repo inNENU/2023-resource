@@ -1,6 +1,6 @@
 title: 在 Windows 10 中添加 Internet Explorer 11
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.640Z
 shareable: true
 content:
   - tag: text
@@ -36,12 +36,15 @@ content:
 
   - tag: img
     src: $img/tip/win10-ie-1.jpg
+    watermark: true
 
   - tag: img
     src: $img/tip/win10-ie-2.jpg
+    watermark: true
 
   - tag: img
     src: $img/tip/win10-ie-3.jpg
+    watermark: true
 
   - tag: text
     text: 耐心等待安装完成之后重启。

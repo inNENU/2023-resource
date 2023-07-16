@@ -1,6 +1,6 @@
 title: 测试成绩说明
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.612Z
 shareable: true
 content:
   - tag: title
@@ -19,6 +19,7 @@ content:
   - tag: img
     src: $img/exam/pe-pass-score.png
     desc: 体重指数与对应的及格分数
+    watermark: true
 
   - tag: title
     text: 毕业时成绩的评定

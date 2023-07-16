@@ -1,6 +1,6 @@
 title: 医保卡
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.997Z
 shareable: true
 content:
   - tag: title
@@ -12,10 +12,12 @@ content:
   - tag: img
     src: $img/insurance/alipay-card.jpg
     desc: 支付宝搜索
+    watermark: true
 
   - tag: img
     src: $img/insurance/wechat-card.jpg
     desc: 微信搜索
+    watermark: true
 
   - tag: title
     text: 长春市办理临时医保卡
@@ -23,3 +25,4 @@ content:
   - tag: img
     src: $img/insurance/insurance-card.jpg
     desc: 办理临时医保卡网点
+    watermark: true

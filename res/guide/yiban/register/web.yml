@@ -1,6 +1,6 @@
 title: 易班网页注册流程
 author: Mr.Hope
-time: 2023-06-21T10:21:03.118Z
+time: 2023-07-16T11:41:47.921Z
 shareable: true
 content:
   - tag: text
@@ -11,18 +11,21 @@ content:
 
   - tag: img
     src: $img/yiban/web-mainpage.jpg
+    watermark: true
 
   - tag: text
     text: 按照要求输入手机号与验证码，设置密码后点击下一步。
 
   - tag: img
     src: $img/yiban/web-register.png
+    watermark: true
 
   - tag: text
     text: 直接点击『马上去校方认证』
 
   - tag: img
     src: $img/yiban/web-verify.png
+    watermark: true
 
   - tag: ul
     text:
@@ -31,6 +34,7 @@ content:
 
   - tag: img
     src: $img/yiban/web-school.png
+    watermark: true
 
   - tag: ul
     text:
@@ -46,9 +50,11 @@ content:
 
   - tag: img
     src: $img/yiban/web-verify2.png
+    watermark: true
 
   - tag: text
     text: 校方认证成功后，页面应为
 
   - tag: img
     src: $img/yiban/web-verifyed.png
+    watermark: true

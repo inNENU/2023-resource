@@ -1,7 +1,7 @@
 title: 净月报到流程
 desc: 照片来自王慕梓
 author: Mr.Hope
-time: 2023-06-21T10:21:01.613Z
+time: 2023-07-16T11:41:46.565Z
 shareable: true
 content:
   - tag: title
@@ -21,6 +21,7 @@ content:
 
   - tag: img
     src: $img/scenery/jingyue/gate/east.jpg
+    watermark: true
 
   - tag: ol
     heading: Mr.Hope の 友情提示
@@ -83,18 +84,22 @@ content:
   - tag: img
     src: $img/check/jingyue-check1.jpg
     desc: 报到处
+    watermark: true
 
   - tag: img
     src: $img/check/jingyue-check2.jpg
     desc: 报到处
+    watermark: true
 
   - tag: img
     src: $img/check/jingyue-check3.jpg
     desc: 报到处
+    watermark: true
 
   - tag: img
     src: $img/check/jingyue-check4.jpg
     desc: 报到处
+    watermark: true
 
   - tag: text
     text: 👇

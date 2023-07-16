@@ -2,7 +2,7 @@ title: 二食堂特色档口
 desc: |-
   特别鸣谢思教乐乐提供相关照片
 author: Mr.Hope
-time: 2022-09-03
+time: 2023-07-16T11:41:46.761Z
 shareable: true
 content:
   - tag: title
@@ -17,6 +17,7 @@ content:
 
   - tag: img
     src: $img/dining/jingyueDining2-3F.jfif
+    watermark: true
 
   - tag: title
     text: 三楼
@@ -129,3 +130,4 @@ content:
 
   - tag: img
     src: $img/life/dining2/yimuliangtian.jpg
+    watermark: true

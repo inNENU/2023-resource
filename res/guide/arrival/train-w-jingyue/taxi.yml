@@ -1,6 +1,6 @@
 title: 长春西站-到净月-打车
 author: Mr.Hope
-time: 2023-05-13T12:08:30.170Z
+time: 2023-07-16T11:41:46.314Z
 shareable: true
 content:
   - tag: p
@@ -28,14 +28,17 @@ content:
   - tag: img
     src: $img/arrival/train-west-exit.jpg
     desc: 长春西站出站口
+    watermark: true
 
   - tag: img
     src: $img/arrival/train-west-taxi-way.jpg
     desc: 长春西站出租车乘降中心位置
+    watermark: true
 
   - tag: img
     src: $img/arrival/train-west-taxi-entrance.jpg
     desc: 长春西站出租车乘降中心入口
+    watermark: true
 
   - tag: title
     text: 价格与时间

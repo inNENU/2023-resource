@@ -1,6 +1,6 @@
 title: 热水房
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:46.812Z
 shareable: true
 content:
   - tag: title
@@ -15,6 +15,7 @@ content:
 
   - tag: img
     src: $img/dorm/drinker1.jpg
+    watermark: true
 
   - tag: title
     text: 直饮水机
@@ -24,6 +25,7 @@ content:
 
   - tag: img
     src: $img/dorm/drinker2.jpg
+    watermark: true
 
   - tag: title
     text: 其他设施

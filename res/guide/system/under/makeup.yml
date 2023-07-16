@@ -1,6 +1,6 @@
 title: 补考课程申请
 author: Mr.Hope
-time: 2022-08-30
+time: 2023-07-16T11:41:47.590Z
 shareable: true
 content:
   - tag: title
@@ -26,6 +26,8 @@ content:
 
   - tag: img
     src: $img/system/test-manage.jpg
+    watermark: true
 
   - tag: img
     src: $img/system/makeup.png
+    watermark: true

@@ -2,7 +2,7 @@ title: 二食堂
 desc: |-
   概况部分来自东北师范大学后勤保障部官网
 author: Mr.Hope
-time: 2022-09-03
+time: 2023-07-16T11:41:46.737Z
 grey: true
 shareable: true
 content:
@@ -13,6 +13,7 @@ content:
 
   - tag: img
     src: $img/dining/jingyueDining2.jfif
+    watermark: true
 
   - tag: list
     header: 一楼

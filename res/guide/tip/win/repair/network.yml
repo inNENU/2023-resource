@@ -1,6 +1,6 @@
 title: 网络问题修复
 author: Mr.Hope
-time: 2023-06-21T10:21:02.890Z
+time: 2023-07-16T11:41:47.730Z
 shareable: true
 content:
   - tag: text
@@ -63,13 +63,16 @@ content:
 
   - tag: img
     src: $img/tip/win11-network-reset-1.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-network-reset-2.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win11-network-reset-3.png
     desc: 请点击“立即重置”，确认后耐心等待电脑完成重置并自动重启
+    watermark: true
 
   - tag: text
     heading: Windows 10
@@ -78,13 +81,16 @@ content:
 
   - tag: img
     src: $img/tip/win10-network-reset-1.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win10-network-reset-2.png
+    watermark: true
 
   - tag: img
     src: $img/tip/win10-network-reset-3.png
     desc: 请点击“立即重置”，确认后耐心等待电脑完成重置并自动重启
+    watermark: true
 
   - tag: title
     text: 仍然无法解决

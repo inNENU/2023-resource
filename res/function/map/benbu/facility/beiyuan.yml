@@ -24,6 +24,7 @@ content:
 
   - tag: img
     src: $img/dining/beiyuan/main.jpg
+    watermark: true
 
   - tag: list
     header: 基本餐

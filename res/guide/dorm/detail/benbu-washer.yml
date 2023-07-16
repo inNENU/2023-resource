@@ -1,6 +1,6 @@
 title: 本部洗衣机使用说明
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-16T11:41:46.804Z
 shareable: true
 content:
   - tag: text
@@ -9,6 +9,7 @@ content:
 
   - tag: img
     src: $img/dorm/benbu-washer.jpg
+    watermark: true
 
   - tag: title
     text: 使用方法
@@ -32,6 +33,7 @@ content:
   - tag: img
     src: $img/dorm/benbu-washer-guide.jpg
     desc: 洗衣机使用指引，不同寝室洗衣机型号可能略有不同，请以使用的洗衣机提示为准
+    watermark: true
 
   - tag: text
     type: tip

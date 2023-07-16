@@ -1,6 +1,6 @@
 title: 有线上网
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-16T11:41:47.260Z
 shareable: true
 content:
   - tag: text
@@ -16,6 +16,7 @@ content:
   - tag: img
     src: $img/network/router.jfif
     desc: 寝室所装路由器
+    watermark: true
 
   - tag: title
     text: 覆盖范围

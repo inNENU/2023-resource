@@ -1,6 +1,6 @@
 title: 研究生教学评价
 author: Mr.Hope
-time: 2023-06-21T10:21:02.742Z
+time: 2023-07-16T11:41:47.566Z
 shareable: true
 content:
   - tag: title
@@ -17,6 +17,7 @@ content:
 
   - tag: img
     src: $img/system/post/login.png
+    watermark: true
 
   - tag: text
     text:
@@ -28,10 +29,12 @@ content:
   - tag: img
     src: $img/system/post/course-evaluate.png
     desc: 评价页面
+    watermark: true
 
   - tag: img
     src: $img/system/post/course-evaluate-detail.png
     desc: 评价方式
+    watermark: true
 
   - tag: title
     text: 注意事项

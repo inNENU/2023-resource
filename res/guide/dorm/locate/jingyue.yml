@@ -1,6 +1,6 @@
 title: 净月本科寝室安排
 author: Mr.Hope
-time: 2023-06-24T18:37:20.148Z
+time: 2023-07-16T11:41:46.851Z
 shareable: true
 content:
   - tag: text
@@ -45,10 +45,12 @@ content:
 
   - tag: img
     src: $img/dorm/xiahua.jpg
+    watermark: true
 
   - tag: img
     src: $img/dorm/xiahua2.jpg
     desc: 图为夏华公寓
+    watermark: true
 
   - tag: title
     text: 秋华公寓

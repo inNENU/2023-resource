@@ -4,7 +4,7 @@ desc: |-
 author:
   - Mr.Hope
   - 晴子
-time: 2022-09-01
+time: 2023-07-16T11:41:47.537Z
 shareable: true
 content:
   - tag: text
@@ -26,6 +26,7 @@ content:
   - tag: img
     src: $img/life/beiyuan/map.jpg
     desc: 超市物品分布图
+    watermark: true
 
   - tag: title
     text: 支付方式
@@ -38,6 +39,7 @@ content:
   - tag: img
     src: $img/shop/tmall/pay.jpg
     desc: 自助结账处
+    watermark: true
 
   - tag: text
     heading: 人工
@@ -58,39 +60,49 @@ content:
 
   - tag: img
     src: $img/shop/tmall/food1.jpg
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/food2.jpg
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/food3.jpg
     desc: 牛奶区
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/food4.jpg
     desc: 饮品区
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/food5.jpg
     desc: 面包区
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/food6.jpg
+    watermark: true
 
   - tag: text
     heading: 生活用品区
 
   - tag: img
     src: $img/shop/tmall/life1.jpg
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/life2.jpg
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/life3.jpg
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/life4.jpg
+    watermark: true
 
   - tag: text
     heading: 新生用品
@@ -98,7 +110,9 @@ content:
   - tag: img
     src: $img/shop/tmall/newcomer1.jpg
     desc: 被褥
+    watermark: true
 
   - tag: img
     src: $img/shop/tmall/newcomer2.jpg
     desc: 盆
+    watermark: true
