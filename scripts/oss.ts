@@ -8,20 +8,21 @@ import { config } from "dotenv";
 config();
 
 const __dirname = path.dirname(
-  path.join(fileURLToPath(import.meta.url), "../"),
+  path.join(fileURLToPath(import.meta.url), "../")
 );
 
 const syncOSS = async (): Promise<void> => {
   const finalDiffResult = execSync("git status -s").toString();
 
-  const files = finalDiffResult
-    .split("\n")
-    .filter(
-      (item) =>
-        item.startsWith("img/") ||
-        item.startsWith("file/") ||
-        (item.startsWith("r/") && item.endsWith(".zip")),
+  const files = finalDiffResult.split("\n").filter((item) => {
+    const filename = item.substring(3);
+
+    return (
+      filename.startsWith("img/") ||
+      filename.startsWith("file/") ||
+      (filename.startsWith("r/") && filename.endsWith(".zip"))
     );
+  });
 
   const updatedFiles = files
     .filter((item) => !item.substring(0, 3).includes("D"))
@@ -42,15 +43,16 @@ const syncOSS = async (): Promise<void> => {
     // eslint-disable-next-line @typescript-eslint/naming-convention
     "x-oss-storage-class": "Standard",
     // eslint-disable-next-line @typescript-eslint/naming-convention
-    "x-oss-object-acl": "public-read",
+    "x-oss-object-acl": "private",
   };
 
   const putFile = async (filePath: string): Promise<void> => {
     try {
+      console.log(`Putting file ${filePath}`);
       const result = await client.put(
         filePath,
         path.normalize(path.join(__dirname, filePath)),
-        { headers },
+        { headers }
       );
 
       if (result.res.status !== 200)
@@ -62,6 +64,8 @@ const syncOSS = async (): Promise<void> => {
 
   const deleteFiles = async (filePaths: string[]): Promise<void> => {
     try {
+      if (filePaths.length === 0) return;
+
       const result = await client.deleteMulti(filePaths);
 
       if (result.res.status !== 200)
@@ -72,9 +76,7 @@ const syncOSS = async (): Promise<void> => {
   };
 
   await Promise.all([
-    ...updatedFiles.map(async (item) => {
-      await putFile(item);
-    }),
+    ...updatedFiles.map((item) => putFile(item)),
     deleteFiles(deletedFiles),
   ]);
 };
