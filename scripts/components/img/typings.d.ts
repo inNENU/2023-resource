@@ -15,6 +15,12 @@ export interface ImageComponentOptions extends BaseComponentOptions {
    */
   lazy?: false;
   /**
+   * 是否添加水印
+   *
+   * @default false
+   */
+  watermark?: false;
+  /**
    * 图片显示模式
    *
    * @default "widthFix"
