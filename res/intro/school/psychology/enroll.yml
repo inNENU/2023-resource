@@ -1,7 +1,7 @@
 title: 心理学院招生
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2023-07-14T06:02:13.983Z
+time: 2023-07-17T17:26:29.010Z
 shareable: true
 content:
   - tag: title
@@ -77,8 +77,8 @@ content:
 
   - tag: doc
     name: 基础心理学培养方案
-    url: $file/courseplan/psychology-base.pdf
+    url: $file/course-plan/psychology/base.pdf
 
   - tag: doc
     name: 发展与教育心理学培养方案
-    url: $file/courseplan/psychology-develop.pdf
+    url: $file/course-plan/psychology/develop.pdf
