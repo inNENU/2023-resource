@@ -1,6 +1,6 @@
 title: 手机使用缴费系统缴费
 author: Mr.Hope
-time: 2023-06-21T10:21:02.537Z
+time: 2023-07-17T16:22:03.973Z
 shareable: true
 content:
   - tag: title
@@ -22,7 +22,7 @@ content:
   - tag: ul
     heading: 校内用户登录
     text:
-      - 请选择“本校师生”
+      - 请选择“本校师生”。
       - 默认账号和密码同统一身份认证账号和密码。
 
   - tag: list
