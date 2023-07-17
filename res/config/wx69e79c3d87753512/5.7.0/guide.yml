@@ -64,7 +64,7 @@ content:
         color: purple
         name: Streaming
         icon: activity
-        url: info?path=OMrHope/streaming
+        path: /guide/activity/streaming
 
   - tag: grid
     header: 行在东师

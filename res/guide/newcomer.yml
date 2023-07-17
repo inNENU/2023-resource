@@ -26,7 +26,7 @@ content:
         color: purple
         name: Streaming
         icon: activity
-        url: info?path=OMrHope/streaming
+        path: /guide/activity/streaming
 
       - text: 常见问题
         color: cyan

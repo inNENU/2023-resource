@@ -1,6 +1,6 @@
 title: 长春站-到净月
 author: Mr.Hope
-time: 2023-06-21T10:21:01.330Z
+time: 2023-07-17T10:48:59.649Z
 shareable: true
 content:
   - tag: title
@@ -37,12 +37,12 @@ content:
   - tag: text
     type: tip
     heading: 轨道交通
-    text: 乘坐轨道交通是最快最便捷的方式，推荐大家选择轨道交通中的 1 号线转 3 号线。
+    text: 如果您行李较少，乘坐轨道交通是最快最便捷的方式，推荐大家选择轨道交通中的 1 号线转 3 号线。
     path: railway
 
   - tag: text
     type: tip
-    heading: 打车
+    heading: 出租车/网约车
     text:
       - 如果您有太多的行李很难自行搬运，或您到达火车站已经是晚上，轨道交通已经停运，那么您也许需要打车。
     path: taxi

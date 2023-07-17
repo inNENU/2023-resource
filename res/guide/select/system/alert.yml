@@ -1,6 +1,6 @@
 title: 选课系统注意事项
 author: Mr.Hope
-time: 2023-06-21T10:21:02.685Z
+time: 2023-07-17T10:49:00.527Z
 shareable: true
 content:
   - tag: title
@@ -26,12 +26,6 @@ content:
 
   - tag: text
     type: note
-    heading: 允许网页弹窗
-    text:
-      - 网页弹窗可能被拦截，请务必允许网页弹窗，否则无法正常选课。
-
-  - tag: text
-    type: note
     heading: 更新数据后需重新登录
     text:
       - 学院(部)涉及数据调整审批等事宜，会不定期更新选课数据(如课容量、任课教师等)，届时所有人需要重新登录选课系统。
@@ -45,3 +39,12 @@ content:
       - |-
         与教务处工作人员联系解决。
         (注: 课全被踢了选不上课不是教务处的问题，请不要占用电话倒苦水、撒泼、打滚等)
+
+  - tag: title
+    text: 官方系统注意事项
+
+  - tag: text
+    type: note
+    heading: 允许网页弹窗
+    text:
+      - 网页弹窗可能被拦截，请务必允许网页弹窗，否则无法通过官方选课系统正常选课。

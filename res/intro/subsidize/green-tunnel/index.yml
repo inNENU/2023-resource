@@ -1,7 +1,7 @@
 title: 入学绿色通道
 grey: true
 author: Mr.Hope
-time: 2022-08-30
+time: 2023-07-17T10:48:59.392Z
 shareable: true
 content:
   - tag: list
@@ -12,4 +12,8 @@ content:
 
       - text: 2022 年相关公告
         icon: notice
-        path: notice
+        url: notice?id=6ce0d802255e47f2b7999084418c08dd&title=关于做好2022年本科新生“绿色通道”工作的通知
+
+  - tag: doc
+    name: 东北师范大学本科学生“绿色通道”申请表
+    url: $file/subsidize/green-tunnel.docx

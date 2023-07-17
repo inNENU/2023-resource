@@ -1,6 +1,6 @@
 title: 长春西站-到本部
 author: Mr.Hope
-time: 2023-06-21T10:21:01.343Z
+time: 2023-07-17T10:48:59.655Z
 shareable: true
 content:
   - tag: title
@@ -41,13 +41,13 @@ content:
 
   - tag: text
     type: tip
-    heading: 地铁 (推荐)
-    text: 地铁是最快最便捷的方式，推荐大家选择地铁。
+    heading: 地铁
+    text: 如果您行李较少，地铁是最快最便捷的方式。
     path: subway
 
   - tag: text
     type: info
-    heading: 打车
+    heading: 出租车/网约车
     text:
       - 如果您到达火车站已经是晚上，轨道交通已经停运，那么您也许需要打车。
       - 在其他情况下，Mr.Hope 推荐您使用轨道交通。
