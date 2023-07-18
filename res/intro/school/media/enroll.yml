@@ -1,6 +1,6 @@
 title: 传媒科学学院招生
 author: Mr.Hope
-time: 2023-07-14T06:02:13.908Z
+time: 2023-07-18T06:35:12.752Z
 shareable: true
 content:
   - tag: title
@@ -23,6 +23,15 @@ content:
 
       - text: 数字媒体技术
         path: digital
+
+  - tag: list
+    header: 准入要求
+    items:
+      - text: 数字媒体技术
+        path: into/digital
+
+      - text: 新闻传播学类
+        path: into/news
 
   - tag: title
     text: 专业介绍视频

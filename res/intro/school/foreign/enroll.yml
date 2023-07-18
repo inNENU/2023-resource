@@ -1,6 +1,6 @@
 title: 外国语学院专业
 author: Mr.Hope
-time: 2023-07-14T06:02:13.840Z
+time: 2023-07-18T06:35:12.584Z
 shareable: true
 content:
   - tag: title
@@ -43,6 +43,30 @@ content:
 
       - text: 商务英语
         path: business
+
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 英语专业
+        path: into/english
+
+      - text: 英语专业 (公费师范)
+        path: into/normal
+
+      - text: 英语专业 (优师专项)
+        path: into/great
+
+      - text: 德语
+        path: into/german
+
+      - text: 俄语
+        path: into/russia
+
+      - text: 日语
+        path: into/japanese
+
+      - text: 商务英语
+        path: into/business
 
   - tag: title
     text: 专业介绍视频

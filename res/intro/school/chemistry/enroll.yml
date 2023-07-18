@@ -1,6 +1,6 @@
 title: 化学学院专业
 author: Mr.Hope
-time: 2023-07-14T06:02:13.770Z
+time: 2023-07-18T06:35:12.473Z
 shareable: true
 content:
   - tag: title
@@ -19,6 +19,18 @@ content:
 
       - text: 化学(公费师范)
         path: normal
+
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 化学专业
+        path: into/chemistry
+
+      - text: 化学专业 (公费师范)
+        path: into/normal
+
+      - text: 化学专业 (优师专项)
+        path: into/great
 
   - tag: text
     heading: 专业介绍视频

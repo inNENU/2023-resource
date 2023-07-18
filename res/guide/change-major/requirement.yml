@@ -16,14 +16,67 @@ content:
     items:
       - text: 教育学部
         icon: education
-        path: /intro/school/education/into
+        path: /intro/school/education/into/
 
       - text: 心理学院
         icon: psychology
         path: /intro/school/psychology/into
 
-      # TODO:
-      - text: 其他学院正在补充中，可详见各学院官网
+      - text: 政法学院
+        icon: politics
+        path: /intro/school/politics/into/
+
+      - text: 经济与管理学院
+        icon: economy
+        path: /intro/school/economy/into
+
+      - text: 文学院
+        icon: chinese
+        path: /intro/school/chinese/into/
+
+      - text: 历史文化学院
+        icon: history
+        path: /intro/school/history/into/
+
+      - text: 外国语学院
+        icon: foreign
+        path: /intro/school/foreign/into/
+
+      - text: 马克思主义学部
+        icon: marx
+        path: /intro/school/marx/into
+
+      - text: 数学与统计学院
+        icon: math
+        path: /intro/school/math/into/
+
+      - text: 信息科学与技术学院
+        icon: ist
+        path: /intro/school/ist/into/
+
+      - text: 物理学院
+        icon: physics
+        path: /intro/school/physics/into/
+
+      - text: 化学学院
+        icon: chemistry
+        path: /intro/school/chemistry/into/
+
+      - text: 生命科学学院
+        icon: biology
+        path: /intro/school/biology/into/
+
+      - text: 地理科学学院
+        icon: geography
+        path: /intro/school/geography/into/
+
+      - text: 环境学院
+        icon: environment
+        path: /intro/school/environment/into
+
+      - text: 传媒科学学院
+        icon: media
+        path: /intro/school/media/into/
 
   - tag: title
     text: 历史文件

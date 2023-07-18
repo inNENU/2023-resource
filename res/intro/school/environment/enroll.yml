@@ -1,6 +1,6 @@
 title: 环境学院招生
 author: Mr.Hope
-time: 2023-07-14T06:02:13.827Z
+time: 2023-07-18T06:35:12.567Z
 shareable: true
 content:
   - tag: title
@@ -22,6 +22,12 @@ content:
 
       - text: 生态学
         path: ecology
+
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 转入要求
+        path: into
 
   - tag: title
     text: 专业介绍视频

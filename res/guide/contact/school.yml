@@ -1,7 +1,7 @@
 title: 学院迎新群
 author: Mr.Hope
 desc: 欢迎大家私聊并提交自己学院的新生群二维码
-time: 2023-07-17T10:48:59.854Z
+time: 2023-07-18T06:35:13.335Z
 shareable: true
 content:
   - tag: title
@@ -30,7 +30,7 @@ content:
 
   - tag: img
     src: $img/about/history-2023.jpg
-    desc: 历史学院
+    desc: 历史文化学院
 
   - tag: img
     src: $img/about/chemistry-2023.jpg

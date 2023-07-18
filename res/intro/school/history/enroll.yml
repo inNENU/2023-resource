@@ -1,6 +1,6 @@
 title: 历史文化学院招生
 author: Mr.Hope
-time: 2023-07-14T06:02:13.860Z
+time: 2023-07-18T06:35:12.648Z
 shareable: true
 content:
   - tag: title
@@ -21,6 +21,18 @@ content:
 
       - text: 历史学
         path: history
+
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 历史学
+        path: into/history
+
+      - text: 历史学专业 (公费师范)
+        path: into/normal
+
+      - text: 历史学专业 (优师专项)
+        path: into/great
 
   - tag: title
     text: 专业介绍视频
@@ -55,7 +67,7 @@ content:
     fName: 泰居
     lName: 张
     num: 0431-85099418
-    org: 东北师范大历史学院
+    org: 东北师范大历史文化学院
     title: 硕士研究生招生负责人
     street: 吉林省长春市人民大街 5268 号
     postCode: 130024

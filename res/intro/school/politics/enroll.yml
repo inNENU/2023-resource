@@ -1,7 +1,7 @@
 title: 政法学院招生
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2023-07-14T06:02:13.963Z
+time: 2023-07-18T06:35:12.829Z
 shareable: true
 content:
   - tag: title
@@ -21,6 +21,27 @@ content:
 
       - text: 政治学类
         path: class
+
+  - tag: list
+    header: 准入要求
+    items:
+      - text: 政治学与行政学
+        path: into/politics
+
+      - text: 国际政治
+        path: into/international
+
+      - text: 行政管理
+        path: into/manage
+
+      - text: 思想政治教育 (公费师范)
+        path: into/mind-normal
+
+      - text: 思想政治教育 (优师专项)
+        path: into/mind-great
+
+      - text: 法学
+        path: into/law
 
   - tag: title
     text: 专业介绍视频

@@ -1,6 +1,6 @@
 title: 地理科学学院专业
 author: Mr.Hope
-time: 2023-07-14T06:02:13.851Z
+time: 2023-07-18T06:35:12.624Z
 shareable: true
 content:
   - tag: title
@@ -19,6 +19,18 @@ content:
 
       - text: 地理科学类
         path: class
+
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 地理科学类
+        path: into/class
+
+      - text: 地理科学专业 (公费师范)
+        path: into/normal
+
+      - text: 地理科学专业 (优师专项)
+        path: into/great
 
   - tag: title
     text: 专业介绍视频

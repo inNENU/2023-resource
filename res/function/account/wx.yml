@@ -98,7 +98,7 @@
       path: chinese
 
     - name: 大史苑
-      desc: 东北师范大学历史学院微信平台
+      desc: 东北师范大学历史文化学院微信平台
       logo: $img/media/history.jpg
       path: history
 
@@ -158,7 +158,7 @@
       path: geo
 
     - name: 东师传媒
-      desc: 东北师范大学传媒学院官方微信平台
+      desc: 东北师范大学传媒科学学院官方微信平台
       logo: $img/media/media.png
       path: media
 

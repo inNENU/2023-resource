@@ -1,6 +1,6 @@
 title: 物理学院招生
 author: Mr.Hope
-time: 2023-07-14T06:02:13.950Z
+time: 2023-07-18T06:35:12.804Z
 shareable: true
 content:
   - tag: title
@@ -20,6 +20,24 @@ content:
 
       - text: 物理学类
         path: class
+
+  - tag: list
+    header: 准入要求
+    items:
+      - text: 物理学
+        path: into/physics
+
+      - text: 物理学 (公费师范)
+        path: into/normal
+
+      - text: 物理学 (优师专项)
+        path: into/great
+
+      - text: 电子信息技术
+        path: into/electronic
+
+      - text: 材料物理
+        path: into/material
 
   - tag: title
     text: 专业介绍视频

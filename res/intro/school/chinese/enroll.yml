@@ -1,6 +1,6 @@
 title: 文学院专业
 author: Mr.Hope
-time: 2023-07-14T06:02:13.784Z
+time: 2023-07-18T06:35:12.496Z
 shareable: true
 content:
   - tag: title
@@ -18,6 +18,18 @@ content:
 
       - text: 汉语言文学(公费师范)
         path: normal
+
+  - tag: list
+    header: 转入要求
+    items:
+      - text: 汉语言文学专业
+        path: into/chinese
+
+      - text: 汉语言文学专业 (公费师范)
+        path: into/normal
+
+      - text: 汉语言文学专业 (优师专项)
+        path: into/great
 
   - tag: title
     text: 专业介绍视频
