@@ -1,0 +1,28 @@
+title: 寝室入住
+grey: true
+author: Mr.Hope
+time: 2023-07-18T05:48:51.373Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 入住数据
+        icon: data
+        path: data
+
+  - tag: list
+    items:
+      - text: 本部校区本科寝室
+        path: benbu
+
+      - text: 本部校区体育公寓
+        path: pe
+
+      - text: 本部校区研究生寝室
+        path: benbu-master
+
+      - text: 净月校区本科寝室
+        path: jingyue
+
+      - text: 净月校区研究生寝室
+        path: jingyue-master

@@ -1,6 +1,6 @@
 title: 自助终端机
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-18T05:48:51.106Z
 shareable: true
 content:
   - tag: title
@@ -16,10 +16,9 @@ content:
   - tag: ul
     heading: 本部校区
     text:
-      - 南苑食堂一楼、三楼
-      - 图书馆一楼大厅、第二电子阅览室、总还书台
-      - 田家炳楼二楼
-      - 各寝室楼入口处
+      - 北苑食堂一楼
+      - 图书馆一楼大厅
+      - 新综合楼 315
 
   - tag: location
     title: 本部校区
@@ -28,21 +27,17 @@ content:
         longitude: 125.332744
         name: 南苑食堂一楼
 
+      - latitude: 43.862779
+        longitude: 125.334076
+        name: 北苑食堂一楼
+
       - latitude: 43.861796
         longitude: 125.32812
         name: 图书馆总还书台
 
-      - latitude: 43.861671
-        longitude: 125.329777
-        name: 田家炳楼二楼
-
-      - latitude: 43.863661
-        longitude: 125.337605
-        name: 三舍 A 入口
-
-      - latitude: 43.863613
-        longitude: 125.336914
-        name: 三舍 B 入口
+      - latitude: 43.863429
+        longitude: 125.331542
+        detail: 新综合楼 315 (坐电梯到三楼按指示牌引导)
 
   - tag: ul
     heading: 净月校区
@@ -51,7 +46,6 @@ content:
       - 第二食堂一楼东南位置
       - 图书馆三楼阅览室、四楼阅览室
       - 冬华公寓二楼
-      - 各宿舍楼一楼
 
   - tag: location
     title: 净月校区

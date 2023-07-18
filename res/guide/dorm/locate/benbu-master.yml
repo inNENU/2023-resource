@@ -1,29 +1,17 @@
 title: 本部研究生寝室安排
 desc: 部分照片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2023-07-17T10:49:00.031Z
+time: 2023-07-18T05:48:51.366Z
 shareable: true
 outdated: true
 content:
   - tag: title
     text: 寝室分布
 
-  - tag: ul
+  - tag: text
     type: note
-    heading: 本部校区研究生寝室分布
-    text:
-      - |-
-        二舍: 外国语学院、马克思主义学部、物理学院
-      - |-
-        五舍: 数学与统计学院、生命科学学院、化学学院、外国语学院、日本研究所、历史文化学院、教育学部、马克思主义学部
-      - |-
-        六舍: 所有博士研究生
-      - |-
-        七舍: 所有男生研究生
-      - |-
-        八舍: 文学院、化学学院、地理科学学院
-      - |-
-        九舍: 教育学部、心理学院
+    heading: 研究生寝室分布数据
+    path: data
 
   - tag: location
     title: 本部研究生寝室

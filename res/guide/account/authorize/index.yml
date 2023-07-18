@@ -1,22 +1,17 @@
 title: 统一身份认证
 author: Mr.Hope
-time: 2023-07-16T11:56:04.371Z
+time: 2023-07-18T05:48:50.649Z
 shareable: true
 content:
   - tag: text
     type: warning
     text: 2023 级起，新生需要自己完成账号激活。
 
-  # - tag: text
-  #   type: warning
-  #   text: 目前 2023 级新生账号已录入完成，如果您不能登录，请您联系信息化办。
-  #   path: /intro/apt/xxhb/
-
   - tag: title
     text: 获得学号
 
   - tag: text
-    text: 学号是 10 位数字，您收到的录取通知书编号和日后发放的校园卡💳卡号即是学号。
+    text: 学号是 10 位数字，您收到的录取通知书证书编号和日后发放的校园卡💳卡号即是学号。
 
   - tag: title
     text: 统一身份认证管理

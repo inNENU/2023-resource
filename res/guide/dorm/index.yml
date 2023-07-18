@@ -1,7 +1,7 @@
 title: 寝室
 grey: true
 author: Mr.Hope
-time: 2023-06-26T10:31:31.166Z
+time: 2023-07-18T05:48:51.338Z
 shareable: true
 content:
   - tag: list
@@ -11,6 +11,10 @@ content:
         desc: 是否可以选择寝室
         icon: faq
         path: choose
+
+      - text: 入住数据
+        icon: data
+        path: locate/data
 
       - text: 本部校区本科寝室
         path: locate/benbu
