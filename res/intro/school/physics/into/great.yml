@@ -1,6 +1,6 @@
 title: 物理学（优师计划）专业准入细则
 desc: 于 2023 年发布在学院官网
-time: 2023-07-18T06:35:12.816Z
+time: 2023-07-18T06:47:52.348Z
 shareable: true
 cite: http://www.phy.nenu.edu.cn/info/1051/3295.htm
 content:
@@ -45,7 +45,7 @@ content:
     text: 五、其他
 
   - tag: ul
-    text: 
+    text:
       - 课程免修相关问题详见物理学院关于转专业及出国交流学生成绩认定办法中的相关规定。
       - 在读二年级申请转入并通过考核者，建议转入下一年级学习。
 
@@ -80,8 +80,7 @@ content:
     text: 七、咨询方式
 
   - tag: p
-    text: 
-      |-
+    text: |-
       咨询地点: 东北师范大学物理楼二楼学院办公室
 
   - tag: phone
