@@ -86,15 +86,14 @@ function generateWords(string $searchWord): array
  *
  * @return string[] 匹配的候选词列表
  */
-function getWordList(string $searchWord, array $searchIndex): array
+function getWordList(string $searchWord, object $searchIndex): array
 {
   $TITLE = 1;
   $HEADING = 2;
 
   $words = [];
 
-  foreach ($searchIndex as $indexContent) {
-
+  foreach ($searchIndex as $pageID => $indexContent) {
     // 检查页面标题是否包含了 searchWord
     if (mb_strpos($indexContent[0], $searchWord) !== false && in_array($indexContent[0], $words) === false) {
       array_push($words, $indexContent[0]);
