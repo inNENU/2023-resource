@@ -34,6 +34,15 @@ content:
   #   url: video?type=video
 
   - tag: grid
+    header: 测试
+    items:
+      - text: 激活校园账号
+        name: Activate
+        color: purple
+        icon: account
+        url: activate
+
+  - tag: grid
     header: 本科招生
     items:
       - text: 2023 年招生简章
