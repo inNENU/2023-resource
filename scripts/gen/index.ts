@@ -59,6 +59,16 @@ convertYml2Json("./data/function", "./d/function", (data, filePath) =>
 /** 差异列表 */
 const diffResult = execSync("git status -s").toString();
 
+// 东师机构
+convertYml2Json("./pages/apartment", "./d/apartment", (data, filePath) =>
+  resolvePage(data as PageConfig, `apartment/${filePath}`, diffResult)
+);
+
+// 东师学院
+convertYml2Json("./pages/school", "./d/school", (data, filePath) =>
+  resolvePage(data as PageConfig, `school/${filePath}`, diffResult)
+);
+
 // 东师介绍
 convertYml2Json("./pages/intro", "./d/intro", (data, filePath) =>
   resolvePage(data as PageConfig, `intro/${filePath}`, diffResult)
