@@ -27,8 +27,23 @@ content:
   #   logo: cd
   #   url: music
 
+  # - tag: card
+  #   cover: $img/tab/video.jpg
+  #   title: 影约东师
+  #   logo: media
+  #   url: video?type=video
+
   - tag: grid
-    header: 招生相关
+    header: 新生你好
+    items:
+      - text: 激活校园账号
+        name: Activate
+        color: purple
+        icon: account
+        url: activate
+
+  - tag: grid
+    header: 本科招生
     items:
       - text: 2023 年招生简章
         name: Rule
