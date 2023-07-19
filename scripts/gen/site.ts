@@ -59,17 +59,10 @@ const convertYml2Md = <T = any>(
   });
 };
 
-// 东师介绍
-convertYml2Md("./pages/intro", "./site/intro", (data: PageConfig) => {
-  return getMarkdown(data);
-});
-
-// 东师指南
-convertYml2Md("./pages/guide", "./site/guide", (data: PageConfig) => {
-  return getMarkdown(data);
-});
-
-// 其他文件
-convertYml2Md("./pages/other", "./site/other", (data: PageConfig) => {
-  return getMarkdown(data);
-});
+["apartment", "school", "newcomer", "intro", "guide", "other"].forEach(
+  (folder) => {
+    convertYml2Md(`./pages/${folder}`, `./site/${folder}`, (data: PageConfig) =>
+      getMarkdown(data),
+    );
+  },
+);

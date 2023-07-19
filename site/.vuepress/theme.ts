@@ -12,16 +12,27 @@ export default hopeTheme(
     copyright: `使用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> 协议`,
     displayFooter: true,
 
-    navbar: ["/", "/guide/", "/intro/"],
+    navbar: [
+      "/",
+      "/newcomer/",
+      "/guide/",
+      "/intro/",
+      "/school/",
+      "/apartment/",
+    ],
 
     pageInfo: ["Author", "Original", "Date", "PageView", "ReadingTime", "Word"],
 
     pure: true,
     sidebar: {
       "/": false,
+      "/contributing/": "structure",
+      "/apartment/": "structure",
       "/guide/": "structure",
       "/intro/": "structure",
       "/other/": "structure",
+      "/newcomer/": "structure",
+      "/school/": "structure",
     },
 
     metaLocales: {
@@ -33,17 +44,17 @@ export default hopeTheme(
         components: ["AudioPlayer", "VideoPlayer"],
         rootComponents: {
           notice: [
-            {
-              path: "/",
-              title: "本科招生章程",
-              content: "东师 2023 年本科招生章程已经发布",
-              actions: [
-                {
-                  text: "查看详情",
-                  link: "/intro/enroll/under/rule/",
-                },
-              ],
-            },
+            // {
+            //   path: "/",
+            //   title: "本科招生章程",
+            //   content: "东师 2023 年本科招生章程已经发布",
+            //   actions: [
+            //     {
+            //       text: "查看详情",
+            //       link: "/intro/enroll/under/rule/",
+            //     },
+            //   ],
+            // },
           ],
         },
       },
@@ -63,5 +74,5 @@ export default hopeTheme(
       sitemap: true,
     },
   },
-  { custom: true },
+  { custom: true }
 );
