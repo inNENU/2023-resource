@@ -19,8 +19,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/media/intro
+        path: /school/media/intro
 
       - text: 专业
         icon: intro
-        path: /intro/school/media/enroll
+        path: /school/media/enroll

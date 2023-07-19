@@ -61,7 +61,7 @@ content:
         color: olive
         name: Major
         icon: about
-        path: intro/school/major
+        path: school/major
 
       - text: 转专业
         color: red
@@ -97,7 +97,7 @@ content:
         color: blue
         name: Library
         icon: library
-        path: intro/apt/library/
+        path: apartment/library/
 
       - text: 考试
         color: olive

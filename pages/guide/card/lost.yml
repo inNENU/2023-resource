@@ -20,7 +20,7 @@ content:
     items:
       - text: 信息化办
         icon: pc
-        path: /intro/apt/xxhb/
+        path: /apartment/xxhb/
 
   - tag: title
     text: 补卡费用

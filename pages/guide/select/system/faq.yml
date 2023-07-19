@@ -53,4 +53,4 @@ content:
     heading: 没有电脑或使用非 Windows 系统
     text:
       - 如果您没有电脑，或使用 MacBook 但不会安装双系统亦或虚拟机，请前往图书馆使用电子阅览室。
-    path: /intro/apt/library/digit-room
+    path: /apartment/library/digit-room

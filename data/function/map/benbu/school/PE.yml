@@ -24,12 +24,12 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/pe/intro
+        path: /school/pe/intro
 
       - text: 专业介绍
         icon: intro
-        path: /intro/school/pe/enroll
+        path: /school/pe/enroll
 
       - text: 学科建设
         icon: degree
-        path: /intro/school/pe/subject
+        path: /school/pe/subject

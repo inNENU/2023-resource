@@ -16,7 +16,7 @@ content:
     items:
       - text: 校医院详情
         icon: hospital
-        path: /intro/apt/hospital/
+        path: /apartment/hospital/
 
   - tag: p
     type: tip

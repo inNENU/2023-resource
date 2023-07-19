@@ -22,8 +22,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/math/intro
+        path: /school/math/intro
 
       - text: 专业介绍
         icon: intro
-        path: /intro/school/math/enroll
+        path: /school/math/enroll

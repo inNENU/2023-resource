@@ -22,8 +22,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/chinese/intro
+        path: /school/chinese/intro
 
       - text: 招生介绍
         icon: intro
-        path: /intro/school/chinese/enroll
+        path: /school/chinese/enroll

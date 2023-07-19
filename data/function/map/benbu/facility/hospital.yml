@@ -14,24 +14,24 @@ content:
     items:
       - text: 校医院简介
         icon: about
-        path: /intro/apt/hospital/intro
+        path: /apartment/hospital/intro
 
       - text: 补办公费医疗手册
         icon: handbook
-        path: /intro/apt/hospital/handbook
+        path: /apartment/hospital/handbook
 
       - text: 楼层分布
         icon: floor
-        path: /intro/apt/hospital/floor
+        path: /apartment/hospital/floor
 
       - text: 注意事项
         icon: alert
-        path: /intro/apt/hospital/attention
+        path: /apartment/hospital/attention
 
       - text: 科室介绍
         icon: association
-        path: /intro/apt/hospital/department
+        path: /apartment/hospital/department
 
       - text: 联系电话
         icon: phone
-        path: /intro/apt/hospital/phone
+        path: /apartment/hospital/phone

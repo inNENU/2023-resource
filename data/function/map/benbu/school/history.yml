@@ -24,12 +24,12 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/history/intro
+        path: /school/history/intro
 
       - text: 招生介绍
         icon: intro
-        path: /intro/school/history/enroll
+        path: /school/history/enroll
 
       - text: 学科简介
         icon: bookshelf
-        path: /intro/school/history/subject
+        path: /school/history/subject

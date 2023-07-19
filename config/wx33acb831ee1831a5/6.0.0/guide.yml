@@ -69,7 +69,7 @@ data:
         color: olive
         name: Major
         icon: about
-        path: intro/school/major
+        path: school/major
 
       - text: 经验分享直播与答疑
         color: purple
@@ -237,7 +237,7 @@ data:
         color: blue
         name: Library
         icon: library
-        path: intro/apt/library/
+        path: apartment/library/
 
       - text: 校内考试
         color: olive

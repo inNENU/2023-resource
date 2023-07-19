@@ -22,11 +22,11 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/politics/intro
+        path: /school/politics/intro
 
       - text: 专业
         icon: intro
-        path: /intro/school/politics/enroll
+        path: /school/politics/enroll
 
   - tag: title
     text: 学科建设
@@ -40,13 +40,13 @@ content:
     header: 详情
     items:
       - text: 学科建设
-        path: /intro/school/politics/subject
+        path: /school/politics/subject
 
       - text: 政治学
-        path: /intro/school/politics/politic-subject
+        path: /school/politics/politic-subject
 
       - text: 法学
-        path: /intro/school/politics/law-subject
+        path: /school/politics/law-subject
 
       - text: 公共管理
-        path: /intro/school/politics/manage-subject
+        path: /school/politics/manage-subject

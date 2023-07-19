@@ -20,74 +20,74 @@ content:
     items:
       - text: 图书馆简介
         icon: intro
-        path: /intro/apt/library/intro
+        path: /apartment/library/intro
 
       - text: 图书馆历史
         icon: time
-        path: /intro/apt/library/history
+        path: /apartment/library/history
 
       - text: 图书馆风貌
         icon: photo
-        path: /intro/apt/library/scene
+        path: /apartment/library/scene
 
       - text: 馆藏分布
         icon: bookshelf
-        path: /intro/apt/library/distribution
+        path: /apartment/library/distribution
 
       - text: 楼层平面图
         icon: floor
-        path: /intro/apt/library/floor
+        path: /apartment/library/floor
 
       - text: 开馆时间
         icon: time
-        path: /intro/apt/library/door
+        path: /apartment/library/door
 
   - tag: list
     items:
       - text: 书目检索
         icon: search
-        path: /intro/apt/library/search
+        path: /apartment/library/search
 
       - text: 借书权限
         icon: borrow
-        path: /intro/apt/library/auth
+        path: /apartment/library/auth
 
       - text: 图书预约
         icon: borrow
-        path: /intro/apt/library/book
+        path: /apartment/library/book
 
       - text: 借书还书
         icon: flow
-        path: /intro/apt/library/borrow
+        path: /apartment/library/borrow
 
       - text: 续借图书
         icon: flow
-        path: /intro/apt/library/renew
+        path: /apartment/library/renew
 
       - text: 图书荐购
         icon: money
-        path: /intro/apt/library/buy
+        path: /apartment/library/buy
 
   - tag: list
     items:
       - text: 电子资源
         icon: bookshelf
-        path: /intro/apt/library/evpn
+        path: /apartment/library/evpn
 
       - text: 电子阅览室
         icon: pc
-        path: /intro/apt/library/digit-room
+        path: /apartment/library/digit-room
 
       - text: 其他服务
         icon: contact
-        path: /intro/apt/library/service
+        path: /apartment/library/service
 
   - tag: list
     items:
       - text: 联系方式
         icon: phone
-        path: /intro/apt/library/contact
+        path: /apartment/library/contact
 
       - text: 常见问题
         icon: faq
-        path: /intro/apt/library/faq
+        path: /apartment/library/faq

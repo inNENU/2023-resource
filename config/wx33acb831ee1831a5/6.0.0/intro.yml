@@ -31,7 +31,7 @@ data:
 
   apt:
     name: 学校机构
-    path: /intro/apt/
+    path: /apartment/
     items:
       - text: 招生办公室
         color: orange
@@ -131,7 +131,7 @@ data:
 
   school:
     text: 学院介绍
-    path: /intro/school/
+    path: /school/
     items:
       - text: 教育学部
         color: blue

@@ -63,7 +63,7 @@ content:
     items:
       - text: 招生办公室联系方式
         icon: phone
-        path: /intro/apt/enroll/contact
+        path: /apartment/enroll/contact
 
       - text: 招生咨询群
         desc: 已截止

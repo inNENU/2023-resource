@@ -14,7 +14,7 @@ content:
         color: olive
         name: Major
         icon: about
-        path: /intro/school/major
+        path: /school/major
 
       - text: 找到组织
         color: olive

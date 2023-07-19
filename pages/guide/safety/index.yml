@@ -70,4 +70,4 @@ content:
     items:
       - text: 保卫科
         icon: police
-        path: /intro/apt/defend
+        path: /apartment/defend

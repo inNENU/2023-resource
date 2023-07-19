@@ -6,12 +6,12 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/people/intro
+        path: /school/people/intro
 
       - text: 一年制培养
         icon: plan
-        path: /intro/school/people/one-year
+        path: /school/people/one-year
 
       - text: 两年制培养
         icon: plan
-        path: /intro/school/people/two-year
+        path: /school/people/two-year

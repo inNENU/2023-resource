@@ -11,7 +11,7 @@ content:
     type: warning
     text:
       - 如果有人要求您现场缴纳学费，请稳住他记住他的相貌并第一时间反馈给保卫科。
-    path: /intro/apt/defend
+    path: /apartment/defend
 
   - tag: text
     type: tip

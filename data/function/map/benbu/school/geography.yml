@@ -23,12 +23,12 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/geography/intro
+        path: /school/geography/intro
 
       - text: 招生介绍
         icon: intro
-        path: /intro/school/geography/enroll
+        path: /school/geography/enroll
 
       - text: 学科建设
         icon: bookshelf
-        path: /intro/school/geography/subject
+        path: /school/geography/subject

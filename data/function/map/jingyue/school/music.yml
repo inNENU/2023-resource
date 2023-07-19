@@ -19,8 +19,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/music/intro
+        path: /school/music/intro
 
       - text: 专业
         icon: intro
-        path: /intro/school/music/enroll
+        path: /school/music/enroll

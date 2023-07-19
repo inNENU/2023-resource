@@ -22,8 +22,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/marx/intro
+        path: /school/marx/intro
 
       - text: 招生介绍
         icon: intro
-        path: /intro/school/marx/enroll
+        path: /school/marx/enroll

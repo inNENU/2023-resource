@@ -18,8 +18,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/ist/intro
+        path: /school/ist/intro
 
       - text: 专业
         icon: intro
-        path: /intro/school/ist/enroll
+        path: /school/ist/enroll

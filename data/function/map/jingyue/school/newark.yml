@@ -6,11 +6,11 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/newark/intro
+        path: /school/newark/intro
 
       - text: 专业
         icon: intro
-        path: /intro/school/newark/enroll
+        path: /school/newark/enroll
 
   - tag: action
     header: 官网地址

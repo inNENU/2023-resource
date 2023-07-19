@@ -24,8 +24,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/biology/intro
+        path: /school/biology/intro
 
       - text: 专业介绍
         icon: intro
-        path: /intro/school/biology/enroll
+        path: /school/biology/enroll

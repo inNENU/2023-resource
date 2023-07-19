@@ -8,21 +8,21 @@ content:
     items:
       - text: 学生心理健康教育中心简介
         icon: about
-        path: /intro/apt/psychology/intro
+        path: /apartment/psychology/intro
 
       - text: 心理咨询
         desc: 何时需要
         icon: intro
-        path: /intro/apt/psychology/consult
+        path: /apartment/psychology/consult
 
       - text: 心理咨询知情同意书
         icon: rule
-        path: /intro/apt/psychology/agreement
+        path: /apartment/psychology/agreement
 
       - text: 心理咨询服务
         icon: service
-        path: /intro/apt/psychology/service
+        path: /apartment/psychology/service
 
       - text: 常见问题解答
         icon: faq
-        path: /intro/apt/psychology/faq
+        path: /apartment/psychology/faq

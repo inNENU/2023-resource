@@ -38,4 +38,4 @@ content:
     items:
       - text: 研究生院联系方式
         icon: phone
-        path: /intro/apt/grad/contact
+        path: /apartment/grad/contact

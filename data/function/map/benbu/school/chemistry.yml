@@ -22,8 +22,8 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /intro/school/chemistry/intro
+        path: /school/chemistry/intro
 
       - text: 专业介绍
         icon: intro
-        path: /intro/school/chemistry/enroll
+        path: /school/chemistry/enroll
