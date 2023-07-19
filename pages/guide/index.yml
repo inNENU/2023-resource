@@ -191,7 +191,7 @@ content:
         color: purple
         name: Advice
         icon: idea
-        path: advice/
+        path: /newcomer/advice/
 
   - tag: grid
     header: 东师贴士
