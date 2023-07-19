@@ -1,6 +1,6 @@
 service:
-  course-grade: local
-  course-table: local
+  course-grade: online
+  course-table: online
   info-detail: local
   info-list: local
   enroll-grade: local
