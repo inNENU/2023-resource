@@ -266,8 +266,8 @@ building:
 
     - latitude: 43.861761
       longitude: 125.332185
-      name: 逸夫科技馆
-      detail: 东北师范大学逸夫科技馆
+      name: 逸夫科学馆
+      detail: 东北师范大学逸夫科学馆
       path: yifu-science
 
     - latitude: 43.860177

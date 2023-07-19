@@ -3,8 +3,12 @@ author: Mr.Hope
 time: 2020-09-01
 photo:
   - $img/dorm/dorm8.jpg
+  - $img/dorm/dorm8-1.jpg
   - $img/dorm/dorm8-2.jpg
   - $img/dorm/dorm8-3.jpg
+  - $img/dorm/dorm8-4.jpg
+  - $img/dorm/dorm8-5.jpg
+  - $img/dorm/dorm8-6.jpg
 content:
   - tag: title
     text: 八舍

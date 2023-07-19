@@ -6,6 +6,9 @@ time: 2020-09-01
 photo:
   - $img/scenery/benbu/scenery/silence-lake1.jpg
   - $img/scenery/benbu/scenery/silence-lake2.jpg
+  - $img/scenery/benbu/scenery/silence-lake3.jpg
+  - $img/scenery/benbu/scenery/silence-lake4.jpg
+  - $img/scenery/benbu/scenery/silence-lake5.jpg
 content:
   - tag: title
     text: 简介

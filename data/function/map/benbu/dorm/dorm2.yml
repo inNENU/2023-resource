@@ -3,6 +3,8 @@ author: Mr.Hope
 time: 2020-09-01
 photo:
   - $img/dorm/dorm2.jpg
+  - $img/dorm/dorm2-1.jpg
+  - $img/dorm/dorm2-2.jpg
 content:
   - tag: title
     text: 入住人员

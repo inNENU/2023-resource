@@ -5,6 +5,9 @@ photo:
   - $img/scenery/benbu/building/library.jpg
   - $img/scenery/benbu/building/library1.jpg
   - $img/scenery/benbu/building/library2.jpg
+  - $img/scenery/benbu/building/library3.jpg
+  - $img/scenery/benbu/building/library4.jpg
+  - $img/scenery/benbu/building/library5.jpg
 content:
   - tag: account
     name: 图书馆
