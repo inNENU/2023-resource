@@ -102,7 +102,7 @@ data:
       - text: 校团委
         color: purple
         name: League
-        icon: $img/about/group.png
+        icon: https://assets.innenu.com/img/about/group.png
         path: youth-league/
 
       - text: 学生心理健康教育中心

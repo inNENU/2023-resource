@@ -1,7 +1,7 @@
 title: 报到
 grey: true
 author: Mr.Hope
-time: 2023-07-16T11:41:46.561Z
+time: 2023-07-19T07:19:25.311Z
 shareable: true
 content:
   - tag: list
@@ -50,7 +50,7 @@ content:
         path: /newcomer/prepare/league
 
       - text: 团员组织关系接转
-        icon: $img/about/group.png
+        icon: https://assets.innenu.com/img/about/group.png
         path: /newcomer/prepare/group
 
       - text: 户口迁移

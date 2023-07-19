@@ -1,6 +1,6 @@
 title: 入学准备
 author: Mr.Hope
-time: 2023-07-16T11:41:47.408Z
+time: 2023-07-19T07:19:25.494Z
 grey: true
 shareable: true
 content:
@@ -41,7 +41,7 @@ content:
         path: league
 
       - text: 团员组织关系接转
-        icon: $img/about/group.png
+        icon: https://assets.innenu.com/img/about/group.png
         path: group
 
       - text: 户口迁移
@@ -68,7 +68,7 @@ content:
         path: league
 
       - text: 团员组织关系接转
-        icon: $img/about/group.png
+        icon: https://assets.innenu.com/img/about/group.png
         path: group
 
       - text: 户口迁移
