@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - "res/guide/**"
-      - "res/intro/**"
+      - "data/**"
+      - "pages/**"
       - "scripts/**"
       - "site/**"
 

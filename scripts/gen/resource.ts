@@ -8,7 +8,7 @@ import { deleteSync } from "del";
 const getCombine = <T = string>(
   list: T[],
   index = 0,
-  result: T[][] = [],
+  result: T[][] = []
 ): T[][] => {
   if (list.length === 0) return [];
   const temp: T[][] = [[list[index]]];
@@ -23,32 +23,28 @@ const getCombine = <T = string>(
 
 const getUpdateCombine = <T = string>(
   updateList: T[],
-  fullList: T[][],
+  fullList: T[][]
 ): T[][] =>
   fullList.filter((list) =>
-    list.some((item) => updateList.some((updateItem) => updateItem === item)),
+    list.some((item) => updateList.some((updateItem) => updateItem === item))
   );
 
-export const zipFiles = (nameList: string[]): void => {
+export const zipFiles = (folderLocation: string, folderName: string): void => {
   /** 文件名 */
-  const fileName = nameList.join("-");
 
-  deleteSync(`./r/${fileName}.zip`);
+  deleteSync(`./temp/${folderName}.zip`);
 
   // 压缩文件
   if (type() === "Linux")
     execSync(
-      `zip -r r/${fileName}.zip ${nameList
-        .map((name) => `r/${name}`)
-        .join(" ")}`,
+      `zip -r ${folderLocation}/${folderName}.zip ${folderLocation}/${folderName}}`
     );
-  else if (type() === "Windows_NT")
+  else if (type() === "Windows_NT") {
     execSync(
-      `cd ./r && "../assets/lib/7za" a -r ${fileName}.zip ${nameList
-        .map((name) => `"${name}/"`)
-        .join(" ")} && cd ..`,
+      `cd ./${folderLocation} && "../assets/lib/7za" a -r ${folderName}.zip ${`"${folderName}/"`} && cd ..`
     );
-  else throw new Error("Mac OS is not supported");
+    execSync(`mv ./${folderLocation}/${folderName}.zip ./temp`);
+  } else throw new Error("Mac OS is not supported");
 };
 
 export const generateResource = (): void => {
@@ -80,9 +76,9 @@ export const generateResource = (): void => {
       const fileName = resCombine.join("-");
 
       versionInfo.size[fileName] = Math.round(
-        statSync(`./r/${fileName}.zip`).size / 1024,
+        statSync(`./r/${fileName}.zip`).size / 1024
       );
-    },
+    }
   );
 
   // 写入版本信息

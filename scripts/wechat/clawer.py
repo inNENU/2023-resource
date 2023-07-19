@@ -132,7 +132,7 @@ class Spider(object):
     def write_article(self, account_id, filename):
         result = ''
 
-        with open('../../res/account/' + filename + '.yml', 'r', encoding="utf-8") as f:
+        with open('../../data/account/' + filename + '.yml', 'r', encoding="utf-8") as f:
             content = f.read()
 
         try:
@@ -189,7 +189,7 @@ class Spider(object):
         except Exception as e:
             traceback.print_exc(e)
 
-        with open('../../res/account/' + filename + '.yml', 'w', encoding="utf-8") as f:
+        with open('../../data/account/' + filename + '.yml', 'w', encoding="utf-8") as f:
             f.write(content.replace('article:\n', 'article:\n' + result))
 
 

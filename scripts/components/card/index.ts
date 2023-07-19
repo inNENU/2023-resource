@@ -7,14 +7,14 @@ import { aliasResolve, getPath } from "../utils.js";
 
 export const resolveCard = (
   component: CardComponentOptions,
-  location = "",
+  location = ""
 ): void => {
   if (component.logo) {
     // check icons
     if (
       !component.logo.match(/^https?:\/\//) &&
       !component.logo.match(/\./) &&
-      !existsSync(`./res/icon/${component.logo}.svg`)
+      !existsSync(`./data/icon/${component.logo}.svg`)
     ) {
       console.warn(`Icon ${component.logo} not exist in ${location}`);
     } else component.logo = aliasResolve(component.logo, "Image", location);
@@ -36,7 +36,7 @@ export const resolveCard = (
       options: ["object", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location,
+    location
   );
 
   // check options
@@ -53,7 +53,7 @@ export const resolveCard = (
         path: ["string", "undefined"],
         shortLink: ["string", "undefined"],
       },
-      `${location}.options`,
+      `${location}.options`
     );
 };
 

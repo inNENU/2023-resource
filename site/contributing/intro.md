@@ -21,7 +21,7 @@ YAML 是专门用来写配置文件的语言，非常简洁和强大，其设计
 
 ::: tip 更多参考
 
-所有的小程序页面都在 <https://github.com/Hope-Studio/innenu-res/blob/main/res/> 下，您可以尽情的进行参考。
+所有的小程序页面都在 <https://github.com/Hope-Studio/innenu-res/blob/main/pages/> 下，您可以尽情的进行参考。
 
 :::
 
@@ -75,8 +75,8 @@ in 东师服务器文件结构如下:
 
 - 文件存放在 `https://mp.innenu.com/file/` 下
 - 图片存放在 `https://mp.innenu.com/img/` 下
-- 页面 YAML 存放在 `https://mp.innenu.com/res/` 下
-- 图标存放在 `https://mp.innenu.com/res/icon/` 下
+- 页面 YAML 存放在 `https://mp.innenu.com/pages/` 下
+- 图标存放在 `https://mp.innenu.com/data/icon/` 下
 
 ::: info
 

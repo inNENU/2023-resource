@@ -30,7 +30,7 @@ const decodeText = (text: string): string =>
 
 export const checkAccount = (
   data: AccountConfig[],
-  location: string,
+  location: string
 ): AccountConfig[] => {
   data.forEach((item) => {
     item.account.forEach((config) => {
@@ -57,7 +57,7 @@ export interface AccountDetail {
 
 export const checkAccountDetail = (
   data: AccountDetail,
-  location: string,
+  location: string
 ): AccountDetail => {
   // `$` alias resolve and file check
   if (data.logo) data.logo = aliasResolve(data.logo, "Image", location);
@@ -67,7 +67,7 @@ export const checkAccountDetail = (
 };
 
 export const genAccount = (filePath: string): Promise<void> => {
-  let content = readFileSync(`./res/account/${filePath}`, {
+  let content = readFileSync(`./data/account/${filePath}`, {
     encoding: "utf-8",
   });
 
@@ -91,18 +91,18 @@ export const genAccount = (filePath: string): Promise<void> => {
           `- url: ${item}`,
           `- cover: ${cover}\n    title: ${decodeText(title)}\n${
             desc ? `    desc: ${decodeText(desc)}\n` : ""
-          }    url: ${item}`,
+          }    url: ${item}`
         );
-      }),
-    ),
+      })
+    )
   ).then(() => {
-    writeFileSync(`./res/account/${filePath}`, content, {
+    writeFileSync(`./data/account/${filePath}`, content, {
       encoding: "utf-8",
     });
   });
 };
 
-const fileList = getFileList("./res/account", "yml");
+const fileList = getFileList("./data/account", "yml");
 
 fileList.forEach((item) => {
   genAccount(item);

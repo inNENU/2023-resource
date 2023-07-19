@@ -1,9 +1,9 @@
 {
   "yaml.schemas": {
     "./.vscode/res.schema.json": [
-      "/res/guide/**/*.yml",
-      "/res/intro/**/*.yml",
-      "/res/other/**/*.yml"
+      "/pages/guide/**/*.yml",
+      "/pages/intro/**/*.yml",
+      "/pages/other/**/*.yml"
     ]
   }
 }

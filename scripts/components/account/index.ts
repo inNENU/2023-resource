@@ -5,7 +5,7 @@ import { aliasResolve } from "../utils.js";
 
 export const resolveAccount = (
   component: AccountComponentOptions,
-  location = "",
+  location = ""
 ): void => {
   // `$` alias resolve and file check
   if (component.logo)
@@ -34,7 +34,7 @@ export const resolveAccount = (
       site: ["string", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location,
+    location
   );
 
   // check location
@@ -42,12 +42,12 @@ export const resolveAccount = (
     checkKeys(
       component.location,
       { latitude: "number", longitude: "number" },
-      `${location}.location`,
+      `${location}.location`
     );
 };
 
 export const getAccountMarkdown = (
-  component: AccountComponentOptions,
+  component: AccountComponentOptions
 ): string => {
   // `$` alias resolve and file check
   if (component.logo) component.logo = aliasResolve(component.logo);
@@ -85,7 +85,7 @@ ${
     <button class="innenu-account-action" ${
       qq ? `aria-label="${qq}" data-balloon-pos="up" data-qq="${qq}" ` : ""
     }${qqcode ? `data-qqcode="${qqcode}"` : ""}>
-      <img class="innenu-account-icon" src="https://mp.innenu.com/res/icon/qq.svg" no-view />
+      <img class="innenu-account-icon" src="https://mp.innenu.com/data/icon/qq.svg" no-view />
     </button>
 `
     : ""
@@ -96,7 +96,7 @@ ${
     <button class="innenu-account-action" ${
       wxid ? `data-wxid="${wxid}" ` : ""
     }${wxcode ? `data-wxcode="${wxcode}" ` : ""}>
-      <img class="innenu-account-icon" src="https://mp.innenu.com/res/icon/wechat.svg" no-view />
+      <img class="innenu-account-icon" src="https://mp.innenu.com/data/icon/wechat.svg" no-view />
     </button>
 `
     : ""

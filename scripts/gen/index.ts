@@ -26,28 +26,26 @@ import { convertYml2Json } from "../utils/index.js";
 
 // 删除旧的文件
 deleteSync([
-  "./r/function/**",
-  "./r/guide/**",
-  "./r/intro/**",
-  "./r/icon/**",
-  "./r/other/**",
+  "./d/function/**",
+  "./d/icon/**",
+  "./d/guide/**",
+  "./d/intro/**",
+  "./d/other/**",
 ]);
 
-// 生成对应的 JSON
-
 // 转换账号
-convertYml2Json("./res/account", "./r/account", (data, filePath) =>
-  checkAccountDetail(data as AccountDetail, filePath),
+convertYml2Json("./data/account", "./d/account", (data, filePath) =>
+  checkAccountDetail(data as AccountDetail, filePath)
 );
 
 // 功能大厅
-convertYml2Json("./res/function", "./r/function", (data, filePath) =>
+convertYml2Json("./data/function", "./d/function", (data, filePath) =>
   /map\/marker\/(benbu|jingyue)/u.exec(filePath)
     ? resolveMarker(data as MarkerOption)
     : /map\/(benbu|jingyue)\//u.exec(filePath)
     ? resolveLocationPage(
         data as PageConfig & { photo?: string[] },
-        `function/${filePath}`,
+        `function/${filePath}`
       )
     : /pe-calculator\/(male|female)-(low|high)/u.exec(filePath)
     ? genPEScore(data as PEConfig)
@@ -55,25 +53,25 @@ convertYml2Json("./res/function", "./r/function", (data, filePath) =>
     ? checkAccount(data as AccountConfig[], filePath)
     : /music\/index/u.exec(filePath)
     ? checkMusic(data as MusicInfo[], filePath)
-    : (data as unknown),
+    : (data as unknown)
 );
 
 /** 差异列表 */
 const diffResult = execSync("git status -s").toString();
 
 // 东师介绍
-convertYml2Json("./res/intro", "./r/intro", (data, filePath) =>
-  resolvePage(data as PageConfig, `intro/${filePath}`, diffResult),
+convertYml2Json("./pages/intro", "./d/intro", (data, filePath) =>
+  resolvePage(data as PageConfig, `intro/${filePath}`, diffResult)
 );
 
 // 东师指南
-convertYml2Json("./res/guide", "./r/guide", (data, filePath) =>
-  resolvePage(data as PageConfig, `guide/${filePath}`, diffResult),
+convertYml2Json("./pages/guide", "./d/guide", (data, filePath) =>
+  resolvePage(data as PageConfig, `guide/${filePath}`, diffResult)
 );
 
 // 其他文件
-convertYml2Json("./res/other", "./r/other", (data, filePath) =>
-  resolvePage(data as PageConfig, `other/${filePath}`, diffResult),
+convertYml2Json("./pages/other", "./d/other", (data, filePath) =>
+  resolvePage(data as PageConfig, `other/${filePath}`, diffResult)
 );
 
 // 生成转码后的图标
@@ -90,8 +88,8 @@ genEnrollPlan();
 genHistoryResult();
 
 // 生成捐赠
-convertYml2Json("./res/config/donate", "./r/other/donate", (data, filePath) =>
-  genDonate(data as Donate, filePath),
+convertYml2Json("./config/donate", "./d/other/donate", (data, filePath) =>
+  genDonate(data as Donate, filePath)
 );
 
 // 生成 Sitemap
@@ -99,17 +97,17 @@ convertYml2Json("./res/config/donate", "./r/other/donate", (data, filePath) =>
 count();
 
 // 重新生成 guide
-convertYml2Json("./res/other/guide", "./r/other/guide", (data, filePath) =>
-  resolvePage(data as PageConfig, filePath),
+convertYml2Json("./pages/other/guide", "./d/other/guide", (data, filePath) =>
+  resolvePage(data as PageConfig, filePath)
 );
 
 // 生成 tab 页
-convertYml2Json("./res/config", "./r/config", (data, filePath) =>
-  // TODO: FIXME
+convertYml2Json("./config", "./d/config", (data, filePath) =>
+  // FIXME: FIXME
   /(function|guide|intro|main|user)/u.exec(filePath) &&
   !filePath.includes("6.0.0")
     ? resolvePage(data as PageConfig, filePath)
-    : (data as unknown),
+    : (data as unknown)
 );
 
 // 生成资源

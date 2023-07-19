@@ -241,8 +241,8 @@ in 东师服务器文件结构如下:
 
 - 文件: 存放在 `https://mp.innenu.com/file/`，可以用 `$file` 索引
 - 图片: 存放在 `https://mp.innenu.com/img/`，可以用 `$img` 索引
-- 页面 YAML: 存放在 `https://mp.innenu.com/res/`
-- 图标: 存放在 `https://mp.innenu.com/res/icon/`
+- 页面 YAML: 存放在 `https://mp.innenu.com/pages/`
+- 图标: 存放在 `https://mp.innenu.com/data/icon/`
 
 ::: info
 
@@ -409,7 +409,7 @@ content:
       - text: iOS 邮箱客户端设置
 ```
 
-我们可以添加额外的 `icon` 属性来设置一个美观的图标。当前可用的全部图标请详见 <https://github.com/Hope-Studio/innenu-res/blob/main/res/icon/>。 我们可以直接找到相应图标并设置 `icon` 为文件名 (不带 `.svg` 后缀)。
+我们可以添加额外的 `icon` 属性来设置一个美观的图标。当前可用的全部图标请详见 <https://github.com/Hope-Studio/innenu-res/blob/main/data/icon/>。 我们可以直接找到相应图标并设置 `icon` 为文件名 (不带 `.svg` 后缀)。
 
 ```yml
 title: 账号
@@ -467,10 +467,10 @@ content:
 
 有些时候，您可能需要从 `intro.yml` 跳转到 `index.yml` 中去，这就涉及到表示父目录的方式。我们使用 `../` 表示父目录，所以对于 `intro.yml` 来说，`index.yml` 的路径可写为 `../index`，而参数表中提到 `index` 为默认文件，所以可以简写为 `../`。
 
-有些时候您能想从根目录开始描述路径，这种情况下，请以 `/` 开头设置 path，此时您会从 `res/` 文件夹下开始进行路径的匹配。
+有些时候您能想从根目录开始描述路径，这种情况下，请以 `/` 开头设置 path，此时您会从 `pages/` 文件夹下开始进行路径的匹配。
 
 ```
-└─ res
+└─ pages
    ├─ intro
    |   ...
    └─ guide

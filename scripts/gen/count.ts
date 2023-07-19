@@ -29,7 +29,7 @@ export const getWords = (path: string): number => {
     const pageContent = <PageOptions>JSON.parse(
       readFileSync(resolve(path, filePath), {
         encoding: "utf-8",
-      }),
+      })
     );
 
     const content = getJSONValue(pageContent);
@@ -41,37 +41,37 @@ export const getWords = (path: string): number => {
 };
 
 export const count = (): void => {
-  const functionWords = getWords("./r/function");
-  const guideWords = getWords("./r/guide");
-  const introWords = getWords("./r/intro");
-  const otherWords = getWords("./r/other");
+  const functionWords = getWords("./d/function");
+  const guideWords = getWords("./d/guide");
+  const introWords = getWords("./d/intro");
+  const otherWords = getWords("./d/other");
   const wordsTip = `现有字数为 ${
     functionWords + guideWords + introWords + otherWords
   } 字，其中东师介绍部分 ${introWords} 字，东师指南部分 ${guideWords} 字，功能大厅部分 ${functionWords} 字，其他部分 ${otherWords} 字。`;
 
   console.log(wordsTip);
 
-  getFileList("./res/config", ".yml").forEach((filePath) => {
+  getFileList("./config", ".yml").forEach((filePath) => {
     if (/\/about.yml/u.exec(filePath)) {
-      const content = readFileSync(resolve("./res/config/", filePath), {
+      const content = readFileSync(resolve("./config/", filePath), {
         encoding: "utf-8",
       });
       const newContent = content.replace(
         /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
-        wordsTip,
+        wordsTip
       );
 
-      writeFileSync(resolve("./res/config/", filePath), newContent);
+      writeFileSync(resolve("./config/", filePath), newContent);
     }
 
-    const content = readFileSync("./res/other/guide/index.yml", {
+    const content = readFileSync("./pages/other/guide/index.yml", {
       encoding: "utf-8",
     });
     const newContent = content.replace(
       /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
-      wordsTip,
+      wordsTip
     );
 
-    writeFileSync("./res/other/guide/index.yml", newContent);
+    writeFileSync("./pages/other/guide/index.yml", newContent);
   });
 };

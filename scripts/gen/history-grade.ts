@@ -1242,7 +1242,7 @@ dsy.add("0_2_30_1_0", ["文科", "理科"]);
 dsy.add("0_2_30_2_0", ["文科", "理科"]);
 
 export const genHistoryResult = (): void => {
-  if (!existsSync("./r/function/enroll/"))
-    mkdirSync("./r/function/enroll/", { recursive: true });
-  writeFileSync("./r/function/enroll/grade.json", dsy.exportJSON());
+  if (!existsSync("./d/function/enroll/"))
+    mkdirSync("./d/function/enroll/", { recursive: true });
+  writeFileSync("./d/function/enroll/grade.json", dsy.exportJSON());
 };

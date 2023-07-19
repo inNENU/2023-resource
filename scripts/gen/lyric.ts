@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 import { getFileList } from "../utils/index.js";
 
-const lyricFolder = "./res/function/music";
+const lyricFolder = "./data/function/music";
 
 /** 歌词配置 */
 interface LyricConfig {
@@ -29,7 +29,7 @@ export const genLyric = (): void => {
         const timeResult = /(.*):(.*)/u.exec(result[1])!;
         /** 正确的时间 */
         const time = Number(
-          (Number(timeResult[1]) * 60 + Number(timeResult[2])).toFixed(3),
+          (Number(timeResult[1]) * 60 + Number(timeResult[2])).toFixed(3)
         );
 
         lyricConfig.push({ time, text: result[2] });
@@ -37,8 +37,8 @@ export const genLyric = (): void => {
     });
 
     writeFileSync(
-      `./r/function/music/${lyricPath.replace(/lrc$/u, "json")}`,
-      JSON.stringify(lyricConfig),
+      `./d/function/music/${lyricPath.replace(/lrc$/u, "json")}`,
+      JSON.stringify(lyricConfig)
     );
   });
   console.log("Generated lyric!");

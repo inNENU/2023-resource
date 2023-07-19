@@ -33,7 +33,7 @@ import { resolveVideo } from "./video/index.js";
 export const resolvePage = (
   page: PageConfig,
   pagePath = "",
-  diffResult = "",
+  diffResult = ""
 ): PageOptions => {
   if (!page) throw new Error(`${pagePath} doesn't contain anything`);
 
@@ -94,7 +94,7 @@ export const resolvePage = (
         console.warn(
           `${pagePath} page.content[${index}] 存在非法 tag ${
             tag as unknown as string
-          }`,
+          }`
         );
 
       return element;
@@ -106,7 +106,7 @@ export const resolvePage = (
 
   if (time) {
     // update time
-    if (diffResult.includes(`res/${pageData.id}`)) {
+    if (diffResult.includes(`pages/${pageData.id}`)) {
       const date = new Date();
 
       const timeText = `${date.getFullYear()} 年 ${
@@ -120,12 +120,12 @@ export const resolvePage = (
       }`;
 
       writeFileSync(
-        `./res/${pagePath}.yml`,
-        readFileSync(`./res/${pagePath}.yml`, { encoding: "utf-8" }).replace(
+        `./pages/${pagePath}.yml`,
+        readFileSync(`./pages/${pagePath}.yml`, { encoding: "utf-8" }).replace(
           /^time: .+$/m,
-          `time: ${date.toISOString()}`,
+          `time: ${date.toISOString()}`
         ),
-        { encoding: "utf-8" },
+        { encoding: "utf-8" }
       );
       pageData.time = timeText;
     } else {
@@ -161,7 +161,7 @@ export const resolvePage = (
       photo: ["string[]", "undefined"],
       images: ["string[]", "undefined"],
     },
-    `${pagePath} page`,
+    `${pagePath} page`
   );
 
   return pageData;

@@ -593,7 +593,7 @@ dsy.add("0_0_30_4_0", ["文史"]);
 dsy.add("0_0_30_5_0", ["文史", "理工"]);
 
 export const genEnrollPlan = (): void => {
-  if (!existsSync("./r/function/enroll/"))
-    mkdirSync("./r/function/enroll/", { recursive: true });
-  writeFileSync("./r/function/enroll/plan.json", dsy.exportJSON());
+  if (!existsSync("./d/function/enroll/"))
+    mkdirSync("./d/function/enroll/", { recursive: true });
+  writeFileSync("./d/function/enroll/plan.json", dsy.exportJSON());
 };

@@ -8,7 +8,7 @@ import { aliasResolve, getPath, resolvePath } from "../utils.js";
 export const resolveGrid = (
   element: GridComponentOptions,
   pageId: string,
-  location = "",
+  location = ""
 ): void => {
   element.items?.forEach((gridItem) => {
     // 处理路径
@@ -16,7 +16,7 @@ export const resolveGrid = (
       if (gridItem.path.startsWith("/")) {
         const path = resolvePath(gridItem.path);
 
-        if (!existsSync(`./res/${path}.yml`))
+        if (!existsSync(`./pages/${path}.yml`))
           console.error(`Path ${path} not exists in ${location}`);
 
         gridItem.path = path;
@@ -27,7 +27,7 @@ export const resolveGrid = (
 
         const path = resolvePath(`${paths.join("/")}/${gridItem.path}`);
 
-        if (!existsSync(`./res/${path}.yml`))
+        if (!existsSync(`./pages/${path}.yml`))
           console.error(`Path ${path} not exists in ${location}`);
 
         gridItem.path = path;
@@ -37,7 +37,7 @@ export const resolveGrid = (
       gridItem.icon &&
       !gridItem.icon.match(/^https?:\/\//) &&
       !gridItem.icon.match(/\./) &&
-      !existsSync(`./res/icon/${gridItem.icon}.svg`)
+      !existsSync(`./data/icon/${gridItem.icon}.svg`)
     ) {
       console.warn(`Icon ${gridItem.icon} not exist in ${location}`);
     }
@@ -54,7 +54,7 @@ export const resolveGrid = (
         url: ["string", "undefined"],
         env: ["string[]", "undefined"],
       },
-      `${location}.content`,
+      `${location}.content`
     );
   });
 
@@ -67,7 +67,7 @@ export const resolveGrid = (
       footer: ["string", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location,
+    location
   );
 };
 
@@ -97,7 +97,7 @@ ${items
         ? icon
         : icon.startsWith("$")
         ? aliasResolve(icon)
-        : `https://mp.innenu.com/res/icon/${icon}.svg`
+        : `https://mp.innenu.com/data/icon/${icon}.svg`
       : "";
 
     const gridItemContent = `

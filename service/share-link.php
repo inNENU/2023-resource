@@ -21,7 +21,7 @@ $data = json_decode(file_get_contents('php://input'));
 $appID = $data->appID;
 $id = $data->id;
 
-$filename = "../r/config/shareLink.json";
+$filename = "../d/config/shareLink.json";
 $handle = @fopen($filename, "r");
 
 if ($handle) {
