@@ -80,6 +80,11 @@ convertYml2Json("./pages/guide", "./d/guide", (data, filePath) =>
 );
 
 // 其他文件
+convertYml2Json("./pages/newcomer", "./d/newcomer", (data, filePath) =>
+  resolvePage(data as PageConfig, `newcomer/${filePath}`, diffResult)
+);
+
+// 其他文件
 convertYml2Json("./pages/other", "./d/other", (data, filePath) =>
   resolvePage(data as PageConfig, `other/${filePath}`, diffResult)
 );
