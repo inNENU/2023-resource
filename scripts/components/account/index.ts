@@ -5,7 +5,7 @@ import { aliasResolve } from "../utils.js";
 
 export const resolveAccount = (
   component: AccountComponentOptions,
-  location = ""
+  location = "",
 ): void => {
   // `$` alias resolve and file check
   if (component.logo)
@@ -34,7 +34,7 @@ export const resolveAccount = (
       site: ["string", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location
+    location,
   );
 
   // check location
@@ -42,12 +42,12 @@ export const resolveAccount = (
     checkKeys(
       component.location,
       { latitude: "number", longitude: "number" },
-      `${location}.location`
+      `${location}.location`,
     );
 };
 
 export const getAccountMarkdown = (
-  component: AccountComponentOptions
+  component: AccountComponentOptions,
 ): string => {
   // `$` alias resolve and file check
   if (component.logo) component.logo = aliasResolve(component.logo);

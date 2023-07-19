@@ -9,11 +9,11 @@ export const pushPages = (): Promise<void> => {
   const fileList = [
     ...getFileList("./pages/guide", "yml").map(
       (filePath) =>
-        `G${filePath.replace(/\.yml$/u, "").replace(/\/index$/, "/")}`
+        `G${filePath.replace(/\.yml$/u, "").replace(/\/index$/, "/")}`,
     ),
     ...getFileList("./pages/intro", "yml").map(
       (filePath) =>
-        `I${filePath.replace(/\.yml$/u, "").replace(/\/index$/, "/")}`
+        `I${filePath.replace(/\.yml$/u, "").replace(/\/index$/, "/")}`,
     ),
   ];
 
@@ -27,19 +27,19 @@ export const pushPages = (): Promise<void> => {
       ? axios
           // eslint-disable-next-line @typescript-eslint/naming-convention
           .get<{ access_token: string }>(
-            `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appIDInfo[appid]}`
+            `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appIDInfo[appid]}`,
           )
           .then(({ data }) =>
             axios.post(
               // eslint-disable-next-line @typescript-eslint/naming-convention
               `https://api.weixin.qq.com/wxa/search/wxaapi_submitpages?access_token=${data.access_token}`,
-              { pages: pageLists }
-            )
+              { pages: pageLists },
+            ),
           )
           .then(({ data }) => {
             console.log(data);
           })
-      : Promise.resolve()
+      : Promise.resolve(),
   );
 
   return Promise.all(promises).then(() => {

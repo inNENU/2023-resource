@@ -12,11 +12,11 @@ export const zipFile = (folderLocation: string, folderName: string): void => {
   // 压缩文件
   if (type() === "Linux")
     execSync(
-      `zip -r ${folderLocation}/${folderName}.zip ${folderLocation}/${folderName}}`
+      `zip -r ${folderLocation}/${folderName}.zip ${folderLocation}/${folderName}}`,
     );
   else if (type() === "Windows_NT") {
     execSync(
-      `cd ./${folderLocation} && "../assets/lib/7za" a -r ${folderName}.zip ${`"${folderName}/"`} && cd ..`
+      `cd ./${folderLocation} && "../assets/lib/7za" a -r ${folderName}.zip ${`"${folderName}/"`} && cd ..`,
     );
   } else throw new Error("Mac OS is not supported");
 };
@@ -69,7 +69,7 @@ export const generateResource = (): void => {
       // 压缩文件
       zipFile("d", name);
       versionInfo.size[name] = Math.round(
-        statSync(`./d/${name}.zip`).size / 1024
+        statSync(`./d/${name}.zip`).size / 1024,
       );
     }
   });
