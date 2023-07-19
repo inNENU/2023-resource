@@ -9,7 +9,7 @@ content:
     items:
       - text: 常见网上诈骗
         icon: alert
-        path: /guide/safety/
+        path: /newcomer/safety/
 
       - text: 诈骗群聊
         icon: alert

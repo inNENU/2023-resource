@@ -8,7 +8,7 @@ content:
     heading: 大学生活需要准备什么物品?
     text:
       - Mr.Hope 已经根据东师特点，整理了一份需带物品清单，请详见“需带物品”。
-    path: /guide/necessity/
+    path: /newcomer/necessity/
 
   - tag: text
     type: info

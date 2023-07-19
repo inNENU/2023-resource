@@ -9,7 +9,7 @@ content:
     items:
       - text: 体检
         icon: medical-exam
-        path: /guide/check/medical-examination
+        path: /newcomer/check/medical-examination
 
       - text: 英语分班考试
         icon: english

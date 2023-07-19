@@ -9,7 +9,7 @@ content:
     text:
       - 按照国家招生规定录取的新生必须『持东北师范大学录取通知书按照规定的日期来校报到并办理入学手续』。
       - 因故不能按期入学的，必须『事先向所在学院(部)提交书面申请，并附相关证明』。
-    path: /guide/check/flow
+    path: /newcomer/check/flow
 
   - tag: ul
     type: info
@@ -17,7 +17,7 @@ content:
     text:
       - 乘坐地铁从长春火车站抵达东北师范大学本部校区需要在『东北师范大学站』下车。
       - 下火车，如果选择乘坐出租车抵达学校，需要注意『在火车站出租车乘车点乘坐正规出租车』。
-    path: /guide/arrival/
+    path: /newcomer/arrival/
 
   - tag: ul
     type: info

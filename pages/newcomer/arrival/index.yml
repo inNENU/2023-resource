@@ -9,7 +9,7 @@ content:
     items:
       - text: 专业所在校区
         icon: map
-        path: /guide/check/locate
+        path: /newcomer/check/locate
 
   - tag: list
     header: 到本部校区

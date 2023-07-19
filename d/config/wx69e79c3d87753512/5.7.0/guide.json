@@ -14,70 +14,70 @@
           "color": "red",
           "name": "Prepare",
           "icon": "prepare",
-          "path": "guide/prepare/index"
+          "path": "newcomer/prepare/index"
         },
         {
           "text": "找到组织",
           "color": "olive",
           "name": "Contact",
           "icon": "qq-group",
-          "path": "guide/contact/index"
+          "path": "newcomer/contact/index"
         },
         {
           "text": "新生入学教育",
           "color": "blue",
           "name": "Edu Course",
           "icon": "study",
-          "path": "guide/yiban/index"
+          "path": "newcomer/yiban/index"
         },
         {
           "text": "需带物品",
           "color": "olive",
           "name": "Necessity",
           "icon": "necessity",
-          "path": "guide/necessity/index"
+          "path": "newcomer/necessity/index"
         },
         {
           "text": "到校路线",
           "color": "grey",
           "name": "Arrival",
           "icon": "locate",
-          "path": "guide/arrival/index"
+          "path": "newcomer/arrival/index"
         },
         {
           "text": "新生报到",
           "color": "orange",
           "name": "Check",
           "icon": "check",
-          "path": "guide/check/index"
+          "path": "newcomer/check/index"
         },
         {
           "text": "入学活动",
           "color": "purple",
           "name": "Activity",
           "icon": "activity",
-          "path": "guide/activity/index"
+          "path": "newcomer/activity/index"
         },
         {
           "text": "防盗防骗",
           "color": "olive",
           "name": "Safety",
           "icon": "safe",
-          "path": "guide/safety/index"
+          "path": "newcomer/safety/index"
         },
         {
           "text": "常见问题",
           "color": "cyan",
           "name": "FAQ",
           "icon": "faq",
-          "path": "guide/faq/index"
+          "path": "newcomer/faq/index"
         },
         {
           "text": "经验分享直播与答疑",
           "color": "purple",
           "name": "Streaming",
           "icon": "activity",
-          "path": "guide/activity/streaming"
+          "path": "newcomer/activity/streaming"
         }
       ]
     },

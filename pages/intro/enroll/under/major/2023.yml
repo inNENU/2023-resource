@@ -119,7 +119,7 @@ content:
     items:
       - text: 本部校区校门介绍
         icon: gate
-        path: /guide/check/benbu
+        path: /newcomer/check/benbu
 
       - text: 本部校区寝室介绍
         icon: dorm
@@ -207,7 +207,7 @@ content:
     items:
       - text: 净月校区校门介绍
         icon: gate
-        path: /guide/check/jingyue
+        path: /newcomer/check/jingyue
 
       - text: 净月校区寝室介绍
         icon: dorm

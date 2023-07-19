@@ -12,14 +12,14 @@ content:
 
       - text: 报到时间
         icon: time
-        path: /guide/check/location-and-time
+        path: /newcomer/check/location-and-time
 
   - tag: list
     header: 防止诈骗
     items:
       - text: 常上诈骗手段与防范
         icon: alert
-        path: /guide/safety/
+        path: /newcomer/safety/
 
   - tag: list
     header: 入学准备
@@ -30,7 +30,7 @@ content:
 
       - text: 证件材料
         icon: photo
-        path: /guide/necessity/material
+        path: /newcomer/necessity/material
 
       - text: 党员组织关系接转
         icon: league
@@ -57,4 +57,4 @@ content:
 
       - text: 新生群
         icon: qq-group
-        path: /guide/contact/
+        path: /newcomer/contact/

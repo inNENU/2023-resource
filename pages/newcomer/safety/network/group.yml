@@ -65,7 +65,7 @@ content:
     items:
       - text: 找到组织
         icon: qq-group
-        path: /guide/contact/
+        path: /newcomer/contact/
 
   - tag: title
     text: 校外商家建群
@@ -87,4 +87,4 @@ content:
     items:
       - text: 校级新生群
         icon: qq-group
-        path: /guide/contact/all
+        path: /newcomer/contact/all

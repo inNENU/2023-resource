@@ -28,6 +28,7 @@ const resourceList = [
   "guide",
   "icon",
   "intro",
+  "newcomer",
 ];
 
 export const generateResource = (): void => {

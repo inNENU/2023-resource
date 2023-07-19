@@ -16,7 +16,7 @@ content:
         path: locate
 
       - text: "第二步: 出发并到达校区"
-        path: /guide/arrival/
+        path: /newcomer/arrival/
 
   - tag: title
     text: 办理入学和住宿手续
@@ -55,4 +55,4 @@ content:
     header: false
     items:
       - text: "第五步: 校内采购生活用品"
-        path: /guide/necessity/
+        path: /newcomer/necessity/

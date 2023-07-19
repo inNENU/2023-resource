@@ -46,10 +46,10 @@ content:
         path: guide/archive/post-in
 
       - text: 研究生党员组织关系接转
-        path: guide/prepare/league
+        path: newcomer/prepare/league
 
       - text: 研究生团员组织关系接转
-        path: guide/prepare/group
+        path: newcomer/prepare/group
 
   # - tag: title
   #   text: 此处有搜索👆 您可以对小程序内容进行查找
@@ -109,7 +109,7 @@ content:
       #   color: olive
       #   name: Contact
       #   icon: qq-group
-      #   path: guide/contact/
+      #   path: newcomer/contact/
 
       - text: 学习
         color: mauve
@@ -127,7 +127,7 @@ content:
         color: cyan
         name: FAQ
         icon: faq
-        path: guide/faq/
+        path: newcomer/faq/
 
     footer: 更多内容请详见下方其他 Tab 页
 

@@ -47,19 +47,19 @@ content:
 
       - text: 党员组织关系接转
         icon: league
-        path: /guide/prepare/league
+        path: /newcomer/prepare/league
 
       - text: 团员组织关系接转
         icon: $img/about/group.png
-        path: /guide/prepare/group
+        path: /newcomer/prepare/group
 
       - text: 户口迁移
         icon: change
-        path: /guide/prepare/hukou
+        path: /newcomer/prepare/hukou
 
   - tag: list
     header: 防盗防骗攻略
     items:
       - text: 防盗防骗攻略
         icon: safe
-        path: /guide/safety/
+        path: /newcomer/safety/
