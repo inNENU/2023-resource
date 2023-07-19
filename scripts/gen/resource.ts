@@ -55,26 +55,29 @@ export const generateResource = (): void => {
   const updateList: string[] = [];
 
   resourceList.forEach((name) => {
-    // 更新版本号
     if (
       diffResult
         .split("\n")
         .some((item) => item.substring(3).startsWith(`d/${name}/`)) ||
       !existsSync(`./d/${name}.zip`)
     ) {
+      // 更新版本号
       updateList.push(name);
       versionInfo.version[name] += 1;
+
+      // 压缩文件
+      zipFile("d", name);
+      versionInfo.size[name] = Math.round(
+        statSync(`./d/${name}.zip`).size / 1024
+      );
     }
-
-    zipFile("d", name);
-
-    versionInfo.size[name] = Math.round(
-      statSync(`./d/${name}.zip`).size / 1024
-    );
   });
 
   // 写入版本信息
   writeFileSync("./d/version.json", JSON.stringify(versionInfo), {
+    encoding: "utf-8",
+  });
+  writeFileSync("./d/oss-update", updateList.join("\n"), {
     encoding: "utf-8",
   });
 };
