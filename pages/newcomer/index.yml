@@ -8,7 +8,7 @@ content:
         color: olive
         name: Intro
         icon: about
-        path: /intro/
+        path: intro/
 
       - text: 专业介绍
         color: olive
@@ -26,7 +26,7 @@ content:
         color: purple
         name: Streaming
         icon: activity
-        path: /guide/activity/streaming
+        path: activity/streaming
 
       - text: 常见问题
         color: cyan

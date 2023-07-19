@@ -31,14 +31,14 @@ content:
       - text: 顾卓成
         desc: 公费师范
         icon: idea
-        path: /guide/advice/physics/gu
+        path: /newcomer/advice/physics/gu
 
       - text: 张歌扬
         desc: 物理学
         icon: idea
-        path: /guide/advice/physics/zhang
+        path: /newcomer/advice/physics/zhang
 
       - text: 张哲
         desc: 材料物理
         icon: idea
-        path: /guide/advice/physics/zhe
+        path: /newcomer/advice/physics/zhe

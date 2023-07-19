@@ -261,7 +261,7 @@ data:
         color: purple
         name: Advice
         icon: idea
-        path: guide/advice/
+        path: newcomer/advice/
 
   tip:
     text: 东师贴士

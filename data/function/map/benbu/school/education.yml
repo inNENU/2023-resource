@@ -32,8 +32,8 @@ content:
     items:
       - text: 董玥彤
         icon: idea
-        path: /guide/advice/education/dong
+        path: /newcomer/advice/education/dong
 
       - text: 林传舜
         icon: idea
-        path: /guide/advice/education/lin
+        path: /newcomer/advice/education/lin
