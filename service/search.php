@@ -347,7 +347,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'OPTIONS') {
 
   $filename = $data->scope . "-search.json";
 
-  $handle = @fopen($filename, "r");
+  $handle = @fopen($filename, "d");
 
   if ($handle) {
     $searchIndexContent = fread($handle, filesize($filename));

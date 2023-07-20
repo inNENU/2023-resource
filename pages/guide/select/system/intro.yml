@@ -1,6 +1,6 @@
 title: in东师选课系统使用说明
 author: Mr.Hope
-time: 2023-07-17T10:49:00.536Z
+time: 2023-07-20T04:34:41.975Z
 shareable: true
 content:
   - tag: text
@@ -12,7 +12,8 @@ content:
     text: 选课系统使用说明
 
   - tag: text
-    text: 为充分优化手机布局，in东师选课系统分为三个主要模块：已选课程、课程列表和个人信息。
+    text: |-
+      为充分优化手机布局，in东师选课系统分为三个主要模块: 已选课程、课程列表和个人信息。
 
   - tag: img
     src: $img/select/intro1.jpg

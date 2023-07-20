@@ -1,6 +1,6 @@
 title: 选课系统常见问题
 author: Mr.Hope
-time: 2023-07-17T10:49:00.529Z
+time: 2023-07-20T04:34:41.970Z
 shareable: true
 content:
   - tag: title
@@ -19,7 +19,7 @@ content:
     type: info
     heading: 进行操作响应缓慢或提示 timeout
     text:
-      - in东师小程序服务器系 Mr.Hope 自费搭建，配置与性能有限（和学校选课系统本身就很差不一样）
+      - in东师小程序服务器系 Mr.Hope 自费搭建，配置与性能有限 (和学校选课系统本身就很差不一样)
       - 如遇大量用户，小程序服务器可能会产生缓慢与拥堵，推荐使用 in 东师 App 进行操作。同时 Mr.Hope 可能会关闭小程序登录入口。
 
   - tag: title

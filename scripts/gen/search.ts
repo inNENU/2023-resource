@@ -25,7 +25,7 @@ const createSearchMap = (folder: string): SearchInfo => {
     const pageConfig = <PageOptions>JSON.parse(content);
     const pathName = `${folder}/${filePath}`.replace(
       /\.\/r\/(.*)\.json/u,
-      "$1",
+      "$1"
     );
 
     // 生成对应页面的索引对象
@@ -108,15 +108,22 @@ const createSearchMap = (folder: string): SearchInfo => {
 export const genSearchMap = (): void => {
   console.log("Generating search index...");
 
-  const guideSearchMap = createSearchMap("./r/guide");
-  const introSearchMap = createSearchMap("./r/intro");
+  const guideSearchMap = {
+    ...createSearchMap("./d/guide"),
+    ...createSearchMap("./d/newcomer"),
+  };
+  const introSearchMap = {
+    ...createSearchMap("./d/apartment"),
+    ...createSearchMap("./d/intro"),
+    ...createSearchMap("./d/school"),
+  };
 
   // 写入关键词列表
-  writeFileSync("./r/guide-search.json", JSON.stringify(guideSearchMap));
-  writeFileSync("./r/intro-search.json", JSON.stringify(introSearchMap));
+  writeFileSync("./d/guide-search.json", JSON.stringify(guideSearchMap));
+  writeFileSync("./d/intro-search.json", JSON.stringify(introSearchMap));
   writeFileSync(
-    "./r/all-search.json",
-    JSON.stringify({ ...guideSearchMap, ...introSearchMap }),
+    "./d/all-search.json",
+    JSON.stringify({ ...guideSearchMap, ...introSearchMap })
   );
 
   console.log("Search index generated");
