@@ -1,6 +1,6 @@
 title: 选课
 author: Mr.Hope
-time: 2023-07-14T10:28:45.754Z
+time: 2023-07-20T03:57:30.532Z
 grey: true
 shareable: true
 content:
@@ -9,8 +9,8 @@ content:
     heading: 2023 年秋季学期本科生选课时间安排
     text:
       - |-
-        预选时间:6月12日12:00至6月14日16:00
-        月18日10:00公布预选抽签结果
+        预选时间: 6月12日12:00至6月14日16:00
+        6月18日10:00公布预选抽签结果
       - |-
         正选时间: 6月19日12:00至6月23日12:00
         本部校区正选: 6月19日12:00至6月22日12:00
@@ -34,6 +34,10 @@ content:
   - tag: list
     header: false
     items:
+      - text: 本科生 2023 秋季学期选课通知
+        icon: notice
+        url: notice-detail?id=b40dff29247e40c7820970d1045e7e5e&title=2023年秋季学期本科生选课通知
+
       - text: 2023 级学硕选课须知
         icon: notice
         path: notice/study

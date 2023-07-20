@@ -29,7 +29,7 @@ export const getWords = (path: string): number => {
     const pageContent = <PageOptions>JSON.parse(
       readFileSync(resolve(path, filePath), {
         encoding: "utf-8",
-      }),
+      })
     );
 
     const content = getJSONValue(pageContent);
@@ -41,13 +41,22 @@ export const getWords = (path: string): number => {
 };
 
 export const count = (): void => {
+  const apartmentWords = getWords("./d/apartment");
   const functionWords = getWords("./d/function");
   const guideWords = getWords("./d/guide");
   const introWords = getWords("./d/intro");
   const otherWords = getWords("./d/other");
+  const newcomerWords = getWords("./d/newcomer");
+  const schoolWords = getWords("./d/school");
   const wordsTip = `现有字数为 ${
-    functionWords + guideWords + introWords + otherWords
-  } 字，其中东师介绍部分 ${introWords} 字，东师指南部分 ${guideWords} 字，功能大厅部分 ${functionWords} 字，其他部分 ${otherWords} 字。`;
+    apartmentWords +
+    functionWords +
+    guideWords +
+    introWords +
+    otherWords +
+    newcomerWords +
+    schoolWords
+  } 字，其中东师指南部分 ${guideWords} 字，新生迎新部分 ${newcomerWords} 字，东师介绍部分 ${introWords} 字，机构介绍部分 ${apartmentWords} 字，学院介绍部分 ${schoolWords} 字，功能大厅部分 ${functionWords} 字，其他部分 ${otherWords} 字。`;
 
   console.log(wordsTip);
 
@@ -57,8 +66,8 @@ export const count = (): void => {
         encoding: "utf-8",
       });
       const newContent = content.replace(
-        /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
-        wordsTip,
+        /现有字数为.*?其他部分.*?字。/u,
+        wordsTip
       );
 
       writeFileSync(resolve("./config/", filePath), newContent);
@@ -68,8 +77,8 @@ export const count = (): void => {
       encoding: "utf-8",
     });
     const newContent = content.replace(
-      /现有字数为 .* 字，其中东师介绍部分 .* 字，东师指南部分 .* 字，功能大厅部分 .* 字，其他部分 .* 字。/u,
-      wordsTip,
+      /现有字数为.*?其他部分.*?字。/u,
+      wordsTip
     );
 
     writeFileSync("./pages/other/guide/index.yml", newContent);

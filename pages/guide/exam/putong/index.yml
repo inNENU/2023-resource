@@ -1,13 +1,13 @@
 title: 普通话水平测试
 author: Mr.Hope
-time: 2023-06-16T06:56:37.370Z
+time: 2023-07-20T03:57:30.330Z
 shareable: true
 content:
   - tag: list
     items:
       - text: 2023 年公告
         icon: notice
-        path: notice
+        url: info-detail?title=普通话水平测试报名通知&url=/info/1056/15521.htm
 
   - tag: text
     type: info
