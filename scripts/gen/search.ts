@@ -24,7 +24,7 @@ const createSearchMap = (folder: string): SearchInfo => {
     });
     const pageConfig = <PageOptions>JSON.parse(content);
     const pathName = `${folder}/${filePath}`.replace(
-      /\.\/r\/(.*)\.json/u,
+      /\.\/d\/(.*)\.json/u,
       "$1",
     );
 
