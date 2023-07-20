@@ -337,7 +337,7 @@ function getResult(string $searchWord, object $searchIndex)
 }
 
 if ($_SERVER['REQUEST_METHOD'] !== 'OPTIONS') {
-  chdir("../r/");
+  chdir("../d/");
 
   $data = json_decode(file_get_contents('php://input'));
 
@@ -347,7 +347,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'OPTIONS') {
 
   $filename = $data->scope . "-search.json";
 
-  $handle = @fopen($filename, "d");
+  $handle = @fopen($filename, "r");
 
   if ($handle) {
     $searchIndexContent = fread($handle, filesize($filename));
