@@ -21,7 +21,7 @@ export const zipFile = (folderLocation: string, folderName: string): void => {
   } else throw new Error("Mac OS is not supported");
 };
 
-const resourceList = [
+export const resourceList = [
   "apartment",
   "school",
   "function",
@@ -48,6 +48,7 @@ export const generateResource = (): void => {
           guide: 0,
           intro: 0,
           icon: 0,
+          newcomer: 0,
           school: 0,
         },
         size: {},

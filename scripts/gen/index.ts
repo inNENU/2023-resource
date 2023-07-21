@@ -59,34 +59,13 @@ convertYml2Json("./data/function", "./d/function", (data, filePath) =>
 /** 差异列表 */
 const diffResult = execSync("git status -s").toString();
 
-// 东师机构
-convertYml2Json("./pages/apartment", "./d/apartment", (data, filePath) =>
-  resolvePage(data as PageConfig, `apartment/${filePath}`, diffResult),
-);
-
-// 东师学院
-convertYml2Json("./pages/school", "./d/school", (data, filePath) =>
-  resolvePage(data as PageConfig, `school/${filePath}`, diffResult),
-);
-
-// 东师介绍
-convertYml2Json("./pages/intro", "./d/intro", (data, filePath) =>
-  resolvePage(data as PageConfig, `intro/${filePath}`, diffResult),
-);
-
-// 东师指南
-convertYml2Json("./pages/guide", "./d/guide", (data, filePath) =>
-  resolvePage(data as PageConfig, `guide/${filePath}`, diffResult),
-);
-
-// 其他文件
-convertYml2Json("./pages/newcomer", "./d/newcomer", (data, filePath) =>
-  resolvePage(data as PageConfig, `newcomer/${filePath}`, diffResult),
-);
-
-// 其他文件
-convertYml2Json("./pages/other", "./d/other", (data, filePath) =>
-  resolvePage(data as PageConfig, `other/${filePath}`, diffResult),
+["apartment", "school", "newcomer", "intro", "guide", "other"].forEach(
+  (folder) => {
+    // 东师机构
+    convertYml2Json(`./pages/${folder}`, `./d/${folder}`, (data, filePath) =>
+      resolvePage(data as PageConfig, `${folder}/${filePath}`, diffResult),
+    );
+  },
 );
 
 // 生成转码后的图标
