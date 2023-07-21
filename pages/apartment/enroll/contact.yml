@@ -1,10 +1,20 @@
 title: 招生办公室联系方式
 desc: 信息来自东北师范大学本科招生网
-time: 2023-06-24T17:26:42.068Z
+time: 2023-07-21T15:51:36.557Z
 shareable: true
 cite:
   - https://zsb.nenu.edu.cn/dp_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1072
 content:
+  - tag: account
+    name: 招生办公室
+    logo: $img/media/official.png
+    detail: 东北师范大学招生办公室
+    wxid: nenuzsb
+    wxcode: $img/media/enroll-wechat.jpg
+    account: enroll
+    mail: zsb@nenu.edu.cn
+    site: https://zsb.nenu.edu.cn/
+
   - tag: text
     heading: 地址
     text: 吉林省长春市人民大街 5268 号本部校区综合行政楼 225 室

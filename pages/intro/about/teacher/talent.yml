@@ -1,7 +1,7 @@
 title: 杰出人才
 desc: |-
   来源: 东北师范大学官网
-time: 2023-05-10T16:32:31.210Z
+time: 2023-07-21T15:51:37.157Z
 shareable: true
 cite:
   - https://www.nenu.edu.cn/szdw/jcrc1.htm
@@ -9,14 +9,18 @@ content:
   - tag: title
     text: 院士
 
-  - tag: ul
-    text:
-      - |-
-        中国科学院院士: 刘益春
-      - |-
-        发展中国家科学院院士: 白志东
-      - |-
-        中国工程院院士 (双聘): 李玉
+  - tag: list
+    items:
+      - text: 刘益春院士
+        icon: teacher
+        path: liuyichun
+
+      - text: 白志东院士
+        icon: teacher
+        path: baizhidong
+
+      - text: |-
+          中国工程院院士 (双聘): 李玉
 
   - tag: title
     text: 已故院士

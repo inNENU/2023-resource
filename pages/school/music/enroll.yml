@@ -1,6 +1,6 @@
 title: 音乐学院招生
 author: Mr.Hope
-time: 2023-07-18T06:44:29.620Z
+time: 2023-07-21T15:51:36.872Z
 shareable: true
 content:
   - tag: title
@@ -47,9 +47,9 @@ content:
   - tag: title
     text: 硕士研究生招生概况
 
-  - tag: img
-    src: $img/enroll/music-master.png
-    desc: 2021 年招生信息
+  - tag: action
+    header: 查询地址
+    content: https://yzb.nenu.edu.cn/tmp/2023ssml.htm
 
   - tag: phone
     header: 硕士研究生招生咨询电话

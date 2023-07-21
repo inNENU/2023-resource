@@ -1,6 +1,6 @@
 title: 学校标识
 desc: 2021 年 4 月 8 日更新，由学校办公室、党委宣传部提供
-time: 2023-06-24T17:26:42.005Z
+time: 2023-07-21T15:51:37.149Z
 shareable: true
 cite:
   - https://www.nenu.edu.cn/xxgk1/xxbs.htm
@@ -64,7 +64,10 @@ content:
     header: false
     items:
       - text: 点击聆听
-        url: /function/music/music?name=东北师范大学校歌
+        url: music?name=东北师范大学校歌
+
+      - text: 观看 MV
+        url: video?type=video&name=东北师范大学校歌
 
   - tag: action
     header: 东北师范大学校歌音频
@@ -81,7 +84,3 @@ content:
   - tag: action
     header: 东北师范大学校歌简谱
     content: $file/about/song-simple.pdf
-
-  - tag: action
-    header: 东北师范大学校歌 MV
-    content: https://www.nenu.edu.cn/xgmv.mp4

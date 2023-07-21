@@ -1,6 +1,6 @@
 title: 地理科学学院专业
 author: Mr.Hope
-time: 2023-07-18T06:44:29.451Z
+time: 2023-07-21T15:51:36.797Z
 shareable: true
 content:
   - tag: title
@@ -44,9 +44,9 @@ content:
   - tag: title
     text: 硕士研究生招生概况
 
-  - tag: img
-    src: $img/enroll/geography-master.png
-    desc: 2021 年招生情况
+  - tag: action
+    header: 查询地址
+    content: https://yzb.nenu.edu.cn/tmp/2023ssml.htm
 
   - tag: text
     heading: 相关介绍

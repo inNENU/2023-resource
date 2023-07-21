@@ -1,7 +1,7 @@
 title: 心理学院招生
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2023-07-17T17:26:29.010Z
+time: 2023-07-21T15:51:36.925Z
 shareable: true
 content:
   - tag: title
@@ -57,9 +57,9 @@ content:
   - tag: text
     heading: 硕士研究生招生概况
 
-  - tag: img
-    src: $img/enroll/psychology-master.png
-    desc: 2021 年招生信息
+  - tag: action
+    header: 查询地址
+    content: https://yzb.nenu.edu.cn/tmp/2023ssml.htm
 
   - tag: phone
     header: 硕士研究生招生咨询电话

@@ -3,7 +3,7 @@ desc: |-
   2021 年 3 月 16 日更新，由学校办公室提供
 cite:
   - https://www.nenu.edu.cn/xxgk1/ldjg1.htm
-time: 2023-03-29T08:22:54.082Z
+time: 2023-07-21T15:51:37.146Z
 shareable: true
 content:
   - tag: title
@@ -11,32 +11,36 @@ content:
 
   - tag: text
     heading: 书记
-    text: 兰恒斌
+    text: 前任书记去世，暂无
 
   - tag: action
     header: 书记信箱
     content: shuji@nenu.edu.cn
 
-  - tag: text
-    type: info
-    heading: 个人介绍
-    path: lanhengbin
+  # - tag: text
+  #   type: info
+  #   heading: 个人介绍
+  #   path: lanhengbin
 
   - tag: ul
     heading: 副书记
     text:
       - 徐海阳
       - 王  延
+      - 常  青
+      - 刘九庆
 
   - tag: ul
     heading: 常委
     text:
-      - 兰恒斌
       - 徐海阳
       - 王  延
-      - 郭建华
       - 常  青
       - 王占仁
+      - 魏  民
+      - 薛利锋
+      - 邬志辉
+      - 刘九庆
       - 柏维春
       - 严蔚刚
       - 艾春明
@@ -65,19 +69,15 @@ content:
   - tag: ul
     heading: 副校长
     text:
-      - 郭建华
       - 常  青
       - 王占仁
-
-  - tag: ul
-    heading: 校长助理
-    text:
-      - 于  伟
+      - 魏  民
       - 薛利锋
+      - 邬志辉
 
   - tag: title
     text: 纪委
 
   - tag: text
     heading: 书记
-    text: 兰恒斌
+    text: 刘九庆

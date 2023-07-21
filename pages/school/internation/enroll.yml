@@ -1,6 +1,6 @@
 title: 国际汉学院专业
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-21T15:51:36.819Z
 shareable: true
 content:
   - tag: title
@@ -24,9 +24,9 @@ content:
   - tag: title
     text: 硕士研究生招生概况
 
-  - tag: img
-    src: $img/enroll/international-master.png
-    desc: 2021 年招生情况
+  - tag: action
+    header: 查询地址
+    content: https://yzb.nenu.edu.cn/tmp/2023ssml.htm
 
   - tag: phone
     header: 硕士研究生招生咨询电话
