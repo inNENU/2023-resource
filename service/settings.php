@@ -23,7 +23,7 @@ $data = json_decode(file_get_contents('php://input'));
 
 $appID = $data->appID;
 $version = $data->version;
-$filename = $appID . "/" . $version . ".json";
+$filename = $appID . "/" . $version . "/settings.json";
 
 $handle = @fopen($filename, "r");
 if ($handle) {
