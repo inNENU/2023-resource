@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Account info
+ * Page Handler
  *
  * PHP version 8
  *
@@ -17,11 +17,13 @@ declare(strict_types=1);
 
 require_once 'header/post-json.php';
 
-chdir("../d/account/");
+chdir("../d/config/");
 
 $data = json_decode(file_get_contents('php://input'));
 
-$filename = $data->id . '.json';
+$appID = $data->appID;
+$version = $data->version;
+$filename = $appID . "/" . $version . ".json";
 
 $handle = @fopen($filename, "r");
 if ($handle) {
