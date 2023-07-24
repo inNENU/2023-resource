@@ -37,7 +37,7 @@
 - tag: text
   heading: App 内容
   text:
-    - App 页面内容仓库在 Github 上开源。如您愿意对App提供帮助，欢迎您点击下方链接为该仓库做贡献。您可以帮助扩充或编辑App的页面文字、图片以及相关文件。
+    - App 页面内容仓库在 GitHub 上开源。如您愿意对App提供帮助，欢迎您点击下方链接为该仓库做贡献。您可以帮助扩充或编辑App的页面文字、图片以及相关文件。
 
 - tag: action
   content: https://github.com/inNENU/resource
