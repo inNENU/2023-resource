@@ -17,11 +17,17 @@ declare(strict_types=1);
 
 require_once 'header/post-json.php';
 
-chdir("../d/");
+chdir("../d/config/");
 
-$handle = @fopen("version.json", "r");
+
+$data = json_decode(file_get_contents('php://input'));
+$appID = $data->appID;
+
+$filename = $appID . "/version.json";
+
+$handle = @fopen($filename, "r");
 if ($handle) {
-  $contents = fread($handle, filesize("version.json"));
+  $contents = fread($handle, filesize($filename));
   fclose($handle);
   echo $contents;
 } else {
