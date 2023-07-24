@@ -1,23 +1,17 @@
 title: 入学准备
 author: Mr.Hope
-time: 2023-07-19T07:19:25.494Z
+time: 2023-07-24T11:18:38.690Z
 grey: true
 shareable: true
 content:
   - tag: list
+    header: 防止诈骗
     items:
-      - text: 欢迎辞
-        icon: letter
-        path: welcome
-
       - text: 报到时间
         icon: time
         path: /newcomer/check/location-and-time
 
-  - tag: list
-    header: 防止诈骗
-    items:
-      - text: 常上诈骗手段与防范
+      - text: 常见诈骗手段与防范
         icon: alert
         path: /newcomer/safety/
 

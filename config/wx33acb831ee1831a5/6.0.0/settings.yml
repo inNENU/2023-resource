@@ -82,33 +82,33 @@ function-page:
   default: at-school
 
 function-presets:
-  newcomer-function:
+  newcomer:
     # - tag: card
-    #   cover: $img/tab/calendar.jpg
+    #   cover: https://assets.innenu.com/img/tab/calendar.jpg
     #   title: 校历
     #   logo: calendar
     #   url: calendar
 
     # - tag: card
-    #   cover: $img/tab/map.jpg
+    #   cover: https://assets.innenu.com/img/tab/map.jpg
     #   title: 校园地图
     #   logo: map
     #   url: map
 
     # - tag: card
-    #   cover: $img/tab/admission.jpg
+    #   cover: https://assets.innenu.com/img/tab/admission.jpg
     #   title: 录取查询
     #   logo: letter
     #   url: admission?type=search
 
     # - tag: card
-    #   cover: $img/tab/headphone.jpg
+    #   cover: https://assets.innenu.com/img/tab/headphone.jpg
     #   title: 音悦东师
     #   logo: cd
     #   url: music
 
     # - tag: card
-    #   cover: $img/tab/video.jpg
+    #   cover: https://assets.innenu.com/img/tab/video.jpg
     #   title: 影约东师
     #   logo: media
     #   url: video?type=video
@@ -253,7 +253,7 @@ function-presets:
 
       footer: " "
 
-  at-school-function:
+  at-school:
     - tag: grid
       header: 功能
       items:
@@ -478,7 +478,7 @@ function-presets:
 main-presets:
   newcomer:
     - tag: card
-      cover: $img/tab/qq-group.png
+      cover: https://assets.innenu.com/img/tab/qq-group.png
       title: 找到组织
       desc: 添加新生群
       logo: qq-group
@@ -562,7 +562,7 @@ main-presets:
       footer: 更多内容请详见下方其他 Tab 页
 
     - tag: card
-      cover: $img/tab/faq.png
+      cover: https://assets.innenu.com/img/tab/faq.png
       title: 常见问题
       logo: faq
       url: info?id=/newcomer/faq/
