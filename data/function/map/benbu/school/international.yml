@@ -8,11 +8,11 @@ content:
     items:
       - text: 学院简介
         icon: about
-        path: /school/internation/intro
+        path: /school/international/intro
 
       - text: 专业介绍
         icon: intro
-        path: /school/internation/enroll
+        path: /school/international/enroll
 
   - tag: action
     header: 官网地址

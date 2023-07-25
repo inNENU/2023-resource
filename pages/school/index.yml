@@ -1,7 +1,7 @@
 title: 学院介绍
 grey: true
 author: Mr.Hope
-time: 2023-07-13T06:37:07.624Z
+time: 2023-07-25T17:11:24.365Z
 shareable: true
 content:
   - tag: grid
@@ -124,4 +124,4 @@ content:
         color: mauve
         name: Internation
         icon: network
-        path: internation/
+        path: international/

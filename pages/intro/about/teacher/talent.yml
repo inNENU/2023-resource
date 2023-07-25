@@ -1,7 +1,7 @@
 title: 杰出人才
 desc: |-
   来源: 东北师范大学官网
-time: 2023-07-21T15:51:37.157Z
+time: 2023-07-25T17:11:24.822Z
 shareable: true
 cite:
   - https://www.nenu.edu.cn/szdw/jcrc1.htm
@@ -10,6 +10,7 @@ content:
     text: 院士
 
   - tag: list
+    header: false
     items:
       - text: 刘益春院士
         icon: teacher

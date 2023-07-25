@@ -154,9 +154,9 @@ content:
   #       path: school/media/
   #     - text: 国际汉学院
   #       color: mauve
-  #       name: Internation
+  #       name: International
   #       icon: network
-  #       path: school/internation/
+  #       path: school/international/
 
   - tag: grid
     header: 机构介绍

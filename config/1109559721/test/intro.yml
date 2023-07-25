@@ -154,9 +154,9 @@ content:
         path: school/media/
       - text: 国际汉学院
         color: mauve
-        name: Internation
+        name: International
         icon: network
-        path: school/internation/
+        path: school/international/
 
       # - text: 民族教育学院
       #   color: olive

@@ -351,7 +351,7 @@ highlights:
 
       - title: 国际汉学院
         icon: https://mp.innenu.com/data/icon/network.svg
-        link: ./school/internation/
+        link: ./school/international/
 
   - header: 学校机构
     description: 东师的各个部门职能、组成、与联系方式。
