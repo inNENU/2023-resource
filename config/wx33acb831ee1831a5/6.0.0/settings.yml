@@ -733,7 +733,7 @@ data:
         path: gym/
 
   school:
-    text: 学院介绍
+    name: 学院介绍
     path: /school/
     items:
       - text: 教育学部
@@ -983,7 +983,7 @@ data:
         path: newcomer/activity/streaming
 
   service:
-    text: 行在东师
+    name: 行在东师
     items:
       - text: 学费缴纳
         color: olive
@@ -1010,7 +1010,7 @@ data:
         path: guide/action/
 
   life:
-    text: 东师日常
+    name: 东师日常
     items:
       - text: 寝室
         color: blue
@@ -1049,7 +1049,7 @@ data:
         path: guide/life/
 
   account:
-    text: 数字东师
+    name: 数字东师
     items:
       - text: 统一身份认证
         color: blue
@@ -1094,7 +1094,7 @@ data:
         path: guide/select/system/
 
   study:
-    text: 学在东师
+    name: 学在东师
     items:
       - text: 学位
         color: blue
@@ -1169,7 +1169,7 @@ data:
         path: newcomer/advice/
 
   tip:
-    text: 东师贴士
+    name: 东师贴士
     items:
       - text: 生活贴士
         color: blue
@@ -1190,7 +1190,7 @@ data:
         path: guide/tip/digital
 
   enjoy:
-    text: 乐在东师
+    name: 乐在东师
     items:
       - text: 学生组织
         color: blue
@@ -1217,7 +1217,7 @@ data:
         url: info?path=Oadvice/
 
   graduate:
-    text: 再见东师
+    name: 再见东师
     items:
       - text: 就业
         color: blue
