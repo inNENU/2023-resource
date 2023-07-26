@@ -1,6 +1,6 @@
 title: 人才培养方案
 author: Mr.Hope
-time: 2023-07-17T17:26:29.620Z
+time: 2023-07-26T15:24:28.741Z
 desc: 学院顺序来自东北师范大学教务处
 shareable: true
 content:
@@ -37,9 +37,6 @@ content:
         icon: politics
         path: politics
 
-  - tag: list
-    header: false
-    items:
       - text: 经济与管理学院人才培养方案
         icon: economy
         path: economy
@@ -48,11 +45,11 @@ content:
         icon: chinese
         path: chinese
 
-      - text: 外国语学院
+      - text: 历史文化学院人才培养方案
         icon: history
         path: history
 
-      - text: 外国语学院
+      - text: 外国语学院人才培养方案
         icon: foreign
         path: foreign
 

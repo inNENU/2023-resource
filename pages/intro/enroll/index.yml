@@ -1,31 +1,31 @@
 title: 招生情况
 grey: true
 author: Mr.Hope
-time: 2023-07-13T06:37:07.413Z
+time: 2023-07-26T15:24:28.209Z
 shareable: true
 content:
   - tag: list
     header: 本科招生
     items:
-      - text: 2023 年本科招生简章
-        icon: rule
-        path: under/rule/
+      # - text: 2023 年本科招生简章
+      #   icon: rule
+      #   path: under/rule/
 
-      - text: 2023 年招生计划
-        icon: rule
-        url: enroll-plan
-        env:
-          - app
-          - qq
-          - wx
+      # - text: 2023 年招生计划
+      #   icon: rule
+      #   url: enroll-plan
+      #   env:
+      #     - app
+      #     - qq
+      #     - wx
 
-      - text: 历史分数线
-        icon: time
-        url: enroll-grade
-        env:
-          - app
-          - qq
-          - wx
+      # - text: 历史分数线
+      #   icon: time
+      #   url: enroll-grade
+      #   env:
+      #     - app
+      #     - qq
+      #     - wx
 
       - text: 招生咨询群
         icon: qq-group

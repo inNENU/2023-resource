@@ -1,6 +1,6 @@
 title: 录取相关问答
 author: Mr.Hope
-time: 2023-07-17T10:49:00.140Z
+time: 2023-07-26T15:24:28.037Z
 shareable: true
 content:
   - tag: title
@@ -88,18 +88,25 @@ content:
   - tag: title
     text: 录取相关
 
-  - tag: card
-    cover: $img/tab/admission.jpg
-    title: 录取查询
-    logo: letter
-    url: admission?type=search
+  # - tag: card
+  #   cover: $img/tab/admission.jpg
+  #   title: 录取查询
+  #   logo: letter
+  #   url: admission?type=search
+
+  # - tag: text
+  #   type: info
+  #   heading: 为什么我在省招办可以查询到录取，但是在 in 东师内查不到?
+  #   text:
+  #     - in 东师是招生办提供的查询方式，用于明确录取专业并提供录取通知书单号查询，而非即时的录取查询。
+  #     - 招生办录入消息会有严重滞后，只要您在省招办查询到录取，即为录取。
 
   - tag: text
     type: info
-    heading: 为什么我在省招办可以查询到录取，但是在 in 东师内查不到?
+    heading: 为什么学校没有提供录取查询方式？
     text:
-      - in 东师是招生办提供的查询方式，用于明确录取专业并提供录取通知书单号查询，而非即时的录取查询。
-      - 招生办录入消息会有严重滞后，只要您在省招办查询到录取，即为录取。
+      - Mr.Hope 也不理解，但 2023 年学校招生办的确移除了往年拥有的录取查询功能。
+      - 请通过省考试院查询，并通过国家统一的录取通知书查询方式查询录取通知书单号于与运输状态。
 
   - tag: text
     type: info

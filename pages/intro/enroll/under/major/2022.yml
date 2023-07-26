@@ -1,17 +1,11 @@
 title: 2022 年本科招生专业
 author: Mr.Hope
-time: 2023-07-18T06:35:12.349Z
+time: 2023-07-26T15:24:28.247Z
 shareable: true
 content:
   - tag: text
     type: warning
     text: 不同省份存在不同的招生政策，并不是以下所有专业都在您所在省份招生。如果您想要查看您所在省份的招生专业，请查询招生计划。
-
-  - tag: list
-    items:
-      - text: 招生计划
-        icon: time
-        url: enroll-plan
 
   - tag: title
     text: 本部各学院与其招生专业

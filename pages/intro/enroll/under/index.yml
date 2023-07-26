@@ -1,27 +1,27 @@
 title: 本科招生
 grey: true
 author: Mr.Hope
-time: 2023-07-13T06:37:07.474Z
+time: 2023-07-26T15:24:28.232Z
 shareable: true
 content:
   - tag: list
     header: 2023 年
     items:
-      - text: 招生计划
-        icon: rule
-        url: enroll-plan
-        env:
-          - app
-          - qq
-          - wx
+      # - text: 招生计划
+      #   icon: rule
+      #   url: enroll-plan
+      #   env:
+      #     - app
+      #     - qq
+      #     - wx
 
-      - text: 历史分数线
-        icon: time
-        url: enroll-grade
-        env:
-          - app
-          - qq
-          - wx
+      # - text: 历史分数线
+      #   icon: time
+      #   url: enroll-grade
+      #   env:
+      #     - app
+      #     - qq
+      #     - wx
 
       - text: 本科开设专业
         icon: intro
@@ -31,17 +31,17 @@ content:
         icon: rule
         path: rule/
 
-  - tag: action
-    header: 2023 本科招生计划
-    content: http://bkzsw.nenu.edu.cn/col_000018_000171.html
-    env:
-      - web
+  # - tag: action
+  #   header: 2023 本科招生计划
+  #   content: http://bkzsw.nenu.edu.cn/col_000018_000171.html
+  #   env:
+  #     - web
 
-  - tag: action
-    header: 历史分数线
-    content: http://bkzsw.nenu.edu.cn/col_000018_000170.html
-    env:
-      - web
+  # - tag: action
+  #   header: 历史分数线
+  #   content: http://bkzsw.nenu.edu.cn/col_000018_000170.html
+  #   env:
+  #     - web
 
   - tag: action
     header: 2023 本科招生指南
