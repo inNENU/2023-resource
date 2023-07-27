@@ -1,11 +1,18 @@
 title: 统一身份认证
 author: Mr.Hope
-time: 2023-07-18T05:48:50.649Z
+time: 2023-07-27T10:57:30.089Z
 shareable: true
 content:
   - tag: text
     type: warning
-    text: 2023 级起，新生需要自己完成账号激活。
+    text: 2023 级起，新生需要自己完成账号激活。2023 级新生需等到 8 月 15 日以后。
+
+  - tag: list
+    header: false
+    items:
+      - text: 账号激活
+        icon: account
+        url: activate
 
   - tag: title
     text: 获得学号
@@ -28,17 +35,9 @@ content:
     header: 校外地址
     content: https://authserver-443.webvpn.nenu.edu.cn/authserver/login
 
-  - tag: text
-    type: info
-    heading: 默认密码
-    text: Nenu + 身份证后六位，X 用 1 代替
-
   - tag: img
     src: $img/account/authserver.jpg
     watermark: true
-
-  - tag: title
-    text: 密保绑定
 
   - tag: text
     text:

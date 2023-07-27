@@ -1,6 +1,6 @@
 title: 师范生介绍
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-27T10:57:30.678Z
 grey: true
 shareable: true
 content:
@@ -19,6 +19,17 @@ content:
       - text: 优师专项师范生介绍
         icon: teacher
         path: great-intro
+
+  - tag: list
+    header: 国优计划
+    items:
+      - text: 教育部通知
+        icon: notice
+        path: nation-great/notice
+
+      - text: 教育部解读
+        icon: intro
+        path: nation-great/explain
 
   - tag: list
     header: 相关政策
