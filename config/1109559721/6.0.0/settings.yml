@@ -9,7 +9,7 @@ intro-page:
       - under-enroll
       - grad-enroll
       - about
-      # - school
+      - school
     more:
       - apartment
   "2023":
@@ -36,12 +36,12 @@ guide-page:
       - newcomer
       - life
       - study
-    # more:
-    #   - service
-    #   - account
-    #   - tip
-    #   - enjoy
-    #   - graduate
+    more:
+      - service
+      - account
+      - tip
+      - enjoy
+      - graduate
   "2023":
     items:
       - newcomer
@@ -149,17 +149,17 @@ function-presets:
           icon: map
           url: map
 
-        # - text: 音悦东师
-        #   color: blue
-        #   name: Music
-        #   icon: cd
-        #   url: music
+        - text: 音悦东师
+          color: blue
+          name: Music
+          icon: cd
+          url: music
 
-        # - text: 影约东师
-        #   color: mauve
-        #   name: Media
-        #   icon: media
-        #   url: video?type=video
+        - text: 影约东师
+          color: mauve
+          name: Media
+          icon: media
+          url: video?type=video
 
     - tag: grid
       header: 信息查询
@@ -353,23 +353,23 @@ function-presets:
           icon: rule
           path: intro/enroll/under/rule/
 
-        - text: 2023 年招生计划
-          name: Plan
-          color: orange
-          icon: enroll
-          url: enroll-plan
+        # - text: 2023 年招生计划
+        #   name: Plan
+        #   color: orange
+        #   icon: enroll
+        #   url: enroll-plan
 
-        - text: 历史分数
-          name: History grade
-          color: purple
-          icon: time
-          url: enroll-grade
+        # - text: 历史分数
+        #   name: History grade
+        #   color: purple
+        #   icon: time
+        #   url: enroll-grade
 
-        - text: 录取查询
-          name: Admission
-          color: cyan
-          icon: letter
-          url: admission?type=search
+        # - text: 录取查询
+        #   name: Admission
+        #   color: cyan
+        #   icon: letter
+        #   url: admission?type=search
 
     - tag: grid
       header: 东师风采
@@ -477,12 +477,12 @@ function-presets:
 
 main-presets:
   newcomer:
-    # - tag: card
-    #   cover: https://assets.innenu.com/img/tab/qq-group.png
-    #   title: 找到组织
-    #   desc: 添加新生群
-    #   logo: qq-group
-    #   url: info?id=/newcomer/contact/
+    - tag: card
+      cover: https://assets.innenu.com/img/tab/qq-group.png
+      title: 找到组织
+      desc: 添加新生群
+      logo: qq-group
+      url: info?id=/newcomer/contact/
 
     - tag: grid
       header: 您可能想关注
@@ -622,14 +622,14 @@ user:
         icon: about
         url: about
 
-  # - tag: p
-  #   heading: " "
-  #   text:
-  #     - 如果看过小程序后您还有疑问，欢迎加入 in 东北师大咨询群 (1139044856) 进行咨询。
-  #     - 小程序为 Mr.Hope 个人独自开发编写，现已花费 Mr.Hope 超 2600 小时，文字数量超过 87 万字，同时小程序服务器每年会产生开销。如果您觉得小程序很有帮助，欢迎您给予支持。
-  #   style:
-  #     color: "#888"
-  #     font-size: 14px
+  - tag: p
+    heading: " "
+    text:
+      - 如果看过小程序后您还有疑问，欢迎加入 in 东北师大咨询群 (1139044856) 进行咨询。
+      - 小程序为 Mr.Hope 个人独自开发编写，现已花费 Mr.Hope 超 2600 小时，文字数量超过 87 万字，同时小程序服务器每年会产生开销。如果您觉得小程序很有帮助，欢迎您给予支持。
+    style:
+      color: "#888"
+      font-size: 14px
 
   - tag: functional-list
     items:
@@ -688,15 +688,16 @@ about:
       - text: 致谢名单
         url: info?path=Oabout/thanks
 
-  # - tag: functional-list
-  #   header: 支持小程序
-  #   items:
-  #     - text: 为保证小程序运行，每年购买维护服务器资源会产生开销。如果您希望帮助 Mr.Hope，欢迎联系 Mr.Hope 施以援手。
+  - tag: functional-list
+    header: 支持小程序
+    items:
+      - text: 为保证小程序运行，每年购买维护服务器资源会产生开销。如果您希望帮助 Mr.Hope，欢迎联系 Mr.Hope 施以援手。
 
-  #     - text: 联系 Mr.Hope
-  #       icon: contact
-  #       type: button
-  #       openType: contact
+      - text: 联系 Mr.Hope
+        icon: contact
+        type: button
+        openType: addFriend
+        openId: 868D7B2F0C609B4285698EAB77A47BA1
 
   - tag: text
     heading: 小程序内容

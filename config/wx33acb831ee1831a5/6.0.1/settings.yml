@@ -149,17 +149,17 @@ function-presets:
           icon: map
           url: map
 
-        - text: 音悦东师
-          color: blue
-          name: Music
-          icon: cd
-          url: music
+        # - text: 音悦东师
+        #   color: blue
+        #   name: Music
+        #   icon: cd
+        #   url: music
 
-        - text: 影约东师
-          color: mauve
-          name: Media
-          icon: media
-          url: video?type=video
+        # - text: 影约东师
+        #   color: mauve
+        #   name: Media
+        #   icon: media
+        #   url: video?type=video
 
     - tag: grid
       header: 信息查询
@@ -353,17 +353,17 @@ function-presets:
           icon: map
           url: map
 
-        - text: 音悦东师
-          color: blue
-          name: Music
-          icon: cd
-          url: music
+        # - text: 音悦东师
+        #   color: blue
+        #   name: Music
+        #   icon: cd
+        #   url: music
 
-        - text: 影约东师
-          color: mauve
-          name: Media
-          icon: media
-          url: video?type=video
+        # - text: 影约东师
+        #   color: mauve
+        #   name: Media
+        #   icon: media
+        #   url: video?type=video
 
       footer: " "
 
@@ -377,17 +377,17 @@ function-presets:
           icon: map
           url: map
 
-        - text: 音悦东师
-          color: blue
-          name: Music
-          icon: cd
-          url: music
+        # - text: 音悦东师
+        #   color: blue
+        #   name: Music
+        #   icon: cd
+        #   url: music
 
-        - text: 影约东师
-          color: mauve
-          name: Media
-          icon: media
-          url: video?type=video
+        # - text: 影约东师
+        #   color: mauve
+        #   name: Media
+        #   icon: media
+        #   url: video?type=video
 
     - tag: grid
       header: 信息查询
@@ -450,12 +450,12 @@ function-presets:
 
 main-presets:
   newcomer:
-    - tag: card
-      cover: https://assets.innenu.com/img/tab/qq-group.png
-      title: 找到组织
-      desc: 添加新生群
-      logo: qq-group
-      url: info?id=/newcomer/contact/
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/qq-group.png
+    #   title: 找到组织
+    #   desc: 添加新生群
+    #   logo: qq-group
+    #   url: info?id=/newcomer/contact/
 
     - tag: grid
       header: 您可能想关注
@@ -595,14 +595,14 @@ user:
         icon: about
         url: about
 
-  - tag: p
-    heading: " "
-    text:
-      - 如果看过小程序后您还有疑问，欢迎加入 in 东北师大咨询群 (1139044856) 进行咨询。
-      - 小程序为 Mr.Hope 个人独自开发编写，现已花费 Mr.Hope 超 2600 小时，文字数量超过 87 万字，同时小程序服务器每年会产生开销。如果您觉得小程序很有帮助，欢迎您给予支持。
-    style:
-      color: "#888"
-      font-size: 14px
+  # - tag: p
+  #   heading: " "
+  #   text:
+  #     - 如果看过小程序后您还有疑问，欢迎加入 in 东北师大咨询群 (1139044856) 进行咨询。
+  #     - 小程序为 Mr.Hope 个人独自开发编写，现已花费 Mr.Hope 超 2600 小时，文字数量超过 87 万字，同时小程序服务器每年会产生开销。如果您觉得小程序很有帮助，欢迎您给予支持。
+  #   style:
+  #     color: "#888"
+  #     font-size: 14px
 
   - tag: functional-list
     items:
