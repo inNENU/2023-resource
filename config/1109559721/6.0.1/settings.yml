@@ -6,10 +6,10 @@ main-page:
 intro-page:
   unlogin:
     items:
-      - under-enroll
-      - grad-enroll
+      # - under-enroll
+      # - grad-enroll
       - about
-      - school
+      # - school
     more:
       - apartment
   "2023":
@@ -17,14 +17,14 @@ intro-page:
       - about
       - school
     more:
-      - under-enroll
-      - grad-enroll
+      # - under-enroll
+      # - grad-enroll
       - apartment
 
   default:
     items:
       - about
-      - school
+      # - school
       - apartment
     more:
       - under-enroll
@@ -37,7 +37,7 @@ guide-page:
       - life
       - study
     more:
-      - service
+      # - service
       - account
       - tip
       - enjoy
@@ -66,7 +66,7 @@ guide-page:
       - newcomer
   default:
     items:
-      - service
+      # - service
       - study
       - account
     more:
@@ -484,11 +484,11 @@ main-presets:
           icon: life
           path: guide/life/
 
-        - text: 专业介绍
-          color: olive
-          name: Major
-          icon: about
-          path: school/major
+        # - text: 专业介绍
+        #   color: olive
+        #   name: Major
+        #   icon: about
+        #   path: school/major
 
         - text: 转专业
           color: red
