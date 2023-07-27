@@ -1,7 +1,7 @@
 title: 图书馆
 grey: true
 author: Mr.Hope
-time: 2023-06-16T02:36:46.050Z
+time: 2023-07-27T15:57:11.705Z
 shareable: true
 content:
   - tag: account
@@ -39,11 +39,11 @@ content:
         path: search
 
       - text: 借书权限
-        icon: borrow
+        icon: permission
         path: auth
 
       - text: 图书预约
-        icon: borrow
+        icon: time
         path: book
 
       - text: 借书还书
@@ -51,7 +51,7 @@ content:
         path: borrow
 
       - text: 续借图书
-        icon: flow
+        icon: reset
         path: renew
 
       - text: 图书荐购

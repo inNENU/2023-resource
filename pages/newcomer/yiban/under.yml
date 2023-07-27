@@ -1,6 +1,6 @@
 title: 入学教育课程
 author: Mr.Hope
-time: 2023-07-18T05:48:52.245Z
+time: 2023-07-27T15:57:12.627Z
 grey: true
 shareable: true
 content:
@@ -31,7 +31,7 @@ content:
         path: register/mobile
 
       - text: 课程添加
-        icon: content
+        icon: add
         path: add/mobile
 
       - text: 课程学习
@@ -50,7 +50,7 @@ content:
         path: register/web
 
       - text: 课程添加
-        icon: content
+        icon: add
         path: add/web
 
       - text: 课程学习

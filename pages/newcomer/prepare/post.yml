@@ -1,6 +1,6 @@
 title: 研究生入学准备
 author: Mr.Hope
-time: 2023-07-26T15:24:28.091Z
+time: 2023-07-27T15:57:12.578Z
 grey: true
 shareable: true
 content:
@@ -25,7 +25,7 @@ content:
         path: /guide/archive/post-in
 
       - text: 证件材料
-        icon: photo
+        icon: id
         path: /newcomer/necessity/material
 
       - text: 党员组织关系接转
@@ -41,7 +41,7 @@ content:
         path: post-admission-notice
 
       - text: 户口迁移
-        icon: change
+        icon: hukou
         path: hukou
 
   - tag: list

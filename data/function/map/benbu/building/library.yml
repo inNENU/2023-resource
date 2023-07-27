@@ -52,11 +52,11 @@ content:
         path: /apartment/library/search
 
       - text: 借书权限
-        icon: borrow
+        icon: permission
         path: /apartment/library/auth
 
       - text: 图书预约
-        icon: borrow
+        icon: time
         path: /apartment/library/book
 
       - text: 借书还书
@@ -64,7 +64,7 @@ content:
         path: /apartment/library/borrow
 
       - text: 续借图书
-        icon: flow
+        icon: reset
         path: /apartment/library/renew
 
       - text: 图书荐购

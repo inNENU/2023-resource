@@ -1,7 +1,7 @@
 title: 奖学金
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-27T15:57:14.328Z
 shareable: true
 content:
   - tag: list
@@ -12,7 +12,7 @@ content:
         path: under
 
       - text: 本科奖学金评审说明
-        icon: alert
+        icon: about
         path: explain
 
   - tag: list

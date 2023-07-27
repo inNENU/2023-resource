@@ -1,6 +1,6 @@
 title: 各类物品
 author: Mr.Hope
-time: 2022-09-03
+time: 2023-07-27T15:57:12.548Z
 grey: true
 shareable: true
 content:
@@ -23,7 +23,7 @@ content:
     header: 物品分类
     items:
       - text: 证件材料类
-        icon: photo
+        icon: id
         path: material
 
       - text: 学习用品

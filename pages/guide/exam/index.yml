@@ -1,7 +1,7 @@
 title: 国家考试
 grey: true
 author: Mr.Hope
-time: 2023-04-25T05:43:43.534Z
+time: 2023-07-27T15:57:13.831Z
 shareable: true
 content:
   - tag: list
@@ -18,4 +18,5 @@ content:
         path: putong/
 
       - text: 中小学教师资格考试
+        icon: teacher
         path: ntce/

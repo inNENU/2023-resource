@@ -1,6 +1,6 @@
 title: 本科生入学准备
 author: Mr.Hope
-time: 2023-07-26T15:24:28.098Z
+time: 2023-07-27T15:57:12.586Z
 grey: true
 shareable: true
 content:
@@ -41,7 +41,7 @@ content:
         path: group
 
       - text: 户口迁移
-        icon: change
+        icon: hukou
         path: hukou
 
   - tag: list
