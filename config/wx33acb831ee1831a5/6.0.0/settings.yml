@@ -3,6 +3,141 @@ main-page:
   "2023": newcomer
   default: at-school
 
+main-presets:
+  newcomer:
+    - tag: card
+      cover: https://assets.innenu.com/img/tab/admission.jpg
+      title: 录取查询
+      desc: 录取通知书邮寄查询
+      logo: letter
+      url: admission?type=search
+
+    - tag: card
+      cover: https://assets.innenu.com/img/tab/activate.jpg
+      title: 账号激活
+      desc: 激活你的统一身份认证账号
+      logo: activate
+      url: activate
+
+    - tag: grid
+      header: 您可能想关注
+      items:
+        - text: 新生群
+          color: olive
+          name: Contact
+          icon: qq-group
+          path: newcomer/contact/
+
+        - text: 寝室
+          color: blue
+          name: Dorm
+          icon: dorm
+          path: guide/dorm/
+
+        - text: 食堂
+          color: orange
+          name: Dining
+          icon: dining
+          path: guide/dining/
+
+        - text: 洗浴
+          color: red
+          name: Bath
+          icon: bath
+          path: guide/bath/
+
+        - text: 生活
+          color: purple
+          name: Life
+          icon: life
+          path: guide/life/
+
+        - text: 专业介绍
+          color: olive
+          name: Major
+          icon: about
+          path: school/major
+
+        - text: 转专业
+          color: red
+          name: Change Major
+          icon: change
+          path: guide/change-major/
+
+        - text: 师范生
+          color: purple
+          name: Normal
+          icon: teacher
+          path: guide/normal/
+
+        - text: 课程
+          color: orange
+          name: Course
+          icon: content
+          path: guide/course/
+
+        - text: 学习
+          color: mauve
+          name: Study
+          icon: study
+          path: guide/study/
+
+        - text: 校历
+          color: mauve
+          name: Calendar
+          icon: calendar
+          url: calendar
+
+        # - text: 常见问题
+        #   color: cyan
+        #   name: FAQ
+        #   icon: faq
+        #   path: newcomer/faq/
+
+      footer: 更多内容请详见下方其他 Tab 页
+
+    - tag: card
+      cover: https://assets.innenu.com/img/tab/faq.png
+      title: 常见问题
+      logo: faq
+      url: info?id=/newcomer/faq/
+
+  at-school:
+    - tag: grid
+      header: 功能
+      items:
+        - text: 课程表
+          color: grey
+          name: Course
+          icon: degree
+          url: course-table
+
+        - text: 成绩查询
+          color: orange
+          name: Grade
+          icon: grade
+          url: course-grade
+
+        - text: 选课系统
+          color: blue
+          name: Select
+          icon: select
+          url: select
+
+        - text: 图书馆
+          color: purple
+          name: Library
+          icon: library
+          url: library
+
+        - text: 校历
+          color: mauve
+          name: Calendar
+          icon: calendar
+          url: calendar
+
+      footer: 更多内容请详见下方其他 Tab 页
+
 intro-page:
   unlogin:
     items:
@@ -113,32 +248,32 @@ function-presets:
     #   logo: media
     #   url: video?type=video
 
-    # - tag: grid
-    #   header: 本科招生
-    #   items:
-    #     - text: 2023 年招生简章
-    #       name: Rule
-    #       color: blue
-    #       icon: rule
-    #       path: intro/enroll/under/rule/
+    - tag: grid
+      header: 本科招生
+      items:
+        - text: 2023 年招生简章
+          name: Rule
+          color: blue
+          icon: rule
+          path: intro/enroll/under/rule/
 
-    #     - text: 2023 年招生计划
-    #       name: Plan
-    #       color: orange
-    #       icon: enroll
-    #       url: enroll-plan
+        #     - text: 2023 年招生计划
+        #       name: Plan
+        #       color: orange
+        #       icon: enroll
+        #       url: enroll-plan
 
-    #     - text: 历史分数
-    #       name: History grade
-    #       color: purple
-    #       icon: time
-    #       url: enroll-grade
+        #     - text: 历史分数
+        #       name: History grade
+        #       color: purple
+        #       icon: time
+        #       url: enroll-grade
 
-    #     - text: 录取查询
-    #       name: Admission
-    #       color: cyan
-    #       icon: letter
-    #       url: admission?type=search
+        - text: 录取查询
+          name: Admission
+          color: cyan
+          icon: letter
+          url: admission?type=search
 
     - tag: grid
       header: 东师风采
@@ -365,11 +500,11 @@ function-presets:
         #   icon: time
         #   url: enroll-grade
 
-        # - text: 录取查询
-        #   name: Admission
-        #   color: cyan
-        #   icon: letter
-        #   url: admission?type=search
+        - text: 录取查询
+          name: Admission
+          color: cyan
+          icon: letter
+          url: admission?type=search
 
     - tag: grid
       header: 东师风采
@@ -474,134 +609,6 @@ function-presets:
       items:
         - text: 登录开启更多功能
           url: account
-
-main-presets:
-  newcomer:
-    - tag: card
-      cover: https://assets.innenu.com/img/tab/qq-group.png
-      title: 找到组织
-      desc: 添加新生群
-      logo: qq-group
-      url: info?id=/newcomer/contact/
-
-    - tag: grid
-      header: 您可能想关注
-      items:
-        - text: 寝室
-          color: blue
-          name: Dorm
-          icon: dorm
-          path: guide/dorm/
-
-        - text: 食堂
-          color: orange
-          name: Dining
-          icon: dining
-          path: guide/dining/
-
-        - text: 洗浴
-          color: red
-          name: Bath
-          icon: bath
-          path: guide/bath/
-
-        - text: 生活
-          color: purple
-          name: Life
-          icon: life
-          path: guide/life/
-
-        - text: 专业介绍
-          color: olive
-          name: Major
-          icon: about
-          path: school/major
-
-        - text: 转专业
-          color: red
-          name: Change Major
-          icon: change
-          path: guide/change-major/
-
-        - text: 师范生
-          color: purple
-          name: Normal
-          icon: teacher
-          path: guide/normal/
-
-        - text: 课程
-          color: orange
-          name: Course
-          icon: content
-          path: guide/course/
-
-        # - text: 找到组织
-        #   color: olive
-        #   name: Contact
-        #   icon: qq-group
-        #   path: newcomer/contact/
-
-        - text: 学习
-          color: mauve
-          name: Study
-          icon: study
-          path: guide/study/
-
-        - text: 校历
-          color: mauve
-          name: Calendar
-          icon: calendar
-          url: calendar
-
-        # - text: 常见问题
-        #   color: cyan
-        #   name: FAQ
-        #   icon: faq
-        #   path: newcomer/faq/
-
-      footer: 更多内容请详见下方其他 Tab 页
-
-    - tag: card
-      cover: https://assets.innenu.com/img/tab/faq.png
-      title: 常见问题
-      logo: faq
-      url: info?id=/newcomer/faq/
-
-  at-school:
-    - tag: grid
-      header: 功能
-      items:
-        - text: 课程表
-          color: grey
-          name: Course
-          icon: degree
-          url: course-table
-
-        - text: 成绩查询
-          color: orange
-          name: Grade
-          icon: grade
-          url: course-grade
-
-        - text: 选课系统
-          color: blue
-          name: Select
-          icon: select
-          url: select
-
-        - text: 图书馆
-          color: purple
-          name: Library
-          icon: library
-          url: library
-
-        - text: 校历
-          color: mauve
-          name: Calendar
-          icon: calendar
-          url: calendar
-
-      footer: 更多内容请详见下方其他 Tab 页
 
 user:
   - tag: list
