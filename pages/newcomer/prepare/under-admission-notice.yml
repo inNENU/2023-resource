@@ -1,6 +1,6 @@
 title: 本科录取通知书
 author: Mr.Hope
-time: 2023-07-26T15:24:28.093Z
+time: 2023-07-28T10:05:22.885Z
 shareable: true
 content:
   - tag: title
@@ -9,11 +9,11 @@ content:
   - tag: text
     text: 录取通知书会在每批录取工作全部完成之后，陆续制作。
 
-  # - tag: card
-  #   cover: $img/tab/admission.jpg
-  #   title: 录取查询
-  #   logo: letter
-  #   url: admission?type=search
+  - tag: card
+    cover: $img/tab/admission.jpg
+    title: 录取查询
+    logo: letter
+    url: admission?type=search
 
   - tag: text
     type: info

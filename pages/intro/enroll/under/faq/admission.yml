@@ -1,6 +1,6 @@
 title: 本科招生录取常见问题
 author: Mr.Hope
-time: 2023-07-21T15:51:37.184Z
+time: 2023-07-28T10:05:22.987Z
 shareable: true
 content:
   - tag: title
@@ -20,7 +20,8 @@ content:
     type: info
     heading: 我该如何查询自己的录取通知书物流?
     # TODO: Update
-    text: 目前招生办官方尚未提供 2023 年录取查询方式。
+    # text: 目前招生办官方尚未提供 2023 年录取查询方式。
+    text: 通过录取查询。
 
   - tag: text
     type: info
