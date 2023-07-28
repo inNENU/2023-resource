@@ -623,11 +623,11 @@ user:
         openType: openGuildProfile
         guildId: "5684461640601496"
 
-      - text: 添加 in 东师媒体号
-        icon: qq
-        type: button
-        openType: addFriend
-        openId: 41D0ED9AEDD96C611B0E679EF3ED67F9
+      # - text: 添加 in 东师媒体号
+      #   icon: qq
+      #   type: button
+      #   openType: addFriend
+      #   openId: 41D0ED9AEDD96C611B0E679EF3ED67F9
 
       - text: 添加到桌面
         icon: send
