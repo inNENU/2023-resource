@@ -195,7 +195,7 @@ content:
       - text: 信息化办公室
         color: purple
         name: Information
-        icon: pc
+        icon: tech
         path: apartment/xxhb/
 
       - text: 党委宣传部

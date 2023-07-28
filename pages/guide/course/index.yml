@@ -1,6 +1,6 @@
 title: 课程
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-28T17:01:03.537Z
 grey: true
 shareable: true
 content:
@@ -30,10 +30,10 @@ content:
     header: 课程安排
     items:
       - text: 本科课程表
-        icon: plan
+        icon: course-table
         path: table
 
-      - text: 本科课程计划
+      - text: 本科人才培养计划
         icon: plan
         path: plan/
 

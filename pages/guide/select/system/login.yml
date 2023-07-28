@@ -1,6 +1,6 @@
 title: 登录选课系统
 author: Mr.Hope
-time: 2023-06-21T10:21:02.697Z
+time: 2023-07-28T17:01:04.110Z
 shareable: true
 content:
   - tag: text
@@ -69,7 +69,7 @@ content:
         path: /guide/account/authorize/
 
       - text: 信息化办
-        icon: pc
+        icon: tech
         path: /apartment/xxhb/
 
   - tag: title

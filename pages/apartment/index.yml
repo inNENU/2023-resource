@@ -1,7 +1,7 @@
 title: 学校机构介绍
 grey: true
 author: Mr.Hope
-time: 2023-07-19T07:19:21.778Z
+time: 2023-07-28T17:01:02.330Z
 shareable: true
 content:
   - tag: grid
@@ -21,7 +21,7 @@ content:
       - text: 信息化办公室
         color: purple
         name: Information
-        icon: pc
+        icon: tech
         path: xxhb/
 
       - text: 校医院

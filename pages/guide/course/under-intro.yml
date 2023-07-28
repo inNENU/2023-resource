@@ -1,6 +1,6 @@
 title: 本科课程设置
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-07-28T17:01:03.543Z
 grey: true
 shareable: true
 content:
@@ -26,10 +26,10 @@ content:
   - tag: list
     header: 课程安排
     items:
-      - text: 本科课程表
-        icon: plan
+      - text: 课程表
+        icon: course-table
         path: table
 
-      - text: 本科课程计划
+      - text: 人才培养计划
         icon: plan
         path: plan/
