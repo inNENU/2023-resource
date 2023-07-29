@@ -15,8 +15,7 @@ main-presets:
     - tag: card
       cover: https://assets.innenu.com/img/tab/activate.jpg
       title: 账号激活
-      desc: 激活你的统一身份认证账号
-      logo: activate
+      logo: authorize
       url: activate
 
     - tag: grid
