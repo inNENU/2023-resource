@@ -108,7 +108,7 @@ main-presets:
         - text: 课程表
           color: grey
           name: Course
-          icon: degree
+          icon: course-table
           url: course-table
 
         - text: 成绩查询
@@ -346,7 +346,7 @@ function-presets:
         - text: 课程表
           color: grey
           name: Course
-          icon: degree
+          icon: course-table
           url: course-table
 
         - text: 成绩查询
@@ -394,7 +394,7 @@ function-presets:
         - text: 课程表
           color: grey
           name: Course
-          icon: degree
+          icon: course-table
           url: course-table
 
         - text: 成绩查询
