@@ -1,20 +1,27 @@
 title: 校园卡介绍
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-07-31T08:50:05.444Z
 shareable: true
 content:
   - tag: title
-    text: 校园卡照片
+    text: 校园卡介绍
+
+  - tag: text
+    text: 校园卡分为实体卡和微信校园卡 (电子卡) 两种。目前学校正在逐步推进校园卡的电子化工作。
+
+  - tag: title
+    text: 实体校园卡
+
+  - tag: text
+    text: 学校开学发放，报到时领取。
 
   - tag: img
     src: $img/card/card.jpg
-    desc: 校园卡
-
-  - tag: title
-    text: 主要功能
+    desc: 校园卡照片
 
   - tag: text
-    text: 校园卡主要承担着校园内的消费和身份认证两大功能。
+    heading: 实体卡主要功能
+    text: 校园卡主要承担着校园内的生活、消费和身份认证三大功能。
 
   - tag: ul
     heading: 生活
@@ -35,6 +42,28 @@ content:
       - 期中期末考试身份认证
       - 计算机等级考试身份认证
       - 英语四六级考试身份认证
+
+  - tag: title
+    text: 微信校园卡 (电子卡)
+
+  - tag: text
+    text: 在关注并认证企业微信后可以使用。
+
+  - tag: list
+    header: false
+    items:
+      - text: 企业微信认证
+        icon: wechat
+        path: /guide/account/wechat/authorize
+
+      - text: 微信校园卡详细介绍
+        icon: card
+        path: wechat
+
+  - tag: text
+    heading: 微信校园卡主要功能
+    text:
+      - 微信校园卡已开通了食堂、超市消费、各楼宇门禁功能，学校校门门禁、洗衣机、直饮水、生活用水等陆续升级中。
 
   - tag: title
     text: 消费限额

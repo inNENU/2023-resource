@@ -1,18 +1,23 @@
 title: 校园卡
 grey: true
 author: Mr.Hope
-time: 2023-07-28T17:01:03.500Z
+time: 2023-07-31T08:50:05.441Z
 shareable: true
 content:
   - tag: text
-    type: info
-    heading: 校园卡简介
-    text: 校园卡是您在东师校园内的通用消费卡以及身份认证卡。
-    path: intro
+    type: warning
+    heading: 校园卡不是手机卡
+    text:
+      - 校园卡由学校统一发放，是一张银行卡大小的 IC 卡片，与手机卡没有任何关系。
+      - 如有任何人拿手机卡《忽悠》你是校园卡要求你必须办理，请严词拒绝，如必要请联系保卫处。
 
   - tag: list
     header: 初识校园卡
     items:
+      - text: 校园卡介绍
+        icon: about
+        path: intro
+
       - text: 使用前准备
         desc: 新卡到手后
         icon: prepare
@@ -46,7 +51,7 @@ content:
         path: malfunction
 
       - text: 校园卡丢失
-        desc: 立即挂失
+        desc: 挂失/补卡
         icon: lost
         path: lost
 

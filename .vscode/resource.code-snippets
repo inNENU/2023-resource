@@ -135,7 +135,23 @@
       "    fName: $3",
       "    num: $0"
     ],
-    "description": "inset table"
+    "description": "inset phone"
+  },
+  "location": {
+    "scope": "yaml",
+    "prefix": ["loc"],
+    "body": ["  - tag: location", "    title: $1", "    points:", "$0"],
+    "description": "inset location"
+  },
+  "location item": {
+    "scope": "yaml",
+    "prefix": ["point"],
+    "body": [
+      "      - latitude: $1",
+      "        longitude: $2",
+      "${3:        detail: $4}"
+    ],
+    "description": "inset location"
   },
   "table": {
     "scope": "yaml",
