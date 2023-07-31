@@ -1,6 +1,6 @@
 title: 校园邮箱
 author: Mr.Hope
-time: 2023-07-16T11:41:46.088Z
+time: 2023-07-31T16:01:20.616Z
 shareable: true
 content:
   - tag: title
@@ -67,3 +67,12 @@ content:
     src: $img/account/email.jpg
     desc: 网页版邮箱页面
     watermark: true
+
+  - tag: title
+    text: 邮箱维护
+
+  - tag: text
+    type: warning
+    text:
+      - 有发送垃圾邮件等异常行为或超过 2 年未登录的账号将被冻结。
+      - 冻结账号在 1 年内未申请恢复使用的将会被注销
