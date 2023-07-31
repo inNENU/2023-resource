@@ -214,12 +214,12 @@ content:
         color: red
         name: Service
         icon: contact
-        url: info?id=/other/action/out
+        url: info?path=/other/action/out
 
       - text: 国家考试
         color: blue
         name: Exam
         icon: exam
-        url: info?id=/other/action/test
+        url: info?path=/other/action/test
 
     footer: " "

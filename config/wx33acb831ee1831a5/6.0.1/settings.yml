@@ -99,7 +99,7 @@ main-presets:
       cover: https://assets.innenu.com/img/tab/faq.png
       title: 常见问题
       logo: faq
-      url: info?id=/newcomer/faq/
+      url: info?path=/newcomer/faq/
 
   at-school:
     - tag: grid

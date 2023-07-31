@@ -2,7 +2,7 @@ title: 社团纳新
 desc: |-
   新增、修改、删除社团纳新信息请联系 Mr.Hope
 author: Mr.Hope
-time: 2023-06-16T06:56:36.694Z
+time: 2023-07-31T16:35:49.096Z
 shareable: true
 content:
   - tag: card
@@ -10,14 +10,14 @@ content:
     logo: $img/association/quyi.png
     name: 师说曲艺社
     title: 我们在纳新
-    url: info?id=/guide/association/culture/quyi-in
+    url: info?path=/guide/association/culture/quyi-in
 
   - tag: card
     cover: $img/media/join.png
     logo: $img/association/mun/logo.png
     name: 模拟联合国协会
     title: 我们在纳新
-    url: info?id=/guide/association/study/mun-in
+    url: info?path=/guide/association/study/mun-in
 
   - tag: functional-list
     header: 如需修改信息，请

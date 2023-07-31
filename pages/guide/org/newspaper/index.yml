@@ -28,7 +28,7 @@ content:
     desc: 秋风执笔，白露成章。崭新的秋天里，《东师青年》报社开启新的篇章。立足校园，观察天下。
     name: 《东师青年》报社
     logo: $img/organization/newspaper.png
-    url: info?id=/guide/org/newspaper/intake
+    url: info?path=/guide/org/newspaper/intake
     env:
       - qq
 

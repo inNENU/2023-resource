@@ -482,7 +482,7 @@ main-presets:
       title: 找到组织
       desc: 添加新生群
       logo: qq-group
-      url: info?id=/newcomer/contact/
+      url: info?path=/newcomer/contact/
 
     - tag: grid
       header: 您可能想关注
@@ -565,7 +565,7 @@ main-presets:
       cover: https://assets.innenu.com/img/tab/faq.png
       title: 常见问题
       logo: faq
-      url: info?id=/newcomer/faq/
+      url: info?path=/newcomer/faq/
 
   at-school:
     - tag: grid

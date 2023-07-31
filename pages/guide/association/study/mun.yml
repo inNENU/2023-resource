@@ -1,6 +1,6 @@
 title: 模拟联合国协会
 author: Mr.Hope
-time: 2022-09-15
+time: 2023-07-31T16:35:49.199Z
 shareable: true
 content:
   - tag: account
@@ -17,7 +17,7 @@ content:
     logo: $img/association/mun/logo.png
     name: 模拟联合国协会
     title: 我们在纳新
-    url: info?id=/guide/association/study/mun-in
+    url: info?path=/guide/association/study/mun-in
 
   - tag: title
     text: 社团简介

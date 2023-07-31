@@ -7,13 +7,13 @@ content:
   #   cover: $img/tab/life.jpg
   #   title: 校园生活最强指南
   #   logo: life
-  #   url: info?id=/guide/life/
+  #   url: info?path=/guide/life/
 
   # - tag: card
   #   cover: $img/tab/dining.jpg
   #   title: 食堂档口最强指南
   #   logo: dining
-  #   url: info?id=/guide/dining/
+  #   url: info?path=/guide/dining/
 
   - tag: title
     text: 本科招生
@@ -22,7 +22,7 @@ content:
   #   cover: $img/tab/enroll.png
   #   title: 2023年本科招生指南
   #   logo: enroll
-  #   url: info?id=/intro/enroll/under/rule/
+  #   url: info?path=/intro/enroll/under/rule/
 
   - tag: list
     header: false
@@ -147,7 +147,7 @@ content:
   #   cover: $img/tab/faq.png
   #   title: 常见问题
   #   logo: faq
-  #   url: info?id=/newcomer/faq/
+  #   url: info?path=/newcomer/faq/
 
   # - tag: card
   #   cover: https://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg
