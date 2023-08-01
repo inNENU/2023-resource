@@ -3,77 +3,34 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: title
-    text: 本科招生
+  - tag: text
+    type: danger
+    heading: 防诈提示
+    text:
+      - 各位新生同学，学校从不建立任何官方QQ群，也不向任何个人或团体授权校徽、校名标识使用权。
+      - QQ 群 778762127 非学校教职工建立的官方群，其所有者也非在校学生。并且在未经学校的许可下，违规使用学校校徽作为群头像，请各位同学退群以避免个人利益受到侵害。
 
-  # - tag: card
-  #   cover: $img/tab/enroll.png
-  #   title: 2023年本科招生指南
-  #   logo: enroll
-  #   url: info?path=/intro/enroll/under/rule/
+  - tag: card
+    cover: https://assets.innenu.com/img/tab/admission.jpg
+    title: 录取查询
+    desc: 录取通知书邮寄查询
+    logo: letter
+    url: admission?type=search
 
-  - tag: list
-    header: false
-    items:
-      - text: 2023 年招生简章
-        icon: rule
-        path: intro/enroll/under/rule/
-
-      - text: 2023 年招生计划
-        icon: enroll
-        url: enroll-plan
-
-      - text: 历史分数
-        icon: time
-        url: enroll-grade
-
-      # - text: 招生咨询群
-      #   icon: qq-group
-      #   path: intro/enroll/under/qq-group
-
-      # - text: 线下招生咨询活动
-      #   icon: activity
-      #   path: intro/enroll/under/activity
-
-      - text: 更多信息
-        icon: more
-        path: intro/enroll/under/
-
-  - tag: list
-    header: 研究生
-    items:
-      - text: 研究生调档
-        path: guide/archive/post-in
-
-      - text: 研究生党员组织关系接转
-        path: newcomer/prepare/league
-
-      - text: 研究生团员组织关系接转
-        path: newcomer/prepare/group
-
-  # - tag: title
-  #   text: 此处有搜索👆 您可以对小程序内容进行查找
+  - tag: card
+    cover: https://assets.innenu.com/img/tab/activate.jpg
+    title: 账号激活
+    logo: authorize
+    url: activate
 
   - tag: grid
     header: 您可能想关注
     items:
-      - text: 专业介绍
+      - text: 新生群
         color: olive
-        name: Major
-        icon: about
-        path: school/major
-
-      - text: 转专业
-        color: red
-        name: Change Major
-        icon: change
-        path: guide/change-major/
-
-      - text: 师范生
-        color: purple
-        name: Normal
-        icon: teacher
-        path: guide/normal/
+        name: Contact
+        icon: qq-group
+        path: newcomer/contact/
 
       - text: 寝室
         color: blue
@@ -99,17 +56,29 @@ content:
         icon: life
         path: guide/life/
 
+      - text: 专业介绍
+        color: olive
+        name: Major
+        icon: about
+        path: school/major
+
+      - text: 转专业
+        color: red
+        name: Change Major
+        icon: change
+        path: guide/change-major/
+
+      - text: 师范生
+        color: purple
+        name: Normal
+        icon: teacher
+        path: guide/normal/
+
       - text: 课程
         color: orange
         name: Course
         icon: content
         path: guide/course/
-
-      # - text: 找到组织
-      #   color: olive
-      #   name: Contact
-      #   icon: qq-group
-      #   path: newcomer/contact/
 
       - text: 学习
         color: mauve
@@ -123,23 +92,16 @@ content:
         icon: calendar
         url: calendar
 
-      - text: 常见问题
-        color: cyan
-        name: FAQ
-        icon: faq
-        path: newcomer/faq/
+      # - text: 常见问题
+      #   color: cyan
+      #   name: FAQ
+      #   icon: faq
+      #   path: newcomer/faq/
 
     footer: 更多内容请详见下方其他 Tab 页
 
-  # - tag: card
-  #   cover: $img/tab/faq.png
-  #   title: 常见问题
-  #   logo: faq
-  #   url: info?path=/newcomer/faq/
-
-  # - tag: card
-  #   cover: https://mmbiz.qpic.cn/mmbiz_jpg/ic9k8LCTbicc7fibAYDFBn7oAvOaEs00iblrOKaFWoIrqzQzoXXDPmHNjS9bm9ZUVQWB3149EYsjmQNS4jU1HzUW5Q/0?wx_fmt=jpeg
-  #   title: 招纳小程序志愿者
-  #   logo: $img/inNENU.png
-  #   name: in 东师
-  #   url: info?path=Oguide/volunteer
+  - tag: card
+    cover: https://assets.innenu.com/img/tab/faq.png
+    title: 常见问题
+    logo: faq
+    url: info?path=/newcomer/faq/

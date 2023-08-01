@@ -5,6 +5,13 @@ main-page:
 
 main-presets:
   newcomer:
+    - tag: text
+      type: danger
+      heading: 防诈提示
+      text:
+        - 各位新生同学，学校从不建立任何官方QQ群，也不向任何个人或团体授权校徽、校名标识使用权。
+        - QQ 群 778762127 非学校教职工建立的官方群，其所有者也非在校学生。并且在未经学校的许可下，违规使用学校校徽作为群头像，请各位同学退群以避免个人利益受到侵害。
+
     - tag: card
       cover: https://assets.innenu.com/img/tab/admission.jpg
       title: 录取查询
