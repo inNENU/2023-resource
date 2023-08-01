@@ -1,7 +1,7 @@
 title: 学院迎新群
 author: Mr.Hope
 desc: 欢迎大家私聊并提交自己学院的新生群二维码
-time: 2023-07-28T17:01:02.936Z
+time: 2023-08-01T15:16:00.433Z
 shareable: true
 content:
   - tag: title
@@ -36,6 +36,14 @@ content:
     src: $img/about/chemistry-2023.jpg
     desc: 化学学院
 
+  - tag: img
+    src: $img/about/foreign-benbu-2023.jpg
+    desc: 外国语学院本部
+
+  - tag: img
+    src: $img/about/foreign-jingyue-2023.jpg
+    desc: 外国语学院净月
+
   - tag: title
     text: 各学院非官方迎新群
 
@@ -44,6 +52,10 @@ content:
     text:
       - 下列群聊均为非官方群，也就是不含有辅导员或学院团委老师，学长学姐自发建立的。
       - Mr.Hope 只会偶尔监控一下各群状态是否正常，不对群的正规性以及加群产生的任何后果负责。
+
+  - tag: img
+    src: $img/about/pe-2023.jpg
+    desc: 体育学院
 
   - tag: ul
     type: info

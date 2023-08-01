@@ -1,6 +1,6 @@
 title: 2023 年报到时间地点
 author: Mr.Hope
-time: 2023-07-31T08:50:04.926Z
+time: 2023-08-01T15:16:00.416Z
 shareable: true
 content:
   - tag: title
@@ -39,6 +39,7 @@ content:
     header: false
     items:
       - text: 认准校区校门
+        icon: gate
         path: locate
 
   - tag: title
@@ -66,10 +67,16 @@ content:
   - tag: text
     type: note
     text:
-      - 如需在其他时间段返校，必须提前报备并获得批准，并从指定入口进入。从其他时间段入校没有车辆搬运行李。
+      - 如需在其他时间段返校，必须提前报备并获得批准，并从指定入口进入。从其他时间段入校没有志愿者搬运行李。
 
   - tag: title
     text: 报到(接待)地点
+
+  #TODO: Update
+  - tag: text
+    type: tip
+    text:
+      - 以下为 2022 年安排，2023 年安排尚未通知。
 
   - tag: text
     text:

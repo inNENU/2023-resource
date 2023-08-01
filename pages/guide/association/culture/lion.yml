@@ -15,3 +15,7 @@ content:
 
   - tag: img
     src: $img/association/lion2.jpg
+
+  - tag: img
+    src: $img/association/lion.jpg
+    desc: 纳新群

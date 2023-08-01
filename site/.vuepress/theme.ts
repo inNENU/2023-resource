@@ -19,6 +19,7 @@ export default hopeTheme(
       "/intro/",
       "/school/",
       "/apartment/",
+      "/contributing/",
     ],
 
     pageInfo: ["Author", "Original", "Date", "PageView", "ReadingTime", "Word"],
@@ -74,5 +75,5 @@ export default hopeTheme(
       sitemap: true,
     },
   },
-  { custom: true },
+  { custom: true }
 );

@@ -27,6 +27,12 @@ about:
       icon: subsidize
       path: intro/subsidize/
 
+    - text: 招生
+      name: Enroll
+      color: red
+      icon: enroll
+      path: intro/enroll/
+
 apartment:
   icon: apartment
   name: 学校机构
@@ -276,6 +282,12 @@ grad-enroll:
       icon: letter
       url: admission?type=search
 
+    - text: 更多
+      name: More
+      color: red
+      icon: more
+      path: intro/enroll/grad/
+
 under-enroll:
   icon: enroll
   name: 本科招生
@@ -304,6 +316,12 @@ under-enroll:
       color: cyan
       icon: letter
       url: admission?type=search
+
+    - text: 更多
+      name: More
+      color: red
+      icon: more
+      path: intro/enroll/under/
 
 newcomer:
   icon: https://assets.innenu.com/img/inNENU.png

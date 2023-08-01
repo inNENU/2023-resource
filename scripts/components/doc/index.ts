@@ -35,7 +35,7 @@ const getDocIcon = (url: string): string => {
 
 export const resolveDoc = (
   element: DocComponentOptions,
-  location = "",
+  location = ""
 ): void => {
   element.icon = getDocIcon(element.url);
 
@@ -52,7 +52,7 @@ export const resolveDoc = (
       downloadable: { type: ["undefined"], additional: [true] },
       env: ["string[]", "undefined"],
     },
-    location,
+    location
   );
 };
 
@@ -63,7 +63,7 @@ export const getDocMarkdown = (component: DocComponentOptions): string => {
   const { name, url } = component;
 
   const docIcon = `<img class="innenu-doc-icon" src="https://mp.innenu.com/assets/icon/${getDocIcon(
-    url,
+    url
   )}.svg" alt="${name}" />`;
   const docName = `${name}.${url.split(".").pop()!}`;
 
@@ -71,7 +71,7 @@ export const getDocMarkdown = (component: DocComponentOptions): string => {
 ${
   url.match(/\.(pdf|jpe?g|png|bmp|svg)$/)
     ? `
-<a class="innenu-doc" href="${url}" target="_blank" rel="noopener noreferrer">
+<a class="innenu-doc" href="${url}" name="${docName}" target="_blank" rel="noopener noreferrer">
   ${docIcon}
   ${docName}
 </a>
