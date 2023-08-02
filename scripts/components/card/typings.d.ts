@@ -53,6 +53,23 @@ export interface NormalCardComponentOptions extends BaseComponentOptions {
   name?: string;
 }
 
+export interface PageCardComponentOptions extends BaseComponentOptions {
+  tag: "card";
+  /** 跳转的文件名称 */
+  path: string;
+  /** 封面图片在线地址 */
+  cover?: string;
+  /** 卡片标题 */
+  title: string;
+  /** 卡片描述 */
+  desc?: string;
+  /** 卡片 Logo 地址 */
+  logo?: string;
+  /** 卡片 Logo 名称 */
+  name?: string;
+}
+
 export type CardComponentOptions =
   | MiniprogramCardOptions
-  | NormalCardComponentOptions;
+  | NormalCardComponentOptions
+  | PageCardComponentOptions;

@@ -7,7 +7,7 @@ import { aliasResolve, getPath } from "../utils.js";
 
 export const resolveCard = (
   component: CardComponentOptions,
-  location = "",
+  location = ""
 ): void => {
   if (component.logo) {
     // check icons
@@ -28,6 +28,7 @@ export const resolveCard = (
     {
       tag: "string",
       cover: ["string", "undefined"],
+      path: ["string", "undefined"],
       url: ["string", "undefined"],
       title: "string",
       desc: ["string", "undefined"],
@@ -36,7 +37,7 @@ export const resolveCard = (
       options: ["object", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location,
+    location
   );
 
   // check options
@@ -53,7 +54,7 @@ export const resolveCard = (
         path: ["string", "undefined"],
         shortLink: ["string", "undefined"],
       },
-      `${location}.options`,
+      `${location}.options`
     );
 };
 
@@ -67,7 +68,7 @@ export const getCardMarkdown = (component: CardComponentOptions): string => {
 
   if ("options" in component) return "";
 
-  const { name, desc, title, url } = component;
+  const { name, desc, title } = component;
 
   const cardChildren = `
 ${
@@ -105,24 +106,21 @@ ${
 </div>
 `;
 
-  if (url.match(/^https?:\/\//))
+  if ("url" in component && component.url.match(/^https?:\/\//))
     return `\
-<a class="innenu-card" href="${url}" target="_blank">
+<a class="innenu-card" href="${component.url}" target="_blank">
 ${cardChildren}
 </a>
 `;
 
-  if (!url.startsWith("info?")) return "";
+  if ("path" in component) {
+    return `\
+    <VPLink class="innenu-card" to="${getPath(component.path)}">
+    ${cardChildren}
+    </VPLink>
+    
+    `;
+  }
 
-  const options = new URLSearchParams(url.substring(5));
-  const path = options.get("path") || options.get("id");
-
-  if (!path) return "";
-
-  return `\
-<VPLink class="innenu-card" to="${getPath(path)}">
-${cardChildren}
-</VPLink>
-
-`;
+  return "";
 };
