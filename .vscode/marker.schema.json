@@ -10,7 +10,7 @@
           "type": "number"
         },
         "latitude": {
-          "description": "维度",
+          "description": "纬度",
           "type": "number"
         },
         "name": {
@@ -40,7 +40,7 @@
           "description": "分类点位",
           "type": "array",
           "items": {
-            "oneOf": [{ "$ref": "#/$defs/location" }]
+            "$ref": "#/$defs/location"
           }
         }
       },
@@ -55,7 +55,7 @@
   "patternProperties": {
     "^.+$": {
       "description": "分类数据",
-      "oneOf": [{ "$ref": "#/$defs/category-data" }]
+      "$ref": "#/$defs/category-data"
     }
   },
   "type": "object"

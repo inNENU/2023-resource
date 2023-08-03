@@ -1,6 +1,8 @@
 {
   "yaml.schemas": {
     "./.vscode/account.schema.json": ["/data/account/*.yml"],
+    "./.vscode/qq-account.schema.json": ["/data/function/account/qq.yml"],
+    "./.vscode/wx-account.schema.json": ["/data/function/account/wx.yml"],
     "./.vscode/marker.schema.json": ["/data/function/map/marker/*.yml"],
     "./.vscode/map.schema.json": [
       "/data/function/map/benbu/**/*.yml",

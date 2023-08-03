@@ -69,7 +69,7 @@
       "description": "文章内容",
       "type": "array",
       "items": {
-        "oneOf": [{ "$ref": "#/$defs/article" }]
+        "$ref": "#/$defs/article"
       },
       "additionalItems": false
     }

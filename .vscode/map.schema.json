@@ -16,7 +16,7 @@
           "type": "number"
         },
         "latitude": {
-          "description": "维度",
+          "description": "纬度",
           "type": "number"
         }
       },
@@ -31,7 +31,7 @@
           "type": "number"
         },
         "latitude": {
-          "description": "维度",
+          "description": "纬度",
           "type": "number"
         },
         "name": {
@@ -480,7 +480,7 @@
           "description": "列表项目",
           "type": "array",
           "items": {
-            "oneOf": [{ "$ref": "#/$defs/base-list-item" }]
+            "$ref": "#/$defs/base-list-item"
           }
         },
         "footer": {
@@ -989,7 +989,7 @@
           "description": "网格项目",
           "type": "array",
           "items": {
-            "oneOf": [{ "$ref": "#/$defs/grid-item" }]
+            "$ref": "#/$defs/grid-item"
           }
         },
         "footer": {
