@@ -1,7 +1,7 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
-  "definitions": {
+  "$defs": {
     "env": {
       "type": "array",
       "items": {
@@ -82,7 +82,7 @@
           "type": "string"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["text"],
@@ -344,7 +344,7 @@
           "type": "string"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["text", "icon", "color", "name"],
@@ -371,13 +371,10 @@
         },
         "style": {
           "description": "标题样式",
-          "oneOf": [
-            { "type": "string" },
-            { "$ref": "#/definitions/style-object" }
-          ]
+          "oneOf": [{ "type": "string" }, { "$ref": "#/$defs/style-object" }]
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "text"],
@@ -416,7 +413,7 @@
           }
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["header", "body"],
@@ -456,13 +453,10 @@
         },
         "style": {
           "description": "文字样式",
-          "oneOf": [
-            { "type": "string" },
-            { "$ref": "#/definitions/style-object" }
-          ]
+          "oneOf": [{ "type": "string" }, { "$ref": "#/$defs/style-object" }]
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "default": { "tag": "text", "text": [""] },
@@ -486,7 +480,7 @@
           "description": "列表项目",
           "type": "array",
           "items": {
-            "oneOf": [{ "$ref": "#/definitions/base-list-item" }]
+            "oneOf": [{ "$ref": "#/$defs/base-list-item" }]
           }
         },
         "footer": {
@@ -494,7 +488,7 @@
           "type": "string"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "items"],
@@ -547,7 +541,7 @@
           ]
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "src"],
@@ -580,7 +574,7 @@
           "default": false
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "name", "url"],
@@ -692,7 +686,7 @@
           "pattern": "^\\/.*\\.{jpe?g,png}$"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "num", "fName"],
@@ -716,7 +710,7 @@
           "type": "string"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "content"],
@@ -774,7 +768,7 @@
         "location": {
           "description": "主体的地址",
           "type": "object",
-          "$ref": "#/definitions/location"
+          "$ref": "#/$defs/location"
         },
         "mail": {
           "description": "主体的电子邮件",
@@ -787,7 +781,7 @@
           "pattern": "^https?:\\/\\/"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "name", "logo"],
@@ -810,7 +804,7 @@
           "description": "地点",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/point"
+            "$ref": "#/$defs/point"
           }
         },
         "navigate": {
@@ -818,7 +812,7 @@
           "type": "boolean"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "title", "points"],
@@ -901,7 +895,7 @@
           "type": "string"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "images"],
@@ -965,7 +959,7 @@
           }
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "title"],
@@ -995,7 +989,7 @@
           "description": "网格项目",
           "type": "array",
           "items": {
-            "oneOf": [{ "$ref": "#/definitions/grid-item" }]
+            "oneOf": [{ "$ref": "#/$defs/grid-item" }]
           }
         },
         "footer": {
@@ -1003,7 +997,7 @@
           "type": "string"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "items"],
@@ -1043,7 +1037,7 @@
               "type": "string"
             },
             "env": {
-              "$ref": "#/definitions/env"
+              "$ref": "#/$defs/env"
             }
           },
           "additionalProperties": false
@@ -1081,7 +1075,7 @@
               "type": "number"
             },
             "env": {
-              "$ref": "#/definitions/env"
+              "$ref": "#/$defs/env"
             }
           },
           "additionalProperties": false
@@ -1108,12 +1102,12 @@
           "type": "array",
           "items": {
             "oneOf": [
-              { "$ref": "#/definitions/base-list-item" },
-              { "$ref": "#/definitions/navigator-list-item" },
-              { "$ref": "#/definitions/switch-list-item" },
-              { "$ref": "#/definitions/picker-list-item" },
-              { "$ref": "#/definitions/slider-list-item" },
-              { "$ref": "#/definitions/button-list-item" }
+              { "$ref": "#/$defs/base-list-item" },
+              { "$ref": "#/$defs/navigator-list-item" },
+              { "$ref": "#/$defs/switch-list-item" },
+              { "$ref": "#/$defs/picker-list-item" },
+              { "$ref": "#/$defs/slider-list-item" },
+              { "$ref": "#/$defs/button-list-item" }
             ]
           }
         },
@@ -1122,7 +1116,7 @@
           "type": "string"
         },
         "env": {
-          "$ref": "#/definitions/env"
+          "$ref": "#/$defs/env"
         }
       },
       "required": ["tag", "items"],
@@ -1192,21 +1186,21 @@
       "type": "array",
       "items": {
         "oneOf": [
-          { "$ref": "#/definitions/title-component" },
-          { "$ref": "#/definitions/table-component" },
-          { "$ref": "#/definitions/text-component" },
-          { "$ref": "#/definitions/list-component" },
-          { "$ref": "#/definitions/img-component" },
-          { "$ref": "#/definitions/doc-component" },
-          { "$ref": "#/definitions/phone-component" },
-          { "$ref": "#/definitions/action-component" },
-          { "$ref": "#/definitions/account-component" },
-          { "$ref": "#/definitions/location-component" },
-          { "$ref": "#/definitions/carousel-component" },
-          { "$ref": "#/definitions/card-component" },
-          { "$ref": "#/definitions/grid-component" },
-          { "$ref": "#/definitions/media-component" },
-          { "$ref": "#/definitions/functional-list-component" }
+          { "$ref": "#/$defs/title-component" },
+          { "$ref": "#/$defs/table-component" },
+          { "$ref": "#/$defs/text-component" },
+          { "$ref": "#/$defs/list-component" },
+          { "$ref": "#/$defs/img-component" },
+          { "$ref": "#/$defs/doc-component" },
+          { "$ref": "#/$defs/phone-component" },
+          { "$ref": "#/$defs/action-component" },
+          { "$ref": "#/$defs/account-component" },
+          { "$ref": "#/$defs/location-component" },
+          { "$ref": "#/$defs/carousel-component" },
+          { "$ref": "#/$defs/card-component" },
+          { "$ref": "#/$defs/grid-component" },
+          { "$ref": "#/$defs/media-component" },
+          { "$ref": "#/$defs/functional-list-component" }
         ]
       },
       "additionalItems": false

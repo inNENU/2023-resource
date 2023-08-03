@@ -1,6 +1,12 @@
 {
   "yaml.schemas": {
-    "./.vscode/res.schema.json": [
+    "./.vscode/account.schema.json": ["/data/account/*.yml"],
+    "./.vscode/marker.schema.json": ["/data/function/map/marker/*.yml"],
+    "./.vscode/map.schema.json": [
+      "/data/function/map/benbu/**/*.yml",
+      "/data/function/map/jingyue/**/*.yml"
+    ],
+    "./.vscode/page.schema.json": [
       "/pages/guide/**/*.yml",
       "/pages/intro/**/*.yml",
       "/pages/other/**/*.yml"

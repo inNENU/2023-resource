@@ -5,7 +5,7 @@ id: nenu_media
 logo: $img/media/media.png
 qrcode: $img/media/media-wechat.jpg
 article:
-  - cover: http://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQdwQC2icFr74x0xUQUmSkfqib2G2M7J6DiacNw5hD7fGaAcib6SCiaUKqXicXTWTwIPRwpVic7wQn7p3qktw/0?wx_fmt=jpeg
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQdwQC2icFr74x0xUQUmSkfqib2G2M7J6DiacNw5hD7fGaAcib6SCiaUKqXicXTWTwIPRwpVic7wQn7p3qktw/0?wx_fmt=jpeg
     title: 传媒科学学院 (新闻学院) 联合保卫处组织开展消防安全培训及应急演练活动
     url: https://mp.weixin.qq.com/s/uhjFs17uOd_XRdlOh2HgLw
 
@@ -21,7 +21,7 @@ article:
     title: 东北师范大学传媒科学学院 (新闻学院) 2023届毕业晚会圆满结束
     url: https://mp.weixin.qq.com/s/uJ8hulzuWzHS54-LoAE3vg
 
-  - cover: http://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQekVW2xJdEKde05j7n4PeFHCERowUvd8Jgmzk44KS1QSX2o400cAQJgbc6tWGrfSaTUMaIUFxge2A/0?wx_fmt=jpeg
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQekVW2xJdEKde05j7n4PeFHCERowUvd8Jgmzk44KS1QSX2o400cAQJgbc6tWGrfSaTUMaIUFxge2A/0?wx_fmt=jpeg
     title: 东师传媒精英大讲堂——艺术学研究方法与论文写作
     url: https://mp.weixin.qq.com/s/1KZVcnYL1djMczajWKoipA
 
@@ -53,7 +53,7 @@ article:
     title: “我要去比赛”之“比赛来了”——吉林“文旅推荐官”短视频大赛
     url: https://mp.weixin.qq.com/s/L-fCcm76zs00c537zLKgUw
 
-  - cover: http://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQd3fgzVjyb4Sqibm51C2KPOUdkFIF2mgJfam9wMfd4NlSU7MKJhGgiaoZicDGgc2Ntc0GrM4Qb4zMG9A/0?wx_fmt=jpeg
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQd3fgzVjyb4Sqibm51C2KPOUdkFIF2mgJfam9wMfd4NlSU7MKJhGgiaoZicDGgc2Ntc0GrM4Qb4zMG9A/0?wx_fmt=jpeg
     title: |-
       东师传媒精英大讲堂——从文学到影像: 班宇创作谈
     url: https://mp.weixin.qq.com/s/fux5M87vjTN2NpzmvJ_Y5w
@@ -238,7 +238,7 @@ article:
     title: 我院在“唐韵杯”第三届吉林省大学生广告创意大赛中荣获佳绩
     url: https://mp.weixin.qq.com/s/qKmUWPeI1dmXzXZFPSa8-g
 
-  - cover: http://mmbiz.qpic.cn/mmbiz_jpg/L1fovk11hQebrBNQTy0Nia3n8niavFdfLVpnJNsFvFhU64ZfT2ABS5zk04oHSia2BoG2K0ic2UsLtYdCgrYto4fweQ/0?wx_fmt=jpeg
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/L1fovk11hQebrBNQTy0Nia3n8niavFdfLVpnJNsFvFhU64ZfT2ABS5zk04oHSia2BoG2K0ic2UsLtYdCgrYto4fweQ/0?wx_fmt=jpeg
     title: 传媒科学学院 (新闻学院) 专业硕士实践能力提升计划系列活动 ——数据新闻工作坊开班仪式成功举办
     url: https://mp.weixin.qq.com/s/O--IaRnqKthWTyW7h1OqNg
 
