@@ -22,10 +22,10 @@ content:
         icon: qq-group
         path: contact/
 
-      - text: 经验分享直播与答疑
+      - text: 经验分享与答疑直播
         color: purple
         name: Streaming
-        icon: activity
+        icon: stream
         path: activity/streaming
 
       - text: 常见问题

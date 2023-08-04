@@ -11,13 +11,6 @@ content:
       - QQ 群 778762127 非学校教职工建立的官方群，其所有者也非在校学生。并且在未经学校的许可下，违规使用学校校徽作为群头像，请各位同学退群以避免个人利益受到侵害。
 
   - tag: card
-    cover: https://assets.innenu.com/img/tab/admission.jpg
-    title: 录取查询
-    desc: 录取通知书邮寄查询
-    logo: letter
-    url: admission?type=search
-
-  - tag: card
     cover: https://assets.innenu.com/img/tab/activate.jpg
     title: 账号激活
     logo: authorize
@@ -31,6 +24,12 @@ content:
         name: Contact
         icon: qq-group
         path: newcomer/contact/
+
+      - text: 直播
+        color: purple
+        name: Stream
+        icon: stream
+        path: newcomer/activity/streaming
 
       - text: 寝室
         color: blue
