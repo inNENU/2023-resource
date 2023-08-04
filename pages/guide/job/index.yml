@@ -1,9 +1,23 @@
 title: 就业
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-04T16:37:22.312Z
 grey: true
 shareable: true
 content:
+  - tag: list
+    items:
+      - text: 求职就业手续的最新要求
+        icon: idea
+        path: require
+
+      - text: 就业流程
+        icon: flow
+        path: flow
+
+      - text: 就业补贴
+        icon: money
+        path: subsidy
+
   - tag: list
     header: 签约协议
     items:
@@ -20,24 +34,22 @@ content:
         icon: alert
         path: agreement/attention
 
+      - text: 更多
+        icon: more
+        path: agreement/
+
   - tag: list
-    header: 派遣
+    header: 就业报到证
     items:
-      - text: 派遣介绍
+      - text: 自 2023 年起，国家已经取消了就业报到证。
+
+      - text: 相关通知
+        icon: notice
+        path: dispatch/notice
+
+      - text: 相关新闻
         icon: intro
-        path: dispatch/intro
-
-      - text: 报到证
-        icon: card
-        path: dispatch/dispath-id
-
-      - text: 改派
-        icon: change
-        path: dispatch/change
-
-      - text: 丢失报到证
-        icon: lost
-        path: dispatch/lost
+        path: dispatch/explain
 
   - tag: list
     header: 常见问题
@@ -81,16 +93,34 @@ content:
     header: 常见名词与相应政策
     items:
       - text: 五险一金
-        path: defination/insurance
+        path: definition/insurance
 
       - text: 试用期和见习期
-        path: defination/internship
+        path: definition/internship
 
       - text: 合同
-        path: defination/contract
+        path: definition/contract
+
+      - text: 劳动合同
+        path: definition/work-contract
 
       - text: 灵活就业
-        path: defination/flexible
+        path: definition/flexible
 
       - text: 人事代理制度
-        path: defination/personnel-agency
+        path: definition/personnel-agency
+
+  - tag: list
+    header: 相关法律
+    items:
+      - text: 中华人民共和国劳动法
+        icon: rule
+        path: law/work
+
+      - text: 中华人民共和国劳动合同法
+        icon: rule
+        path: law/work-contract
+
+      - text: 中华人民共和国劳动合同法实施条例
+        icon: rule
+        path: law/work-contract-rule

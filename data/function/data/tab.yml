@@ -276,12 +276,6 @@ grad-enroll:
       icon: wechat
       url: wechat-detail?path=graduate
 
-    - text: 录取查询
-      name: Admission
-      color: cyan
-      icon: letter
-      url: admission?type=search
-
     - text: 更多
       name: More
       color: red
@@ -310,12 +304,6 @@ under-enroll:
       color: purple
       icon: time
       url: enroll-grade
-
-    - text: 录取查询
-      name: Admission
-      color: cyan
-      icon: letter
-      url: admission?type=search
 
     - text: 更多
       name: More
