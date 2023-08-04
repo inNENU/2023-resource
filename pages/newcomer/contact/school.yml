@@ -1,7 +1,7 @@
 title: 学院迎新群
 author: Mr.Hope
 desc: 欢迎大家私聊并提交自己学院的新生群二维码
-time: 2023-08-01T15:16:00.433Z
+time: 2023-08-04T09:58:01.625Z
 shareable: true
 content:
   - tag: title
@@ -43,6 +43,10 @@ content:
   - tag: img
     src: $img/about/foreign-jingyue-2023.jpg
     desc: 外国语学院净月
+
+  - tag: img
+    src: $img/about/economy-2023.jpg
+    desc: 经济与管理学院
 
   - tag: title
     text: 各学院非官方迎新群
