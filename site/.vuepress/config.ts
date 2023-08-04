@@ -1,6 +1,7 @@
 import { cut, insertWord } from "nodejs-jieba";
 import { fs, getDirname, path } from "@vuepress/utils";
 import { defineUserConfig } from "vuepress";
+import { copyrightPlugin } from "vuepress-plugin-copyright2";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 import theme from "./theme.js";
@@ -60,6 +61,13 @@ export default defineUserConfig({
   theme,
 
   plugins: [
+    copyrightPlugin({
+      disableCopy: true,
+      disableSelection: true,
+      global: true,
+      author: "Mr.Hope",
+      license: "CC BY-NC-ND 4.0",
+    }),
     searchProPlugin({
       indexContent: true,
       indexOptions: {
@@ -72,7 +80,7 @@ export default defineUserConfig({
   alias: {
     "@theme-hope/modules/info/components/PageMeta": path.resolve(
       __dirname,
-      "components/PageMeta.ts",
+      "components/PageMeta.ts"
     ),
   },
 
