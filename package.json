@@ -1,9 +1,8 @@
 {
   "name": "innenu-server",
-  "description": "inNENU 小程序资源文件",
-  "type": "module",
-  "private": true,
   "version": "2023.3.29",
+  "private": true,
+  "description": "inNENU 小程序资源文件",
   "repository": {
     "type": "git",
     "url": "git@github.com:Hope-Studio/innenu-res.git"
@@ -14,6 +13,7 @@
     "email": "mister-hope@outlook.com",
     "url": "https://mister-hope.com"
   },
+  "type": "module",
   "scripts": {
     "build:site": "vuepress build site",
     "dev:site": "vuepress dev site",
@@ -21,23 +21,14 @@
     "generate:account": "tsx ./scripts/gen/account.ts",
     "generate:site": "tsx ./scripts/gen/site.ts",
     "lint": "pnpm lint:eslint && pnpm lint:prettier",
-    "lint:fix": "pnpm lint:eslint --fix && pnpm lint:prettier --write",
     "lint:eslint": "eslint --ext .ts .",
+    "lint:fix": "pnpm lint:eslint --fix && pnpm lint:prettier --write",
     "lint:prettier": "prettier --check .",
     "prepare": "husky install",
     "push": "tsx ./scripts/push.ts",
     "sync:oss": "tsx ./scripts/oss.ts",
     "upload": "tsx ./scripts/upload.ts"
   },
-  "nano-staged": {
-    "*.{json,yml,md}": "prettier --write",
-    "*.{js,ts}": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "package.json": "sort-package-json"
-  },
-  "packageManager": "pnpm@8.6.11",
   "dependencies": {
     "@mr-hope/assert-type": "2.0.0",
     "@types/ali-oss": "6.16.8",
@@ -55,8 +46,8 @@
     "dotenv": "16.3.1",
     "eslint": "8.46.0",
     "eslint-config-prettier": "8.10.0",
-    "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-import": "2.28.0",
+    "eslint-plugin-prettier": "5.0.0",
     "ftp-hope": "0.1.1",
     "husky": "8.0.3",
     "js-yaml": "4.1.0",
@@ -64,15 +55,23 @@
     "nodejs-jieba": "0.0.2",
     "prettier": "3.0.1",
     "qrcode": "1.5.3",
-    "svgo": "3.0.2",
     "sort-package-json": "2.5.1",
-    "tsx": "3.12.7",
+    "svgo": "3.0.2",
     "tslib": "2.6.1",
+    "tsx": "3.12.7",
     "typescript": "5.1.6",
     "vue": "3.3.4",
     "vuepress": "2.0.0-beta.66",
-    "vuepress-shared": "2.0.0-beta.234",
     "vuepress-plugin-search-pro": "2.0.0-beta.234",
+    "vuepress-shared": "2.0.0-beta.234",
     "vuepress-theme-hope": "2.0.0-beta.234"
+  },
+  "packageManager": "pnpm@8.6.11",
+  "nano-staged": {
+    "*.{json,yml,md}": "prettier --write",
+    "*.{js,ts}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   }
 }
