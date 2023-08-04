@@ -3,99 +3,105 @@ author: Mr.Hope
 content:
   - tag: card
     title: 学校概况篇
-    img: $img/video/1.jpg
+    cover: $img/video/1.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=686737700
 
   - tag: card
     title: 入学准备篇
-    img: $img/video/2.jpg
+    cover: $img/video/2.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=429173059
 
   - tag: card
     title: 防诈骗篇
-    img: $img/video/3.jpg
+    cover: $img/video/3.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=301647032
 
   - tag: card
     title: 报道篇
-    img: $img/video/4.jpg
+    cover: $img/video/4.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=601710069
 
   - tag: card
     title: 需带物品篇
-    img: $img/video/5.jpg
+    cover: $img/video/5.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=514147295
 
   - tag: card
     title: 入学活动篇
-    img: $img/video/6.jpg
+    cover: $img/video/6.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=814440637
 
   - tag: card
     title: 校园卡篇
-    img: $img/video/7.jpg
+    cover: $img/video/7.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=217008047
 
   - tag: card
     title: 校园网篇
-    img: $img/video/8.jpg
+    cover: $img/video/8.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=984501401
 
   - tag: card
     title: 寝室篇
-    img: $img/video/9.jpg
+    cover: $img/video/9.jpg
     options:
       appId: wx7564fd5313d24844
       path: pages/video/video?avid=302141045
 
   - tag: card
     title: 食堂篇
-    img: $img/video/10.jpg
+    cover: $img/video/10.jpg
     options:
+      appId: wx7564fd5313d24844
       path: pages/video/video?avid=686737700
 
   - tag: card
     title: 快递篇
-    img: $img/video/11.jpg
+    cover: $img/video/11.jpg
     options:
+      appId: wx7564fd5313d24844
       path: pages/video/video?avid=687145264
 
   - tag: card
     title: 浴池篇
-    img: $img/video/12.jpg
+    cover: $img/video/12.jpg
     options:
+      appId: wx7564fd5313d24844
       path: pages/video/video?avid=772148039
 
   - tag: card
     title: 超市篇
-    img: $img/video/13.jpg
+    cover: $img/video/13.jpg
     options:
+      appId: wx7564fd5313d24844
       path: pages/video/video?avid=729639547
 
   - tag: card
     title: 本部生活篇
-    img: $img/video/14.jpg
+    cover: $img/video/14.jpg
     options:
+      appId: wx7564fd5313d24844
       path: pages/video/video?avid=344720592
 
   - tag: card
     title: 净月生活篇
-    img: $img/video/15.jpg
+    cover: $img/video/15.jpg
     options:
+      appId: wx7564fd5313d24844
       path: pages/video/video?avid=557155171

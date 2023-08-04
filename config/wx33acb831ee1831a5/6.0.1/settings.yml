@@ -36,7 +36,7 @@ main-presets:
         - text: 新生攻略视频
           color: red
           name: Video
-          icon: video
+          icon: media
           path: newcomer/video
 
         - text: 寝室
