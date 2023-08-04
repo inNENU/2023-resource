@@ -1,6 +1,6 @@
 title: 通信行程卡
 author: Mr.Hope
-time: 2022-12-12
+time: 2023-08-04T13:58:24.178Z
 grey: true
 shareable: true
 cite: https://xc.caict.ac.cn/help.html
@@ -11,6 +11,8 @@ content:
     options:
       appId: wx8f446acf8c4a85f5
       path: pages/index
+    env:
+      - wx
 
   - tag: list
     items:

@@ -1,6 +1,6 @@
 title: 通信大数据行程卡介绍
 author: Mr.Hope
-time: 2023-06-21T10:21:03.219Z
+time: 2023-08-04T13:58:24.179Z
 shareable: true
 cite: https://xc.caict.ac.cn/help.html
 content:
@@ -15,6 +15,8 @@ content:
     options:
       appId: wx8f446acf8c4a85f5
       path: pages/index
+    env:
+      - wx
 
   - tag: img
     src: $img/epidemic/history-visit.jpg

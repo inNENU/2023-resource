@@ -1,6 +1,6 @@
 title: 返校码介绍
 author: Mr.Hope
-time: 2023-05-13T11:45:51.718Z
+time: 2023-08-04T13:58:24.189Z
 shareable: true
 content:
   - tag: card
@@ -9,6 +9,8 @@ content:
     options:
       appId: wxa9de818af2c7f9ab
       path: pages/code/code/code
+    env:
+      - wx
 
   - tag: title
     text: 颜色说明

@@ -1,6 +1,6 @@
 title: 东师 e 起战疫
 author: Mr.Hope
-time: 2023-05-13T11:45:51.723Z
+time: 2023-08-04T13:58:24.193Z
 grey: true
 shareable: true
 content:
@@ -55,3 +55,5 @@ content:
     options:
       appId: wx2eec5fb00157a603
       path: fangkongfuwu/pages/kths/index
+    env:
+      - wx

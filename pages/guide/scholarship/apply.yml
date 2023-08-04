@@ -1,6 +1,6 @@
 title: 奖学金申请
 author: Mr.Hope
-time: 2023-06-21T10:21:02.637Z
+time: 2023-08-04T13:58:23.937Z
 shareable: true
 content:
   - tag: title
@@ -14,6 +14,8 @@ content:
     options:
       appId: wx1a044b87a35bfdef
       path: pages/index/index
+    env:
+      - wx
 
   - tag: img
     src: $img/study/jiangxuebao.jpg
