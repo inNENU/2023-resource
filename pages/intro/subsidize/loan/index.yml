@@ -1,7 +1,7 @@
 title: 贷款
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-05T09:06:17.410Z
 shareable: true
 content:
   - tag: list
@@ -15,7 +15,7 @@ content:
         icon: home
         path: hometown
 
-      - text: 生源地信用助学贷款
+      - text: 校园地信用助学贷款
         icon: school
         path: school
 
