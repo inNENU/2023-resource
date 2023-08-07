@@ -1,7 +1,7 @@
 title: 贷款
 grey: true
 author: Mr.Hope
-time: 2023-08-05T09:06:17.410Z
+time: 2023-08-07T12:39:57.427Z
 shareable: true
 content:
   - tag: list
@@ -26,6 +26,6 @@ content:
         icon: apply
         path: apply
 
-      - text: 校园地国家助学贷款常见问题
+      - text: 国家助学贷款常见问题
         icon: faq
-        path: school-faq
+        path: faq

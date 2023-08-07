@@ -659,7 +659,7 @@
           "type": ["string", "number"],
           "oneOf": [
             { "type": "number" },
-            { "type": "string", "pattern": "^(?:\\d{4}-)?\\d+$" }
+            { "type": "string", "pattern": "^(?:0\\d{2,3}-)?\\d+$" }
           ]
         },
         "site": {
@@ -677,7 +677,7 @@
           "type": ["string", "number"],
           "oneOf": [
             { "type": "number" },
-            { "type": "string", "pattern": "^(?:\\d{4}-)?\\d+$" }
+            { "type": "string", "pattern": "^(?:0\\d{2,3}-)?\\d+$" }
           ]
         },
         "avatar": {
