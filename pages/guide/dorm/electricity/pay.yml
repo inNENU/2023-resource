@@ -1,8 +1,14 @@
 title: 电费缴纳
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-08T12:15:35.256Z
 shareable: true
 content:
+  - tag: text
+    type: info
+    heading: 电费缴纳
+    text:
+      - 只有本部的同学需要缴纳电费，净月的同学不需要。
+
   - tag: title
     text: 免费额度
 
@@ -13,8 +19,8 @@ content:
   - tag: ul
     type: warning
     text:
-      - 免费点亮不可结转，月底清零，没法攒。
-      - 假期寝室是不提供免费电量的，直白点说，一个六人寝，一月二月和七月八月都分别只有 30 度电量。
+      - 免费电量不可结转，月底清零 (大白话叫没法攒)。
+      - 假期寝室是不提供免费电量的 (大白话一个寝室一二月和七八月分别只有 30 度电量)。
 
   - tag: title
     text: 收费价格

@@ -1,8 +1,16 @@
 title: 本部浴池
 author: Mr.Hope
-time: 2023-07-16T11:41:46.461Z
+time: 2023-08-08T12:15:35.121Z
 shareable: true
+outdated: true
 content:
+  - tag: text
+    type: info
+    heading: 浴池迁移
+    text:
+      - 因本部寝室紧张，2023年暑假起，原有学生浴池将推倒重建，原场地将用于建设新的寝室楼。
+      - 新浴池将迁移到教育部园长中心大楼，预计2023年暑假完工。
+
   - tag: title
     text: 简介
 

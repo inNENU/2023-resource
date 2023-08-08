@@ -1,24 +1,19 @@
 title: 统一身份认证
 author: Mr.Hope
-time: 2023-07-31T08:50:05.271Z
+time: 2023-08-08T12:15:35.009Z
 shareable: true
 content:
   - tag: text
     type: info
-    text: 2023 级起，新生需要自己完成账号激活。
-
-  - tag: list
-    header: false
-    items:
-      - text: 账号激活
-        icon: account
-        url: activate
-
-  - tag: text
-    type: tip
     text:
-      - 2023 级研究生新生可立即激活。
-      - 2023 级本科新生需等到 8 月 15 日以后。
+      - 2023 级起，新生需要自己完成账号激活。
+      - 目前所有 2023 级本科生、研究生都可以激活自己账号了。
+
+  - tag: card
+    cover: https://assets.innenu.com/img/tab/activate.jpg
+    title: 账号激活
+    logo: authorize
+    url: activate
 
   - tag: title
     text: 获得学号

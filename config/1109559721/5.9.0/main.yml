@@ -3,17 +3,6 @@ id: main
 grey: true
 hidden: true
 content:
-  - tag: text
-    type: info
-    heading: 今日下午一点半 B站 直播
-    text:
-      - 需带物品清单
-      - 具体包括校园生活中需要用到哪些物品？到校前需要准备哪些行李？这些东西哪些建议网购哪些建议携带哪些建议校内购买？东北冬季御寒衣物该如何选择？如何跟据自己的专业与需求选购合适的笔记本电脑？
-
-  - tag: action
-    header: 直播间地址
-    content: https://space.bilibili.com/34022713
-
   - tag: card
     cover: https://assets.innenu.com/img/tab/activate.jpg
     title: 账号激活
@@ -23,6 +12,12 @@ content:
   - tag: grid
     header: 您可能想关注
     items:
+      - text: 企业号认证
+        color: blue
+        name: Wechat
+        icon: wechat
+        path: guide/account/wechat/
+
       - text: 新生群
         color: olive
         name: Contact

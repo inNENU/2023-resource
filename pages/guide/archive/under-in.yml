@@ -1,6 +1,6 @@
 title: 本科生档案转入
 author: Mr.Hope
-time: 2023-07-08T16:13:56.360Z
+time: 2023-08-08T12:15:35.054Z
 shareable: true
 content:
   - tag: title
@@ -16,7 +16,8 @@ content:
     type: tip
     heading: Mr.Hope 建议
     text:
-      - 为降低邮寄丢失的风险，能自带的建议自带。
+      - 支持对公邮寄的可以优先选择对公邮寄。
+      - 要求考生自携的，优先选择自携而不是自行寄出。非对公邮寄丢失非常麻烦！
 
   - tag: title
     text: 邮寄方式
@@ -56,9 +57,3 @@ content:
       - text: 2023 年档案接收人
         icon: contact
         path: under-contact
-
-  - tag: text
-    type: info
-    heading: 选择
-    text:
-      - 对于东北师范大学来说，对公邮寄和考生自携的档案转入方式都是可以的，您可以根据自己的喜好选择。最方便的还是对公邮寄，可以有效避免自携时档案丢失。

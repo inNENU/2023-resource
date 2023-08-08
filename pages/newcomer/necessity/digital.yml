@@ -1,6 +1,6 @@
 title: 数码产品类
 author: Mr.Hope
-time: 2023-08-02T16:09:35.219Z
+time: 2023-08-08T12:15:34.767Z
 shareable: true
 content:
   - tag: title
@@ -20,6 +20,13 @@ content:
     text:
       - 不是，学校图书馆专门开设有电子阅览室可供同学使用。如果您的家庭拮据，您可以选择不购买电脑。
       - 没有电脑意味着有需求时，需自行前往图书馆的电子阅览室或临时借用室友电脑。这必然会带来一定程度上的不方便，而且电子阅览室在选课阶段可能会较拥挤。
+
+  - tag: list
+    header: false
+    items:
+      - text: 如何选购电脑
+        icon: pc
+        path: /guide/tip/laptop/
 
   - tag: title
     text: iPad
