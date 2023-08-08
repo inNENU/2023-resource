@@ -4,11 +4,15 @@ grey: true
 hidden: true
 content:
   - tag: text
-    type: danger
-    heading: 防诈提示
+    type: info
+    heading: 今日下午一点半 B站 直播
     text:
-      - 各位新生同学，学校从不建立任何官方QQ群，也不向任何个人或团体授权校徽、校名标识使用权。
-      - QQ 群 778762127 非学校教职工建立的官方群，其所有者也非在校学生。并且在未经学校的许可下，违规使用学校校徽作为群头像，请各位同学退群以避免个人利益受到侵害。
+      - 需带物品清单
+      - 具体包括校园生活中需要用到哪些物品？到校前需要准备哪些行李？这些东西哪些建议网购哪些建议携带哪些建议校内购买？东北冬季御寒衣物该如何选择？如何跟据自己的专业与需求选购合适的笔记本电脑？
+
+  - tag: action
+    header: 直播间地址
+    content: https://space.bilibili.com/34022713
 
   - tag: card
     cover: https://assets.innenu.com/img/tab/activate.jpg

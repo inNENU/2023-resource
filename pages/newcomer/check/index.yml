@@ -1,19 +1,16 @@
 title: 报到
 grey: true
 author: Mr.Hope
-time: 2023-07-27T15:57:12.456Z
+time: 2023-08-08T03:58:44.189Z
 shareable: true
 content:
   - tag: list
-    header: 报到要求
+    header: 报到流程
     items:
       - text: 专业所在校区
         icon: gate
         path: locate
 
-  - tag: list
-    header: 报到流程
-    items:
       - text: 报到时间地点
         icon: time
         path: location-and-time
