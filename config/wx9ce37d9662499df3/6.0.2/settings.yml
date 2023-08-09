@@ -642,6 +642,11 @@ user:
         type: button
         openType: share
 
+      - text: 评价小程序
+        icon: star
+        type: button
+        action: rate
+
       - text: 联系校会君
         icon: contact
         type: button
