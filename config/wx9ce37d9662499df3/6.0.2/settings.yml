@@ -5,20 +5,6 @@ main-page:
 
 main-presets:
   newcomer:
-    - tag: text
-      type: danger
-      heading: 防诈提示
-      text:
-        - 各位新生同学，学校从不建立任何官方QQ群，也不向任何个人或团体授权校徽、校名标识使用权。
-        - QQ 群 778762127 非学校教职工建立的官方群，其所有者也非在校学生。并且在未经学校的许可下，违规使用学校校徽作为群头像，请各位同学退群以避免个人利益受到侵害。
-
-    - tag: card
-      cover: https://assets.innenu.com/img/tab/admission.jpg
-      title: 录取查询
-      desc: 录取通知书邮寄查询
-      logo: letter
-      url: admission?type=search
-
     - tag: card
       cover: https://assets.innenu.com/img/tab/activate.jpg
       title: 账号激活
@@ -28,11 +14,29 @@ main-presets:
     - tag: grid
       header: 您可能想关注
       items:
+        - text: 企业号认证
+          color: blue
+          name: Wechat
+          icon: wechat
+          path: guide/account/wechat/
+
         - text: 新生群
           color: olive
           name: Contact
           icon: qq-group
           path: newcomer/contact/
+
+        - text: 直播
+          color: purple
+          name: Stream
+          icon: stream
+          path: newcomer/activity/streaming
+
+        - text: 新生攻略视频
+          color: red
+          name: Video
+          icon: media
+          path: newcomer/video
 
         - text: 寝室
           color: blue
