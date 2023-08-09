@@ -5,7 +5,7 @@ import axios from "axios";
 import { aliasResolve } from "../components/utils.js";
 import { getFileList } from "../utils/index.js";
 
-interface AccountInfo {
+interface WechatAccountInfo {
   name: string;
   desc?: string;
   logo: string;
@@ -17,7 +17,7 @@ interface AccountInfo {
 
 export interface AccountConfig {
   name: string;
-  account: AccountInfo[];
+  account: WechatAccountInfo[];
 }
 
 const decodeText = (text: string): string =>
