@@ -1,7 +1,7 @@
 title: 洗漱间
 desc: 研究生洗漱间图片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2023-07-16T11:41:46.830Z
+time: 2023-08-09T08:42:05.430Z
 shareable: true
 content:
   - tag: p
@@ -104,13 +104,9 @@ content:
   - tag: list
     header: false
     items:
-      - text: 本部洗衣机详细使用说明
+      - text: 洗衣机详细使用说明
         icon: washer
-        path: benbu-washer
-
-      - text: 净月洗衣机详细使用说明
-        icon: washer
-        path: jingyue-washer
+        path: washer
 
   - tag: title
     text: Mr.Hope の 吐糟

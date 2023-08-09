@@ -2,7 +2,7 @@ title: 新生军训
 author:
   - Mr.Hope
   - 战俊华
-time: 2023-07-20T04:34:42.161Z
+time: 2023-08-09T08:42:04.174Z
 shareable: true
 content:
   - tag: title
@@ -43,6 +43,15 @@ content:
       - 军训后期会安排军训合影、板报比赛、集体诗朗诵等内容。
       - 可以说，军训将是您第一次为学院争取荣誉。
 
+  - tag: img
+    src: $img/activity/military-training1.jpg
+
+  - tag: img
+    src: $img/activity/military-training4.jpg
+
+  - tag: img
+    src: $img/activity/military-training8.jpg
+
   - tag: p
     type: info
     heading: 特色项目
@@ -62,6 +71,15 @@ content:
     heading: 唱军歌
     text:
       - 通常在晚训期间进行，以校歌、师德公约以及少数军歌为主。
+
+  - tag: img
+    src: $img/activity/military-training6.jpg
+
+  - tag: img
+    src: $img/activity/military-training9.jpg
+
+  - tag: img
+    src: $img/activity/military-training7.jpg
 
   - tag: text
     heading: 搭帐篷
@@ -92,10 +110,24 @@ content:
       - 学校会安排一次拉练，通常在校内。
 
   - tag: text
+    heading: 军体拳
+    text:
+      - 教官会安排简易军体拳的教学。
+
+  - tag: img
+    src: $img/activity/military-training5.jpg
+
+  - tag: text
     heading: 枪械训练
     text:
       - 教官会安排枪械教学，以持枪方式为主。教学使用仿真模型抢，重量与实际枪械大致相同。
       - 整个活动大约一个多小时，以教学并练习站姿、跪姿和卧姿持枪为主。
+
+  - tag: img
+    src: $img/activity/military-training2.jpg
+
+  - tag: img
+    src: $img/activity/military-training3.jpg
 
   - tag: title
     text: 着装要求

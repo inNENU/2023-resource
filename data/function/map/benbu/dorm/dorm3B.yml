@@ -52,7 +52,7 @@ content:
 
       - text: 洗衣机
         icon: washer
-        path: /guide/dorm/detail/benbu-washer
+        path: /guide/dorm/detail/washer
 
   - tag: list
     header: 寝室供电

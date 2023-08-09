@@ -1,6 +1,6 @@
 title: 到校路线
 author: Mr.Hope
-time: 2023-06-07T14:41:37.474Z
+time: 2023-08-09T08:42:04.201Z
 grey: true
 shareable: true
 content:
@@ -62,15 +62,19 @@ content:
   - tag: list
     header: 注意事项
     items:
+      - text: 学生票购买与核验
+        icon: check
+        path: /guide/traffic/train/student/check
+
       - text: 铁路出行
         icon: train
         path: /guide/traffic/train/
 
-      - text: 关于出租车
+      - text: 长春出租车
         icon: taxi
         path: taxi
 
-      - text: 关于接站
+      - text: 学校接站
         icon: pickup
         path: pickup
 

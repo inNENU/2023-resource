@@ -12,8 +12,8 @@ category: 小程序
 
 假定您已经获得以下材料:
 
-- 统一身份认证登陆
-  ![统一身份认证登陆](https://mp.innenu.com/img/account/authserver.jpg)
+- 统一身份认证登录
+  ![统一身份认证登录](https://mp.innenu.com/img/account/authserver.jpg)
 - 修改密码页面截图
   ![修改密码页面截图](https://mp.innenu.com/img/account/reset-password.jpg)
 - 别名管理页面截图
@@ -29,7 +29,7 @@ category: 小程序
 
 1. 访问 <https://authserver.nenu.edu.cn/authserver/login>
 1. 使用学号与默认密码进行登录。
-1. 登陆后，您可以在“别名管理中”中通过别名获得自己的邮箱号 ✉
+1. 登录后，您可以在“别名管理中”中通过别名获得自己的邮箱号 ✉
 1. 邮箱地址统一为 “别名” + “@nenu.edu.cn”
 
 默认密码: Nenu + 身份证后六位，X 用 1 代替
@@ -252,7 +252,7 @@ in 东师服务器文件结构如下:
 
 对于本页面，您可以获得的图片按照内容进行命名:
 
-- 统一身份认证登陆: `authserver.jpg`
+- 统一身份认证登录: `authserver.jpg`
 - 修改密码页面截图: `reset-password.jpg`
 - 别名管理页面截图: `email-address.jpg`
 
@@ -305,7 +305,7 @@ content:
   - tag: ul
     text:
       - 使用学号与默认密码进行登录。
-      - 登陆后，您可以在“别名管理中”中通过别名获得自己的邮箱号✉
+      - 登录后，您可以在“别名管理中”中通过别名获得自己的邮箱号✉
       - 邮箱地址统一为 “别名” + “@nenu.edu.cn”
 
   - tag: img
