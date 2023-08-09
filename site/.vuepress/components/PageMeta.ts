@@ -24,7 +24,7 @@ export default defineComponent({
       () =>
         `https://github.com/inNENU/resource/edit/main/pages${page.value.path
           .replace(/\/$/, "/index.yml")
-          .replace(/\.html$/, ".yml")}`
+          .replace(/\.html$/, ".yml")}`,
     );
 
     return (): VNode => {
@@ -40,15 +40,15 @@ export default defineComponent({
               class: "label",
               config: { text: "编辑此页", link: editLink.value },
             },
-            { before: () => h(EditIcon) }
-          )
+            { before: () => h(EditIcon) },
+          ),
         ),
         h("div", { class: "meta-item git-info" }, [
           updateTime.value
             ? h("div", { class: "update-time" }, [
                 h("span", { class: "label" }, `${metaLocales.lastUpdated}: `),
                 h(ClientOnly, () =>
-                  h("span", { class: "info" }, <string>updateTime.value)
+                  h("span", { class: "info" }, <string>updateTime.value),
                 ),
               ])
             : null,
@@ -59,7 +59,7 @@ export default defineComponent({
                   h(
                     "span",
                     { class: "contributor", title: `email: ${email}` },
-                    name
+                    name,
                   ),
                   index !== contributors.value!.length - 1 ? "," : "",
                 ]),
