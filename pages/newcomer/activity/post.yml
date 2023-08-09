@@ -1,6 +1,6 @@
 title: 研究生开学活动
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-09T15:35:42.981Z
 grey: true
 shareable: true
 content:
@@ -41,9 +41,13 @@ content:
   - tag: list
     header: 征兵工作
     items:
-      - text: 征兵工作实施细则
+      - text: 征兵工作条例
         icon: rule
         path: conscription/rule
+
+      - text: 东师征兵工作实施细则
+        icon: rule
+        path: conscription/execute
 
       - text: 参军入伍待遇解释
         icon: idea

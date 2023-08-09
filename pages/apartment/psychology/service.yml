@@ -1,7 +1,7 @@
 title: 心理咨询服务
 desc: |-
   信息来源: 学生处官网
-time: 2022-08-21
+time: 2023-08-09T15:35:42.721Z
 shareable: true
 content:
   - tag: title
@@ -10,9 +10,11 @@ content:
   - tag: p
     text: 对于同学们在日常学习生活中遇到的学业、人际、情绪等各种心理方面的困扰，可预约日常心理咨询服务，每次 50 分钟，每周一次。
 
-  - tag: text
+  - tag: ul
     heading: 心理咨询时间
-    text: 8:30 - 11:20; 13:30 - 16:20
+    text:
+      - 8:30 - 11:20
+      - 13:30 - 16:20
 
   - tag: ul
     heading: 办理预约
