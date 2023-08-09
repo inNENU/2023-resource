@@ -1,6 +1,6 @@
 title: 食堂
 author: Mr.Hope
-time: 2023-08-08T12:15:35.201Z
+time: 2023-08-09T16:44:18.400Z
 grey: true
 shareable: true
 content:
@@ -56,8 +56,5 @@ content:
       - text: |-
           学校食堂每年都会举行美食节，届时会开展档口评选活动。大家可以免费品尝大量的美食，食堂也会打折。
 
-      - text: 本部美食节
-        path: festival/benbu
-
-      - text: 净月美食节
-        path: festival/jingyue
+      - text: 查看详情
+        path: /newcomer/intro/activity/festival
