@@ -61,7 +61,6 @@ const diffResult = execSync("git status -s").toString();
 
 ["apartment", "school", "newcomer", "intro", "guide", "other"].forEach(
   (folder) => {
-    // 东师机构
     convertYml2Json(`./pages/${folder}`, `./d/${folder}`, (data, filePath) =>
       resolvePage(data as PageConfig, `${folder}/${filePath}`, diffResult),
     );
