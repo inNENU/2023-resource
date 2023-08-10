@@ -3,6 +3,12 @@ id: main
 grey: true
 hidden: true
 content:
+  - tag: text
+    heading: 今天 13:30 知乎直播
+    text:
+      - 讲解东师学习与课程设置。
+      - 具体包括大学都要上哪些课程？东师设置哪些课程类别？如何参考人才培养计划与课程表？如何进行选课注课以及各种干货要点。
+
   - tag: card
     cover: https://assets.innenu.com/img/tab/activate.jpg
     title: 账号激活

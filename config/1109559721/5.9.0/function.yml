@@ -3,6 +3,11 @@ id: function
 grey: true
 hidden: true
 content:
+  - tag: text
+    type: danger
+    text:
+      - 目前新生账户未开通任何权限，无法通过账号访问学校任何系统。
+
   # - tag: card
   #   cover: $img/tab/calendar.jpg
   #   title: 校历

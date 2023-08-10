@@ -385,7 +385,7 @@ newcomer:
     - text: 经验分享直播与答疑
       color: purple
       name: Streaming
-      icon: activity
+      icon: stream
       path: newcomer/activity/streaming
 
 service:

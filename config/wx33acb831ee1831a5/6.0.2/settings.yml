@@ -5,6 +5,12 @@ main-page:
 
 main-presets:
   newcomer:
+    - tag: text
+      heading: 今天 13:30 知乎直播
+      text:
+        - 讲解东师学习与课程设置。
+        - 具体包括大学都要上哪些课程？东师设置哪些课程类别？如何参考人才培养计划与课程表？如何进行选课注课以及各种干货要点。
+
     - tag: card
       cover: https://assets.innenu.com/img/tab/activate.jpg
       title: 账号激活
@@ -222,12 +228,188 @@ guide-page:
       - graduate
 
 function-page:
-  unlogin: newcomer
+  unlogin: unlogin
   "2023": newcomer
   default: at-school
 
 function-presets:
   newcomer:
+    - tag: text
+      type: danger
+      text:
+        - 目前新生账户未开通任何权限，无法通过账号访问学校任何系统。
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/calendar.jpg
+    #   title: 校历
+    #   logo: calendar
+    #   url: calendar
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/map.jpg
+    #   title: 校园地图
+    #   logo: map
+    #   url: map
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/admission.jpg
+    #   title: 录取查询
+    #   logo: letter
+    #   url: admission?type=search
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/headphone.jpg
+    #   title: 音悦东师
+    #   logo: cd
+    #   url: music
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/video.jpg
+    #   title: 影约东师
+    #   logo: media
+    #   url: video?type=video
+
+    - tag: grid
+      header: 本科招生
+      items:
+        - text: 2023 年招生简章
+          name: Rule
+          color: blue
+          icon: rule
+          path: intro/enroll/under/rule/
+
+        #     - text: 2023 年招生计划
+        #       name: Plan
+        #       color: orange
+        #       icon: enroll
+        #       url: enroll-plan
+
+        #     - text: 历史分数
+        #       name: History grade
+        #       color: purple
+        #       icon: time
+        #       url: enroll-grade
+
+        - text: 录取查询
+          name: Admission
+          color: cyan
+          icon: letter
+          url: admission?type=search
+
+    - tag: grid
+      header: 东师风采
+      items:
+        - text: 校园地图
+          color: orange
+          name: Map
+          icon: map
+          url: map
+
+        - text: 音悦东师
+          color: blue
+          name: Music
+          icon: cd
+          url: music
+
+        - text: 影约东师
+          color: mauve
+          name: Media
+          icon: media
+          url: video?type=video
+
+    - tag: grid
+      header: 信息查询
+      items:
+        - text: 校历
+          color: olive
+          name: Calendar
+          icon: calendar
+          url: calendar
+
+        - text: 校园媒体
+          color: grey
+          name: Accounts
+          icon: account
+          url: school-media
+
+        - text: 学校通知
+          color: red
+          name: Notice
+          icon: notice
+          url: info-list
+
+        - text: 学校新闻
+          color: cyan
+          name: News
+          icon: news
+          url: info-list?type=news
+
+        - text: 学术会议
+          color: cyan
+          name: News
+          icon: study
+          url: info-list?type=academic
+
+        - text: 东师网站
+          color: orange
+          name: Websites
+          icon: network
+          url: website
+
+        - text: 师大黄页
+          color: purple
+          name: Contact
+          icon: phone
+          url: phone
+
+    - tag: grid
+      header: 功能
+      items:
+        - text: 课程表
+          color: grey
+          name: Course
+          icon: course-table
+          url: course-table
+
+        - text: 成绩查询
+          color: orange
+          name: Grade
+          icon: grade
+          url: course-grade
+
+        - text: 内网通知
+          color: red
+          name: Notice
+          icon: notice
+          url: notice-list
+
+        - text: 内网新闻
+          color: cyan
+          name: News
+          icon: news
+          url: notice-list?type=news
+
+        - text: 选课系统
+          color: blue
+          name: Select
+          icon: select
+          url: select
+
+        - text: 图书馆
+          color: purple
+          name: Library
+          icon: library
+          url: library
+
+        - text: 体测计算器
+          color: olive
+          name: PE Calculator
+          icon: calculate
+          url: pe-calculator
+
+      footer: " "
+
+  unlogin:
     # - tag: card
     #   cover: https://assets.innenu.com/img/tab/calendar.jpg
     #   title: 校历
