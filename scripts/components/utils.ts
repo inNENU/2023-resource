@@ -39,7 +39,7 @@ export const aliasResolve = (link = "", type = "", location = ""): string => {
   if (typeof link === "string" && link.startsWith("$")) {
     const localePath = link.replace(/^\$/, "./");
 
-    if (existsSync(localePath)) return link.replace(/^\$/, ASSETS_SERVER);
+    if (existsSync(localePath)) return link.replace(/^\$/, `${ASSETS_SERVER}/`);
 
     console.warn(`${type} ${localePath} not exist in ${location}`);
   }
