@@ -8,10 +8,6 @@
       "/data/function/map/benbu/**/*.yml",
       "/data/function/map/jingyue/**/*.yml"
     ],
-    "./.vscode/page.schema.json": [
-      "/pages/guide/**/*.yml",
-      "/pages/intro/**/*.yml",
-      "/pages/other/**/*.yml"
-    ]
+    "./.vscode/page.schema.json": ["/pages/**/*.yml"]
   }
 }

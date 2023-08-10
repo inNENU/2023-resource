@@ -948,7 +948,7 @@
           "description": "卡片额外参数",
           "type": "object",
           "properties": {
-            "appID": {
+            "appId": {
               "description": "跳转小程序 ID",
               "type": "string"
             },

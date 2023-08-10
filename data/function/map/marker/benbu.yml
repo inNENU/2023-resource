@@ -16,11 +16,11 @@ gate:
       detail: 东北师范大学西门(正门)
       path: west
 
-    - latitude: 43.862573
-      longitude: 125.32564203
-      name: 校医院西门
-      detail: 东北师范大学校医院西门
-      path: hospital-west
+    # - latitude: 43.862573
+    #   longitude: 125.32564203
+    #   name: 校医院西门
+    #   detail: 东北师范大学校医院西门
+    #   path: hospital-west
 
     - latitude: 43.85967
       longitude: 125.33021
@@ -34,11 +34,11 @@ gate:
       detail: 东北师范大学北门
       path: north
 
-    - latitude: 43.863324
-      longitude: 125.328679
-      name: 附属幼儿园北门
-      detail: 东北师范大学附属幼儿园北门
-      path: little-north
+    # - latitude: 43.863324
+    #   longitude: 125.328679
+    #   name: 附属幼儿园北门
+    #   detail: 东北师范大学附属幼儿园北门
+    #   path: little-north
 
     - latitude: 43.86409
       longitude: 125.33468
@@ -46,11 +46,11 @@ gate:
       detail: 东北师范大学东北门
       path: north-east
 
-    - latitude: 43.8598
-      longitude: 125.3358
-      name: 小南门
-      detail: 东北师范大学小南门
-      path: little-south
+    # - latitude: 43.8598
+    #   longitude: 125.3358
+    #   name: 小南门
+    #   detail: 东北师范大学小南门
+    #   path: little-south
 
 dorm:
   name: 寝室
@@ -211,6 +211,42 @@ school:
 building:
   name: 建筑
   content:
+    - latitude: 43.861692
+      longitude: 125.328062
+      name: 图书馆
+      detail: 东北师范大学图书馆
+      path: library
+
+    - latitude: 43.862221
+      longitude: 125.328998
+      name: 逸夫教学楼
+      detail: 东北师范大学逸夫教学楼
+      path: yifu
+
+    - latitude: 43.860084
+      longitude: 125.332240
+      name: 综合教学楼
+      detail: 东北师范大学综合教学楼
+      path: complex
+
+    - latitude: 43.863651
+      longitude: 125.331524
+      name: 理化大楼
+      detail: 东北师范大学新综合楼
+      path: lihua
+
+    - latitude: 43.861761
+      longitude: 125.332185
+      name: 逸夫科学馆
+      detail: 东北师范大学逸夫科学馆
+      path: yifu-science
+
+    - latitude: 43.862163
+      longitude: 125.327024
+      name: 行政楼
+      detail: 东北师范大学行政楼
+      path: administration
+
     - latitude: 43.859888
       longitude: 125.331184
       name: 研究生教学楼
@@ -220,19 +256,13 @@ building:
       longitude: 125.32752
       name: 研究生多媒体教室
       detail: 东北师范大学研究生多媒体教室
-      path: muti-media
+      path: multi-media
 
-    - latitude: 43.861692
-      longitude: 125.328062
-      name: 图书馆
-      detail: 东北师范大学图书馆
-      path: library
-
-    - latitude: 43.862163
-      longitude: 125.327024
-      name: 行政楼
-      detail: 东北师范大学行政楼
-      path: administration
+    - latitude: 43.860177
+      longitude: 125.329633
+      name: 综合实验楼
+      detail: 东北师范大学综合实验楼
+      path: experiment
 
     - latitude: 43.861867
       longitude: 125.336215
@@ -251,30 +281,6 @@ building:
       name: 就业指导中心
       detail: 东北师范大学就业指导中心
       path: career
-
-    - latitude: 43.862221
-      longitude: 125.328998
-      name: 逸夫教学楼
-      detail: 东北师范大学逸夫教学楼
-      path: yifu
-
-    - latitude: 43.860084
-      longitude: 125.332240
-      name: 综合教学楼
-      detail: 东北师范大学综合教学楼
-      path: complex
-
-    - latitude: 43.861761
-      longitude: 125.332185
-      name: 逸夫科学馆
-      detail: 东北师范大学逸夫科学馆
-      path: yifu-science
-
-    - latitude: 43.860177
-      longitude: 125.329633
-      name: 综合实验楼
-      detail: 东北师范大学综合实验楼
-      path: experiment
 
     - latitude: 43.86382
       longitude: 125.331556

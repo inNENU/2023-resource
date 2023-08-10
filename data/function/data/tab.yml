@@ -102,7 +102,7 @@ apartment:
       color: cyan
       name: Career
       icon: job
-      path: apartment/career
+      path: apartment/career/
 
     - text: 校团委
       color: purple

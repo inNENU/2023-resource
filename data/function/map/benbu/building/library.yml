@@ -33,20 +33,12 @@ content:
         icon: photo
         path: /apartment/library/scene
 
+  - tag: list
+    items:
       - text: 馆藏分布
         icon: bookshelf
         path: /apartment/library/distribution
 
-      - text: 楼层平面图
-        icon: floor
-        path: /apartment/library/floor
-
-      - text: 开馆时间
-        icon: time
-        path: /apartment/library/door
-
-  - tag: list
-    items:
       - text: 书目检索
         icon: search
         path: /apartment/library/search
@@ -71,8 +63,36 @@ content:
         icon: money
         path: /apartment/library/buy
 
+      - text: 文献传递
+        icon: express
+        path: /apartment/library/article
+
+      - text: 馆际互借
+        icon: borrow
+        path: /apartment/library/deliver
+
   - tag: list
     items:
+      - text: 楼层平面图
+        icon: floor
+        path: /apartment/library/floor
+
+      - text: 开馆时间
+        icon: time
+        path: /apartment/library/door
+
+      - text: 独立学习区
+        icon: study
+        path: /apartment/library/study
+
+      - text: 合作空间
+        icon: student-org
+        path: /apartment/library/space
+
+      - text: 学术厅
+        icon: degree
+        path: /apartment/library/hall
+
       - text: 电子资源
         icon: bookshelf
         path: /apartment/library/evpn
@@ -87,6 +107,10 @@ content:
 
   - tag: list
     items:
+      - text: 图书馆守则
+        icon: rule
+        path: /apartment/library/rule
+
       - text: 联系方式
         icon: phone
         path: /apartment/library/contact

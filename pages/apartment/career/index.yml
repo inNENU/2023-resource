@@ -1,0 +1,22 @@
+title: 学生就业指导服务中心
+grey: true
+author: Mr.Hope
+time: 2023-08-10T06:12:10.617Z
+shareable: true
+content:
+  - tag: account
+    name: 就业指导中心
+    logo: $img/media/career.png
+    detail: 东北师范大学学生就业指导服务中心
+    mail: bys85098857@163.com
+    site: https://career.nenu.edu.cn/home
+
+  - tag: list
+    items:
+      - text: 就业中心介绍
+        icon: intro
+        path: intro
+
+      - text: 人员信息
+        icon: phone
+        path: people

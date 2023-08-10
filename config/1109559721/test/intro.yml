@@ -255,7 +255,7 @@ content:
         color: cyan
         name: Career
         icon: job
-        path: apartment/career
+        path: apartment/career/
 
       - text: 档案馆
         color: purple

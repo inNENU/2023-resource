@@ -27,6 +27,14 @@ content:
         icon: intro
         path: /school/education/enroll
 
+      - text: 历史沿革
+        icon: time
+        path: /school/education/history
+
+      - text: 学科学术
+        icon: content
+        path: /school/education/subject
+
   - tag: list
     header: 优秀毕业生建议
     items:
