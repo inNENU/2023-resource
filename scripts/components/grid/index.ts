@@ -3,7 +3,7 @@ import { existsSync } from "node:fs";
 import { checkKeys } from "@mr-hope/assert-type";
 
 import { type GridComponentOptions } from "./typings.js";
-import { aliasResolve, getPath, resolvePath } from "../utils.js";
+import { getIconLink, getPath, resolvePath } from "../utils.js";
 
 export const resolveGrid = (
   element: GridComponentOptions,
@@ -92,13 +92,7 @@ ${items
 
     const { icon, text, path } = item;
 
-    const resolvedIcon = icon
-      ? icon.match(/^https?:\/\//)
-        ? icon
-        : icon.startsWith("$")
-        ? aliasResolve(icon)
-        : `https://mp.innenu.com/data/icon/${icon}.svg`
-      : "";
+    const resolvedIcon = getIconLink(icon);
 
     const gridItemContent = `
 ${

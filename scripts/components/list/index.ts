@@ -6,7 +6,7 @@ import {
   type FunctionalListComponentOptions,
   type ListComponentOptions,
 } from "./typings.js";
-import { aliasResolve, getPath, resolvePath } from "../utils.js";
+import { aliasResolve, getIconLink, getPath, resolvePath } from "../utils.js";
 
 export const resolveList = (
   element: ListComponentOptions | FunctionalListComponentOptions,
@@ -255,13 +255,7 @@ ${items
 
     const { icon, text, path, desc } = item;
 
-    const resolvedIcon = icon
-      ? icon.match(/^https?:\/\//)
-        ? icon
-        : icon.startsWith("$")
-        ? aliasResolve(icon)
-        : `https://mp.innenu.com/data/icon/${icon}.svg`
-      : "";
+    const resolvedIcon = getIconLink(icon);
 
     const listItemContent = `
 ${

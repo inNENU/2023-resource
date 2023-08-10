@@ -1,7 +1,7 @@
 import { checkKeys } from "@mr-hope/assert-type";
 
 import { type DocComponentOptions } from "./typings.js";
-import { aliasResolve } from "../utils.js";
+import { aliasResolve, getIconLink } from "../utils.js";
 
 /**
  * 获得文档图标
@@ -62,9 +62,9 @@ export const getDocMarkdown = (component: DocComponentOptions): string => {
 
   const { name, url } = component;
 
-  const docIcon = `<img class="innenu-doc-icon" src="https://mp.innenu.com/assets/icon/${getDocIcon(
-    url,
-  )}.svg" alt="${name}" />`;
+  const docIcon = `<img class="innenu-doc-icon" src="${getIconLink(
+    getDocIcon(url),
+  )}" alt="${name}" />`;
   const docName = `${name}.${url.split(".").pop()!}`;
 
   return `

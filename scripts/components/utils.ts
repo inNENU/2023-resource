@@ -3,6 +3,9 @@ import { relative, resolve, sep } from "node:path";
 
 import { assertType } from "@mr-hope/assert-type";
 
+const ASSETS_SERVER = "https://assets.innenu.com";
+const SERVER = "https://mp.innenu.com";
+
 export const camelCase2kebabCase = (str: string): string => {
   const hyphenateRE = /([^-])([A-Z])/gu;
 
@@ -36,14 +39,22 @@ export const aliasResolve = (link = "", type = "", location = ""): string => {
   if (typeof link === "string" && link.startsWith("$")) {
     const localePath = link.replace(/^\$/, "./");
 
-    if (existsSync(localePath))
-      return link.replace(/^\$/, "https://assets.innenu.com/");
+    if (existsSync(localePath)) return link.replace(/^\$/, ASSETS_SERVER);
 
     console.warn(`${type} ${localePath} not exist in ${location}`);
   }
 
   return link;
 };
+
+export const getIconLink = (icon = ""): string =>
+  icon
+    ? icon.match(/^https?:\/\//)
+      ? icon
+      : icon.startsWith("$")
+      ? aliasResolve(icon)
+      : `${SERVER}/data/icon/${icon}.svg`
+    : "";
 
 export const indent = (content: string, indent = 0): string =>
   content

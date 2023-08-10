@@ -1,7 +1,7 @@
 import { checkKeys } from "@mr-hope/assert-type";
 
 import { type AccountComponentOptions } from "./typings.js";
-import { aliasResolve } from "../utils.js";
+import { aliasResolve, getIconLink } from "../utils.js";
 
 export const resolveAccount = (
   component: AccountComponentOptions,
@@ -85,7 +85,7 @@ ${
     <button class="innenu-account-action" ${
       qq ? `aria-label="${qq}" data-balloon-pos="up" data-qq="${qq}" ` : ""
     }${qqcode ? `data-qqcode="${qqcode}"` : ""}>
-      <img class="innenu-account-icon" src="https://mp.innenu.com/data/icon/qq.svg" no-view />
+      <img class="innenu-account-icon" src="${getIconLink("qq")}" no-view />
     </button>
 `
     : ""
@@ -96,7 +96,7 @@ ${
     <button class="innenu-account-action" ${
       wxid ? `data-wxid="${wxid}" ` : ""
     }${wxcode ? `data-wxcode="${wxcode}" ` : ""}>
-      <img class="innenu-account-icon" src="https://mp.innenu.com/data/icon/wechat.svg" no-view />
+      <img class="innenu-account-icon" src="${getIconLink("wechat")}" no-view />
     </button>
 `
     : ""
@@ -105,7 +105,7 @@ ${
   site
     ? `\
     <a class="innenu-account-action" href="${site}" target="_blank">
-      <img class="innenu-account-icon" src="https://mp.innenu.com/assets/icon/web.svg" no-view />
+      <img class="innenu-account-icon" src="${getIconLink("web")}" no-view />
     </a>
 `
     : ""
@@ -114,7 +114,7 @@ ${
   mail
     ? `\
     <a class="innenu-account-action" href="mailto:${mail}">
-      <img class="innenu-account-icon" src="https://mp.innenu.com/assets/icon/mail.svg" no-view />
+      <img class="innenu-account-icon" src="${getIconLink("mail")}" no-view />
     </a>
 `
     : ""
