@@ -6,10 +6,12 @@ main-page:
 main-presets:
   newcomer:
     - tag: text
-      heading: 今天 13:30 知乎直播
+      type: info
+      heading: 今天 13:30 在知乎进行经验分享
       text:
         - 讲解东师学习与课程设置。
         - 具体包括大学都要上哪些课程？东师设置哪些课程类别？如何参考人才培养计划与课程表？如何进行选课注课以及各种干货要点。
+      path: newcomer/activity/streaming
 
     - tag: card
       cover: https://assets.innenu.com/img/tab/activate.jpg
@@ -853,7 +855,7 @@ about:
     items:
       - text: 小程序全部内容均由 Mr.Hope 独立开发。
 
-      - text: 小程序现有字数为 921809 字，其中东师指南部分 373159 字，新生迎新部分 96982 字，东师介绍部分 154279 字，机构介绍部分 66934 字，学院介绍部分 143182 字，功能大厅部分 40051 字，其他部分 47222 字。
+      - text: 小程序现有字数为 921796 字，其中东师指南部分 373159 字，新生迎新部分 96969 字，东师介绍部分 154279 字，机构介绍部分 66934 字，学院介绍部分 143182 字，功能大厅部分 40051 字，其他部分 47222 字。
 
       # - text: Hope Studio 介绍
       #   url: info?path=Ohope-studio/about
