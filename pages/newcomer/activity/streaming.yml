@@ -1,6 +1,6 @@
 title: 直播安排
 author: Mr.Hope
-time: 2023-08-10T18:39:32.921Z
+time: 2023-08-11T15:49:16.760Z
 shareable: true
 content:
   - tag: p
@@ -65,6 +65,12 @@ content:
 
   - tag: title
     text: 直播内容
+
+  - tag: text
+    heading: 8/15 B站
+    text:
+      - 讲解东师生活
+      - 包括寝室、食堂、浴池、超市、各店铺、校园地图、校园网、校园卡、学生组织、社团等
 
   - tag: text
     heading: 8/11 知乎
