@@ -1,6 +1,6 @@
 title: 课程
 author: Mr.Hope
-time: 2023-07-28T17:01:03.537Z
+time: 2023-08-11T16:33:18.636Z
 grey: true
 shareable: true
 content:
@@ -18,7 +18,7 @@ content:
         icon: content
         path: professional
 
-      - text: 发展课程课程
+      - text: 发展方向课程
         icon: content
         path: develop
 
@@ -58,17 +58,21 @@ content:
   - tag: list
     header: 英语课程
     items:
-      - text: 课程简介
+      - text: 英语课程简介
         icon: english
         path: english/intro
 
-      - text: 免修评定
+      - text: 英语免修评定
         icon: exemption
         path: /guide/course/english/exemption
 
       - text: 东北师范大学英语水平测试
         icon: english
         path: english/DET
+
+      - text: 小语种外语课程
+        icon: more
+        path: english/other
 
   - tag: list
     items:
@@ -83,4 +87,6 @@ content:
   - tag: list
     header: false
     items:
-      - text: 待补充...
+      - text: 研究生的公共课只有英语和政治。
+
+      - text: 专业课程及要求详询培养单位教务秘书。

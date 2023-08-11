@@ -1,6 +1,6 @@
 title: 接站
 author: Mr.Hope
-time: 2023-07-16T11:41:46.237Z
+time: 2023-08-11T16:33:18.088Z
 shareable: true
 content:
   - tag: title
@@ -9,7 +9,8 @@ content:
   - tag: p
     text:
       - 接站地点为在长春站北出站口和长春西站。
-      - 因疫情原因，学校近年仅在两车站设置新生接待站，但不会安排大巴进行接送。
+      # TODO: Update
+      - 因疫情原因，学校近年仅在两车站设置新生接待站，但不会安排大巴进行接送。(2023 年安排暂未确定)
 
   - tag: text
     type: warning

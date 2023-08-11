@@ -1,6 +1,6 @@
 title: 英语课程说明
 author: Mr.Hope
-time: 2023-07-28T17:01:03.549Z
+time: 2023-08-11T16:33:18.647Z
 shareable: true
 content:
   - tag: p
@@ -21,6 +21,7 @@ content:
     text:
       - 外国语学院学生无需修读此课程.
       - 高考非英语语种的学生需完成自己所学语种的课程，即修读大学日语、大学德语等。
+    path: other
 
   - tag: title
     text: 课程设置

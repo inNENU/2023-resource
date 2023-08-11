@@ -2,7 +2,7 @@ title: 本部菜鸟驿站
 author:
   - Mr.Hope
   - 战俊华
-time: 2023-07-16T11:41:46.947Z
+time: 2023-08-11T16:33:18.817Z
 shareable: true
 content:
   - tag: title
@@ -88,5 +88,5 @@ content:
 
   - tag: img
     src: $img/express/cainiao-temp.jpg
-    desc: 菜鸟驿站临时取件点
+    desc: 菜鸟驿站室外取件点
     watermark: true

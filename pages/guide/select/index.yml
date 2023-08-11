@@ -1,6 +1,6 @@
 title: 选课
 author: Mr.Hope
-time: 2023-07-20T03:57:30.532Z
+time: 2023-08-11T16:33:19.054Z
 grey: true
 shareable: true
 content:
@@ -78,7 +78,7 @@ content:
 
       - text: 预选
         icon: flow
-        path: preselection
+        path: pre-selection
 
       - text: 正选
         icon: flow
@@ -91,21 +91,9 @@ content:
   - tag: list
     header: 选课系统
     items:
-      - text: 登录选课系统
+      - text: 选课系统介绍
         icon: intro
-        path: system/login
-
-      - text: 系统使用指南
-        icon: idea
-        path: system/guide
-
-      - text: 系统注意事项
-        icon: alert
-        path: system/alert
-
-      - text: 系统常见问题
-        icon: faq
-        path: system/faq
+        path: system/
 
   - tag: list
     header: 友情提示

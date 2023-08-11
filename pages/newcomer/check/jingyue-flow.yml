@@ -1,7 +1,7 @@
 title: 净月报到流程
 desc: 照片来自王慕梓
 author: Mr.Hope
-time: 2023-07-16T11:41:46.565Z
+time: 2023-08-11T16:33:18.130Z
 shareable: true
 content:
   - tag: title
@@ -14,10 +14,10 @@ content:
         longitude: 125.43107
         detail: 1 号门
 
-  - tag: text
-    type: note
-    text:
-      - 由于疫情原因，报到期间只会开放正门。
+  # - tag: text
+  #   type: note
+  #   text:
+  #     - 由于疫情原因，报到期间只会开放正门。
 
   - tag: img
     src: $img/scenery/jingyue/gate/east.jpg
@@ -72,7 +72,7 @@ content:
   - tag: text
     text:
       - 之后前往对应学院的报到处报到。
-      - 报到处的学长学姐会查验录取通知书，让你摘下口罩核查确为本人，同时让你上交易班成绩单打印结果。
+      - 报到处的学长学姐会查验录取通知书，查看你的脸核查确为本人，同时让你上交易班成绩单打印结果。
       - 之后，报到处的学长学姐会向你发放寝室钥匙和校园卡。
 
   - tag: text

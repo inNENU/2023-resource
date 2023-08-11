@@ -1,6 +1,6 @@
 title: 本部报到流程
 author: Mr.Hope
-time: 2023-07-16T11:41:46.546Z
+time: 2023-08-11T16:33:18.122Z
 shareable: true
 content:
   - tag: text
@@ -17,11 +17,11 @@ content:
       - latitude: 43.86409
         longitude: 125.33468
 
-  - tag: text
-    type: note
-    text:
-      # - 由于疫情原因，报到期间只会开放正门 (西门)。
-      - 由于疫情原因，报到期间只会开放东北门。
+  # - tag: text
+  #   type: note
+  #   text:
+  # - 由于疫情原因，报到期间只会开放正门 (西门)。
+  # - 由于疫情原因，报到期间只会开放东北门。
 
   - tag: img
     src: $img/scenery/benbu/gate/north.jpg

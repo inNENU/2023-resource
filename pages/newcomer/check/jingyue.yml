@@ -1,16 +1,16 @@
 title: 净月校区校门
 author: Mr.Hope
-time: 2023-07-16T11:41:46.567Z
+time: 2023-08-11T16:33:18.132Z
 shareable: true
 content:
   - tag: title
     text: 净月校区图
 
-  - tag: text
-    type: note
-    text:
-      - 由于疫情原因，报到期间只会开放正门(又叫北门、1 号门)。
-      # - 由于疫情原因，报到期间只会开放 2 号门 (又叫雕塑门)
+  # - tag: text
+  #   type: note
+  #   text:
+  #     - 由于疫情原因，报到期间只会开放正门(又叫北门、1 号门)。
+  #     # - 由于疫情原因，报到期间只会开放 2 号门 (又叫雕塑门)
 
   - tag: title
     text: 净月 1 号门 (正门、东北门)

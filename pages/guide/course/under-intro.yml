@@ -1,6 +1,6 @@
 title: 本科课程设置
 author: Mr.Hope
-time: 2023-07-28T17:01:03.543Z
+time: 2023-08-11T16:33:18.641Z
 grey: true
 shareable: true
 content:
@@ -15,7 +15,7 @@ content:
         icon: content
         path: professional
 
-      - text: 发展课程课程
+      - text: 发展方向课程
         icon: content
         path: develop
 

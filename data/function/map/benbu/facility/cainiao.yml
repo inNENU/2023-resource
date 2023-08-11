@@ -93,5 +93,5 @@ content:
 
   - tag: img
     src: $img/express/cainiao-temp.jpg
-    desc: 菜鸟驿站临时取件点
+    desc: 菜鸟驿站室外点
     watermark: true

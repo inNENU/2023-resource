@@ -1,6 +1,6 @@
 title: 体育学院情况介绍与建议
 author: 孙祎凡
-time: 2022-08-21
+time: 2023-08-11T16:33:17.990Z
 shareable: true
 content:
   - tag: title
@@ -13,7 +13,7 @@ content:
     type: info
     heading: 着装
     text:
-      - 工作日必须穿院服。尤其疫情封校期间，院服是证明你是体院学生而不是其他闲杂人士的唯一证明，不穿院服哪怕刷了校园卡也无法进出本部。
+      - 工作日必须穿院服。
 
   - tag: text
     type: info
@@ -41,7 +41,7 @@ content:
     heading: 查寝
     path: /guide/dorm/locate/pe
     text:
-      - 体育学院有更为严格的查寝要求，详见寝室介绍。
+      - 体育学院有更为严格的查寝要求，详见体育学院寝室介绍。
 
   - tag: title
     text: 体育学院建筑介绍
