@@ -222,7 +222,7 @@ guide-page:
       - graduate
 
 function-page:
-  unlogin: newcomer
+  unlogin: unlogin
   "2023": newcomer
   default: at-school
 
@@ -623,7 +623,7 @@ function-presets:
 
       footer: " "
 
-  unlogin-function:
+  unlogin:
     - tag: grid
       header: 东师风采
       items:

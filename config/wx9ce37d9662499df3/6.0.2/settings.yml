@@ -5,6 +5,14 @@ main-page:
 
 main-presets:
   newcomer:
+    - tag: text
+      type: info
+      heading: 今天 13:30 在知乎进行经验分享
+      text:
+        - 讲解东师学习与课程设置。
+        - 具体包括大学都要上哪些课程？东师设置哪些课程类别？如何参考人才培养计划与课程表？如何进行选课注课以及各种干货要点。
+      path: newcomer/activity/streaming
+
     - tag: card
       cover: https://assets.innenu.com/img/tab/activate.jpg
       title: 账号激活
@@ -181,9 +189,9 @@ guide-page:
       - newcomer
       - life
       - study
+      - account
     more:
       - service
-      - account
       - tip
       - enjoy
       - graduate
@@ -222,7 +230,7 @@ guide-page:
       - graduate
 
 function-page:
-  unlogin: newcomer
+  unlogin: unlogin
   "2023": newcomer
   default: at-school
 
@@ -539,7 +547,7 @@ function-presets:
 
       footer: " "
 
-  unlogin-function:
+  unlogin:
     - tag: grid
       header: 东师风采
       items:

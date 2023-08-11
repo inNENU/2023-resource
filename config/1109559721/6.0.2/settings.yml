@@ -3,463 +3,49 @@ main-page:
   "2023": newcomer
   default: at-school
 
-intro-page:
-  unlogin:
-    items:
-      # - under-enroll
-      # - grad-enroll
-      - about
-      # - school
-    more:
-      - apartment
-  "2023":
-    items:
-      - about
-      - school
-    more:
-      # - under-enroll
-      # - grad-enroll
-      - apartment
-
-  default:
-    items:
-      - about
-      # - school
-      - apartment
-    more:
-      - under-enroll
-      - grad-enroll
-
-guide-page:
-  unlogin:
-    items:
-      - newcomer
-      - life
-      - study
-    more:
-      # - service
-      - account
-      - tip
-      - enjoy
-      - graduate
-  "2023":
-    items:
-      - newcomer
-      - life
-      - study
-      - service
-      - account
-      - tip
-      - enjoy
-    more:
-      - graduate
-  "2020":
-    items:
-      - graduate
-      - study
-      - service
-      - account
-    more:
-      - life
-      - tip
-      - enjoy
-      - newcomer
-  default:
-    items:
-      # - service
-      - study
-      - account
-    more:
-      - life
-      - tip
-      - enjoy
-      - newcomer
-      - graduate
-
-function-page:
-  unlogin: newcomer
-  "2023": newcomer
-  default: at-school
-
-function-presets:
-  newcomer:
-    # - tag: card
-    #   cover: https://assets.innenu.com/img/tab/calendar.jpg
-    #   title: 校历
-    #   logo: calendar
-    #   url: calendar
-
-    # - tag: card
-    #   cover: https://assets.innenu.com/img/tab/map.jpg
-    #   title: 校园地图
-    #   logo: map
-    #   url: map
-
-    # - tag: card
-    #   cover: https://assets.innenu.com/img/tab/admission.jpg
-    #   title: 录取查询
-    #   logo: letter
-    #   url: admission?type=search
-
-    # - tag: card
-    #   cover: https://assets.innenu.com/img/tab/headphone.jpg
-    #   title: 音悦东师
-    #   logo: cd
-    #   url: music
-
-    # - tag: card
-    #   cover: https://assets.innenu.com/img/tab/video.jpg
-    #   title: 影约东师
-    #   logo: media
-    #   url: video?type=video
-
-    # - tag: grid
-    #   header: 本科招生
-    #   items:
-    #     - text: 2023 年招生简章
-    #       name: Rule
-    #       color: blue
-    #       icon: rule
-    #       path: intro/enroll/under/rule/
-
-    #     - text: 2023 年招生计划
-    #       name: Plan
-    #       color: orange
-    #       icon: enroll
-    #       url: enroll-plan
-
-    #     - text: 历史分数
-    #       name: History grade
-    #       color: purple
-    #       icon: time
-    #       url: enroll-grade
-
-    #     - text: 录取查询
-    #       name: Admission
-    #       color: cyan
-    #       icon: letter
-    #       url: admission?type=search
-
-    - tag: grid
-      header: 东师风采
-      items:
-        - text: 校园地图
-          color: orange
-          name: Map
-          icon: map
-          url: map
-
-        # - text: 音悦东师
-        #   color: blue
-        #   name: Music
-        #   icon: cd
-        #   url: music
-
-        # - text: 影约东师
-        #   color: mauve
-        #   name: Media
-        #   icon: media
-        #   url: video?type=video
-
-    - tag: grid
-      header: 信息查询
-      items:
-        - text: 校历
-          color: olive
-          name: Calendar
-          icon: calendar
-          url: calendar
-
-        - text: 校园媒体
-          color: grey
-          name: Accounts
-          icon: account
-          url: school-media
-
-        - text: 学校通知
-          color: red
-          name: Notice
-          icon: notice
-          url: info-list
-
-        - text: 学校新闻
-          color: cyan
-          name: News
-          icon: news
-          url: info-list?type=news
-
-        - text: 学术会议
-          color: cyan
-          name: News
-          icon: study
-          url: info-list?type=academic
-
-        - text: 东师网站
-          color: orange
-          name: Websites
-          icon: network
-          url: website
-
-        - text: 师大黄页
-          color: purple
-          name: Contact
-          icon: phone
-          url: phone
-
-    - tag: grid
-      header: 功能
-      items:
-        - text: 课程表
-          color: grey
-          name: Course
-          icon: course-table
-          url: course-table
-
-        - text: 成绩查询
-          color: orange
-          name: Grade
-          icon: grade
-          url: course-grade
-
-        - text: 内网通知
-          color: red
-          name: Notice
-          icon: notice
-          url: notice-list
-
-        - text: 内网新闻
-          color: cyan
-          name: News
-          icon: news
-          url: notice-list?type=news
-
-        - text: 选课系统
-          color: blue
-          name: Select
-          icon: select
-          url: select
-
-        - text: 图书馆
-          color: purple
-          name: Library
-          icon: library
-          url: library
-
-        - text: 体测计算器
-          color: olive
-          name: PE Calculator
-          icon: calculate
-          url: pe-calculator
-
-      footer: " "
-
-  at-school:
-    - tag: grid
-      header: 功能
-      items:
-        - text: 课程表
-          color: grey
-          name: Course
-          icon: course-table
-          url: course-table
-
-        - text: 成绩查询
-          color: orange
-          name: Grade
-          icon: grade
-          url: course-grade
-
-        - text: 内网通知
-          color: red
-          name: Notice
-          icon: notice
-          url: notice-list
-
-        - text: 内网新闻
-          color: cyan
-          name: News
-          icon: news
-          url: notice-list?type=news
-
-        - text: 选课系统
-          color: blue
-          name: Select
-          icon: select
-          url: select
-
-        - text: 图书馆
-          color: purple
-          name: Library
-          icon: library
-          url: library
-
-        - text: 体测计算器
-          color: olive
-          name: PE Calculator
-          icon: calculate
-          url: pe-calculator
-
-    - tag: grid
-      header: 信息查询
-      items:
-        - text: 校历
-          color: olive
-          name: Calendar
-          icon: calendar
-          url: calendar
-
-        - text: 校园媒体
-          color: grey
-          name: Accounts
-          icon: account
-          url: school-media
-
-        - text: 学校通知
-          color: red
-          name: Notice
-          icon: notice
-          url: info-list
-
-        - text: 学校新闻
-          color: cyan
-          name: News
-          icon: news
-          url: info-list?type=news
-
-        - text: 学术会议
-          color: cyan
-          name: News
-          icon: study
-          url: info-list?type=academic
-
-        - text: 东师网站
-          color: orange
-          name: Websites
-          icon: network
-          url: website
-
-        - text: 师大黄页
-          color: purple
-          name: Contact
-          icon: phone
-          url: phone
-
-    - tag: grid
-      header: 东师风采
-      items:
-        - text: 校园地图
-          color: orange
-          name: Map
-          icon: map
-          url: map
-
-        # - text: 音悦东师
-        #   color: blue
-        #   name: Music
-        #   icon: cd
-        #   url: music
-
-        # - text: 影约东师
-        #   color: mauve
-        #   name: Media
-        #   icon: media
-        #   url: video?type=video
-
-      footer: " "
-
-  unlogin-function:
-    - tag: grid
-      header: 东师风采
-      items:
-        - text: 校园地图
-          color: orange
-          name: Map
-          icon: map
-          url: map
-
-        # - text: 音悦东师
-        #   color: blue
-        #   name: Music
-        #   icon: cd
-        #   url: music
-
-        # - text: 影约东师
-        #   color: mauve
-        #   name: Media
-        #   icon: media
-        #   url: video?type=video
-
-    - tag: grid
-      header: 信息查询
-      items:
-        - text: 校历
-          color: olive
-          name: Calendar
-          icon: calendar
-          url: calendar
-
-        - text: 校园媒体
-          color: grey
-          name: Accounts
-          icon: account
-          url: school-media
-
-        - text: 学校通知
-          color: red
-          name: Notice
-          icon: notice
-          url: info-list
-
-        - text: 学校新闻
-          color: cyan
-          name: News
-          icon: news
-          url: info-list?type=news
-
-        - text: 学术会议
-          color: cyan
-          name: News
-          icon: study
-          url: info-list?type=academic
-
-        - text: 东师网站
-          color: orange
-          name: Websites
-          icon: network
-          url: website
-
-        - text: 师大黄页
-          color: purple
-          name: Contact
-          icon: phone
-          url: phone
-
-    - tag: grid
-      header: 功能
-      items:
-        - text: 体测计算器
-          color: olive
-          name: PE Calculator
-          icon: calculate
-          url: pe-calculator
-
-    - tag: list
-      items:
-        - text: 登录开启更多功能
-          url: account
-
 main-presets:
   newcomer:
-    # - tag: card
-    #   cover: https://assets.innenu.com/img/tab/qq-group.png
-    #   title: 找到组织
-    #   desc: 添加新生群
-    #   logo: qq-group
-    #   url: info?path=/newcomer/contact/
+    - tag: text
+      type: info
+      heading: 今天 13:30 在知乎进行经验分享
+      text:
+        - 讲解东师学习与课程设置。
+        - 具体包括大学都要上哪些课程？东师设置哪些课程类别？如何参考人才培养计划与课程表？如何进行选课注课以及各种干货要点。
+      path: newcomer/activity/streaming
+
+    - tag: card
+      cover: https://assets.innenu.com/img/tab/activate.jpg
+      title: 账号激活
+      logo: authorize
+      url: activate
 
     - tag: grid
       header: 您可能想关注
       items:
+        - text: 企业号认证
+          color: blue
+          name: Wechat
+          icon: wechat
+          path: guide/account/wechat/
+
+        - text: 新生群
+          color: olive
+          name: Contact
+          icon: qq-group
+          path: newcomer/contact/
+
+        - text: 直播
+          color: purple
+          name: Stream
+          icon: stream
+          path: newcomer/activity/streaming
+
+        - text: 新生攻略视频
+          color: red
+          name: Video
+          icon: media
+          path: newcomer/video
+
         - text: 寝室
           color: blue
           name: Dorm
@@ -484,11 +70,11 @@ main-presets:
           icon: life
           path: guide/life/
 
-        # - text: 专业介绍
-        #   color: olive
-        #   name: Major
-        #   icon: about
-        #   path: school/major
+        - text: 专业介绍
+          color: olive
+          name: Major
+          icon: about
+          path: school/major
 
         - text: 转专业
           color: red
@@ -507,12 +93,6 @@ main-presets:
           name: Course
           icon: content
           path: guide/course/
-
-        # - text: 找到组织
-        #   color: olive
-        #   name: Contact
-        #   icon: qq-group
-        #   path: newcomer/contact/
 
         - text: 学习
           color: mauve
@@ -576,6 +156,478 @@ main-presets:
 
       footer: 更多内容请详见下方其他 Tab 页
 
+intro-page:
+  unlogin:
+    items:
+      - under-enroll
+      - grad-enroll
+      - about
+      - school
+    more:
+      - apartment
+  "2023":
+    items:
+      - about
+      - school
+    more:
+      - under-enroll
+      - grad-enroll
+      - apartment
+
+  default:
+    items:
+      - about
+      - school
+      - apartment
+    more:
+      - under-enroll
+      - grad-enroll
+
+guide-page:
+  unlogin:
+    items:
+      - newcomer
+      - life
+      - study
+      - account
+    more:
+      - service
+      - tip
+      - enjoy
+      - graduate
+  "2023":
+    items:
+      - newcomer
+      - life
+      - study
+      - service
+      - account
+      - tip
+      - enjoy
+    more:
+      - graduate
+  "2020":
+    items:
+      - graduate
+      - study
+      - service
+      - account
+    more:
+      - life
+      - tip
+      - enjoy
+      - newcomer
+  default:
+    items:
+      - service
+      - study
+      - account
+    more:
+      - life
+      - tip
+      - enjoy
+      - newcomer
+      - graduate
+
+function-page:
+  unlogin: unlogin
+  "2023": newcomer
+  default: at-school
+
+function-presets:
+  newcomer:
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/calendar.jpg
+    #   title: 校历
+    #   logo: calendar
+    #   url: calendar
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/map.jpg
+    #   title: 校园地图
+    #   logo: map
+    #   url: map
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/admission.jpg
+    #   title: 录取查询
+    #   logo: letter
+    #   url: admission?type=search
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/headphone.jpg
+    #   title: 音悦东师
+    #   logo: cd
+    #   url: music
+
+    # - tag: card
+    #   cover: https://assets.innenu.com/img/tab/video.jpg
+    #   title: 影约东师
+    #   logo: media
+    #   url: video?type=video
+
+    - tag: grid
+      header: 本科招生
+      items:
+        - text: 2023 年招生简章
+          name: Rule
+          color: blue
+          icon: rule
+          path: intro/enroll/under/rule/
+
+        #     - text: 2023 年招生计划
+        #       name: Plan
+        #       color: orange
+        #       icon: enroll
+        #       url: enroll-plan
+
+        #     - text: 历史分数
+        #       name: History grade
+        #       color: purple
+        #       icon: time
+        #       url: enroll-grade
+
+        - text: 录取查询
+          name: Admission
+          color: cyan
+          icon: letter
+          url: admission?type=search
+
+    - tag: grid
+      header: 东师风采
+      items:
+        - text: 校园地图
+          color: orange
+          name: Map
+          icon: map
+          url: map
+
+        - text: 音悦东师
+          color: blue
+          name: Music
+          icon: cd
+          url: music
+
+        - text: 影约东师
+          color: mauve
+          name: Media
+          icon: media
+          url: video?type=video
+
+    - tag: grid
+      header: 信息查询
+      items:
+        - text: 校历
+          color: olive
+          name: Calendar
+          icon: calendar
+          url: calendar
+
+        - text: 校园媒体
+          color: grey
+          name: Accounts
+          icon: account
+          url: school-media
+
+        - text: 学校通知
+          color: red
+          name: Notice
+          icon: notice
+          url: info-list
+
+        - text: 学校新闻
+          color: cyan
+          name: News
+          icon: news
+          url: info-list?type=news
+
+        - text: 学术会议
+          color: cyan
+          name: News
+          icon: study
+          url: info-list?type=academic
+
+        - text: 东师网站
+          color: orange
+          name: Websites
+          icon: network
+          url: website
+
+        - text: 师大黄页
+          color: purple
+          name: Contact
+          icon: phone
+          url: phone
+
+    - tag: grid
+      header: 功能
+      items:
+        - text: 课程表
+          color: grey
+          name: Course
+          icon: course-table
+          url: course-table
+
+        - text: 成绩查询
+          color: orange
+          name: Grade
+          icon: grade
+          url: course-grade
+
+        - text: 内网通知
+          color: red
+          name: Notice
+          icon: notice
+          url: notice-list
+
+        - text: 内网新闻
+          color: cyan
+          name: News
+          icon: news
+          url: notice-list?type=news
+
+        - text: 选课系统
+          color: blue
+          name: Select
+          icon: select
+          url: select
+
+        - text: 图书馆
+          color: purple
+          name: Library
+          icon: library
+          url: library
+
+        - text: 体测计算器
+          color: olive
+          name: PE Calculator
+          icon: calculate
+          url: pe-calculator
+
+      footer: " "
+
+  at-school:
+    - tag: grid
+      header: 功能
+      items:
+        - text: 课程表
+          color: grey
+          name: Course
+          icon: course-table
+          url: course-table
+
+        - text: 成绩查询
+          color: orange
+          name: Grade
+          icon: grade
+          url: course-grade
+
+        - text: 内网通知
+          color: red
+          name: Notice
+          icon: notice
+          url: notice-list
+
+        - text: 内网新闻
+          color: cyan
+          name: News
+          icon: news
+          url: notice-list?type=news
+
+        - text: 选课系统
+          color: blue
+          name: Select
+          icon: select
+          url: select
+
+        - text: 图书馆
+          color: purple
+          name: Library
+          icon: library
+          url: library
+
+        - text: 体测计算器
+          color: olive
+          name: PE Calculator
+          icon: calculate
+          url: pe-calculator
+
+    - tag: grid
+      header: 信息查询
+      items:
+        - text: 校历
+          color: olive
+          name: Calendar
+          icon: calendar
+          url: calendar
+
+        - text: 校园媒体
+          color: grey
+          name: Accounts
+          icon: account
+          url: school-media
+
+        - text: 学校通知
+          color: red
+          name: Notice
+          icon: notice
+          url: info-list
+
+        - text: 学校新闻
+          color: cyan
+          name: News
+          icon: news
+          url: info-list?type=news
+
+        - text: 学术会议
+          color: cyan
+          name: News
+          icon: study
+          url: info-list?type=academic
+
+        - text: 东师网站
+          color: orange
+          name: Websites
+          icon: network
+          url: website
+
+        - text: 师大黄页
+          color: purple
+          name: Contact
+          icon: phone
+          url: phone
+
+    - tag: grid
+      header: 招生相关
+      items:
+        - text: 2023 年招生简章
+          name: Rule
+          color: blue
+          icon: rule
+          path: intro/enroll/under/rule/
+
+        # - text: 2023 年招生计划
+        #   name: Plan
+        #   color: orange
+        #   icon: enroll
+        #   url: enroll-plan
+
+        # - text: 历史分数
+        #   name: History grade
+        #   color: purple
+        #   icon: time
+        #   url: enroll-grade
+
+        - text: 录取查询
+          name: Admission
+          color: cyan
+          icon: letter
+          url: admission?type=search
+
+    - tag: grid
+      header: 东师风采
+      items:
+        - text: 校园地图
+          color: orange
+          name: Map
+          icon: map
+          url: map
+
+        - text: 音悦东师
+          color: blue
+          name: Music
+          icon: cd
+          url: music
+
+        - text: 影约东师
+          color: mauve
+          name: Media
+          icon: media
+          url: video?type=video
+
+      footer: " "
+
+  unlogin:
+    - tag: grid
+      header: 东师风采
+      items:
+        - text: 校园地图
+          color: orange
+          name: Map
+          icon: map
+          url: map
+
+        - text: 音悦东师
+          color: blue
+          name: Music
+          icon: cd
+          url: music
+
+        - text: 影约东师
+          color: mauve
+          name: Media
+          icon: media
+          url: video?type=video
+
+    - tag: grid
+      header: 信息查询
+      items:
+        - text: 校历
+          color: olive
+          name: Calendar
+          icon: calendar
+          url: calendar
+
+        - text: 校园媒体
+          color: grey
+          name: Accounts
+          icon: account
+          url: school-media
+
+        - text: 学校通知
+          color: red
+          name: Notice
+          icon: notice
+          url: info-list
+
+        - text: 学校新闻
+          color: cyan
+          name: News
+          icon: news
+          url: info-list?type=news
+
+        - text: 学术会议
+          color: cyan
+          name: News
+          icon: study
+          url: info-list?type=academic
+
+        - text: 东师网站
+          color: orange
+          name: Websites
+          icon: network
+          url: website
+
+        - text: 师大黄页
+          color: purple
+          name: Contact
+          icon: phone
+          url: phone
+
+    - tag: grid
+      header: 功能
+      items:
+        - text: 体测计算器
+          color: olive
+          name: PE Calculator
+          icon: calculate
+          url: pe-calculator
+
+    - tag: list
+      items:
+        - text: 登录开启更多功能
+          url: account
+
 user:
   - tag: list
     items:
@@ -595,14 +647,14 @@ user:
         icon: about
         url: about
 
-  # - tag: p
-  #   heading: " "
-  #   text:
-  #     - 如果看过小程序后您还有疑问，欢迎加入 in 东北师大咨询群 (1139044856) 进行咨询。
-  #     - 小程序为 Mr.Hope 个人独自开发编写，现已花费 Mr.Hope 超 2800 小时，文字数量超过 92 万字，同时小程序服务器每年会产生开销。如果您觉得小程序很有帮助，欢迎您给予支持。
-  #   style:
-  #     color: "#888"
-  #     font-size: 14px
+  - tag: p
+    heading: " "
+    text:
+      - 如果看过小程序后您还有疑问，欢迎加入 in 东北师大咨询群 (1139044856) 进行咨询。
+      - 小程序为 Mr.Hope 个人独自开发编写，现已花费 Mr.Hope 超 2800 小时，文字数量超过 92 万字，同时小程序服务器每年会产生开销。如果您觉得小程序很有帮助，欢迎您给予支持。
+    style:
+      color: "#888"
+      font-size: 14px
 
   - tag: functional-list
     items:
@@ -623,11 +675,11 @@ user:
         openType: openGuildProfile
         guildId: "5684461640601496"
 
-      # - text: 添加 in 东师媒体号
-      #   icon: qq
-      #   type: button
-      #   openType: addFriend
-      #   openId: 41D0ED9AEDD96C611B0E679EF3ED67F9
+      - text: 添加 in 东师媒体号
+        icon: qq
+        type: button
+        openType: addFriend
+        openId: 41D0ED9AEDD96C611B0E679EF3ED67F9
 
       - text: 添加到桌面
         icon: send
@@ -660,6 +712,17 @@ about:
 
       - text: 致谢名单
         url: info?path=Oabout/thanks
+
+  - tag: functional-list
+    header: 支持小程序
+    items:
+      - text: 为保证小程序运行，每年购买维护服务器资源会产生开销。如果您希望帮助 Mr.Hope，欢迎联系 Mr.Hope 施以援手。
+
+      - text: 联系 Mr.Hope
+        icon: contact
+        type: button
+        openType: addFriend
+        openId: 868D7B2F0C609B4285698EAB77A47BA1
 
   - tag: text
     heading: 小程序内容
