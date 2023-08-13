@@ -1,6 +1,6 @@
 title: Web 新生课程添加
 author: Mr.Hope
-time: 2023-08-12T04:59:43.534Z
+time: 2023-08-13T04:12:35.060Z
 shareable: true
 content:
   - tag: text
@@ -33,13 +33,6 @@ content:
 
   - tag: img
     src: $img/yiban/web-add3.jpg
-    watermark: true
-
-  - tag: text
-    text: 根据自身学院选择您所要加入的小组 ↓
-
-  - tag: img
-    src: $img/yiban/web-add4.png
     watermark: true
 
   - tag: text

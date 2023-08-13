@@ -6,11 +6,19 @@ content:
     content: https://space.bilibili.com/34022713
 
   - tag: card
+    title: 大学课程设置
+    options:
+      appId: wx7564fd5313d24844
+      path: pages/video/video?avid=999701309
+    env:
+      - wx
+
+  - tag: card
     title: 学校概况篇
     cover: $img/video/1.jpg
     options:
       appId: wx7564fd5313d24844
-      path: pages/video/video?avid=686737700
+      path: pages/video/video?avid=701820902
     env:
       - wx
 

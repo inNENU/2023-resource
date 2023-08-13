@@ -1,14 +1,18 @@
 title: 易班客户端注册流程
 author: Mr.Hope
-time: 2023-07-18T05:48:52.267Z
+time: 2023-08-13T04:12:35.076Z
 shareable: true
 content:
   - tag: title
     text: 客户端注册认证流程
 
   - tag: action
-    header: 客户端下载地址
-    content: https://s1.yiban.cn/yiban_5017_2735_20230323_64.apk
+    header: Android 客户端下载地址
+    content: https://s1.yiban.cn/yiban_5018_2884_20230730_64.apk
+
+  - tag: action
+    header: iOS 客户端下载地址
+    content: https://apps.apple.com/cn/app/yi-ban/id914927889
 
   - tag: ul
     heading: 注册流程
