@@ -36,11 +36,11 @@ content:
   - tag: grid
     header: 测试
     items:
-      - text: 激活校园账号
-        name: Activate
+      - text: 激活校园邮箱
+        name: Email
         color: purple
-        icon: account
-        url: activate
+        icon: email
+        url: email
 
   - tag: grid
     header: 本科招生
