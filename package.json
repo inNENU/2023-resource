@@ -36,7 +36,7 @@
     "@types/node": "20.4.9",
     "@types/qrcode": "1.5.1",
     "@typescript-eslint/eslint-plugin": "6.3.0",
-    "@typescript-eslint/parser": "6.3.0",
+    "@typescript-eslint/parser": "6.4.0",
     "@vuepress/client": "2.0.0-beta.66",
     "@vuepress/utils": "2.0.0-beta.66",
     "@vueuse/core": "10.3.0",
