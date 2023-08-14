@@ -1,8 +1,16 @@
 title: 新生课程考试与作业
 author: Mr.Hope
-time: 2023-07-16T11:41:47.877Z
+time: 2023-08-14T13:13:20.986Z
 shareable: true
+outdated: true
 content:
+  - tag: text
+    type: info
+    heading: 考试说明
+    text:
+      - 2019 - 2022 四届都是有考试的，但今年未设置。
+      - 若学生处后续没有任何考试通知，则今年无考试和作业，
+
   - tag: title
     text: 课程考试
 
