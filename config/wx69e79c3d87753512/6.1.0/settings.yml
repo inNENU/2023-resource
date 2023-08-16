@@ -420,12 +420,6 @@ function-presets:
           icon: network
           url: web?url=http://my.nenu.edu.cn/
 
-        - text: 校园邮箱
-          color: olive
-          name: Email
-          icon: email
-          url: web?url=https://mail.nenu.edu.cn/
-
         - text: 故障报修
           color: purple
           name: Repair
@@ -468,6 +462,12 @@ function-presets:
           icon: grade
           url: course-grade
 
+        - text: 校园邮箱
+          color: purple
+          name: Email
+          icon: email
+          url: email
+
         - text: 内网通知
           color: red
           name: Notice
@@ -509,12 +509,6 @@ function-presets:
           name: MyNenu
           icon: network
           url: web?url=http://my.nenu.edu.cn/
-
-        - text: 校园邮箱
-          color: olive
-          name: Email
-          icon: email
-          url: web?url=https://mail.nenu.edu.cn/
 
         - text: 故障报修
           color: purple
@@ -762,7 +756,7 @@ about:
     items:
       - text: 小程序全部内容均由 Mr.Hope 独立开发。
 
-      - text: 小程序现有字数为 921606 字，其中东师指南部分 373122 字，新生迎新部分 96762 字，东师介绍部分 154279 字，机构介绍部分 67026 字，学院介绍部分 143138 字，功能大厅部分 40057 字，其他部分 47222 字。
+      - text: 小程序现有字数为 921609 字，其中东师指南部分 373125 字，新生迎新部分 96762 字，东师介绍部分 154279 字，机构介绍部分 67026 字，学院介绍部分 143138 字，功能大厅部分 40057 字，其他部分 47222 字。
 
       # - text: Hope Studio 介绍
       #   url: info?path=Ohope-studio/about
@@ -823,6 +817,9 @@ notice:
   app:
     title: 欢迎使用 in 东师
     content: 欢迎使用 in 东师。这是一个由 Mr.Hope 个人制作的非官方小程序，内含 92 万字的新生攻略。希望大家能够通过小程序摆脱对大学的迷茫。
+  activate:
+    title: 手机验证码
+    content: 学校的短信验证服务发送验证码有较高延迟，请耐心等待。另外部分手机号可能收不到验证码，遇到此情况可更换家人号码尝试激活。
 
 update:
   force: false
