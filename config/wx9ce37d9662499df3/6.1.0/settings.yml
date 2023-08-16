@@ -327,6 +327,12 @@ function-presets:
           icon: account
           url: school-media
 
+        - text: 校园邮箱
+          color: purple
+          name: Email
+          icon: email
+          url: email
+
         - text: 学校通知
           color: red
           name: Notice

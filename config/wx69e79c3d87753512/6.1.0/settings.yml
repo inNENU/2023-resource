@@ -372,6 +372,12 @@ function-presets:
           icon: grade
           url: course-grade
 
+        - text: 校园邮箱
+          color: purple
+          name: Email
+          icon: email
+          url: email
+
         - text: 内网通知
           color: red
           name: Notice
