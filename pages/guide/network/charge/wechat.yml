@@ -1,6 +1,6 @@
 title: 校园网企业号缴费
 author: Mr.Hope
-time: 2023-07-16T11:41:47.270Z
+time: 2023-08-16T15:08:54.822Z
 shareable: true
 content:
   - tag: text
@@ -12,12 +12,12 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/network/charge.png
+    src: $img/network/entrance.jpg
     desc: 点击右上角“网费充值”
     watermark: true
 
   - tag: img
-    src: $img/network/network-pay.jpg
+    src: $img/network/pay.jpg
     watermark: true
 
   - tag: text

@@ -3,16 +3,16 @@ desc: 图片与文案来自发展规划处 基建处 党委宣传部
 author: Mr.Hope
 time: 2021-07-09
 photo:
-  - $img/scence/benbu/lihua1.jpg
-  - $img/scence/benbu/lihua2.jpg
-  - $img/scence/benbu/lihua3.jpg
-  - $img/scence/benbu/lihua4.jpg
-  - $img/scence/benbu/lihua5.jpg
-  - $img/scence/benbu/lihua6.png
-  - $img/scence/benbu/lihua7.jpg
-  - $img/scence/benbu/lihua8.jpg
-  - $img/scence/benbu/lihua9.jpg
-  - $img/scence/benbu/lihua10.jpg
+  - $img/scenery/benbu/building/lihua1.jpg
+  - $img/scenery/benbu/building/lihua2.jpg
+  - $img/scenery/benbu/building/lihua3.jpg
+  - $img/scenery/benbu/building/lihua4.jpg
+  - $img/scenery/benbu/building/lihua5.jpg
+  - $img/scenery/benbu/building/lihua6.png
+  - $img/scenery/benbu/building/lihua7.jpg
+  - $img/scenery/benbu/building/lihua8.jpg
+  - $img/scenery/benbu/building/lihua9.jpg
+  - $img/scenery/benbu/building/lihua10.png
 
 content:
   - tag: title
