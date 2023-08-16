@@ -8,7 +8,8 @@ content:
     text: in 东师 App 隐私说明
 
   - tag: text
-    text: 本说明是 in 东师 App 开发者 Mr.Hope (以下简称“开发者”) 对在 App 中获取、处理你的相关隐私信息而指定。
+    text:
+      - 本说明是 in 东师 App 开发者 Mr.Hope (以下简称“开发者”) 对在 App 中获取、处理你的相关隐私信息而指定。
 
   - tag: text
     heading: 1. 开发者处理的信息
@@ -45,4 +46,5 @@ content:
 
   - tag: text
     heading: 5. 联系开发者
-    text: 你认为开发者未遵守上述约定，或有其他的投诉建议、或未成年人个人信息保护相关问题，可通过 mrhope@innenu.com 与开发者联系。
+    text:
+      - 你认为开发者未遵守上述约定，或有其他的投诉建议、或未成年人个人信息保护相关问题，可通过 mrhope@innenu.com 与开发者联系。
