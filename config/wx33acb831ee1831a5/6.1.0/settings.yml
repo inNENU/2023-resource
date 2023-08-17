@@ -438,6 +438,12 @@ function-presets:
           icon: news
           url: notice-list?type=news
 
+        - text: 校园邮箱
+          color: purple
+          name: Email
+          icon: email
+          url: email
+
         - text: 选课系统
           color: blue
           name: Select
