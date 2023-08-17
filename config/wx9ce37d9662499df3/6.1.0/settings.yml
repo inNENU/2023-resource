@@ -553,6 +553,15 @@ function-presets:
 
   unlogin:
     - tag: grid
+      header: 账号激活
+      items:
+        - text: 账号激活
+          color: grey
+          name: Activate
+          icon: authorize
+          url: activate
+
+    - tag: grid
       header: 东师风采
       items:
         - text: 校园地图
