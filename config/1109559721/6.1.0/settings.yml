@@ -327,6 +327,12 @@ function-presets:
           icon: account
           url: school-media
 
+        - text: 校园邮箱
+          color: purple
+          name: Email
+          icon: email
+          url: email
+
         - text: 学校通知
           color: red
           name: Notice
@@ -431,6 +437,12 @@ function-presets:
           name: News
           icon: news
           url: notice-list?type=news
+
+        - text: 校园邮箱
+          color: purple
+          name: Email
+          icon: email
+          url: email
 
         - text: 选课系统
           color: blue
@@ -546,6 +558,15 @@ function-presets:
       footer: " "
 
   unlogin:
+    - tag: grid
+      header: 账号激活
+      items:
+        - text: 账号激活
+          color: grey
+          name: Activate
+          icon: authorize
+          url: activate
+
     - tag: grid
       header: 东师风采
       items:
