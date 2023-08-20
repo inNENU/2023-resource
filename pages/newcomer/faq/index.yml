@@ -1,6 +1,6 @@
 title: 常见问题
 author: Mr.Hope
-time: 2023-05-13T11:45:50.969Z
+time: 2023-08-20T18:02:33.585Z
 grey: true
 shareable: true
 content:
@@ -25,6 +25,14 @@ content:
       - text: 报到相关
         icon: check
         path: check
+
+      - text: 军训相关
+        icon: military
+        path: /newcomer/activity/military/faq
+
+      - text: 管理相关
+        icon: setting
+        path: manage
 
   - tag: list
     header: 校园生活

@@ -1,6 +1,6 @@
 title: 专业教育课程
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-20T18:02:34.154Z
 shareable: true
 content:
   - tag: title
@@ -26,10 +26,16 @@ content:
     text: 专业主干课是体现专业特质的核心课程，课程设置应体现精专业的要求。
 
   - tag: title
-    text: 专业实习 / 教育实习与毕业论文 / 毕业设计
+    text: 教育实践/专业实践 与 毕业论文/毕业设计
 
   - tag: p
-    text: 专业实习 / 教育实习与毕业论文 / 毕业设计旨在提高学生的实践能力和综合运用知识的能力。专业实习 / 教育实习 要求不低于 6 学分，毕业论文 / 毕业设计 要求不低于 4 学分。
+    text: 教育实践/专业实践 与 毕业论文/毕业设计 旨在提高学生的实践能力和综合运用知识的能力。教育实践/专业实践 要求不低于 6 学分，毕业论文/毕业设计 要求不低于 4 学分。
+
+  - tag: list
+    items:
+      - text: 东北师范大学本科教育实践工作管理规定
+        icon: teacher
+        path: /intro/rule/under-edu-practice
 
   - tag: title
     text: 专业系列课

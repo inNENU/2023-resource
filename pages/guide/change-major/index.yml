@@ -1,6 +1,6 @@
 title: 转专业
 author: Mr.Hope
-time: 2023-04-25T05:43:43.188Z
+time: 2023-08-20T18:02:34.135Z
 shareable: true
 content:
   - tag: title
@@ -27,7 +27,7 @@ content:
       - text: 全日制本科生转专业实施办法
         desc: 官方文件
         icon: contract
-        path: rule
+        path: /intro/rule/under-change-major
 
       - text: 本科生转专业执行流程
         icon: flow

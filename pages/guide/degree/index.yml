@@ -1,6 +1,6 @@
 title: 学位
 author: Mr.Hope
-time: 2023-07-28T17:01:03.608Z
+time: 2023-08-20T18:02:34.216Z
 grey: true
 shareable: true
 content:
@@ -41,16 +41,20 @@ content:
     items:
       - text: 中华人民共和国学位条例
         icon: rule
-        path: rule
+        path: /intro/rule/degree
 
       - text: 中华人民共和国学位条例暂行实施办法
         icon: notice
-        path: method
+        path: /intro/rule/degree-method
 
       - text: 学士学位授权与授予管理办法
         icon: rule
-        path: bachelor-rule
+        path: /intro/rule/bachelor
 
       - text: 关于深化本科教育教学改革全面提高人才培养质量的意见
         icon: notice
-        path: under-opinion
+        path: /intro/rule/under-deep
+
+      - text: 关于加快建设高水平本科教育全面提高人才培养能力的意见
+        icon: notice
+        path: /intro/rule/under-up

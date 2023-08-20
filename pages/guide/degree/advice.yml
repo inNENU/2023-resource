@@ -1,6 +1,6 @@
 title: Mr.Hope 的建议
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-20T18:02:34.209Z
 shareable: true
 content:
   - tag: text
@@ -15,7 +15,7 @@ content:
     items:
       - text: 转专业实施办法
         icon: intro
-        path: /guide/change-major/rule
+        path: /intro/rule/under-change-major
 
   - tag: text
     type: info

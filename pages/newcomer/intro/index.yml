@@ -1,6 +1,6 @@
 title: 大学生活简介
 author: Mr.Hope
-time: 2023-07-28T17:01:02.955Z
+time: 2023-08-20T18:02:33.592Z
 grey: true
 shareable: true
 content:
@@ -71,6 +71,7 @@ content:
     header: 校园活动
     items:
       - text: 运动会
+        path: activity/sport
 
       - text: 足球赛
 
