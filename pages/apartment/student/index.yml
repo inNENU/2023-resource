@@ -1,7 +1,7 @@
 title: 党委学生工作部
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-20T19:06:06.340Z
 shareable: true
 content:
   - tag: list
@@ -30,7 +30,7 @@ content:
     items:
       - text: 东北师范大学学生违纪惩处办法
         icon: punish
-        path: rule
+        path: /intro/rule/punish
 
       - text: 常见犯错以及相关处罚规定
         icon: punish

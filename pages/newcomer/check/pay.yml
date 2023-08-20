@@ -1,6 +1,6 @@
 title: 缴费相关
 author: Mr.Hope
-time: 2022-08-30
+time: 2023-08-20T19:06:06.714Z
 shareable: true
 content:
   - tag: text
@@ -35,7 +35,7 @@ content:
   - tag: title
     text: 学院缴费
 
-  - tag: text
+  - tag: p
     type: tip
     heading: Mr.Hope の 提示
     text:

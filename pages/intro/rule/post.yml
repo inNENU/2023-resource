@@ -1,7 +1,7 @@
 title: 研究生规章制度
 grey: true
 author: Mr.Hope
-time: 2023-06-24T17:26:42.303Z
+time: 2023-08-20T19:06:06.939Z
 shareable: true
 content:
   - tag: list
@@ -11,31 +11,23 @@ content:
         icon: rule
         path: rule
 
-  - tag: doc
-    name: 东北师范大学学生管理规定
-    url: $file/manage/student-rule.pdf
+      - text: 学生管理规定
+        icon: rule
+        path: student
 
   - tag: list
     header: 校园管理
     items:
-      - text: 东北师范大学学生违纪惩处办法
+      - text: 学生违纪惩处办法
         icon: rule
-        path: /apartment/student/rule
-
-      - text: 常见犯错以及相关处罚规定
-        icon: punish
-        path: /apartment/student/punish
+        path: punish
 
   - tag: list
     header: 宿舍管理
     items:
-      - text: 东北师范大学学生公寓管理办法
+      - text: 学生公寓管理办法
         icon: rule
         path: /apartment/logistics/rule
-
-      - text: 常见违禁物品
-        icon: ban
-        path: /guide/dorm/ban
 
   - tag: list
     header: 学籍管理
@@ -45,6 +37,21 @@ content:
         path: post-school-roll
 
   - tag: list
+    header: 学位管理
+    items:
+      - text: 东北师范大学本硕博一体化拔尖创新人才培养工作试行办法
+        icon: rule
+        path: degree-all
+
+      - text: 中华人民共和国学位条例
+        icon: rule
+        path: degree
+
+      - text: 中华人民共和国学位条例暂行实施办法
+        icon: notice
+        path: degree-method
+
+  - tag: list
     header: 学术
     items:
       - text: 东北师范大学研究生学术道德规范
@@ -52,7 +59,18 @@ content:
         path: academic-ethics
 
   - tag: list
-    header: 考试相关
+    header: 招生
+    items:
+      - text: 研究生招生简章
+        icon: plan
+        path: /intro/enroll/grad/rule/
+
+      - text: 普通高等学校招生体检工作指导意见
+        icon: rule
+        path: body-exam
+
+  - tag: list
+    header: 考试
     items:
       - text: 普通高等学校招生违规行为处理暂行办法
         icon: rule
@@ -61,3 +79,14 @@ content:
       - text: 国家教育考试违规处理办法
         icon: rule
         path: national-exam-obey
+
+  - tag: list
+    header: 辅导员
+    items:
+      - text: 普通高等学校辅导员队伍建设规定
+        icon: rule
+        path: counselor
+
+      - text: 高等学校辅导员职业能力标准
+        icon: rule
+        path: counselor-standard

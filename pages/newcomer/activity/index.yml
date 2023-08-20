@@ -1,6 +1,6 @@
 title: 开学活动
 author: Mr.Hope
-time: 2023-08-20T18:02:33.472Z
+time: 2023-08-20T19:06:06.632Z
 grey: true
 shareable: true
 content:
@@ -16,10 +16,12 @@ content:
         path: /guide/test/grading-exam
 
       - text: 体测考试
+        desc: 影响毕业
         icon: basketball
         path: /guide/test/pe-test/
 
       - text: 军训
+        desc: 必修
         icon: military
         path: military/
 
@@ -28,11 +30,12 @@ content:
         path: base
 
       - text: 注册课程
+        desc: 很重要
         icon: content
         path: /guide/select/register
 
       - text: 更多活动
-        desc: 读我谢谢
+        desc: 请读我
         icon: more
         path: under
 
@@ -44,9 +47,11 @@ content:
         path: /newcomer/check/medical-examination
 
       - text: 选择导师
+        desc: 请趁早
         icon: teacher
         path: choose
 
       - text: 更多活动
+        desc: 请读我
         icon: more
         path: post

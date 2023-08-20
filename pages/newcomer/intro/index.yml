@@ -1,6 +1,6 @@
 title: 大学生活简介
 author: Mr.Hope
-time: 2023-08-20T18:02:33.592Z
+time: 2023-08-20T19:06:06.739Z
 grey: true
 shareable: true
 content:
@@ -11,24 +11,12 @@ content:
         icon: about
         path: /intro/enroll/class/intro
 
-      - text: 本科大类招生专业分流工作指导意见
-        icon: notice
-        path: /intro/enroll/class/rule
-
   - tag: list
     header: 辅导员
     items:
       - text: 辅导员介绍
         icon: intro
         path: counselor/intro
-
-      - text: 普通高等学校辅导员队伍建设规定
-        icon: rule
-        path: counselor/rule
-
-      - text: 高等学校辅导员职业能力标准
-        icon: rule
-        path: counselor/standard
 
   - tag: list
     header: 大学管理

@@ -411,6 +411,18 @@ service:
       icon: rule
       path: intro/rule/
 
+    - text: 常见处罚
+      color: grey
+      name: Punish
+      icon: punish
+      path: apartment/student/punish
+
+    - text: 常见违禁物品
+      color: blue
+      name: Forbid
+      icon: ban
+      path: guide/dorm/ban
+
     - text: 常见服务
       color: mauve
       name: Service
