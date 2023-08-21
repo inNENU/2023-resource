@@ -1,6 +1,6 @@
 title: 净月校区快递介绍
 author: Mr.Hope
-time: 2023-08-14T12:29:14.345Z
+time: 2023-08-21T09:35:42.433Z
 shareable: true
 content:
   - tag: text
@@ -35,8 +35,17 @@ content:
     text: 邮寄地址
 
   - tag: action
-    header: 净月地址
+    header: 净月标准地址
     content: 吉林省长春市南关区净月街道净月大街 2555 号
+
+  - tag: action
+    header: 净月部分 App 地址
+    content: 吉林省长春市净月高新技术产业开发区净月街道净月大街 2555 号 XX 学院 (部)
+
+  - tag: text
+    type: note
+    text:
+      - 净月高新技术产业开发区隶属于南关区管辖
 
   - tag: action
     header: 邮编
