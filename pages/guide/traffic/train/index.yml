@@ -1,6 +1,6 @@
 title: 铁路出行
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-21T14:14:51.142Z
 grey: true
 shareable: true
 content:
@@ -52,6 +52,10 @@ content:
       - text: 遗失物品寻找
         icon: lost
         path: lost
+
+      - text: 电子临时乘车证明
+        icon: card
+        path: ecard
 
       - text: 临时身份证
         icon: card
