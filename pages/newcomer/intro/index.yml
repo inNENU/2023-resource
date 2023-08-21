@@ -1,6 +1,6 @@
 title: 大学生活简介
 author: Mr.Hope
-time: 2023-08-20T19:06:06.739Z
+time: 2023-08-21T14:59:43.885Z
 grey: true
 shareable: true
 content:
@@ -17,6 +17,13 @@ content:
       - text: 辅导员介绍
         icon: intro
         path: counselor/intro
+
+  - tag: list
+    header: 校园介绍
+    items:
+      - text: 校园分布与通勤介绍
+        icon: map
+        path: area
 
   - tag: list
     header: 大学管理
