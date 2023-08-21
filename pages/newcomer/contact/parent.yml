@@ -1,6 +1,6 @@
 title: 学校家长群
 author: Mr.Hope
-time: 2023-06-21T10:21:01.645Z
+time: 2023-08-21T13:37:59.773Z
 shareable: true
 content:
   - tag: text
@@ -16,7 +16,7 @@ content:
       - 本群严禁分享与东师无关的内容、发送任何广告，或诸如拼多多之类的分享以及各种鸡汤、经文等。
 
   - tag: img
-    src: $img/about/parent.png
+    src: $img/about/parent.jpg
     env:
       - app
       - wx

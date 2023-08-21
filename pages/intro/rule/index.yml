@@ -1,7 +1,7 @@
 title: 规章制度
 grey: true
 author: Mr.Hope
-time: 2023-08-20T19:06:06.933Z
+time: 2023-08-21T13:38:00.787Z
 shareable: true
 content:
   - tag: list
@@ -77,6 +77,11 @@ content:
       - text: 东北师范大学本硕博一体化拔尖创新人才培养工作试行办法
         icon: rule
         path: degree-all
+
+      - text: 东北师范大学本科学生学士学位授予细则
+        desc: 试行
+        icon: rule
+        path: under-degree
 
       - text: 东北师范大学关于本科荣誉学位管理的指导意见
         desc: 试行
