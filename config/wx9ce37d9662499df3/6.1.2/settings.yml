@@ -5,6 +5,11 @@ main-page:
 
 main-presets:
   newcomer:
+    - tag: card
+      cover: http://mmbiz.qpic.cn/mmbiz_jpg/1LGPufKFDrdWYjcsI2ku82lich9RJa567Mcx9PicslCC4FRwMNpLCKHzliaAX4NQEJP4elHysSZibWqxGiaK71iaL0Gw/0?wx_fmt=jpeg&amp;random=0.23670275764878745
+      title: 2023级辅导员大揭秘
+      path: /newcomer/intro/counselor/2023
+
     - tag: grid
       header: 您可能想关注
       items:
@@ -726,6 +731,7 @@ service:
   enroll-plan: local
   notice-detail: local
   notice-list: local
+  email: local
 
 notice:
   app:
