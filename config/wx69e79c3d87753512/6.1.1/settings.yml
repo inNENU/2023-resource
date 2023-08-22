@@ -810,7 +810,7 @@ service:
   enroll-plan: local
   notice-detail: local
   notice-list: local
-  email: online
+  email: local
 
 notice:
   app:
