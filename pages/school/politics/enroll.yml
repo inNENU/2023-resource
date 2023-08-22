@@ -1,7 +1,7 @@
 title: 政法学院招生
 desc: 研究生招生信息来自研究生院
 author: Mr.Hope
-time: 2023-07-21T15:51:36.910Z
+time: 2023-08-22T04:50:16.504Z
 shareable: true
 content:
   - tag: title
@@ -42,6 +42,10 @@ content:
 
       - text: 法学
         path: into/law
+
+  - tag: doc
+    name: 政法学院本科人才培养方案 (2019)
+    url: $file/course-plan/politics/2019.pdf
 
   - tag: title
     text: 专业介绍视频

@@ -1,6 +1,6 @@
 title: 外国语学院专业
 author: Mr.Hope
-time: 2023-07-21T15:51:36.780Z
+time: 2023-08-22T04:50:16.356Z
 shareable: true
 content:
   - tag: title
@@ -67,6 +67,10 @@ content:
 
       - text: 商务英语
         path: into/business
+
+  - tag: doc
+    name: 外国语学院本科人才培养方案
+    url: $file/course-plan/foreign/foreign.pdf
 
   - tag: title
     text: 专业介绍视频

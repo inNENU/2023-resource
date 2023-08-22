@@ -1,6 +1,6 @@
 title: 体育学院招生
 author: Mr.Hope
-time: 2023-07-21T15:51:36.883Z
+time: 2023-08-22T04:50:16.472Z
 shareable: true
 content:
   - tag: title
@@ -28,6 +28,10 @@ content:
 
       - text: 武术与民族传统体育
         path: martial
+
+  - tag: doc
+    name: 体育学院本科人才培养方案 (2019)
+    url: $file/course-plan/pe/2019.pdf
 
   - tag: title
     text: 专业介绍视频

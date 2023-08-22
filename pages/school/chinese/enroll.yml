@@ -1,6 +1,6 @@
 title: 文学院专业
 author: Mr.Hope
-time: 2023-07-21T15:51:36.726Z
+time: 2023-08-22T04:50:16.294Z
 shareable: true
 content:
   - tag: title
@@ -30,6 +30,14 @@ content:
 
       - text: 汉语言文学专业 (优师专项)
         path: into/great
+
+  - tag: doc
+    name: 文学院汉语言文学本科人才培养方案 (2020)
+    url: $file/course-plan/chinese/chinese-2020.pdf
+
+  - tag: doc
+    name: 文学院汉语言文学(公费师范)本科人才培养方案 (2020)
+    url: $file/course-plan/chinese/normal-2020.pdf
 
   - tag: title
     text: 专业介绍视频

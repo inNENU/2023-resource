@@ -1,10 +1,10 @@
 title: 供电时间
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-22T04:50:17.394Z
 shareable: true
 content:
   - tag: title
-    text: 本部校区供电时间
+    text: 本科生供电时间
 
   - tag: ul
     heading: 平时供电时间
@@ -25,20 +25,6 @@ content:
   - tag: text
     type: tip
     text: 体育公寓早 5:00 供电。
-
-  - tag: title
-    text: 净月校区供电时间
-
-  - tag: ul
-    heading: 平时供电时间
-    text:
-      - "早: 06:00 — 08:00"
-      - "中: 12:00 — 13:00"
-      - "晚: 15:30 — 23:00"
-
-  - tag: text
-    heading: 周末供电时间
-    text: 6:00 — 23:00
 
   - tag: title
     text: 研究生供电时间

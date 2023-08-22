@@ -1,6 +1,6 @@
 title: 生命科学学院专业
 author: Mr.Hope
-time: 2023-07-21T15:51:36.700Z
+time: 2023-08-22T04:50:16.266Z
 shareable: true
 content:
   - tag: title
@@ -19,6 +19,10 @@ content:
 
       - text: 生物科学类
         path: class
+
+  - tag: doc
+    name: 生命科学学院本科人才培养方案 (2020)
+    url: $file/course-plan/biology/2020.pdf
 
   - tag: title
     text: 专业介绍视频

@@ -1,6 +1,6 @@
 title: 环境学院招生
 author: Mr.Hope
-time: 2023-07-21T15:51:36.768Z
+time: 2023-08-22T04:50:16.343Z
 shareable: true
 content:
   - tag: title
@@ -28,6 +28,10 @@ content:
     items:
       - text: 转入要求
         path: into
+
+  - tag: doc
+    name: 环境学院本科人才培养方案 (2020)
+    url: $file/course-plan/environment/2020.docx
 
   - tag: title
     text: 专业介绍视频

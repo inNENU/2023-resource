@@ -1,6 +1,6 @@
 title: 马克思主义学部招生
 author: Mr.Hope
-time: 2023-07-21T15:51:36.838Z
+time: 2023-08-22T04:50:16.423Z
 shareable: true
 content:
   - tag: title
@@ -26,6 +26,18 @@ content:
     items:
       - text: 转入要求
         path: into
+
+  - tag: doc
+    name: 思想政治教育专业人才培养方案 (2021)
+    url: $file/course-plan/marx/2021-ideological-and-political.docx
+
+  - tag: doc
+    name: 哲学专业人才培养方案 (2021)
+    url: $file/course-plan/marx/2021-philosophy.docx
+
+  - tag: doc
+    name: 社会学专业人才培养方案 (2021)
+    url: $file/course-plan/marx/2021-sociology.docx
 
   - tag: title
     text: 专业介绍视频
