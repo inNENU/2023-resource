@@ -1,6 +1,6 @@
 title: 本科生开学活动
 author: Mr.Hope
-time: 2023-08-09T15:35:42.987Z
+time: 2023-08-23T06:11:52.440Z
 grey: true
 shareable: true
 content:
@@ -18,6 +18,11 @@ content:
       - text: 体测考试
         icon: basketball
         path: /guide/test/pe-test/
+
+      - text: 预科分班考试
+        desc: 仅预科生
+        icon: exam
+        path: pre-test
 
       - text: 军训
         icon: military
@@ -56,6 +61,7 @@ content:
         path: blood-donate
 
       - text: 团学组织纳新宣讲
+        desc: 自己学院安排时间
 
       - text: 学籍图像采集
         desc: 好好照
