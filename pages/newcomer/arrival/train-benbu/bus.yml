@@ -1,6 +1,6 @@
 title: 长春站-到本部-公交
 author: Mr.Hope
-time: 2023-07-07T17:36:28.881Z
+time: 2023-08-24T07:29:08.946Z
 shareable: true
 content:
   - tag: text
@@ -38,8 +38,8 @@ content:
   # - tag: text
   #   type: warning
   #   text:
-  #     - 由于疫情原因，2022 年报到仅开放学校东北门。
-  #     - 由于疫情原因，2022 年报到仅开放学校西门。
+  #     - 2022 年报到仅开放学校东北门。
+  #     - 2022 年报到仅开放学校西门。
 
   - tag: ul
     text:

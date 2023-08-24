@@ -1,6 +1,6 @@
 title: 本部报到流程
 author: Mr.Hope
-time: 2023-08-24T07:02:44.844Z
+time: 2023-08-24T07:29:08.994Z
 shareable: true
 content:
   - tag: text
@@ -36,8 +36,8 @@ content:
   # - tag: text
   #   type: note
   #   text:
-  # - 由于疫情原因，报到期间只会开放正门 (西门)。
-  # - 由于疫情原因，报到期间只会开放东北门。
+  # - 报到期间只会开放正门 (西门)。
+  # - 报到期间只会开放东北门。
 
   - tag: img
     src: $img/scenery/benbu/gate/north.jpg

@@ -1,9 +1,12 @@
 title: 专业所在校区
 author: Mr.Hope
-time: 2023-08-21T13:37:59.731Z
+time: 2023-08-24T07:29:09.015Z
 shareable: true
 content:
-  - tag: text
+  - tag: title
+    text: 校区识别
+
+  - tag: p
     text:
       - 东北师范大学有自由校区(本部)与净月校区(净月)两个校区。
       - 您可以根据录取通知书上的学院找到相应的校区。
