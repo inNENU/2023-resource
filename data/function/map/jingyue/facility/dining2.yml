@@ -1,10 +1,12 @@
 title: 二食堂
-desc: |-
-  概况部分来自东北师范大学后勤保障部官网
 author: Mr.Hope
-time: 2023-08-24T07:02:45.505Z
-grey: true
-shareable: true
+time: 2020-09-01
+photo:
+  - $img/dining/dining1/basic1.jpg
+  - $img/dining/dining1/basic2.jpg
+  - $img/dining/dining45.png
+  - $img/dining/dining46.png
+  - $img/dining/dining47.png
 content:
   - tag: p
     heading: 概况
@@ -29,7 +31,7 @@ content:
       - text: 位于二楼西北侧，包含盒饭以及小份菜。
 
       - text: 了解更多
-        path: basic
+        path: /guide/dining/dining2/basic
 
   - tag: list
     header: 称重自选餐
@@ -37,7 +39,7 @@ content:
       - text: 位于二楼东北侧，价格为 18.8/500g
 
       - text: 了解更多
-        path: select
+        path: /guide/dining/dining2/select
 
   - tag: list
     header: 特色档口
@@ -45,7 +47,7 @@ content:
       - text: 主要位于三楼。一楼有一家“亿亩良田”。
 
       - text: 了解更多
-        path: special/
+        path: /guide/dining/dining2/special/
 
   - tag: phone
     header: 服务电话

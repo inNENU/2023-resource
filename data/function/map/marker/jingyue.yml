@@ -241,6 +241,7 @@ facility:
       longitude: 125.42385
       name: 一食堂
       detail: 净月校区一食堂
+      path: dining1
 
     - latitude: 43.825301
       longitude: 125.424682

@@ -2,14 +2,14 @@ title: 二食堂特色档口
 desc: |-
   特别鸣谢思教乐乐提供相关照片
 author: Mr.Hope
-time: 2023-07-16T11:41:46.761Z
+time: 2023-08-24T07:02:45.515Z
 shareable: true
 content:
   - tag: title
     text: 简介
 
   - tag: text
-    text: 二食堂特色档口主要位于三楼。二楼有一家“不二格米粉”，一楼有一家“亿亩良田”。
+    text: 二食堂特色档口主要位于三楼。一楼有一家“亿亩良田”。
 
   - tag: text
     heading: 营业时间
@@ -110,18 +110,6 @@ content:
   - tag: carousel
     images:
       - $img/dining/dining2/special14.jpg
-
-  - tag: p
-    heading: 二楼
-    text:
-      - 有一家不二格米粉。
-
-  - tag: list
-    header: 菜品与价格详情
-    items:
-      - text: 了解更多
-        icon: money
-        path: buerge
 
   - tag: p
     heading: 二楼

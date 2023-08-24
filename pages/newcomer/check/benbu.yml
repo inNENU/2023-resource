@@ -1,13 +1,13 @@
 title: 本部校区校门
 author: Mr.Hope
-time: 2023-08-21T13:37:59.703Z
+time: 2023-08-24T07:02:44.847Z
 shareable: true
 content:
-  # - tag: text
-  #   type: note
-  #   text:
-  #     # - 由于疫情原因，报到期间只会开放正门 (西门)。
-  #     - 由于疫情原因，报到期间只会开放东北门。
+  - tag: text
+    type: note
+    text:
+      # - 由于疫情原因，报到期间只会开放正门 (西门)。
+      - 报到期间学校会开放西门、东北门与南门。
 
   - tag: text
     type: warning
@@ -22,6 +22,9 @@ content:
     points:
       - latitude: 43.86409
         longitude: 125.33468
+        name: 东北门
+        detail: 东北师范大学东北门
+        path: benbu/gate/north-east
 
   - tag: img
     src: $img/scenery/benbu/gate/north.jpg
@@ -29,7 +32,7 @@ content:
 
   - tag: p
     text:
-      - 这是报到期间唯一开放的校门，也是离三舍最近的校门，正对着动植物公园门口。下车往左望分别就是三舍 D、C、B、A，很近。很多同学打车回校都会让司机开到这个门。
+      - 这是离三舍最近的校门，正对着动植物公园门口。下车往左望分别就是三舍 D、C、B、A，很近。很多同学打车回校都会让司机开到这个门。
 
   - tag: list
     header: false
@@ -41,7 +44,7 @@ content:
   - tag: ol
     heading: Mr.Hope の 友情提示
     text:
-      - 校门口的自由大路被栅栏隔开，想要过马路只能通过不远处的天桥或是绕行至十字路口走斑马线，如果行李多会产生很大不便，所以如果打车请务必让司机掉头停在校门一侧。
+      - 东北门所在的自由大路被栅栏隔开，想要过马路只能通过不远处的天桥或是绕行至十字路口走斑马线，如果行李多会产生很大不便，所以如果打车请务必让司机掉头停在校门一侧。
       - 自由大路上是没有停车位的，长期停车可能会被交警贴条。
 
   - tag: title
@@ -56,7 +59,9 @@ content:
     points:
       - latitude: 43.86167
         longitude: 125.325642
-        detail: 西门
+        name: 西门
+        detail: 东北师范大学西门(正门)
+        path: benbu/gate/west
 
   - tag: carousel
     images:
@@ -71,29 +76,45 @@ content:
       # - 进门后直行走到图书馆，之后从图书馆北侧 (左手边) 那条路一直往前走就能见到搭着橘色棚子的迎新摆台处。
 
   - tag: title
-    text: 本部北门(东师会馆、幼儿园旁)
-
-  # - tag: text
-  #   type: danger
-  #   text: 疫情报到期间此门关闭!
+    text: 本部南门 (文昌路)
 
   - tag: location
-    title: 北门
+    title: 南门
     points:
-      - latitude: 43.86393
-        longitude: 125.33015
+      - latitude: 43.85967
+        longitude: 125.33021
+        name: 南门
+        detail: 东北师范大学南门
+        path: benbu/gate/south
 
   - tag: img
-    src: $img/scenery/benbu/gate/north-west.jpg
+    src: $img/scenery/benbu/gate/south1.jpg
     watermark: true
 
-  - tag: p
-    text:
-      - 从这个门进去右手边是师大附属幼儿园。
-      # - 往前走遇到第二个岔路左拐，一直往前走就能见到搭着橘色棚子的迎新摆台处。
-
   # - tag: title
-  #   text: 本部摆台示意图
+  #   text: 本部北门(东师会馆、幼儿园旁)
+
+  # # - tag: text
+  # #   type: danger
+  # #   text: 疫情报到期间此门关闭!
+
+  # - tag: location
+  #   title: 北门
+  #   points:
+  #     - latitude: 43.86393
+  #       longitude: 125.33015
 
   # - tag: img
-  #   src: $img/check/benbu-stage.jpg
+  #   src: $img/scenery/benbu/gate/north-west.jpg
+  #   watermark: true
+
+  # - tag: p
+  #   text:
+  #     - 从这个门进去右手边是师大附属幼儿园。
+  #     # - 往前走遇到第二个岔路左拐，一直往前走就能见到搭着橘色棚子的迎新摆台处。
+
+  # # - tag: title
+  # #   text: 本部摆台示意图
+
+  # # - tag: img
+  # #   src: $img/check/benbu-stage.jpg

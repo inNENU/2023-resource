@@ -1,18 +1,26 @@
 title: 净月报到流程
 desc: 照片来自王慕梓
 author: Mr.Hope
-time: 2023-08-21T13:37:59.723Z
+time: 2023-08-24T07:02:44.855Z
 shareable: true
 content:
   - tag: title
-    text: 前往净月 1 号门 (正门、东北门)
+    text: 前往净月 2 号门或 4 号门 (雕塑门、西北门)
 
   - tag: location
-    title: 正门
+    title: 净月报到校门
     points:
-      - latitude: 43.82853
-        longitude: 125.43107
-        detail: 1 号门
+      - latitude: 43.829133
+        longitude: 125.427097
+        name: 二号门
+        detail: 净月校区二号门
+        path: jingyue/gate/gate2
+
+      - latitude: 43.82661
+        longitude: 125.41988
+        name: 四号门
+        detail: 净月校区四号门
+        path: jingyue/gate/gate4
 
   # - tag: text
   #   type: note
@@ -35,45 +43,10 @@ content:
       font-weight: "500"
       font-size: 20px
 
-  - tag: title
-    text: 值班辅导员完成入校登记
-
   - tag: text
     text:
-      - 到门口登记处的对应牌子找辅导员扫描返校码完成入校健康等级。
-
-  - tag: text
-    text: 👇
-    align: center
-    style:
-      font-weight: "500"
-      font-size: 20px
-
-  - tag: title
-    text: 行李贴牌
-
-  - tag: text
-    text:
-      - 领取发放的行李牌，填写好自己的信息并贴在行李上交给志愿者转运。志愿者会根据相关信息直接转运至寝室或寝室楼下。
-
-  - tag: text
-    type: tip
-    text:
-      - 在这一步请确保录取通知书和两张一寸照片在自己身上。
-      - 大部分学院给学生志愿者下发的通知都是运送至寝室，这部分学院新生无需担心行李搬运的问题。
-
-  - tag: text
-    text: 👇
-    align: center
-    style:
-      font-weight: "500"
-      font-size: 20px
-
-  - tag: text
-    text:
-      - 之后前往对应学院的报到处报到。
-      - 报到处的学长学姐会查验录取通知书，查看你的脸核查确为本人，同时让你上交易班成绩单打印结果。
-      - 之后，报到处的学长学姐会向你发放寝室钥匙和校园卡。
+      - 确保录取通知书和两张一寸照片在自己身上，前往图书馆门口对应学院的报到处报到。
+      - 报到处的学长学姐会查验录取通知书，核验是否为本人，之后向你发放寝室钥匙和校园卡。
 
   - tag: text
     type: note

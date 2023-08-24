@@ -1,6 +1,6 @@
 title: 大学第一天
 author: Mr.Hope
-time: 2022-08-31
+time: 2023-08-24T07:02:44.849Z
 shareable: true
 content:
   - tag: p
@@ -12,10 +12,12 @@ content:
   - tag: list
     header: false
     items:
-      - text: "第一步: 认清校区位置"
+      - text: |-
+          第一步: 认清校区位置
         path: locate
 
-      - text: "第二步: 出发并到达校区"
+      - text: |-
+          第二步: 出发并到达校区
         path: /newcomer/arrival/
 
   - tag: title
@@ -37,22 +39,17 @@ content:
   - tag: list
     header: false
     items:
-      - text: "第四步: 前往校园快递中心取行李"
+      - text: |-
+          第四步: 前往校园快递中心取行李
         path: /guide/express/
 
-      - text: "第五步: 清理寝室灰尘，整理行李"
+      - text: |-
+          第五步: 清理寝室灰尘，整理行李
 
-      - text: "第六步: 激活校园卡，并完成充值"
+      - text: |-
+          第六步: 激活校园卡，并完成充值
         path: /guide/card/prepare
 
-  - tag: text
-    type: warning
-    text:
-      - 由于报到全天都会是充值高峰期，会有更大的到账延迟 (尤其是支付宝途径)。
-      - 所以请务必在使用前提前完成校园卡充值。
-
-  - tag: list
-    header: false
-    items:
-      - text: "第五步: 校内采购生活用品"
+      - text: |-
+          第七步: 校内采购生活用品
         path: /newcomer/necessity/

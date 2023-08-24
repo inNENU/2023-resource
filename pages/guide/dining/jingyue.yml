@@ -1,6 +1,6 @@
 title: 净月食堂
 author: Mr.Hope
-time: 2023-08-09T16:44:18.401Z
+time: 2023-08-24T07:02:45.482Z
 shareable: true
 content:
   - tag: text
@@ -12,10 +12,12 @@ content:
       - latitude: 43.82704
         longitude: 125.42385
         name: 一食堂
+        path: jingyue/facility/dining1
 
       - latitude: 43.825301
         longitude: 125.424682
         name: 二食堂
+        path: jingyue/facility/dining2
 
   - tag: list
     header: false

@@ -1,6 +1,6 @@
 title: 食堂
 author: Mr.Hope
-time: 2023-08-09T16:44:18.400Z
+time: 2023-08-24T07:02:45.481Z
 grey: true
 shareable: true
 content:
@@ -23,10 +23,12 @@ content:
       - latitude: 43.86273
         longitude: 125.33338
         name: 北苑餐厅
+        path: benbu/facility/beiyuan
 
       - latitude: 43.860001
         longitude: 125.3327
         name: 南苑餐厅
+        path: benbu/facility/nanyuan
 
   - tag: list
     header: 净月校区
@@ -45,10 +47,12 @@ content:
       - latitude: 43.82704
         longitude: 125.42385
         name: 一食堂
+        path: jingyue/facility/dining1
 
       - latitude: 43.825301
         longitude: 125.424682
         name: 二食堂
+        path: jingyue/facility/dining2
 
   - tag: list
     header: 美食节

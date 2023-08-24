@@ -13,11 +13,17 @@ main-presets:
     - tag: grid
       header: 您可能想关注
       items:
-        - text: 账号激活
+        - text: 到校路线
           color: grey
-          name: Activate
-          icon: authorize
-          url: activate
+          name: Arrival
+          icon: locate
+          path: newcomer/arrival/
+
+        - text: 新生报到
+          color: orange
+          name: Check
+          icon: check
+          path: newcomer/check/
 
         - text: 新生入学教育
           color: blue
@@ -696,7 +702,7 @@ about:
     items:
       - text: 小程序全部内容均由 Mr.Hope 独立开发。
 
-      - text: 小程序现有字数为 978219 字，其中东师指南部分 361531 字，新生迎新部分 100829 字，东师介绍部分 217394 字，机构介绍部分 67029 字，学院介绍部分 143935 字，功能大厅部分 40079 字，其他部分 47422 字。
+      - text: 小程序现有字数为 978704 字，其中东师指南部分 361386 字，新生迎新部分 100791 字，东师介绍部分 217394 字，机构介绍部分 67029 字，学院介绍部分 143935 字，功能大厅部分 40747 字，其他部分 47422 字。
 
       # - text: Hope Studio 介绍
       #   url: info?path=Ohope-studio/about

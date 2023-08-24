@@ -1,21 +1,37 @@
 title: 本部报到流程
 author: Mr.Hope
-time: 2023-08-21T13:37:59.696Z
+time: 2023-08-24T07:02:44.844Z
 shareable: true
 content:
   - tag: text
     type: tip
     text:
+      - 报到前请确保录取通知书和一寸照片在自己身上。
       - 体育学院在自己的学院门口报到。
 
   - tag: title
-    text: 前往本部东北门
+    text: 前往本部西门、南门或东北门
 
   - tag: location
     title: 东北门
     points:
       - latitude: 43.86409
         longitude: 125.33468
+        name: 东北门
+        detail: 东北师范大学东北门
+        path: benbu/gate/north-east
+
+      - latitude: 43.86167
+        longitude: 125.325642
+        name: 西门
+        detail: 东北师范大学西门(正门)
+        path: benbu/gate/west
+
+      - latitude: 43.85967
+        longitude: 125.33021
+        name: 南门
+        detail: 东北师范大学南门
+        path: benbu/gate/south
 
   # - tag: text
   #   type: note
@@ -30,27 +46,9 @@ content:
   - tag: ol
     heading: Mr.Hope の 友情提示
     text:
-      - 校门口的自由大路被栅栏隔开，想要过马路只能通过不远处的天桥或是绕行至十字路口走斑马线，如果行李多会产生很大不便，所以如果打车请务必让司机掉头停在校门一侧。
-      - 自由大路两侧是没有停车位的，长期停车可能会被交警贴条。
-
-  - tag: text
-    text: 👇
-    align: center
-    style:
-      font-weight: "500"
-      font-size: 20px
-
-  - tag: title
-    text: 行李贴牌
-
-  - tag: text
-    text:
-      - 领取发放的行李牌，填写好自己的信息并贴在行李上交给志愿者转运。志愿者会根据相关信息直接转运至寝室楼下。
-
-  - tag: text
-    type: tip
-    text:
-      - 在这一步请确保录取通知书和一寸照片在自己身上。
+      - 东北门所在的自由大路被栅栏隔开，想要过马路只能通过不远处的天桥或是绕行至十字路口走斑马线，如果行李多会产生很大不便，所以如果打车请务必让司机掉头停在校门一侧。
+      - 西门和南门相距报到处都较远，不建议选择。
+      - 另外人民大街、自由大路两侧是没有停车位的，长期停车可能会被交警贴条。
 
   - tag: text
     text: 👇
@@ -62,8 +60,7 @@ content:
   - tag: text
     text:
       - 前往对应学院的报到处报到，完成入校登记。
-      - 报到处的学长学姐会查验录取通知书，核验是否为本人，同时让你上交易班成绩单打印结果。
-      - 之后，报到处的学长学姐会向你发放寝室钥匙和校园卡。
+      - 报到处的学长学姐会查验录取通知书，核验是否为本人，之后向你发放寝室钥匙和校园卡。
 
   - tag: text
     type: note
