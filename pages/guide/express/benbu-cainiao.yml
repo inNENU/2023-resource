@@ -2,7 +2,7 @@ title: 本部菜鸟驿站
 author:
   - Mr.Hope
   - 战俊华
-time: 2023-08-11T16:33:18.817Z
+time: 2023-08-25T16:30:08.609Z
 shareable: true
 content:
   - tag: title
@@ -19,6 +19,10 @@ content:
         longitude: 125.33315
         detail: 学生二舍东侧
 
+  - tag: img
+    src: $img/express/benbu/map.jpg
+    desc: 菜鸟驿站分布图
+
   - tag: text
     heading: 营业时间
     text: 9:00🕣 — 19:00🕖 (周六、周日正常派发快递信件)
@@ -28,7 +32,7 @@ content:
     text: 双十一期间，驿站关闭时间延长至 21:30 分。
 
   - tag: img
-    src: $img/express/cainiao-contact.jpg
+    src: $img/express/benbu/cainiao-contact.jpg
     desc: 菜鸟驿站联系方式
 
   - tag: title
@@ -72,21 +76,26 @@ content:
     text: 环境介绍
 
   - tag: img
-    src: $img/express/cainiao1.jpg
+    src: $img/express/benbu/cainiao1.jpg
     desc: 菜鸟驿站柜台
     watermark: true
 
   - tag: img
-    src: $img/express/cainiao2.jpg
+    src: $img/express/benbu/cainiao2.jpg
     desc: 菜鸟驿站货架
     watermark: true
 
   - tag: img
-    src: $img/express/cainiao-scan.jpg
+    src: $img/express/benbu/cainiao-scan.jpg
     desc: 菜鸟驿站扫描处
     watermark: true
 
   - tag: img
-    src: $img/express/cainiao-temp.jpg
+    src: $img/express/benbu/cainiao-temp1.jpg
+    desc: 菜鸟驿站室外取件扫描处
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/cainiao-temp2.jpg
     desc: 菜鸟驿站室外取件点
     watermark: true

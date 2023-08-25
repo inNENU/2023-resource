@@ -2,7 +2,7 @@ title: 本部校区快递柜
 author:
   - Mr.Hope
   - 战俊华
-time: 2023-07-16T11:41:46.944Z
+time: 2023-08-25T16:30:08.607Z
 shareable: true
 content:
   - tag: title
@@ -20,7 +20,7 @@ content:
         longitude: 125.336322
 
   - tag: img
-    src: $img/express/benbu-cabinet.jpg
+    src: $img/express/benbu/cabinet.jpg
     desc: 快递柜
     watermark: true
 
@@ -33,7 +33,7 @@ content:
       - 柜门自动弹开，取走快递合上柜门即可。
 
   - tag: img
-    src: $img/express/benbu-cabinet-fetch.jpg
+    src: $img/express/benbu/cabinet-fetch.jpg
     desc: 取件方式
     watermark: true
 

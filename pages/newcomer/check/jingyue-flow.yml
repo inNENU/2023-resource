@@ -1,7 +1,7 @@
 title: 净月报到流程
 desc: 照片来自王慕梓
 author: Mr.Hope
-time: 2023-08-25T15:33:48.851Z
+time: 2023-08-25T16:30:07.906Z
 shareable: true
 content:
   - tag: title
@@ -28,6 +28,7 @@ content:
         detail: 2023年净月校区报到处
 
   - tag: ol
+    type: tip
     heading: Mr.Hope の 友情提示
     text:
       - 净月大街两侧是没有停车位的，长期停车可能会被交警贴条。

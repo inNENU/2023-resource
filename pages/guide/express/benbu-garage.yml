@@ -2,7 +2,7 @@ title: 本部地下车库
 author:
   - Mr.Hope
   - 战俊华
-time: 2023-08-01T15:16:01.277Z
+time: 2023-08-25T16:30:08.610Z
 shareable: true
 content:
   - tag: title
@@ -22,7 +22,7 @@ content:
         detail: 三舍 AB 地下车库
 
   - tag: img
-    src: $img/express/benbu-temp-entrance.jpg
+    src: $img/express/benbu/garage-entrance.jpg
     desc: 地下车库取件点入口
     watermark: true
 
@@ -34,11 +34,11 @@ content:
     text: 环境介绍
 
   - tag: img
-    src: $img/express/benbu-temp.jpg
+    src: $img/express/benbu/garage.jpg
     desc: 地下车库取件点内景
     watermark: true
 
   - tag: img
-    src: $img/express/benbu-temp-scan.jpg
+    src: $img/express/benbu/garage-scan.jpg
     desc: 地下车库取件点出库处
     watermark: true

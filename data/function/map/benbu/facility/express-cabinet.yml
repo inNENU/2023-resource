@@ -4,8 +4,8 @@ author:
   - 战俊华
 time: 2021-11-17
 photo:
-  - $img/express/benbu-cabinet.jpg
-  - $img/express/benbu-cabinet-fetch.jpg
+  - $img/express/benbu/cabinet.jpg
+  - $img/express/benbu/cabinet-fetch.jpg
 content:
   - tag: title
     text: 简介
@@ -16,7 +16,7 @@ content:
       - 快递柜共三个，从左至右依次为 1、2、3 号柜。
 
   - tag: img
-    src: $img/express/benbu-cabinet.jpg
+    src: $img/express/benbu/cabinet.jpg
     desc: 快递柜
     watermark: true
 
@@ -29,7 +29,7 @@ content:
       - 柜门自动弹开，取走快递合上柜门即可。
 
   - tag: img
-    src: $img/express/benbu-cabinet-fetch.jpg
+    src: $img/express/benbu/cabinet-fetch.jpg
     desc: 取件方式
     watermark: true
 

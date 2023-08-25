@@ -1,7 +1,7 @@
 title: 寝室
 grey: true
 author: Mr.Hope
-time: 2023-08-25T15:33:49.511Z
+time: 2023-08-25T16:30:08.527Z
 shareable: true
 content:
   - tag: list
@@ -60,7 +60,7 @@ content:
         path: detail/self-study
 
       - text: 微波炉
-        icon: study
+        icon: microwave
         path: detail/microwave
 
       - text: 卫生间
