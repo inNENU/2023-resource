@@ -62,7 +62,7 @@ content:
         path: activity/
 
   - tag: grid
-    header: 报道流程
+    header: 报到流程
     items:
       - text: 到校路线
         color: grey
