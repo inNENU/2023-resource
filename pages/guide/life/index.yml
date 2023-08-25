@@ -1,6 +1,6 @@
 title: 生活
 author: Mr.Hope
-time: 2022-09-02
+time: 2023-08-25T13:34:13.524Z
 shareable: true
 content:
   - tag: title
@@ -14,6 +14,7 @@ content:
         path: beiyuan-district
 
       - text: 浴池生活区介绍
+        desc: 即将拆除
         icon: bath
         path: benbu-bath-district
 

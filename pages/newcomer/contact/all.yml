@@ -1,6 +1,6 @@
 title: 学校新生群
 author: Mr.Hope
-time: 2023-06-21T10:21:01.629Z
+time: 2023-08-25T13:34:12.475Z
 shareable: true
 content:
   - tag: text
@@ -33,6 +33,26 @@ content:
         type: button
         openType: openGroupProfile
         groupId: "670581382"
+    env:
+      - qq
+
+  - tag: title
+    text: 东北师范大学本科交流群
+
+  - tag: img
+    src: $img/about/hope.jpg
+    env:
+      - app
+      - wx
+
+  - tag: functional-list
+    header: false
+    items:
+      - text: 加入东北师范大学本科交流群
+        icon: qq-group
+        type: button
+        openType: openGroupProfile
+        groupId: "594493757"
     env:
       - qq
 
@@ -71,27 +91,6 @@ content:
     type: warning
     text:
       - 会有骗子装作新生混入。如果您遇到没有头衔 (也就是未认证) 的人加您好友，请及时向管理员举报进行踢出。
-
-  - tag: title
-    text: 东北师范大学交流群
-
-  - tag: img
-    src: $img/about/hope.jpg
-    desc: 这是一个需要严格身份验证，同时每天长期监控的群
-    env:
-      - app
-      - wx
-
-  - tag: functional-list
-    header: false
-    items:
-      - text: 加入东北师范大学交流群
-        icon: qq-group
-        type: button
-        openType: openGroupProfile
-        groupId: "594493757"
-    env:
-      - qq
 
   - tag: title
     text: 东北师大频道

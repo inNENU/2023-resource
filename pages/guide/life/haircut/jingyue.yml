@@ -1,7 +1,7 @@
 title: 净月理发店
 desc: 特别鸣谢小艺学长提供部分照片
 author: Mr.Hope
-time: 2023-07-16T11:41:47.156Z
+time: 2023-08-25T13:34:13.569Z
 shareable: true
 content:
   - tag: title
@@ -11,8 +11,6 @@ content:
     text:
       - |-
         秀发型: 二食堂超市入口对面
-      - |-
-        Mr.李: 学生浴池正门左侧
       - |-
         DL 发型设计: 学生浴池正门右侧
 
@@ -24,11 +22,6 @@ content:
         name: 秀发型
         detail: 二食堂超市入口对面
 
-      - latitude: 43.826129
-        longitude: 125.4207
-        name: Mr.李
-        detail: 学生浴池正门左侧
-
       - latitude: 43.826169
         longitude: 125.420948
         name: DL 发型设计
@@ -39,13 +32,6 @@ content:
 
   - tag: img
     src: $img/life/dining2/show-hair.jpg
-    watermark: true
-
-  - tag: text
-    heading: Mr.李
-
-  - tag: img
-    src: $img/life/jingyue/mr-li-haircut.jpg
     watermark: true
 
   - tag: text

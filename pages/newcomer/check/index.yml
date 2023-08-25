@@ -1,11 +1,11 @@
 title: 报到
 grey: true
 author: Mr.Hope
-time: 2023-08-08T03:58:44.189Z
+time: 2023-08-25T13:34:12.456Z
 shareable: true
 content:
   - tag: list
-    header: 报到流程
+    header: 确认报道位置
     items:
       - text: 专业所在校区
         icon: gate
@@ -15,6 +15,9 @@ content:
         icon: time
         path: location-and-time
 
+  - tag: list
+    header: 报到流程
+    items:
       - text: 本部报道流程
         icon: flow
         path: benbu-flow

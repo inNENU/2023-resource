@@ -1,7 +1,6 @@
 title: 本部烘焙坊
-desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-07-16T11:41:47.111Z
+time: 2023-08-25T13:34:13.536Z
 shareable: true
 content:
   - tag: title
@@ -10,37 +9,19 @@ content:
   - tag: ul
     text:
       - |-
-        梅小姐私房烘焙店: 浴池正门右侧
-      - |-
-        北苑蛋糕店: 北苑地下一楼西北角
+        多巴胺甜品烘焙: 北苑地下一楼西北角
 
   - tag: location
     title: 本部烘焙坊
     points:
-      - latitude: 43.861806
-        longitude: 125.336898
-        name: 梅小姐私房烘焙店
-        detail: 浴池正门右侧
-
       - latitude: 43.862917
         longitude: 125.332566
-        name: 北苑蛋糕店
+        name: 多巴胺甜品烘焙
         detail: 北苑地下一楼西北角
 
   - tag: text
-    heading: 梅小姐私房烘焙店
-
-  - tag: img
-    src: $img/bath/benbu-right.jpg
-    desc: 梅小姐私房烘焙店
-    watermark: true
-
-  - tag: text
-    heading: 北苑蛋糕店
-
-  - tag: img
-    src: $img/life/beiyuan/bake.jpg
-    watermark: true
+    text:
+      - 暂无
 
   - tag: title
     text: 校外店铺

@@ -1,6 +1,6 @@
 title: 快递
 author: Mr.Hope
-time: 2023-08-01T15:16:01.285Z
+time: 2023-08-25T13:34:13.421Z
 grey: true
 shareable: true
 content:
@@ -16,7 +16,7 @@ content:
     items:
       - text: 快递介绍
         icon: about
-        path: benbu
+        path: benbu-intro
 
       - text: 菜鸟驿站
         icon: cainiao
@@ -35,7 +35,7 @@ content:
     items:
       - text: 快递介绍
         icon: about
-        path: jingyue
+        path: jingyue-intro
 
       - text: 菜鸟驿站
         icon: cainiao

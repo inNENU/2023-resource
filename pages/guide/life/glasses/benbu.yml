@@ -1,7 +1,7 @@
 title: 本部眼镜店
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-07-16T11:41:47.143Z
+time: 2023-08-25T13:34:13.560Z
 shareable: true
 content:
   - tag: title
@@ -11,8 +11,6 @@ content:
     text:
       - |-
         镜舍: 浴池正门里右转
-      - |-
-        北苑眼镜店: 北苑地下一楼西南角
 
   - tag: location
     title: 本部眼镜店
@@ -21,11 +19,6 @@ content:
         longitude: 125.337083
         name: 镜舍
         detail: 浴池正门里右转
-
-      - latitude: 43.862662
-        longitude: 125.332524
-        name: 北苑眼镜店
-        detail: 北苑地下一楼西南角
 
   - tag: text
     heading: 镜舍位置
@@ -47,15 +40,6 @@ content:
       - text: 店铺详情
         icon: glasses
         path: jingshe
-
-  - tag: text
-    heading: 北苑眼镜店
-    text: 位于北苑超市生活区西南角
-
-  - tag: img
-    src: $img/life/beiyuan/glass.jpg
-    desc: 北苑眼镜店
-    watermark: true
 
   - tag: title
     text: 校外

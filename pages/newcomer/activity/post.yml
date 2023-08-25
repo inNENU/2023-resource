@@ -1,6 +1,6 @@
 title: 研究生开学活动
 author: Mr.Hope
-time: 2023-08-09T15:35:42.981Z
+time: 2023-08-25T13:34:12.341Z
 grey: true
 shareable: true
 content:
@@ -33,6 +33,10 @@ content:
         desc: 自愿
         icon: insurance
         path: /guide/insurance/
+
+      - text: 火车优惠卡申领
+        icon: train
+        path: train-card
 
       - text: 献血
         icon: heart

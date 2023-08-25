@@ -1,5 +1,5 @@
 title: 校园分布与通勤介绍
-time: 2023-08-21T14:59:43.878Z
+time: 2023-08-25T13:34:12.507Z
 author: Mr.Hope
 shareable: true
 content:
@@ -18,6 +18,10 @@ content:
         icon: map
         url: map
 
+      - text: 学生寝室介绍
+        icon: dorm
+        path: /guide/dorm/locate/
+
   - tag: title
     text: 本部校区
 
@@ -26,12 +30,6 @@ content:
       - 教学楼分布在校区西侧，两校区食堂位于校区中部，学生宿舍区主要集中在校区东部。
       - 体育馆位于校区西南侧，田径场场位于校区东南侧，浴池靠近宿舍区，其他运动场地与设施均匀分布在校区各角落。
       - 本部校区很小，通常从宿舍出发去食堂约 3 - 5 分钟，从食堂到教学楼也只需 1 - 4 分钟，没有在校园内骑行的必要。
-
-  - tag: list
-    items:
-      - text: 学生寝室介绍
-        icon: dorm
-        path: /guide/dorm/locate/
 
   - tag: title
     text: 净月校区

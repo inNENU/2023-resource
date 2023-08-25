@@ -1,6 +1,6 @@
 title: 本部周边
 author: Mr.Hope
-time: 2023-05-13T12:08:31.092Z
+time: 2023-08-25T13:34:13.600Z
 shareable: true
 content:
   - tag: title
@@ -13,7 +13,7 @@ content:
     type: warning
     heading: Mr.Hope 提示
     text:
-      - 女孩子尽量别去酒吧，男孩子最好也别去。
+      - 想去酒吧，建议只和熟人去清吧小酌。
 
   - tag: ul
     heading: 大型超市
@@ -58,10 +58,6 @@ content:
 
   - tag: p
     text: 长春的重量级商业街，主要商场有长春百货大楼(简称“长百”)、亚泰富苑购物中心等，长春市中心医院也位于此，好吃好玩的地方也数不胜数。
-
-  - tag: text
-    heading: 大型超市
-    text: 沃尔玛
 
   - tag: text
     heading: 电影院

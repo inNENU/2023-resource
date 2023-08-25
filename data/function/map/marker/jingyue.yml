@@ -59,7 +59,7 @@ dorm:
       longitude: 125.423887
       name: 秋华公寓
       detail: 秋华公寓
-      path: autumn
+      path: fall
 
     - latitude: 43.824615
       longitude: 125.425693
@@ -247,26 +247,37 @@ facility:
       longitude: 125.424682
       name: 二食堂
       detail: 净月校区二食堂
+      path: dining2
 
     - latitude: 43.826193
       longitude: 125.420806
       name: 浴池
       detail: 净月校区浴池
+      path: bath
 
     - latitude: 43.825692
       longitude: 125.424139
       name: 校医院
       detail: 净月校区校医院
+      path: hospital
 
     - latitude: 43.824961
       longitude: 125.424726
       name: 快递中心
       detail: 快递中心
+      path: express
 
     - latitude: 43.825197
       longitude: 125.425045
       name: 超市
       detail: 超市
+      path: shop
+
+    - latitude: 43.827284
+      longitude: 125.423359
+      name: ATM
+      detail: ATM
+      path: atm
 
 scenery:
   name: 风景
@@ -317,7 +328,7 @@ store:
     - latitude: 43.825158
       longitude: 125.424935
       name: 甜啦啦
-      detail: 北苑地下一楼
+      detail: 二食堂书店内
 
     - latitude: 43.82505
       longitude: 125.424809
@@ -363,11 +374,6 @@ store:
       longitude: 125.425003
       name: 秀发型
       detail: 二食堂超市入口对面
-
-    - latitude: 43.826129
-      longitude: 125.4207
-      name: Mr.李
-      detail: 学生浴池正门左侧
 
     - latitude: 43.826169
       longitude: 125.420948

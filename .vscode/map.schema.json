@@ -53,7 +53,7 @@
     "style-object": {
       "type": "object",
       "patternProperties": {
-        "*": {
+        "^.+$": {
           "type": "string"
         }
       }

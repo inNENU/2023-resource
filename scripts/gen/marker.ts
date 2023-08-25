@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { type Marker, type MarkerConfig, type MarkerData } from "./typings.js";
 
 /**
@@ -9,13 +10,26 @@ import { type Marker, type MarkerConfig, type MarkerData } from "./typings.js";
  */
 const genMarker = (
   marker: Marker,
+  folder: string,
   category: string,
   id: number,
-): MarkerData => ({
-  id,
-  ...marker,
-  ...(marker.path ? { path: `${category}/${marker.path}` } : {}),
-});
+): MarkerData => {
+  const markerData = {
+    id,
+    ...marker,
+  };
+
+  if (marker.path) {
+    const path = `${category}/${marker.path}`;
+
+    if (!existsSync(`./data/function/map/${folder}/${path}.yml`))
+      console.error(`location ${path} not exist in ${folder}`);
+
+    markerData.path = `${category}/${marker.path}`;
+  }
+
+  return markerData;
+};
 
 export interface MarkerOption {
   [props: string]: {
@@ -31,7 +45,10 @@ export interface MarkerOption {
  * @param data marker数据
  * @param name marker名称
  */
-export const resolveMarker = (data: MarkerOption): MarkerConfig => {
+export const resolveMarker = (
+  data: MarkerOption,
+  folder: string,
+): MarkerConfig => {
   const categories = Object.keys(data);
 
   const categoryConfig = [
@@ -48,7 +65,7 @@ export const resolveMarker = (data: MarkerOption): MarkerConfig => {
   categories.forEach((category) => {
     markers[category] = data[category].content.map((marker) =>
       // eslint-disable-next-line no-plusplus
-      genMarker(marker, category, id++),
+      genMarker(marker, folder, category, id++),
     );
 
     markers.all = markers.all.concat(markers[category]);

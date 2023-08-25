@@ -40,8 +40,10 @@ convertYml2Json("./data/account", "./d/account", (data, filePath) =>
 
 // 功能大厅
 convertYml2Json("./data/function", "./d/function", (data, filePath) =>
-  /map\/marker\/(benbu|jingyue)/u.exec(filePath)
-    ? resolveMarker(data as MarkerOption)
+  /map\/marker\/benbu/u.exec(filePath)
+    ? resolveMarker(data as MarkerOption, "benbu")
+    : /map\/marker\/jingyue/u.exec(filePath)
+    ? resolveMarker(data as MarkerOption, "jingyue")
     : /map\/(benbu|jingyue)\//u.exec(filePath)
     ? resolveLocationPage(
         data as PageConfig & { photo?: string[] },

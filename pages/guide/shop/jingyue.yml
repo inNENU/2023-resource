@@ -1,62 +1,40 @@
-title: 京东便利店师大净月店
-desc: 特别鸣谢张云歌提供照片
+title: 净月超市
 author: Mr.Hope
-time: 2023-07-16T11:41:47.530Z
+time: 2023-08-25T13:34:13.779Z
 shareable: true
 content:
-  - tag: title
-    text: 简介
+  - tag: list
+    items:
+      - text: Mr.Hope 的建议
+        icon: idea
+        path: tip
 
   - tag: text
-    type: warning
-    text:
-      - 请注意净月超市很热，建议提前按照in东师核对整理好购物清单再去，不要在那里现场想，会一身汗!
-      - 另外京东很多生活杂物，净月超市无售或者价格偏高，可以考虑超市门外的新起点百货，也凉快一些可以慢慢挑。
+    text: 净月校区的主要超市是京东便利店师大净月店。
 
-  - tag: p
-    text:
-      - 京东便利店师大净月店是净月最大的超市，位于校区二食堂一楼南侧，售卖大多数常见的食品、饮品以及日常生活用品等。
+  - tag: list
+    header: false
+    items:
+      - text: 京东便利店师大净月店
+        path: jingdong
 
-  - tag: img
-    src: $img/shop/jingdong-entrance.jpg
-    desc: 超市入口
-    watermark: true
+      - text: 二食堂生活区
+        path: /guide/life/dining2-district
 
-  - tag: title
-    text: 超市详情
-
-  - tag: img
-    src: $img/life/dining2/map.jpg
-    desc: 超市分布图
-    watermark: true
-
-  - tag: carousel
-    images:
-      - $img/shop/jingdong-detail1.jpg
-      - $img/shop/jingdong-detail2.jpg
-      - $img/shop/jingdong-detail3.jpg
-      - $img/shop/jingdong-detail4.jpg
-      - $img/shop/jingdong-detail5.jpg
-      - $img/shop/jingdong-detail6.jpg
-      - $img/shop/jingdong-detail7.jpg
-      - $img/shop/jingdong-detail8.jpg
-
-  - tag: carousel
-    images:
-      - $img/shop/jingdong-detail9.jpg
-      - $img/shop/jingdong-detail10.jpg
+      - text: 净月临时售卖点
+        path: jingyue-temp
 
   - tag: text
-    heading: 结账
+    type: info
+    heading: 水之源超市
     text:
-      - 除了选择人工结账外，净月在结帐口设有两个自助结账台，可以自行扫码录入商品进行结账。
-      - 支付时可以使用多种支付软件收款码完成支付(暂不支持刷脸支付)。
+      - 学生浴池旁边有一家水之源超市，价格为普通零售价，性质类似于小区食杂店。主要售卖大众食品饮料以及常用生活用品等，东西不全。
 
-  - tag: img
-    src: $img/shop/jingdong-pay.jpg
-    watermark: true
+  - tag: text
+    heading: 校外超市
 
-  - tag: phone
-    num: 13159611100
-    fName: 净月超市服务电话
-    org: 东北师范大学
+  - tag: list
+    header: false
+    items:
+      - text: 校外超市
+        path: jingyue-out
