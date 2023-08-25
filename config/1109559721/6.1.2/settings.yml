@@ -5,11 +5,6 @@ main-page:
 
 main-presets:
   newcomer:
-    - tag: card
-      cover: http://mmbiz.qpic.cn/mmbiz_jpg/1LGPufKFDrdWYjcsI2ku82lich9RJa567Mcx9PicslCC4FRwMNpLCKHzliaAX4NQEJP4elHysSZibWqxGiaK71iaL0Gw/0?wx_fmt=jpeg&amp;random=0.23670275764878745
-      title: 2023级辅导员大揭秘
-      path: /newcomer/intro/counselor/2023
-
     - tag: grid
       header: 您可能想关注
       items:
@@ -715,7 +710,7 @@ about:
     items:
       - text: 小程序全部内容均由 Mr.Hope 独立开发。
 
-      - text: 小程序现有字数为 982136 字，其中东师指南部分 363451 字，新生迎新部分 101440 字，东师介绍部分 217194 字，机构介绍部分 67029 字，学院介绍部分 143935 字，功能大厅部分 41630 字，其他部分 47457 字。
+      - text: 小程序现有字数为 982159 字，其中东师指南部分 363451 字，新生迎新部分 101463 字，东师介绍部分 217194 字，机构介绍部分 67029 字，学院介绍部分 143935 字，功能大厅部分 41630 字，其他部分 47457 字。
 
       # - text: Hope Studio 介绍
       #   url: info?path=Ohope-studio/about
