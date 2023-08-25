@@ -8,11 +8,17 @@ main-presets:
     - tag: grid
       header: 您可能想关注
       items:
-        - text: 账号激活
+        - text: 到校路线
           color: grey
-          name: Activate
-          icon: authorize
-          url: activate
+          name: Arrival
+          icon: locate
+          path: newcomer/arrival/
+
+        - text: 新生报到
+          color: orange
+          name: Check
+          icon: check
+          path: newcomer/check/
 
         - text: 新生入学教育
           color: blue
