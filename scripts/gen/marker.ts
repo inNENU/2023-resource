@@ -1,4 +1,5 @@
 import { existsSync } from "node:fs";
+
 import { type Marker, type MarkerConfig, type MarkerData } from "./typings.js";
 
 /**

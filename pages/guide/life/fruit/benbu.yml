@@ -1,7 +1,7 @@
 title: 本部水果店
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-07-16T11:41:47.135Z
+time: 2023-08-25T18:21:22.548Z
 shareable: true
 content:
   - tag: title
@@ -12,6 +12,8 @@ content:
       - |-
         葱蜂鲜果: 北苑地下一楼东南角
       - |-
+        精品水果捞: 北苑地下一楼西南角
+      - |-
         心随果动: 浴池正门左侧
 
   - tag: location
@@ -21,6 +23,11 @@ content:
         longitude: 125.332943
         name: 葱蜂鲜果
         detail: 北苑地下一楼东南角
+
+      - latitude: 43.86267
+        longitude: 125.332541
+        name: 精品水果捞
+        detail: 北苑地下一楼西南角
 
       - latitude: 43.862592
         longitude: 125.33717

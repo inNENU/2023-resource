@@ -407,15 +407,20 @@ store:
       name: 喜宝美甲美睫皮肤管理
       detail: 北苑地下一楼西北角
 
+    - latitude: 43.862864
+      longitude: 125.332545
+      name: 星巴克
+      detail: 北苑地下一楼西北角
+
     - latitude: 43.862733
       longitude: 125.332707
       name: 蜜雪冰城
       detail: 北苑地下一楼西南角
 
-    - latitude: 43.860105
-      longitude: 125.332866
-      name: 南苑维修店
-      detail: 南苑二楼西侧
+    - latitude: 43.86267
+      longitude: 125.332541
+      name: 精品水果捞
+      detail: 北苑地下一楼西南角
 
     - latitude: 43.863625
       longitude: 125.337262
@@ -426,6 +431,11 @@ store:
       longitude: 125.333539
       name: 木子鐡饮品店
       detail: 北苑一楼
+
+    - latitude: 43.860105
+      longitude: 125.332866
+      name: 南苑维修店
+      detail: 南苑二楼西侧
 
     - latitude: 43.859935
       longitude: 125.332861
