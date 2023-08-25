@@ -1,7 +1,7 @@
 title: 寝室
 grey: true
 author: Mr.Hope
-time: 2023-08-25T13:34:13.321Z
+time: 2023-08-25T15:33:49.522Z
 shareable: true
 content:
   - tag: list
@@ -46,7 +46,7 @@ content:
 
       - text: 洗衣机
         icon: washer
-        path: detail/washer
+        path: detail/jingyue-washer
 
       - text: 自习室
         icon: study

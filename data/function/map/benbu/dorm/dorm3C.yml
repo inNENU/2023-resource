@@ -39,13 +39,17 @@ content:
         icon: study
         path: /guide/dorm/detail/self-study
 
+      - text: 微波炉
+        icon: study
+        path: /guide/dorm/detail/microwave
+
       - text: 卫生间
         icon: toilet
         path: /guide/dorm/detail/toilet
 
       - text: 洗衣机
         icon: washer
-        path: /guide/dorm/detail/washer
+        path: /guide/dorm/detail/benbu-washer
 
   - tag: list
     header: 寝室供电

@@ -1,6 +1,6 @@
 title: 本部超市
 author: Mr.Hope
-time: 2023-08-25T13:34:13.767Z
+time: 2023-08-25T15:33:49.816Z
 shareable: true
 content:
   - tag: list
@@ -20,6 +20,15 @@ content:
 
       - text: 北苑生活区介绍
         path: /guide/life/beiyuan-district
+
+  - tag: text
+    heading: 临时购买点
+    text:
+      - 报到期间，本部天猫超市外转角处会有临时售卖点。
+
+  - tag: img
+    src: $img/shop/benbu-temp.jpg
+    desc: 位于天猫超市西北角
 
   - tag: text
     type: info

@@ -1,5 +1,5 @@
 title: 理化大楼
-desc: 图片与文案来自发展规划处 基建处 党委宣传部
+desc: 部分图片与文案来自发展规划处 基建处 党委宣传部
 author: Mr.Hope
 time: 2021-07-09
 photo:
@@ -13,6 +13,7 @@ photo:
   - $img/scenery/benbu/building/lihua8.jpg
   - $img/scenery/benbu/building/lihua9.jpg
   - $img/scenery/benbu/building/lihua10.png
+  - $img/scenery/benbu/building/lihua11.jpg
 
 content:
   - tag: title

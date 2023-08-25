@@ -1,7 +1,7 @@
 title: 本部饮品店
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-08-25T13:34:13.545Z
+time: 2023-08-25T15:33:49.664Z
 shareable: true
 content:
   - tag: title
@@ -44,7 +44,8 @@ content:
   - tag: text
     heading: 亓嘉咖啡
 
-  # TODO: Add 照片、价目表
+  - tag: img
+    src: $img/life/benbu/qijia.jpg
 
   - tag: text
     heading: 蜜雪冰城

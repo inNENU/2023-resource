@@ -1,7 +1,7 @@
 title: 寝室
 grey: true
 author: Mr.Hope
-time: 2023-08-25T13:34:13.307Z
+time: 2023-08-25T15:33:49.511Z
 shareable: true
 content:
   - tag: list
@@ -49,7 +49,7 @@ content:
 
       - text: 洗衣机
         icon: washer
-        path: detail/washer
+        path: detail/benbu-washer
 
       - text: 电梯
         icon: lift
@@ -58,6 +58,10 @@ content:
       - text: 自习室
         icon: study
         path: detail/self-study
+
+      - text: 微波炉
+        icon: study
+        path: detail/microwave
 
       - text: 卫生间
         icon: toilet

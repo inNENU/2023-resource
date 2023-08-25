@@ -1,14 +1,14 @@
 title: 净月报到流程
 desc: 照片来自王慕梓
 author: Mr.Hope
-time: 2023-08-24T07:29:09.009Z
+time: 2023-08-25T15:33:48.851Z
 shareable: true
 content:
   - tag: title
     text: 前往净月 2 号门或 4 号门 (雕塑门、西北门)
 
   - tag: location
-    title: 净月报到校门
+    title: 净月报到校门与报到处
     points:
       - latitude: 43.829133
         longitude: 125.427097
@@ -22,19 +22,16 @@ content:
         detail: 净月校区四号门
         path: jingyue/gate/gate4
 
-  # - tag: text
-  #   type: note
-  #   text:
-  #     - 报到期间只会开放正门。
-
-  - tag: img
-    src: $img/scenery/jingyue/gate/east.jpg
-    watermark: true
+      - latitude: 43.826361
+        longitude: 125.424778
+        name: 报到处
+        detail: 2023年净月校区报到处
 
   - tag: ol
     heading: Mr.Hope の 友情提示
     text:
       - 净月大街两侧是没有停车位的，长期停车可能会被交警贴条。
+      - 两个门相距报到点的路程差不多。
 
   - tag: text
     text: 👇

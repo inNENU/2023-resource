@@ -1,7 +1,7 @@
 title: 京东便利店师大净月店
 desc: 特别鸣谢张云歌提供照片
 author: Mr.Hope
-time: 2023-08-25T13:34:13.774Z
+time: 2023-08-25T15:33:49.820Z
 shareable: true
 content:
   - tag: title
@@ -18,7 +18,7 @@ content:
       - 京东便利店师大净月店是净月最大的超市，位于校区二食堂一楼南侧，售卖大多数常见的食品、饮品以及日常生活用品等。
 
   - tag: img
-    src: $img/shop/jingdong-entrance.jpg
+    src: $img/shop/jingdong/entrance.jpg
     desc: 超市入口
     watermark: true
 
@@ -32,19 +32,19 @@ content:
 
   - tag: carousel
     images:
-      - $img/shop/jingdong-detail1.jpg
-      - $img/shop/jingdong-detail2.jpg
-      - $img/shop/jingdong-detail3.jpg
-      - $img/shop/jingdong-detail4.jpg
-      - $img/shop/jingdong-detail5.jpg
-      - $img/shop/jingdong-detail6.jpg
-      - $img/shop/jingdong-detail7.jpg
-      - $img/shop/jingdong-detail8.jpg
+      - $img/shop/jingdong/detail1.jpg
+      - $img/shop/jingdong/detail2.jpg
+      - $img/shop/jingdong/detail3.jpg
+      - $img/shop/jingdong/detail4.jpg
+      - $img/shop/jingdong/detail5.jpg
+      - $img/shop/jingdong/detail6.jpg
+      - $img/shop/jingdong/detail7.jpg
+      - $img/shop/jingdong/detail8.jpg
 
   - tag: carousel
     images:
-      - $img/shop/jingdong-detail9.jpg
-      - $img/shop/jingdong-detail10.jpg
+      - $img/shop/jingdong/detail9.jpg
+      - $img/shop/jingdong/detail10.jpg
 
   - tag: text
     heading: 结账
@@ -53,7 +53,7 @@ content:
       - 支付时可以使用多种支付软件收款码完成支付(暂不支持刷脸支付)。
 
   - tag: img
-    src: $img/shop/jingdong-pay.jpg
+    src: $img/shop/jingdong/pay.jpg
     watermark: true
 
   - tag: phone
