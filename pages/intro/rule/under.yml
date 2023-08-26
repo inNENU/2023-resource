@@ -1,7 +1,7 @@
 title: 规章制度
 grey: true
 author: Mr.Hope
-time: 2023-08-21T13:38:00.899Z
+time: 2023-08-26T14:42:45.816Z
 shareable: true
 content:
   - tag: list
@@ -124,6 +124,25 @@ content:
       - text: 国家教育考试违规处理办法
         icon: rule
         path: national-exam-obey
+
+  - tag: list
+    header: 征兵
+    items:
+      - text: 征兵工作条例
+        icon: rule
+        path: official-conscription
+
+      - text: 东师征兵工作实施细则
+        icon: rule
+        path: conscription
+
+      - text: 中华人民共和国兵役法
+        icon: politics
+        path: solder
+
+      - text: 中华人民共和国国防法
+        icon: politics
+        path: defense
 
   - tag: list
     header: 辅导员

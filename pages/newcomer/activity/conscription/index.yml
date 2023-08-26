@@ -1,6 +1,6 @@
 title: 参军入伍
 author: Mr.Hope
-time: 2023-08-09T15:35:42.990Z
+time: 2023-08-26T14:42:45.517Z
 grey: true
 shareable: true
 content:
@@ -8,12 +8,23 @@ content:
     items:
       - text: 征兵工作条例
         icon: rule
-        path: rule
+        path: /intro/rule/official-conscription
 
       - text: 东师征兵工作实施细则
         icon: rule
-        path: execute
+        path: /intro/rule/conscription
 
       - text: 参军入伍待遇解释
         icon: idea
         path: explain
+
+  - tag: list
+    header: 相关法律
+    items:
+      - text: 中华人民共和国兵役法
+        icon: politics
+        path: /intro/rule/solder
+
+      - text: 中华人民共和国国防法
+        icon: politics
+        path: /intro/rule/defense

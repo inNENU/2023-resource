@@ -205,12 +205,6 @@ building:
       detail: 东北师范大学逸夫教学楼
       path: yifu
 
-    - latitude: 43.860084
-      longitude: 125.332240
-      name: 综合教学楼
-      detail: 东北师范大学综合教学楼
-      path: complex
-
     - latitude: 43.863651
       longitude: 125.331524
       name: 理化大楼 (新综合楼)

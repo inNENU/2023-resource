@@ -158,18 +158,6 @@ content:
         icon: network
         path: school/international/
 
-      # - text: 民族教育学院
-      #   color: olive
-      #   name: People
-      #   icon: people
-      #   path: school/people/
-
-      # - text: 纽瓦克学院
-      #   color: blue
-      #   name: Newark
-      #   icon: school
-      #   path: school/newark/
-
   - tag: grid
     header: 机构介绍
     items:

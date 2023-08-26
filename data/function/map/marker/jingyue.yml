@@ -115,12 +115,6 @@ school:
       detail: 东北师范大学经济与管理学院
       path: economy
 
-    - latitude: 43.82748
-      longitude: 125.42448
-      name: 民族教育学院
-      detail: 东北师范大学民族教育学院
-      path: people
-
     - latitude: 43.825102
       longitude: 125.426706
       name: 环境学院

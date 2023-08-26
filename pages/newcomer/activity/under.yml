@@ -1,6 +1,6 @@
 title: 本科生开学活动
 author: Mr.Hope
-time: 2023-08-23T06:11:52.440Z
+time: 2023-08-26T14:42:45.515Z
 grey: true
 shareable: true
 content:
@@ -27,6 +27,11 @@ content:
       - text: 军训
         icon: military
         path: military/
+
+      - text: 兵役登记
+        desc: 仅 18 周岁男生
+        icon: military
+        path: conscription/register
 
       - text: 注册课程
         icon: content
@@ -71,11 +76,11 @@ content:
     items:
       - text: 征兵工作条例
         icon: rule
-        path: conscription/rule
+        path: /intro/rule/official-conscription
 
       - text: 东师征兵工作实施细则
         icon: rule
-        path: conscription/execute
+        path: /intro/rule/conscription
 
       - text: 参军入伍待遇解释
         icon: idea

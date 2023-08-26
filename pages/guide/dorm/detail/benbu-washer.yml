@@ -1,6 +1,6 @@
 title: 本部洗衣房/洗衣机
 author: Mr.Hope
-time: 2023-08-26T07:56:22.430Z
+time: 2023-08-26T14:42:46.176Z
 shareable: true
 content:
   - tag: title
@@ -39,6 +39,7 @@ content:
       - 下载完成后，需要同意用户协议、登录账号并绑定手机。
 
   - tag: ol
+    heading: 洗衣步骤
     text:
       - 准备好衣物和洗涤剂 (也可使用洗衣机自带的洗涤剂)
       - 打开 “U净” App 选择 “扫一扫”，扫描机身二维码
