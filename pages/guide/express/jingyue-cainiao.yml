@@ -2,7 +2,7 @@ title: 净月菜鸟驿站
 desc: 照片来自王慕梓
 author:
   - Mr.Hope
-time: 2023-07-16T11:41:46.961Z
+time: 2023-08-26T07:56:22.572Z
 shareable: true
 content:
   - tag: title
@@ -40,29 +40,29 @@ content:
       # - 驿站外侧有两个固定的帐篷作为临时取件点，俗称“红色帐篷”和“橙色帐篷”。
 
   - tag: img
-    src: $img/express/jingyue-cainiao.jpg
+    src: $img/express/jingyue/cainiao.jpg
     desc: 正门
     watermark: true
 
   - tag: img
-    src: $img/express/jingyue-cainiao1.jpg
+    src: $img/express/jingyue/cainiao1.jpg
     watermark: true
 
   - tag: img
-    src: $img/express/jingyue-cainiao2.jpg
+    src: $img/express/jingyue/cainiao2.jpg
     watermark: true
 
   - tag: img
-    src: $img/express/jingyue-cainiao3.jpg
+    src: $img/express/jingyue/cainiao3.jpg
     desc: 自助取件处
     watermark: true
 
   - tag: img
-    src: $img/express/jingyue-cainiao4.jpg
+    src: $img/express/jingyue/cainiao4.jpg
     watermark: true
 
   - tag: img
-    src: $img/express/jingyue-cainiao5.jpg
+    src: $img/express/jingyue/cainiao5.jpg
     watermark: true
 
   - tag: title

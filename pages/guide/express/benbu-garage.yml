@@ -2,7 +2,7 @@ title: 本部地下车库
 author:
   - Mr.Hope
   - 战俊华
-time: 2023-08-25T16:30:08.610Z
+time: 2023-08-26T07:56:22.560Z
 shareable: true
 content:
   - tag: title
@@ -30,12 +30,33 @@ content:
     heading: 开放时间
     text: 8:30 - 21:30
 
+  - tag: img
+    src: $img/express/benbu/garage-map.jpg
+    desc: 地下车库分布
+
   - tag: title
     text: 环境介绍
 
   - tag: img
-    src: $img/express/benbu/garage.jpg
-    desc: 地下车库取件点内景
+    src: $img/express/benbu/garage1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/garage2.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/garage3.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/garage4.jpg
+    desc: 大件行李
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/garage5.jpg
+    desc: 大件行李
     watermark: true
 
   - tag: img

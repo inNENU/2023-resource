@@ -1,14 +1,26 @@
-title: 净月洗衣机使用说明
+title: 净月洗衣房/洗衣机
 author: Mr.Hope
-time: 2023-08-25T15:33:49.530Z
+time: 2023-08-26T07:56:22.445Z
 shareable: true
 content:
+  - tag: title
+    text: 简介
+
+  - tag: p
+    heading: 洗衣机
+    text: 净月洗衣机采用滚动智能化洗衣机，拥有很多功能。每个楼层都有 1 - 2 个洗衣机。
+
+  - tag: p
+    heading: 洗衣房
+    text:
+      - 净月大部分寝室一楼有洗衣房，洗衣房拥有大量洗衣机外，还会拥有免费甩干机等功能。
+
+  - tag: title
+    text: 洗衣机
+
   - tag: img
     src: $img/dorm/jingyue-washer.jpg
     watermark: true
-
-  - tag: title
-    text: 洗涤方式
 
   - tag: ol
     text:
@@ -45,3 +57,10 @@ content:
   - tag: img
     src: $img/dorm/jingyue-washer3.jpg
     watermark: true
+
+  - tag: title
+    text: 甩干机
+
+  - tag: text
+    text:
+      - 部分寝室的洗衣房设有免费的甩干机。
