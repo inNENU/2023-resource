@@ -12,12 +12,15 @@ content:
 
   - tag: text
     text:
-      - 位于三舍 C 和三舍 B 中间地带。
-      - 快递柜共三个，从左至右依次为 1、2、3 号柜。
+      - 快递柜共六个，位于三舍 C 和三舍 B 中间地带。
+      - 里侧那一列是 1、2、3 号柜，外侧是 7、8、9 号柜，柜角有明显的标识。
 
   - tag: img
-    src: $img/express/benbu/cabinet.jpg
-    desc: 快递柜
+    src: $img/express/benbu/cabinet1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/express/benbu/cabinet2.jpg
     watermark: true
 
   - tag: title

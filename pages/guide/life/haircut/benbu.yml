@@ -1,7 +1,7 @@
 title: 本部理发
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-08-25T18:21:22.559Z
+time: 2023-08-26T03:00:41.508Z
 shareable: true
 content:
   - tag: title
@@ -10,7 +10,7 @@ content:
   - tag: ul
     text:
       - |-
-        北苑理发店: 北苑地下一楼东南角
+        艺美 MT 造型: 北苑地下一楼东南角
 
   - tag: location
     title: 本部理发店
@@ -30,7 +30,7 @@ content:
     heading: 艺美 MT 造型
 
   - tag: img
-    src: $img/life/beiyuan/haircut.jpg
+    src: $img/life/beiyuan/yimei.jpg
     watermark: true
 
   - tag: title

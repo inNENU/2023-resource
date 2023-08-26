@@ -1,6 +1,6 @@
 title: DET
 author: Mr.Hope
-time: 2023-08-20T18:02:34.162Z
+time: 2023-08-26T03:00:41.024Z
 shareable: true
 content:
   - tag: text
@@ -24,12 +24,12 @@ content:
   # TODO: Update at 2023-09
   - tag: text
     type: info
-    heading: 2022 年秋季开学 DET 考试时间
+    heading: 2023 年秋季开学 DET 考试时间
     text:
       - |-
-        新生: 9 月 10 日 9:00 - 11:20
+        新生: 9 月 9 日 9:00 - 11:20
       - |-
-        其他年级: 9 月 12 日 14:00 - 16:40
+        其他年级: 暂无通知
 
   - tag: ol
     type: info

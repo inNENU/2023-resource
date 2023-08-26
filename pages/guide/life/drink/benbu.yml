@@ -1,7 +1,7 @@
 title: 本部饮品店
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-08-25T18:21:22.539Z
+time: 2023-08-26T03:00:41.490Z
 shareable: true
 content:
   - tag: title
@@ -56,13 +56,6 @@ content:
         detail: 南苑一楼
 
   - tag: text
-    heading: 亓嘉咖啡
-
-  - tag: img
-    src: $img/life/benbu/qijia.jpg
-    watermark: true
-
-  - tag: text
     heading: 蜜雪冰城
 
   - tag: img
@@ -84,13 +77,11 @@ content:
     watermark: true
 
   - tag: text
-    heading: 木子鐡饮品店
+    heading: 亓嘉咖啡
 
   - tag: img
-    src: $img/life/beiyuan/muzitie.jpg
+    src: $img/life/benbu/qijia.jpg
     watermark: true
-
-  # TODO: Add 价目表
 
   - tag: text
     heading: 贡茶
@@ -101,6 +92,18 @@ content:
     watermark: true
 
   # TODO: Add 价目表
+
+  - tag: text
+    heading: 木子鐡饮品店
+
+  - tag: img
+    src: $img/life/beiyuan/muzitie.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/life/beiyuan/muzitie-price.jpg
+    desc: 价目表
+    watermark: true
 
   - tag: title
     text: 校外店铺

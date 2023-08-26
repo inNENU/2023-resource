@@ -1,6 +1,6 @@
 title: 课程
 author: Mr.Hope
-time: 2023-08-11T16:33:18.636Z
+time: 2023-08-26T03:00:41.008Z
 grey: true
 shareable: true
 content:
@@ -87,6 +87,6 @@ content:
   - tag: list
     header: false
     items:
-      - text: 研究生的公共课只有英语和政治。
-
-      - text: 专业课程及要求详询培养单位教务秘书。
+      - text: |-
+          研究生的公共课只有英语和政治。
+          专业课程及要求详询培养单位教务秘书。
