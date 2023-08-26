@@ -20,12 +20,6 @@ main-presets:
           icon: check
           path: newcomer/check/
 
-        - text: 新生入学教育
-          color: blue
-          name: Edu Course
-          icon: study
-          path: newcomer/yiban/
-
         - text: 企业号认证
           color: blue
           name: Wechat
@@ -38,11 +32,29 @@ main-presets:
           icon: qq-group
           path: newcomer/contact/
 
-        - text: 新生攻略视频
-          color: red
-          name: Video
-          icon: media
-          path: newcomer/video
+        - text: 快递
+          color: mauve
+          name: Express
+          icon: express
+          path: guide/express/
+
+        - text: 生活必需品
+          color: olive
+          name: Necessity
+          icon: necessity
+          path: newcomer/necessity/
+
+        - text: 入学活动
+          color: purple
+          name: Activity
+          icon: activity
+          path: newcomer/activity/
+
+        - text: 超市
+          color: olive
+          name: Shop
+          icon: shop
+          path: guide/shop/
 
         - text: 寝室
           color: blue
@@ -68,41 +80,41 @@ main-presets:
           icon: life
           path: guide/life/
 
-        - text: 专业介绍
-          color: olive
-          name: Major
-          icon: about
-          path: school/major
+        # - text: 专业介绍
+        #   color: olive
+        #   name: Major
+        #   icon: about
+        #   path: school/major
 
-        - text: 转专业
-          color: red
-          name: Change Major
-          icon: change
-          path: guide/change-major/
+        # - text: 转专业
+        #   color: red
+        #   name: Change Major
+        #   icon: change
+        #   path: guide/change-major/
 
-        - text: 师范生
-          color: purple
-          name: Normal
-          icon: teacher
-          path: guide/normal/
+        # - text: 师范生
+        #   color: purple
+        #   name: Normal
+        #   icon: teacher
+        #   path: guide/normal/
 
-        - text: 课程
-          color: orange
-          name: Course
-          icon: content
-          path: guide/course/
+        # - text: 课程
+        #   color: orange
+        #   name: Course
+        #   icon: content
+        #   path: guide/course/
 
-        - text: 学习
-          color: mauve
-          name: Study
-          icon: study
-          path: guide/study/
+        # - text: 学习
+        #   color: mauve
+        #   name: Study
+        #   icon: study
+        #   path: guide/study/
 
-        - text: 校历
-          color: mauve
-          name: Calendar
-          icon: calendar
-          url: calendar
+        # - text: 校历
+        #   color: mauve
+        #   name: Calendar
+        #   icon: calendar
+        #   url: calendar
 
         # - text: 常见问题
         #   color: cyan
