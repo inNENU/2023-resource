@@ -1,6 +1,6 @@
 title: 净月生活
 author: Mr.Hope
-time: 2023-07-16T11:41:47.104Z
+time: 2023-08-26T12:16:24.933Z
 shareable: true
 content:
   - tag: text
@@ -83,6 +83,12 @@ content:
         color: olive
         icon: digital
         path: digital/jingyue
+
+      - text: 书店
+        name: Book
+        color: grey
+        icon: bookshelf
+        path: book/jingyue
 
       - text: 营业厅
         name: SIM

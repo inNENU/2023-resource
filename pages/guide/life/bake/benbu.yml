@@ -1,6 +1,6 @@
 title: 本部烘焙坊
 author: Mr.Hope
-time: 2023-08-25T18:21:22.530Z
+time: 2023-08-26T12:16:24.940Z
 shareable: true
 content:
   - tag: title
@@ -14,8 +14,8 @@ content:
   - tag: location
     title: 本部烘焙坊
     points:
-      - latitude: 43.862917
-        longitude: 125.332566
+      - latitude: 43.862932
+        longitude: 125.332507
         name: 多巴胺甜品烘焙
         detail: 北苑地下一楼西北角
 

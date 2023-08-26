@@ -1,7 +1,6 @@
 title: 净月临时售卖点
-desc: 特别鸣谢马彦伯提供照片
 author: Mr.Hope
-time: 2023-07-16T11:41:47.526Z
+time: 2023-08-26T12:16:25.271Z
 shareable: true
 content:
   - tag: title
@@ -17,4 +16,24 @@ content:
 
   - tag: img
     src: $img/shop/jingyue-temp2.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/shop/jingyue-temp3.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/shop/jingyue-temp4.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/shop/jingyue-temp5.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/shop/jingyue-temp6.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/shop/jingyue-temp7.jpg
     watermark: true

@@ -1,7 +1,7 @@
 title: 本部饮品店
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-08-26T03:00:41.490Z
+time: 2023-08-26T12:16:24.965Z
 shareable: true
 content:
   - tag: title
@@ -35,18 +35,18 @@ content:
         name: 木子鐡饮品店
         detail: 北苑一楼
 
-      - latitude: 43.862733
-        longitude: 125.332707
-        name: 蜜雪冰城
-        detail: 北苑地下一楼西南角
-
-      - latitude: 43.862864
-        longitude: 125.332545
+      - latitude: 43.862849
+        longitude: 125.332504
         name: 星巴克
         detail: 北苑地下一楼西北角
 
-      - latitude: 43.862884
-        longitude: 125.332836
+      - latitude: 43.862723
+        longitude: 125.332519
+        name: 蜜雪冰城
+        detail: 北苑地下一楼西南角
+
+      - latitude: 43.86296
+        longitude: 125.332922
         name: 瑞幸咖啡
         detail: 北苑地下一楼北侧书店内
 

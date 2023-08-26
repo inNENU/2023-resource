@@ -1,7 +1,7 @@
 title: 本部水果店
 desc: 感谢晴子提供照片
 author: Mr.Hope
-time: 2023-08-25T18:21:22.548Z
+time: 2023-08-26T12:16:24.976Z
 shareable: true
 content:
   - tag: title
@@ -29,8 +29,8 @@ content:
         name: 精品水果捞
         detail: 北苑地下一楼西南角
 
-      - latitude: 43.862592
-        longitude: 125.33717
+      - latitude: 43.86256
+        longitude: 125.33705
         name: 心随果动
         detail: 浴池正门左侧
 

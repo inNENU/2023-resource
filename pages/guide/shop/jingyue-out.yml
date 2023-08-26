@@ -1,16 +1,32 @@
 title: 净月校外超市
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-08-26T12:16:25.267Z
 shareable: true
 content:
+  - tag: location
+    title: 校外超市
+    points:
+      - latitude: 43.820977
+        longitude: 125.418449
+        detail: 沃尔玛
+
+      - latitude: 43.825306
+        longitude: 125.417298
+        detail: 新天地 (博硕路店)
+
+  - tag: title
+    text: 新天地
+
+  - tag: text
+    text:
+      - 位于后街，离学校比较近。
+      - 步行即可，附近还有水果店。
+
   - tag: title
     text: 沃尔玛
 
   - tag: text
     text: 位于迅驰广场地下一楼
-
-  - tag: title
-    text: 出行方式
 
   - tag: text
     heading: 步行

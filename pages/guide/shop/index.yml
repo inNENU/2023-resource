@@ -1,6 +1,6 @@
 title: 超市
 author: Mr.Hope
-time: 2023-08-26T01:32:16.650Z
+time: 2023-08-26T12:16:25.261Z
 shareable: true
 content:
   - tag: list
@@ -54,14 +54,11 @@ content:
       - text: 二食堂生活区
         path: /guide/life/dining2-district
 
+      - text: 水之源超市
+        path: shuizhiyuan
+
       - text: 净月临时售卖点
         path: jingyue-temp
-
-  - tag: text
-    type: info
-    heading: 水之源超市
-    text:
-      - 学生浴池旁边有一家水之源超市，价格为普通零售价，性质类似于小区食杂店。主要售卖大众食品饮料以及常用生活用品等，东西不全。
 
   - tag: text
     heading: 校外超市

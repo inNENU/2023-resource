@@ -337,6 +337,10 @@ facility:
       detail: 北苑大厅东南角
       path: atm
 
+    - latitude: 43.861814
+      longitude: 125.328197
+      name: 图书馆电子阅览室
+
 sports:
   name: 运动场地
   content:
@@ -397,30 +401,90 @@ sports:
 store:
   name: 店铺
   content:
-    - latitude: 43.862917
-      longitude: 125.332566
+    - latitude: 43.862959
+      longitude: 125.332947
+      name: 樂读书庄
+      detail: 北苑地下一楼北侧
+
+    - latitude: 43.86296
+      longitude: 125.332922
+      name: 瑞幸咖啡
+      detail: 北苑地下一楼北侧书店内
+
+    - latitude: 43.862932
+      longitude: 125.332507
       name: 多巴胺甜品烘焙
       detail: 北苑地下一楼西北角
 
-    - latitude: 43.862932
-      longitude: 125.332583
+    - latitude: 43.862922
+      longitude: 125.332618
       name: 喜宝美甲美睫皮肤管理
       detail: 北苑地下一楼西北角
 
-    - latitude: 43.862864
-      longitude: 125.332545
+    - latitude: 43.862849
+      longitude: 125.332504
       name: 星巴克
       detail: 北苑地下一楼西北角
 
-    - latitude: 43.862733
-      longitude: 125.332707
+    - latitude: 43.862723
+      longitude: 125.332519
       name: 蜜雪冰城
       detail: 北苑地下一楼西南角
 
-    - latitude: 43.86267
-      longitude: 125.332541
+    - latitude: 43.862662
+      longitude: 125.332519
       name: 精品水果捞
       detail: 北苑地下一楼西南角
+
+    - latitude: 43.862582
+      longitude: 125.332711
+      name: 杂货店
+      detail: 北苑地下一楼西南角
+
+    - latitude: 43.862579
+      longitude: 125.332761
+      name: 中国移动营业厅
+      detail: 北苑地下一楼南侧
+
+    - latitude: 43.862579
+      longitude: 125.332811
+      name: 北苑复印店
+      detail: 北苑地下一楼南侧
+
+    - latitude: 43.862579
+      longitude: 125.332861
+      name: 电信营业厅
+      detail: 北苑地下一楼南侧
+
+    - latitude: 43.862579
+      longitude: 125.332911
+      name: 北苑洗衣店
+      detail: 北苑地下一楼南侧
+
+    - latitude: 43.862579
+      longitude: 125.332961
+      name: 云印空间
+      detail: 北苑地下一楼东南角
+
+    - latitude: 43.862579
+      longitude: 125.333011
+      name: 艺美 MT 造型
+      detail: 北苑地下一楼东南角
+
+    - latitude: 43.86268
+      longitude: 125.333011
+      name: 葱蜂鲜果
+      detail: 北苑地下一楼东南角
+
+    - latitude: 43.86268
+      longitude: 125.333011
+      name: 刘浏美味小屋
+      detail: 北苑地下一楼东南角
+
+    - latitude: 43.862757
+      longitude: 125.333011
+      name: 小姑娘冰激凌
+      detail: 北苑地下一楼东侧
 
     - latitude: 43.863625
       longitude: 125.337262
@@ -442,36 +506,6 @@ store:
       name: 贡茶
       detail: 南苑一楼
 
-    - latitude: 43.8627
-      longitude: 125.332943
-      name: 葱蜂鲜果
-      detail: 北苑地下一楼东南角
-
-    - latitude: 43.862592
-      longitude: 125.33717
-      name: 心随果动
-      detail: 浴池正门左侧
-
-    - latitude: 43.862525
-      longitude: 125.337083
-      name: 镜舍
-      detail: 浴池正门里右转
-
-    - latitude: 43.862628
-      longitude: 125.333041
-      name: 艺美 MT 造型
-      detail: 北苑地下一楼东南角
-
-    - latitude: 43.862399
-      longitude: 125.337065
-      name: 好又快图文店
-      detail: 浴池正门右侧
-
-    - latitude: 43.862576
-      longitude: 125.332823
-      name: 北苑复印店
-      detail: 北苑地下一楼南侧
-
     - latitude: 43.860107
       longitude: 125.333552
       name: 南苑复印店
@@ -481,15 +515,6 @@ store:
       longitude: 125.328177
       name: 春辉图文
       detail: 图书馆一楼右侧
-
-    - latitude: 43.861814
-      longitude: 125.328197
-      name: 图书馆电子阅览室
-
-    - latitude: 43.862562
-      longitude: 125.332911
-      name: 北苑洗衣店
-      detail: 北苑地下一楼南侧
 
 scenery:
   name: 风景
