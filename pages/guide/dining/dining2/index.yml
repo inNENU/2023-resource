@@ -2,7 +2,7 @@ title: 二食堂
 desc: |-
   概况部分来自东北师范大学后勤保障部官网
 author: Mr.Hope
-time: 2023-08-24T07:02:45.505Z
+time: 2023-08-26T13:34:50.660Z
 grey: true
 shareable: true
 content:
@@ -42,7 +42,7 @@ content:
   - tag: list
     header: 特色档口
     items:
-      - text: 主要位于三楼。一楼有一家“亿亩良田”。
+      - text: 主要位于三楼。
 
       - text: 了解更多
         path: special/

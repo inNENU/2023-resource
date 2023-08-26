@@ -1,7 +1,7 @@
 title: 净月理发/美甲
 desc: 特别鸣谢小艺学长提供部分照片
 author: Mr.Hope
-time: 2023-08-26T12:16:24.992Z
+time: 2023-08-26T13:34:50.842Z
 shareable: true
 content:
   - tag: title
@@ -17,8 +17,8 @@ content:
   - tag: location
     title: 净月理发店
     points:
-      - latitude: 43.825329
-        longitude: 125.425003
+      - latitude: 43.825315
+        longitude: 125.425077
         name: 秀发型
         detail: 二食堂超市入口对面
 

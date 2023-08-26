@@ -295,20 +295,80 @@ scenery:
 store:
   name: 店铺
   content:
-    - latitude: 43.825126
-      longitude: 125.424799
+    - latitude: 43.825096
+      longitude: 125.424736
+      name: 瑞幸咖啡
+      detail: 二食堂菜鸟驿站旁
+
+    - latitude: 43.825081
+      longitude: 125.424734
+      name: 库迪咖啡
+      detail: 二食堂一楼东南侧
+
+    - latitude: 43.825095
+      longitude: 125.424778
+      name: 樂读书庄
+      detail: 二食堂一楼东南侧
+
+    - latitude: 43.825233
+      longitude: 125.425021
+      name: 酷乐冰城
+      detail: 二食堂超市对面
+
+    - latitude: 43.825215
+      longitude: 125.424984
+      name: 甜啦啦
+      detail: 二食堂书店内
+
+    - latitude: 43.82519
+      longitude: 125.424899
+      name: 学子图文复印店
+      detail: 二食堂超市对面
+
+    - latitude: 43.825162
+      longitude: 125.424811
+      name: 晨光文具
+      detail: 二食堂超市对面
+
+    - latitude: 43.825145
+      longitude: 125.424724
       name: 宏城烘焙坊
       detail: 二食堂一楼
 
-    - latitude: 43.825193
-      longitude: 125.424987
-      name: 品胜手机电脑
+    - latitude: 43.825145
+      longitude: 125.424724
+      name: 运福铺子 (干果店)
       detail: 二食堂一楼
 
-    - latitude: 43.825086
-      longitude: 125.424744
-      name: 中国移动+数码产品维修
-      detail: 二食堂菜鸟驿站旁
+    - latitude: 43.825187
+      longitude: 125.424836
+      name: 中国移动 品胜电子产品维修
+      detail: 二食堂一楼
+
+    - latitude: 43.825213
+      longitude: 125.424919
+      name: 新起点百货
+      detail: 二食堂一楼
+
+    - latitude: 43.825236
+      longitude: 125.424988
+      name: 正大茄子饭
+      detail: 二食堂一楼
+
+    - latitude: 43.825252
+      longitude: 125.425045
+      name: 缤果屋
+      detail: 二食堂一楼 (超市入口附近)
+
+    - latitude: 43.825315
+      longitude: 125.425077
+      name: 秀发型
+      detail: 二食堂超市入口对面
+
+    - latitude: 43.825284
+      longitude: 125.425104
+      name: 米多の店
+      detail: 二食堂超市入口对面
 
     - latitude: 43.827024
       longitude: 125.423912
@@ -320,30 +380,10 @@ store:
       name: 鲜榨果汁
       detail: 一食堂二楼
 
-    - latitude: 43.82526
-      longitude: 125.424994
-      name: 酷乐冰城
-      detail: 二食堂超市对面
-
-    - latitude: 43.825158
-      longitude: 125.424935
-      name: 甜啦啦
-      detail: 二食堂书店内
-
-    - latitude: 43.82505
-      longitude: 125.424809
-      name: 瑞幸咖啡
-      detail: 二食堂菜鸟驿站旁
-
     - latitude: 43.825531
       longitude: 125.424621
       name: 菓碰茶
       detail: 二食堂三楼西北侧
-
-    - latitude: 43.826192
-      longitude: 125.420708
-      name: 黑泷堂
-      detail: 学生浴池门口左侧
 
     - latitude: 43.826196
       longitude: 125.421112
@@ -355,11 +395,6 @@ store:
       name: 天猫校园鲜果小铺
       detail: 浴池正门左侧
 
-    - latitude: 43.825238
-      longitude: 125.425001
-      name: 缤果屋
-      detail: 二食堂一楼 (超市入口附近)
-
     - latitude: 43.825084
       longitude: 125.42468
       name: 平价水果超市
@@ -370,19 +405,10 @@ store:
       name: Sandwich
       detail: 一食堂二楼售餐亭
 
-    - latitude: 43.825329
-      longitude: 125.425003
-      name: 秀发型
-      detail: 二食堂超市入口对面
-
     - latitude: 43.826169
       longitude: 125.420948
       name: DL 发型设计
       detail: 学生浴池正门右侧
-
-    - latitude: 43.82521
-      longitude: 125.42487
-      name: 学子图文复印店
 
     - latitude: 43.826056
       longitude: 125.420767

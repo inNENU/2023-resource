@@ -1,6 +1,6 @@
 title: 本科教学服务系统介绍
 author: Mr.Hope
-time: 2023-07-28T17:01:04.152Z
+time: 2023-08-26T13:34:50.994Z
 shareable: true
 content:
   - tag: title
@@ -48,19 +48,11 @@ content:
     path: /guide/tip/ie/
 
   - tag: title
-    text: 登录方式
+    text: 用户名与密码
 
   - tag: text
-    type: info
-    heading: 用户名
     text:
-      - 用户名为校园邮箱的用户名 (不带后缀)
-
-  - tag: text
-    type: info
-    heading: 密码
-    text:
-      - 所有学生密码均为统一身份认证密码，非校园邮箱密码
+      - 用户名为学号，所有学生密码均为统一身份认证密码。
 
   - tag: text
     type: info

@@ -44,7 +44,7 @@ content:
   - tag: list
     header: 特色档口
     items:
-      - text: 主要位于三楼。一楼有一家“亿亩良田”。
+      - text: 主要位于三楼。
 
       - text: 了解更多
         path: /guide/dining/dining2/special/

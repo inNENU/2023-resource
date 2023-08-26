@@ -1,6 +1,6 @@
 title: 本部烘焙坊
 author: Mr.Hope
-time: 2023-08-26T12:16:24.940Z
+time: 2023-08-26T13:34:50.820Z
 shareable: true
 content:
   - tag: title
@@ -27,6 +27,14 @@ content:
   - tag: title
     text: 校外店铺
 
+  - tag: location
+    title: 校外蛋糕店
+    points:
+      - latitude: 43.860055
+        longitude: 125.341138
+        name: 点典面包房
+        detail: 文昌路东侧
+
   - tag: text
     text:
-      - 文昌路上有一家蛋糕店
+      - 文昌路上有一家点典面包房。
