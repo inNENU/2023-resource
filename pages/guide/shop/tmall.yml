@@ -4,7 +4,7 @@ desc: |-
 author:
   - Mr.Hope
   - 晴子
-time: 2023-07-16T11:41:47.537Z
+time: 2023-08-26T01:32:16.670Z
 shareable: true
 content:
   - tag: text
@@ -109,10 +109,17 @@ content:
 
   - tag: img
     src: $img/shop/tmall/newcomer1.jpg
-    desc: 被褥
     watermark: true
 
   - tag: img
     src: $img/shop/tmall/newcomer2.jpg
-    desc: 盆
+    watermark: true
+
+  - tag: img
+    src: $img/shop/tmall/newcomer3.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/shop/tmall/newcomer-price.jpg
+    desc: 价格
     watermark: true

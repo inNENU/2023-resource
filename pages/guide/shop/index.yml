@@ -1,6 +1,6 @@
 title: 超市
 author: Mr.Hope
-time: 2023-08-25T18:21:22.844Z
+time: 2023-08-26T01:32:16.650Z
 shareable: true
 content:
   - tag: list
@@ -24,19 +24,11 @@ content:
       - text: 北苑生活区介绍
         path: /guide/life/beiyuan-district
 
-  - tag: text
-    heading: 临时购买点
-    text:
-      - 报到期间，本部天猫超市外转角处会有临时售卖点。
+      - text: 临时购买点
+        path: benbu-temp
 
-  - tag: img
-    src: $img/shop/benbu-temp.jpg
-    desc: 位于天猫超市西北角
-
-  - tag: text
-    type: info
-    heading: 南苑超市
-    text: 南苑 1F 也有一个私人开的超市，价格为普通零售价，性质类似于小区食杂店。主要售卖大众食品饮料以及常用生活用品等，东西不全。
+      - text: 南苑超市
+        path: nanyuan
 
   - tag: text
     heading: 校外超市
