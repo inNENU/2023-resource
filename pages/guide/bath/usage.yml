@@ -1,6 +1,6 @@
 title: 洗浴方式
 author: Mr.Hope
-time: 2023-08-27T08:53:11.978Z
+time: 2023-08-27T18:07:49.827Z
 shareable: true
 content:
   - tag: title
@@ -26,7 +26,7 @@ content:
     text: 点击生成密码并牢记
 
   - tag: img
-    src: $img/bath/generate-password.jpg.jpg
+    src: $img/bath/generate-password.jpg
     desc: 生成密码
     watermark: true
 
