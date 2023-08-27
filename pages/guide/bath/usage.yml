@@ -1,6 +1,6 @@
 title: 洗浴方式
 author: Mr.Hope
-time: 2023-07-16T11:41:46.480Z
+time: 2023-08-27T08:53:11.978Z
 shareable: true
 content:
   - tag: title
@@ -12,7 +12,7 @@ content:
       - 终端最简单的使用方式是通过密码，推荐同学们设置。
 
   - tag: title
-    text: 设置密码
+    text: 设置洗浴密码 (每次洗浴之前)
 
   - tag: text
     text: 点击公众号内“密码账户”菜单并选择自己的校区
@@ -23,26 +23,29 @@ content:
     watermark: true
 
   - tag: text
-    text: 之后设置自己的 4 位密码 (按照要求不可连号或者重复)
+    text: 点击生成密码并牢记
 
   - tag: img
-    src: $img/bath/password-set.jpg
-    desc: 设置密码
+    src: $img/bath/generate-password.jpg.jpg
+    desc: 生成密码
+    watermark: true
+
+  - tag: img
+    src: $img/bath/password-view.jpg
+    desc: 查看密码并妥善牢记
     watermark: true
 
   - tag: text
-    type: danger
-    heading: 风险
+    type: warning
     text:
-      - 由于学校人数众多，不排除会有一人或数人跟您具有相同手机尾号的情况。如果您设置密码时产生了错误提示，很有可能是其他相同尾号的人设置了这个密码。
-      - 另外四位密码的加密安全性也略差一些，一旦别人猜中，即可使用您的账户进行洗浴 (浴池显然没摄像头)。
-      - 所以如果您担忧自己的账户被盗刷，请不要向浴池钱包一次性充值太多金额。
+      - 密码需要牢记，如果忘记，请重新生成。
+      - 每天只有三次生成机会。
 
   - tag: title
     text: 使用终端
 
   - tag: text
-    text: 如果您已经按照上述步骤设置密码，您只需输入设置好的八位账户按确认键即可开始洗浴。
+    text: 如果您已经按照上述步骤设置好本次消费密码密码，您只需输入设置好的密码按确认键即可开始洗浴。
 
   - tag: img
     src: $img/bath/shell.jpg
@@ -61,3 +64,10 @@ content:
     text:
       - 在终端机上方位置从左到右滑 (其实就是先按左按钮很短时间再按右按钮) 是控制启停操作。进行该操作时会切换出水状态，您可以在洗头、擦身体乳的时候使用该操作暂停出水避免持续扣费，并之后重复此操作继续出水。
       - 从右向左划是结束洗浴，即账户下线。
+
+  - tag: text
+    type: warning
+    heading: 结束洗浴
+    text:
+      - 结束洗浴即完成本次消费。这意味着你需要重新扫码或者生成新的消费密码输入以再次使用。
+      - 建议确定使用完笼头要离开的时候再下线。
