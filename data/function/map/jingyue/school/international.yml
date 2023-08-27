@@ -1,0 +1,19 @@
+title: 国际汉学院
+grey: true
+author: Mr.Hope
+time: 2023-07-25T17:11:24.502Z
+shareable: true
+content:
+  - tag: list
+    items:
+      - text: 学院简介
+        icon: about
+        path: /school/international/intro
+
+      - text: 专业介绍
+        icon: intro
+        path: /school/international/enroll
+
+  - tag: action
+    header: 官网地址
+    content: https://scs.nenu.edu.cn/
