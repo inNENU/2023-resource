@@ -13,6 +13,7 @@ import { type Donate, genDonate } from "./donate.js";
 import { genEnrollPlan } from "./enroll-plan.js";
 import { genHistoryResult } from "./history-grade.js";
 import { genIcon } from "./icon.js";
+import { generateLicense } from "./license.js";
 import { genLyric } from "./lyric.js";
 import { resolveLocationPage } from "./map.js";
 import { type MarkerOption, resolveMarker } from "./marker.js";
@@ -98,12 +99,12 @@ convertYml2Json("./pages/other/guide", "./d/other/guide", (data, filePath) =>
 
 // 生成 tab 页
 convertYml2Json("./config", "./d/config", (data, filePath) =>
-  // FIXME: FIXME
-  /(function|guide|intro|main|user)/u.exec(filePath) &&
-  !filePath.includes("6.0.0")
+  /(function|guide|intro|main|user)/u.exec(filePath)
     ? resolvePage(data as PageConfig, filePath)
     : (data as unknown),
 );
+
+await generateLicense();
 
 // 生成资源
 generateResource();

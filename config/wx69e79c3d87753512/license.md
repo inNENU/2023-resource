@@ -1,4 +1,5 @@
 ---
+title: in东师 App 用户协议
 version: 1
 ---
 
