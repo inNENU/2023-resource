@@ -1,6 +1,6 @@
 title: 缴费相关
 author: Mr.Hope
-time: 2023-07-07T18:58:13.469Z
+time: 2023-08-28T03:33:50.657Z
 cite:
   - https://publish.nenu.edu.cn/info/1068/2632.htm
   - https://publish.nenu.edu.cn/info/1068/2634.htm
@@ -9,6 +9,11 @@ content:
   - tag: text
     type: danger
     text: 报到时不需交学费和住宿费。请大家警惕谨防被骗!!!!
+
+  - tag: text
+    heading: 2023 年缴费时间
+    text:
+      - 2023年9月4日起。
 
   - tag: title
     text: 学费标准
