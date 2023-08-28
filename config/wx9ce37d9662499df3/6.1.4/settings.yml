@@ -8,17 +8,17 @@ main-presets:
     - tag: grid
       header: 您可能想关注
       items:
-        - text: 账号激活
+        - text: 到校路线
           color: grey
-          name: Activate
-          icon: authorize
-          url: activate
+          name: Arrival
+          icon: locate
+          path: newcomer/arrival/
 
-        - text: 新生入学教育
-          color: blue
-          name: Edu Course
-          icon: study
-          path: newcomer/yiban/
+        - text: 新生报到
+          color: orange
+          name: Check
+          icon: check
+          path: newcomer/check/
 
         - text: 企业号认证
           color: blue
@@ -32,11 +32,29 @@ main-presets:
           icon: qq-group
           path: newcomer/contact/
 
-        - text: 新生攻略视频
-          color: red
-          name: Video
-          icon: media
-          path: newcomer/video
+        - text: 快递
+          color: mauve
+          name: Express
+          icon: express
+          path: guide/express/
+
+        - text: 生活必需品
+          color: olive
+          name: Necessity
+          icon: necessity
+          path: newcomer/necessity/
+
+        - text: 入学活动
+          color: purple
+          name: Activity
+          icon: activity
+          path: newcomer/activity/
+
+        - text: 超市
+          color: olive
+          name: Shop
+          icon: shop
+          path: guide/shop/
 
         - text: 寝室
           color: blue
@@ -62,47 +80,30 @@ main-presets:
           icon: life
           path: guide/life/
 
-        - text: 专业介绍
+        - text: 大学介绍
           color: olive
-          name: Major
+          name: Intro
           icon: about
-          path: school/major
+          post: null
+          path: newcomer/intro/
 
-        - text: 转专业
+        - text: 校园卡
           color: red
-          name: Change Major
-          icon: change
-          path: guide/change-major/
+          name: Card
+          icon: card
+          path: guide/card/
 
-        - text: 师范生
+        - text: 校园邮箱
+          color: red
+          name: Email
+          icon: email
+          path: guide/account/mail/
+
+        - text: 校园网
           color: purple
-          name: Normal
-          icon: teacher
-          path: guide/normal/
-
-        - text: 课程
-          color: orange
-          name: Course
-          icon: content
-          path: guide/course/
-
-        - text: 学习
-          color: mauve
-          name: Study
-          icon: study
-          path: guide/study/
-
-        - text: 校历
-          color: mauve
-          name: Calendar
-          icon: calendar
-          url: calendar
-
-        # - text: 常见问题
-        #   color: cyan
-        #   name: FAQ
-        #   icon: faq
-        #   path: newcomer/faq/
+          name: Network
+          icon: network
+          path: guide/network/
 
       footer: 更多内容请详见下方其他 Tab 页
 
