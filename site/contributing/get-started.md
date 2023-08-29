@@ -246,7 +246,7 @@ in 东师服务器文件结构如下:
 
 ::: info
 
-关于完整的服务器文件结构，请访问 <https://github.com/Hope-Studio/innenu-res>
+关于完整的服务器文件结构，请访问 <https://github.com/inNENU/resource>
 
 :::
 
@@ -409,7 +409,7 @@ content:
       - text: iOS 邮箱客户端设置
 ```
 
-我们可以添加额外的 `icon` 属性来设置一个美观的图标。当前可用的全部图标请详见 <https://github.com/Hope-Studio/innenu-res/blob/main/data/icon/>。 我们可以直接找到相应图标并设置 `icon` 为文件名 (不带 `.svg` 后缀)。
+我们可以添加额外的 `icon` 属性来设置一个美观的图标。当前可用的全部图标请详见 <https://github.com/inNENU/resource/blob/main/data/icon/>。 我们可以直接找到相应图标并设置 `icon` 为文件名 (不带 `.svg` 后缀)。
 
 ```yml
 title: 账号

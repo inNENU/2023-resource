@@ -4,7 +4,7 @@
 
 > 请注意: 本项目的文本部分，除采集于公共领域(均标注了引用来源)的部份外，其余文本使用[署名-非商业性使用-禁止演绎 4.0 国际许可证](https://creativecommons.org/licenses/by-nc-nd/4.0/)。
 >
-> 本项目的代码部分，使用 [Mr.Hope 1.0 协议](https://github.com/Hope-Studio/innenu-res/blob/master/LICENSE)
+> 本项目的代码部分，使用 [Mr.Hope 1.0 协议](https://github.com/inNENU/resource/blob/main/LICENSE)
 
 ## 项目说明
 

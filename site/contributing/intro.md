@@ -21,7 +21,7 @@ YAML 是专门用来写配置文件的语言，非常简洁和强大，其设计
 
 ::: tip 更多参考
 
-所有的小程序页面都在 <https://github.com/Hope-Studio/innenu-res/blob/main/pages/> 下，您可以尽情的进行参考。
+所有的小程序页面都在 <https://github.com/inNENU/resource/blob/main/pages/> 下，您可以尽情的进行参考。
 
 :::
 
@@ -80,7 +80,7 @@ in 东师服务器文件结构如下:
 
 ::: info
 
-关于完整的服务器文件结构，请访问 <https://github.com/Hope-Studio/innenu-res>
+关于完整的服务器文件结构，请访问 <https://github.com/inNENU/resource>
 
 :::
 

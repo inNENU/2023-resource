@@ -5,7 +5,7 @@
   "description": "inNENU 小程序资源文件",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Hope-Studio/innenu-res.git"
+    "url": "git@github.com:inNENU/resource.git"
   },
   "license": "Mr.Hope LICENSE",
   "author": {
