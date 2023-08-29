@@ -2,7 +2,7 @@ title: 一食堂一楼北侧档口
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2023-07-16T11:41:46.720Z
+time: 2023-08-29T12:58:48.233Z
 shareable: true
 content:
   - tag: title
@@ -16,66 +16,59 @@ content:
     text:
       - 重庆鸡公煲
       - 哈尔滨水饺
-      - 老北京鸡肉卷饼
-      - 绝世皇鸭烧鸭饭
+      - 食全食美
+      - 田蜀记川香味
       - 小锅猪肚鸡
-      - 十全十美
+      - 老北京鸡肉卷饼
       - 盛月轩鸡排饭
-      - 陕西面馆
+      - 吉祥牛肉面/粉
       - 杂粮煎饼
       - 老长沙米粉
+      - 小姑娘冰激凌
 
   - tag: title
     text: 相关菜品与价格
 
   - tag: img
-    src: $img/dining/dining1/1f-detail1.jpg
+    src: $img/dining/dining1/1f-north-detail1.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail2.jpg
+    src: $img/dining/dining1/1f-north-detail2.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail3.jpg
+    src: $img/dining/dining1/1f-north-detail3.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail4.jpg
+    src: $img/dining/dining1/1f-north-detail4.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail4-1.jpg
+    src: $img/dining/dining1/1f-north-detail5.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail4-2.jpg
+    src: $img/dining/dining1/1f-north-detail6.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail5.jpg
+    src: $img/dining/dining1/1f-north-detail7.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail6.jpg
+    src: $img/dining/dining1/1f-north-detail8.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail7.jpg
+    src: $img/dining/dining1/1f-north-detail9.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail8.jpg
+    src: $img/dining/dining1/1f-north-detail10.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/1f-detail9.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/dining/dining1/1f-detail10.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/dining/dining1/1f-detail11.jpg
+    src: $img/dining/dining1/1f-north-detail11.jpg
     watermark: true

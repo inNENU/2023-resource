@@ -1,7 +1,7 @@
 title: 净月饮品店
 desc: 库迪咖啡照片由刘鑫硕拍摄
 author: Mr.Hope
-time: 2023-08-26T13:34:50.831Z
+time: 2023-08-29T12:58:48.491Z
 shareable: true
 content:
   - tag: title
@@ -49,7 +49,7 @@ content:
 
       - latitude: 43.827024
         longitude: 125.423912
-        name: 竖正茶饮
+        name: 獴大咖
         detail: 一食堂一楼
 
       - latitude: 43.826849
@@ -63,19 +63,6 @@ content:
         detail: 二食堂三楼西北侧
 
   - tag: text
-    heading: 竖正茶饮
-
-  - tag: img
-    src: $img/life/jingyue/shuzheng.jpg
-    desc: 竖正茶饮
-    watermark: true
-
-  - tag: img
-    src: $img/life/jingyue/shuzheng-price.jpg
-    desc: 竖正价目表
-    watermark: true
-
-  - tag: text
     heading: 鲜榨果汁
 
   - tag: img
@@ -84,7 +71,7 @@ content:
     watermark: true
 
   - tag: img
-    src: $img/dining/dining1/2f-detail7-1.jpg
+    src: $img/dining/dining1/2f-juice-price.jpg
     desc: 价目表
     watermark: true
 

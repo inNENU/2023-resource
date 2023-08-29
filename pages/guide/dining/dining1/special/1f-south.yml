@@ -2,7 +2,7 @@ title: 一食堂一楼南侧档口
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2023-07-16T11:41:46.723Z
+time: 2023-08-29T12:58:48.235Z
 shareable: true
 content:
   - tag: title
@@ -14,19 +14,25 @@ content:
   - tag: ul
     heading: 从东到西
     text:
-      - 川锦汇麻辣拌
-      - 五谷渔粉
+      - 川锦汇麻辣拌/川香傲冒菜
+      - 五谷渔粉/百味佳米线
       - 小锅焖面板面
+      - 茶香鸡
       - 孙氏杭州小笼包
-      - 小当家民间瓦罐汤
-      - F+肥牛饭
-      - 川天椒麻辣烫
+      - 热卤饭
+      - F+牛肉饭
+      - 爱上麻辣烫
 
   - tag: title
     text: 相关菜品与价格
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail1-1.jpg
+    desc: 川锦汇自选菜区
     watermark: true
 
   - tag: img
@@ -55,4 +61,9 @@ content:
 
   - tag: img
     src: $img/dining/dining1/1f-south-detail8.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/dining/dining1/1f-south-detail8-1.jpg
+    desc: 爱上麻辣烫菜品区
     watermark: true
