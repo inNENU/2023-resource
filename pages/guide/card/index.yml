@@ -1,7 +1,7 @@
 title: 校园卡
 grey: true
 author: Mr.Hope
-time: 2023-07-31T08:50:05.441Z
+time: 2023-08-29T16:28:14.386Z
 shareable: true
 content:
   - tag: text
@@ -44,16 +44,22 @@ content:
         path: terminal
 
   - tag: list
+    header: 校园卡丢失
+    items:
+      - text: 挂失卡片
+        icon: lost
+        path: lost
+
+      - text: 补卡
+        icon: add
+        path: remake
+
+  - tag: list
     header: 其他
     items:
       - text: 常见故障及解决办法
         icon: error
         path: malfunction
-
-      - text: 校园卡丢失
-        desc: 挂失/补卡
-        icon: lost
-        path: lost
 
       - text: 更多业务办理
         desc: 信息化办

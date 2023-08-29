@@ -1,6 +1,6 @@
 title: 新卡使用前准备
 author: Mr.Hope
-time: 2023-07-31T08:50:05.450Z
+time: 2023-08-29T16:28:14.394Z
 shareable: true
 content:
   - tag: text
@@ -42,11 +42,6 @@ content:
   - tag: title
     text: 修改密码
 
-  - tag: img
-    src: $img/card/shell-main.png
-    desc: 自助终端机界面
-    watermark: true
-
   - tag: text
     type: info
     text: 初始密码为身份证号后六位，末尾为 X 用 1 代替。
@@ -55,16 +50,37 @@ content:
     type: tip
     text: 领取新卡后，Mr.Hope 强烈建议您使用自助终端机修改初始密码。
 
+  - tag: img
+    src: $img/card/main.jpg
+    desc: 点击左侧“自助服务”
+    watermark: true
+
+  - tag: img
+    src: $img/card/main.jpg
+    desc: 点击中间的“密码修改”
+    watermark: true
+
+  - tag: img
+    src: $img/card/change-password.jpg
+    desc: 输入旧密码、新密码、按确定即可完成修改密码操作
+    watermark: true
+
+  - tag: text
+    type: note
+    text:
+      - 如忘记密码，请您本人持有效身份证件到信息化办办理重置密码.
+
+  - tag: title
+    text: 激活直饮机
+
+  - tag: p
+    text: 只有您的校园卡激活了直饮机，您才可以刷卡接打饮用水。每一届新生们领到的校园卡直饮机会统一激活，但每届都会有少量卡激活失败，可能需要您重新激活。
+
+  - tag: img
+    src: $img/card/life.jpg
+    desc: 生活缴费界面
+    watermark: true
+
   - tag: p
     heading: 具体步骤
-    text: 请您点击左侧第一项自助服务，再点击第二行二个选项“修改密码”。之后请您在弹出的页面中输入旧密码、新密码、按确定即可完成修改密码操作。(如忘记密码，请您本人持有效身份证件到信息化办办理重置密码)
-
-  - tag: img
-    src: $img/card/shell-service.jpg
-    desc: 自助服务界面
-    watermark: true
-
-  - tag: img
-    src: $img/card/change-password.png
-    desc: 修改密码界面
-    watermark: true
+    text: 请您点击右下角“生活缴费”，再点击最后两项“直饮水激活”和“直饮水纠错”。
