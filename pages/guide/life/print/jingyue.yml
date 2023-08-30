@@ -1,6 +1,6 @@
 title: 净月打印复印
 author: Mr.Hope
-time: 2023-08-26T03:00:41.555Z
+time: 2023-08-30T12:22:07.752Z
 shareable: true
 content:
   - tag: title
@@ -30,7 +30,11 @@ content:
       - 又名师大图文。可以进行复印和打印。一些专业课、考试材料也有售卖。
 
   - tag: img
-    src: $img/life/dining2/jingyue-copy.jpg
+    src: $img/life/dining2/xuezi1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/life/dining2/xuezi2.jpg
     watermark: true
 
   - tag: text

@@ -1,6 +1,6 @@
 title: 净月照相
 author: Mr.Hope
-time: 2023-07-16T11:41:47.213Z
+time: 2023-08-30T12:22:07.731Z
 shareable: true
 content:
   - tag: title
@@ -20,8 +20,11 @@ content:
       - 又名师大图文，可以进行简单的证件照拍照
 
   - tag: img
-    src: $img/life/dining2/jingyue-copy.jpg
-    desc: 师大图文复印店
+    src: $img/life/dining2/xuezi1.jpg
+    watermark: true
+
+  - tag: img
+    src: $img/life/dining2/xuezi2.jpg
     watermark: true
 
   - tag: title
