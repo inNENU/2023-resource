@@ -33,6 +33,12 @@ about:
       icon: enroll
       path: intro/enroll/
 
+    - text: 考研/保研
+      color: blue
+      name: Postgraduate
+      icon: study
+      path: intro/post/
+
 apartment:
   icon: apartment
   name: 学校机构
@@ -612,7 +618,7 @@ study:
       color: red
       name: Postgraduate
       icon: study
-      path: guide/post/
+      path: intro/post/
 
     - text: 优秀毕业生建议
       color: purple

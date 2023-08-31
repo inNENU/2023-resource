@@ -197,7 +197,7 @@ highlights:
 
       - title: 考研/保研
         icon: https://mp.innenu.com/data/icon/study.svg
-        link: ./guide/post/
+        link: ./intro/post/
 
       - title: 优秀毕业生建议
         icon: https://mp.innenu.com/data/icon/idea.svg
@@ -251,6 +251,10 @@ highlights:
       - title: 学生就业
         icon: https://mp.innenu.com/data/icon/job.svg
         link: ./intro/job/
+
+      - title: 考研/保研
+        icon: https://mp.innenu.com/data/icon/study.svg
+        link: ./intro/post/
 
       - title: 资助
         icon: https://mp.innenu.com/data/icon/subsidize.svg

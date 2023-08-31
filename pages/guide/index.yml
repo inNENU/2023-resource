@@ -185,7 +185,7 @@ content:
         color: red
         name: Postgraduate
         icon: study
-        path: post/
+        path: /intro/post/
 
       - text: 优秀毕业生建议
         color: purple
