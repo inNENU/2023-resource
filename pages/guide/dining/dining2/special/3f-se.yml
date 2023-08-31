@@ -2,7 +2,7 @@ title: 二食堂三楼东南侧窗口
 desc: |-
   特别鸣谢浅浅笙歌提供相关照片
 author: Mr.Hope
-time: 2023-07-16T11:41:46.750Z
+time: 2023-08-31T17:37:32.572Z
 shareable: true
 content:
   - tag: title
@@ -51,10 +51,6 @@ content:
 
   - tag: img
     src: $img/dining/dining2/special7.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/dining/dining2/special7-1.jpg
     watermark: true
 
   - tag: img

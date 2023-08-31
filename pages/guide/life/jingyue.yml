@@ -1,13 +1,24 @@
 title: 净月生活
 author: Mr.Hope
-time: 2023-08-26T13:34:50.817Z
+time: 2023-08-31T17:37:32.730Z
 shareable: true
 content:
-  - tag: text
-    type: tip
-    text:
-      - 生活页面仍在整合中，Mr.Hope 正在努力整理并更新相关信息、照片，目前所列出的内容可能不全。
-      - 如果您想要帮助订正，或想直接提供相关照片，欢迎联系我。
+  - tag: title
+    text: 净月
+
+  - tag: list
+    header: false
+    items:
+      - text: 二食堂生活区介绍
+        icon: shop
+        path: dining2-district
+
+      - text: 浴池生活区介绍
+        icon: bath
+        path: jingyue-bath-district
+
+  - tag: title
+    text: 分板块介绍
 
   - tag: grid
     header: 衣

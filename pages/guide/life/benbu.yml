@@ -1,8 +1,26 @@
 title: 本部生活分板块介绍
 author: Mr.Hope
-time: 2023-08-26T12:16:24.913Z
+time: 2023-08-31T17:37:32.719Z
 shareable: true
 content:
+  - tag: title
+    text: 本部
+
+  - tag: list
+    header: false
+    items:
+      - text: 北苑生活区介绍
+        icon: shop
+        path: beiyuan-district
+
+      - text: 浴池生活区介绍
+        desc: 即将拆除
+        icon: bath
+        path: benbu-bath-district
+
+  - tag: title
+    text: 分板块介绍
+
   - tag: grid
     header: 衣
     items:

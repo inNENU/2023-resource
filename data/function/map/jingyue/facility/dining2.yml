@@ -8,14 +8,13 @@ photo:
   - $img/dining/dining46.png
   - $img/dining/dining47.png
 content:
-  - tag: p
-    heading: 概况
-    text:
-      - 净月校区学生二食堂于 2002 年 8 月建成投入使用，共两层，使用面积 6000 平方米，与图书馆和夏华楼相邻，由吉林省美晨商务有限公司经营管理至今。二食堂于 2019 年暑假期间进行了装修，学生二食堂二层为基本伙食区，能容纳 800 人就餐；三层全部为特色档口区，能容纳 1000 人就餐。
+  - tag: list
+    header: 简介
+    items:
+      - text: 学生二食堂一楼是净月校区最大的生活重心，二三楼主要提供饮食服务。
 
-  - tag: img
-    src: $img/dining/jingyueDining2.jfif
-    watermark: true
+      - text: 了解更多
+        path: /guide/dining/dining2/intro
 
   - tag: list
     header: 一楼
