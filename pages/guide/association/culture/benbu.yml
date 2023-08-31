@@ -2,15 +2,15 @@ title: 本部文化体育类社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2023-07-31T16:01:20.694Z
+time: 2023-08-31T16:22:59.350Z
 grey: true
 shareable: true
 content:
   - tag: list
     items:
-      - text: 卓音网络工作室
-        icon: $img/association/joinin.png
-        path: joinin
+      # - text: 卓音网络工作室
+      #   icon: $img/association/joinin.png
+      #   path: joinin
 
       - text: 师说曲艺社
         icon: $img/association/quyi.png
@@ -28,10 +28,6 @@ content:
         icon: $img/association/gushici.png
         path: gushici
 
-      - text: 爱创影视协会
-        icon: $img/association/aichuang.png
-        path: aichuang
-
       - text: 天宇协会
         path: astronomy
 
@@ -41,7 +37,7 @@ content:
       - text: 饮风文学社
         path: yinfeng
 
-      - text: 爱踏足旅游协会
+      - text: 爱踏足文旅协会
         path: travel
 
       - text: 翩鸿汉服社
@@ -58,9 +54,6 @@ content:
 
       - text: 清雨坊书画协会
         path: shuhua
-
-      - text: 千格刀笔油画协会
-        path: paint
 
       - text: 舞龙舞狮社团
         path: lion

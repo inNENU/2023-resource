@@ -2,7 +2,7 @@ title: 学术科技类社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2022-09-16
+time: 2023-08-31T16:22:59.385Z
 shareable: true
 content:
   - tag: title
@@ -11,7 +11,7 @@ content:
   - tag: list
     header: false
     items:
-      - text: 物院教师技能协会
+      - text: 教师技能协会
         path: teach
 
       - text: 科技爱好者协会
@@ -32,11 +32,8 @@ content:
       - text: 史学协会
         path: history
 
-      - text: 全英辩论俱乐部
+      - text: 全英辩社
         path: en-debate
-
-      - text: 常春藤协会
-        desc: 暂无详情
 
   - tag: title
     text: 净月校区
