@@ -8,6 +8,18 @@ main-presets:
     - tag: grid
       header: 您可能想关注
       items:
+        - text: 学生组织
+          color: blue
+          name: Organization
+          icon: student-org
+          path: guide/org/
+
+        - text: 社团
+          color: orange
+          name: Association
+          icon: association
+          path: guide/association/
+
         - text: 校园媒体
           color: grey
           name: Accounts
