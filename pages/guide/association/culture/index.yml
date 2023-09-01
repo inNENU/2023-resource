@@ -2,7 +2,7 @@ title: 文化体育类社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2023-08-31T16:22:59.362Z
+time: 2023-09-01T12:58:38.782Z
 shareable: true
 content:
   - tag: title
@@ -60,6 +60,9 @@ content:
 
       - text: 舞龙舞狮社团
         path: lion
+
+      - text: 光年合唱团
+        path: guangnian
 
       - text: 篮球裁判协会
         desc: 暂无详情

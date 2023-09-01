@@ -1,6 +1,6 @@
 title: 全英辩社
 author: Mr.Hope
-time: 2023-08-31T16:22:59.383Z
+time: 2023-09-01T12:58:38.800Z
 shareable: true
 content:
   - tag: account
@@ -13,7 +13,7 @@ content:
     title: 我们在纳新
     name: 全英辩社
     logo: $img/association/nenudc.png
-    url: info?path=/guide/association/culture/debate-in
+    path: debate-in
 
   - tag: title
     text: 社团简介

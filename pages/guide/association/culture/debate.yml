@@ -1,8 +1,14 @@
 title: 辩论与演说协会
 author: Mr.Hope
-time: 2023-08-31T16:22:59.353Z
+time: 2023-09-01T12:58:38.773Z
 shareable: true
 content:
+  - tag: card
+    cover: $img/media/join.png
+    name: 辩论与演说协会
+    title: 我们在纳新
+    path: debate-in
+
   - tag: title
     text: 简介
 

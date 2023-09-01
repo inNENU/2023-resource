@@ -29,7 +29,7 @@ content:
     name: 东师青年
     title: 欣欣向“融” ，“媒”你不行！快来加入我们吧！
     desc: 融媒体大家庭期待你的到来!
-    url: info?path=/guide/org/media/intake
+    path: intake
     env:
       - qq
 
