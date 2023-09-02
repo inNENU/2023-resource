@@ -13,7 +13,7 @@ export const genDonate = (data: Donate, filePath: string): PageOptions => {
 
   const donateAmount = data.donations.reduce(
     (prev, current) => prev + current[1],
-    0,
+    0
   );
 
   const bestData = data.donations
@@ -44,6 +44,15 @@ export const genDonate = (data: Donate, filePath: string): PageOptions => {
         type: "info",
         text: [
           "您的支持是 Mr.Hope 的不断动力，Mr.Hope 在此表示对大家由衷的感谢!",
+        ],
+      },
+      {
+        tag: "ul",
+        heading: "年度统计",
+        text: [
+          `总支出: ${data.all}元`,
+          `总支持: ${donateAmount.toFixed(2)}元`,
+          `结余: ${(donateAmount - data.all).toFixed(2)}元`,
         ],
       },
       {
@@ -99,18 +108,6 @@ export const genDonate = (data: Donate, filePath: string): PageOptions => {
             tag: "text",
             text: ["暂无"],
           },
-      {
-        tag: "title",
-        text: "统计",
-      },
-      {
-        tag: "ul",
-        text: [
-          `总支出: ${data.all}元`,
-          `总支持: ${donateAmount.toFixed(2)}元`,
-          `结余: ${(donateAmount - data.all).toFixed(2)}元`,
-        ],
-      },
     ],
   };
 
