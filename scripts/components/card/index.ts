@@ -3,11 +3,12 @@ import { existsSync } from "node:fs";
 import { checkKeys } from "@mr-hope/assert-type";
 
 import { type CardComponentOptions } from "./typings.js";
-import { aliasResolve, getPath } from "../utils.js";
+import { aliasResolve, getPath, resolvePath } from "../utils.js";
 
 export const resolveCard = (
   component: CardComponentOptions,
-  location = "",
+  pageId: string,
+  location = ""
 ): void => {
   if (component.logo) {
     // check icons
@@ -23,6 +24,28 @@ export const resolveCard = (
   if (component.cover)
     component.cover = aliasResolve(component.cover, "Image", location);
 
+  if ("path" in component) {
+    if (component.path.startsWith("/")) {
+      const path = resolvePath(component.path);
+
+      if (!existsSync(`./pages/${path}.yml`))
+        console.error(`Path ${path} not exists in ${location}`);
+
+      component.path = path;
+    } else {
+      const paths = pageId.split("/");
+
+      paths.pop();
+
+      const path = resolvePath(`${paths.join("/")}/${component.path}`);
+
+      if (!existsSync(`./pages/${path}.yml`))
+        console.error(`Path ${path} not exists in ${location}`);
+
+      component.path = path;
+    }
+  }
+
   checkKeys(
     component,
     {
@@ -37,7 +60,7 @@ export const resolveCard = (
       options: ["object", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location,
+    location
   );
 
   // check options
@@ -54,7 +77,7 @@ export const resolveCard = (
         path: ["string", "undefined"],
         shortLink: ["string", "undefined"],
       },
-      `${location}.options`,
+      `${location}.options`
     );
 };
 

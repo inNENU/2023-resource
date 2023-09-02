@@ -33,7 +33,7 @@ import { resolveVideo } from "./video/index.js";
 export const resolvePage = (
   page: PageConfig,
   pagePath = "",
-  diffResult = "",
+  diffResult = ""
 ): PageOptions => {
   if (!page) throw new Error(`${pagePath} doesn't contain anything`);
 
@@ -77,7 +77,7 @@ export const resolvePage = (
       // 设置介绍
       else if (tag === "account") resolveAccount(element, position);
       // 设置卡片
-      else if (tag === "card") resolveCard(element, position);
+      else if (tag === "card") resolveCard(element, id, position);
       // 检测动作
       else if (tag === "action") resolveAction(element, position);
       // 检测复音频
@@ -94,7 +94,7 @@ export const resolvePage = (
         console.warn(
           `${pagePath} page.content[${index}] 存在非法 tag ${
             tag as unknown as string
-          }`,
+          }`
         );
 
       return element;
@@ -123,9 +123,9 @@ export const resolvePage = (
         `./pages/${pagePath}.yml`,
         readFileSync(`./pages/${pagePath}.yml`, { encoding: "utf-8" }).replace(
           /^time: .+$/m,
-          `time: ${date.toISOString()}`,
+          `time: ${date.toISOString()}`
         ),
-        { encoding: "utf-8" },
+        { encoding: "utf-8" }
       );
       pageData.time = timeText;
     } else {
@@ -161,7 +161,7 @@ export const resolvePage = (
       photo: ["string[]", "undefined"],
       images: ["string[]", "undefined"],
     },
-    `${pagePath} page`,
+    `${pagePath} page`
   );
 
   return pageData;
