@@ -1,5 +1,10 @@
 title: 4 号门
-desc: 制作中
+photo:
+  - $img/scence/jingyue/gate/gate4.jpg
 content:
   - tag: title
-    text: 暂无详情
+    text: 简介
+
+  - tag: text
+    text:
+      - 此门目前常态化封闭。

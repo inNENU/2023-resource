@@ -12,10 +12,16 @@ content:
     qqid: F77E977F3F1EC26C9203C5FDCD30F333
 
   - tag: card
-    cover: $img/media/join.png
+    cover: $img/association/yinfeng/cover.jpg
     name: 饮风文学社
-    title: 我们在纳新
+    title: 饮风文学社纳新啦：一阵风拍了拍你，并向你投出橄榄枝🌿
+    logo: $img/association/yinfeng/logo.png
     path: yinfeng-in
+
+  - tag: carousel
+    images:
+      - $img/association/yinfeng/1.jpg
+      - $img/association/yinfeng/2.jpg
 
   - tag: title
     text: 简介
@@ -60,6 +66,10 @@ content:
     text:
       - 《原》编辑部前身为《原》诗社，成立于2006年，出版《原》诗刊。其前身《原》诗社，在承办各类诗歌征文比赛和参与吉林省各高校文学活动的基础上，向外推荐本校同学作品，在内帮助诗歌爱好者保持兴趣、发展特长。并入饮风文学社后仍不忘初心，继续为校园诗歌创作者提供展示平台，维系创作激情，以诗歌平和、冲淡的精神，促进校园和谐之风。
 
+  - tag: img
+    src: $img/association/yinfeng/yuan-cover.jpg
+    desc: 《原》诗社
+
   - tag: text
     type: info
     heading: 绿窗编辑部
@@ -71,8 +81,3 @@ content:
     heading: 花园梦
     text:
       - 花园梦儿童文学社成立于2017年，是由一群热爱儿童文学，富有童心的小伙伴组成的快乐大家庭。花园梦致力于宣传优秀古今儿童文学作品，着力于提升大学生的儿童文学鉴赏批评与创作。我们立志以严谨的态度、饱满的精神，研究和推广儿童文学，鼓励儿童文学作品的创作，从优秀作品中萃取儿童心理、儿童教育、儿童哲学的理论，并为社会提供优秀儿童文学作品推荐与阅读指导。
-
-  - tag: carousel
-    images:
-      - $img/association/yinfeng/1.png
-      - $img/association/yinfeng/2.png
