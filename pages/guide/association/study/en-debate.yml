@@ -1,19 +1,12 @@
 title: 全英辩社
 author: Mr.Hope
-time: 2023-09-01T12:58:38.800Z
+time: 2023-09-02T08:52:49.764Z
 shareable: true
 content:
   - tag: account
     name: 全英辩社
     logo: $img/association/nenudc.png
     desc: 英辩，世界万象的窗口，英语提升的良田，思想交流的盛宴。
-
-  - tag: card
-    cover: $img/media/join.png
-    title: 我们在纳新
-    name: 全英辩社
-    logo: $img/association/nenudc.png
-    path: debate-in
 
   - tag: title
     text: 社团简介

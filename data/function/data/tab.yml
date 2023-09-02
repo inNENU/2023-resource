@@ -447,8 +447,8 @@ service:
       color: mauve
       name: Service
       icon: service
-      under: guide/service/under
-      post: guide/service/post
+      under: guide/action/under
+      post: guide/action/post
       path: guide/action/
 
 life:
