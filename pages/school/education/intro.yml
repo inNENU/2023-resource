@@ -1,7 +1,7 @@
 title: 教育学部介绍
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-28T00:36:58.934Z
+time: 2023-09-03T14:32:13.061Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 content:
@@ -20,7 +20,7 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/education.jpg
+      - $img/scenery/benbu/school/education.jpg
 
   - tag: title
     text: 学院简介

@@ -1,7 +1,7 @@
 title: 历史文化学院介绍
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-27T16:49:20.832Z
+time: 2023-09-03T14:32:13.104Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -21,10 +21,10 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/history.jpg
-      - $img/school/history1.jpg
-      - $img/school/history2.jpg
-      - $img/school/history3.jpg
+      - $img/scenery/benbu/school/history.jpg
+      - $img/scenery/benbu/school/history1.jpg
+      - $img/scenery/benbu/school/history2.jpg
+      - $img/scenery/benbu/school/history3.jpg
 
   - tag: title
     text: 学院简介

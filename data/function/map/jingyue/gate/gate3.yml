@@ -1,8 +1,8 @@
 title: 3 号门
 photo:
-  - $img/scence/jingyue/gate/gate3-1.jpg
-  - $img/scence/jingyue/gate/gate3-2.jpg
-  - $img/scence/jingyue/gate/gate3-3.jpg
+  - $img/scenery/jingyue/gate/gate3-1.jpg
+  - $img/scenery/jingyue/gate/gate3-2.jpg
+  - $img/scenery/jingyue/gate/gate3-3.jpg
 content:
   - tag: title
     text: 简介

@@ -1,7 +1,7 @@
 title: 净月研究生寝室安排
 desc: 部分图片来自东北师范大学招生办微信公众号
 author: Mr.Hope
-time: 2023-08-16T15:08:54.568Z
+time: 2023-09-03T14:32:13.863Z
 shareable: true
 outdated: true
 content:
@@ -16,8 +16,8 @@ content:
   - tag: location
     title: 净月研究生寝室
     points:
-      - latitude: 43.824736
-        longitude: 125.421456
+      - latitude: 43.824705
+        longitude: 125.421396
         name: 春华公寓
 
       - latitude: 43.824732
@@ -40,7 +40,7 @@ content:
     text: 人华公寓
 
   - tag: text
-    text: 居住美术学院和音乐学院研究生
+    text: 居住美术学院和音乐学院研究生。
 
   - tag: img
     src: $img/dorm/ren-hua.jpg
@@ -51,7 +51,7 @@ content:
 
   - tag: text
     text:
-      - 男女混寝，A栋 4 - 6 楼为女生寝室。
+      - 男女混寝，A 栋 4 - 6 楼为女生寝室。
       - 居住美术学院、音乐学院、信息科学与技术学院、政法学院、环境学院、经济与管理学院、传媒科学学院、外国语学院研究生。
 
   - tag: img
@@ -103,22 +103,3 @@ content:
     type: tip
     text:
       - 由于研究生每届人数变动较大，且床位紧张，故每届的具体分配都会存在变动，故本页内容为大多数人的安排，仅供参考，请最终以研究生院的安排为准。
-      - 如果您发现了错误，请联系指正，感谢。
-
-  - tag: functional-list
-    header: false
-    items:
-      - text: 联系 Mr.Hope
-        icon: contact
-        type: button
-        openType: contact
-        env:
-          - wx
-
-      - text: 联系 Mr.Hope
-        icon: contact
-        type: button
-        openType: addFriend
-        openId: 868D7B2F0C609B4285698EAB77A47BA1
-        env:
-          - qq

@@ -1,7 +1,7 @@
 title: 经济与管理学院
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-03T14:32:13.051Z
 shareable: true
 content:
   - tag: account
@@ -12,8 +12,8 @@ content:
     wxcode: $img/media/economy-qrcode.jpg
     account: economy
     location:
-      latitude: 43.82776
-      longitude: 125.42727
+      latitude: 43.827634
+      longitude: 125.427246
     site: https://bs.nenu.edu.cn/
 
   - tag: list

@@ -8,12 +8,13 @@ photo:
   - $img/dining/beiyuan/2f1.jpg
   - $img/dining/beiyuan/2f2.jpg
   - $img/dining/beiyuan/xiaochao.jpg
-  - $img/dining/dining6.jpg
-  - $img/dining/dining7.jpg
-  - $img/dining/dining8.jpg
-  - $img/dining/dining9.jpg
-  - $img/dining/dining14.jpg
-  - $img/dining/dining15.jpg
+  - $img/dining/beiyuan/env1.jpg
+  - $img/dining/beiyuan/env2.jpg
+  - $img/dining/beiyuan/env3.jpg
+  - $img/dining/beiyuan/env4.jpg
+  - $img/dining/beiyuan/main.jpg
+  - $img/dining/beiyuan/main2.jpg
+
 content:
   - tag: p
     heading: 概况

@@ -1,6 +1,6 @@
 title: 净月本科寝室安排
 author: Mr.Hope
-time: 2023-08-16T15:08:54.569Z
+time: 2023-09-03T14:32:13.864Z
 shareable: true
 content:
   - tag: text
@@ -11,8 +11,8 @@ content:
   - tag: location
     title: 净月本科生寝室
     points:
-      - latitude: 43.824736
-        longitude: 125.421456
+      - latitude: 43.824705
+        longitude: 125.421396
         name: 春华公寓
 
       - latitude: 43.825324
@@ -35,21 +35,27 @@ content:
     text: 春华公寓
 
   - tag: text
-    text: 女生宿舍楼，分 A、B 两栋，楼高 6 层，入住信息科学与技术学院、外国语 (除英语专业)、传媒科学学院、环境学院学生。
+    text: 女生宿舍楼，分 A、B 两栋，楼高 6 层，入住外国语学院 (除英语专业)、传媒科学学院、环境学院学生。
+
+  - tag: img
+    src: $img/scenery/jingyue/dorm/spring.jpg
+    watermark: true
 
   - tag: title
     text: 夏华公寓
 
   - tag: text
-    text: 共 6 层。A 栋为男生宿舍楼，B 栋为女生宿舍楼，入住信息科学与技术学院、音乐学院、政法学院、环境学院学生。
+    text:
+      - 楼高六层，分为 A、B 栋，为本科生寝室。
+      - A 栋为男生寝室，主要入住环境学院、外国语学院、政法学院的本科生。
+      - B 栋为女生寝室，主要入住环境学院、政法学院的本科生。
 
   - tag: img
-    src: $img/dorm/xiahua.jpg
+    src: $img/scenery/jingyue/dorm/summer1.jpg
     watermark: true
 
   - tag: img
-    src: $img/dorm/xiahua2.jpg
-    desc: 图为夏华公寓
+    src: $img/scenery/jingyue/dorm/summer4.jpg
     watermark: true
 
   - tag: title

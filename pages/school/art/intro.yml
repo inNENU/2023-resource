@@ -1,7 +1,7 @@
 title: 美术介绍
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-27T16:49:20.660Z
+time: 2023-09-03T14:32:13.014Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -18,6 +18,12 @@ content:
       longitude: 125.42814
     mail: nenuart@nenu.edu.cn
     site: https://fineart.nenu.edu.cn/
+
+  - tag: carousel
+    images:
+      - $img/scenery/jingyue/school/art.jpg
+      - $img/scenery/jingyue/school/cloth.jpg
+      - $img/scenery/jingyue/school/sculpture.jpg
 
   - tag: title
     text: 学院简介

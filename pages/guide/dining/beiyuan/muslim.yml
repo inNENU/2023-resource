@@ -1,6 +1,6 @@
 title: 北苑清真餐厅
 author: Mr.Hope
-time: 2023-07-16T11:41:46.689Z
+time: 2023-09-03T14:32:13.797Z
 shareable: true
 content:
   - tag: title
@@ -10,16 +10,13 @@ content:
     text: 位于北苑食堂二楼北侧。
 
   - tag: img
-    src: $img/dining/dining14.jpg
-    watermark: true
-
-  - tag: img
-    src: $img/dining/dining15.jpg
+    src: $img/dining/beiyuan/muslim.jpg
     watermark: true
 
   - tag: text
     heading: 清真套餐
-    text: "价位: 一荤两素大概平均价位在 7、8 元左右，两荤一素在 9、10 元左右。"
+    text: |-
+      价位: 一荤两素大概平均价位在 7、8 元左右，两荤一素在 9、10 元左右。"
 
   - tag: text
     heading: 其他

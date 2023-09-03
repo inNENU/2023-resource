@@ -16,35 +16,41 @@ gate:
       detail: 净月校区一号门
       path: gate1
 
-    - latitude: 43.829133
-      longitude: 125.427097
+    - latitude: 43.829067
+      longitude: 125.427172
       name: 二号门
       detail: 净月校区二号门
       path: gate2
 
-    - latitude: 43.82789
-      longitude: 125.42381
+    - latitude: 43.827783
+      longitude: 125.423829
       name: 三号门
       detail: 净月校区三号门
       path: gate3
 
-    - latitude: 43.82661
-      longitude: 125.41988
+    - latitude: 43.826572
+      longitude: 125.420067
       name: 四号门
       detail: 净月校区四号门
       path: gate4
 
-    - latitude: 43.8248713856
-      longitude: 125.4177331924
+    - latitude: 43.824837
+      longitude: 125.417776
       name: 五号门
       detail: 净月校区五号门
       path: gate5
 
+    - latitude: 43.823548
+      longitude: 125.420658
+      name: 六号门
+      detail: 净月校区六号门
+      path: gate6
+
 dorm:
   name: 寝室
   content:
-    - latitude: 43.824736
-      longitude: 125.421456
+    - latitude: 43.824705
+      longitude: 125.421396
       name: 春华公寓
       detail: 春华公寓
       path: spring
@@ -109,20 +115,20 @@ dorm:
 school:
   name: 学院
   content:
-    - latitude: 43.827666
-      longitude: 125.42734
+    - latitude: 43.827634
+      longitude: 125.427246
       name: 经济与管理学院
       detail: 东北师范大学经济与管理学院
       path: economy
 
-    - latitude: 43.825102
-      longitude: 125.426706
+    - latitude: 43.826152
+      longitude: 125.426142
       name: 环境学院
       detail: 东北师范大学环境学院
       path: environment
 
-    - latitude: 43.82714
-      longitude: 125.42598
+    - latitude: 43.82764
+      longitude: 125.427291
       name: 政法学院
       detail: 东北师范大学政法学院
       path: politics
@@ -139,32 +145,32 @@ school:
       detail: 东北师范大学音乐学院
       path: music
 
-    - latitude: 43.826252
-      longitude: 125.425284
+    - latitude: 43.826259
+      longitude: 125.425503
       name: 外国语学院
       detail: 净月校区外国语学院
       path: foreign
 
-    - latitude: 43.82564
-      longitude: 125.42814
+    - latitude: 43.82571
+      longitude: 125.428207
       name: 美术学院油画系
       detail: 东北师范大学美术学院油画系
       path: art
 
-    - latitude: 43.82532
-      longitude: 125.42952
+    - latitude: 43.825349
+      longitude: 125.429667
       name: 美术学院雕塑系
       detail: 东北师范大学美术学院雕塑系
       path: art
 
-    - latitude: 43.8251152084
-      longitude: 125.4289072752
+    - latitude: 43.825219
+      longitude: 125.429004
       name: 美术学院服装教学楼
       detail: 东北师范大学美术学院服装教学楼
       path: art
 
-    - latitude: 43.82572
-      longitude: 125.42695
+    - latitude: 43.825714
+      longitude: 125.426986
       name: 信息科学与技术学院
       detail: 东北师范大学信息科学与技术学院
       path: ist
@@ -193,8 +199,8 @@ building:
       name: 行政楼
       detail: 东北师范大学行政楼
 
-    - latitude: 43.824767
-      longitude: 125.426147
+    - latitude: 43.825761
+      longitude: 125.425567
       name: 综合教学楼
       detail: 净月校区综合教学楼
 
@@ -267,8 +273,8 @@ facility:
       detail: 超市
       path: shop
 
-    - latitude: 43.827284
-      longitude: 125.423359
+    - latitude: 43.82737
+      longitude: 125.423382
       name: ATM
       detail: ATM
       path: atm
@@ -276,15 +282,25 @@ facility:
 scenery:
   name: 风景
   content:
-    - latitude: 43.8276540028
-      longitude: 125.4286766052
+    - latitude: 43.827651
+      longitude: 125.428654
       name: 旭日广场
       detail: 净月校区旭日广场
 
-    - latitude: 43.8274605009
-      longitude: 125.4255920649
-      name: 牡丹园
-      detail: 净月校区牡丹园
+    - latitude: 43.827693
+      longitude: 125.427386
+      name: 钟楼
+      detail: 净月校区钟楼
+
+    - latitude: 43.827571
+      longitude: 125.425648
+      name: 樱花林
+      detail: 净月校区中日友好樱花林
+
+    - latitude: 43.828088
+      longitude: 125.429873
+      name: 紫光桥
+      detail: 净月校区紫光桥
 
 store:
   name: 店铺

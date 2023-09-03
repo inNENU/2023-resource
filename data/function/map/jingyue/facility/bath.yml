@@ -2,6 +2,12 @@ title: 净月浴池
 desc: 特别鸣谢苏凛提供相关照片和信息
 author: Mr.Hope
 time: 2023-07-16T11:41:46.474Z
+photo:
+  - $img/bath/jingyue-main.jpg
+  - $img/bath/jingyue-entrance.jpg
+  - $img/bath/jingyue-bath.jpg
+  - $img/bath/jingyue-fitness1.jpg
+  - $img/bath/jingyue-fitness2.jpg
 shareable: true
 content:
   - tag: title

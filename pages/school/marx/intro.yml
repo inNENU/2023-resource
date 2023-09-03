@@ -1,7 +1,7 @@
 title: 马克思主义学部
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-27T16:49:20.869Z
+time: 2023-09-03T14:32:13.126Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -20,9 +20,9 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/marx1.jpg
-      - $img/school/marx2.jpg
-      - $img/school/marx3.jpg
+      - $img/scenery/benbu/school/marx1.jpg
+      - $img/scenery/benbu/school/marx2.jpg
+      - $img/scenery/benbu/school/marx3.jpg
 
   - tag: title
     text: 学院简介

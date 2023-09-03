@@ -2,7 +2,7 @@ title: 心理学院介绍
 desc: |-
   来源: 2023 年本科招生指南
 author: Mr.Hope
-time: 2023-06-28T00:36:59.156Z
+time: 2023-09-03T14:32:13.189Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
   - https://psy.nenu.edu.cn/xygk/xyjj.htm
@@ -23,7 +23,7 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/psychology.jpg
+      - $img/scenery/benbu/school/psychology.jpg
 
   - tag: title
     text: 学院简介

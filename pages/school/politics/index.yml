@@ -1,6 +1,6 @@
 title: 政法学院
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-03T14:32:13.174Z
 shareable: true
 content:
   - tag: account
@@ -11,8 +11,8 @@ content:
     wxcode: $img/media/politics-qrcode.jpg
     account: politics
     location:
-      latitude: 43.82714
-      longitude: 125.42598
+      latitude: 43.82764
+      longitude: 125.427291
     site: https://zf.nenu.edu.cn/
 
   - tag: title

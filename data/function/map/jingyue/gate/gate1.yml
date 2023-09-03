@@ -1,7 +1,7 @@
 title: 1 号门
 # TODO: Add image
 photo:
-  - $img/scence/jingyue/gate/gate1-1.jpg
+  - $img/scenery/jingyue/gate/gate1-1.jpg
 content:
   - tag: title
     text: 简介

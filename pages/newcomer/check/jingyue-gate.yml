@@ -1,6 +1,6 @@
 title: 净月校区校门
 author: Mr.Hope
-time: 2023-09-02T17:33:01.751Z
+time: 2023-09-03T14:32:13.285Z
 shareable: true
 content:
   - tag: text
@@ -36,7 +36,7 @@ content:
         path: jingyue/gate/gate2
 
   - tag: img
-    src: $img/scence/jingyue/gate/gate2-1.jpg
+    src: $img/scenery/jingyue/gate/gate2-1.jpg
     watermark: true
 
   - tag: p
@@ -48,14 +48,14 @@ content:
     text: 净月 4 号门
 
   - tag: img
-    src: $img/scence/jingyue/gate/gate4.jpg
+    src: $img/scenery/jingyue/gate/gate4.jpg
     watermark: true
 
   - tag: location
     title: 4 号门
     points:
-      - latitude: 43.82661
-        longitude: 125.41988
+      - latitude: 43.826572
+        longitude: 125.420067
         name: 四号门
         detail: 净月校区四号门
         path: jingyue/gate/gate4

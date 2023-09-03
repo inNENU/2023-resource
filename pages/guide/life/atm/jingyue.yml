@@ -1,6 +1,6 @@
 title: 净月存取款
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-03T14:32:13.974Z
 shareable: true
 content:
   - tag: title
@@ -9,13 +9,18 @@ content:
   - tag: location
     title: ATM 位置
     points:
-      - latitude: 43.827284
-        longitude: 125.423359
+      - latitude: 43.82737
+        longitude: 125.423382
 
   - tag: text
     text:
-      - 目前已有 ATM 入驻的银行有交通银行(可存钱) 、中国银行、中国建设银行、中国邮政储蓄银行、中国农业银行。
-      - 另外，纽瓦克学院(行政楼)一楼也有交通银行取款机。
+      - 目前可以使用 ATM 入驻的银行只有交通银行。
+
+  - tag: img
+    src: $img/scenery/jingyue/facility/atm1.jpg
+
+  - tag: img
+    src: $img/scenery/jingyue/facility/atm2.jpg
 
   - tag: title
     text: 校外银行

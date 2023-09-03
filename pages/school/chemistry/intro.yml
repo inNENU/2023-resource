@@ -1,7 +1,7 @@
 title: 化学学院介绍
 desc: |-
   来源: 2022 本科招生指南
-time: 2023-06-27T16:49:20.699Z
+time: 2023-09-03T14:32:13.029Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -21,8 +21,8 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/chemistry.jpg
-      - $img/school/chemistry1.jpg
+      - $img/scenery/benbu/school/chemistry.jpg
+      - $img/scenery/benbu/school/chemistry1.jpg
 
   - tag: title
     text: 学院简介

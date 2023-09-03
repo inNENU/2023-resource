@@ -3,7 +3,7 @@ desc: |-
   来源: 2022 本科招生指南
   来源: 东北师范大学地理科学学院官网，更新于: 2021 年 5 月 27 日
 
-time: 2023-06-27T16:49:20.822Z
+time: 2023-09-03T14:32:13.095Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -23,9 +23,9 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/geography.jpg
-      - $img/school/geography1.jpg
-      - $img/school/geography2.jpg
+      - $img/scenery/benbu/school/geography.jpg
+      - $img/scenery/benbu/school/geography1.jpg
+      - $img/scenery/benbu/school/geography2.jpg
 
   - tag: title
     text: 学院简介

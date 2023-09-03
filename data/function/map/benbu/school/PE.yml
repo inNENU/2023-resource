@@ -2,10 +2,10 @@ title: 体育学院
 author: Mr.Hope
 time: 2020-09-01
 photo:
-  - $img/school/PE.jpg
-  - $img/school/PE1.jpg
-  - $img/school/PE2.jpg
-  - $img/school/PE3.jpg
+  - $img/scenery/benbu/school/PE.jpg
+  - $img/scenery/benbu/school/PE1.jpg
+  - $img/scenery/benbu/school/PE2.jpg
+  - $img/scenery/benbu/school/PE3.jpg
 content:
   - tag: account
     name: 体育学院

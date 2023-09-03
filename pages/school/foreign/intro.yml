@@ -1,7 +1,7 @@
 title: 外国语学院
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-27T16:49:20.803Z
+time: 2023-09-03T14:32:13.081Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -21,10 +21,10 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/foreign.jpg
-      - $img/school/foreign.jfif
-      - $img/school/foreign1.jpg
-      - $img/school/foreign2.jpg
+      - $img/scenery/benbu/school/foreign.jpg
+      - $img/scenery/benbu/school/foreign.jfif
+      - $img/scenery/benbu/school/foreign1.jpg
+      - $img/scenery/benbu/school/foreign2.jpg
 
   - tag: title
     text: 学院简介

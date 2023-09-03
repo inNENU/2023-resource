@@ -1,6 +1,6 @@
 title: 北苑基本餐
 author: Mr.Hope
-time: 2023-07-16T11:41:46.693Z
+time: 2023-09-03T14:32:13.798Z
 shareable: true
 content:
   - tag: text
@@ -18,16 +18,15 @@ content:
       - 受菜品数量限制早餐可能提前结束
 
   - tag: img
-    src: $img/dining/dining3.jpg
+    src: $img/dining/beiyuan/basic2.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining4.jpg
+    src: $img/dining/beiyuan/basic3.jpg
     watermark: true
 
   - tag: img
-    src: $img/dining/dining5.jpg
-    desc: 早餐主食区
+    src: $img/dining/beiyuan/basic4.jpg
     watermark: true
 
   - tag: ul
@@ -36,12 +35,12 @@ content:
       - "晚餐供应时间为: 16:00 - 18:00(根据经验通常 16:30 菜才比较全)"
 
   - tag: img
-    src: $img/dining/dining6.jpg
+    src: $img/dining/beiyuan/basic1.jpg
     desc: 餐盘餐具
     watermark: true
 
   - tag: img
-    src: $img/dining/dining7.jpg
+    src: $img/dining/beiyuan/basic5.jpg
     desc: 荤菜区
     watermark: true
 
@@ -59,12 +58,12 @@ content:
     text: 基本餐区环境介绍
 
   - tag: img
-    src: $img/dining/dining8.jpg
+    src: $img/dining/beiyuan/main2.jpg
     desc: 北苑基本餐真诚服务同学
     watermark: true
 
   - tag: img
-    src: $img/dining/dining9.jpg
+    src: $img/dining/beiyuan/env4.jpg
     desc: 北苑一楼北侧
     watermark: true
 

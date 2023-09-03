@@ -1,7 +1,7 @@
 title: 净月报到流程
 desc: 照片来自王慕梓
 author: Mr.Hope
-time: 2023-08-26T12:16:23.383Z
+time: 2023-09-03T14:32:13.283Z
 shareable: true
 content:
   - tag: text
@@ -15,14 +15,14 @@ content:
   - tag: location
     title: 净月报到校门与报到处
     points:
-      - latitude: 43.829133
-        longitude: 125.427097
+      - latitude: 43.829067
+        longitude: 125.427172
         name: 二号门
         detail: 净月校区二号门
         path: jingyue/gate/gate2
 
-      - latitude: 43.82661
-        longitude: 125.41988
+      - latitude: 43.826572
+        longitude: 125.420067
         name: 四号门
         detail: 净月校区四号门
         path: jingyue/gate/gate4

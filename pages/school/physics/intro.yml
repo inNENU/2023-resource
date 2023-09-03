@@ -1,7 +1,7 @@
 title: 物理学院介绍
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-27T16:49:20.960Z
+time: 2023-09-03T14:32:13.164Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -20,8 +20,8 @@ content:
 
   - tag: carousel
     images:
-      - $img/school/physic.jpg
-      - $img/school/physic1.jpg
+      - $img/scenery/benbu/school/physic.jpg
+      - $img/scenery/benbu/school/physic1.jpg
 
   - tag: title
     text: 学院简介
