@@ -36,7 +36,7 @@
     "@types/js-yaml": "4.0.5",
     "@types/markdown-it": "13.0.1",
     "@types/node": "20.5.7",
-    "@types/qrcode": "1.5.1",
+    "@types/qrcode": "1.5.2",
     "@typescript-eslint/eslint-plugin": "6.4.1",
     "@typescript-eslint/parser": "6.4.1",
     "@vuepress/client": "2.0.0-beta.67",
