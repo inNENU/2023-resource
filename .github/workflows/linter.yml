@@ -1,4 +1,4 @@
-name: Deploy resource to server
+name: Linter test
 
 on:
   push:
