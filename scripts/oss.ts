@@ -9,28 +9,74 @@ import { config } from "dotenv";
 config();
 
 const __dirname = path.dirname(
-  path.join(fileURLToPath(import.meta.url), "../"),
+  path.join(fileURLToPath(import.meta.url), "../")
 );
 
 const syncOSS = async (): Promise<void> => {
-  const finalDiffResult = execSync("git status -s").toString();
+  const finalDiffResult = execSync("git status").toString();
   const updateZipFileInfo = readFileSync("./d/oss-update", {
     encoding: "utf-8",
   });
   const updateZipFiles = updateZipFileInfo.split("\n").filter((item) => item);
-  const assetsFiles = finalDiffResult.split("\n").filter((item) => {
-    const filename = item.substring(3);
+  const assetsFiles = finalDiffResult.split("\n").map((item) => {
+    const line = item.trim();
+    const isDeleted = line.startsWith("deleted:");
 
-    return filename.startsWith("img/") || filename.startsWith("file/");
+    if (isDeleted)
+      return {
+        type: "deleted",
+        remove: /deleted:\s*(\S*)$/.exec(line)?.[1],
+      };
+
+    const isRenamed = line.startsWith("renamed:");
+
+    if (isRenamed) {
+      const [, remove, add] = /renamed:\s+(\S*)\s+->\s+(\S*)$/.exec(line)!;
+
+      return {
+        type: "renamed",
+        remove,
+        add,
+      };
+    }
+
+    const isAdded = item.trim().startsWith("new file:");
+
+    if (isAdded)
+      return {
+        type: "added",
+        add: /new file:\s+(\S*)$/.exec(item)?.[1],
+      };
+
+    const isModified = item.trim().startsWith("modified:");
+
+    if (isModified)
+      return {
+        type: "modified",
+        add: /modified:\s*(\S*)$/.exec(item)?.[1],
+      };
+
+    return null;
   });
 
-  const updatedFiles = assetsFiles
-    .filter((item) => !item.substring(0, 3).includes("D"))
-    .map((item) => item.substring(3));
-  const deletedFiles = assetsFiles
-    .filter((item) => item.substring(0, 3).includes("D"))
-    .map((item) => item.substring(3));
+  console.log(assetsFiles);
 
+  const addedFiles = assetsFiles
+    .filter(
+      (item): item is { type: string; add: string } =>
+        item !== null &&
+        Boolean(item.add?.startsWith("img/") || item.add?.startsWith("file/"))
+    )
+    .map((item) => item.add);
+  const deletedFiles = assetsFiles
+    .filter(
+      (item): item is { type: string; remove: string } =>
+        item !== null &&
+        Boolean(
+          item.remove?.startsWith("img/") || item.remove?.startsWith("file/")
+        )
+    )
+    .map((item) => item.remove);
   const client = new OSS({
     region: "oss-cn-beijing",
     accessKeyId: process.env.OSS_KEY_ID!,
@@ -52,7 +98,7 @@ const syncOSS = async (): Promise<void> => {
       const result = await client.put(
         filePath,
         path.normalize(path.join(__dirname, filePath)),
-        { headers },
+        { headers }
       );
 
       if (result.res.status !== 200)
@@ -77,7 +123,7 @@ const syncOSS = async (): Promise<void> => {
 
   await Promise.all([
     ...updateZipFiles.map((item) => putFile(`d/${item}.zip`)),
-    ...updatedFiles.map((item) => putFile(item)),
+    ...addedFiles.map((item) => putFile(item)),
     deleteFiles(deletedFiles),
   ]);
 };

@@ -2,14 +2,14 @@ title: 本部文化体育类社团
 desc: |-
   社团名录来自学生社团发展管理中心
 author: Mr.Hope
-time: 2023-09-02T16:14:35.777Z
+time: 2023-09-04T02:55:46.826Z
 grey: true
 shareable: true
 content:
   - tag: list
     items:
       - text: 卓音网络工作室
-        icon: $img/association/joinin.png
+        icon: $img/association/joinin/logo.png
         path: joinin
 
       - text: 师说曲艺社
@@ -21,7 +21,7 @@ content:
         path: guitar
 
       - text: 英语协会
-        icon: $img/association/ea.jpg
+        icon: $img/association/ea/logo.jpg
         path: ea
 
       - text: 中华古诗词吟诵团
