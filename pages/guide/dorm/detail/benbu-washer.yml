@@ -1,6 +1,6 @@
 title: 本部洗衣房/洗衣机
 author: Mr.Hope
-time: 2023-09-04T02:55:47.044Z
+time: 2023-09-04T03:19:21.806Z
 shareable: true
 content:
   - tag: title
@@ -16,7 +16,7 @@ content:
       - 本部部分寝室拥有洗衣房，洗衣房拥有大量洗衣机外，还会拥有烘干机、洗鞋机 (收费) 和熨烫机 (免费) 等功能。
 
   - tag: img
-    src: $img/dorm/washing-room.jpg
+    src: $img/dorm/benbu-washing-room.jpg
     desc: 洗衣房
     watermark: true
 
@@ -144,8 +144,9 @@ content:
     text: 洗鞋机
 
   - tag: img
-    src: $img/dorm/shoes-washer.jpg
+    src: $img/dorm/benbu-shoes-washer.jpg
     desc: 洗鞋机
+    watermark: true
 
   - tag: text
     type: tip
@@ -187,6 +188,7 @@ content:
   - tag: img
     src: $img/dorm/heater.jpg
     desc: 烘干机
+    watermark: true
 
   - tag: ul
     type: info

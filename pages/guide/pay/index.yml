@@ -1,6 +1,6 @@
 title: 缴费相关
 author: Mr.Hope
-time: 2023-08-28T03:33:50.657Z
+time: 2023-09-04T03:19:22.063Z
 cite:
   - https://publish.nenu.edu.cn/info/1068/2632.htm
   - https://publish.nenu.edu.cn/info/1068/2634.htm
@@ -16,7 +16,7 @@ content:
       - 2023年9月4日起。
 
   - tag: title
-    text: 学费标准
+    text: 收费标准
 
   - tag: doc
     name: 2023 级本科生学分学费收费标准
@@ -25,6 +25,10 @@ content:
   - tag: doc
     name: 2023 级研究生学费标准
     url: $file/intro/2023-post-fee.pdf
+
+  - tag: doc
+    name: 2023 年住宿费标准
+    url: $file/intro/2023-dorm-fee.pdf
 
   - tag: title
     text: 缴费方式
