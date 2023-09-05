@@ -73,14 +73,14 @@ dorm:
       detail: 冬华公寓
       path: winter
 
-    - latitude: 43.826837
-      longitude: 125.422744
+    - latitude: 43.826905
+      longitude: 125.422825
       name: 日华公寓
       detail: 日华公寓
       path: sun
 
-    - latitude: 43.826706
-      longitude: 125.421660
+    - latitude: 43.826839
+      longitude: 125.421734
       name: 月华公寓
       detail: 月华公寓
       path: moon
@@ -121,14 +121,14 @@ school:
       detail: 东北师范大学经济与管理学院
       path: economy
 
-    - latitude: 43.826152
-      longitude: 125.426142
+    - latitude: 43.825095
+      longitude: 125.426731
       name: 环境学院
       detail: 东北师范大学环境学院
       path: environment
 
-    - latitude: 43.82764
-      longitude: 125.427291
+    - latitude: 43.827099
+      longitude: 125.42591
       name: 政法学院
       detail: 东北师范大学政法学院
       path: politics
@@ -175,14 +175,20 @@ school:
       detail: 东北师范大学信息科学与技术学院
       path: ist
 
+    - latitude: 43.827559
+      longitude: 125.42446
+      name: 国际汉学院
+      detail: 东北师范大学国际汉学院
+      path: international
+
     - latitude: 43.8279558644
       longitude: 125.4254311323
-      name: 留学生教育学院
-      detail: 东北师范大学净月校区留学生教育学院
+      name: 留学生预备学校
+      detail: 东北师范大学净月校区留学生预备学校
 
-    - latitude: 43.8261408015
-      longitude: 125.4205870628
-      name: 留学生外国留学生预科部
+    - latitude: 43.826361
+      longitude: 125.420485
+      name: 外国留学生预科部
       detail: 东北师范大学净月校区外国留学生预科部
 
 building:
@@ -199,8 +205,8 @@ building:
       name: 行政楼
       detail: 东北师范大学行政楼
 
-    - latitude: 43.825761
-      longitude: 125.425567
+    - latitude: 43.824796
+      longitude: 125.426192
       name: 综合教学楼
       detail: 净月校区综合教学楼
 
@@ -249,16 +255,16 @@ facility:
       detail: 净月校区二食堂
       path: dining2
 
-    - latitude: 43.826193
-      longitude: 125.420806
+    - latitude: 43.826294
+      longitude: 125.420678
       name: 浴池
       detail: 净月校区浴池
       path: bath
 
     - latitude: 43.825692
       longitude: 125.424139
-      name: 校医院
-      detail: 净月校区校医院
+      name: 卫生所
+      detail: 净月校区卫生所
       path: hospital
 
     - latitude: 43.824961
@@ -278,6 +284,11 @@ facility:
       name: ATM
       detail: ATM
       path: atm
+
+    - latitude: 43.828808
+      longitude: 125.427627
+      name: 校车候车室
+      detail: 净月校车候车室
 
 scenery:
   name: 风景
@@ -301,6 +312,21 @@ scenery:
       longitude: 125.429873
       name: 紫光桥
       detail: 净月校区紫光桥
+
+    - latitude: 43.826883
+      longitude: 125.42644
+      name: 喷泉
+      detail: 净月校区喷泉
+
+    - latitude: 43.827
+      longitude: 125.426512
+      name: 鱼池
+      detail: 净月校区鱼池
+
+    - latitude: 43.826917
+      longitude: 125.425969
+      name: 郑德荣雕像
+      detail: 净月校区郑德荣雕像
 
 store:
   name: 店铺
@@ -462,7 +488,7 @@ sports:
       name: 羽毛球场
       detail: 净月校区羽毛球场
 
-    - latitude: 43.824204
-      longitude: 125.423498
-      name: 轮滑场
-      detail: 净月校区轮滑场
+    - latitude: 43.826294
+      longitude: 125.420678
+      name: 健身路径
+      detail: 净月校区健身路径

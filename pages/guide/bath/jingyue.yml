@@ -1,7 +1,7 @@
 title: 净月浴池
 desc: 特别鸣谢苏凛提供相关照片和信息
 author: Mr.Hope
-time: 2023-07-16T11:41:46.474Z
+time: 2023-09-05T02:13:52.878Z
 shareable: true
 content:
   - tag: title
@@ -9,13 +9,13 @@ content:
 
   - tag: text
     text:
-      - 位于净月校区教师进修中心 1️⃣楼，在光华宿舍楼的西北方向，
+      - 在光华宿舍楼的西北方向，
 
   - tag: location
     title: 净月浴池
     points:
-      - latitude: 43.826263
-        longitude: 125.420696
+      - latitude: 43.826294
+        longitude: 125.420678
 
   - tag: text
     text:
