@@ -89,12 +89,6 @@ main-presets:
 
       footer: 更多内容请详见下方其他 Tab 页
 
-    - tag: card
-      cover: https://assets.innenu.com/img/tab/faq.png
-      title: 常见问题
-      logo: faq
-      path: /newcomer/faq/
-
   at-school:
     - tag: grid
       header: 功能
@@ -304,6 +298,18 @@ function-presets:
           icon: email
           url: email
 
+        - text: 考场查询
+          color: grey
+          name: Exam
+          icon: exam
+          url: exam-place
+
+        - text: 转专业计划
+          color: red
+          name: Change major
+          icon: change
+          url: change-major-plan
+
         - text: 体测计算器
           color: olive
           name: PE Calculator
@@ -462,6 +468,18 @@ function-presets:
           name: Library
           icon: library
           url: library
+
+        - text: 考场查询
+          color: grey
+          name: Exam
+          icon: exam
+          url: exam-place
+
+        - text: 转专业计划
+          color: red
+          name: Change major
+          icon: change
+          url: change-major-plan
 
         - text: 体测计算器
           color: olive
@@ -674,13 +692,6 @@ user:
         icon: about
         url: about
 
-  - tag: p
-    heading: " "
-    text:
-      - 如果看过小程序后您还有疑问，欢迎加入 in 东北师大咨询群 (1139044856) 进行咨询。
-      - 小程序为 Mr.Hope 个人独自开发编写，现已花费 Mr.Hope 超 3000 小时，文字数量超过 100 万字，同时小程序服务器每年会产生开销。如果您觉得小程序很有帮助，欢迎您给予支持。
-    style: "color: #888; font-size: 14px"
-
   - tag: functional-list
     items:
       - text: 分享小程序
@@ -688,46 +699,29 @@ user:
         type: button
         openType: share
 
-      - text: 加入 in 东师咨询群
-        icon: qq-group
+      - text: 评价小程序
+        icon: star
         type: button
-        openType: openGroupProfile
-        groupId: "1139044856"
+        handler: rate
 
-      - text: 加入东北师大频道
-        icon: qq-group
+      - text: 联系校会君
+        icon: contact
         type: button
-        openType: openGuildProfile
-        guildId: "5684461640601496"
-
-      - text: 添加 in 东师媒体号
-        icon: qq
-        type: button
-        openType: addFriend
-        openId: 41D0ED9AEDD96C611B0E679EF3ED67F9
-
-      - text: 添加到桌面
-        icon: send
-        type: button
-        handler: addToDesktop
+        openType: contact
 
 about:
   - tag: list
     header: 小程序介绍
     items:
-      - text: 小程序全部内容均由 Mr.Hope 独立开发。
+      - text: 小程序由校团委融媒体中心授权交由 Mr.Hope 开发。其全部代码均由 Mr.Hope 编写，其内容仅代表 Mr.Hope 个人观点。
 
       - text: 小程序现有字数为 1010875 字，其中东师指南部分 343213 字，新生迎新部分 101866 字，东师介绍部分 264319 字，机构介绍部分 66975 字，学院介绍部分 143995 字，功能大厅部分 42740 字，其他部分 47767 字。
 
-      # - text: Hope Studio 介绍
-      #   url: info?path=Ohope-studio/about
+      - text: 校团委融媒体中心介绍
+        url: info?path=Gorg/new-media-center
 
       - text: Mr.Hope 个人介绍
         url: info?path=Oabout/mrhope
-
-      - text: |-
-          记: in 东师
-        url: info?path=Oabout/history
 
       - text: 开发者访谈
         url: info?path=Oabout/interview
@@ -737,17 +731,6 @@ about:
 
       - text: 致谢名单
         url: info?path=Oabout/thanks
-
-  - tag: functional-list
-    header: 支持小程序
-    items:
-      - text: 为保证小程序运行，每年购买维护服务器资源会产生开销。如果您希望帮助 Mr.Hope，欢迎联系 Mr.Hope 施以援手。
-
-      - text: 联系 Mr.Hope
-        icon: contact
-        type: button
-        openType: addFriend
-        openId: 868D7B2F0C609B4285698EAB77A47BA1
 
   - tag: text
     heading: 小程序内容
