@@ -209,11 +209,13 @@ building:
       longitude: 125.426192
       name: 综合教学楼
       detail: 净月校区综合教学楼
+      # path: complex
 
     - latitude: 43.825746
       longitude: 125.424458
       name: 保卫处
       detail: 净月校区保卫处
+      # path: defend
 
     - latitude: 43.824582
       longitude: 125.42572

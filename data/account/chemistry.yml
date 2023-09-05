@@ -3,7 +3,7 @@ detail: 东北师范大学化学学院
 desc: 这里是东北师范大学化学学院。给你呈现不一样的化院姿态，带你领略最新潮的学院风尚，陪你度过最温暖的大学时光。
 id: dongshihuayuan
 logo: $img/media/chemistry.jpg
-qrcode: $img/media/chemistry-wechat.jpg
+
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlpPDXGiae7IPVXaSlRLoXlauwDG0nMpAHvwPH0lgfSDacibyUTWlrnD6JaxickFKbGp8M8jhWdpoExCw/0?wx_fmt=jpeg
     title: 化·青马||“化学青年说”第三期《不忘初心，牢记使命》

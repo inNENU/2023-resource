@@ -10,7 +10,7 @@ content:
     logo: $img/media/psychology.png
     detail: 东北师范大学心理学院
     wxid: gh_b8263d1e2906
-    wxcode: $img/media/psychology-qrcode.jpg
+
     account: psychology
     location:
       latitude: 43.863147

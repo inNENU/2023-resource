@@ -7,7 +7,7 @@ content:
     logo: $img/media/politics.png
     detail: 东北师范大学政法学院
     wxid: lovezhengfa
-    wxcode: $img/media/politics-qrcode.jpg
+
     account: politics
     location:
       latitude: 43.82714

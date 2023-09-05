@@ -1,6 +1,6 @@
 title: 乐群学社
 author: Mr.Hope
-time: 2022-09-16
+time: 2023-09-05T02:41:09.539Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     desc: 读书、思考、实践、成长
     logo: $img/association/lequn.png
     wxid: gh_a643edd595aa
-    wxcode: $img/media/lequn-qrcode.jpg
+
     account: lequn
 
   - tag: title

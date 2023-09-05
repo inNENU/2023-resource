@@ -7,7 +7,7 @@ content:
     logo: $img/media/music.png
     detail: 东北师范大学音乐学院
     wxid: yinwudongshi
-    wxcode: $img/media/music-qrcode.jpg
+
     account: music
     location:
       latitude: 43.82651

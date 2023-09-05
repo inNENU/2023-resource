@@ -1,7 +1,7 @@
 title: 经济与管理学院
 grey: true
 author: Mr.Hope
-time: 2023-09-03T14:32:13.051Z
+time: 2023-09-05T02:41:08.683Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/economic.jpg
     detail: 东北师范大学经济与管理学院
     wxid: nenubs
-    wxcode: $img/media/economy-qrcode.jpg
+
     account: economy
     location:
       latitude: 43.827634

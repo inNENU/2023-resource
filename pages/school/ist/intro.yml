@@ -1,7 +1,7 @@
 title: 信息科学与技术学院
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-27T16:49:20.854Z
+time: 2023-09-05T02:41:08.775Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/ist.png
     detail: 东北师范大学信息科学与技术学院
     wxid: dsxk2017
-    wxcode: $img/media/ist-qrcode.jpg
+
     account: ist
     location:
       latitude: 43.82572

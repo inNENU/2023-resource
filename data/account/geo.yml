@@ -2,7 +2,7 @@ name: 东北师范大学地理科学学院
 desc: 东北师范大学地理科学学院官方公众号
 id: geonenu
 logo: $img/media/geo.png
-qrcode: $img/media/geo-wechat.jpg
+
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeAC8HicgJk1ibibIPqtpH4sI8CFNibY7RiclaenQa628JXoCHYr0YdQ4n6wpKI6U4BPGOicPuSLTwloqXug/0?wx_fmt=jpeg
     title: 毕业季 | 青春启航，奔赴山海——祝2023届全体毕业生毕业快乐！

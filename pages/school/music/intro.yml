@@ -1,7 +1,7 @@
 title: 音乐学院介绍
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-09-03T14:32:13.150Z
+time: 2023-09-05T02:41:08.829Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/music.png
     detail: 东北师范大学音乐学院
     wxid: yinwudongshi
-    wxcode: $img/media/music-qrcode.jpg
+
     account: music
     location:
       latitude: 43.82651

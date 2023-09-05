@@ -1,7 +1,7 @@
 title: 环境学院介绍
 desc: |-
   来源: 2022 本科招生指南
-time: 2023-06-27T16:49:20.772Z
+time: 2023-09-05T02:41:08.714Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/environment.png
     detail: NENU 环境学院
     wxid: dongshihuanjing
-    wxcode: $img/media/environment-wechat.jpg
+
     account: environment
     location:
       latitude: 43.825102

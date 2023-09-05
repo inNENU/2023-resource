@@ -11,7 +11,7 @@ content:
     logo: $img/media/marx.png
     detail: 东北师范大学马克思主义学部
     wxid: gh_32d2742e1204
-    wxcode: $img/media/marx-qrcode.jpg
+
     account: marx
     location:
       latitude: 43.86268

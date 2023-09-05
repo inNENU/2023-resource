@@ -1,6 +1,6 @@
 title: 图书馆联系方式
 author: Mr.Hope
-time: 2023-06-26T17:24:56.625Z
+time: 2023-09-05T02:41:08.513Z
 shareable: true
 cite:
   - http://www.library.nenu.edu.cn/page/88333/show?leftNavId=3008913
@@ -31,5 +31,5 @@ content:
     logo: $img/media/library.png
     detail: 东北师范大学图书馆
     wxid: nenu_lib
-    wxcode: $img/media/library-wx.jpg
+
     account: library

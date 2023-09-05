@@ -1,7 +1,7 @@
 title: 生命科学学院介绍
 desc: |-
   来源: 2022 本科招生指南
-time: 2023-09-03T14:32:13.021Z
+time: 2023-09-05T02:41:08.641Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/biology.png
     detail: 东北师范大学生命科学学院
     wxid: skyxxxczx2015
-    wxcode: $img/media/biology-qrcode.jpg
+
     account: biology
     location:
       latitude: 43.859984

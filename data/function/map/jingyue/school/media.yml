@@ -7,7 +7,7 @@ content:
     logo: $img/media/media.png
     detail: 东师传媒
     wxid: nenu_media
-    wxcode: $img/media/media-wechat.jpg
+
     account: media
     location:
       latitude: 43.82637

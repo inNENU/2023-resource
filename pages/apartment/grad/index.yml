@@ -1,7 +1,7 @@
 title: 研究生院
 grey: true
 author: Mr.Hope
-time: 2023-05-10T16:32:31.281Z
+time: 2023-09-05T02:41:08.483Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/official.png
     detail: 东北师范大学研究生院
     wxid: gh_1d4eec902259
-    wxcode: $img/media/graduate-qrcode.jpg
+
     account: graduate
     location:
       latitude: 43.862163

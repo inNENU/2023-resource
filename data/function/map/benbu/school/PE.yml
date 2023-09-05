@@ -12,7 +12,7 @@ content:
     logo: $img/media/pe.png
     detail: 青年力量
     wxid: nenupetw
-    wxcode: $img/media/pe-wechat.jpg
+
     account: pe
     location:
       latitude: 43.85841

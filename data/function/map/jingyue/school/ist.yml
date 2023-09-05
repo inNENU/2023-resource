@@ -7,7 +7,7 @@ content:
     logo: $img/media/ist.png
     detail: 东北师范大学信息科学与技术学院
     wxid: dsxk2017
-    wxcode: $img/media/ist-qrcode.jpg
+
     account: ist
     location:
       latitude: 43.82572

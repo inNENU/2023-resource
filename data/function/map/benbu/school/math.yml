@@ -11,7 +11,7 @@ content:
     logo: $img/media/math.png
     detail: 东北师范大学数学与统计学院
     wxid: gh_83fa6f6e7577
-    wxcode: $img/media/math-qrcode.jpg
+
     account: math
     location:
       latitude: 43.86014

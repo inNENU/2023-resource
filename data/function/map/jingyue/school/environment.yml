@@ -7,7 +7,7 @@ content:
     logo: $img/media/environment.png
     detail: NENU 环境学院
     wxid: dongshihuanjing
-    wxcode: $img/media/environment-wechat.jpg
+
     account: environment
     location:
       latitude: 43.825102

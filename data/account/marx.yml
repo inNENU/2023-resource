@@ -2,7 +2,6 @@ name: 东北师范大学马克思主义学部
 desc: 发布学部信息动态，关注学部学生学习生活。
 id: gh_32d2742e1204
 logo: $img/media/marx.png
-qrcode: $img/media/marx-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/8rsfbc9iaDoLH2qdEzuYc5RhBtXEicBdQh5I8ETKRic8QrUCkR6l4JRSmFoTaic9QacNwEbI7r6fD6pcOJHiasoVOEA/0?wx_fmt=jpeg
     title: 毕业季 | 快来打卡你与马部的专属时光

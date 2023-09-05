@@ -1,7 +1,7 @@
 title: 音乐学院
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-05T02:41:08.827Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,6 @@ content:
     logo: $img/media/music.png
     detail: 东北师范大学音乐学院
     wxid: yinwudongshi
-    wxcode: $img/media/music-qrcode.jpg
     account: music
     location:
       latitude: 43.82651

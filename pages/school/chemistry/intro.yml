@@ -1,7 +1,7 @@
 title: 化学学院介绍
 desc: |-
   来源: 2022 本科招生指南
-time: 2023-09-03T14:32:13.029Z
+time: 2023-09-05T02:41:08.652Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/chemistry.jpg
     detail: 东北师范大学化学学院
     wxid: dongshihuayuan
-    wxcode: $img/media/chemistry-wechat.jpg
+
     account: chemistry
     location:
       latitude: 43.86221

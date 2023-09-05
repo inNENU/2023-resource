@@ -3,7 +3,7 @@ detail: 东北师范大学“东师之声”校园广播站
 desc: 东北师范大学的有声媒体，东师之声校园广播官方平台，用心吐字，用爱归音
 id: DSZS2555
 logo: $img/organization/voice.png
-qrcode: $img/media/voice-wechat.jpg
+
 authorized: true
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/4ibXUPiaLwibrT4952p816g96ibdGXCq3GXSRz15UYkndzEoacQpkUTqx5c17ZJogn3cshCIfdfuRtib8lsV62cxdrg/0?wx_fmt=jpeg

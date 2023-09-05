@@ -1,7 +1,7 @@
 title: 体育学院 (冰雪学院) 介绍
 desc: |-
   来源: 2022 本科招生指南
-time: 2023-09-03T14:32:13.156Z
+time: 2023-09-05T02:41:08.837Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/pe.png
     detail: 青年力量
     wxid: nenupetw
-    wxcode: $img/media/pe-wechat.jpg
+
     account: pe
     location:
       latitude: 43.85841

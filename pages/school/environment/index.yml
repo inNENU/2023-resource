@@ -1,7 +1,7 @@
 title: 环境学院
 grey: true
 author: Mr.Hope
-time: 2023-09-05T02:13:51.975Z
+time: 2023-09-05T02:41:08.711Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/environment.png
     detail: NENU 环境学院
     wxid: dongshihuanjing
-    wxcode: $img/media/environment-wechat.jpg
+
     account: environment
     location:
       latitude: 43.825095

@@ -1,7 +1,7 @@
 title: 图书馆
 grey: true
 author: Mr.Hope
-time: 2023-07-27T15:57:11.705Z
+time: 2023-09-05T02:41:08.531Z
 shareable: true
 content:
   - tag: account
@@ -10,7 +10,7 @@ content:
     detail: 东北师范大学图书馆
     qq: 1665466732
     wxid: nenu_lib
-    wxcode: $img/media/library-wx.jpg
+
     account: library
     site: http://www.library.nenu.edu.cn/
 

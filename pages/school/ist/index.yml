@@ -1,7 +1,7 @@
 title: 信息科学与技术学院
 grey: true
 author: Mr.Hope
-time: 2023-09-03T14:32:13.114Z
+time: 2023-09-05T02:41:08.774Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/ist.png
     detail: 东北师范大学信息科学与技术学院
     wxid: dsxk2017
-    wxcode: $img/media/ist-qrcode.jpg
+
     account: ist
     location:
       latitude: 43.825714

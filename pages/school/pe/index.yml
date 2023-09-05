@@ -1,7 +1,7 @@
 title: 体育学院 (冰雪学院)
 grey: true
 author: Mr.Hope
-time: 2023-06-27T16:49:20.933Z
+time: 2023-09-05T02:41:08.835Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/pe.png
     detail: 青年力量
     wxid: nenupetw
-    wxcode: $img/media/pe-wechat.jpg
+
     account: pe
     location:
       latitude: 43.85841

@@ -1,7 +1,7 @@
 title: 美术学院
 grey: true
 author: Mr.Hope
-time: 2023-09-03T14:32:13.012Z
+time: 2023-09-05T02:41:08.629Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/art.png
     detail: 东北师范大学美术学院
     wxid: gh_d633652739f9
-    wxcode: $img/media/art-qrcode.jpg
+
     account: art
     location:
       latitude: 43.82571

@@ -1,7 +1,7 @@
 title: 马克思主义学部
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-05T02:41:08.787Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/marx.png
     detail: 东北师范大学马克思主义学部
     wxid: gh_32d2742e1204
-    wxcode: $img/media/marx-qrcode.jpg
+
     account: marx
     location:
       latitude: 43.86268

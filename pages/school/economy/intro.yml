@@ -1,7 +1,7 @@
 title: 经济与管理学院介绍
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-06-27T16:49:20.734Z
+time: 2023-09-05T02:41:08.685Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/economic.jpg
     detail: 东北师范大学经济与管理学院
     wxid: nenubs
-    wxcode: $img/media/economy-qrcode.jpg
+
     account: economy
     location:
       latitude: 43.82776

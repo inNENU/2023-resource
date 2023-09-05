@@ -12,7 +12,7 @@ content:
     logo: $img/media/history.jpg
     detail: 东北师范大学历史文化学院
     wxid: dssyxl
-    wxcode: $img/media/history-qrcode.jpg
+
     account: history
     location:
       latitude: 43.8603

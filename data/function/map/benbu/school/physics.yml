@@ -10,7 +10,7 @@ content:
     logo: $img/media/phy.jpg
     detail: 东北师范大学物理学院
     wxid: nenuphy
-    wxcode: $img/media/phy-wechat.jpg
+
     account: phy
     location:
       latitude: 43.86133

@@ -3,7 +3,7 @@ detail: 东北师范大学学生宿舍自我管理委员会
 desc: 东师小蜗牛们的温暖家园
 id: Nenuxiaowo
 logo: $img/organization/xiaowo.png
-qrcode: $img/media/xiaowo-wechat.jpg
+
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/jj175bf7cTZ487hZ9ZaOiaqJXibPAsCvk4wRSHX70sNxDW6xcqW74klCm12A2BY51JgHwic8osotj7uSEHe7R7dmA/0?wx_fmt=jpeg
     title: 灯光永相伴，璀璨向未来

@@ -2,7 +2,6 @@ name: 东北师范大学教育学部
 desc: 东北师范大学教育学部官方微信平台
 id: edunenu
 logo: $img/media/education-wechat.png
-qrcode: $img/media/education-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8bTt2MIRofxPljO2x9iczVQprga47mJHLibVhUHXiaQVa2Qveg4Ww3t6OILnCmHyKP3icIp8C9IEWcY1w/0?wx_fmt=jpeg
     title: 东北师范大学教育学部2023年优秀本科生夏令营招生简章

@@ -10,7 +10,7 @@ content:
     logo: $img/media/chemistry.jpg
     detail: 东北师范大学化学学院
     wxid: dongshihuayuan
-    wxcode: $img/media/chemistry-wechat.jpg
+
     account: chemistry
     location:
       latitude: 43.86221

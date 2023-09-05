@@ -3,7 +3,6 @@ detail: 东北师范大学官方微信公众号
 desc: 勤奋创新 为人师表
 id: nenuweixin
 logo: $img/media/official.png
-qrcode: $img/media/officail-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/ysE1q5sFFFhNn8xxLulzvr0VpTicwpoZRSq1xtVIBibRicLHLLMdwUlFic3YRfClwibYIwyCqJeJPj7HZRUcMASRpUQ/0?wx_fmt=jpeg
     title: 东师·印象 | 又是一年毕业季

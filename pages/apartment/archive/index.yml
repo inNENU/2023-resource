@@ -1,7 +1,7 @@
 title: 档案馆
 grey: true
 author: Mr.Hope
-time: 2023-06-26T13:00:05.974Z
+time: 2023-09-05T02:41:08.445Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/official.png
     detail: 东北师范大学档案馆
     wxid: gh_6831c1b199d0
-    wxcode: $img/media/archive-wechat.jpg
+
     account: archive
     mail: archives@nenu.edu.cn
     site: https://dag.nenu.edu.cn/

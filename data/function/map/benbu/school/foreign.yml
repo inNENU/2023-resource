@@ -12,7 +12,7 @@ content:
     logo: $img/media/foreign.jpg
     detail: 东北师范大学外国语学院
     wxid: nenuwgy
-    wxcode: $img/media/foreign-qrcode.jpg
+
     account: foreign
     location:
       latitude: 43.8611

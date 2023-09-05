@@ -3,7 +3,6 @@ detail: 学生社团发展管理中心
 desc: 最详尽的社团活动预告，最全面的社团活动报道，最前沿的校园资讯。分享精彩社团文化，享受快乐大学生活! 东师社团为您服务!
 id: dsshetuan
 logo: $img/organization/sheguan.png
-qrcode: $img/media/caiwuchu-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/ibHpgHJfOhiaWqcqnkgS78IthmrPHVedt6OWuEvtWzYXl3auhIGsa6HvDDHv2SooDF1HWgemHVlViclotE6EohZSQ/0?wx_fmt=jpeg
     title: 社管2021年骨干培训班圆满结束！

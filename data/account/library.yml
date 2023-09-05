@@ -3,7 +3,7 @@ detail: 东北师范大学图书馆
 desc: 关注东师图书馆，掌握图书馆讲座、资源、服务最新动态!
 id: nenu_lib
 logo: $img/media/library.png
-qrcode: $img/media/library-wx.jpg
+
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSkLKukIoNljo24t60ZCP4ZcbOVG4GibbkM81DGVe5gMZVt7Q6u6G2dmTnkezAJohqPXE5Oww8XEm4w/0?wx_fmt=jpeg
     title: 阅读滋养心灵 (第二十一期)

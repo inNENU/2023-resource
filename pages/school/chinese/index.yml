@@ -1,7 +1,7 @@
 title: 文学院
 grey: true
 author: Mr.Hope
-time: 2023-08-25T13:34:12.050Z
+time: 2023-09-05T02:41:08.666Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/chinese.png
     detail: 东北师范大学文学院
     wxid: dongshiwenyuan
-    wxcode: $img/media/chinese-qrcode.jpg
+
     account: chinese
     location:
       latitude: 43.860084

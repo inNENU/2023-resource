@@ -2,7 +2,7 @@ name: 东北师范大学团委
 desc: 共青团东北师范大学委员会官方公众号
 id: nenu-tuanwei
 logo: $img/media/tuanwei.png
-qrcode: $img/media/tuanwei-wechat.jpg
+
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/LclpMx3GOvrzP1ygscdL8crK6WljqwhntL5xCUqwafjOblnoyUsA16UERFW427LKPgl0AUIlLZzPRFRwX2wASQ/0?wx_fmt=jpeg
     title: 东北师范大学学生会、研究生会团支部开展理论学习会

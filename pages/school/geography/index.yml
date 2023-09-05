@@ -1,7 +1,7 @@
 title: 地理科学学院
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-05T02:41:08.742Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/geo.png
     detail: 东北师范大学地理科学学院
     wxid: geonenu
-    wxcode: $img/media/geo-wechat.jpg
+
     account: geo
     location:
       latitude: 43.86294

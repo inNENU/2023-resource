@@ -1,7 +1,7 @@
 title: 国际汉学院
 grey: true
 author: Mr.Hope
-time: 2023-09-05T02:13:52.052Z
+time: 2023-09-05T02:41:08.767Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/international.png
     detail: 东北师范大学国际汉学院
     wxid: nenuscs
-    wxcode: $img/media/environment-wechat.jpg
+
     account: international
     location:
       latitude: 43.825102

@@ -2,7 +2,6 @@ name: 东北师范大学数学与统计学院
 desc: 东北师范大学数学与统计学院官方平台
 id: gh_83fa6f6e7577
 logo: $img/media/math.png
-qrcode: $img/media/math-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/A1pATfhlgbs90rWgIiaMSFt93Wqp2DajtrTwYvtGhzquHqovb5hlQV18nxN2FKm7Fuu0n0fEymVNibGsibybj1xhg/0?wx_fmt=jpeg
     title: 学风涵养 |“数读经典”读书分享会

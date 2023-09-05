@@ -3,7 +3,6 @@ detail: 东北师范大学政法学院
 desc: 由政法学院学生会专门开设的服务于本院师生，实时传递国家重大新闻政策、学院内外咨询以及推送任何与学院学生紧密相关的信息。
 id: lovezhengfa
 logo: $img/media/politics.png
-qrcode: $img/media/politics-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/KYrs0vhXsDvlARicovbyPSXskE8TumjTXJPGxF4fbl6dc6ZGnLvtSG6fjBMSaBDgcu7Z7wMbWWGSHepuv4FDiaJQ/0?wx_fmt=jpeg
     title: 东师学子走进吉林省高级人民法院参观学习

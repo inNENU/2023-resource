@@ -11,7 +11,7 @@ content:
     logo: $img/media/geo.png
     detail: 东北师范大学地理科学学院
     wxid: geonenu
-    wxcode: $img/media/geo-wechat.jpg
+
     account: geo
     location:
       latitude: 43.86294

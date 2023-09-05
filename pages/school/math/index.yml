@@ -1,7 +1,7 @@
 title: 数学与统计学院
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-05T02:41:08.798Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/math.png
     detail: 东北师范大学数学与统计学院
     wxid: gh_83fa6f6e7577
-    wxcode: $img/media/math-qrcode.jpg
+
     account: math
     location:
       latitude: 43.86014

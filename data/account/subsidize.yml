@@ -3,7 +3,6 @@ detail: 学生资助管理中心
 desc: “满溢着爱”做资助
 id: dongshizizhu
 logo: $img/media/subsidize.jpg
-qrcode: $img/media/subsidize-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0hj8AT2KPu3BnLy9ZtXB1STSoUyH1iaFJA9K8KhuFibbCuXFH1KcNwnZmvwvozrsD75mfz5WLHoABA/0?wx_fmt=jpeg
     title: 善始善终 善作善成——旧物流转活动圆满落幕啦

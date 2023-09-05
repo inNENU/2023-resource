@@ -9,7 +9,6 @@ content:
     logo: $img/media/chinese.png
     detail: 东北师范大学文学院
     wxid: dongshiwenyuan
-    wxcode: $img/media/chinese-qrcode.jpg
     account: chinese
     location:
       latitude: 43.85947

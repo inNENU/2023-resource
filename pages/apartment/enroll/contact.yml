@@ -1,6 +1,6 @@
 title: 招生办公室联系方式
 desc: 信息来自东北师范大学本科招生网
-time: 2023-07-21T15:51:36.557Z
+time: 2023-09-05T02:41:08.473Z
 shareable: true
 cite:
   - https://zsb.nenu.edu.cn/dp_content.jsp?urltype=tree.TreeTempUrl&wbtreeid=1072
@@ -10,7 +10,7 @@ content:
     logo: $img/media/official.png
     detail: 东北师范大学招生办公室
     wxid: nenuzsb
-    wxcode: $img/media/enroll-wechat.jpg
+
     account: enroll
     mail: zsb@nenu.edu.cn
     site: https://zsb.nenu.edu.cn/

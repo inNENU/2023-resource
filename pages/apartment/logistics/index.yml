@@ -1,7 +1,7 @@
 title: 后勤管理处
 grey: true
 author: Mr.Hope
-time: 2023-06-26T13:00:06.239Z
+time: 2023-09-05T02:41:08.548Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/logistics.jpg
     detail: 东北师范大学后勤管理处
     wxid: dongshihouqin
-    wxcode: $img/media/logistics-wechat.jpg
+
     account: logistics
     mail: houqin@nenu.edu.cn
     site: https://hqc.nenu.edu.cn/

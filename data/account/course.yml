@@ -2,7 +2,6 @@ name: 东师微教学
 detail: 东师教务助理中心
 id: nenuwjx
 logo: $img/media/course.png
-qrcode: $img/media/course-qrcode.jpg
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/EnWHfkNlxy2IyOOpUkaF5fwtLN6ic3awttGA5rktJ9Lo6L6IZTkVDx1MhhhiaTibzHv3eXRXg4ShPicYj3c573Zo0Q/0?wx_fmt=jpeg
     title: 新闻 | 教育部教师工作司司长任友群赴东北师范大学组团开展师范教育协同提质计划工作调研

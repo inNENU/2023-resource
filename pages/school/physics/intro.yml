@@ -1,7 +1,7 @@
 title: 物理学院介绍
 desc: |-
   来源: 2023 年本科招生指南
-time: 2023-09-03T14:32:13.164Z
+time: 2023-09-05T02:41:08.847Z
 cite:
   - https://book.eol.cn/books/kpeu/mobile/index.html
 shareable: true
@@ -11,7 +11,7 @@ content:
     logo: $img/media/phy.jpg
     detail: 东北师范大学物理学院
     wxid: nenuphy
-    wxcode: $img/media/phy-wechat.jpg
+
     account: phy
     location:
       latitude: 43.86133

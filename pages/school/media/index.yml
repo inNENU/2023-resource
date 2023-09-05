@@ -1,7 +1,7 @@
 title: 传媒科学学院
 grey: true
 author: Mr.Hope
-time: 2023-06-24T17:26:42.531Z
+time: 2023-09-05T02:41:08.816Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/media/media.png
     detail: 东师传媒
     wxid: nenu_media
-    wxcode: $img/media/media-wechat.jpg
+
     account: media
     location:
       latitude: 43.82637

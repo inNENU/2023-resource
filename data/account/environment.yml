@@ -3,7 +3,7 @@ detail: 东北师范大学环境学院
 desc: 了解更多东师环境学院的信息与活动
 id: dongshihuanjing
 logo: $img/media/environment.png
-qrcode: $img/media/environment-wechat.jpg
+
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGEI09zKAHRIB5kC4xT1b7QzNaiawmkQmsGnnISAnWLK4OjyWvZibOJUzuPxSp710xECU6icfCCianR0g/0?wx_fmt=jpeg
     title: 校园美景征集 | 我与东师夏天的第三次约会~

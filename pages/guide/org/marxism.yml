@@ -1,7 +1,7 @@
 title: 青马学会
 desc: |-
   来源: 校团委官网
-time: 2023-06-15T17:20:12.245Z
+time: 2023-09-05T02:41:10.009Z
 shareable: true
 content:
   - tag: account
@@ -9,7 +9,7 @@ content:
     logo: $img/organization/marx.png
     desc: 东北师范大学青年马克思主义者学习研究会
     wxid: dsqmxh
-    wxcode: $img/media/youth-marx-wechat.jpg
+
     account: youth-marx
     mail: qingmaxuehui2013@163.com
 

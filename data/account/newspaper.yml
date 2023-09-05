@@ -4,7 +4,7 @@ desc: |-
   关注 NENU 东小青，即时获取校园新鲜资讯，东小青带你做最 IN 的东师人! (原名: 东北师范大学东师青年)
 id: nenu-youth
 logo: $img/organization/newspaper.png
-qrcode: $img/media/newspaper-wechat.jpg
+
 authorized: true
 article:
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmN9uWAgMQdItPicJwgJxBdgjicib9xSMiantCSakHgeWXWWEHceia0sUtQfqKGiaibun5Hial0G0Ex2Eia2hw/0?wx_fmt=jpeg

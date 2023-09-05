@@ -30,8 +30,10 @@ export const setupAccount = () => {
               copy(qq);
               message.pop(`${CHECK_ICON}<span>QQ 号已复制到剪切板</span>`);
             } else if (wxid) {
-              copy(wxid);
-              message.pop(`${CHECK_ICON}<span>微信号已复制到剪切板</span>`);
+              message.pop(
+                `<img src="${`https://open.weixin.qq.com/qr/code?username=${wxid}`}" />`,
+                5000
+              );
             }
           });
         });
@@ -40,7 +42,7 @@ export const setupAccount = () => {
     watch(
       () => page.value.path,
       () => registerAccount(),
-      { immediate: true },
+      { immediate: true }
     );
   });
 };
