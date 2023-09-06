@@ -104,6 +104,18 @@ main-presets:
           icon: grade
           url: course-grade
 
+        - text: 学籍注册
+          color: purple
+          name: Study Archive
+          icon: archive
+          url: study-archive
+
+        - text: 选课系统
+          color: blue
+          name: Select
+          icon: select
+          url: select
+
         - text: 内网通知
           color: red
           name: Notice
@@ -115,12 +127,6 @@ main-presets:
           name: News
           icon: news
           url: notice-list?type=news
-
-        - text: 选课系统
-          color: blue
-          name: Select
-          icon: select
-          url: select
 
         - text: 校园邮箱
           color: purple
