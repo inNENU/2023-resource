@@ -1,13 +1,40 @@
 title: 选课流程
 author: Mr.Hope
-time: 2023-07-16T11:41:47.478Z
+time: 2023-09-06T09:19:20.839Z
 shareable: true
 content:
   - tag: title
-    text: 完整流程
+    text: 选课流程
 
-  - tag: img
-    src: $img/course/register.png
+  - tag: p
+    text: 选课分为预选、抽签、正选、退补选三个阶段。注课操作方式与选课正选阶段相同。
+
+  - tag: table
+    header:
+      - 选课阶段
+      - 开始时间
+      - 天数
+      - 备注
+    body:
+      - - 预选
+        - 第十五周
+        - "5"
+        - 所有课程不限人数
+
+      - - 抽签
+        - 预选结束后
+        - "2"
+        - 大于限定人数的课堂随机抽签
+
+      - - 正选
+        - 预选结束2天以后
+        - "5"
+        - 限定容量，先来先得
+
+      - - 退补选
+        - 正式开课一周后
+        - "5"
+        - 少量退补选
 
   - tag: title
     text: 相关提示

@@ -1,6 +1,6 @@
 title: 教务系统
 author: Mr.Hope
-time: 2022-09-06
+time: 2023-09-06T09:19:20.882Z
 grey: true
 shareable: true
 content:
@@ -33,10 +33,3 @@ content:
       - text: 评教
         icon: teacher
         path: post/course-evaluate
-
-  - tag: list
-    header: 线上课程信息中心
-    items:
-      - text: 系统介绍
-        icon: intro
-        path: online/

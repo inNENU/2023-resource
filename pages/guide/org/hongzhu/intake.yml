@@ -1,21 +1,24 @@
 title: 红烛志愿者协会纳新
-time: 2023-06-21T19:27:22.684Z
+time: 2023-09-06T09:19:20.818Z
 shareable: true
 content:
-  - tag: p
-    heading: " "
+  - tag: text
     text:
-      - 红烛志愿者协会，校团委直属协会，被国务院评为“全国扶残助残先进集体”、团中央评为“中国十大杰出志愿服务群体”，二十六载光阴辗转成诗。烛火燎原，扶危济困，红烛欢迎各位同学加入！
+      - 当你在开学路途中时
+      - 你所幻想的大学生活是怎样的呢
+      - 是像高中一样时时刻苦学习
+      - 是结识很多志同道合的好友
+      - 是忙碌于各项比赛积累经验
+      - 还是有一份热，发一份光
+      - 为处于黑暗的人们照亮前路
+      - 如果你希望为他人，为社会做一点贡献
+      - 加入红烛志愿者协会就是你的最佳选择
+    align: center
 
   - tag: img
-    src: $img/organization/hongzhu1.jpg
+    src: $img/organization/hongzhu/group1.jpg
+    desc: 纳新1群
 
   - tag: img
-    src: $img/organization/hongzhu2.jpg
-
-  - tag: img
-    src: $img/organization/hongzhu3.jpg
-
-  - tag: action
-    header: 报名问卷
-    content: https://www.wjx.cn/vm/m9HsptR.aspx
+    src: $img/organization/hongzhu/group2.jpg
+    desc: 纳新2群

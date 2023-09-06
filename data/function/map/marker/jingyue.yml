@@ -315,13 +315,13 @@ scenery:
       name: 紫光桥
       detail: 净月校区紫光桥
 
-    - latitude: 43.826883
-      longitude: 125.42644
+    - latitude: 43.826892
+      longitude: 125.426414
       name: 喷泉
       detail: 净月校区喷泉
 
-    - latitude: 43.827
-      longitude: 125.426512
+    - latitude: 43.826993
+      longitude: 125.42667
       name: 鱼池
       detail: 净月校区鱼池
 
@@ -490,7 +490,7 @@ sports:
       name: 羽毛球场
       detail: 净月校区羽毛球场
 
-    - latitude: 43.826294
-      longitude: 125.420678
+    - latitude: 43.824143
+      longitude: 125.423497
       name: 健身路径
       detail: 净月校区健身路径

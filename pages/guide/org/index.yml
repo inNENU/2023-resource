@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2023-06-15T17:20:12.238Z
+time: 2023-09-06T09:19:20.802Z
 shareable: true
 grey: true
 content:
@@ -27,7 +27,7 @@ content:
         path: association-union
 
       - text: 红烛志愿者协会
-        icon: $img/organization/hongZhu.png
+        icon: $img/organization/hongzhu/logo.png
         path: hongzhu/
 
       - text: 厚普公益学校

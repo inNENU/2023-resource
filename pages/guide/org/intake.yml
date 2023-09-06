@@ -2,7 +2,7 @@ title: 学生组织纳新
 desc: |-
   新增、修改、删除学生组织纳新信息请联系 Mr.Hope
 author: Mr.Hope
-time: 2023-09-01T12:58:39.196Z
+time: 2023-09-06T09:19:20.804Z
 shareable: true
 content:
   - tag: card
@@ -45,7 +45,7 @@ content:
         path: hope/art-intake
 
       - text: 红烛志愿者协会
-        icon: $img/organization/hongZhu.png
+        icon: $img/organization/hongzhu/logo.png
         path: hongzhu/intake
 
   - tag: functional-list

@@ -1,11 +1,17 @@
 title: 新生注课
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-06T09:19:20.846Z
 shareable: true
 content:
   - tag: text
     type: tip
     text: 新生第一学期选课为注课，不用抢课。
+
+  - tag: text
+    type: info
+    heading: 注课
+    text:
+      - 第一个学期采取注课制，一般在学期初进行。新生入学以后，第一个学期教务处和学院先安排学生上课，学生熟悉学习环境以后，根据上课情况在网上选择自己所在的课堂。
 
   - tag: text
     type: info
