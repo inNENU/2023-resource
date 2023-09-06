@@ -1161,74 +1161,202 @@
         ]
       },
       "additionalItems": false
+    },
+    "service-status": {
+      "description": "服务状态",
+      "oneOf": [{ "const": "local" }, { "const": "online" }]
     }
   },
   "properties": {
-    "title": {
-      "description": "导航栏标题",
-      "type": "string",
-      "maxLength": 12
+    "main-page": {
+      "type": "object",
+      "patternProperties": {
+        "^(\\d{4}|unlogin|default)": { "type": "string" }
+      }
     },
-    "desc": {
-      "description": "页面描述",
-      "type": "string"
+    "main-presets": {
+      "type": "object",
+      "patternProperties": {
+        ".*": { "$ref": "#/$defs/components" }
+      }
     },
-    "author": {
-      "description": "页面作者",
-      "oneOf": [
-        { "type": "string" },
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
+    "function-page": {
+      "type": "object",
+      "patternProperties": {
+        "^(\\d{4}|unlogin|default)": { "type": "string" }
+      }
+    },
+    "function-presets": {
+      "type": "object",
+      "patternProperties": {
+        "patternProperties": {
+          ".*": { "$ref": "#/$defs/components" }
+        }
+      }
+    },
+    "intro-page": {
+      "type": "object",
+      "patternProperties": {
+        "^(\\d{4}|unlogin|default)": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "more": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
           }
         }
-      ]
+      }
     },
-    "time": {
-      "description": "页面更新时间",
-      "type": "string",
-      "oneOf": [
-        {
-          "format": "date"
-        },
-        {
-          "format": "date-string"
+    "guide-page": {
+      "type": "object",
+      "patternProperties": {
+        "^(\\d{4}|unlogin|default)": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "more": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
         }
-      ]
+      }
     },
-    "grey": {
-      "description": "页面是否使用黑色背景",
-      "type": "boolean"
-    },
-    "outdated": {
-      "description": "页面内容是否过时",
-      "type": "boolean"
-    },
-    "cite": {
-      "description": "页面引用",
-      "type": ["string", "array"],
-      "oneOf": [
-        { "type": "string", "pattern": "^https?:\\/\\/" },
-        {
-          "type": "array",
-          "items": { "type": "string", "pattern": "^https?:\\/\\/" }
-        }
-      ]
-    },
-    "shareable": {
-      "description": "页面是否可分享",
-      "type": "boolean"
-    },
-    "content": {
-      "description": "页面内容",
+    "user": {
       "$ref": "#/$defs/components"
     },
-    "action": {
-      "description": "左上角按钮触发函数",
-      "oneOf": [{ "type": "string" }, { "const": false }]
+    "about": {
+      "$ref": "#/$defs/components"
+    },
+    "service": {
+      "type": "object",
+      "properties": {
+        "activate": {
+          "description": "账号激活",
+          "$ref": "#/$defs/service-status"
+        },
+        "apply-email": {
+          "description": "邮箱申请",
+          "$ref": "#/$defs/service-status"
+        },
+        "borrow-books": {
+          "description": "借书数据",
+          "$ref": "#/$defs/service-status"
+        },
+        "card-balance": {
+          "description": "校园卡余额",
+          "$ref": "#/$defs/service-status"
+        },
+        "change-major-plan": {
+          "description": "转专业计划",
+          "$ref": "#/$defs/service-status"
+        },
+        "course-grade": {
+          "description": "成绩列表",
+          "$ref": "#/$defs/service-status"
+        },
+        "course-table": {
+          "description": "课程表",
+          "$ref": "#/$defs/service-status"
+        },
+        "exam-place": {
+          "description": "考场地点",
+          "$ref": "#/$defs/service-status"
+        },
+        "check-email": {
+          "description": "邮箱检查",
+          "$ref": "#/$defs/service-status"
+        },
+        "recent-email": {
+          "description": "近期邮件",
+          "$ref": "#/$defs/service-status"
+        },
+        "email-page": {
+          "description": "邮件页面",
+          "$ref": "#/$defs/service-status"
+        },
+        "info-list": {
+          "description": "官网通知列表",
+          "$ref": "#/$defs/service-status"
+        },
+
+        "info-detail": {
+          "description": "官网通知详情",
+          "$ref": "#/$defs/service-status"
+        },
+        "reset": {
+          "description": "密码重置",
+          "$ref": "#/$defs/service-status"
+        },
+        "notice-list": {
+          "description": "通知列表",
+          "$ref": "#/$defs/service-status"
+        },
+        "notice-detail": {
+          "description": "通知详情",
+          "$ref": "#/$defs/service-status"
+        }
+      },
+      "additionalProperties": false
+    },
+    "notice": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "description": "页面 ID",
+          "type": "object",
+          "properties": {
+            "title": {
+              "description": "通知标题",
+              "type": "string"
+            },
+            "content": {
+              "description": "通知内容",
+              "type": "string"
+            },
+            "force": {
+              "description": "是否强制显示",
+              "type": "boolean"
+            }
+          },
+          "required": ["title", "content"]
+        }
+      }
+    },
+    "update": {
+      "type": "object",
+      "description": "升级配置",
+      "properties": {
+        "force": {
+          "description": "是否强制升级",
+          "type": "boolean"
+        },
+        "reset": {
+          "description": "是否重置",
+          "type": "boolean"
+        }
+      }
     }
   },
-  "required": ["title", "content"],
+  "required": [
+    "main-page",
+    "main-presets",
+    "function-page",
+    "function-presets",
+    "intro-page",
+    "guide-page",
+    "user",
+    "about",
+    "service",
+    "notice"
+  ],
   "type": "object"
 }

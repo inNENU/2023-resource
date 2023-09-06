@@ -1,5 +1,6 @@
 {
   "yaml.schemas": {
+    "./.vscode/settings.schema.json": ["/config/**/settings.yml"],
     "./.vscode/account.schema.json": ["/data/account/*.yml"],
     "./.vscode/qq-account.schema.json": ["/data/function/account/qq.yml"],
     "./.vscode/wx-account.schema.json": ["/data/function/account/wx.yml"],

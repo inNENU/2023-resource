@@ -66,7 +66,6 @@ main-presets:
           color: olive
           name: Intro
           icon: about
-          post: null
           path: newcomer/intro/
 
         - text: 校园卡
@@ -790,15 +789,13 @@ about:
         url: info?path=Oabout/copyright
 
 service:
+  apply-email: local
   course-grade: local
   course-table: local
   info-detail: local
   info-list: local
-  enroll-grade: local
-  enroll-plan: local
   notice-detail: local
   notice-list: local
-  email: local
 
 notice:
   app:
