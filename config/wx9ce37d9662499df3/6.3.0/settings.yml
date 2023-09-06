@@ -766,6 +766,10 @@ notice:
   activate:
     title: 手机验证码
     content: 学校的短信验证服务发送验证码有较高延迟，请耐心等待。另外部分手机号可能收不到验证码，遇到此情况可更换家人号码尝试激活。
+  main:
+    title: 学校故障通知
+    content: 目前，因学校 Web VPN 故障，导致小程序无法使用。为及时获取此类通知，请关注 in东师 微信公众号。
+    force: true
 
 update:
   force: false
