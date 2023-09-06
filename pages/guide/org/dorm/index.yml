@@ -3,7 +3,7 @@ shareable: true
 content:
   - tag: account
     name: 东师小窝
-    logo: $img/organization/xiaowo.png
+    logo: $img/organization/xiaowo/logo.png
     detail: 东北师范大学学生宿舍自我管理委员会
     desc: 东师小蜗牛们的温暖家园
     qq: 3544543750
@@ -12,12 +12,12 @@ content:
 
     account: xiaowo
 
-  # - tag: card
-  #   cover: $img/media/join.png
-  #   logo: $img/organization/xiaowo.png
-  #   name: 东师小窝
-  #   title: 我们在纳新
-  #   url: info?path=/guide/org/dorm/intake
+  - tag: card
+    cover: $img/media/join.png
+    logo: $img/organization/xiaowo/logo.png
+    name: 东师小窝
+    title: 我们在纳新
+    url: intake
 
   - tag: title
     text: 组织介绍

@@ -1,7 +1,7 @@
 title: 红烛志愿者协会
 desc: |-
   来源: 校团委官网
-time: 2023-09-06T09:19:20.817Z
+time: 2023-09-06T18:11:27.754Z
 shareable: true
 content:
   - tag: account
@@ -12,6 +12,13 @@ content:
     wxid: zhiyuandongshi
     account: zhiyuandongshi
     mail: dongshihongzhu@163.com
+
+  - tag: card
+    cover: $img/media/join.png
+    name: 红烛
+    logo: $img/organization/hongzhu/logo.png
+    title: 我们在纳新
+    path: intake
 
   - tag: p
     heading: " "

@@ -8,27 +8,46 @@ content:
     qqid: E84B43674E54793277416D189D4780DD
     qqcode: $img/media/nenuyouth-qq-qrcode.png
     wxid: nenuxsh40
-
     account: nenuyouth
     mail: su@nenu.edu.cn
 
   - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkaWCR4aDTneRttJA1aicVDCDoeibt7dlDxLweq9LPysYuibrTQ9VLn90LPPEyV3xVvjcAd53CibOxkBA/0?wx_fmt=jpeg
+    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmJeFl3bsgZ07CUuyBTcRZCSojzEQsLiaD3qLLGDJKOPvYab4nPk3pRWXscZIcL7SabdToEgAIvaQg/0?wx_fmt=jpeg
     logo: $img/organization/nenuyouth.png
     name: 东师青年
-    title: 欣欣向“融” ，“媒”你不行！快来加入我们吧！
-    desc: 融媒体大家庭期待你的到来!
-    url: https://mp.weixin.qq.com/s/_Kuk0Ijc19aLMUXz-fqyJg
+    title: 纳新 | 欣欣向“融”，“媒”你不行
+    desc: 本部融媒体大家庭期待你的到来!
+    url: https://mp.weixin.qq.com/s/em6A95hFPczubpB_lX24-A
     env:
       - app
       - wx
 
   - tag: card
-    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJkaWCR4aDTneRttJA1aicVDCDoeibt7dlDxLweq9LPysYuibrTQ9VLn90LPPEyV3xVvjcAd53CibOxkBA/0?wx_fmt=jpeg
+    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJmJeFl3bsgZ07CUuyBTcRZCSojzEQsLiaD3qLLGDJKOPvYab4nPk3pRWXscZIcL7SabdToEgAIvaQg/0?wx_fmt=jpeg
     logo: $img/organization/nenuyouth.png
     name: 东师青年
-    title: 欣欣向“融” ，“媒”你不行！快来加入我们吧！
-    desc: 融媒体大家庭期待你的到来!
+    title: 纳新 | 欣欣向“融”，“媒”你不行
+    desc: 本部融媒体大家庭期待你的到来!
+    path: intake
+    env:
+      - qq
+
+  - tag: card
+    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJn5IickDPVSLsMGH4acCSJZDl5ozPdVL3tdnIkZV3J1Y3UlBuic2gN7BngUED4X5w1G5DiaB1uD5RUdQ/0?wx_fmt=jpeg
+    name: 东师青年
+    title: 纳新进行时丨“融”汇力量 “媒”好启程
+    desc: 净月融媒体大家庭期待你的到来!
+    url: https://mp.weixin.qq.com/s/TBfVD-FSotCpVCSsGDoGhw
+    env:
+      - app
+      - wx
+
+  - tag: card
+    cover: https://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJn5IickDPVSLsMGH4acCSJZDl5ozPdVL3tdnIkZV3J1Y3UlBuic2gN7BngUED4X5w1G5DiaB1uD5RUdQ/0?wx_fmt=jpeg
+    logo: $img/organization/nenuyouth.png
+    name: 东师青年
+    title: 纳新进行时丨“融”汇力量 “媒”好启程
+    desc: 净月融媒体大家庭期待你的到来!
     path: intake
     env:
       - qq

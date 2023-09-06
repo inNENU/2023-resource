@@ -1,7 +1,7 @@
 title: “东师之声”校园广播站
 desc: |-
   来源: 校团委官网
-time: 2023-09-05T02:41:10.043Z
+time: 2023-09-06T18:11:27.765Z
 shareable: true
 content:
   - tag: account
@@ -15,12 +15,12 @@ content:
 
     account: voice
 
-  # - tag: card
-  #   cover: $img/media/join.png
-  #   logo: $img/organization/voice.png
-  #   name: “东师之声”校园广播站
-  #   title: 我们在纳新
-  #   url: info?path=/guide/org/voice/intake
+  - tag: card
+    cover: $img/media/join.png
+    logo: $img/organization/voice.png
+    name: “东师之声”校园广播站
+    title: 我们在纳新
+    path: intake
 
   - tag: title
     text: 组织简介
@@ -44,18 +44,37 @@ content:
       - 英语节目中心
       - 文娱节目中心
 
-  - tag: ul
-    heading: 节目中心
+  - tag: text
+    type: info
+    heading: 知识节目中心
     text:
-      - 广宣组
-      - 运营组
+      - 在这里，你可以成为节目主播，领略文学魅力，畅游历史长河，解读专业知识，科普生活常识；在这里，你可以成为记者或者主持人，制作采访与访谈节目，近距离接触优秀师生；在这里，你可以成为文字编辑，管理资料库，创作广播剧，编写宣传标；在这里你可以成为声优，为广播剧角色配音；在这里你可以参加多姿多彩的团建活动，交到更多的朋友。你所期待，尽在知识节目中心。
 
-  - tag: ul
+  - tag: text
+    type: info
+    heading: 英语节目中心
     text:
-      - 播音部下设新闻、纵声校园、综艺以及英语四个风格，以贴近校园生活内容为主，进行日常广播节目播送，并逐步开展联系宣传校园新闻及学院活动的板块内容。
-      - 广播剧部分为声优组、后期组、编剧组，致力于编写剧本并进行演绎，以声音增添校园生活趣味，并在荔枝、猫儿等平台进行播放。
-      - 融媒体部主要分为运营组、设计组、记者组、视音组，负责线上平台运营、海报设计、宣传采访、视频剪辑等。
-      - 办公室由秘书处与外联组构成，主要负责日常工作记录、外联工作、活动准备以及协助其它部门等任务。
+      - 用英语讲述百味人生，用英语记录美好生活。选择精彩，聆听青春，你想要的，英语中心带给你。这里有丰富的节目类型，这里有多姿的校园故事。
+      - Come and join us to practice your colloquial language, intonation and experience a meaningful campus life.
+
+  - tag: text
+    type: info
+    heading: 文娱节目中心
+    text:
+      - 文娱节目聚焦文化与娱乐。在这里，我们一同走进中华文化；在这里，我们一同品评电影音乐。文娱节目涉及领域广泛，内容多样，形式多变，用声音给广大师生以听觉的享受。
+
+  - tag: text
+    heading: 融媒体中心
+    text:
+      - |-
+        本部: 设计组 运营组 视音组
+      - |-
+        净月: 运营组 视频组 音频组
+
+  - tag: text
+    heading: 办公室
+    text:
+      - 办公室是以协助主席团处理日常事务为工作中心并配合校团委做好上传下达工作的部门。不论广播站内部各部门的团结协作，还是广播站各项事务的联络，以及与校团委和其他组织的联系，都离不开办公室成员的工作。在这里大家可以学习到各项操作技能，也可以锻炼自身的交流能力。加入办公室，让我们共同学习成长！
 
   - tag: title
     text: 活动介绍

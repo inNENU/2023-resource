@@ -201,12 +201,12 @@
 
     - name: NENU 东小青
       desc: 东北师范大学《东师青年》报社
-      logo: $img/organization/newspaper.png
+      logo: $img/organization/newspaper/logo.png
       path: newspaper
 
     - name: 东师小窝
       desc: 东北师范大学学生宿舍自我管理委员会
-      logo: $img/organization/xiaowo.png
+      logo: $img/organization/xiaowo/logo.png
       path: xiaowo
 
     - name: 东师之声校园广播

@@ -1,6 +1,6 @@
 title: 学生组织
 author: Mr.Hope
-time: 2023-09-06T09:19:20.802Z
+time: 2023-09-06T18:11:27.739Z
 shareable: true
 grey: true
 content:
@@ -38,12 +38,8 @@ content:
         icon: $img/organization/yan-zhi.png
         path: yan-zhi
 
-      - text: 团委融媒体中心
-        icon: $img/organization/nenuyouth.png
-        path: media/
-
       - text: 《东师青年》报社
-        icon: $img/organization/newspaper.png
+        icon: $img/organization/newspaper/logo.png
         path: newspaper/
 
       - text: “东师之声”校园广播站
@@ -70,7 +66,7 @@ content:
     header: 学生处
     items:
       - text: 东师小窝
-        icon: $img/organization/xiaowo.png
+        icon: $img/organization/xiaowo/logo.png
         path: dorm/
 
   - tag: list
@@ -83,3 +79,19 @@ content:
       - text: 爱心使者团
         icon: $img/organization/aixinshizhe.png
         path: love-messenger
+
+  - tag: list
+    header: 学校新媒体
+    items:
+      - text: 官微
+        icon: $img/media/official.png
+
+      - text: 团委融媒体中心
+        icon: $img/organization/nenuyouth.png
+        path: media/
+
+      - text: 拾全拾美
+        icon: $img/media/shiquanshimei.jpg
+
+      - text: 招办新媒体
+        icon: $img/media/shiquanshimei.jpg

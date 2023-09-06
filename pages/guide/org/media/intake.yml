@@ -5,7 +5,7 @@ content:
     align: center
     text:
       - |-
-        致 2022 级的 NENUers:
+        亲爱的2023级的小伙伴们:
       - 初来乍到，校会君持续为你导航～
       - 文字与光影交汇
       - 这里有，青春的独家树洞
@@ -32,29 +32,26 @@ content:
       - 多次荣获中华学联全国高校学生会、研究生会微信影响力排行榜单第一，2 次获得第二
       - "......"
 
-  - tag: img
-    src: $img/organization/media-poster.jpg
-
   - tag: text
     align: center
     text:
-      - 超强的学习能力
-      - 自信的言行举止
-      - 志同道合的伙伴
-      - 无法在课堂中锻炼的新媒体信息资讯搜集能力
-      - 不拘泥于校内的广阔视野
-      - 理性的看问题角度
-      - "......"
-      - 与你的无限可能相拥
-      - 无惧携手同青春赛跑
-      - 因为我们，正当年少
-      - 校会君正在等待你~
-      - 快来加入我们吧！
+      - 妙趣横生的头脑风暴
+      - 激情四射的思维碰撞
+      - 百花齐放的题材成果
+      - 最真实的新媒体编辑实践
+      - 在这里
+      - 你的技能得以实践和提高
+      - 在这里
+      - 你的梦想会无限接近现实
+      - 融媒体中心“拍了拍”你
+      - 并向你投出了橄榄枝！
+      - 让我们携手共进
+      - 走向更好的未来
 
   - tag: img
-    src: $img/organization/media-benbu-2022.png
-    desc: 本部纳新群 (已截止)
+    src: $img/organization/media/benbu-group.png
+    desc: 本部纳新群
 
   - tag: img
-    src: $img/organization/media-jingyue-2022.png
+    src: $img/organization/media/jingyue-group.png
     desc: 净月纳新群

@@ -18,9 +18,6 @@ content:
   - tag: img
     src: $img/organization/voice-intro.jpg
 
-  - tag: img
-    src: $img/organization/voice-2022.jpg
-
-  - tag: action
-    header: 东师之声校园广播站纳新推送
-    content: https://mp.weixin.qq.com/s?__biz=MjM5MjIzMTk4NQ==&mid=2650966290&idx=1&sn=86bd397cfc9df935fb0b1b0719326365&chksm=bd5f4e4c8a28c75a7cb3689f7841aeaf0ae443522f8154d408edf66d5e3eac7c2608059909a1&mpshare=1&scene=23&srcid=0909mET2K0saE1ga5uWwivU8&sharer_sharetime=1662957475911&sharer_shareid=72736667d782ce2fc774dfb8056d46e7#rd
+  - tag: text
+    text:
+      - 如果你想要加入我们，就请在“东师之声校园广播”微信平台留下你的姓名、学院、年级和联系方式。我们会第一时间联系你们！

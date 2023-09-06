@@ -1,20 +1,14 @@
 title: 南苑餐厅
-desc: |-
-  简介部分来自东北师范大学后勤保障部官网
 author: Mr.Hope
-time: 2023-07-16T11:41:46.778Z
+time: 2023-09-06T18:11:27.519Z
 grey: true
 shareable: true
 content:
-  - tag: p
-    type: info
-    heading: 简介
-    text:
-      - 南苑餐厅位于校区南部，靠近学生七舍。餐厅 1999 年投入使用，2011 年重新维护改造，建筑面积 10519.19 平方米，可同时容纳 1416 人就餐。食堂一层为特色风味餐厅，二层为基本餐厅，三层为清真餐厅。特色风味及清真餐厅全天营业。
-
-  - tag: img
-    src: $img/dining/nanyuan/env.jpg
-    watermark: true
+  - tag: list
+    items:
+      - text: 介绍
+        icon: about
+        url: intro
 
   - tag: list
     header: 一楼
@@ -39,9 +33,3 @@ content:
 
       - text: 了解更多
         path: 3f
-
-  - tag: phone
-    header: 服务电话
-    num: 0431-85099579
-    fName: 南苑餐厅服务电话
-    org: 东北师范大学

@@ -1,16 +1,22 @@
 title: in 东师更新日志
 content:
   - tag: title
-    text: 已知问题
+    text: 近期更新
 
   - tag: list
-    header: false
+    header: v6.3.0
     items:
       - text: |-
-          iOS QQ 客户端夜间模式异常
+          · 考场查询
+          · 转专业计划
+          · 优化网页显示
+          · 首页增加通知列表
 
-  - tag: title
-    text: 近期更新
+  - tag: list
+    header: v6.2.0
+    items:
+      - text: |-
+          · 支持研究生选课、课程表与成绩查询
 
   - tag: list
     header: v6.1.0
