@@ -1,6 +1,6 @@
 title: 使用 IE 内核浏览网页
 author: Mr.Hope
-time: 2023-07-16T11:41:47.635Z
+time: 2023-09-08T06:21:50.993Z
 shareable: true
 content:
   - tag: title
@@ -8,15 +8,15 @@ content:
 
   - tag: p
     text:
-      - 目前学校所使用的本科教学服务系统、研究生教学服务系统均由湖南强智科技发展有限公司开发。
-      - 这套系统是 21 世纪初(约 2005 年前后研发)的版本，版本很老。由于学校的经费、管理问题，后续一直没有对系统进行更新。
+      - 目前学校所使用的本科生、研究生教学服务系统均由湖南强智科技发展有限公司开发。
+      - 这套系统是 21 世纪初 (约 2005 年前后研发) 的版本，版本很老。由于学校的经费、管理问题，后续一直没有对系统进行更新。
 
   - tag: title
     text: 系统兼容性
 
   - tag: text
     text:
-      - 由于教学服务系统研发于 21 世纪初期，只能运行在 IE(Internet Explorer) 内核浏览器上 (如 IE11、IE10、IE9)。
+      - 由于教学服务系统研发于 21 世纪初期，只能运行在 IE (Internet Explorer) 内核浏览器上 (如 IE11、IE10、IE9)。
       - 其他浏览器无法解析运行脚本，会出现“不能创建对象”的错误提示。
 
   - tag: text
@@ -39,6 +39,14 @@ content:
       - 为了提供历史向下兼容，微软在 Microsoft Edge 提供了兼容模式。为了良好的体验，Mr.Hope 建议您使用 Chrome 配合 IE Tab 扩展程序。
 
   - tag: text
+    type: info
+    heading: Win 11 与 Win10 20H2 及以后版本
+    text:
+      - 目前，微软暂未在系统中移除 IE 组件，也没有禁用入口，您可以使用脚本强制打开。
+      - 这也是 Mr.Hope 最为推荐的方式。
+    path: ie
+
+  - tag: text
     heading: 老版本 Windows
     text:
       - Window 10 20H1 及以前版本的系统仍然包含了 IE (Internet Explorer)。
@@ -59,14 +67,6 @@ content:
 
   - tag: text
     type: info
-    heading: 使用 Chrome 配合 IETab 扩展程序
-    text:
-      - 您可以使用 Chrome (Microsoft Edge 也可但不建议) 配合 IETab 扩展程序来使用 IE 内核打开网页。
-      - 这也是 Mr.Hope 最为推荐的方式。
-    path: ietab/
-
-  - tag: text
-    type: info
     heading: 使用 Microsoft Edge 提供的 IE 兼容模式
     text:
       - Microsoft Edge 目前提供了 IE 兼容模式。您可以通过 IE 兼容模式访问所有历史版本的 IE 网页。
@@ -74,10 +74,17 @@ content:
     path: msedge
 
   - tag: text
+    type: info
+    heading: 使用 Chrome 配合 IETab 扩展程序
+    text:
+      - 您可以使用 Chrome (Microsoft Edge 也可但不建议) 配合 IETab 扩展程序来使用 IE 内核打开网页。
+    path: ietab/
+
+  - tag: text
     type: danger
     heading: 使用自带 IE 内核的 360 安全浏览器
     text:
-      - 360 安全浏览器自带 IE 内核，可以使用 IE 11 兼容模式打开网页，而且安装简单。但是 360 安全浏览器带有大量的推广、广告以及旗下其他产品、相关游戏的诱导下载，小白极易中招。
+      - 360 安全浏览器自带 IE 内核，可以使用 IE 11 兼容模式打开网页，而且安装简单。但是 360 安全浏览器带有大量的推广、广告以及旗下其他产品、第三方游戏的诱导下载，小白极易中招。
       - Mr.Hope 极其不推荐您安装 360。请您尽可能选择上方的两个选择。
     path: 360/
 
