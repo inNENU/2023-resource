@@ -1,6 +1,6 @@
 main-page:
   unlogin: newcomer
-  "2023": newcomer
+  "2023": at-school
   default: at-school
 
 main-presets:
@@ -296,6 +296,12 @@ function-presets:
           name: Select
           icon: select
           url: select
+
+        - text: 学籍注册
+          color: purple
+          name: Study Archive
+          icon: archive
+          url: study-archive
 
         - text: 校园邮箱
           color: purple
