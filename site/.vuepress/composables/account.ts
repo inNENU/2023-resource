@@ -32,7 +32,7 @@ export const setupAccount = () => {
             } else if (wxid) {
               message.pop(
                 `<img src="${`https://open.weixin.qq.com/qr/code?username=${wxid}`}" />`,
-                5000
+                5000,
               );
             }
           });
@@ -42,7 +42,7 @@ export const setupAccount = () => {
     watch(
       () => page.value.path,
       () => registerAccount(),
-      { immediate: true }
+      { immediate: true },
     );
   });
 };
