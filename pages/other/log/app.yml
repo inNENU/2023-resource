@@ -4,6 +4,14 @@ content:
     text: 近期更新
 
   - tag: list
+    header: v6.4.0
+    items:
+      - text: |-
+          · 学籍查询
+          · 学籍注册
+          · 学籍建立
+
+  - tag: list
     header: v6.3.0
     items:
       - text: |-
