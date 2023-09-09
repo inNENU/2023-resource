@@ -122,6 +122,12 @@ main-presets:
           icon: select
           url: select
 
+        - text: 学籍注册
+          color: purple
+          name: Study Archive
+          icon: archive
+          url: study-archive
+
         - text: 校园邮箱
           color: purple
           name: Email
@@ -291,6 +297,12 @@ function-presets:
           icon: select
           url: select
 
+        - text: 学籍注册
+          color: purple
+          name: Study Archive
+          icon: archive
+          url: study-archive
+
         - text: 校园邮箱
           color: purple
           name: Email
@@ -455,6 +467,12 @@ function-presets:
           name: Select
           icon: select
           url: select
+
+        - text: 学籍注册
+          color: purple
+          name: Study Archive
+          icon: archive
+          url: study-archive
 
         - text: 内网新闻
           color: cyan
@@ -756,7 +774,7 @@ service:
   notice-list: local
 
 notice:
-  app:
+  main:
     title: 欢迎使用『东师青年+』
     content: 欢迎使用东师青年+。这是一个由校团委融媒体中心授权 Mr.Hope 个人开发制作的小程序，内含 101 万字的新生攻略。小程序内容仅代表 Mr.Hope 的个人观点，希望大家能够通过小程序摆脱对大学的迷茫。
   activate:
