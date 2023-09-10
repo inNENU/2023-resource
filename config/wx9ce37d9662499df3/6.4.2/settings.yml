@@ -735,7 +735,7 @@ about:
       - text: 小程序现有字数为 1012457 字，其中东师指南部分 346440 字，新生迎新部分 101873 字，东师介绍部分 264341 字，机构介绍部分 66975 字，学院介绍部分 143995 字，功能大厅部分 42772 字，其他部分 46061 字。
 
       - text: 校团委融媒体中心介绍
-        url: info?path=Gorg/new-media-center
+        url: info?path=Gorg/media/
 
       - text: Mr.Hope 个人介绍
         url: info?path=Oabout/mrhope
