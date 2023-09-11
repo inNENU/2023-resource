@@ -297,6 +297,12 @@ function-presets:
           icon: map
           url: map
 
+        - text: 学籍注册
+          color: purple
+          name: Study Archive
+          icon: archive
+          url: study-archive
+
         - text: 课程表
           color: grey
           name: Course
@@ -467,6 +473,12 @@ function-presets:
           name: Notice
           icon: notice
           url: notice-list
+
+        - text: 学籍注册
+          color: purple
+          name: Study Archive
+          icon: archive
+          url: study-archive
 
         - text: 校园邮箱
           color: purple

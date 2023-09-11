@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Login Handler
+ * Search Handler
  *
  * PHP version 8
  *
@@ -16,6 +16,17 @@
 declare(strict_types=1);
 
 require_once 'header/post-json.php';
+
+enum SearchIndexType: int
+{
+  case Title = 1;
+  case Heading = 2;
+  case Text = 3;
+  case Image = 4;
+  case Card = 5;
+  case Doc = 6;
+}
+
 
 function generateWordInfo(string $word): object
 {
@@ -88,9 +99,6 @@ function generateWords(string $searchWord): array
  */
 function getWordList(string $searchWord, object $searchIndex): array
 {
-  $TITLE = 1;
-  $HEADING = 2;
-
   $words = [];
 
   foreach ($searchIndex as $pageID => $indexContent) {
@@ -105,7 +113,10 @@ function getWordList(string $searchWord, object $searchIndex): array
       $config = $indexItem[1];
 
       // 检查大小标题是否包含了 searchWord
-      if ($type === $TITLE || $type === $HEADING) {
+      if (
+        $type === SearchIndexType::Title || $type ===
+        SearchIndexType::Heading
+      ) {
         if (mb_strpos($config, $searchWord) !== false && in_array($config, $words) === false) {
           array_push($words, $config);
         }
@@ -118,12 +129,6 @@ function getWordList(string $searchWord, object $searchIndex): array
 
 function getMatchList(array $words, array $indexContent)
 {
-  $TITLE = 1;
-  $HEADING = 2;
-  $TEXT = 3;
-  $IMAGE = 4;
-  $CARD = 5;
-  $DOC = 6;
 
   $matchTimes = 0;
   $matchList = [];
@@ -145,7 +150,7 @@ function getMatchList(array $words, array $indexContent)
       $config = $indexItem[1];
 
       // 搜索大标题，权重为 4
-      if ($type === $TITLE) {
+      if ($type === SearchIndexType::Title) {
         if (
           mb_strpos($config, $word->text) !== false
         ) {
@@ -157,7 +162,7 @@ function getMatchList(array $words, array $indexContent)
         }
       }
       // 搜索段落标题，权重为 2
-      else if ($type === $HEADING) {
+      else if ($type === SearchIndexType::Heading) {
         if (
           mb_strpos($config, $word->text) !== false
         ) {
@@ -169,7 +174,7 @@ function getMatchList(array $words, array $indexContent)
         }
       }
       // 搜索文档，权重为 2
-      else if ($type === $DOC) {
+      else if ($type === SearchIndexType::Doc) {
         if (
           mb_strpos($config->name, $word->text) !== false
         ) {
@@ -184,7 +189,7 @@ function getMatchList(array $words, array $indexContent)
         }
       }
       // 搜索卡片，权重为 2
-      else if ($type === $CARD) {
+      else if ($type === SearchIndexType::Card) {
         if (
           mb_strpos($config->title, $word->text) !== false
         ) {
@@ -210,7 +215,7 @@ function getMatchList(array $words, array $indexContent)
         }
       }
       // 搜索文字，权重为 1
-      else if ($type === $TEXT) {
+      else if ($type === SearchIndexType::Text) {
         $pos = mb_strpos($config, $word->text);
 
         if (
@@ -234,7 +239,7 @@ function getMatchList(array $words, array $indexContent)
         }
       }
       // 搜索图片，权重为 1
-      else if ($type === $IMAGE) {
+      else if ($type === SearchIndexType::Image) {
         if (
           mb_strpos($config->desc, $word->text) !== false
         ) {
