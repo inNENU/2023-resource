@@ -44,21 +44,21 @@ export type SearchIndex =
   | CardSearchIndex;
 
 export type IDContentIndex = [
-  SearchItemType.ID,
+  type: SearchItemType.ID,
   /** 页面名称 */
-  string,
+  name: string,
   /** 搜索索引 */
-  SearchIndex[],
+  indexes: SearchIndex[],
 ];
 
 export type PageIndex = [
-  SearchItemType.Page,
+  type: SearchItemType.Page,
   /** 页面名称 */
-  string,
+  name: string,
   /** 页面图标 */
-  string,
+  icon: string,
   /** 页面标签 */
-  string[]?,
+  tags?: string[],
 ];
 
 export type SearchMap = Record<
