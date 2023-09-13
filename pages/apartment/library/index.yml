@@ -1,7 +1,7 @@
 title: 图书馆
 grey: true
 author: Mr.Hope
-time: 2023-09-05T02:41:08.531Z
+time: 2023-09-13T08:09:41.108Z
 shareable: true
 content:
   - tag: account
@@ -31,7 +31,7 @@ content:
   - tag: list
     items:
       - text: 馆藏分布
-        icon: bookshelf
+        icon: books
         path: distribution
 
       - text: 书目检索
@@ -89,7 +89,7 @@ content:
         path: hall
 
       - text: 电子资源
-        icon: bookshelf
+        icon: books
         path: evpn
 
       - text: 电子阅览室

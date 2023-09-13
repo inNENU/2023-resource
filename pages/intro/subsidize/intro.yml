@@ -1,6 +1,6 @@
 title: 资助体系介绍
 author: Mr.Hope
-time: 2023-08-25T13:34:12.815Z
+time: 2023-09-13T08:09:41.658Z
 shareable: true
 content:
   - tag: title
@@ -31,7 +31,7 @@ content:
     header: “贷”
     items:
       - text: 国家助学贷款
-        icon: charge
+        icon: loan
         path: loan/
 
       - text: 毕业生基层就业学费补偿

@@ -1,7 +1,7 @@
 title: 学校概况
 grey: true
 author: Mr.Hope
-time: 2023-07-21T15:51:37.144Z
+time: 2023-09-13T08:09:41.540Z
 shareable: true
 content:
   - tag: list
@@ -47,8 +47,8 @@ content:
         path: ../subject/
 
       - text: 对外合作办学
-        icon: student-org
-        path: cop
+        icon: cooperate
+        path: cooperate
 
   - tag: action
     header: 信息公开网

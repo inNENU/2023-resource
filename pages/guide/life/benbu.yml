@@ -1,6 +1,6 @@
 title: 本部生活分板块介绍
 author: Mr.Hope
-time: 2023-08-31T17:37:32.719Z
+time: 2023-09-13T08:09:42.148Z
 shareable: true
 content:
   - tag: title
@@ -105,7 +105,7 @@ content:
       - text: 书店
         name: Book
         color: grey
-        icon: bookshelf
+        icon: books
         path: book/benbu
 
       - text: 营业厅

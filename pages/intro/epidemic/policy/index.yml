@@ -1,5 +1,5 @@
 title: 国家疫情防控政策
-time: 2023-05-13T11:45:50.881Z
+time: 2023-09-13T08:09:41.599Z
 shareable: true
 cite: http://www.nhc.gov.cn/ylyjs/pqt/202301/32de5b2ff9bf4eaa88e75bdf7223a65a.shtml
 content:
@@ -17,7 +17,7 @@ content:
     header: false
     items:
       - text: 解读第十版方案
-        icon: intro
+        icon: explain
         path: explain
 
   - tag: list

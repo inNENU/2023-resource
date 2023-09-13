@@ -30,5 +30,5 @@ content:
         path: /school/geography/enroll
 
       - text: 学科建设
-        icon: bookshelf
+        icon: books
         path: /school/geography/subject

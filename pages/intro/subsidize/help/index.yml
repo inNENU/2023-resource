@@ -1,7 +1,7 @@
 title: 助学金
 grey: true
 author: Mr.Hope
-time: 2022-11-25
+time: 2023-09-13T08:09:41.664Z
 shareable: true
 content:
   - tag: list
@@ -16,4 +16,4 @@ content:
 
       - text: 2022 至 2023 学年学校助学金评审通知
         icon: notice
-        path: notice
+        url: notice-detail?id=c31f011610c64a60bdb00d8a3383e4cf&title=关于 2022 至 2023 学年学校助学金评审工作的通知

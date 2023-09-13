@@ -31,5 +31,5 @@ content:
         path: /school/history/enroll
 
       - text: 学科简介
-        icon: bookshelf
+        icon: books
         path: /school/history/subject

@@ -1,7 +1,7 @@
 title: 规章制度
 grey: true
 author: Mr.Hope
-time: 2023-08-26T14:42:45.816Z
+time: 2023-09-13T08:09:41.648Z
 shareable: true
 content:
   - tag: list
@@ -43,7 +43,7 @@ content:
         path: under-major-practice
 
       - text: 教育部普通高等学校教材管理办法
-        icon: bookshelf
+        icon: books
         path: book
 
   - tag: list

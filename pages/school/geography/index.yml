@@ -1,7 +1,7 @@
 title: 地理科学学院
 grey: true
 author: Mr.Hope
-time: 2023-09-05T02:41:08.742Z
+time: 2023-09-13T08:09:41.255Z
 shareable: true
 content:
   - tag: account
@@ -28,5 +28,5 @@ content:
         path: enroll
 
       - text: 学科建设
-        icon: bookshelf
+        icon: books
         path: subject

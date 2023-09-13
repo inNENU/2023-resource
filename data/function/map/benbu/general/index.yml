@@ -67,5 +67,5 @@ content:
         path: /intro/subject/rank
 
       - text: 对外合作办学
-        icon: student-org
-        path: /intro/about/cop
+        icon: cooperate
+        path: /intro/about/cooperate

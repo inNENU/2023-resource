@@ -1,6 +1,6 @@
 title: 师范生介绍
 author: Mr.Hope
-time: 2023-07-27T10:57:30.678Z
+time: 2023-09-13T08:09:42.225Z
 grey: true
 shareable: true
 content:
@@ -28,7 +28,7 @@ content:
         path: nation-great/notice
 
       - text: 教育部解读
-        icon: intro
+        icon: explain
         path: nation-great/explain
 
   - tag: list

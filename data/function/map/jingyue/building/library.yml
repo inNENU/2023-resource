@@ -31,7 +31,7 @@ content:
         path: /apartment/library/scene
 
       - text: 馆藏分布
-        icon: bookshelf
+        icon: books
         path: /apartment/library/distribution
 
       - text: 楼层平面图
@@ -71,7 +71,7 @@ content:
   - tag: list
     items:
       - text: 电子资源
-        icon: bookshelf
+        icon: books
         path: /apartment/library/evpn
 
       - text: 电子阅览室
