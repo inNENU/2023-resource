@@ -66,7 +66,7 @@ function create_search_map(string $folder): array
         if ($component['tag'] === 'title') {
           array_push($pageIndex[2], [SearchIndexType::Title, $component['text']]);
         } else if ($component['tag'] === 'text' || $component['tag'] === 'ul' || $component['tag'] === 'ol' || $component['tag'] === 'p') {
-          if (isset($component['heading']) && $component['heading'] !== TRUE) {
+          if (isset($component['heading']) && is_string($component['heading'])) {
             array_push($pageIndex[2], [SearchIndexType::Heading, $component['heading']]);
           }
           if (isset($component['text'])) {
@@ -82,7 +82,7 @@ function create_search_map(string $folder): array
             ]]);
           }
         } else if ($component['tag'] === 'list') {
-          if (isset($component['header'])) {
+          if (isset($component['header']) && is_string($component['header'])) {
             array_push($pageIndex[2], [SearchIndexType::Heading, $component['header']]);
           }
 
@@ -119,7 +119,7 @@ function create_search_map(string $folder): array
             array_push($pageIndex[2], [SearchIndexType::Text, $component['desc']]);
           }
         } else if ($component['tag'] === 'phone') {
-          if (isset($component['header'])) {
+          if (isset($component['header']) && is_string($component['header'])) {
             array_push($pageIndex[2], [SearchIndexType::Heading, $component['header']]);
           }
 

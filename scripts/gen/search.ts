@@ -12,27 +12,27 @@ const enum SearchItemType {
 }
 
 const enum SearchIndexType {
-  TITLE = 1,
-  HEADING = 2,
-  TEXT = 3,
-  IMAGE = 4,
-  CARD = 5,
-  DOC = 6,
+  Title = 1,
+  Heading = 2,
+  Text = 3,
+  Image = 4,
+  Card = 5,
+  Doc = 6,
 }
 
-export type TitleSearchIndex = [SearchIndexType.TITLE, string];
-export type HeadingSearchIndex = [SearchIndexType.HEADING, string];
-export type TextSearchIndex = [SearchIndexType.TEXT, string];
+export type TitleSearchIndex = [SearchIndexType.Title, string];
+export type HeadingSearchIndex = [SearchIndexType.Heading, string];
+export type TextSearchIndex = [SearchIndexType.Text, string];
 export type ImageSearchIndex = [
-  SearchIndexType.IMAGE,
+  SearchIndexType.Image,
   { desc: string; icon: string },
 ];
 export type CardSearchIndex = [
-  SearchIndexType.CARD,
+  SearchIndexType.Card,
   { title: string; desc: string },
 ];
 export type DocSearchIndex = [
-  SearchIndexType.DOC,
+  SearchIndexType.Doc,
   { name: string; icon: string },
 ];
 export type SearchIndex =
@@ -90,7 +90,7 @@ const createSearchMap = (folder: string): SearchMap => {
     page.content.forEach((element) => {
       /** 写入段落大标题 */
       if (element.tag === "title")
-        pageIndex[2].push([SearchIndexType.TITLE, element.text]);
+        pageIndex[2].push([SearchIndexType.Title, element.text]);
       else if (
         element.tag === "text" ||
         element.tag === "ul" ||
@@ -98,16 +98,16 @@ const createSearchMap = (folder: string): SearchMap => {
         element.tag === "p"
       ) {
         /** 写入段落标题 */
-        if (element.heading && element.heading !== true)
-          pageIndex[2].push([SearchIndexType.HEADING, element.heading]);
+        if (element.heading && typeof element.heading === "string")
+          pageIndex[2].push([SearchIndexType.Heading, element.heading]);
 
         /** 写入段落文字 */
         element.text?.forEach((item) => {
-          pageIndex[2].push([SearchIndexType.TEXT, item]);
+          pageIndex[2].push([SearchIndexType.Text, item]);
         });
       } else if (element.tag === "img" && element.desc)
         pageIndex[2].push([
-          SearchIndexType.IMAGE,
+          SearchIndexType.Image,
           {
             desc: element.desc,
             icon: element.src.match(/\.jpe?g$/i)
@@ -119,17 +119,17 @@ const createSearchMap = (folder: string): SearchMap => {
         ]);
       else if (element.tag === "list") {
         /** 写入段落标题 */
-        if (element.header)
-          pageIndex[2].push([SearchIndexType.HEADING, element.header]);
+        if (element.header && typeof element.header === "string")
+          pageIndex[2].push([SearchIndexType.Heading, element.header]);
 
         /** 写入段落文字  */
         element.items?.forEach((config) => {
           if (config.text && !config.path && !config.url)
-            pageIndex[2].push([SearchIndexType.TEXT, config.text]);
+            pageIndex[2].push([SearchIndexType.Text, config.text]);
         });
       } else if (element.tag === "card")
         pageIndex[2].push([
-          SearchIndexType.CARD,
+          SearchIndexType.Card,
           {
             title: element.title,
             desc: element.desc || "",
@@ -137,7 +137,7 @@ const createSearchMap = (folder: string): SearchMap => {
         ]);
       else if (element.tag === "doc")
         pageIndex[2].push([
-          SearchIndexType.DOC,
+          SearchIndexType.Doc,
           {
             name: element.name,
             icon: element.icon,
@@ -145,27 +145,27 @@ const createSearchMap = (folder: string): SearchMap => {
         ]);
       else if (element.tag === "table") {
         if (element.caption)
-          pageIndex[2].push([SearchIndexType.HEADING, element.caption]);
+          pageIndex[2].push([SearchIndexType.Heading, element.caption]);
 
         pageIndex[2].push([
-          SearchIndexType.HEADING,
+          SearchIndexType.Heading,
           element.header.join(" | "),
         ]);
 
         element.body.forEach((row) => {
-          pageIndex[2].push([SearchIndexType.TEXT, row.join(" | ")]);
+          pageIndex[2].push([SearchIndexType.Text, row.join(" | ")]);
         });
       } else if (element.tag === "account") {
-        pageIndex[2].push([SearchIndexType.HEADING, element.name]);
+        pageIndex[2].push([SearchIndexType.Heading, element.name]);
         if (element.detail)
-          pageIndex[2].push([SearchIndexType.TEXT, element.detail]);
+          pageIndex[2].push([SearchIndexType.Text, element.detail]);
         if (element.desc)
-          pageIndex[2].push([SearchIndexType.TEXT, element.desc]);
+          pageIndex[2].push([SearchIndexType.Text, element.desc]);
       } else if (element.tag === "phone") {
         if (element.header)
-          pageIndex[2].push([SearchIndexType.HEADING, element.header]);
+          pageIndex[2].push([SearchIndexType.Heading, element.header]);
         pageIndex[2].push([
-          SearchIndexType.TEXT,
+          SearchIndexType.Text,
           `${element.lName || ""}${element.fName}: ${element.num}`,
         ]);
       }
