@@ -1,6 +1,6 @@
 title: 洗衣技巧
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-13T07:44:28.392Z
 grey: true
 shareable: true
 content:
@@ -11,7 +11,7 @@ content:
         path: tag
 
       - text: 常见洗涤剂
-        icon: washing
+        icon: washing-room
         path: detergent
 
       - text: 洗涤的选择

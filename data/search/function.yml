@@ -65,7 +65,7 @@
     - 学校网站
 
 - text: 天气
-  icon: weather
+  icon: sun
   url: weather
 
 # 教务系统

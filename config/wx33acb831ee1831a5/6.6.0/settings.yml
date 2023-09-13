@@ -630,28 +630,15 @@ user:
         type: button
         openType: share
 
-      - text: 加入 in 东师咨询群
-        icon: qq-group
+      - text: 评价小程序
+        icon: star
         type: button
-        openType: openGroupProfile
-        groupId: "1139044856"
+        handler: rate
 
-      - text: 加入东北师大频道
-        icon: qq-group
+      - text: 联系 Mr.Hope
+        icon: contact
         type: button
-        openType: openGuildProfile
-        guildId: "5684461640601496"
-
-      # - text: 添加 in 东师媒体号
-      #   icon: qq
-      #   type: button
-      #   openType: addFriend
-      #   openId: 41D0ED9AEDD96C611B0E679EF3ED67F9
-
-      - text: 添加到桌面
-        icon: send
-        type: button
-        handler: addToDesktop
+        openType: contact
 
 about:
   - tag: list

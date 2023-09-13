@@ -28,7 +28,7 @@ content:
         path: /guide/dorm/detail/hot-water
 
       - text: 洗漱间
-        icon: washing
+        icon: washing-room
         path: /guide/dorm/detail/washing
 
       - text: 电梯

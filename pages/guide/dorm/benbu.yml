@@ -1,7 +1,7 @@
 title: 寝室
 grey: true
 author: Mr.Hope
-time: 2023-08-26T07:56:22.397Z
+time: 2023-09-13T07:44:28.042Z
 shareable: true
 content:
   - tag: list
@@ -44,7 +44,7 @@ content:
         path: detail/hot-water
 
       - text: 洗漱间
-        icon: washing
+        icon: washing-room
         path: detail/washing
 
       - text: 洗衣房/洗衣机
@@ -94,7 +94,7 @@ content:
         path: door
 
       - text: 走读与调宿
-        icon: info
+        icon: day-reading
         path: day-reading
 
       - text: 违禁物品
