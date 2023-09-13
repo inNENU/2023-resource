@@ -56,7 +56,7 @@ function create_search_map(string $folder): array
       );
 
       $pageIndex = [
-        SearchItemType::Page,
+        SearchItemType::ID,
         $content['title'],
         []
       ];

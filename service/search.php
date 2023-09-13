@@ -192,17 +192,7 @@ function getMatchList(array $words, array $indexContent)
       else if ($type === SearchIndexType::Card) {
         if (
           mb_strpos($config->title, $word->text) !== false
-        ) {
-          $weight += 2 * $word->weight;
-          array_push(
-            $matchList,
-            ['card', [
-              'title' => $config->title,
-              'desc' => $config->desc
-            ]]
-          );
-        } else if (
-          mb_strpos($config->desc, $word->text) !== false
+          ||  mb_strpos($config->desc, $word->text) !== false
         ) {
           $weight += 2 * $word->weight;
           array_push(
