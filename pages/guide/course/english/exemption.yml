@@ -1,6 +1,6 @@
 title: 英语免修评定
 author: Mr.Hope
-time: 2023-09-13T03:52:42.572Z
+time: 2023-09-13T08:46:16.909Z
 shareable: true
 content:
   - tag: list
@@ -9,7 +9,7 @@ content:
         icon: notice
         url: notice-detail?id=9c91e1354c4348fca64d2922f2b28640&title=关于开展2023年秋季学期大学英语免修工作的通知
 
-  # TODO: Update at 2023-09
+  # TODO: Update at 2024-09
   - tag: text
     type: info
     heading: 2023 年秋季学期时间安排
@@ -43,12 +43,6 @@ content:
 
   - tag: title
     text: 申请方式
-
-  - tag: text
-    type: warning
-    text:
-      - 英语免修申请有时限，如果您满足免修要求，请留意官网公告中的免修申请通知，不要错过。
-      - 此外您的辅导员也应该会在年级群或班级群发布消息。
 
   - tag: list
     header: false

@@ -1,6 +1,6 @@
 title: 使用 IE 内核浏览网页
 author: Mr.Hope
-time: 2023-09-08T06:21:50.993Z
+time: 2023-09-13T08:46:17.394Z
 shareable: true
 content:
   - tag: title
@@ -64,6 +64,13 @@ content:
 
   - tag: title
     text: 其他使用 IE 内核打开网页的方式
+
+  - tag: text
+    type: info
+    heading: Win11 强制打开 IE
+    text:
+      - 目前，Win 11 并未移除 IE 组件，也没有禁用入口，您可以使用脚本强制打开。
+    path: ie
 
   - tag: text
     type: info

@@ -1,21 +1,32 @@
 title: 学籍注册
 author: Mr.Hope
-time: 2023-07-16T11:41:47.593Z
+time: 2023-09-13T08:46:17.371Z
 shareable: true
 content:
   - tag: title
-    text: 申请方式
+    text: 通过小程序
 
   - tag: text
-    text: 访问本科教学服务系统，在系统内发起申请。
+    text:
+      - 使用小程序是最简便的方式。
+
+  - tag: list
+    header: false
+    items:
+      - text: 建立学籍
+        icon: archive
+        path: create-archive
+
+  - tag: title
+    text: 官方系统申请
+
+  - tag: text
+    text: 可以访问本科教学服务系统，在系统内发起申请。
 
   - tag: text
     type: info
     heading: 如何访问本科教学服务系统
     path: intro
-
-  - tag: title
-    text: 申请流程
 
   - tag: text
     text: 双击『学籍管理』
