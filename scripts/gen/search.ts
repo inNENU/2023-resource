@@ -227,7 +227,7 @@ export const genSearchMap = (): void => {
       ...guideSearchMap,
       ...introSearchMap,
       ...functionSearchMap,
-    })
+    }),
   );
 
   console.log("Search index generated");

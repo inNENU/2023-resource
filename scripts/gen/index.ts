@@ -36,7 +36,7 @@ deleteSync([
 
 // 转换账号
 convertYml2Json("./data/account", "./d/account", (data, filePath) =>
-  checkAccountDetail(data as AccountDetail, filePath)
+  checkAccountDetail(data as AccountDetail, filePath),
 );
 
 // 功能大厅
@@ -48,7 +48,7 @@ convertYml2Json("./data/function", "./d/function", (data, filePath) =>
     : /map\/(benbu|jingyue)\//u.exec(filePath)
     ? resolveLocationPage(
         data as PageConfig & { photo?: string[] },
-        `function/${filePath}`
+        `function/${filePath}`,
       )
     : /pe-calculator\/(male|female)-(low|high)/u.exec(filePath)
     ? genPEScore(data as PEConfig)
@@ -56,7 +56,7 @@ convertYml2Json("./data/function", "./d/function", (data, filePath) =>
     ? checkAccount(data as AccountConfig[], filePath)
     : /music\/index/u.exec(filePath)
     ? checkMusic(data as MusicInfo[], filePath)
-    : (data as unknown)
+    : (data as unknown),
 );
 
 // 转换搜索
@@ -68,9 +68,9 @@ const diffResult = execSync("git status -s").toString();
 ["apartment", "school", "newcomer", "intro", "guide", "other"].forEach(
   (folder) => {
     convertYml2Json(`./pages/${folder}`, `./d/${folder}`, (data, filePath) =>
-      resolvePage(data as PageConfig, `${folder}/${filePath}`, diffResult)
+      resolvePage(data as PageConfig, `${folder}/${filePath}`, diffResult),
     );
-  }
+  },
 );
 
 // 生成转码后的图标
@@ -88,7 +88,7 @@ genHistoryResult();
 
 // 生成捐赠
 convertYml2Json("./config/donate", "./d/other/donate", (data, filePath) =>
-  genDonate(data as Donate, filePath)
+  genDonate(data as Donate, filePath),
 );
 
 // 生成 Sitemap
@@ -97,14 +97,14 @@ count();
 
 // 重新生成 guide
 convertYml2Json("./pages/other/guide", "./d/other/guide", (data, filePath) =>
-  resolvePage(data as PageConfig, filePath)
+  resolvePage(data as PageConfig, filePath),
 );
 
 // 生成 tab 页
 convertYml2Json("./config", "./d/config", (data, filePath) =>
   /(function|guide|intro|main|user)/u.exec(filePath)
     ? resolvePage(data as PageConfig, filePath)
-    : (data as unknown)
+    : (data as unknown),
 );
 
 await generateLicense();
