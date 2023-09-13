@@ -1,15 +1,19 @@
 title: 大学英语水平测试
 grey: true
 author: Mr.Hope
-time: 2023-07-07T18:58:12.923Z
+time: 2023-09-13T03:52:42.730Z
 shareable: true
 cite: https://cet.neea.edu.cn/html1/category/16093/1124-1.htm
 content:
   - tag: list
     items:
-      - text: 2023 年上半年时间安排
+      - text: 2023 年下半年时间安排
         icon: time
         path: time
+
+      - text: 关于2023年下半年全国大学外语四、六级考试报名工作的通知
+        icon: notice
+        url: notice-detail?id=5c43f6f406f144b7b700ac91b015885a&title=关于2023年下半年全国大学外语四、六级考试报名工作的通知
 
   - tag: list
     items:

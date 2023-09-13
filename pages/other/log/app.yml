@@ -4,6 +4,13 @@ content:
     text: 近期更新
 
   - tag: list
+    header: v6.5.0
+    items:
+      - text: |-
+          · 重构搜索功能支持分类与搜索功能
+          · 专项考试成绩查询
+
+  - tag: list
     header: v6.4.0
     items:
       - text: |-
