@@ -1,6 +1,6 @@
 title: 寝室选择
 author: Mr.Hope
-time: 2023-08-25T13:34:13.309Z
+time: 2023-09-14T07:25:23.998Z
 cite:
   - https://publish.nenu.edu.cn/info/1068/2633.htm
 shareable: true
@@ -34,6 +34,17 @@ content:
   - tag: doc
     name: 2023 年住宿费标准
     url: $file/intro/2023-dorm-fee.pdf
+
+  - tag: text
+    type: tip
+    text:
+      - 因学生宿舍紧张，家在长春市区以及超出推荐修读年限的学生，原则上不分配宿舍。
+
+  - tag: list
+    items:
+      - text: 宿舍分配管理办法（试行）
+        icon: rule
+        path: dorm-distribution
 
   - tag: title
     text: 寝室床号

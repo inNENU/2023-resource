@@ -1,6 +1,6 @@
 title: 寝室禁用物品
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-14T07:25:23.986Z
 shareable: true
 content:
   - tag: title
@@ -50,6 +50,6 @@ content:
   - tag: list
     header: false
     items:
-      - text: 东北师范大学学生公寓管理办法
+      - text: 学生公寓管理办法
         icon: rule
-        path: /apartment/logistics/rule
+        path: dorm-manage

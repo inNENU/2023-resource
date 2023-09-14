@@ -1,7 +1,7 @@
 title: 规章制度
 grey: true
 author: Mr.Hope
-time: 2023-09-13T08:09:41.625Z
+time: 2023-09-14T07:25:23.083Z
 shareable: true
 content:
   - tag: list
@@ -58,7 +58,11 @@ content:
     items:
       - text: 学生公寓管理办法
         icon: rule
-        path: /apartment/logistics/rule
+        path: dorm-manage
+
+      - text: 宿舍分配管理办法（试行）
+        icon: rule
+        path: dorm-distribution
 
   - tag: list
     header: 学籍管理
