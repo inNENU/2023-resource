@@ -450,6 +450,10 @@
           "description": "跳转路径",
           "type": "string"
         },
+        "url": {
+          "description": "跳转页面",
+          "type": "string"
+        },
         "align": {
           "description": "文字块对齐",
           "enum": ["left", "right", "center", "justify"]

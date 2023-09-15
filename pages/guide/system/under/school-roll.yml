@@ -1,8 +1,14 @@
 title: 学籍注册
 author: Mr.Hope
-time: 2023-09-14T07:25:24.766Z
+time: 2023-09-15T08:07:06.728Z
 shareable: true
 content:
+  - tag: text
+    type: info
+    text:
+      - 新生入学后，应及时完成学籍注册工作。
+    url: notice-detail?id=55435b05a3d84ca29c885b8b3c219679&title=关于建立2023级全日制普通本科生学籍档案的通知
+
   - tag: title
     text: 通过小程序
 
