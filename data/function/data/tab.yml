@@ -15,11 +15,11 @@ about:
       icon: content
       path: intro/subject/
 
-    - text: 学生就业
-      color: cyan
-      name: Job
-      icon: job
-      path: intro/job/
+    - text: 招生
+      name: Enroll
+      color: red
+      icon: enroll
+      path: intro/enroll/
 
     - text: 资助
       color: purple
@@ -27,11 +27,17 @@ about:
       icon: subsidize
       path: intro/subsidize/
 
-    - text: 招生
-      name: Enroll
-      color: red
-      icon: enroll
-      path: intro/enroll/
+    - text: 奖学金
+      color: grey
+      name: Scholarship
+      icon: metal
+      path: intro/scholarship/
+
+    - text: 就业
+      color: cyan
+      name: Job
+      icon: job
+      path: intro/job/
 
     - text: 考研/保研
       color: blue
@@ -273,13 +279,13 @@ grad-enroll:
     - text: 招生简章
       color: red
       name: Rule
-      icon: intro
+      icon: rule
       path: intro/enroll/grad/rule/2023
 
     - text: 招生计划
       color: purple
       name: Plan
-      icon: intro
+      icon: enroll
       path: intro/enroll/grad/major/2023
 
     - text: 东师研招
@@ -583,12 +589,6 @@ study:
       name: Study
       icon: study
       path: guide/study/
-
-    - text: 奖学金
-      color: purple
-      name: Scholarship
-      icon: metal
-      path: guide/scholarship/
 
     - text: 选课
       color: cyan

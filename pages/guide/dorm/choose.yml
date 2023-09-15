@@ -1,6 +1,6 @@
 title: 寝室选择
 author: Mr.Hope
-time: 2023-09-14T07:25:23.998Z
+time: 2023-09-15T13:09:00.236Z
 cite:
   - https://publish.nenu.edu.cn/info/1068/2633.htm
 shareable: true
@@ -44,7 +44,7 @@ content:
     items:
       - text: 宿舍分配管理办法（试行）
         icon: rule
-        path: dorm-distribution
+        path: /intro/rule/dorm-distribution
 
   - tag: title
     text: 寝室床号
