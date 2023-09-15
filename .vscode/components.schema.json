@@ -1,12 +1,24 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://mp.innenu.com/.vscode/components.schema.json",
-  "additionalProperties": false,
   "$defs": {
+    "image-link": {
+      "description": "图片地址",
+      "type": "string",
+      "pattern": "^(?:https?:\\/\\/|\\$img/).*\\.(?:jpe?g|png|gif)$"
+    },
     "env": {
       "type": "array",
       "items": {
         "enum": ["app", "qq", "wx", "web"]
+      }
+    },
+    "style-object": {
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "type": "string"
+        }
       }
     },
     "location": {
@@ -50,14 +62,6 @@
       },
       "required": ["longitude", "latitude"],
       "additionalProperties": false
-    },
-    "style-object": {
-      "type": "object",
-      "patternProperties": {
-        "^.+$": {
-          "type": "string"
-        }
-      }
     },
     "base-list-item": {
       "type": "object",
@@ -514,14 +518,10 @@
           "const": "img"
         },
         "src": {
-          "description": "图片地址",
-          "type": "string",
-          "pattern": "^(?:https?:\\/\\/|\\$img/).*\\.(?:jpe?g|png|gif)$"
+          "$ref": "#/$defs/image-link"
         },
         "res": {
-          "description": "图片原图地址",
-          "type": "string",
-          "pattern": "^(?:https?:\\/\\/|\\$img/).*\\.(?:jpe?g|png|gif)$"
+          "$ref": "#/$defs/image-link"
         },
         "desc": {
           "description": "图片描述",
@@ -847,8 +847,7 @@
           "description": "图片",
           "type": "array",
           "items": {
-            "type": "string",
-            "pattern": "^(?:https?:\\/\\/|\\$img/).*\\.(?:jpe?g|png|gif)$"
+            "$ref": "#/$defs/image-link"
           }
         },
         "fill": {
@@ -942,8 +941,7 @@
         },
         "cover": {
           "description": "卡片封面地址",
-          "type": "string",
-          "pattern": "^(?:https?:\\/\\/|\\$img/).*\\.(?:jpe?g|png|gif)$"
+          "$ref": "#/$defs/image-link"
         },
         "title": {
           "description": "卡片标题",
@@ -1082,8 +1080,7 @@
             },
             "poster": {
               "description": "视频封面",
-              "type": "string",
-              "pattern": "^(?:https?:\\/\\/|\\$img/).*\\.(?:jpe?g|png|gif)$"
+              "$ref": "#/$defs/image-link"
             },
             "autoplay": {
               "description": "是否自动播放",

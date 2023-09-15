@@ -65,6 +65,13 @@
     "action": {
       "description": "左上角按钮触发函数",
       "oneOf": [{ "type": "string" }, { "const": false }]
+    },
+    "photo": {
+      "description": "地点照片",
+      "type": "array",
+      "items": {
+        "oneOf": [{ "$ref": "#/$defs/image-link" }]
+      }
     }
   },
   "additionalProperties": false,

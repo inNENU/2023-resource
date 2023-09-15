@@ -1,13 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "additionalProperties": false,
   "$defs": {
-    "env": {
-      "type": "array",
-      "items": {
-        "enum": ["app", "qq", "wx", "web"]
-      }
-    },
     "tab-item": {
       "type": "object",
       "properties": {
@@ -158,5 +151,6 @@
       "type": "boolean"
     }
   },
+  "additionalProperties": false,
   "type": "object"
 }

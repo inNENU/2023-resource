@@ -60,7 +60,11 @@ convertYml2Json("./data/function", "./d/function", (data, filePath) =>
 );
 
 // 转换搜索
-convertYml2Json("./data/search", "./d/search", (data) => data);
+convertYml2Json(
+  "./data/search",
+  "./d/search",
+  (data: unknown): unknown => data,
+);
 
 /** 差异列表 */
 const diffResult = execSync("git status -s").toString();

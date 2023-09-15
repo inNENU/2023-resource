@@ -157,6 +157,10 @@ overrides:
           format:
             - PascalCase
 
+        - selector: enumMember
+          format:
+            - PascalCase
+
       "@typescript-eslint/no-explicit-any":
         - warn
         - ignoreRestArgs: true
