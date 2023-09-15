@@ -1,6 +1,6 @@
 title: 自助终端机
 author: Mr.Hope
-time: 2023-07-18T05:48:51.106Z
+time: 2023-09-15T04:48:23.605Z
 shareable: true
 content:
   - tag: title
@@ -18,7 +18,7 @@ content:
     text:
       - 北苑食堂一楼
       - 图书馆一楼大厅
-      - 新综合楼 315
+      - 惟真楼 315
 
   - tag: location
     title: 本部校区
@@ -37,7 +37,7 @@ content:
 
       - latitude: 43.863429
         longitude: 125.331542
-        detail: 新综合楼 315 (坐电梯到三楼按指示牌引导)
+        detail: 惟真楼 315 (坐电梯到三楼按指示牌引导)
 
   - tag: ul
     heading: 净月校区

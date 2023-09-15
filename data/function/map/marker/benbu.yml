@@ -207,9 +207,9 @@ building:
 
     - latitude: 43.863651
       longitude: 125.331524
-      name: 理化大楼 (新综合楼)
-      detail: 东北师范大学新综合楼
-      path: lihua
+      name: 惟真楼
+      detail: 东北师范大学惟真楼
+      path: vision
 
     - latitude: 43.861761
       longitude: 125.332185
