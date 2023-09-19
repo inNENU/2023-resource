@@ -144,7 +144,7 @@ main-presets:
           icon: map
           url: map
 
-        - text: 内网通知
+        - text: 学校通知
           color: red
           name: Notice
           icon: notice
@@ -186,13 +186,13 @@ main-presets:
           icon: grade
           url: course-grade
 
-        - text: 内网通知
+        - text: 学校通知
           color: red
           name: Notice
           icon: notice
           url: notice-list
 
-        - text: 内网新闻
+        - text: 学校新闻
           color: cyan
           name: News
           icon: news
@@ -343,13 +343,13 @@ function-presets:
           icon: calendar
           url: calendar
 
-        - text: 学校通知
+        - text: 官网通知
           color: red
           name: Notice
           icon: notice
           url: info-list
 
-        - text: 学校新闻
+        - text: 官网通知
           color: cyan
           name: News
           icon: news
@@ -455,13 +455,13 @@ function-presets:
     - tag: grid
       header: 融合门户
       items:
-        - text: 内网通知
+        - text: 学校通知
           color: red
           name: Notice
           icon: notice
           url: notice-list
 
-        - text: 内网新闻
+        - text: 学校新闻
           color: cyan
           name: News
           icon: news
@@ -566,13 +566,13 @@ function-presets:
           icon: calendar
           url: calendar
 
-        - text: 学校通知
+        - text: 官网通知
           color: red
           name: Notice
           icon: notice
           url: info-list
 
-        - text: 学校新闻
+        - text: 官网通知
           color: cyan
           name: News
           icon: news
