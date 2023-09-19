@@ -605,11 +605,11 @@ function-presets:
           icon: authorize
           url: activate
 
-        - text: 账号激活
+        - text: 密码重置
           color: grey
-          name: Activate
-          icon: authorize
-          url: activate
+          name: Reset
+          icon: reset
+          url: reset
 
         - text: 邮箱申请
           color: purple
