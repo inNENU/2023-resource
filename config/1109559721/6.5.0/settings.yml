@@ -349,7 +349,7 @@ function-presets:
           icon: notice
           url: info-list
 
-        - text: 官网通知
+        - text: 官网新闻
           color: cyan
           name: News
           icon: news
@@ -572,7 +572,7 @@ function-presets:
           icon: notice
           url: info-list
 
-        - text: 官网通知
+        - text: 官网新闻
           color: cyan
           name: News
           icon: news
