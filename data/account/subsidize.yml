@@ -4,6 +4,143 @@ desc: “满溢着爱”做资助
 id: dongshizizhu
 logo: $img/media/subsidize.jpg
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0Yicic5iaESibwM7cQEYrr5epc85FwMs6CWE08PY82lllpC55LItQlkSlmKAU0z015zZayaX1YqRIFGA/0?wx_fmt=jpeg
+    title: 上下求索，心怀伟大丨传媒科学学院（新闻学院）开展东师助学“午谈会”之企业精英专场
+    url: https://mp.weixin.qq.com/s/CXEg-W5MHODZwRtq2yUS8A
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc1IP2juicVl8rGFXHwYXQBYZrJib7OhxuH5fPEPZyht2IaiaiayEtDpoVuzABrLCHw6e7fTG5iaGaod26g/0?wx_fmt=jpeg
+    title: 2023年校园地国家助学贷款  学生在线申请指南
+    url: https://mp.weixin.qq.com/s/Igkb6kDzKboo3abRLDQ-2w
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc1IP2juicVl8rGFXHwYXQBYZEr9OTdgkia7nOHS3ams6twJ57cP5MJehlzdWPkIfkPIdY8kpopHVYAQ/0?wx_fmt=jpeg
+    title: 拓展思维，共创未来 | 物理学院开展东师助学“午谈会”之科研英才专场
+    url: https://mp.weixin.qq.com/s/1fVm90K7n4mt_N8EvP1K7A
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc1IP2juicVl8rGFXHwYXQBYZRNeI89mBp9aHHbSLWx6ibTNtY9MACWFGINP4lvjibPQicMZ4CygMZwLXg/0?wx_fmt=jpeg
+    title: 以服务之心点亮青春之光 | 音乐学院开展东师助学“午谈会”之服务楷模专场
+    url: https://mp.weixin.qq.com/s/8B3Djz1BlVNCI_SOoaIn7g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc3lE7Mbkn8sgBSGWibuQOpiaFRD0mB8via1tQ0wF24yiaHG8xIcIVGwINI9ticsGy9aqdeicXObUTmd5yTw/0?wx_fmt=jpeg
+    title: 滴~爱心学校向你发出一份秋季支教邀请函！
+    desc: 秋季支教开始啦~欢迎大家踊跃报名~
+    url: https://mp.weixin.qq.com/s/lnZLtXvHLYzBUqxErSv8jg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc3nkrNAEPOnhxElx18Pylg48zanGbibeg1XZnZQvBLZ8oy1BTShtiabVZ2htmTVc9AgMIe7afPhiaibbA/0?wx_fmt=jpeg
+    title: 关于2023-2024学年校园地国家助学贷款办理工作的通知
+    desc: 弘诚养正 守信致远
+    url: https://mp.weixin.qq.com/s/xRPrpS4sa3nKyiGA82bXOg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2gKL3iafEEBKsKNmQgbnua9iabmoHGpvcibrqgNicox4mh9HZmxNKUGdh9jTiaZdkLMaZdywZicqC4JrYQ/0?wx_fmt=jpeg
+    title: 励志书院开放啦！
+    desc: 励志书院，与你相遇在这个初秋！
+    url: https://mp.weixin.qq.com/s/ilj5iOZlZkf4Fv39y4z3aA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2gKL3iafEEBKsKNmQgbnua9VdfVFnx3qQTJYhkpVEOXfPJu13FicHUwFibkJpEiaaCiaWyaKNiaTzeiaSMA/0?wx_fmt=jpeg
+    title: 科研铸就英才，创新引领未来丨物理学院开展东师助学“午谈会”之科研英才专场
+    url: https://mp.weixin.qq.com/s/3SNvP92s-94L3KfO5e8L8g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0Ng2rjWfMx12NgoSicd0JxJHMm38GHh7N0eDBqNTUtJic4fZia1kdJPDJU0Wzme6H6BVm2BQkFtsQvg/0?wx_fmt=jpeg
+    title: 坚持梦想，蜕变启航 | 学校开展东师助学“午谈会”之创业先锋专场
+    url: https://mp.weixin.qq.com/s/O1ev8OuQsKozQ-dfBjU6bw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0Ng2rjWfMx12NgoSicd0JxJzbcg8U2qRXEZvkdNHdwQH9573gDTWuRsR56bp2R9Ldj7CW0AcYVZdQ/0?wx_fmt=jpeg
+    title: 在生活的原野上遇见可能的自己 | 文学院开展东师助学“午谈会”（第九十九期）
+    url: https://mp.weixin.qq.com/s/C6SIYcJjcU9jEEBFpkkcGg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2p975lsun1bQ2ias12sHTvviaC1BlLuFicaRKzicsHzxtQvic7ztXcaicfhJia9XAbSChLYVEtibV6g27ysA/0?wx_fmt=jpeg
+    title: 乘风而上，顺势而为 | 学校开展东师助学“午谈会”之创业先锋专场（第九十七期）
+    url: https://mp.weixin.qq.com/s/r99Q5ZOjyLDWRVvP3cN4Rg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2p975lsun1bQ2ias12sHTvvvhPEAXib1Pp9Z07oIpvOqBSaWZvjMLGibhao4BjFMexl3yZ3EulFa6gQ/0?wx_fmt=jpeg
+    title: 弘扬科学精神，勇当有为青年 | 物理学院开展东师助学“午谈会”之科研英才专场（第九十八期）
+    url: https://mp.weixin.qq.com/s/dptgiA4ycd2qq5RTYeVuMA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2EyynF90nxIaicibh1EibRUS5S3H1TG3J4FlnKPxZwvgqXqaxC2peAcJiaCBYQZibzpGQfIkFnBLDrGnw/0?wx_fmt=jpeg
+    title: 关于2023-2024学年资助对象认定工作的通知
+    url: https://mp.weixin.qq.com/s/_VmBmdQMQnITuTqYCNQz-A
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2ljF1GcoPNasAE3RlnMVQ36q3MajicicG4muJgVOY6X30b4esD6lvvSYG8P1G5n0oh8jlYiaGp31Hrw/0?wx_fmt=jpeg
+    title: 关于开展东师助学“午谈会” 学院（部）专场系列活动的通知
+    url: https://mp.weixin.qq.com/s/FI2Phc_0RubeL7glz9KAog
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2ljF1GcoPNasAE3RlnMVQ3icAntN9RROxDKM4hVFWeudbUk4nv6SZxmVtQRsdJ3h30IdtNple03qg/0?wx_fmt=jpeg
+    title: 多样的我们遇见多彩的乡村 ——“振兴之路，有你有我”暑期乡村振兴服务实践活动全面务实展开
+    url: https://mp.weixin.qq.com/s/-_0JzVYZqSXofrUi-9etLA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2ljF1GcoPNasAE3RlnMVQ3cibiaUkcmYvlrt5bM5ib0so65cUSoOCVplgVDGSB1MC3rU4kibe2xPODWw/0?wx_fmt=jpeg
+    title: "@全体同学，请警惕“助学金”骗局！"
+    url: https://mp.weixin.qq.com/s/k7gfI0BV91eiEmxSQpwdPw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc3Tjaz98sXMYVMM3AMjaDhSOrhdsgEkDxHOUqpn9bfZXhyIicSfTx5K5tqmoh64MeLMjBWwS3BNlww/0?wx_fmt=jpeg
+    title: 叮~爱心学校向你投送了一份暑期支教总结！
+    desc: 东北师范大学爱心学校2023年“微光成炬，筑梦启航”暑期支教总结
+    url: https://mp.weixin.qq.com/s/rUCNtTQCAfq7Wb0KWhgjHA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0rStBXrV820iaUB0ZFepAQ0jpnAdqibIKtcZzNjiadWns47mW75GTJ8HPjfibZS9hLibG1eVYXyINm9bw/0?wx_fmt=jpeg
+    title: 关于2023-2024学年生源地信用助学贷款办理工作的通知
+    url: https://mp.weixin.qq.com/s/2PP6lOsYNsR9TVpxl88x5g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0rStBXrV820iaUB0ZFepAQ0mqURj9yOjIibTaz1OgbjCcHjcHj2OTcwb8hN9f4ctPN4XDTjNyDDFwA/0?wx_fmt=jpeg
+    title: “绿色通道”助力新生顺利入学、无忧逐梦
+    desc: “绿色通道”助力新生顺利入学、无忧逐梦
+    url: https://mp.weixin.qq.com/s/g5RiElZTn1hScY8jSF_H3Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0rStBXrV820iaUB0ZFepAQ099PvanckC6ic1tnfypgXvsuxgC7fbI4Ik7tKa2ibcpqyicl5ULyUl0WLg/0?wx_fmt=jpeg
+    title: 匠心‘资’造，‘助’梦未来 | 青岛资助育人学习实践活动体悟分享（四）
+    url: https://mp.weixin.qq.com/s/DMOJXRa8MiF95IAdsBlF0Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0rStBXrV820iaUB0ZFepAQ099PvanckC6ic1tnfypgXvsuxgC7fbI4Ik7tKa2ibcpqyicl5ULyUl0WLg/0?wx_fmt=jpeg
+    title: 匠心‘资’造，‘助’梦未来 | 青岛资助育人学习实践活动体悟分享（五）
+    url: https://mp.weixin.qq.com/s/kNsmswSHukPwUs4E0ylpkg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc05mRLaTYfvqXiaY2GEPuvZBWPo71iaibCusgteSz3tExiaWxx8JSXt1dbcYia3vpswDmPSIYcaDIutKlg/0?wx_fmt=jpeg
+    title: 匠心‘资’造，‘助’梦未来 | 北京资助育人学习实践活动体悟分享（一）
+    url: https://mp.weixin.qq.com/s/yF-wpP0Q7MsfWf9lB7PEzg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc3TDoYOFJumjoPnmkqfDPogGYhULbOpN62KKNicxruT8KEcWz1sLVamkxfhOj8d3ZjiagxIzlJJvmDw/0?wx_fmt=jpeg
+    title: 匠心‘资’造，‘助’梦未来 | 北京资助育人学习实践活动体悟分享（二）
+    url: https://mp.weixin.qq.com/s/61z3x2h-73kpTwNG-RmsVw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc3TDoYOFJumjoPnmkqfDPogwqWmTWoGgM0Q5JViaafgVxibNrYo0TxCaX5preUgXSCWkTpBfyGoc75w/0?wx_fmt=jpeg
+    title: 匠心‘资’造，‘助’梦未来 | 青岛资助育人学习实践活动体悟分享（三）
+    url: https://mp.weixin.qq.com/s/koweXgsoCYaJR4-aJhDGAA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0Ayiawl3g55Bm7LZg8TmcABBecibbzNq75P6evWeGiabTO3ibAkdWt57Uohhv9lXk2RVznxK8PGc3ictg/0?wx_fmt=jpeg
+    title: “助”梦前行 | 东师学生资助政策体系为你保驾护航
+    url: https://mp.weixin.qq.com/s/DuZGr8ubxojlMH086PeZ0Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0ibPDqSea7plViay9ibrmOMAkSd8Ws4Xh2aUXDmrXFNn0kmDYGBibbib1KETu7Gm3FfPuJqA29dIXAvCg/0?wx_fmt=jpeg
+    title: 公布丨各学院（部）爱心使者团团长换届结果公布
+    url: https://mp.weixin.qq.com/s/coNUFeWZrxlKDg0XPdejTw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc24hbNLNhn8QFS8TlGoOtw1gGMEd8Mdf3wcbNiatwJfvShYGFRicScKdq6tcKgJ9CHJfibwQdFrickJ9A/0?wx_fmt=jpeg
+    title: 祖国建设成就体验行｜学校赴青岛开展资助育人学习实践活动（第二期）
+    url: https://mp.weixin.qq.com/s/yk8Cg7ia0S-wqACgxQtqkA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc1gK8GstCu2wrlyFCVwsSQMNjk2a14Atiaknp8x8fjftbtthyYKSSK7iaciaZicgaziblmKozrallBe4LA/0?wx_fmt=jpeg
+    title: 风雨同舟 守望相助丨@东师学子  如遇紧急灾害，请向学校申领临时困难补助
+    url: https://mp.weixin.qq.com/s/ldjTPJJC6AO6U1zvLK3c_A
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc1aGJppdibKDEMJCd4awUwehCvZQhl8YapJ90om7ma7OXRVK7sGE1jLZnDTwDFibMFPicqtA8axcMGJg/0?wx_fmt=jpeg
+    title: 匠心‘资’造，‘助’梦未来 | 资助育人学习实践活动体悟分享（二）
+    url: https://mp.weixin.qq.com/s/CLqs_v-CZ1_QgGDWK5mkOQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc1aGJppdibKDEMJCd4awUwehCvZQhl8YapJ90om7ma7OXRVK7sGE1jLZnDTwDFibMFPicqtA8axcMGJg/0?wx_fmt=jpeg
+    title: 匠心‘资’造，‘助’梦未来 | 资助育人学习实践活动体悟分享（一）
+    url: https://mp.weixin.qq.com/s/wtXVgpR3L7IBeQsXWk6NoQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc2UNwhqEavFalw4hibmjx1ynhWHAlKubpEZGAzzRYicuY8OqsnYu4ZqZH0FkZuXgFutL5BX1GMoPIicw/0?wx_fmt=jpeg
+    title: 转推│国家开发银行承办的国家助学贷款2023年提前还款利息退还公告
+    url: https://mp.weixin.qq.com/s/0oDs6Po4Jz3NfSP8Lwu1-w
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc3yQTcOia4AsDyWFibKzj2msxJJEibXVE1t8hySzhyJXBCxCEv1rHA0hXlQM842XricAdTR73dYhH3jNA/0?wx_fmt=jpeg
+    title: 夯筑信心，成就梦想 | 学校开展东师助学“午谈会”之卓越教师专场
+    url: https://mp.weixin.qq.com/s/R4idE2W_H7QCS7l4HtqI1Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0hj8AT2KPu3BnLy9ZtXB1SbLPpy6Q0gysDM491w0D38zth21icib2AFtyiakQ1424bWUP9mqlVcqDlA/0?wx_fmt=jpeg
+    title: 祖国建设成就体验行 | 学校开展资助育人学习实践活动（第一期）
+    url: https://mp.weixin.qq.com/s/qFi6boPAEKaIIQ3jnjgkBA
+
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/ktic6Y2YEZc0hj8AT2KPu3BnLy9ZtXB1STSoUyH1iaFJA9K8KhuFibbCuXFH1KcNwnZmvwvozrsD75mfz5WLHoABA/0?wx_fmt=jpeg
     title: 善始善终 善作善成——旧物流转活动圆满落幕啦
     desc: 善始善终 善作善成——旧物流转活动圆满落幕啦！

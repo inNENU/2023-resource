@@ -3,8 +3,27 @@ detail: 东北师范大学后勤保障部
 desc: 关心校园生活，关注东师后勤。后勤服务，在您身边
 id: dongshihouqin
 logo: $img/media/logistics.jpg
-
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/77VrF9BsevPf50icBlEksDhHLj1ibnfIez9UK2yRiaFibwEMbPVpgXlYqmxB9IHRpsInb1zckeVia8elRNKAxwUSb5w/0?wx_fmt=jpeg
+    title: 后勤迎新 | 你好新同学，终于等到你！
+    url: https://mp.weixin.qq.com/s/vT7BELcxrh2UnzfdBTDE2w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/77VrF9BsevOxKWWaeGnKDrbEsAgYibna1oHfwxA2PnMLfjodFchGqtxtzQaffxtogeSxqsaCAJFdiaDJHvKdzicsA/0?wx_fmt=jpeg
+    title: 后勤保障部暑期工作简报
+    url: https://mp.weixin.qq.com/s/wF78bRAxdGbWvPMobe7uZA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/77VrF9BsevPLv9gL19DfLSxDMznEshrNTmViacLNAtxdO6SAYD4a4JsKnKMrImX7TF81cCzA2bfKAz7ndAqQf0g/0?wx_fmt=jpeg
+    title: 东北师范大学后勤保障部劳务派遣工程师岗位招聘启事
+    url: https://mp.weixin.qq.com/s/s1IDRdfuAjau2RGOzaWFgg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/77VrF9BsevOQ8NJ4iciaqSmpiccibjCUAyS4o6tZia3PPYno5YL7q1LLia5V7fKic8PoBrsWRF6BHjHgWTe23z21log5Q/0?wx_fmt=jpeg
+    title: 你的军训清凉正在派送，请签收。
+    url: https://mp.weixin.qq.com/s/QW0yVdKpxKdIA219KTqYkA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/77VrF9BsevOPCWZrWXBZpca9ljyuaoJsUuVV9apc1ic0CPhZqonBCm5ncSFIP7F0hYD1odcLNV5ibsa8nBubgpCg/0?wx_fmt=jpeg
+    title: 后勤保障部2023年暑期工作安排
+    url: https://mp.weixin.qq.com/s/UzEV_hZN0Ac7u-bOzhdMBA
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/77VrF9BsevMkAZcletCauEMPYeGFx88MMLRDtxrUf8gSEK5ziayE0DPnzUvLfzUSsblqNQ8z4YErw6zjmVkQsJg/0?wx_fmt=jpeg
     title: 强化校园食品安全管理 守护师生“舌尖上的安全” ——后勤保障部开展校园食品安全专项检查
     url: https://mp.weixin.qq.com/s/E7C1M9aHvlYeSPV8VGiftA

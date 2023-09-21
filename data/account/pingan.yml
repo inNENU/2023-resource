@@ -4,6 +4,38 @@ desc: 发布安全工作状态、推送安全常识、剖析安全事例、进�
 id: gh_dd8abfa7985e
 logo: $img/media/pingan.png
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/E2eJYIhNrs9ClH1rkicnqfWzicZpiaVDoeyOMGTfVTT9cGEC1N4RSexibiahX6J2McaibRbu5nzHIGRhl53rdeQdZ3kw/0?wx_fmt=jpeg
+    title: 赓续荣光 弦歌不辍—保卫处隆重举行第一届退休干部荣休仪式
+    desc: 9月13日下午，保卫处隆重举行第一届退休干部荣休仪式。
+    url: https://mp.weixin.qq.com/s/eP8HzULCE6eKRtnqroUZHQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/E2eJYIhNrsiciag8IKvFibNu9xUcNjickr6j9skzicLVJK8OmgyBib3P38uVjzErNOoPyGIvtabgXrZthRiaiaoBM7CJ1Q/0?wx_fmt=jpeg
+    title: 秋日骑行丨十里秋风莫辜负，骑行安全守规则
+    desc: 这些你都知道吗？
+    url: https://mp.weixin.qq.com/s/AmlRrVDPfIheTriPkNqOPg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/E2eJYIhNrs8UaD7DpjbLX6z0HyGicV5ENicTWovtzOSAaoibBYyqicsMQFicnEtaRrsTGRSs5HKUB9ZBx5NMItCshjA/0?wx_fmt=jpeg
+    title: |-
+      @2023级Nenuers，你的校园防诈攻略已送达！
+    desc: 萌新防诈攻略。请查收！
+    url: https://mp.weixin.qq.com/s/uplbfA5kCHZk8JdEvpmrxw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/E2eJYIhNrs9J4QUfwKgkibEMkw3RdXLFqvHTH4rq4jh4ib2vvQJ9V6VDqunJVD1RBOb6RzL5L0Sic0VjNuLbjLQ8A/0?wx_fmt=jpeg
+    title: 迎新丨关于新生报到期间校园交通和校门通行调整的通知
+    desc: 新生报到区域，车辆请绕行。
+    url: https://mp.weixin.qq.com/s/pEJ2cxpWnOm7uaoC79SgkQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/E2eJYIhNrsibV2AcpxVGvxtZfyxzAtYtrk1Qx3wOeAiaxtSDe8rAEyPDIJibBHA0LJM52Yj5dBCJG896bTwpQaRGg/0?wx_fmt=jpeg
+    title: |-
+      @师生家长，这份暑期防溺水指南请查收 | 安全快乐过暑假
+    desc: 不幸溺水，如何正确自救？
+    url: https://mp.weixin.qq.com/s/cfUqde9-UQt_99utTd7F4w
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/E2eJYIhNrs8bfOkXPsU2nejfBvJT9o4nZIkJf6Q6GdqgOWhNLtHrvPDu1VZnKCSiaAnQesuFRlwKXpAyibmOhlBg/0?wx_fmt=jpeg
+    title: 叮咚！2023年暑假校门开放时间,你知道吗？
+    desc: 给您带来不便，敬请谅解！
+    url: https://mp.weixin.qq.com/s/2JEXAZEguxNQQxvyHDuEig
+
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/E2eJYIhNrs8gxkUEz83RYibGuZ4ckBGj0xlsZu97kLLTiaiarib5ibLibibujCagYP48EBicGiapysU6lmQwN6vuQePEFcw/0?wx_fmt=jpeg
     title: 东师微型消防站首次参加全市消防运动会并获团体第一名
     desc: 东北师范大学代表队首次参与消防运动会，怀揣着使命感和责任感，展现了优良作风和过硬本领，崭露头角，拔得头筹。

@@ -3,8 +3,112 @@ detail: 东北师范大学图书馆
 desc: 关注东师图书馆，掌握图书馆讲座、资源、服务最新动态!
 id: nenu_lib
 logo: $img/media/library.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSn6lApd1ibQ98bZV5ucHkicqeO9xRfXkTribAHiaPyiaDqOAu6bXOYwZkOWT7yD25v4XvEZHqrQYpH55Sw/0?wx_fmt=jpeg
+    title: 小伙伴们~来领奖啦!!!
+    desc: 走进历史 相约CASHL
+    url: https://mp.weixin.qq.com/s/Siuo79EvdYpsnSq9I1HgMA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSmbyTZfEgBn13yF0XBzlASic1FeDnBm9cD1W2oxHAyicDKe8icOjK4WBYUS4T3HaibPP9lMWicicq0ic0BwQ/0?wx_fmt=jpeg
+    title: 中国科学院长春光学精密机械与物理研究所一行来馆调研交流
+    desc: 欢迎关注
+    url: https://mp.weixin.qq.com/s/uL8Sgc-Lz5cT0QqKUvzMUA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_png/md78XOO0kSmbyTZfEgBn13yF0XBzlASicfgnlkNUiaJHcPzs0GuWURkPdHUQ0O9m0yF32e8NeYgRpjpKsQvkibEUw/0?wx_fmt=png
+    title: 2023迎新 | 东师图书馆之“服务篇”
+    desc: 教学、活动、知识服务，为你一网打尽
+    url: https://mp.weixin.qq.com/s/GKU2ewrPtO6kTMdC5fQq6A
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSnJpKianMN80Dv5bnIjJGw4G1osribwIWPerXECxgIt1hEK0tQBJSvTGtqqYibmnLOl1F883bTic1MXSg/0?wx_fmt=jpeg
+    title: “书脸秀” ｜ 人与书创意摄影大赛
+    desc: 让书籍的封面“活”起来！
+    url: https://mp.weixin.qq.com/s/wdniEHJ6lTgqXZQv0ZWrsw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSnJpKianMN80Dv5bnIjJGw4GSB5myAznOW3NB1jibhhMooZZSiaklZ7CCu8oJOIbXMIHluSmjxcv72ibA/0?wx_fmt=jpeg
+    title: 图书馆举办“图书馆空间建设与新型服务融合”报告会
+    desc: 欢迎关注
+    url: https://mp.weixin.qq.com/s/vNXAnbHhy8IVag7XVxFomg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSl7CL8TT3F5sfXibabFcpNftNudSTIwuy3QNZibkjh0kuMKh0LUKZRXmEcR5wA0vISTy64wXoqAyojw/0?wx_fmt=jpeg
+    title: 2023迎新季｜图书检索指南
+    desc: 图书馆欢迎你！
+    url: https://mp.weixin.qq.com/s/fwITrGxZ_uat6XsagMNaMw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_png/md78XOO0kSl7CL8TT3F5sfXibabFcpNftfbe8UIXBsAHs2eGhs1tdmp5yibuydxaDk39mldBKkNA8iaUibQklNOvibQ/0?wx_fmt=png
+    title: 图书馆举办“预印本与新型学术交流”报告会
+    desc: 欢迎关注
+    url: https://mp.weixin.qq.com/s/4Ju0CTvOukBrcSmYlwdjWg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_png/md78XOO0kSl7CL8TT3F5sfXibabFcpNfthb4XO4lpDdk9GicooKlPY7P07pnKicTfU3JCuEH1qNn8UMx8qibevB1bg/0?wx_fmt=png
+    title: 2023迎新季 | 东师图书馆之“资源篇”
+    desc: 欢迎走进图书馆！
+    url: https://mp.weixin.qq.com/s/rKC4jfOoqjPo_54BNkVLTQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_png/md78XOO0kSm7tonBNXqia5pgJwIovZ37icm7ptWe6NHcRl5oVWm0ibPia8ryakEU2bQXsasNu5JsTMg8EwNk8V7chw/0?wx_fmt=png
+    title: 2023迎新季 | 东师图书馆之“空间篇”
+    desc: 欢迎走进东师图书馆
+    url: https://mp.weixin.qq.com/s/HIDcxn1NWcYMhYY1A9bR0g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSm7tonBNXqia5pgJwIovZ37icic5sRualPXksf4HGbeQHnHD43TiclCMNYPCR0QgUPOcc38SUbeh0XTdA/0?wx_fmt=jpeg
+    title: 2023迎新季 | 图书馆空间预约指南
+    desc: 欢迎预约使用！
+    url: https://mp.weixin.qq.com/s/Tongcnf7sckoI_-HNwpYXA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSn6lApd1ibQ98bZV5ucHkicqe5Gb241IuVproe1EAj4lBibfR4yLxicr8x6AeibnmaDD4Nzg2QPN5arkwQ/0?wx_fmt=jpeg
+    title: 2023迎新季 ｜ 图书馆服务指南
+    desc: 图书馆欢迎你！
+    url: https://mp.weixin.qq.com/s/naoHyJUsF-ANh-ZsNfjyqQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSn6lApd1ibQ98bZV5ucHkicqeO9xRfXkTribAHiaPyiaDqOAu6bXOYwZkOWT7yD25v4XvEZHqrQYpH55Sw/0?wx_fmt=jpeg
+    title: 小伙伴们~来领奖啦!!!
+    desc: 走进历史 相约CASHL
+    url: https://mp.weixin.qq.com/s/owPYmWT5igIVZB4p7rnGmQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSm7tonBNXqia5pgJwIovZ37icoth4bwyCLuuNmiak0LdrFkV9ed5GsCPzM4n1lWUT2psIZViaQ78c8S2A/0?wx_fmt=jpeg
+    title: 图书馆里也可以大声朗读！
+    desc: 净月校区图书馆一楼有声阅读区即将开放！
+    url: https://mp.weixin.qq.com/s/4km5b0a3E6zKhGJKjN51TQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_png/md78XOO0kSmP2ZQ8uL22W6vxVx8CXbDYcWmU9xz8OM0bOItfnMTaxrPRXYRfR0YhsCu8PdxPG9GfcEZgouPSOQ/0?wx_fmt=png
+    title: 东北师范大学国家知识产权信息服务中心赴一汽奔腾开展专题讲座
+    desc: 欢迎关注
+    url: https://mp.weixin.qq.com/s/5rTZv4gImkV361VnzixeGw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSmqB59oCjenu9JvoYm2AQ4bDYUcrw63ic9lod8BkYWZOviagIVh82FJrjk54k2h1hboACuGrsaDprmA/0?wx_fmt=jpeg
+    title: 新能源电池产业专利导航系列推送简报04期 | 吉林省新能源汽车及其动力电池产业政策
+    desc: 开展专利导航服务，有力支持全面创新
+    url: https://mp.weixin.qq.com/s/G08KfOJEU1nBVEC724rafA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_png/md78XOO0kSnE9FYuSldwbv1eyhVHDGYc4Y1Q9CibjWQhDRCJNG2g4n29VGGpFa1vWvPw0ReWazBdOBPNL1Hcntg/0?wx_fmt=png
+    title: 新能源电池产业专利导航系列推送简报03期 | 中国动力电池产业政策
+    desc: 开展专利导航服务，有力支持全面创新
+    url: https://mp.weixin.qq.com/s/nukdTiUU24WYvBYYad5OGQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSmkwgZOc5TDkG0MuWweoBXVFpyVOKDtWZMHIMkcPSMo76tQdlsmXCVuficlDy928wNC5UZxX4YkWyA/0?wx_fmt=jpeg
+    title: 关于图书馆暂停服务的通知
+    desc: 望周知
+    url: https://mp.weixin.qq.com/s/U7kSQZz9ebvvixa24CWMGg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSl3JdrgNFxCEwB5Gn9jTTmWhJPj3RYEiaPXw9gBH7ciaTvicNWUIpkMFej90cKa0ehyXibbKntc4BBHvQ/0?wx_fmt=jpeg
+    title: 阅读滋养心灵（第二十二期）
+    desc: 阅读·分享·成长
+    url: https://mp.weixin.qq.com/s/gcXJB-vY9xXH3Uz27GQ9cQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSl3JdrgNFxCEwB5Gn9jTTmW4s2nI0oribm6mcCnF7lDnpUw1KO40sxFMbT9pXCBfN1icngib6Tia9oqLw/0?wx_fmt=jpeg
+    title: 图书馆2023年暑假开馆时间
+    desc: 敬请关注！
+    url: https://mp.weixin.qq.com/s/3vkOFtvWsA3PPKEAZ6kofw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSmsKg0VMGVfXBOKXksGjRdGPBPE1evpgSpPCzSQibTv0stamCUylw3NPCrORibicsIJUyVxvGsDIyaibw/0?wx_fmt=jpeg
+    title: 好书荐读 | 豆瓣2022年度图书（科学·新知）
+    desc: 读万卷书，行万里路。
+    url: https://mp.weixin.qq.com/s/6dLEWkbNr9BEUyfvhEwixg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSlCQkEDiaYTYeAht3Bk2skoicx8qcc66miaXwFkicicHBqZpiaU6u6QyMMgKI0ftic0oHyR8Y83n07SicZBRw/0?wx_fmt=jpeg
+    title: 一汽集团一行来馆调研交流
+    desc: 欢迎关注
+    url: https://mp.weixin.qq.com/s/olg_0NDNgopeIcPgwLGsBw
+
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/md78XOO0kSkLKukIoNljo24t60ZCP4ZcbOVG4GibbkM81DGVe5gMZVt7Q6u6G2dmTnkezAJohqPXE5Oww8XEm4w/0?wx_fmt=jpeg
     title: 阅读滋养心灵 (第二十一期)
     desc: 阅读·分享·成长

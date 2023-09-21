@@ -4,6 +4,131 @@ desc: 招生报名、信息推送等服务
 id: gh_1d4eec902259
 logo: $img/media/official.png
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacDMn7GtSmN5yYQQyiaQPxCmT1tIA5bELf3AT3mibJeibcMsF8OKuibIBc3yAshUhcNJ3lhwh5I8fPoZ3g/0?wx_fmt=jpeg
+    title: 东北师范大学2024年接收优秀应届本科毕业生免试攻读研究生预通知
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/WRT4N57UIB7NfbEj7h5yrg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacCmXAwlcK3miag3w6AicFyDdYBzqwZjxKfzM4xN4AEibZbln44C038kadyDXibjdxBkOXnk7GIrzGTiaRw/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学公共管理学科、思想政治教育学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/MfcAQhVGFT-Fi0Uxtxl03g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacCmXAwlcK3miag3w6AicFyDdYBzqwZjxKfzM4xN4AEibZbln44C038kadyDXibjdxBkOXnk7GIrzGTiaRw/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学政治学学科、法学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/dsbE6aiK_Q8unmeWN8xxhA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacDMn7GtSmN5yYQQyiaQPxCmT3WSvHBbbiapauibFMU2G8icYTsYp6gQJoP31G4VW2edRrib6o32rTad65g/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学设计学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/C3Vd3ITMFwy9EqowgSDXyg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacDMn7GtSmN5yYQQyiaQPxCmT3WSvHBbbiapauibFMU2G8icYTsYp6gQJoP31G4VW2edRrib6o32rTad65g/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学美术学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/1Td7CmcexVKRnLV_nNLuAQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAgHPeW5XdtHF1bdgnrb4zW8r0rY3zs1WbyXKiadYnmb33uh7G9EZMCgibDhh0a5eubFXibkAiaCJePqw/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学统计学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/BmgX8ATiUoe2uOkIHaAB0g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAgHPeW5XdtHF1bdgnrb4zW7V4pZq6SZ6eicxVyS72zafFuCqibysKXDibDGziaXhAw5a3cTUU2vg8FQQ/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学数学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/Afnrv1IhSUMjC7gBFUeNMw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAgHPeW5XdtHF1bdgnrb4zW7V4pZq6SZ6eicxVyS72zafFuCqibysKXDibDGziaXhAw5a3cTUU2vg8FQQ/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学生物学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/rSL4ahxRJVsA8s5z1OL4pw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAgHPeW5XdtHF1bdgnrb4zW7V4pZq6SZ6eicxVyS72zafFuCqibysKXDibDGziaXhAw5a3cTUU2vg8FQQ/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学草学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/MVf-AzgKbo4bHfEQ_TePAg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAgHPeW5XdtHF1bdgnrb4zW7V4pZq6SZ6eicxVyS72zafFuCqibysKXDibDGziaXhAw5a3cTUU2vg8FQQ/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学生态学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/4p22imK9fRxMXCHr0cMNJQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAgHPeW5XdtHF1bdgnrb4zW7V4pZq6SZ6eicxVyS72zafFuCqibysKXDibDGziaXhAw5a3cTUU2vg8FQQ/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学资源与环境学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/NC0gJ9jFODnXKxX1uxbTpg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAgHPeW5XdtHF1bdgnrb4zW7V4pZq6SZ6eicxVyS72zafFuCqibysKXDibDGziaXhAw5a3cTUU2vg8FQQ/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学环境科学与工程学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/RibkOLB83gXDDyEMM09yCw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAK6icKJkl5tpavVPeeodMNGoPtmethoBWibSQCRocKA7sSThlqBkYc7dibWT5reicZ2OHa9cdwiaPpozw/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学化学学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/hD4aKFczWOJoX8yZRigG3Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAK6icKJkl5tpavVPeeodMNGicA47ME9YpicXM1ZxJibOHedDwgcHBuMzmQPpg6DMFXCqomq0zeR23tdw/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学地理学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/cG7skq1axG8Zjy0MggoyfA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAK6icKJkl5tpavVPeeodMNGicA47ME9YpicXM1ZxJibOHedDwgcHBuMzmQPpg6DMFXCqomq0zeR23tdw/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学汉语国际教育专业
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/oUbRwP56St7oItz1Wju6QA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacBNazaic6q7SrNyJecUm2q3KuB1zpYgLzedLE9dCcYyYm3lIdxD5Zmgl4kI1HVROAzCibTVj6FYc4pg/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学马克思主义理论学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/WTrPy36RctJf13kKPfT5Ng
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacBNazaic6q7SrNyJecUm2q3KaKibSQTgYia9UYWyiaKHYPFLZrKfNKfUG58Na1pLZRXgaGASfYJdj1pag/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学经管学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/RgxU60Zxh4dQwRzsrbS1lg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacBNazaic6q7SrNyJecUm2q3KaKibSQTgYia9UYWyiaKHYPFLZrKfNKfUG58Na1pLZRXgaGASfYJdj1pag/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学心理学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/vVNyhBjvojNnJu-SoBz-6Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAZOmTl8NDbbxRlYTlfzjLLazbF2OiaHoWo4qksq20JrbJExos3H0iatfPicZVAG1jicAW9eLtkKGiapGA/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学教育学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/NjRchr9BwSZbOvQQas_lZQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAZOmTl8NDbbxRlYTlfzjLLibaGgxukk70q8bStAibmm2LVTwdQLCBNuMv4ViaxlwGfPxoTf0MzIntIg/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学世界史学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/6VYOKBwEzn3EYmZ38di5MA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacAZOmTl8NDbbxRlYTlfzjLLibaGgxukk70q8bStAibmm2LVTwdQLCBNuMv4ViaxlwGfPxoTf0MzIntIg/0?wx_fmt=jpeg
+    title: 【研图有你】一图读懂东北师范大学中国史学科
+    desc: 欢迎报考东北师范大学研究生！
+    url: https://mp.weixin.qq.com/s/4P-_imDMtbtjc3RatZtSjg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacB2DmlXIZjxVRpB4MzPiazYBfsuLpQLa2Xhb3PuSTp4F2h1cgcD42n3WHe9FV06pMEUAT3m2OlVmsg/0?wx_fmt=jpeg
+    title: 关于2024年硕士研究生招生考试“333教育综合”科目选用全国统考卷的公告
+    url: https://mp.weixin.qq.com/s/cq-LGbdqac1l7Yu63KYECg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacDDbib50ZbhKzLICxZVia4u1qRtQoQdP1eibITsyPzrRe0icwXoxaTUsKwxlTXHq15JpZr03gVRqdmTgw/0?wx_fmt=jpeg
+    title: 【东师一夏】心理学院2023年优秀本科生学术夏令营圆满落幕
+    url: https://mp.weixin.qq.com/s/QuRVqkCD0oc93fgOugtJ3Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacCAzvh8yvuxlc9eoicXk9NQV0OFPXJlyiaSjGQoolYUvjq1QiboyRJAFyeQqcJLBIX9S2auP8WyHedhw/0?wx_fmt=jpeg
+    title: 【东师一夏】物理学院举办2023年暑期优秀大学生夏令营
+    url: https://mp.weixin.qq.com/s/xD4ktQ2EF5sFwVpsPID6jg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacCAzvh8yvuxlc9eoicXk9NQVgfLOsyAlWsdoDQKic7Jod0ibtLsdCcc62F7fgMC8gxFzqXibIDcodf7hA/0?wx_fmt=jpeg
+    title: 【东师一夏】外国语学院成功举办2023年全国优秀大学生暑期夏令营活动
+    url: https://mp.weixin.qq.com/s/Ssd5HkPIsxJgeKpJIEnUxQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacCAzvh8yvuxlc9eoicXk9NQV31QKpxQLkaHQicPd5bzPVh0MlChicVJq7IL6RcdP3ibEPm69QTDQJoVxw/0?wx_fmt=jpeg
+    title: 【东师一夏】国际汉学院成功举办首届优秀大学生暑期夏令营活动
+    url: https://mp.weixin.qq.com/s/2dMobPvJo2xBWqfg9ez8jw
+
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/sI4iaFEJCiacDY2VhNK159zN2SoFQwmPo4vlb62wMdbphboG8GDXtUAK0LuiaUL9SjiaVOrGHlGkpzzMt5Xqvtawlw/0?wx_fmt=jpeg
     title: 东北师范大学2023年优秀大学生暑期夏令营最新汇总
     desc: 快来东师一夏❤
