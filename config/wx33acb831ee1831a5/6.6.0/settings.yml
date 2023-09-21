@@ -605,12 +605,6 @@ function-presets:
           icon: authorize
           url: activate
 
-        - text: 密码重置
-          color: grey
-          name: Reset
-          icon: reset
-          url: reset
-
         - text: 邮箱申请
           color: purple
           name: Email
