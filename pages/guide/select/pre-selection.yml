@@ -1,6 +1,6 @@
 title: 预选
 author: Mr.Hope
-time: 2023-09-06T09:19:20.845Z
+time: 2023-09-21T03:08:43.266Z
 shareable: true
 content:
   - tag: title
@@ -15,9 +15,9 @@ content:
     type: info
     heading: 抽签优先级
     text:
-      - 选课志愿（1、2、3）
-      - 授课对象（在授课对象内优先）
-      - 年级（高年级优先）
+      - 选课志愿 (1、2、3)
+      - 授课对象 (在授课对象内优先)
+      - 年级 (高年级优先)
 
   - tag: ol
     type: info

@@ -1,0 +1,18 @@
+title: 东北师范大学 2024 年研究生全国统考招生专业目录
+desc: |-
+  来源: 研究生院官网
+time: 2023-09-21T03:08:42.473Z
+shareable: true
+content:
+  - tag: text
+    type: info
+    text:
+      - 关于完整的招生专业、人数以及联系方式，请详见官网。
+
+  - tag: action
+    header: 查询地址
+    content: https://yzb.nenu.edu.cn/tmp/2024ssml.htm
+
+  - tag: doc
+    name: 2024 年研究生学费及培养校区
+    url: $file/enroll/post-fee-2024.xlsx

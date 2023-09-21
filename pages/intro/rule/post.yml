@@ -1,7 +1,7 @@
 title: 研究生规章制度
 grey: true
 author: Mr.Hope
-time: 2023-09-14T07:25:23.104Z
+time: 2023-09-21T03:08:42.566Z
 shareable: true
 content:
   - tag: list
@@ -29,7 +29,7 @@ content:
         icon: rule
         path: dorm-manage
 
-      - text: 宿舍分配管理办法（试行）
+      - text: 宿舍分配管理办法 (试行)
         icon: rule
         path: dorm-distribution
 
