@@ -1,6 +1,7 @@
 title: 转专业
+icon: change
 author: Mr.Hope
-time: 2023-08-20T18:02:34.135Z
+time: 2023-09-22T16:59:13.450Z
 shareable: true
 content:
   - tag: title
@@ -41,7 +42,7 @@ content:
     header: 解读与建议
     items:
       - text: 本科生转专业实施办法解读
-        icon: intro
+        icon: explain
         path: explain
 
       - text: 常见问题

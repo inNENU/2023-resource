@@ -1,6 +1,7 @@
 title: 课程
+icon: content
 author: Mr.Hope
-time: 2023-08-26T03:00:41.008Z
+time: 2023-09-22T16:59:13.466Z
 grey: true
 shareable: true
 content:
@@ -52,7 +53,7 @@ content:
     header: 网课
     items:
       - text: 网课说明
-        icon: wifi
+        icon: network
         path: net-course
 
   - tag: list

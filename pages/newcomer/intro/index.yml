@@ -1,6 +1,6 @@
 title: 大学生活简介
 author: Mr.Hope
-time: 2023-08-25T18:24:25.763Z
+time: 2023-09-22T16:59:12.893Z
 grey: true
 shareable: true
 content:
@@ -46,7 +46,7 @@ content:
     items:
       - text: 课程设置
         icon: content
-        path: /guide/course/under-intro
+        path: /guide/course/under
 
   - tag: list
     header: 选课相关

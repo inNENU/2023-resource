@@ -1,6 +1,7 @@
 title: 毕业档案去向与常见问题
+icon: exit
 author: Mr.Hope
-time: 2023-08-09T15:35:43.368Z
+time: 2023-09-22T16:59:13.306Z
 shareable: true
 cite:
   - https://www.ncss.cn/ncss/zt/2023byxz.shtml
@@ -48,4 +49,4 @@ content:
     items:
       - text: 流动人员人事档案管理服务规定
         icon: rule
-        path: rule/move
+        path: /intro/rule/move-archive

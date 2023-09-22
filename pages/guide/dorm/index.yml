@@ -1,7 +1,8 @@
 title: 寝室
+icon: dorm
 grey: true
 author: Mr.Hope
-time: 2023-09-13T07:44:28.049Z
+time: 2023-09-22T16:59:13.622Z
 shareable: true
 content:
   - tag: list
@@ -9,7 +10,7 @@ content:
     items:
       - text: 寝室分配
         desc: 是否可以选择寝室
-        icon: faq
+        icon: explain
         path: choose
 
       - text: 入住数据
@@ -101,7 +102,7 @@ content:
     items:
       - text: 寝室门禁
         icon: door-guard
-        path: door
+        path: door-guard
 
       - text: 走读与调宿
         icon: day-reading

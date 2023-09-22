@@ -1,6 +1,7 @@
 title: 统一身份认证
+icon: authorize
 author: Mr.Hope
-time: 2023-08-31T16:22:59.271Z
+time: 2023-09-22T16:59:13.245Z
 shareable: true
 content:
   - tag: text
@@ -18,5 +19,5 @@ content:
   - tag: list
     items:
       - text: 统一身份认证介绍
-        icon: intro
+        icon: about
         path: intro

@@ -1,6 +1,7 @@
 title: 研究生服务办理
+icon: contact
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-22T16:59:13.284Z
 grey: true
 shareable: true
 content:
@@ -25,3 +26,7 @@ content:
       - text: 毕业生图书馆离校手续办理
         icon: leave
         path: library-leave
+
+      - text: 博士生申请国际学术会议资助
+        icon: apply
+        path: doctor-conference

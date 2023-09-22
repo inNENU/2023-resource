@@ -1,7 +1,7 @@
 title: 校园邮箱
 grey: true
 author: Mr.Hope
-time: 2023-07-16T11:41:46.085Z
+time: 2023-09-22T16:59:13.258Z
 shareable: true
 content:
   - tag: text
@@ -21,7 +21,7 @@ content:
         path: apply
 
       - text: 邮箱账号获取
-        icon: account
+        icon: register
         path: get
 
   - tag: list

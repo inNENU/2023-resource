@@ -1,6 +1,6 @@
 title: 东师 e 起战疫
 author: Mr.Hope
-time: 2023-08-04T13:58:24.193Z
+time: 2023-09-22T16:59:14.162Z
 grey: true
 shareable: true
 content:
@@ -42,7 +42,7 @@ content:
         path: exit
 
       - text: 返校申请
-        icon: entrance
+        icon: enter
         path: return
 
   - tag: title
