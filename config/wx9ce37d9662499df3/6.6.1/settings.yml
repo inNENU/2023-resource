@@ -6,6 +6,33 @@ main-page:
 main-presets:
   unlogin:
     - tag: grid
+      header: 2024 年研招
+      items:
+        - text: 招生简章
+          color: red
+          name: Rule
+          icon: rule
+          path: intro/enroll/grad/rule/2024
+
+        - text: 招生计划
+          color: purple
+          name: Plan
+          icon: enroll
+          path: intro/enroll/grad/major/2024
+
+        - text: 东师研招
+          color: grey
+          name: Wechat
+          icon: wechat
+          url: wechat-detail?path=graduate
+
+        - text: 更多
+          name: More
+          color: red
+          icon: more
+          path: intro/enroll/grad/
+
+    - tag: grid
       header: 您可能想关注
       items:
         - text: 学校概况
@@ -676,7 +703,7 @@ about:
     items:
       - text: 小程序由校团委融媒体中心授权交由 Mr.Hope 开发。其全部代码均由 Mr.Hope 编写，其内容仅代表 Mr.Hope 个人观点。
 
-      - text: 小程序现有字数为 1040036 字，其中东师指南部分 345112 字，新生迎新部分 101867 字，东师介绍部分 293227 字，机构介绍部分 66974 字，学院介绍部分 143995 字，功能大厅部分 42775 字，其他部分 46086 字。
+      - text: 小程序现有字数为 1040122 字，其中东师指南部分 345112 字，新生迎新部分 101867 字，东师介绍部分 293313 字，机构介绍部分 66974 字，学院介绍部分 143995 字，功能大厅部分 42775 字，其他部分 46086 字。
 
       - text: 校团委融媒体中心介绍
         url: info?path=Gorg/media/

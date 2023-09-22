@@ -280,13 +280,13 @@ grad-enroll:
       color: red
       name: Rule
       icon: rule
-      path: intro/enroll/grad/rule/2023
+      path: intro/enroll/grad/rule/2024
 
     - text: 招生计划
       color: purple
       name: Plan
       icon: enroll
-      path: intro/enroll/grad/major/2023
+      path: intro/enroll/grad/major/2024
 
     - text: 东师研招
       color: grey
