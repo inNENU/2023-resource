@@ -8,7 +8,7 @@ import { getPath, indent, resolvePath, resolveStyle } from "../utils.js";
 export const resolveText = (
   element: TextComponentOptions,
   pageId: string,
-  location = ""
+  location = "",
 ): void => {
   // 处理样式
   if (typeof element.style === "object")
@@ -61,7 +61,7 @@ export const resolveText = (
       url: ["string", "undefined"],
       env: ["string[]", "undefined"],
     },
-    location
+    location,
   );
 };
 
@@ -99,7 +99,7 @@ ${
         ? `- ${indent(item, 3)}`
         : tag === "ol"
         ? `1. ${indent(item, 3)}`
-        : item
+        : item,
     )
     ?.join("\n\n") || ""
 }
