@@ -34,6 +34,12 @@ gate:
       detail: 东北师范大学东北门
       path: north-east
 
+    - latitude: 43.862573
+      longitude: 125.32564203
+      name: 校医院西门
+      detail: 东北师范大学校医院西门
+      path: hospital-west
+
 dorm:
   name: 寝室
   content:
