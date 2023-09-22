@@ -79,6 +79,8 @@ export type ComponentOptions =
 export interface PageConfig {
   /** 页面标题 */
   title: string;
+  /** 页面图标 */
+  icon: string;
   /** 页面描述 */
   desc?: string;
   /** 页面作者 */
@@ -127,6 +129,8 @@ export interface PageConfig {
 export interface PageOptions {
   /** 页面标题 */
   title: string;
+  /** 页面图标 */
+  icon: string;
   /** 页面描述 */
   desc?: string;
   /** 页面作者 */

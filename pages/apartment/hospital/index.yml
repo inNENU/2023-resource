@@ -1,7 +1,8 @@
 title: 校医院
 desc: |-
   信息来源: 校医院官网
-time: 2022-09-03
+icon: hospital
+time: 2023-09-22T15:38:33.188Z
 grey: true
 shareable: true
 content:
@@ -18,7 +19,7 @@ content:
         path: intro
 
       - text: 补办公费医疗手册
-        icon: handbook
+        icon: guide
         path: handbook
 
       - text: 楼层分布
@@ -30,7 +31,7 @@ content:
         path: attention
 
       - text: 科室介绍
-        icon: association
+        icon: apartment
         path: department
 
       - text: 联系电话

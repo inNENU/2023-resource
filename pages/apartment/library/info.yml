@@ -1,4 +1,5 @@
 title: 借阅信息
+icon: about
 desc: |-
   信息来源: 图书馆官网
 cite:
@@ -22,7 +23,7 @@ content:
     src: $img/library/info.jpg
 
   - tag: title
-    text: 修改个 信息
+    text: 修改个人信息
 
   - tag: text
     text: 可通过“个人资料”栏目完善个人信息，并点击“保存更改”

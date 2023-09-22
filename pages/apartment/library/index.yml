@@ -1,7 +1,8 @@
 title: 图书馆
+icon: library
 grey: true
 author: Mr.Hope
-time: 2023-09-13T08:09:41.108Z
+time: 2023-09-22T15:38:33.260Z
 shareable: true
 content:
   - tag: account
@@ -17,11 +18,11 @@ content:
   - tag: list
     items:
       - text: 图书馆简介
-        icon: intro
+        icon: about
         path: intro
 
       - text: 图书馆历史
-        icon: time
+        icon: history
         path: history
 
       - text: 图书馆风貌
@@ -40,13 +41,17 @@ content:
 
       - text: 借书权限
         icon: permission
-        path: auth
+        path: permission
 
       - text: 图书预约
         icon: time
         path: book
 
-      - text: 借书还书
+      - text: 借阅信息
+        icon: about
+        path: info
+
+      - text: 借阅/还书流程
         icon: flow
         path: borrow
 
@@ -80,8 +85,8 @@ content:
         icon: study
         path: study
 
-      - text: 合作空间
-        icon: student-org
+      - text: 研学空间
+        icon: cooperate
         path: space
 
       - text: 学术厅

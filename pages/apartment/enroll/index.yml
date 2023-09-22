@@ -1,7 +1,8 @@
 title: 招生办公室
 grey: true
 author: Mr.Hope
-time: 2023-09-05T02:41:08.477Z
+time: 2023-09-22T15:38:33.134Z
+icon: enroll
 shareable: true
 content:
   - tag: account
@@ -17,8 +18,8 @@ content:
   - tag: list
     items:
       - text: 招生办公室人员
-        icon: about
-        path: intro
+        icon: people
+        path: people
 
       - text: 招生办公室联系方式
         icon: phone

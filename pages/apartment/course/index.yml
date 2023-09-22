@@ -1,7 +1,8 @@
 title: 教务处
+icon: jwc
 grey: true
 author: Mr.Hope
-time: 2023-09-05T02:41:08.454Z
+time: 2023-09-22T15:38:33.075Z
 shareable: true
 content:
   - tag: account
@@ -25,7 +26,7 @@ content:
         path: apartment
 
       - text: 各学院教务秘书电话
-        icon: phone
+        icon: jwc
         path: contact
 
   - tag: list

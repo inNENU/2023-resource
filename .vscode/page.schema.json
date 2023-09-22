@@ -7,6 +7,10 @@
       "type": "string",
       "maxLength": 12
     },
+    "icon": {
+      "description": "页面图标",
+      "type": "string"
+    },
     "desc": {
       "description": "页面描述",
       "type": "string"

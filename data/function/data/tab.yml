@@ -143,7 +143,7 @@ apartment:
     - text: 体育馆
       color: olive
       name: Gym
-      icon: basketball
+      icon: gym
       path: apartment/gym/
 
 school:

@@ -15,18 +15,17 @@ content:
     detail: 东北师范大学图书馆
     qq: 1665466732
     wxid: nenu_lib
-
     account: library
     site: http://www.library.nenu.edu.cn/
 
   - tag: list
     items:
       - text: 图书馆简介
-        icon: intro
+        icon: about
         path: /apartment/library/intro
 
       - text: 图书馆历史
-        icon: time
+        icon: history
         path: /apartment/library/history
 
       - text: 图书馆风貌
@@ -45,13 +44,17 @@ content:
 
       - text: 借书权限
         icon: permission
-        path: /apartment/library/auth
+        path: /apartment/library/permission
 
       - text: 图书预约
         icon: time
         path: /apartment/library/book
 
-      - text: 借书还书
+      - text: 借阅信息
+        icon: about
+        path: /apartment/library/info
+
+      - text: 借阅/还书流程
         icon: flow
         path: /apartment/library/borrow
 
@@ -85,8 +88,8 @@ content:
         icon: study
         path: /apartment/library/study
 
-      - text: 合作空间
-        icon: student-org
+      - text: 研学空间
+        icon: cooperate
         path: /apartment/library/space
 
       - text: 学术厅

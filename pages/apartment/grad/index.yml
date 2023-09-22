@@ -1,7 +1,8 @@
 title: 研究生院
+icon: degree
 grey: true
 author: Mr.Hope
-time: 2023-09-05T02:41:08.483Z
+time: 2023-09-22T15:38:33.147Z
 shareable: true
 content:
   - tag: account
@@ -27,7 +28,7 @@ content:
         path: contact
 
       - text: 人员信息
-        icon: student-org
+        icon: people
         path: person
 
   - tag: action

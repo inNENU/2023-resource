@@ -17,7 +17,7 @@ content:
         path: /apartment/hospital/intro
 
       - text: 补办公费医疗手册
-        icon: handbook
+        icon: guide
         path: /apartment/hospital/handbook
 
       - text: 楼层分布

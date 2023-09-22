@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 import { checkKeys } from "@mr-hope/assert-type";
 
@@ -20,6 +20,7 @@ import { resolveText } from "./text/index.js";
 import { resolveTitle } from "./title/index.js";
 import { type PageConfig, type PageOptions } from "./typings.js";
 import { resolveVideo } from "./video/index.js";
+import { aliasResolve } from "./utils.js";
 
 /**
  * 处理页面数据
@@ -33,7 +34,7 @@ import { resolveVideo } from "./video/index.js";
 export const resolvePage = (
   page: PageConfig,
   pagePath = "",
-  diffResult = "",
+  diffResult = ""
 ): PageOptions => {
   if (!page) throw new Error(`${pagePath} doesn't contain anything`);
 
@@ -94,7 +95,7 @@ export const resolvePage = (
         console.warn(
           `${pagePath} page.content[${index}] 存在非法 tag ${
             tag as unknown as string
-          }`,
+          }`
         );
 
       return element;
@@ -123,9 +124,9 @@ export const resolvePage = (
         `./pages/${pagePath}.yml`,
         readFileSync(`./pages/${pagePath}.yml`, { encoding: "utf-8" }).replace(
           /^time: .+$/m,
-          `time: ${date.toISOString()}`,
+          `time: ${date.toISOString()}`
         ),
-        { encoding: "utf-8" },
+        { encoding: "utf-8" }
       );
       pageData.time = timeText;
     } else {
@@ -143,11 +144,24 @@ export const resolvePage = (
     }
   }
 
+  if (page.icon)
+    if (
+      !page.icon.match(/^https?:\/\//) &&
+      !page.icon.match(/\./) &&
+      !existsSync(`./data/icon/${page.icon}.svg`)
+    ) {
+      console.warn(`Icon ${page.icon} not exist in ${pagePath}`);
+    }
+    // `$` alias resolve and file check
+    else page.icon = aliasResolve(page.icon, "Image", pagePath);
+
   checkKeys(
     pageData,
     {
       title: "string",
       id: "string",
+      // icon: "string",
+      icon: ["string", "undefined"],
       desc: ["string", "undefined"],
       author: ["string", "undefined"],
       time: ["string", "undefined"],
@@ -161,7 +175,7 @@ export const resolvePage = (
       photo: ["string[]", "undefined"],
       images: ["string[]", "undefined"],
     },
-    `${pagePath} page`,
+    `${pagePath} page`
   );
 
   return pageData;

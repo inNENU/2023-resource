@@ -1,7 +1,8 @@
 title: 学校机构介绍
+icon: apartment
 grey: true
 author: Mr.Hope
-time: 2023-08-16T15:08:53.231Z
+time: 2023-09-22T15:38:33.048Z
 shareable: true
 content:
   - tag: grid
@@ -34,7 +35,7 @@ content:
         color: mauve
         name: Defend
         icon: police
-        path: defend
+        path: defend/
 
       - text: 图书馆
         color: cyan
@@ -75,7 +76,7 @@ content:
       - text: 校团委
         color: purple
         name: League
-        icon: https://assets.innenu.com/img/about/group.png
+        icon: $img/about/group.png
         path: youth-league/
 
       - text: 学生心理健康教育中心
@@ -99,5 +100,5 @@ content:
       - text: 体育馆
         color: olive
         name: Gym
-        icon: basketball
+        icon: gym
         path: gym/

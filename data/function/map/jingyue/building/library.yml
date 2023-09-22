@@ -12,51 +12,46 @@ content:
     detail: 东北师范大学图书馆
     qq: 1665466732
     wxid: nenu_lib
-
     account: library
     site: http://www.library.nenu.edu.cn/
 
   - tag: list
     items:
       - text: 图书馆简介
-        icon: intro
+        icon: about
         path: /apartment/library/intro
 
       - text: 图书馆历史
-        icon: time
+        icon: history
         path: /apartment/library/history
 
       - text: 图书馆风貌
         icon: photo
         path: /apartment/library/scene
 
+  - tag: list
+    items:
       - text: 馆藏分布
         icon: books
         path: /apartment/library/distribution
 
-      - text: 楼层平面图
-        icon: floor
-        path: /apartment/library/floor
-
-      - text: 开馆时间
-        icon: time
-        path: /apartment/library/door
-
-  - tag: list
-    items:
       - text: 书目检索
         icon: search
         path: /apartment/library/search
 
       - text: 借书权限
         icon: permission
-        path: /apartment/library/auth
+        path: /apartment/library/permission
 
       - text: 图书预约
         icon: time
         path: /apartment/library/book
 
-      - text: 借书还书
+      - text: 借阅信息
+        icon: about
+        path: /apartment/library/info
+
+      - text: 借阅/还书流程
         icon: flow
         path: /apartment/library/borrow
 
@@ -68,8 +63,36 @@ content:
         icon: money
         path: /apartment/library/buy
 
+      - text: 文献传递
+        icon: express
+        path: /apartment/library/article
+
+      - text: 馆际互借
+        icon: borrow
+        path: /apartment/library/deliver
+
   - tag: list
     items:
+      - text: 楼层平面图
+        icon: floor
+        path: /apartment/library/floor
+
+      - text: 开馆时间
+        icon: time
+        path: /apartment/library/door
+
+      - text: 独立学习区
+        icon: study
+        path: /apartment/library/study
+
+      - text: 研学空间
+        icon: cooperate
+        path: /apartment/library/space
+
+      - text: 学术厅
+        icon: degree
+        path: /apartment/library/hall
+
       - text: 电子资源
         icon: books
         path: /apartment/library/evpn
@@ -84,6 +107,10 @@ content:
 
   - tag: list
     items:
+      - text: 图书馆守则
+        icon: rule
+        path: /apartment/library/rule
+
       - text: 联系方式
         icon: phone
         path: /apartment/library/contact
