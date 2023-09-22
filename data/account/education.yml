@@ -3,6 +3,46 @@ desc: 东北师范大学教育学部官方微信平台
 id: edunenu
 logo: $img/media/education-wechat.png
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8ZwdFvHicib9B4BB3xefnMgNE2NA3NTszAZt5qmdAr6ib1MYeEEibzhkY4BqiaQTbk5Xb1BibsEcbAkYzRA/0?wx_fmt=jpeg
+    title: “核心素养时代下的知识、课程与课堂”国际课程改革研讨会成功举行
+    desc: 核心素养时代下的知识、课程与课堂”国际课程改革研讨会成功举行
+    url: https://mp.weixin.qq.com/s/qrqtoOX2V9Wi6lfqxT95oQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8aAzGntaG4H9cCwI6Ml5CoThClQspywqGucicNticUOkhawuNR3YBqxrZAaLb3KrptlpB9C7pqQoeow/0?wx_fmt=jpeg
+    title: 第二届教育学原理课程群虚拟教研室高峰论坛成功举行
+    desc: 第二届教育学原理课程群虚拟教研室高峰论坛成功举行
+    url: https://mp.weixin.qq.com/s/Z53X9AG6qqw-m_2hBOWn9g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8b8mP5yKze5upDByY0V8Fl2C8AiarGXVTS05OOcIeUXNkXNO9QFNNn0sObRCkCdDXX3enWmUwhVTqA/0?wx_fmt=jpeg
+    title: 于伟教授专著《中国学校与率性教育》英文版正式出版发行
+    desc: 于伟教授专著《中国学校与率性教育》英文版正式出版发行
+    url: https://mp.weixin.qq.com/s/bgy-C4OMLJ6hcM5EGNvQuw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8bPibOd8PevOCI6Oft9MJvDicqaOHC81w1mPUqbziavJda5iaYPXlTOeteRLB8HvunQEZJ1sIZsdpRlHg/0?wx_fmt=jpeg
+    title: 学部孙兴华副教授喜获第三届全国高校教师教学创新大赛国赛二等奖
+    desc: 学部孙兴华副教授喜获第三届全国高校教师教学创新大赛国赛二等奖
+    url: https://mp.weixin.qq.com/s/kpI81rJ5OOPK6iqk8ujPiQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8YiahgE5SnemOC62Q5Jn7YkUCL2gs70IGicNTrwZLx7RbjZEHu9wfbcfcHiahDc6uLMlY3uYUk6Y8HtQ/0?wx_fmt=jpeg
+    title: 东北师范大学首个  “教育博士海外研习营”项目圆满完成
+    desc: 东北师范大学首个  “教育博士海外研习营”项目圆满完成
+    url: https://mp.weixin.qq.com/s/mi5oFTXvfLWI757sj7AWTQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8aBjAicJFiadXqoNDjVfmicraibYNu3rvWrHBP8B3ibA4qsYHf0HgFOEJ5zhLwL0iaBD1cpQBCpzVXtelbQ/0?wx_fmt=jpeg
+    title: 学部教师在国家级教学成果奖中  获佳绩，7项成果获奖！
+    desc: 学部教师在国家级教学成果奖中  获佳绩，7项成果获奖！
+    url: https://mp.weixin.qq.com/s/VUVf6HtbQDDVKt6hN9AySw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8a7D01TPIn4DtXecuJlMKhuWQhR3zQePEzfP1YG64QqVicSiaLE4HLyZr8O19XWq5icQibyytIVicH81tg/0?wx_fmt=jpeg
+    title: 中国教育学会农村教育分会学术年会暨“教育强国建设与乡村教育振兴”研讨会圆满召开
+    desc: 中国教育学会农村教育分会学术年会暨“教育强国建设与乡村教育振兴”研讨会圆满召开
+    url: https://mp.weixin.qq.com/s/gTnnlhx1mNHR4xXH6ZUuqg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8bluJ8qJTyZiafA91KXz0dRsdeg9nX4SzuwmJW9MicrA7PrHiaSIvXdXEp6GUsjADm0nROfZXgLQEKKA/0?wx_fmt=jpeg
+    title: 始于初秋，终于盛夏  云蒸霞蔚，前程似锦
+    desc: 隆重举行教育学部2023届毕业典礼
+    url: https://mp.weixin.qq.com/s/ySFy7HtVQO-XzmR7BZX6Iw
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Vx8dVSJTs8bTt2MIRofxPljO2x9iczVQprga47mJHLibVhUHXiaQVa2Qveg4Ww3t6OILnCmHyKP3icIp8C9IEWcY1w/0?wx_fmt=jpeg
     title: 东北师范大学教育学部2023年优秀本科生夏令营招生简章
     desc: 东北师范大学教育学部2023年优秀本科生夏令营招生简章

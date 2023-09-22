@@ -3,8 +3,93 @@ detail: 东北师范大学环境学院
 desc: 了解更多东师环境学院的信息与活动
 id: dongshihuanjing
 logo: $img/media/environment.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uFo1RTESficCibsFC2USSdOztwsloEpacG48MMOnNpbKdl4yj6vtRCLnpWzRn5C20a26jNfxagW363g/0?wx_fmt=jpeg
+    title: “跟着总书记脚步看吉林”——环境学院本科生赴吉林省各地开展实践活动
+    desc: “跟着总书记脚步看吉林”环境学院本科生赴吉林省各地开展实践活动01导言党的十八大以来，习近平总书记对吉林念兹
+    url: https://mp.weixin.qq.com/s/57gcjRzXsk4pNYTQ3-AdlQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGrpbvh2CI5QbtgkeJia9cZkb7wYPjjibfiaUicnibMOM3olLbSGibWBSFz81YwV8Gh3D4JrZHDOO8IX6aQ/0?wx_fmt=jpeg
+    title: 东北师范大学环境学院 2024年接收优秀应届本科毕业生免试攻读研究生 复试录取工作实施细则
+    url: https://mp.weixin.qq.com/s/L7MHVkBmKlfLJq56G1kd0g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uEl3JGF7OMxOic4XibaEjy0V9TQ0g8EuEvZsHfOf2Pp8iaNp3yRbOHc74fJLjVHDSibHmmZkVQol0VTuw/0?wx_fmt=jpeg
+    title: 铭记历史，砥砺前行
+    url: https://mp.weixin.qq.com/s/ZnpM6ET9icCx0fG4Il02pw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGFeo0YNMt8ds2XCVtJ9hSyjMjujxhXhCPLICy2pb23GcBrO4nGrjjW7cxKaFicibkyE25t6EJVR9RQ/0?wx_fmt=jpeg
+    title: 追忆往昔青葱岁月，庆贺环院十年华诞——陈景文教授讲话
+    url: https://mp.weixin.qq.com/s/VH0dsMGa9hikUKHyiYlq_w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGZCaNj2NxL0HKrzrkhC4IXRamJjZ4h2wgrs0oRmyiciciaI3F1wtK0DW3pO411jsibGCj4EJaewxHpfA/0?wx_fmt=jpeg
+    title: 环境学院开展“悟思想伟力 守卫碧水蓝天” 学生党员教育实践活动
+    url: https://mp.weixin.qq.com/s/MXMwTlOxwl6HVUipc3GlVg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGZCaNj2NxL0HKrzrkhC4IX23c0vOVBlBOlNZ4XoseHxc3hEPzchaTQsiadp7mRPj45Hribm7zLqEjQ/0?wx_fmt=jpeg
+    title: 环境学院2023年度暑期社会实践结项评审会圆满结束
+    desc: 9月初，由环境学院团委主办的2023年度暑期社会实践结项评审会通过腾讯会议举办。实践团队成员结合社会实践过程
+    url: https://mp.weixin.qq.com/s/2vNMQCxkf59FdADfwKuNvA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uFutblXzAx3ibElAghwXWdlriaic7toChK2B6vOFxR2PyO3PvZKfn7D9IDpG9gDp41iclw85TrMFWe6Uw/0?wx_fmt=jpeg
+    title: 东北师范大学环境学院成立10周年，暨环境系科成立45周年纪念活动举行
+    url: https://mp.weixin.qq.com/s/ZdO1U8krmZrQ0zBoInS4Gw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGylsERQjFwUuNbB5nCMa9ibV3zmnPgTyS1ia6G9FelMDAV79jO5TEp9RUw7pCxK6jJzchA3KegXWYA/0?wx_fmt=jpeg
+    title: 今朝时又至，难忘师恩，祝各位老师节日快乐！
+    desc: 2023/9/10今朝时又至，难忘师恩，祝各位老师节日快乐！TEACHERS\x26#39;  DAY教师节简介TEACH
+    url: https://mp.weixin.qq.com/s/z6AEo_NiS9z45cqnhyLjkA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGibBxeNibicGCrYDmcA2yUVW98kXI1MPO6ib1icMKep3jFdMvLMiboxkj916MHibft2cYEhHkssyghycoGg/0?wx_fmt=jpeg
+    title: 绿色未来，我们共同筑就：欢迎环境学院2023级新同学！
+    desc: 2023年8月26日至8月27日，环境学院2023级本科生116人正式入学报道。2023年8月29日至8月3
+    url: https://mp.weixin.qq.com/s/Zn_pGATnFZDOeX-qBcq-4Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uFNOScS8M8R8BiazL2iamClQylCpRBSsWHBZ5zbY4QyCCUo5FBhiaRsxvLx7YibEy2xiaibkkXYJC8libyLw/0?wx_fmt=jpeg
+    title: 薪火相传 扬帆起航——环境学院召开第十一次研究生代表大会
+    desc: 2023年9月1日，东北师范大学环境学院第十一次研究生代表大会在环境学院203室召开，来自学院各年级各专业研
+    url: https://mp.weixin.qq.com/s/PaBmHvxeEyQpuo2OGSI-TQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uFNOScS8M8R8BiazL2iamClQyz22fEzH0HypRWGY9BH4cBZnUCtgJPWKibds7ojxpuEfFEcAzibG639ug/0?wx_fmt=jpeg
+    title: 环境学院第十一届研究生会主席及部门负责人换届结果公示
+    desc: 在学院学生工作组和广大师生的监督下，经过公开报名、研究生代表大会评选、学院审核等环节，学院研究生会确定了新一
+    url: https://mp.weixin.qq.com/s/3fi7Uf7stWwXaoa6bUG8Xg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uEuHfdoYW5d34RdFc41ZiaEmRpVEfZwG9pNveicPzwY4LeRiboaPp3de6fIBNoxb7yRwcjEUaROILXWg/0?wx_fmt=jpeg
+    title: 环境学院举办2023级本科生新生家长见面会及走寝活动
+    url: https://mp.weixin.qq.com/s/hRSolJuVEzGdC1u_fDub2w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uG7lO2ibsJSuuga44acf2fSJfBU7RBQArusgkco7bwa6pKUff1DqNf9zqOdAXZVJV9WFRS3EjoYdCw/0?wx_fmt=jpeg
+    title: 环境学院新生特辑之团学组织介绍（一）
+    desc: 2023开学季我们的故事，从现在开始欢迎2023级的小萌新加入环境学院大家庭现在让我们看看环境学院有什么团学
+    url: https://mp.weixin.qq.com/s/c143D3tEhOhmgw4X2kS_5Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uG7lO2ibsJSuuga44acf2fSJfvyGHO0sIibKI5heEEDx6ObtzgIIUPENHYsTZGQapOlH9btBdJIYQLg/0?wx_fmt=jpeg
+    title: 环境学院新生特辑之团学组织介绍（二）
+    desc: 大家跟上小编了吗，接下来让我们一起走近常春藤、新媒体中心、青马学会常春藤Part.1 是一个怎么样的团学组织
+    url: https://mp.weixin.qq.com/s/urLaivJXPxq7JNciK4U8Pg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGjvw4wiaxZWYgwV7L30NkicmDRJEPppv0UbxhupeabhW1zOukw7yhzEYP9WGeoXUXbkA3xTZYBzckQ/0?wx_fmt=jpeg
+    title: 环境学院新生特辑之开学指南
+    url: https://mp.weixin.qq.com/s/SZpIcO5naMvIz4nFhbfbCw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uHicncl5lic6SbicHgJCyZCcuxDTpb7YHJmawiadtWrPicicdRjoibRVuG6EBve8k1yuxayK9oss4NjK4EicA/0?wx_fmt=jpeg
+    title: 吉林省环境科学与工程学会成立暨产学研协同创新模式和经典案例研讨会
+    desc: 吉林省环境科学与工程学会成立暨产学研协同创新模式和经典案例研讨会
+    url: https://mp.weixin.qq.com/s/JPMYgtCZFFued_KqrTe6Dw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uHlE7z33BnVZI3CywpEXyvYpwOSqPcrU3QDmlr7NOpS7O2Im7g7icBIxkraKHtyYDxubTF65qnctxQ/0?wx_fmt=jpeg
+    title: 东北师范大学牵头的第一届《中国环境科学》青年论坛“有机污染物环境行为及生态和健康风险”分会场成功举办
+    desc: 东北师范大学牵头的第一届《中国环境科学》青年论坛“有机污染物环境行为及生态和健康风险”分会场成功举办
+    url: https://mp.weixin.qq.com/s/zqF2iiKXh4gyaw1sSyBmpw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uEqooMGfbiadiazJT6lzxjycxC42Pia4ecTIYzeQsRMDWJdAPUehOCIzgpKF6AicHje5Vph0Z2OANQiaqw/0?wx_fmt=jpeg
+    title: 环境学院开展2023年大学生暑期“三下乡”社会实践立项评审会
+    url: https://mp.weixin.qq.com/s/Jkf2vIlRcHUl-8Y3J95Mvg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uHibrhPaNb9ljU7d4YmzlbXOvm58eajlcUzTRmMbBfkQfTuZRbs4t10PDwtdaWgFcfI8nyAVNxowmw/0?wx_fmt=jpeg
+    title: 亲爱的东师环境校友，学院喊你们回家喽！！！
+    url: https://mp.weixin.qq.com/s/IZ5Q5_vWGzU_lwVIEQJ-Ew
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/IiaBlQyAP0uGEI09zKAHRIB5kC4xT1b7QzNaiawmkQmsGnnISAnWLK4OjyWvZibOJUzuPxSp710xECU6icfCCianR0g/0?wx_fmt=jpeg
     title: 校园美景征集 | 我与东师夏天的第三次约会~
     url: https://mp.weixin.qq.com/s/xlcyzOz8-WHyxBdvRQsHVQ

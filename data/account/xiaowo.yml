@@ -3,8 +3,26 @@ detail: 东北师范大学学生宿舍自我管理委员会
 desc: 东师小蜗牛们的温暖家园
 id: Nenuxiaowo
 logo: $img/organization/xiaowo/logo.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/jj175bf7cTbZzb87ViaXqAAFkFAx19Ym49Nt9r3Up2b4XZJQ5spibPPE0yiajgkhMrhiayibQge2vicLtia4dgxQ05jJg/0?wx_fmt=jpeg
+    title: 你好，新伙伴！
+    desc: 新学期 新气象 新开始\x0d\x0a多彩的校园生活已拉开帷幕\x0d\x0a青春东师 小窝终于等到你！
+    url: https://mp.weixin.qq.com/s/uHN6RR4gNZVKkNXJkreNFw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/jj175bf7cTZZqSYmb2Rw9lGAAh3DkvTJZfTiaMVxQhGF2R9eSKCiaIgqAolHDG4cJG1vESPbRrIqb0670YkVOArg/0?wx_fmt=jpeg
+    title: 你爱窝！窝爱你！东师小窝纳新啦！
+    url: https://mp.weixin.qq.com/s/KN5vdOiM3YDvulCXByjuKQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/jj175bf7cTY0eWnr7xZuEmcI0xkeoGsY8VEVYP4T099xSr1yz6YibRcYWVVcV0WVayf62UcyHLZyV3eL0jgP2vA/0?wx_fmt=jpeg
+    title: 欢迎2023级NENUer们入校
+    desc: 东师小窝欢迎新同学2023NENUer开学啦！
+    url: https://mp.weixin.qq.com/s/XbvV3sbR8ZJT07fJ1ZPhxQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/jj175bf7cTbsdovQwWBIbickrobXGSetpCcyx0vcpHWOxVGbguqLXfictiaMyVdO9MLnicobhNybtCLhozXLXuDMUA/0?wx_fmt=jpeg
+    title: 第十届学生宿舍自我管理委员会换届公示
+    desc: 学生宿舍自我管理委员会于2023年8月进行了线上学生干部换届工作
+    url: https://mp.weixin.qq.com/s/3N9o2Ekv8483hKzMGZBdsw
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/jj175bf7cTZ487hZ9ZaOiaqJXibPAsCvk4wRSHX70sNxDW6xcqW74klCm12A2BY51JgHwic8osotj7uSEHe7R7dmA/0?wx_fmt=jpeg
     title: 灯光永相伴，璀璨向未来
     url: https://mp.weixin.qq.com/s/liKpkG0vNP1RLH_QVQVhnA

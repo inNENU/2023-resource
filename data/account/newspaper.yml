@@ -7,6 +7,41 @@ logo: $img/organization/newspaper/logo.png
 
 authorized: true
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHkV0MWFGcZxA9Nvom9AiaTPy0zAicvAkEYQseVicDJG1l9QsA4vibtvj11aicQRsfaZqVfTpIDBXjJOaUg/0?wx_fmt=jpeg
+    title: 一见“青新”，将故事写成我们 | 《东师青年》报社纳新圆满结束
+    desc: “在书写中延续观察、思考、批判在文字里见天地、见众生、见自己”这里是《东师青年》报社遇见东小青，一起将故事写
+    url: https://mp.weixin.qq.com/s/6mvWd8JuIxhH9weIGKozAw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHko9QLIR6X2gnGicY6ss0icyia67gYzjYyPSibJ91fxOhyqb3haibrjSM6YRUMFiblLxDYILzLpsCtbiaXiaQ/0?wx_fmt=jpeg
+    title: 校园集市-东师站，欢迎你！
+    desc: 东师 · 集市 叮咚！
+    url: https://mp.weixin.qq.com/s/lQaIJa22qbffW39jThA6yQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHnveGktiak258ibf8zXQakrusWvmcge5TcGOldSjaianNp5nWf2swkZpma8nqtSonvtE2Pwf4QSDl6fA/0?wx_fmt=jpeg
+    title: 开学啦，请查收学姐笔记
+    desc: 开学啦，请查收学姐笔记！不必急于翻到最后一页看结局怎样，这一路上的陪伴足够回味许久！
+    url: https://mp.weixin.qq.com/s/DzY8o2OFvCgNY2YCtHsZVA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHk4PmvI1vvhWFjibWibp7SyF0Wz7dS19fodqblZcGC8bbqFRmibJFAyT0Q2s8M3pTiaZmqNT8kaZM8ibVg/0?wx_fmt=jpeg
+    title: 迎新特辑 | 东师版“蛋仔派对”之巅峰派对
+    desc: 东师版“蛋仔派对”的巅峰派对即将开始，学业通关与精彩日常严阵以待，只等你来参与！首先隆重登场的是巅峰派对，其
+    url: https://mp.weixin.qq.com/s/jfpcwQXhbM0pV8bsiEFwyA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHk4PmvI1vvhWFjibWibp7SyF0qDCLOVocs25EZ9LHD6Uzxb5PYSg6SJrJOiaE69jIJlJWRiaz5lIM6Xmg/0?wx_fmt=jpeg
+    title: 迎新特辑 | 东师版“蛋仔派对”之猫猫学长来领路
+    desc: 跟随猫猫学长，一同探索校园里的每一处美景。 玩转东师，猫猫学长小部队，行动！
+    url: https://mp.weixin.qq.com/s/fNHPCAlmm_yW6JinD8o4lA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHk4PmvI1vvhWFjibWibp7SyF0yCRkcicg2lVSBRN7Z40pC29ToYia7vXNmMWMibJOV3iaaI2LgFFruWnBXg/0?wx_fmt=jpeg
+    title: 迎新特辑 | 叮咚！东师版“蛋仔派对”上线啦！
+    desc: 一场独属于东师人的“蛋仔派对”，跟着东小青一起进入新手教程吧！
+    url: https://mp.weixin.qq.com/s/MoJGHOkMi6OqX86QlkgWWw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHnwdxGwgcDoUHiaoHiaMjbR3UQvar4kRULbpYIUl3nibPPSxgRlve8ben3c4tMZBz4CDVvMGT2IxSJyg/0?wx_fmt=jpeg
+    title: 青 • 纳新｜加入《东师青年》报社，让命运的齿轮开始转动！
+    desc: 立足校园，观察天下。一路前行，从未退却。这里是《东师青年》报社！
+    url: https://mp.weixin.qq.com/s/6PAXbqQX-rw7DUOaGMxl0w
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/1ia7E117xHHmN9uWAgMQdItPicJwgJxBdgjicib9xSMiantCSakHgeWXWWEHceia0sUtQfqKGiaibun5Hial0G0Ex2Eia2hw/0?wx_fmt=jpeg
     title: |-
       毕业特刊 | 致谢: 祝你轻盈地飞舞，也带着深沉的想念

@@ -3,8 +3,186 @@ detail: 东北师范大学体育学院
 desc: 消息发布、工作通知、活动展示、教育引导
 id: nenupetw
 logo: $img/media/pe.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1ASMsowLXreI1icKiaUorCOiamzCanQRXjXlia0cgXgK4ttBy9icNicJlCerqZevX17l434a0EIfic5tiaSw/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 我院青年教师获批教育部人文社会科学研究项目
+    desc: 我院青年教师获批教育部人文社会科学研究项目
+    url: https://mp.weixin.qq.com/s/lyHapLxrdmsqHdsWhZgmUQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG0SIIyguMJAJsOwTwJVu4JowAfpf5RUEZb6qC7YwOQVuBYz4T7d9jM7e2Nxkhu9iawNrO7c0USyF2Q/0?wx_fmt=jpeg
+    title: 东师体院快讯｜体育学院召开2023级学生开学典礼
+    desc: 体育学院召开2023级学生开学典礼
+    url: https://mp.weixin.qq.com/s/pgfEhCjdryQUI0JIeEqKrA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG28kicTQQsbGsbl5TQolHMd2tPYwEDhibIL7pmsuqQuMwKmKLosRHQL4qib9n6Lgl1Tl6cQHGQrKFfow/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 我院两名学生入选杭州第19届亚运会志愿者
+    desc: 我院两名学生入选杭州第19届亚运会志愿者
+    url: https://mp.weixin.qq.com/s/w8kF5axxkhNytinXJEMOsQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG3lbZ4TPs9sF0JqWdw8bbR3oDjj6GwyXibiaXN1F5KfIo5Aric5ic09ZRhE2oAggLPLn1gP2jOhJL2aCw/0?wx_fmt=jpeg
+    title: 东师体院快讯｜东北师范大学体育学院学生基本功大赛
+    desc: 东北师范大学体育学院学生基本功大赛
+    url: https://mp.weixin.qq.com/s/4b78gGa7IjztQTLlx5VMjw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1ApgxekZKJ6l8UwWv25TQms5e4ITr2fX66RMnM2DHIpzPntiaKGB6JJgH5SqEYicBQoE1dphibYUmag/0?wx_fmt=jpeg
+    title: 东师体院快讯｜体验教学魅力，展现东师优势：东北师范大学附属中学自由校区体育教育实习之旅
+    desc: 体验教学魅力，展现东师优势：东北师范大学附属中学自由校区体育教育实习之旅
+    url: https://mp.weixin.qq.com/s/t0pLjnRyWwSY-y5egAgu-A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2A4VqwnFCKkYlW7kvgsQopicDpJ4jffccL6RuLEFciaauDUPVq2ZX8ywvdLIXItI07Og4BLqNClntw/0?wx_fmt=jpeg
+    title: 青春筑梦 同心向未来 | 深圳光明区实验学校（集团）实习基地揭牌仪式暨实习生见面会
+    desc: 深圳光明区实验学校（集团）实习基地揭牌仪式暨实习生见面会
+    url: https://mp.weixin.qq.com/s/jiCpW3hjT6TEp5Gj2iFciw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2A4VqwnFCKkYlW7kvgsQopd7RyM1XPJOFxrDSc03MMQicBXiadhmRCfXpvTeuTaPLAbeliauQg0djJA/0?wx_fmt=jpeg
+    title: 教师节推送——师泽如光，虽微致远
+    desc: 师泽如光，虽微致远
+    url: https://mp.weixin.qq.com/s/EDftAmDXiCfI3HN8Nu9gOA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1a08OZfILcduJb4o5WM64vt6LZHzR2MaNibhYR3vP5rqPSUbQFag3UibKAuIibBpvEG54sRfECbHrSQ/0?wx_fmt=jpeg
+    title: 奏响教育之梦 启航师者之心 | 夯实基础提升能力用实际行动书写东师体育人的青春答卷
+    desc: 夯实基础提升能力用实际行动书写东师体育人的青春答卷
+    url: https://mp.weixin.qq.com/s/kjfmpfHUf2gP4oLFLhiWZg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1aG9odglXDMs2vpQggujLAZHBlZd9gOTZVp3HNzSvE82tZniavYqCUNBiaBDRl1OuxfA9v2Jrfn5jw/0?wx_fmt=jpeg
+    title: 喜报 | 我院排球裁判团队荣获2023年全国大众排球健身大会·业余排球精英赛北部赛区（吉林·长春）组织参与奖
+    desc: 我院排球裁判团队荣获2023年全国大众排球健身大会·业余排球精英赛北部赛区（吉林·长春）组织参与奖
+    url: https://mp.weixin.qq.com/s/GzxiQdHa0Iqus26n1PXSng
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1n8r5ODsMmKSzObw10icWuDuvCNjFpyMVOVeVvQQf7rX37JG9Maia15ZbuNGKxBkotNd2XbUxO7Dsg/0?wx_fmt=jpeg
+    title: 东师体院快讯｜东北师范大学体育学院第二十三次学生代表大会召开
+    desc: 东北师范大学体育学院第二十三次学生代表大会召开
+    url: https://mp.weixin.qq.com/s/NPz0YDpo-xMJ0KBoJjgbCw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1ic9nd0PkQMmsMDdDZRqeYiciahZcUn6AqDU9qdeaXgO4cXGZYfItCicRZBwnB1uQTwEYML4tInGW1HQ/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2023级硕士研究生开展系列迎新活动
+    desc: 2023级硕士研究生开展系列迎新活动
+    url: https://mp.weixin.qq.com/s/66Qlc8pkHtPxSr6kdLhRaw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2RoXXicOh7Mz8z6uYicRN6tdGXCwPDnFZdTCysFg1NZBMCK4PCvEhh3GKKCCULqdicqVQnbjDmMiakIg/0?wx_fmt=jpeg
+    title: 喜报 | 我院师生76篇论文入选第十三届全国体育科学大会
+    desc: 我院师生76篇论文入选第十三届全国体育科学大会
+    url: https://mp.weixin.qq.com/s/HF3W9HbiHXhonWUfUDax2A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG0Nzn0cMyaIjJN7buliaicaDrq1KqSbCVE0maOvwcxKTHdvQnQ5KaqTeedSickNQfuVjDrzj49WplH3A/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 体育学院领导班子召开学习贯彻习近平新时代中国特色社会主义思想主题教育专题民主生活会
+    desc: 体育学院领导班子召开学习贯彻习近平新时代中国特色社会主义思想主题教育专题民主生活会
+    url: https://mp.weixin.qq.com/s/o_tuaWDKqUz4XQgFGqmPmw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG0Nzn0cMyaIjJN7buliaicaDrq1KqSbCVE0maOvwcxKTHdvQnQ5KaqTeedSickNQfuVjDrzj49WplH3A/0?wx_fmt=jpeg
+    title: 未来可期 不负韶华 | 欢迎2023级东师小红人
+    desc: 欢迎2023级东师小红人
+    url: https://mp.weixin.qq.com/s/XGHsYbzENAoq0uNn0lnG2A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1e5C80kS6YkqDQN27yIWgplFCdkPs4RBCqJGYwRCetBd80hsg3zsYIP3t7VJ7SKicxh9h4f0N8wKg/0?wx_fmt=jpeg
+    title: 东师体院快讯｜“滑雪巡救员”新职业建设启动会议在我院成功举办
+    desc: “滑雪巡救员”新职业建设启动会议在我院成功举办
+    url: https://mp.weixin.qq.com/s/xZDhLES-D-9oOiqh0pgtAA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1e5C80kS6YkqDQN27yIWgpDnyu68MplwibgxklKpuxocV8FDCqDFlXyPKly0fBZpBDEx8MYsyz1vw/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2023年教育实习动员大会
+    desc: 2023年教育实习动员大会
+    url: https://mp.weixin.qq.com/s/Q3_wRzpUnmCOJHaCTlzzmA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2vPdfQunAHibEC5pksAhRtKhzUjG4wjLfnicmOQQiar9KTmazXP6JekPrsAhF0MRX1UYLdGBNcwF46w/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 欢迎2023届东师体院小红人们！
+    desc: 欢迎2023届东师体院小红人们！
+    url: https://mp.weixin.qq.com/s/gGat3zVarmlLXcl5QexjsQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG3Cl2ibsMrpkUCwCtT4jhakfklEiaVGartLia0Hb8cvdQnmD4XDADUADxia0Uv5I8oF0F0zcuicuyOs9ZQ/0?wx_fmt=jpeg
+    title: 喜报：我院学生刘轶鑫在第21届全国大学生田径锦标赛中获佳绩达国家健将标准
+    desc: 喜报：我院学生刘轶鑫在第21届全国大学生田径锦标赛中获佳绩达国家健将标准
+    url: https://mp.weixin.qq.com/s/mNd4C3kXlO0LUHhxlh2g9g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1FhZZHlL8q8hia646ibHPSj6Y4ZQbQMOnbD1qI27A43ovvibWItvCe7HYmnqkuI7PPY27n4JiaAVAUew/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 我院三下乡社会实践团队，受中国青年网报道
+    desc: 我院三下乡社会实践团队，受中国青年网报道
+    url: https://mp.weixin.qq.com/s/0kKSn-ajL3fE2nLXeRi7tA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG0osWvGhkYOK2TpYWHoJISWeheQ5uiapSFxzLwKnJvCtMibGiaViaU6mKr2suzHxAdib8cBV6XDlnvxMVQ/0?wx_fmt=jpeg
+    title: 风雨同舟｜学院已开启暑假专项灾情帮助工作
+    desc: 学院已开启暑假专项灾情帮助工作
+    url: https://mp.weixin.qq.com/s/aB8_S1SfEvZB7KOabimWTw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2kLzEoGy1z63O0Asvyn5m0xd2qmnUuUeG4G7rrsFpvkzhuhqMia6V5Rl50M9wE92JQcuFQw1AUAkg/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 体院特训队训练实记
+    desc: 体院特训队训练实记
+    url: https://mp.weixin.qq.com/s/59kafpkTRctxBZ5G65D-uQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2kLzEoGy1z63O0Asvyn5m0Mozvib8TL9Uia5PsdV3icDLGaibgaoYUWXYQsRuqvYqL2eePcwKG7fRaJQ/0?wx_fmt=jpeg
+    title: 2023世界休闲体育科学大会顺利闭幕
+    desc: 2023世界休闲体育科学大会顺利闭幕
+    url: https://mp.weixin.qq.com/s/gz32Ndj8x1OcKm577IWX4Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG0hibSTB37ocXCM0kMvQQibgDGYJ6f4az2mLSkO0sFbe7bYiaICL5g3PNjegbiaNEGcV2SVpQOzgp4hXQ/0?wx_fmt=jpeg
+    title: 吉林省休闲体育协会成立大会成功召开
+    desc: 吉林省休闲体育协会成立大会成功召开
+    url: https://mp.weixin.qq.com/s/grr-tIX0GTtHM5mvVg7WGA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2wnHbaKia0J4xpJYvHUf0QIzjRH0BTdRDbuiamIO3TOekroribLKyYttCCgA2KgZSuBC1XDutkxvqKQ/0?wx_fmt=jpeg
+    title: 2023世界休闲体育科学大会在东北师范大学顺利开幕
+    desc: 2023世界休闲体育科学大会在东北师范大学顺利开幕
+    url: https://mp.weixin.qq.com/s/gMA8-Ki9T6vgWmtAh-E5Aw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2NI9iarU3RTmMQINibyR8myuoDdJkvz1clqmxXauCKLibiaH7JxR9DoibQp9iaQQG9mF9siayNUicms3IjSg/0?wx_fmt=jpeg
+    title: 喜报｜我院教师周洋副教授、王润达同学荣获“全国体育系统十佳讲解员”称号
+    desc: 讲述东师冰雪故事，助力群众体育发展，东师体院一直在努力！
+    url: https://mp.weixin.qq.com/s/MIsltQHCjqDLJsbIoMrgfQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1PDSOXDUWzjvqggfhSpTYmaYbq8K7n7VdpTgrWgXTI89e394TzUzRKBKibwwMSVibJ7ibPoyLu5wzhg/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2022级本科生“与美相融”夏令营（五）
+    desc: 2022级本科生“与美相融”夏令营
+    url: https://mp.weixin.qq.com/s/YTBPb2aNrgAZwC1_PbbkZA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1PDSOXDUWzjvqggfhSpTYm8w11QmwTQSFtoxcsEf8ibqdaSrLibKV9nYGHty0E6ppXBPUAL8xticCsw/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2022级本科生“与美相融”夏令营圆满结营
+    desc: 2022级本科生“与美相融”夏令营圆满结营
+    url: https://mp.weixin.qq.com/s/xsNUtqBum4BXdXBm7W6D_w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1awCCa35JuHSBuibwZzZ6C0zwxHKdPib6H6hbLZVia3I4oHrM2Q3H99HNxoWFpUgIs9o9sqEtnbox7Q/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2022级本科生“与美相融”夏令营（三）
+    desc: 2022级本科生“与美相融”夏令营（三）
+    url: https://mp.weixin.qq.com/s/x7e8GuXTvkrd4Y6kx0Qmmw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1awCCa35JuHSBuibwZzZ6C0BuA1SP6vB3YlvKba7Xib5GOnyiaZ7E4picSxVESibO5AFEIzcTY1iaGKzGQ/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2022级本科生“与美相融”夏令营（四）
+    desc: 2022级本科生“与美相融”夏令营（四）
+    url: https://mp.weixin.qq.com/s/-oKASxAJgxG4yzSSisQy2Q
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2CVfvkJRBibO9QgdE8QdupfSOr3uqficterXv2LNL2GicSmRJCDxhaheMOQyfREQf6IArEJvuaPrg4Q/0?wx_fmt=jpeg
+    title: 喜报 | 我院周洋老师与王润达同学入围第二届全国科普大赛决赛
+    desc: 我院周洋老师与王润达同学入围第二届全国科普大赛决赛
+    url: https://mp.weixin.qq.com/s/wtvBb6Er3OwWkuV371dnOw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2gL5rnYrT5ENuTKIMlFEt8tAiaC7ZTcmExUv5WLicpPKCwRs0ibniapgmEViawJD0XZUeVX1icE1fQLUIA/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2022级本科生“与美相融”夏令营正式开营
+    desc: 2022级本科生“与美相融”夏令营正式开营
+    url: https://mp.weixin.qq.com/s/UyitBPmCX8ESwIlTkGjrfA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2gL5rnYrT5ENuTKIMlFEt8Pg3wFbZprY1hhJmeQ926V9rNyT7ElD0yXiaEZWvGQADTTqt289XgVyg/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 2022级本科生“与美相融”夏令营（二）
+    url: https://mp.weixin.qq.com/s/gv3EJuL22Qcf_nw0jHiXkQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2LdKlib5J4tDn6cWxyt3tLLjPOl62YuKbkJ6EUnIGxGaaIz9tBQSAW942XRqJibSC5IwXx4zj4Lk2w/0?wx_fmt=jpeg
+    title: 粤港澳大湾区三位中学校领导来我院调研交流
+    desc: 粤港澳大湾区三位中学校领导来我院调研交流
+    url: https://mp.weixin.qq.com/s/PpRgi2Le97BQybpOJ7Elaw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1F1giaTYxv1FlVkI8PRSjt1KPfPkvdxfoHNxdCqynZwskaib0ZiaaMeJxZZSz5VFbwvx7AwoWgXMkLg/0?wx_fmt=jpeg
+    title: 主题教育 | 学院党委开展“赓续红色血脉 传承抗联精神”主题党日活动
+    desc: 学院党委开展“赓续红色血脉 传承抗联精神”主题党日活动
+    url: https://mp.weixin.qq.com/s/f5pISj3frr99WNzhxLcTAw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG1LSMQFMWnVWEcqoLRlhtvlqVDVibj52aIdLRBwWFhVvLrLNHHET5T9Cb54zjKGT3Y6kyrz11ttCag/0?wx_fmt=jpeg
+    title: 院长讲党课 | 中国式现代化建设中体育人的使命与担当
+    desc: 中国式现代化建设中体育人的使命与担当
+    url: https://mp.weixin.qq.com/s/e_OZlqMzsaSK8JTdG6FR0w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG3053aW2v0OuGP9bibuNd8RianVXCqyXr3DWfGc8L4LDT7kOibaFLAicNahSxFoe2siaKDO3OQ0Ylrrkuw/0?wx_fmt=jpeg
+    title: 东师体院快讯 | 东北师范大学与吉林省体育局推动体育事业发展战略签约仪式举行
+    desc: 东北师范大学与吉林省体育局推动体育事业发展战略签约仪式举行
+    url: https://mp.weixin.qq.com/s/NBXOyX8YbGv9OX68xleBfw
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/9opNmOhpWG2AnyyBOcib1mObnhz9ypwtdgC8YY2KvhlmXlTHhVTZ9jSrh1fE2MyECHztos8RTbtbaQickWsDODgA/0?wx_fmt=jpeg
     title: 东师体院快讯 | 我心向党，赓续红色血脉
     desc: 我心向党，赓续红色血脉

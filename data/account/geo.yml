@@ -2,8 +2,56 @@ name: 东北师范大学地理科学学院
 desc: 东北师范大学地理科学学院官方公众号
 id: geonenu
 logo: $img/media/geo.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeAJP5SBbIlf41IG2GicRD8Udn1NuRsklL9I1gmnmfNRVpsx7d0hp6GqUotkibZFnNnGxtlsFYVUcuGQ/0?wx_fmt=jpeg
+    title: 躬耕教坛 强国有我 | 我院热烈庆祝第三十九个教师节
+    desc: 云山苍苍，江水泱泱，先生之风，山高水长！
+    url: https://mp.weixin.qq.com/s/EKIgSURk4AFfCIWsx6duwQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeBj13jJYCM3LaqYI2kPXHCSFJkU8pL5wpVpSyw5p8v0JscGqOFRibwrDGbXFYhqvIeFs7ChTj8YGxg/0?wx_fmt=jpeg
+    title: 2023级研究生新生入学 | 踏入知识海洋，探索学术边界
+    url: https://mp.weixin.qq.com/s/295PypjvJGbtRKpudYmhQw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeChtavBh5SQ32OezBTlVtOYNh3k3U3HaDl62tGRSUOMEsiaWsfrw6VKvPvKuwwNH1tKGJuptqib5uDQ/0?wx_fmt=jpeg
+    title: “新”光熠熠 | 学院融媒体中心与网络中心成员介绍
+    url: https://mp.weixin.qq.com/s/0SsgueHYdrKLIGhWR1qRQQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeBqCB13TicDnsqibgkDMoVpJjgSTUwfHRHWFoeqYKic6vmHlx5tjtAbZmJF746KYfcxIYtTQLn9TJb2Q/0?wx_fmt=jpeg
+    title: 我院2023级城乡规划（专业学位）硕士新生 “开学第一课”在长春市规划展览馆成功开讲
+    url: https://mp.weixin.qq.com/s/0LvNCfc1zKyH2IFREMu6YA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeCvYY49MnkicBzDMrUwicc51Fx870utxABhbTvLwXa72JWYISMalrSCRcVdXZF2gNE3NgCMKGhTIn4A/0?wx_fmt=jpeg
+    title: 开学季 | 热烈欢迎地理科学学院2023级新同学！
+    url: https://mp.weixin.qq.com/s/WmF25N6-i-AvOIJJ5NB27g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeDNQ2UBialrsZfS3YQXCAxEI2ymIPbbvDMzicricAvCo6nKjjlUdJichia7KEnOt1LPzx8ibUaTcFT58WtA/0?wx_fmt=jpeg
+    title: 关东山河远阔，地理大道无疆 | 第十四届全国地理学联合野外实习纪实（五）
+    url: https://mp.weixin.qq.com/s/TsnezFy28SEcxI1y96f4Aw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeDjASulW2Cylpst6NsoPXvbUS7wO5TF26ZaE0a5zVaStOwrLXM3Bsfsk8PnCBEhfl2Mr0C75unS6g/0?wx_fmt=jpeg
+    title: 关东山河远阔，地理大道无疆 | 第十四届全国地理学联合野外实习纪实（四）
+    url: https://mp.weixin.qq.com/s/rDjfxuo_duCDNvVAkRgIuA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeCJWOcKzlH3rozkwDVf0hWzo5Vz1o9hnP7AUcUicSLiabVpBhChnPWL1XuUGA15p0tcayI7uUJ7Giciag/0?wx_fmt=jpeg
+    title: 关东山河远阔，地理大道无疆 | 第十四届全国地理学联合野外实习纪实（三）
+    url: https://mp.weixin.qq.com/s/EWS43_EWJ02Sn_25Y5zl3A
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeB7ZjfFgxibGcoZfo3aXolMObmSibbFKbOkfK34J3sl0Gt6WVzdIRXG8P6O24rVvq8rfH1fVUbSmibrw/0?wx_fmt=jpeg
+    title: 关东山河远阔，地理大道无疆 | 第十四届全国地理学联合野外实习纪实（二）
+    url: https://mp.weixin.qq.com/s/FxPgC4UM-QVEjXwcoJycOA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeAnaoY6mRt3ICCjttG86ctAvXFUKGx6MVQskkwEa6k04icyZPyzgVjBkWziatMFwBrFicr5Gu3Wmm6tg/0?wx_fmt=jpeg
+    title: 关东山河远阔，地理大道无疆 | 第十四届全国地理学联合野外实习纪实（一）
+    url: https://mp.weixin.qq.com/s/hv_cFeb9ZPiNMTQmMi7tfA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeAM8fCvXFvqT6jSbJSzIbVkLLYPkxkVEMR0L42LKiakVI1lsmlnXBo1LHTO8ovhQaic3V20ibhib8YXKg/0?wx_fmt=jpeg
+    title: 活动报道 | 第十四届全国地理学联合野外实习在我校正式启动
+    url: https://mp.weixin.qq.com/s/G4d4OSlHjssMinDUsTrK9w
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeApc8wvmShtol7oH6ktQcVBH2fMI7x1P1sbWhWkDE4be3Z5wjCx5YSgRcqB5dibbJCZUC4XRBFg9xA/0?wx_fmt=jpeg
+    title: 风华正茂，扬帆远航 | 地理科学学院夏令营顺利举办
+    url: https://mp.weixin.qq.com/s/scJrTcA-m_Rw3R8e-EXHgg
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/JjajDibgjHeAC8HicgJk1ibibIPqtpH4sI8CFNibY7RiclaenQa628JXoCHYr0YdQ4n6wpKI6U4BPGOicPuSLTwloqXug/0?wx_fmt=jpeg
     title: 毕业季 | 青春启航，奔赴山海——祝2023届全体毕业生毕业快乐！
     desc: 祝2023届全体毕业生毕业快乐，前程似锦！

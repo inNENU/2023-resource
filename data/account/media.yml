@@ -3,8 +3,103 @@ detail: 东北师范大学传媒科学学院
 desc: 为您提供学术前沿、产业资讯、校园动态信息
 id: nenu_media
 logo: $img/media/media.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQea6a486Rv8aN8iaUcDhJxZq1ptpk4V1EBfWHJRkTB8fpLXL6eumB4QYEAwmicCj3yqO1qmWnNLibJnw/0?wx_fmt=jpeg
+    title: 东北师范大学传媒科学学院（新闻学院）2024年接收优秀应届本科毕业生免试攻读研究生复试录取工作实施细则
+    url: https://mp.weixin.qq.com/s/DOxxGCM9MTXtzdB-AB-wYA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQc9RfXZIjKGNeulXh7sa3MctMUZtUSibSicDQZiaAhtx3qU1IM9Pic4bdjOBm1KrYvz0tVXjD8BfwJYpA/0?wx_fmt=jpeg
+    title: 军训特辑 | 热血九月，不负时光
+    url: https://mp.weixin.qq.com/s/7Ag07BqdfnO3sqf3ZtUxkQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQcqlZ6x7P5eEeg9ficMX9arN73dSUgObFxSNCrSuHum1NA9iaU7zGG4lh96PichkYCLqbScicusxAoy5g/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）研究生新生“三年早知道”培训系列活动（三）
+    url: https://mp.weixin.qq.com/s/FZFmJaCTqV1xaquH4xyUpg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQch9qpxRXJWCR9FnhSHcbjDzd889JfuM2nQxIjzFoJYgm2VlJIweYApZKicHp5jtSG2xrB2mk7Uviag/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）举行专业学位业内指导教师聘任仪式暨师生见面会
+    url: https://mp.weixin.qq.com/s/R0-BB7Z2lr86HtX-cSeFEw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQfA4pGTPLsUjbSm9LBdRalJer5fLtjf8DNDbontGo7OVaEWXhEXEOYibsHzetMGJjCy1zwIk1uPXDg/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）院长张文东教授讲授思想政治理论课
+    url: https://mp.weixin.qq.com/s/9kth4a5hef4MbPphttNQKg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQdepONy9VialMW0AiaJ5wWKbkyMfOtQh4vqzaxwemb3B89GOFdaibOp9qoYzb0ouchTSu1lZpH4J0q3w/0?wx_fmt=jpeg
+    title: 吉林省传媒学会2023年年会暨“中国式现代化与全球化互动中的我国传媒发展及人才培养”学术论坛邀请函
+    url: https://mp.weixin.qq.com/s/kJcIdJkIWzd2KgYTenQaAA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQdVDFBF1VvGkL7vADmgTGvPicmtYraz99lwsnHj5T2TOGE0A9XJ0tKvj0f2ObDnUgaVcibMQM72iczoA/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）研究生新生“三年早知道”培训系列活动（二）
+    url: https://mp.weixin.qq.com/s/tjiQN4odhTFTfjekp1AhTA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQeLPGNWL0ceYhaaM6J8L8DMibebe7diarw0FWQBmzCoOxkGYGtfcOuAx9CC3mFDkEiaSMVpsnEeyYRvw/0?wx_fmt=jpeg
+    title: 新起点 新征程｜传媒科学学院（新闻学院）2023级学生开学典礼圆满结束
+    url: https://mp.weixin.qq.com/s/zUAXnfMIP6vyosOfoOlXcA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQeLPGNWL0ceYhaaM6J8L8DM7DojTyTOj9a5untQt3TsIcHcbOAqMuNbxmos0BVLkWgPRBMNoPkuhg/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）党委书记耿昕老师讲授思想政治理论课
+    url: https://mp.weixin.qq.com/s/uapRtdyYJPMUCMwNPArYSQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQeLPGNWL0ceYhaaM6J8L8DMlQPtVehyfdYrDics59NGFxNnpIukarwPh0ib2jQPWWPPYuicXbWFgHaAw/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）研究生新生“三年早知道”培训系列活动（一）
+    url: https://mp.weixin.qq.com/s/gBp9UjU0UtwEYnBHuyYf4g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQcxF0d6QDrEgFLqLkrENJWxwrR7IbSV4y6gttM2rDFpAslZJia3ibkcapP7tge6H0JT4hrmk2ShRfuQ/0?wx_fmt=jpeg
+    title: “研途引路人”专题一
+    url: https://mp.weixin.qq.com/s/SPNXlIK4hTEZ8SOTGHpp-Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQfHV4Ipgr23oFeTWeto048x15ziawbLU9CCBjgC7BfAFnQhqBcZ3Fo8aRw3zf8zb1KibFKXOHdsHRkg/0?wx_fmt=jpeg
+    title: 直击现场｜2023级新生今日报到
+    url: https://mp.weixin.qq.com/s/Xy6jMUOGK2Ma2h4RmdZ1rA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQfCLJGABuEnBQXIUcPheOW8x9wsUmmK6VOXagcnWa9vFbdBFetjyp56V1KVvxrUEqHxT3ebcRDvaQ/0?wx_fmt=jpeg
+    title: 开学季｜时光恰好 初秋相见
+    url: https://mp.weixin.qq.com/s/g4-HtIgAJqSODg0m4LlGUA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQfgK2iaABtp1l5C7W7Vbqwz8dqWdokMNtN46Hc8M1fYicJGZnWXNyeQfXkziajEqrrylnG6tHCiceKRcg/0?wx_fmt=jpeg
+    title: 喜报｜我院在“唐韵杯”第四届吉林省大学生广告创意大赛中荣获佳绩
+    url: https://mp.weixin.qq.com/s/RAYkYD_fHcdMHhnvCF7ehA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQexL61yeZib7CEh7BMJoVGnYy5FIicPXCx91ibfmJJ2TqXt4F6ebwaIxvarnYib8TQkZ8j9yNgOjr4V9w/0?wx_fmt=jpeg
+    title: 军训直击 | 报告！二营七连集结完毕
+    url: https://mp.weixin.qq.com/s/t_CmnqM9IUJKEQ15e5DasA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQfrccDCMHQSzJ7E5yhdd9FPU1Ovmhof1mCOxmJYyD9HiauuCaoeh2XeoplbLCubgYfbw1OZx3K7Q1w/0?wx_fmt=jpeg
+    title: “网络空间安全与人工智能技术应用创新”培训班在东北师范大学传媒国家级实验教学示范中心举办
+    url: https://mp.weixin.qq.com/s/x6YINs2OPWDe0tkyZ6E_QQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQcwyicVricq5KIXAyrccwniasQEVpkiaySgYZaAsvcO3coSzNnHHzhGjdiawrCoWtCOAvCRwxa9AkGvefQ/0?wx_fmt=jpeg
+    title: 中国传媒大学计算机与网络空间安全学院来传媒科学学院（新闻学院）调研座谈
+    url: https://mp.weixin.qq.com/s/8yeGbDXsH7taEpzGwY2YuA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQd5lEqT2PXmviclbgfAAzOlMiatZwMSnLObkicYRuve9EMT3xvFQADPsNQUCCRfAhhyZpXVEKy0fniaIw/0?wx_fmt=jpeg
+    title: 快来查收你的假期小贴士
+    url: https://mp.weixin.qq.com/s/pfdIh6wHNeC-VX3N1BcHEQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQddY4KkP7zOUQIzEzZaEoCUF3CplzZJuI8ZS4BlESia8b0F7GPLaL0ib0pGGkc7lIyVawFPartAwJiaA/0?wx_fmt=jpeg
+    title: 思政专栏：共产党人精神谱系——伟大建党精神
+    url: https://mp.weixin.qq.com/s/q6o4bbmFb4kv4Ul3gpN-EA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQe24vSVRGtqSZkgKrr1LNdvc6DVdEmY2Im2NxQs34RPeEmHgME57wAgcp2WbRr5ibIWCH73N8Z7ibOQ/0?wx_fmt=jpeg
+    title: 传媒周报 | 期末复习冲冲冲！
+    url: https://mp.weixin.qq.com/s/gmEg4IJSXU64ongwYCmj6Q
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQcOFYKXMQxLTHibhBzpL8FObfk49Kmicia7Szdc0xT7GceDa1YYLuS31BricPkicJbungmLq5PCcWic0gWQ/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）隆重举行新党员集体宣誓暨老党员重温入党誓词大会
+    url: https://mp.weixin.qq.com/s/YZ8EAHbqJBTdU3EIs4NaZw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQcOFYKXMQxLTHibhBzpL8FOb0KpdO8omvibNghmYu7kA3Z63RYprujW1l9g3wEK9NAzqyYFm6qiadPWA/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）离退休教师赴学院参观座谈
+    url: https://mp.weixin.qq.com/s/5Sp8el4Ft-NPPyfT3bbJdw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQcOFYKXMQxLTHibhBzpL8FObvM5k5cQepuJ9nDDYZLfib1pibOMKMhI8jxnbv29smFmShu3yNoUFOmxQ/0?wx_fmt=jpeg
+    title: “迹·忆” | 2020级广播电视编导专业联创展映活动圆满成功
+    url: https://mp.weixin.qq.com/s/XgJNYzmlKmfK_l2iDKx87w
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQe6X3gpdErM4ib9s7Ig7RYhSXayYEFaw66o1ic5fvOibtjGwO4y6c8KOG7S6jMticvUiaMIDfreicOUKibdg/0?wx_fmt=jpeg
+    title: 传媒科学学院（新闻学院）书记耿昕带队赴甘肃展开系列招生宣传、咨询活动
+    url: https://mp.weixin.qq.com/s/6gfKK-VK6l5V7NN4b0ZqzQ
+
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/L1fovk11hQdwQC2icFr74x0xUQUmSkfqib2G2M7J6DiacNw5hD7fGaAcib6SCiaUKqXicXTWTwIPRwpVic7wQn7p3qktw/0?wx_fmt=jpeg
     title: 传媒科学学院 (新闻学院) 联合保卫处组织开展消防安全培训及应急演练活动
     url: https://mp.weixin.qq.com/s/uhjFs17uOd_XRdlOh2HgLw

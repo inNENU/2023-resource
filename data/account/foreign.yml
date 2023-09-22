@@ -4,6 +4,79 @@ desc: 东北师范大学外国语学院公众平台
 id: nenuwgy
 logo: $img/media/foreign.jpg
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vLuMh7vAyHRrHTt875IoW7g1faEA4LdnI6oNFialhicqMVc6N0aDiaYlqiaaPh5oryJEawicd21P7jEIDw/0?wx_fmt=jpeg
+    title: 军训特辑 | 昂首阔步燃壮志，满腔热血赴青春
+    desc: 2023年9月16日，我校2023级大一新生开始进行军训。军训的目的是端正军人姿态，保持严整军容，养成整齐划一、令行禁止和严格遵守纪律的习惯。
+    url: https://mp.weixin.qq.com/s/kFMIJ3JXb-De8WIl1WvFZQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vLXfuCEapVo8TeY4AvgnjMXU60qvoHGe3qqqWpMag2wx6icYA7WqXZic2xdD8zYsQHtjup2t7N6EPbA/0?wx_fmt=jpeg
+    title: 投稿专栏 | 青春藏四季，幸有文字如歌
+    desc: 在东师度过的春夏秋冬，可以在这里留下一些属于青春的痕迹
+    url: https://mp.weixin.qq.com/s/sweLAND_l4lcqUXQJ4Z4Aw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vLXfuCEapVo8TeY4AvgnjMXdce7wFuh8CZd55mwWe2xVIUtomvOALRALbzGna3XvoLFBa8ibdsPcUg/0?wx_fmt=jpeg
+    title: 第48届外国语学院(本部)团学组织纳新名单公示
+    desc: 第48届外国语学院(本部)团学组织纳新名单公示
+    url: https://mp.weixin.qq.com/s/96qGGr0mej3KvvMPb2U89g
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vLiccV8ERAPMFLLNIwXK2zOPNjIInibfFmMLBCUsLgxQAwx54bvoN7j60ZtBedsTcMZpBkn6a9FMNng/0?wx_fmt=jpeg
+    title: 第48届外国语学院(净月)团学组织纳新名单公示
+    desc: 第48届外国语学院(净月)团学组织纳新名单公示
+    url: https://mp.weixin.qq.com/s/ZSsOPLnSnFAFQo9H5OmFbA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vKxhp5BkCEL2Fh4v4kLvNtZKQSfKib2YicDrc5Q5R1uSjR1KXZ4QZqycSRyIQpyIa5EFp0sl2uOkahg/0?wx_fmt=jpeg
+    title: 2023“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛校赛
+    url: https://mp.weixin.qq.com/s/EBXo-nRZD-fNWp8AQY06bg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vIicic7e7H2d1AtFuYFe1x7fBpcRELQod9CX2BGt2cliaggoaLEtFwNSBKbR2omYvdKZpoU1ibRqmDsibw/0?wx_fmt=jpeg
+    title: 2023年外国语学院第四十八届团学组织副部换届名单
+    desc: 2023年外国语学院第四十八届团学组织副部换届名单
+    url: https://mp.weixin.qq.com/s/guxGBckTmEbWCrxjzjA0oQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vKzicPhVPF63xJUa5ZibhzxTUSx7MfwOIIibK9Fzc1eemkoBck0ehYg66lqkAWdtibZ9763vPOjDD9TVQ/0?wx_fmt=jpeg
+    title: 纳新·净月 | 外国语学院团学组织介绍
+    desc: 秋天，这是一个开始，这是一个新的起点。我们希望在这个季节里，与你一同描绘出更多的可能。外国语的团学组织欢迎大家的加入！
+    url: https://mp.weixin.qq.com/s/J14EfKDzFRUnKdZ10dOAcA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vKzicPhVPF63xJUa5ZibhzxTU8mNcSqmibN3Ozj53Umt8RZns7mBR7wWKuqaRtnyKm5O5rwHBmj4bYgg/0?wx_fmt=jpeg
+    title: 外国语学院纳新宣讲会成功举办
+    desc: 东北师范大学外国语学院分别于9月7日，8日晚六点成功举办了自由校区与净月校区的第四十八届团学组织纳新宣讲会。
+    url: https://mp.weixin.qq.com/s/9LuQ4E8tbf9jnzr1d6k0jQ
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vImXmKvicy2S8SSrRmM7K3sg9N6reuJp2RrL2qREr9WkXnn73cn8WB7sOrPLzATmZuyDOysA48ia1Pw/0?wx_fmt=jpeg
+    title: 纳新·本部 | 外国语学院第48届学生会介绍
+    desc: 外国语学院第48届学生会介绍
+    url: https://mp.weixin.qq.com/s/ZkQZrbxrcZSYJCM5agiyvA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vIsLrxZSWibUT5vx9kNC43MaN6jEgvH51DFVibck8mibFcxa5Aq6IkVbwP2icw0bmMKm7icia6xOXJQ6xPw/0?wx_fmt=jpeg
+    title: 纳新·本部 | 外国语学院第48届团委介绍
+    desc: 这一站不能没有你! Come in，please.
+    url: https://mp.weixin.qq.com/s/te_U933vGg_wWrKBCruRwA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vK5KkkLQzPeAlbnXzQhpN5fV6YXrpyjkcyoPDfPW4sE4ID6zRYdNR1FZqa5gNBA0lMC1eh08Yt24g/0?wx_fmt=jpeg
+    title: 外国语学院“新生校园游”活动成功举办
+    desc: 外国语学院“新生校园游”活动成功举办!
+    url: https://mp.weixin.qq.com/s/wqC2O88AS4KB4vaasyUhJw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vJLtAuH3zXulHC1DYfFFKseHiap6ZG4JFTLecefrJxEdTpPozwNPCzohlq2RJibwfn1ibu2Lzc0kFD5w/0?wx_fmt=jpeg
+    title: 2023级新生攻略
+    desc: 我们初次相见在这个丹桂飘香的秋季，让我们一起查收这份新生攻略，一起打造专属于外院人的独家浪漫！
+    url: https://mp.weixin.qq.com/s/CvcJM2kFRbXY7LXToGdWGg
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vJLtAuH3zXulHC1DYfFFKseKjeQOzVaM6gGc7ObwJaAttOaR9FLU88FUEAj3d24y9oR4jiaVcIlXDQ/0?wx_fmt=jpeg
+    title: 外国语学院第四十八届团学组织换届竞选大会及结果公示
+    desc: 薪火相传，共创未来。
+    url: https://mp.weixin.qq.com/s/wmfwUhUBzBfxvcn2WOc9Hw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vLroYu1p7icLpecqwFvvjUXRPntGlrKpPGUN8gWgxjCCByTJ2wLJfn05ae2A6C8vHArPLMgwc8CyUA/0?wx_fmt=jpeg
+    title: 开学季|东北师范大学外国语学院迎新群
+    desc: 快来加入外国语学院迎新群吧！
+    url: https://mp.weixin.qq.com/s/oLMEgPF4m3N8FVb34g8Wpw
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vK1IE3JmU9zEuQKz3FJH9RNeVicibqsmJa8wnetkWq4ukswPtSWfOytAhH7RibZdLiaGU9NmIWkibOr95Q/0?wx_fmt=jpeg
+    title: 第二十八届“21世纪杯”全国英语演讲比赛（吉林赛区）决赛选手风采展示
+    url: https://mp.weixin.qq.com/s/42i7cEGHZ-LTpHmiOepkmw
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lIvicT8Mo1vIlfx2a6aiaKM63vRwMFyxFRZE71l1spF2gAgrFZL2fHLClCT61OIW6rdZHwUiajttVrF34JjbtJrVQ/0?wx_fmt=jpeg
     title: 同心协力，挥洒青春汗水——竞赛篇
     desc: 将雨还晴的早上，东北师范大学第五十七届运动会隆重开幕！

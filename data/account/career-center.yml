@@ -3,8 +3,82 @@ detail: 东北师范大学大学生创新创业中心
 desc: 大学生创业中心，一个富有激情的团队，等待着你与我们一起共创辉煌。
 id: chuangyezhongxin
 logo: $img/organization/career-center/logo.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1CnvibzfQPdMjellg9wtGJccaLmIicLtpKkgbdrP3anibia0czrpcjdgjtMQuE6lKWr7mzfj1w5VbibXCQ/0?wx_fmt=jpeg
+    title: 数字化新农具耕出“智慧田”北大仓团助力乡村振兴——调研团队深入田间地头推进数字农业建设
+    desc: 为了响应国家号召，推进吉林数字农业建设，7月15日至7月19日，由东北师范大学政法学院团委书记郑雪老师带队，数字化新农具耕出“智慧田”北大仓团赴吉林市展开实地调研。
+    url: https://mp.weixin.qq.com/s/_gWZvjjd6YUOSLfqrZKaYQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1Cib0aRLcjaPbicMGp6MQIpgPjibJkyTgdtlP9VNgzzATqBJN5HnPbenw1NewvKbqgL10Ok9vxWP2s5Q/0?wx_fmt=jpeg
+    title: 第二十一届大学生创新创业中心（净月校区）纳新工作圆满结束！
+    desc: 2023年9月，东北师范大学大学生创新创业中心（净月校区）纳新工作顺利开展。
+    url: https://mp.weixin.qq.com/s/dzfettapzEPSknuDUtpDfQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1ANEVuBtDRqIkgMJ56MdHECMppzhclibyJBBajkNCn2bt4H7bNn2f8QV0ohFicYjcTuibyPVIWkWzIDg/0?wx_fmt=jpeg
+    title: 追溯光影变迁，探寻振兴之道
+    desc: 为深入学习宣传贯彻党的二十大精神，突出学习习总书记视察吉林重要讲话重要指示精神，2023年7月15日，东北师范大学“吉遇未来”实践团队前往长影旧址博物馆，开启了“跟着总书记脚步看吉林”之行的第一站。
+    url: https://mp.weixin.qq.com/s/CMZS12kMxeBEFrB97cYMuw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1AGz7NmX5UUsxXWveCz3D5iaSjI7JJ0RdojlOCC28pJd2xloZGNrCESKQSib09KEB6bQp6tNYPu5nmQ/0?wx_fmt=jpeg
+    title: “循先烈精神明党史，赏红色之城亮新星”——实践团队对通化市革命故事的学习与传承
+    desc: 东北师范大学音乐学院组织7名学生组成“循先烈精神明党史，赏红色之城亮新星”党史学习实践团。在学院团委的统一部署下，实践团于7月30日—8月3日通过重走红色足迹、访谈红色人物、体悟红色文化等多种形式开展了为期5天的党史学习实践教育活动。
+    url: https://mp.weixin.qq.com/s/qZAcavKMD0JGpHAyHg7YPg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1BzuakZuf9YcSJiaJTFyBiaOWkFTBfwb67P3D3r7mLH3jvasjjaPGyFoHXciahfmvwbibfRgQwicu7slXQ/0?wx_fmt=jpeg
+    title: 四海同音星火聚，青年足迹涉蒙豫
+    desc: 为全面促进语言文化与乡村特色文化融合发展，助力乡村振兴，2023年7-8月，东北师范大学“四海同音”志愿服务队开展推广普通话系列活动。
+    url: https://mp.weixin.qq.com/s/r0XjPiIdYY1SaoM2wBa1yA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1A4ZPDOt8L9SPnyStlXbn4SJE4v7YZAIrfG9oGHQnoFt86QeGkSykichM6TkQ4H4G4Mmwiaak2nyjfw/0?wx_fmt=jpeg
+    title: 红旅•红忆•红心——共筑记忆场域，共讲红色理论 万“理”归途理论普及宣讲活动
+    desc: 东北师范大学大学生“三下乡”主题社会实践万“理”归途理论普及宣讲团将继续厚植爱党爱国社会主义情感，共筑记忆场域，共讲红色理论，在全面建设社会主义现代化国家、全面推进中华民族伟大复兴中贡献青年力量。
+    url: https://mp.weixin.qq.com/s/deAFB8K7LzfSEZh02GLIIQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1AXKrpoWjiaAmljEOLw4Giaqcl1O7ONHjZQG9LaU5ajppibaJxSLOESZBOy9ictfwWbqVk7oBYxGQicH7A/0?wx_fmt=jpeg
+    title: 大“莓”乡村 奋发有“味” 走进美丽鸭绿江畔苇沙河村
+    desc: 2023年8月1日，东北师范大学“乡村歌谣，青春韵律”发展成就观察团赴苇沙河镇，实地调研当地蓝莓、五味子种植情况，对话当地驻村干部孙智博，探索“全国文明村镇”苇沙河的振兴之路。
+    url: https://mp.weixin.qq.com/s/8bOlcq68cGpyFfTRfF-6zw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1BhBxBfpFyVPYKQ7Avr0fpbVibzwh2yAISLyqShHGD4uNIhzFsia8iaCSCMNLn2I1KhBkHcPvF0bYibnQ/0?wx_fmt=jpeg
+    title: 推普焕新生，筑梦新时代：“声声蜀情，咏羌古韵” 推普志愿服务队深入北川羌族自治县开展普通话助力乡村振兴实践活动
+    desc: 东北师范大学“声声蜀情，咏羌古韵”推普助力乡村振兴实践团队于8月15日前往四川省绵阳市北川羌族自治县，开展为期一周的国家通用语言推广实践活动。
+    url: https://mp.weixin.qq.com/s/BX5LT4shHgSU7dL9ykIGvA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1CDTqU1abJDxrYgWEg4x5T5iccPsVYibiavfzZ4EGcHK4zuMa7pQ5SmfkupfRMsrpKeyJMiaFdFHS5wibw/0?wx_fmt=jpeg
+    title: 环境学子助力基层生态文明建设——让红色基因与生态文明同频共振
+    desc: 2023年7月12日至7月14日，环境学院美丽中国实践团队赴吉林省长春市多地开展了为期两天的“跟着总书记脚步看吉林”暑期三下乡社会实践活动。
+    url: https://mp.weixin.qq.com/s/Mx9vKI2hUSGUTR30DFZuIw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1Bnw8KrZJAMpgq2SzjvlgfdQMojktpLR0SwwH3IAkd4shtMCZ4Y5Rnw8WU97TCxAqkic5gEvJ9ZANw/0?wx_fmt=jpeg
+    title: 大学生创新创业中心纳新啦!
+    desc: 大学生创新创业中心2023年纳新活动正式开始，我们期待在大创与你相遇！
+    url: https://mp.weixin.qq.com/s/LfRaxUndamL17oUcu-VldA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1AU4DZfzdDkxkWSk6QUUrd2T4mwFrLPkVic3pqbzKg0EYFaCRiaYLDhRCfEv7xaicO7PdiaSK1gwCLIPQ/0?wx_fmt=jpeg
+    title: 乡村振兴促进团 | “科文共振，守护秧苗”，走进白山、辽源
+    desc: 2023年8月1日至8月3日，“科文共振，守护秧苗”乡村振兴促进团赴白山、辽源开展了为期三天的暑期三下乡社会实践活动。
+    url: https://mp.weixin.qq.com/s/8FsLFPaG-Gq6wXiaqej6kA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1AU4DZfzdDkxkWSk6QUUrd2RVevbd5elj11I0UdCS8KiawNycJhL4rkia3iaY9XeCo63M2WauSW5xptw/0?wx_fmt=jpeg
+    title: “三下乡”实践团队风采丨旧址新影，梦筑长春——关于产业吉林的发展成就报告
+    desc: 为深入学习、贯彻党的二十大精神，响应国家“跟着总书记脚步看吉林”的号召，我校八位学生共同组成了一个三下乡团队，在暑期进行了以产业吉林为主题的 “三下乡”社会实践活动。
+    url: https://mp.weixin.qq.com/s/wx0WW_l63KvBX9PepvhrHQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1CpPN2BzL8HibU2cp3688b0ibZUpFTzhIjfLPGcSiaIXaGibMNdpQkOYhGxDNtqEE27ZRJD0oUiaIhrAbQ/0?wx_fmt=jpeg
+    title: “爱新推普”助力乡村振兴——实践团队深入基层社区开展普通话助推活动
+    desc: 近日，东北师范大学“爱新推普”大学生社会实践团队深入北疆基层社区进行社会实践和调查学习，通过宣传推广普通话增强全疆各族人民对中华文化的认同，推动文化共同体形成。
+    url: https://mp.weixin.qq.com/s/V4WDgVDhn6YmtC4h62Dt2g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1BMiboibIUe52A3S3OqW8yCMXwTweg2aHcuG9uw86ekEYXf3uLHc0wGNibEiaUiarK9nRliaSDjy1XvvlCg/0?wx_fmt=jpeg
+    title: “三下乡”实践团队风采丨探寻峥嵘“吉”忆，赓续红色血脉 ——从党的光辉历史中汲取砥砺奋进的精神力量
+    desc: 全面学习中共党史和中国特色社会主义伟大理论思想，做红色思想的传承者、红色文化的践行者和红色理论的宣扬者。
+    url: https://mp.weixin.qq.com/s/fULSOIr2L0yUHmMwkCiuiw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/Iz1OIm6hP1BMiboibIUe52A3S3OqW8yCMXRvFuRcKiaj5YSUGoIichxgkjicJ5cpVA92bgAdYbmP2G5ZqdXBPF6BnUg/0?wx_fmt=jpeg
+    title: “三下乡”实践团队风采丨“春韵长乡，吉遇未来——探寻新时代长春发展印记” 暑期“三下乡”社会实践活动足迹
+    desc: 跟着总书记的脚步看吉林
+    url: https://mp.weixin.qq.com/s/74VxCskjGWiSGmmChplsIg
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/Iz1OIm6hP1Dzr90JHy8iaDrghj0reMjNmFJYRdoicccpoGOqJsaJ4kiaaB8iczuicVMdGR4ZRzRczXJhXjvorkojG7A/0?wx_fmt=jpeg
     title: “千校万岗“就’在吉林”专场招聘活动成功举办
     desc: 东北师范大学团委结合属地和学校疫情防控要求举办线下“千校万岗“就’在吉林”专场招聘活动

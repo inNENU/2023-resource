@@ -3,8 +3,48 @@ detail: 东北师范大学厚普公益学校
 desc: 东北师范大学厚普公益学校，在长春市慈善会和东北师大的支持下，秉承着“厚德载物，普泽爱心”的校训，近六年的时间里共为长春市及周边地区逾 3000 名中小学生提供义务辅导万余课时，累计志愿服务时数 128283 小时，累积创造社会财富近 600 万元。
 id: houpu2009
 logo: $img/organization/houpu.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb3A9eeZTVhmd1xbPfaPmmQ549nmLz3jDc07FkWTYlcE3HjXqK7EqEavD2WLIpb2Cj89NwzkAlqvFg/0?wx_fmt=jpeg
+    title: 【厚普资讯】东北师范大学厚普公益学校第十五期秋季学期招生啦！
+    url: https://mp.weixin.qq.com/s/ykK6g4Fa8ls2VwV0vWEp8w
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb0AOOgczGkPr9iaQr82TeTSSK9pWGLLrINeD2tvn8pCHKNLjeq4BGXnqRUQMe2Cn66ohzF1exhR9pQ/0?wx_fmt=jpeg
+    title: 【招贤纳士】东北师范大学厚普公益学校数学教研组纳新
+    url: https://mp.weixin.qq.com/s/UzWSiMw95sSz2Bh7LVjopw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb3GFhsJgWkxR6E0TX8ZEKjx17FoZtbFcicEiaCG8mlQk0iciazAWYeZiaZaOyhuNj5wuNlLvN7XyGbXP0g/0?wx_fmt=jpeg
+    title: 【招贤纳士】东北师范大学厚普公益学校历史教研组纳新
+    url: https://mp.weixin.qq.com/s/dRWzNXyCBLwJnx7YkTNMSg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb3GFhsJgWkxR6E0TX8ZEKjx17FoZtbFcicEiaCG8mlQk0iciazAWYeZiaZaOyhuNj5wuNlLvN7XyGbXP0g/0?wx_fmt=jpeg
+    title: 【招贤纳士】东北师范大学厚普公益学校英语教研组纳新
+    url: https://mp.weixin.qq.com/s/H3auLKhLe7qfZVrzDpb5Og
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb2nxStPESxIWMBRTcOXCudia4MO65OibHpVTekkYCvXABQ0QqiapXGoT84waicyhCnibzSbq7gJYQ8vQ0w/0?wx_fmt=jpeg
+    title: 【招贤纳士】东北师范大学厚普公益学校工作人员纳新
+    url: https://mp.weixin.qq.com/s/DOK3NTSUmTHBQjTqXoXxeQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb0nVF89jhlh8UgUKc14xJ13gO0SSMaYgiaXiaicyticMFjLo3bd0f8Yka2DL0SXWIIODXY1ugsvYOCpDQ/0?wx_fmt=jpeg
+    title: 【招贤纳士】厚普公益学校艺术分校纳新啦
+    desc: 厚普公益学校艺术分校纳新啦赶！快加入厚小普吧！
+    url: https://mp.weixin.qq.com/s/wrTYJ68qTXNjcr2yYo842g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb0nVF89jhlh8UgUKc14xJ13WxmWicsZpD6uFRia0CbhwJy7iaOIHWsiac8m8jyG5C4WS2JP0WVNRB7zMQ/0?wx_fmt=jpeg
+    title: 【招贤纳士】东北师范大学厚普公益学校教师纳新
+    url: https://mp.weixin.qq.com/s/_n5WoFyKxS3ANKpCCRyqTA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb2riaq0icgQERObCscFclK0n4n2maYYhXOBggicZiciaoJMPcPu2iaMQ2UmVIVg8zVGbnUIiaA0IynmhvLMQ/0?wx_fmt=jpeg
+    title: 【招贤纳士】东北师范大学厚普公益学校政治教研组纳新
+    url: https://mp.weixin.qq.com/s/sKO10SYf0LiRzNfQuFu0fQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb14hDAQe8YlLO4neTJfAibjibfSOk8ZouAXS32IALxPW5BicYYdmVZ7e0FZpSpdQsrwIFfoRGPtZm36w/0?wx_fmt=jpeg
+    title: 【招贤纳士】东北师范大学厚普公益学校语文教研组纳新
+    url: https://mp.weixin.qq.com/s/Q-szKjwHqMiPFjvpxgqFcw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb2V9KgwmZPyFPuMGNwoRPL13Eicd7aDxiaQ2NycTFLPuvUPgysCqeEMpv9yNMiawVTkDlvQ91WsthPOw/0?wx_fmt=jpeg
+    title: 【HOPE云课堂】2023暑期“一对一”云辅导开始报名啦！
+    url: https://mp.weixin.qq.com/s/YrkDzMhztpvZEImViyJFjw
+
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/V3m5Slmfrb0SyLhlVhbczJicksxQMasS4sXiaWFib4fvtJGpbKFlFURZIN2T5jTLCic5EUPSSURQM8FSK39C6tA16g/0?wx_fmt=jpeg
     title: 东北师范大学厚普公益学校艺术分校2023春季学期课程圆满结束！
     desc: 岁月不居，时节如流。转眼间一学期的课程已经结束，相信小朋友们一定收获满满。让我们一起来回顾一下这一学期的点点滴滴吧。

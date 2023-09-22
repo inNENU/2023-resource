@@ -3,8 +3,17 @@ detail: 东北师范大学锅庄舞协会
 desc: 该公众号是东北师范大学锅庄舞协会宣传部为首，以丰富大学生校园生活为初衷，并以弘扬优秀传统文化为本职，让大家近距离感受藏文化的魅力，同时推送雪域儿女丰富多彩的课外活动以及学习交流的平台。
 id: gh_91b2388d1139
 logo: $img/association/guozhuangwu.png
-
 article:
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lQhACzFH1t9iaWTAO0uMFGnVHDnWAhvg4FuXZknEfJ5DNYG3sdQTQ4c6oCZdNCNxZU9Lia8cOnia26KApB6I6WswQ/0?wx_fmt=jpeg
+    title: 新生攻略 || 入学生活攻略
+    desc: “东北师大站到啦！” 巍巍东师，根溯延安。\x0d\x0a1945年10月25日，毛泽东主席接见延安大学校院主要领导干部，指示学校向东北迁移，创办“新型的东北大学”。
+    url: https://mp.weixin.qq.com/s/HqUcsCl4bbuQFzYAy7tSbA
+
+  - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lQhACzFH1tic8ffEAAmty9USXEBGszFd4W26feYv49bibgNphdI2iagIFCMBMwZbBEdRHalD1nDKSCf6nyyTh8IuA/0?wx_fmt=jpeg
+    title: 介绍 || 锅庄舞协会第十六届工作人员
+    desc: 介绍 || 锅庄舞协会第十六届工作人员\x0d\x0a与时俱进，砥砺前行。\x0d\x0a时光荏苒，又是一年激动人心的换届时刻。
+    url: https://mp.weixin.qq.com/s/3zbRewKng9srhLoyi2Ibdw
+
   - cover: https://mmbiz.qpic.cn/mmbiz_jpg/lQhACzFH1ticKzz1TZ7KoDSTiaHLkCVLgvuPsRug9ciawZ8uD1V7c4TqHbwBG5FiahtfVV9A0YLmONNzukvX7onEbA/0?wx_fmt=jpeg
     title: 运动会 | 趣相伴，心飞扬
     desc: 春日谢幕，夏花绚烂 锅协趣味运动会如约而至让我们一起健体魄，悦身心  增进友谊，磨练意志！

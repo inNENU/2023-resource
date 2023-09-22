@@ -3,8 +3,97 @@ detail: 东北师范大学化学学院
 desc: 这里是东北师范大学化学学院。给你呈现不一样的化院姿态，带你领略最新潮的学院风尚，陪你度过最温暖的大学时光。
 id: dongshihuayuan
 logo: $img/media/chemistry.jpg
-
 article:
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlrEA3ibpYjp1SRG21nelH1CFOicj8CZ1142y5xbt0ZGrv2KT0LsS8DcicjmWlk6StgLUxydRcCRYMFZA/0?wx_fmt=jpeg
+    title: 教师节“追光”访谈｜朱广山：科研教学相辅相成，博学多闻笃行不怠
+    desc: 老师是希望的那道光，把我们的人生照亮…
+    url: https://mp.weixin.qq.com/s/wdkKiDMdD2tpCcHDSwHLMA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlrQ4mic5falDp1llyTn0s9t3BHuDzOFFcvsoMPpItBu0cq5vAiciaov50t1lgCAoXhnicTse24oXvwhibQ/0?wx_fmt=jpeg
+    title: 化·活动 ||2023级新老生经验交流会成功举办
+    desc: 化学学院学生会于近期成功举办2023级新老生经验交流会，快来看看吧！
+    url: https://mp.weixin.qq.com/s/sqmrJjHkPKVqE3IOeMIUWA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jloXLfWj63uFic1QogDPdnN9CojeoI0grg6icSjjofKdVQsKGFicjSG9So503RGKKKBDmKc4QayzVR5yg/0?wx_fmt=jpeg
+    title: 化·实践 ||“强国有我 青春有为”主题社会实践系列活动（四）
+    desc: 强国有我，青春有为
+    url: https://mp.weixin.qq.com/s/kv1mrM5yHubHqd-veehdog
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlqphicdBbRL34Dt1lFKcNqpctC42ibjBLUiacG4mYn6l64pNqjwbawRErleXJ75nH1PchIpXDnXib3uhA/0?wx_fmt=jpeg
+    title: 化·讲座||武培怡：提拉纺丝
+    desc: 武培怡教授关于提拉纺丝的讲座来了！
+    url: https://mp.weixin.qq.com/s/0FxCkCyfgj99F_hEF6b8Lw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlovgoPXEHCYpk89WzHbfISzILicPNBr1xqy96z1aibLdJicBNickh2y771xbqgnwqcoxeOzUotZjceg6Q/0?wx_fmt=jpeg
+    title: 化·实践 ||“强国有我 青春有为”主题社会实践系列活动（三）
+    desc: 运动青春，健康同行
+    url: https://mp.weixin.qq.com/s/yWp6DJOmT6KF32prZKNeuQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlrfeZnJMuhzt2H6LWOOhSrB8WhJXTO9EbK235jvqdwAH9ZRmO8InEJnhAqeZicNNnQ4Q0S94Hc1xiaw/0?wx_fmt=jpeg
+    title: 【开学典礼】青春书写实干，奋斗彰显力量——化学学院2023级新生开学典礼
+    desc: 东北师范大学化学学院举行2023级新生开学典礼
+    url: https://mp.weixin.qq.com/s/BrEZyh5_tzlvVAi7Js4Htg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlrEA3ibpYjp1SRG21nelH1CFPS0FewvrxFicibqiap37fNl2z4cKC5fq16mrSFWwMeS58x8tyGjTIS3Jw/0?wx_fmt=jpeg
+    title: 化·喜报||祝贺我院多名同学荣获“微瑞杯”第四届全国大学生化学实验创新设计大赛奖项
+    desc: “微瑞杯”第四届全国大学生化学实验创新设计大赛
+    url: https://mp.weixin.qq.com/s/wkG1gIjgRSh71UMDVMfX8A
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jloXDk4EDYJiaPXey4Q3sibjMgicY4bbY5Ptj5qTjCw1ZTH7NpmtT5wClgSibuXZVQ69PAxI13LP6CZKZA/0?wx_fmt=jpeg
+    title: 教师节“追光”访谈｜郭黎平：躬耕杏坛育桃李 春风化雨铸师魂
+    desc: 老师是希望的那道光，把我们的人生照亮…
+    url: https://mp.weixin.qq.com/s/O3D33Mqvb7D7PdwHmzYKBA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlo98icbItUxD0VlBu4JibZah5DOxya4apAp7JAXKNRsQvzLTucF4iaQeJ5bMSsOyffrbGcloeVSR2Txg/0?wx_fmt=jpeg
+    title: 化·实践 ||“强国有我 青春有为”主题社会实践系列活动（一）
+    desc: 化学学院暑期社会实践系列活动第一期《青春之约：用脚步丈量祖国大地》来啦~
+    url: https://mp.weixin.qq.com/s/8KCCwRgO7p1LA-B09ovVAA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlqHibPpmcZk1AVhppGmtQQCibvzLLBI6L4HmkMIMXSTcTib7yPXBejtOHs9tPt5ZiaQpAOUfqibJicXRPUw/0?wx_fmt=jpeg
+    title: 化·迎新||东师tips2 学习小贴士
+    desc: 初入大学的同学们对于不同于高中的学习生活可能会感到陌生，今天就让学姐带大家了解一下丰富多彩的大学生吧。
+    url: https://mp.weixin.qq.com/s/puk3WA_ioThDC6GqJoC-Qg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlojMvl8yDiag3yoqFW8PRG8usxkSVxkXtPaQAHhKfl9bia28E5cPEw8KHiaSWS8QDU5M3JOZqBrPxiczA/0?wx_fmt=jpeg
+    title: 化·纳新||2023团委纳新啦
+    desc: 化学学院团委纳新啦
+    url: https://mp.weixin.qq.com/s/E2WlmPJ-NeBCaAC25akWmg
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlrjYiaSw1PhrjYjBQX7AsydrFj9vhzp4OqYgMmLib2v5aZCgbl7ZUlPuqkm0WhsulsDntBNJ3QIQeIw/0?wx_fmt=jpeg
+    title: 化·纳新||化院学生会拍了拍你，并说了句欢迎加入
+    desc: 快来加入学生会！
+    url: https://mp.weixin.qq.com/s/YgEcbwNQfsqKDP0CFDJZWw
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlorSibbFqBefwNpcTJIl847PvOYKiaSeTF5LfcAFP6amgFnYJEWpePjWdtzoB3W6KORIjNhqTpoxaPA/0?wx_fmt=jpeg
+    title: 化·迎新||揭秘！东师化院2023级新生大数据来啦！
+    desc: 快来看看小萌新们的数据大揭秘吧！
+    url: https://mp.weixin.qq.com/s/udJI0Bx4oF3CN3C1NAaHuA
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jloumMuGw8rI4RIMEAqW5lmWmGKWYydyiaerDm1iaujoTibicg9LnZaqhSbKzwIwykDsHricEYsZfNHNibNw/0?wx_fmt=jpeg
+    title: 化·纳新||2023小萌新，让我们一起来做“新”媒体人！
+    desc: 欢迎来到新媒体！
+    url: https://mp.weixin.qq.com/s/YZ-TVb0wsmBf61qUV0tTUQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jloNDbLcfNq11FBkC82ycEb6S8qJVsTDrpA1cmxKeI67GKSFjt8dg6Ticlrz3GsFsfruf8qzUIAviceg/0?wx_fmt=jpeg
+    title: 化·迎新||东师tips1 开学清单
+    desc: 欢迎来到东北师大，成为化院学子中的一员！\x0d\x0a让我们收拾行囊，整装待发~
+    url: https://mp.weixin.qq.com/s/3KG6FPZN0gnlF5b-zhNKfQ
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlpnEFYbk5kuQFCuiadBJkgrB64F7REHoM18ucb5ibuP97CWHUOuhic0DF7w90YAicxBic8Eml3rAWmZhQA/0?wx_fmt=jpeg
+    title: 化·摄影||大好河山，挥斥方遒，正青春
+    desc: 摄影活动大家快来看看吧
+    url: https://mp.weixin.qq.com/s/FEk9JWV-siZHfvS-zZdU_g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlrAFxJxp7RupnibMkp35rYG7shdGvKr9sfs15kmQYxqbOpEF4slLtxDjiaIGtibvwicEa2oTYe2ChWyRQ/0?wx_fmt=jpeg
+    title: 化·军训 || 无畏骄阳，青春当燃
+    desc: 无军训 不青春
+    url: https://mp.weixin.qq.com/s/dGsrELwyFHaFSltDTWQF2g
+
+  - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlrhyDziaT7fDasBDBvia1DaVWStlS67wTZ5u7ragU5k6SwJY1FYr1OOYsQcPWPTSGRvVMjRxYjAPIwA/0?wx_fmt=jpeg
+    title: 坚持诚信考试，涵养良好考风
+    desc: 尊重知识，诚信考试
+    url: https://mp.weixin.qq.com/s/DKJjDH76dh5HJF8Xc8yRBw
+
   - cover: https://mmbiz.qpic.cn/sz_mmbiz_jpg/act0VYG1jlpPDXGiae7IPVXaSlRLoXlauwDG0nMpAHvwPH0lgfSDacibyUTWlrnD6JaxickFKbGp8M8jhWdpoExCw/0?wx_fmt=jpeg
     title: 化·青马||“化学青年说”第三期《不忘初心，牢记使命》
     desc: 党员发展对象主题教育微演讲
