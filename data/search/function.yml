@@ -89,7 +89,7 @@
 
 - text: 成绩查询
   icon: grade
-  url: course-grade
+  url: grade
   tags:
     - 查成绩
     - 期末成绩

@@ -108,7 +108,7 @@ main-presets:
           color: purple
           name: Study Archive
           icon: archive
-          url: study-archive
+          url: view-archive
 
         - text: 专项考试
           color: red
@@ -120,7 +120,7 @@ main-presets:
           color: orange
           name: Grade
           icon: grade
-          url: course-grade
+          url: grade
 
         - text: 学校通知
           color: red
@@ -259,7 +259,7 @@ function-presets:
           color: orange
           name: Grade
           icon: grade
-          url: course-grade
+          url: grade
 
         - text: 学校通知
           color: red
@@ -376,7 +376,7 @@ function-presets:
           color: purple
           name: Study Archive
           icon: archive
-          url: study-archive
+          url: view-archive
 
         - text: 专项考试
           color: red

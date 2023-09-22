@@ -184,7 +184,7 @@ main-presets:
           color: orange
           name: Grade
           icon: grade
-          url: course-grade
+          url: grade
 
         - text: 学校通知
           color: red
@@ -486,7 +486,7 @@ function-presets:
           color: orange
           name: Grade
           icon: grade
-          url: course-grade
+          url: grade
 
         - text: 选课系统
           color: blue
