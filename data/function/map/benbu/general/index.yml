@@ -41,7 +41,7 @@ content:
 
       - text: 校情统计
         icon: data
-        path: /intro/about/basic
+        path: /intro/about/data
 
       - text: 领导机构
         icon: leader

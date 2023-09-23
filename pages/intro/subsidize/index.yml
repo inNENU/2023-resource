@@ -1,7 +1,8 @@
 title: 资助
+icon: subsidize
 grey: true
 author: Mr.Hope
-time: 2023-09-13T08:09:41.656Z
+time: 2023-09-23T11:16:45.588Z
 shareable: true
 content:
   - tag: p
@@ -16,11 +17,11 @@ content:
 
       - text: 资助申请流程
         icon: subsidize-apply
-        path: application
+        path: flow
 
       - text: 资助计划
         desc: 金额与人数
-        icon: money
+        icon: list
         path: plan
 
       - text: 资助工作机构
@@ -38,7 +39,7 @@ content:
     header: 助学金
     items:
       - text: 助学金
-        icon: about
+        icon: heart
         path: help/
 
   - tag: list

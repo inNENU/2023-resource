@@ -1,13 +1,14 @@
-title: 资助
+title: 服兵役学生国家教育资助
+icon: military
 grey: true
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-23T11:16:45.608Z
 shareable: true
 content:
   - tag: list
     items:
       - text: 服兵役学生国家教育资助介绍
-        icon: intro
+        icon: about
         path: intro
 
       - text: 高等学校学生应征入伍服义务兵役国家资助办法

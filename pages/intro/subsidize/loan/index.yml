@@ -1,14 +1,15 @@
-title: 贷款
+title: 国家助学贷款
+icon: nation-help
 grey: true
 author: Mr.Hope
-time: 2023-08-07T12:39:57.427Z
+time: 2023-09-23T11:16:45.603Z
 shareable: true
 content:
   - tag: list
     header: 介绍
     items:
       - text: 国家助学贷款
-        icon: about
+        icon: nation-help
         path: intro
 
       - text: 生源地信用助学贷款
@@ -16,7 +17,7 @@ content:
         path: hometown
 
       - text: 校园地信用助学贷款
-        icon: school
+        icon: school-help
         path: school
 
   - tag: list
