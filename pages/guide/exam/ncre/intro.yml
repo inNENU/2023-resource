@@ -1,6 +1,7 @@
 title: NCRE 介绍
+icon: ncre
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-23T08:04:54.162Z
 shareable: true
 content:
   - tag: title
@@ -27,5 +28,5 @@ content:
     header: 考核方式
     items:
       - text: 查看详情
-        icon: exam
+        icon: test
         path: grade

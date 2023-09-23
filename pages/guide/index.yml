@@ -172,7 +172,7 @@ content:
       - text: 国家考试
         color: cyan
         name: Exam
-        icon: exam
+        icon: test
         path: exam/
 
       - text: 考研/保研

@@ -2,7 +2,7 @@ title: 寝室
 icon: dorm
 grey: true
 author: Mr.Hope
-time: 2023-09-22T16:59:13.622Z
+time: 2023-09-23T08:04:54.110Z
 shareable: true
 content:
   - tag: list
@@ -46,7 +46,7 @@ content:
   - tag: list
     header: 配套设置
     items:
-      - text: 热水房
+      - text: 热水房/晾衣间
         icon: hot-water
         path: detail/hot-water
 
@@ -65,6 +65,10 @@ content:
       - text: 电梯
         icon: lift
         path: detail/lift
+
+      - text: 吹风机
+        icon: hair-dryer
+        path: detail/hair-dryer
 
       - text: 自习室
         icon: study

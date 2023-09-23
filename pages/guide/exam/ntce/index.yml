@@ -1,6 +1,7 @@
 title: 中小学教师资格考试
+icon: teacher
 author: Mr.Hope
-time: 2023-09-13T08:09:42.088Z
+time: 2023-09-23T08:04:54.176Z
 grey: true
 shareable: true
 content:
@@ -25,7 +26,7 @@ content:
     header: 介绍
     items:
       - text: 介绍
-        icon: intro
+        icon: about
         path: intro
 
       - text: 考试科目
