@@ -1,6 +1,7 @@
 title: 长春机场介绍
+icon: airport
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-23T10:52:59.662Z
 grey: true
 shareable: true
 content:
@@ -8,7 +9,7 @@ content:
     header: 介绍
     items:
       - text: 龙嘉机场介绍
-        icon: intro
+        icon: about
         path: intro
 
       - text: 联系方式

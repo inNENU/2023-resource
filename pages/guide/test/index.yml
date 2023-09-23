@@ -1,7 +1,8 @@
 title: 校内考试
+icon: test
 grey: true
 author: Mr.Hope
-time: 2023-04-25T05:43:44.611Z
+time: 2023-09-23T10:52:59.563Z
 shareable: true
 content:
   - tag: list
@@ -12,7 +13,7 @@ content:
         path: pe-test/intro
 
       - text: 测试成绩说明
-        icon: intro
+        icon: explain
         path: pe-test/explain
 
       - text: 测试项目评分表

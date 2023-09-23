@@ -1,7 +1,8 @@
 title: 学习
+icon: study
 grey: true
 author: Mr.Hope
-time: 2023-07-20T03:57:30.562Z
+time: 2023-09-23T10:52:59.543Z
 shareable: true
 content:
   - tag: list
@@ -48,6 +49,10 @@ content:
       - text: 学分
         icon: star
         path: credit
+
+      - text: 成绩认定
+        icon: verify
+        path: verify
 
       - text: 绩点
         icon: star

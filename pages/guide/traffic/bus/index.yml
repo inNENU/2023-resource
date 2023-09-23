@@ -1,6 +1,7 @@
 title: 长春公交介绍
+icon: bus
 author: Mr.Hope
-time: 2023-08-25T13:34:13.973Z
+time: 2023-09-23T10:52:59.669Z
 shareable: true
 content:
   - tag: title
@@ -10,7 +11,8 @@ content:
     type: tip
     heading: Mr.Hope の 吐槽
     text:
-      - 吐槽一下长春市公共交通集团公司的网站已经 6 年没更新了。
+      - 吐槽一下长春市公共交通集团公司的网站已经 6 年没更新了。(划掉)
+      - 现在已经挂了
 
   - tag: text
     heading: 运营时间

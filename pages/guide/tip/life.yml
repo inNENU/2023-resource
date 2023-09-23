@@ -1,6 +1,6 @@
 title: 生活贴士
 author: Mr.Hope
-time: 2023-09-13T07:44:28.355Z
+time: 2023-09-23T10:52:59.578Z
 grey: true
 shareable: true
 content:
@@ -8,7 +8,7 @@ content:
     header: 洗衣相关
     items:
       - text: 衣物标签介绍
-        icon: intro
+        icon: tag
         path: washing/tag
 
       - text: 常见洗涤剂
@@ -24,7 +24,7 @@ content:
         path: washing/hand
 
       - text: 机洗技巧
-        icon: idea
+        icon: washer
         path: washing/machine
 
   - tag: list

@@ -1,6 +1,7 @@
-title: 无线上网(Wifi)
+title: 无线上网 (Wifi)
+icon: wifi
 author: Mr.Hope
-time: 2023-08-07T16:05:56.095Z
+time: 2023-09-23T10:52:59.428Z
 shareable: true
 content:
   - tag: title
@@ -12,7 +13,7 @@ content:
 
   - tag: ol
     text:
-      - 开启手机/电脑等上的无线网(WLAN)功能，搜索可用无线网信号，搜索结果应该包含 iNENU 2G 与 iNENU 5G
+      - 开启手机/电脑等设备上的无线网 (WLAN) 功能，搜索可用无线网信号，搜索结果应该包含 iNENU 2G 与 iNENU 5G。
       - 如同时搜索到 iNENU-2G、iNENU-5G，推荐连接 iNENU-5G，速度体验更佳。
       - 连接无线网后，您需要打开浏览器，输入认证网址可弹出用户认证页面
 

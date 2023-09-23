@@ -1,7 +1,8 @@
 title: 体测
+icon: basketball
 grey: true
 author: Mr.Hope
-time: 2023-09-08T06:21:50.962Z
+time: 2023-09-23T10:52:59.567Z
 shareable: true
 content:
   - tag: ul
@@ -16,11 +17,11 @@ content:
   - tag: list
     items:
       - text: 体测简介
-        icon: basketball
+        icon: about
         path: intro
 
       - text: 测试成绩说明
-        icon: intro
+        icon: explain
         path: explain
 
       - text: 测试项目评分表

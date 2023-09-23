@@ -1,6 +1,7 @@
 title: 中心医院
+icon: hospital
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-23T10:52:59.381Z
 shareable: true
 content:
   - tag: list
@@ -11,7 +12,7 @@ content:
 
       - text: 预约挂号
         icon: time
-        path: register
+        path: book
 
       - text: 医院联系方式
         icon: phone

@@ -1,6 +1,7 @@
 title: 校园卡政策对比
+icon: sim
 author: Mr.Hope
-time: 2023-08-31T17:37:32.788Z
+time: 2023-09-23T10:52:59.414Z
 shareable: true
 content:
   - tag: text
@@ -14,21 +15,3 @@ content:
     text:
       - 如果你开学遭受了校内推销人员的蒙骗，办理了不想办理的手机卡，这里有完整的注销指南。
     path: cancel
-
-  # - tag: list
-  #   header: 运营商
-  #   items:
-  #     - text: 中国联通
-  #       icon: unicom
-  #       desc: 往年政策
-  #       path: unicom
-
-  #     - text: 中国移动
-  #       icon: mobile
-  #       desc: 往年政策
-  #       path: mobile
-
-  #     - text: 中国电信
-  #       icon: telecom
-  #       desc: 往年政策
-  #       path: telecom

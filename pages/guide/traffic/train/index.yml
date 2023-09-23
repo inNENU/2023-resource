@@ -1,6 +1,7 @@
 title: 铁路出行
+icon: railway
 author: Mr.Hope
-time: 2023-08-21T14:14:51.142Z
+time: 2023-09-23T10:52:59.694Z
 grey: true
 shareable: true
 content:
@@ -16,11 +17,11 @@ content:
         path: ticket
 
       - text: 购票介绍
-        icon: money
+        icon: ticket
         path: buy
 
       - text: 候补订单
-        icon: time
+        icon: wait
         path: wait-order
 
       - text: 改签与变更到站介绍
@@ -28,11 +29,11 @@ content:
         path: change
 
       - text: 退票介绍
-        icon: charge
+        icon: refund
         path: refund
 
       - text: 携带品与行李
-        icon: office
+        icon: luggage
         path: luggage
 
   - tag: list
@@ -58,7 +59,7 @@ content:
         path: ecard
 
       - text: 临时身份证
-        icon: card
+        icon: id
         path: id-card
 
   - tag: list

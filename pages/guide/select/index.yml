@@ -1,6 +1,6 @@
 title: 选课
 author: Mr.Hope
-time: 2023-09-08T06:21:50.838Z
+time: 2023-09-23T10:52:59.497Z
 grey: true
 shareable: true
 content:
@@ -55,7 +55,7 @@ content:
         path: flow
 
       - text: 新生注课
-        icon: flow
+        icon: add
         path: register
 
       - text: 预选
@@ -87,3 +87,9 @@ content:
       - text: 严禁课程买卖
         icon: ban
         path: ban
+
+  - tag: list
+    items:
+      - text: 官方文件
+        icon: reference
+        path: /intro/rule/under-teaching

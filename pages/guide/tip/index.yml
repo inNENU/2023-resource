@@ -1,6 +1,7 @@
 title: 小贴士
+icon: idea
 author: Mr.Hope
-time: 2023-08-06T14:42:50.526Z
+time: 2023-09-23T10:52:59.576Z
 grey: true
 shareable: true
 content:
@@ -34,7 +35,7 @@ content:
         path: washing/
 
       - text: 过冬贴士
-        icon: winter
+        icon: snowman
         path: winter/
 
       - text: 交通出行
@@ -45,5 +46,5 @@ content:
     header: 文化相关
     items:
       - text: 东北习俗
-        icon: star
-        path: custom/
+        icon: habit
+        path: habit/

@@ -1,6 +1,7 @@
 title: 过冬提示
+icon: snowman
 author: Mr.Hope
-time: 2022-08-21
+time: 2023-09-23T10:52:59.649Z
 grey: true
 shareable: true
 content:
@@ -10,7 +11,7 @@ content:
         icon: life
         path: cloth
 
-      - text: 冬季御寒衣物选购指南
+      - text: 冬季衣物选购贴士
         icon: money
         path: buy
 
