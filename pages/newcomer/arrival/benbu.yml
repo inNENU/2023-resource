@@ -1,6 +1,7 @@
-title: 到校路线
+title: 本部到校路线
+icon: locate
 author: Mr.Hope
-time: 2023-08-25T13:34:12.382Z
+time: 2023-09-23T12:11:48.969Z
 grey: true
 shareable: true
 content:
@@ -12,7 +13,6 @@ content:
         path: /newcomer/check/locate
 
   - tag: list
-    header: 到本部校区
     items:
       - text: 从长春站
         icon: railway

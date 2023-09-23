@@ -1,13 +1,14 @@
 title: 军训
+icon: military
 author: Mr.Hope
-time: 2023-08-09T08:42:04.179Z
+time: 2023-09-23T12:11:48.949Z
 grey: true
 shareable: true
 content:
   - tag: list
     items:
       - text: 军训介绍
-        icon: intro
+        icon: about
         path: intro
 
       - text: 军训保健班申请

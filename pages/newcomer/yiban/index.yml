@@ -1,6 +1,7 @@
 title: 入学教育课程
+icon: study
 author: Mr.Hope
-time: 2023-08-14T13:13:20.989Z
+time: 2023-09-23T12:11:49.139Z
 shareable: true
 content:
   - tag: text
@@ -40,10 +41,10 @@ content:
         icon: study
         path: study/mobile
 
-      - text: 课程作业与考试
-        desc: 暂无通知
-        icon: test
-        path: exam
+      # - text: 课程作业与考试
+      #   desc: 暂无通知
+      #   icon: test
+      #   path: exam
 
   - tag: list
     header: PC 网页
@@ -60,7 +61,7 @@ content:
         icon: study
         path: study/web
 
-      - text: 课程作业与考试
-        desc: 暂无通知
-        icon: test
-        path: exam
+      # - text: 课程作业与考试
+      #   desc: 暂无通知
+      #   icon: test
+      #   path: exam
